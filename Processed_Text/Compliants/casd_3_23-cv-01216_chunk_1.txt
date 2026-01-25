@@ -1,0 +1,2547 @@
+AMENDED CLASS ACTION
+COMPLAINT FOR VIOLATION OF
+THE FEDERAL SECURITIES LAWS
+18 THIS DOCUMENT RELATES TO:
+ALL ACTIONS DEMAND FOR JURY TRIAL
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.459 Page 2
+of 81
+TABLE OF CONTENTS
+Page(s)
+NATURE OF THE ACTION ............................................................................................ 1
+JURISDICTION AND VENUE ........................................................................................ 5
+PARTIES............................................................................................................................ 6
+THE CONFIDENTIAL WITNESSES .............................................................................. 7
+7 SUBSTANTIVE ALLEGATIONS ................................................................................... 8
+A. Relevant Background .................................................................................... 8
+ImmunityBio and Its Business .................................................. 8
+The FDA Approval Process .................................................... 11
+B. Class Period Plans for Anktiva.................................................................... 14
+ImmunityBio Actively Planned to File a BLA for Anktiva by
+No Later Than the Start of the Class Period ........................... 14
+The Individual Defendants Were Well-Aware of the Critical
+Role That cGMP Compliance Played in Securing BLA
+16 Approval ................................................................................. 16
+C. ImmunityBio’s Reliance on CMOs to Manufacture Anktiva ..................... 17
+D. The Pervasive Undisclosed cGMP Failures at the Facility ImmunityBio
+19 Used to Manufacture Anktiva Known to Defendants ................................. 18
+AGC Was Inundated By Constant cGMP Failures Before the
+21 FDA’s Pre-License Inspection................................................ 18
+22 2. The FDA Observed Numerous cGMP Violations During Its
+Pre-License Inspection for Anktiva at AGC .......................... 23
+24 3. The FDA Observed Several Objectionable Conditions At the
+CMO That Filled Anktiva Into Vials ...................................... 27
+MATERIALLY FALSE AND MISLEADING STATEMENTS ................................... 28
+27 THE TRUTH EMERGES ................................................................................................ 56
+28 ADDITIONAL FACTS PROBATIVE OF SCIENTER ................................................. 58
+i
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.460 Page 3
+of 81
+A. Defendants Had A Known Duty to Ensure That the Their Manufacturing
+CMOs Complied with cGMP ...................................................................... 58
+B. AGC Was Required to Share Manufacturing Information with
+ImmunityBio, Including Significant cGMP Issues ..................................... 59
+C. The Individual Defendants Were Intimately Aware of the Significant
+5 cGMP Failings at AGC Throughout the Class Period ................................ 61
+D. The Fact That ImmunityBio Initiated Plans to Manufacture Anktiva In-
+7 House Supports an Inference of Scienter .................................................... 65
+8 E. FDA Approval of Anktiva Was Critical to ImmunityBio’s Financial
+Success ........................................................................................................ 65
+10 F. Soon-Shiong Was a Controlling Hands-On Manager ................................. 66
+11 G. Respondeat Superior and Agency Principles Apply ................................... 66
+LOSS CAUSATION ........................................................................................................ 66
+PRESUMPTION OF RELIANCE ................................................................................... 67
+NO SAFE HARBOR ....................................................................................................... 69
+CLASS ACTION ALLEGATIONS ................................................................................ 70
+17 COUNT I .......................................................................................................................... 72
+18 COUNT II ........................................................................................................................ 74
+PRAYER FOR RELIEF .................................................................................................. 75
+JURY TRIAL DEMANDED ........................................................................................... 75
+ii
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.461 Page 4
+of 81
+1 Court-appointed lead plaintiff Dipak Patel (“Lead Plaintiff”), individually and on
+2 behalf of all others similarly situated, by and through his undersigned counsel, as for his
+3 Amended Class Action Complaint against Defendants ImmunityBio, Inc.
+4 (“ImmunityBio” or the “Company”), Richard Adcock, David C. Sachs, and Patrick
+5 Soon-Shiong (collectively, with ImmunityBio, “Defendants”), alleges the following
+6 based on personal knowledge as to Lead Plaintiff’s own acts and on information and
+7 belief as to all other matters based upon the investigation conducted by Lead Plaintiff’s
+8 counsel, which has included, among other things a review and analysis of regulatory
+9 filings made with the U.S. Securities and Exchange Commission (“SEC”), securities
+10 analyst research reports, press releases, media reports, and other publicly available
+11 information issued by or about ImmunityBio, interviews with former employees of
+12 ImmunityBio and/or its business partners, and consultations with experts. Lead Plaintiff
+13 believes that substantial, additional evidentiary support will exist for the allegations set
+14 forth herein after a reasonable opportunity for discovery.
+15 NATURE OF THE ACTION
+16 1. This is a federal securities class action against ImmunityBio and certain of
+17 its top officials for violations of Sections 10(b) and 20(a) of the Securities Exchange Act
+18 of 1934 (the “Exchange Act”), codified at 15 U.S.C. §§ 78j(b) & 78t(a), and SEC Rule
+19 10b-5 promulgated thereunder, codified at 17 C.F.R. § 240.10b-5, on behalf of a class
+20 consisting of all persons and entities other than Defendants that purchased or otherwise
+21 acquired ImmunityBio securities between March 10, 2021 and May 10, 2023, both dates
+22 inclusive (the “Class Period”), and were damaged thereby (the “Class”).
+23 2. ImmunityBio, as it now stands, was formed in connection with a merger
+24 between two clinical-stage biopharmaceutical companies controlled by Defendant Soon-
+25 Shiong on March 9, 2021. The combined Company owned a broad portfolio of at least
+26 17 product candidates at various stages of clinical development, including several in
+27 late-stage clinical trials.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.462 Page 5
+of 81
+1 3. Throughout the Class Period, ImmunityBio’s “lead” product candidate was
+2 a cell fusion protein for the treatment of bladder cancer known as Anktiva. By the start
+3 of the Class Period, Anktiva yielded impressive results in one of its Phase 3 trials and
+4 the Individual Defendants actively planned to file an application to seek marketing
+5 approval from the FDA, the first for any product in its development pipeline. As such,
+6 ImmunityBio did not generate any meaningful revenues from the commercial sale of
+7 any other products, and did not expect to generate any meaningful revenue from the
+8 commercial sale of any products unless Anktiva received marketing approval.
+9 4. As seasoned biotech executives, the Individual Defendants were fully
+10 aware that their plan for Anktiva meant that ImmunityBio would need to demonstrate in
+11 its forthcoming application that the facility which produced Anktiva fully complied with
+12 the FDA’s minimum standards for drug manufacturing known as current good
+13 manufacturing practices (“cGMP”), and, later, submit to a mid-review inspection by a
+14 team of FDA field specialists to observe the facility in use and verify its cGMP status.
+15 5. The FDA’s cGMP requirements are especially important for drugs derived
+16 from living materials, like Anktiva. Unlike chemically synthesized drugs, “biologics,”
+17 as they are called, often have a complex structure and manufacturing such drugs at scale
+18 requires a series of highly-technical steps, each of which must be carefully controlled to
+19 ensure a consistent end product free from impurities. Even a small deviation from
+20 protocol can have a devastating impact on the composition of the drug and, thus, its
+21 safety. For this reason, the FDA is not authorized to approve an application for a new
+22 biologic unless it is satisfied from all evidence that it receives, including the findings
+23 from the facility inspection, that it is manufactured in accordance with cGMP.
+24 6. In contrast to ImmunityBio’s other “home grown” product candidates that
+25 are manufactured in house, Anktiva was acquired from another company that relied on a
+26 third-party contract manufacturing organization (“CMO”) to produce the active
+27 pharmaceutical ingredient in Anktiva, which ImmunityBio continued to use. However,
+28 the Individual Defendants repeatedly assured investors that the Company’s
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.463 Page 6
+of 81
+1 manufacturing resources complied with cGMP and even represented that the CMO it
+2 used to manufacture Anktiva had robust cGMP standards in place.
+3 7. On or around May 23, 2022, the Company submitted a marketing
+4 application for Anktiva to the FDA, and continued to represent that its manufacturing
+5 resources, including the CMO that it used to make Anktiva, complied with cGMP.
+6 Because new data from the Phase 3 study continued to show a durable treatment effect,
+7 the market, including analysts that followed the Company, were led to believe that there
+8 were no major impediments to approval—certainly no cGMP issues.
+9 8. Unbeknownst to investors, the facility used by ImmunityBio’s CMO to
+10 manufacture Anktiva was plagued by myriad cGMP issues throughout the Class Period.
+11 In March and July 2021, the FDA issued a Form 483—an official document that
+12 memorializes any serious departures from cGMP—to the site’s management following
+13 on-site inspections. Even after that episode, issues continued at the most basic level.
+14 The CMO was unable to release manufacturing batch records or close out investigations
+15 into critical deviations from established protocols on schedule. It regularly failed to
+16 conduct stability tests designed to show that the active ingredient produced there did not
+17 undergo unacceptable deterioration over time while in storage. It ran out of “reference
+18 material” used as the control against which batch samples were tested. And numerous
+19 batches of Anktiva failed for a variety of reasons.
+20 9. With the application for their inaugural product on the line, the Individual
+21 Defendants were keenly aware of these recurring issues. Defendant Richard Adcock,
+22 ImmunityBio’s Chief Executive Officer, and Leonard Sender, ImmunityBio’s Chief
+23 Operating Officer, were meeting with AGC officials on a monthly or bi-monthly basis
+24 throughout the Class Period to discuss AGC’s continued delays.
+25 10. In November 2022, the FDA notified the CMO that it would conduct a two
+26 week inspection with six inspectors, signaling that the inspection would be more
+27 intensive than usual. After learning this, ImmunityBio leadership became very
+28 concerned given the history of deficiencies at the plant and asked to hold a mock
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.464 Page 7
+of 81
+1 inspection. Adcock and Sender were intimately involved in all aspects of the mock
+2 inspection, which revealed that the facility continued to suffer from rampant cGMP
+3 lapses. Because the mock inspection was just weeks before the FDA’s visit, not nearly
+4 all of the issues identified could be remediated in time.
+5 11. The FDA inspection, which took place in February 2023, was catastrophic.
+6 After the FDA observed numerous violations on the first day of the visit, Defendant
+7 Soon-Shiong demanded real-time updates and executive-to-executive calls at the end of
+8 each inspection day. Adcock flew overnight to the site to participate in the rest of the
+9 inspection. Ultimately, the FDA issued a scathing 15-page Form 483 cataloging a litany
+10 of cGMP failings that it both observed while the facility was in operation and that it
+11 confirmed by reviewing historic records at the site. The violations were so severe that
+12 the FDA ultimately classified the inspection as “Official Action Indicated,” meaning it
+13 recommended administrative or enforcement action to remedy the violations.
+14 12. The serious nature of the cGMP violations uncovered by the FDA in
+15 connection with its pre-approval inspection and the threat that they posed to patients if
+16 not rectified would have been apparent to anyone with experience in world of
+17 biotechnology development. They would certainly be obvious to the Individual
+18 Defendants, especially industry veteran Soon-Shiong who has a background in medicine
+19 and stewarded numerous drugs through the FDA approval process. This Complaint
+20 includes the interlocking analysis of a highly qualified expert in the field of FDA
+21 compliance, who explains the serious gravity of the cGMP violations throughout the
+22 Class Period and concludes that the findings by the FDA during its pre-approval
+23 inspection would, at a minimum, result in a recommendation to withhold rather than
+24 approve the pending application for Anktiva.
+25 13. Investors, however, were kept in the dark. Shockingly, ImmunityBio
+26 continued to represent that its manufacturing resources, including the CMO that it used
+27 to make Anktiva, complied with cGMP, even after the FDA’s February 2023 inspection.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.465 Page 8
+of 81
+1 14. It was not until May 2023 that investors began to learn the true extent of
+2 the manufacturing issues. On the morning of May 11, 2023, ImmunityBio announced
+3 that the FDA rejected its application for Anktiva not because of its risk benefit profile or
+4 concerns with the clinical studies but, rather, because of deficiencies arising from the
+5 pre-approval inspection at its CMO. The stock crashed, shedding over 55% of its
+6 market value in a single day.
+7 15. As a result of Defendants’ wrongful acts and omissions, and the precipitous
+8 decline in the market value of ImmunityBio’s securities, Lead Plaintiff and other
+9 members of the Class have suffered significant damages.
+10 JURISDICTION AND VENUE
+11 16. This Court has jurisdiction over the subject matter of this action pursuant to
+12 28 U.S.C. § 1331 and Section 27(a) of the Exchange Act, codified at 15 U.S.C. §
+13 78aa(a). The claims asserted herein arise under and pursuant to Sections 10(b) and
+14 20(a) of the Exchange Act, codified at 15 U.S.C. §§ 78j(b), 78t(a), and pursuant to the
+15 rules and regulations duly promulgated thereunder, including SEC Rule 10b-5, codified
+16 at 17 C.F.R. § 240.10b-5.
+17 17. Venue is proper in this judicial district pursuant to 28 U.S.C. §§ 1391(b)
+18 and Section 27(a) of the Exchange Act, codified at 15 U.S.C. § 78aa(a). ImmunityBio’s
+19 principal executive offices are located in this judicial district, Defendants transact
+20 business in this judicial district, and a substantial part of the events or omissions giving
+21 rise to the claims asserted herein, including the dissemination of materially false or
+22 misleading statements to the public, occurred in this judicial district.
+23 18. In connection with the acts and omissions alleged herein, Defendants
+24 directly or indirectly used the means and instrumentalities of interstate commerce,
+25 including, but not limited to, the mails, the facilities of a national securities market, and
+26 interstate telephonic and digital communications systems.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.466 Page 9
+of 81
+PARTIES
+Lead Plaintiff, Dipak Patel purchased or otherwise acquired ImmunityBio
+securities at artificially inflated prices during the Class Period, as set forth in the
+amended certification attached hereto, and was damaged thereby, as set forth herein.
+ImmunityBio is a biopharmaceutical company incorporated in Delaware
+with its principal executive offices located at 3530 John Hopkins Court in San Diego,
+California. The Company’s securities trade on the NASDAQ Global Select Market
+under the ticker symbol IBRX.
+Defendant Patrick Soon-Shiong (“Soon-Shiong”) is the founder and CEO
+of one of the companies involved in the formation of what is now known as
+ImmunityBio. He has held the role of Executive Chairman of ImmunityBio’s Board of
+Directors (the “Board”) since October 2020, and served as ImmunityBio’s Global Chief
+Scientific and Medical Officer since the position was created for him in August 2021.
+He previously served as Chairman of the Board and CEO of the predecessor to
+ImmunityBio from March 2015 to October 2020. The release announcing Soon-
+Shiong’s appointment as Executive Chairman stated that he will “continue to play a key,
+active role in [ImmunityBio]’s business and in the development of the company’s long-
+term business strategy.”
+Defendant Richard Adcock (“Adcock”) has served as ImmunityBio’s CEO
+since Soon-Shiong stepped down from that position in October 2020 and as a member
+of its Board since March 2021. In the release announcing Adcock’s appointment as
+CEO, Soon-Shiong stated that he had “worked with him [Adcock] for several years” in
+previous capacities and that “I intend to work closely with him” moving forward.
+Defendant David Sachs (“Sachs”) has served as ImmunityBio’s CFO since
+its inception in March 2021. He previously held different executive positions at various
+companies controlled by Soon-Shiong and/or their subsidiaries since 2011.
+For ease of reference, Defendants Soon-Shiong, Adcock, and Sachs are
+referred to herein as the “Individual Defendants.”
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.467 Page 10
+of 81
+THE CONFIDENTIAL WITNESSES
+Confidential Witness 1 (“CW1”) worked for the Company since January
+CW1 initially worked at NantKwest as a Senior Specialist, Quality Control
+Analytics from January 2021 to January 2022. CW1 was promoted to Supervisor for
+the QCA Molecular Bio/Cell Assay Lab and worked primarily in the Company’s Culver
+City facility, but also spent time at ImmunityBio’s El Segundo facility. In this position,
+CW1 reported to Senior Director of Quality Control, Scott Yuen. CW1 was responsible
+for setting up a quality control testing lab and working within the Company’s labs on
+quality control testing for research and development of products. CW1 learned of issues
+occurring at the CMO where Anktiva was manufactured from discussions within the
+quality department, via supervisors, colleagues, and attending department meetings.
+Confidential Witness 2 (“CW2”) worked at ImmunityBio from January of
+2022 to November of 2022 as Associate Director, External Manufacturing and Tech
+Transfer. CW2 reported to CW4, until such time as CW4 left the Company. Thereafter,
+CW2 reported to Chief Operating Officer, Leonard Sender, who in turn reported to
+Defendant Adcock. In the role of Associate Director, External Manufacturing and Tech
+Transfer, CW2 was responsible for overseeing the “fill” step in the manufacturing
+process for Anktiva, where the drug substance is placed into sterile medical vials with
+other solutions in its final drug product form. CW2 oversaw a CMO that performed the
+fill operation after receiving the drug substance from the CMO that manufactured it.
+Confidential Witness 3 (“CW3”) worked for AGC Biologics from August
+2021 to March 2023 as Senior Vice President and General Manager of AGC Biologics’
+Bothell, Washington facility, where Anktiva was manufactured. CW3 reported to Paul
+Tsang, Executive VP of U.S. Operations at AGC Biologics. Paul Tsang in turn reported
+to AGC Biologics’ CEO, Patricio Massera. As Senior Vice President and General
+Manager, CW3 had oversight of all aspects of the facility’s manufacturing operations,
+including safety, delivery to clients, financial, and cGMP.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.468 Page 11
+of 81
+1 28. Confidential Witness 4 (“CW4”) worked for the Company from January
+2 2018 to May 2022. From March 2021, CW4 served as VP of Manufacturing. While at
+3 ImmunityBio, CW4 reported to Chief Operating Officer, Leonard Sender. Until the later
+4 part of CW4’s tenure, CW4 worked directly on the Anktiva program and aspects of the
+5 manufacturing process.
+6 SUBSTANTIVE ALLEGATIONS
+7 A. Relevant Background
+8 1. ImmunityBio and Its Business
+9 29. ImmunityBio purports to be a clinical-stage biotechnology company
+10 focused on the development of immunotherapies to treat cancer and other infectious
+11 diseases. Immunotherapies refer to a broad class of drugs that complement or stimulate
+12 the body’s immune system to fight disease, like cancer, and have become increasingly
+13 common in the field of oncology in recent years, particularly in combination with
+14 standard cancer therapies. ImmunityBio’s lead product candidate is a compound known
+15 as N-803 marketed under the trade name Anktiva.
+16 30. As it currently exists, ImmunityBio was formed in connection with a
+17 business combination between a separate entity by the name of ImmunityBio, Inc.
+18 (“Legacy ImmunityBio”) and NantKwest, Inc. (“NantKwest”) in March 2021. At the
+19 time of this business combination, both companies were majority owned by entities
+20 controlled by Defendant Soon-Shiong and was, effectively, a merger between two of the
+21 many businesses within his family of companies.
+22 31. Defendant Soon-Shiong is a former surgeon, scientist, biotech mogul, and
+23 media tycoon known for his ownership of the Los Angeles Times and his interest in the
+24 Los Angeles Lakers. He achieved fantastic success approximately twenty years ago
+25 inventing and bringing to market a novel cancer treatment known as Abraxane. In
+26 1998, his start-up, American Pharmaceutical Partners, Inc. (“APP”), acquired Fujisawa
+27 USA and used its ties to hospital buyer groups to generate revenues from Fujisawa’s
+28 money-losing portfolio of injectable generic drugs, which, in turn, APP used to develop
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.469 Page 12
+of 81
+1 Abraxane. APP went public in 2001. In 2005, the FDA approved Abraxane for
+2 metastatic breast cancer. Following a merger with American BioScience, Inc., Soon-
+3 Shiong split the company into Abraxis BioScience, Inc. (“Abraxis BioScience”), which
+4 focused on Abraxane and other proprietary products, and APP Pharmaceuticals, Inc.
+5 (“APP Pharmaceuticals”), which focused on the injectables business. In 2008, he sold
+6 APP Pharmaceuticals to Fresenius SE for approximately $5.6 billion. In 2010, he sold
+7 Abraxis BioScience to Celgene for approximately $3.6 billion. Subsequently, the FDA
+8 approved Abraxane for the treatment of several other forms of cancer. By 2019,
+9 Abraxane was generating over $1 billion in annual sales.
+10 32. In 2011, Soon-Shiong was free to pursue his other interests and formed
+11 NantWorks LLC (“NantWorks”), among other ventures, to do so. It now serves as a
+12 holding company for a collection of healthcare, technology, and finance companies.
+13 33. In November 2014, Soon-Shiong formed Legacy ImmunityBio as a
+14 NantWorks subsidiary under the name NantBioCell, LLC to focus on next generation
+15 cancer immunotherapies. It later changed its name to Legacy ImmunityBio in May
+16 2019. For ease of reference, all predecessors to Legacy ImmunityBio will be referred to
+17 herein as Legacy ImmunityBio.
+18 34. Soon-Shiong’s interest in NantKwest began around the same time that he
+19 formed Legacy ImmunityBio. In December 2014, a clinical-stage immunotherapy
+20 company by the name ConKwest, Inc. (“ConKwest”) announced that Soon-Shiong
+21 made a $48 million investment in its business. At the time, ConKwest was developing a
+22 proprietary line of enhanced natural killer cells for off-the-shelf commercialization.
+23 Soon-Shiong quietly assumed the title of Chief Medical Officer and CEO between
+24 January and March 2015. He made another $71 million investment in June 2015. In
+25 July 2015, ConKwest changed its name to NantKwest and commenced an IPO at a
+26 market valuation of $2.6 billion. Upon completing the IPO, Soon-Shiong and/or entities
+27 his affiliates owned over 60% of NantKwest.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.470 Page 13
+of 81
+1 35. Soon after NantKwest went public, Soon-Shiong began to court Altor
+2 BioScience Corporation (“Altor”) after learning that it was developing several
+3 compounds that act on cytokines which help regulate the immune system, including a
+4 cytokine fusion protein known as ALT-803. Throughout early 2016, Soon-Shiong
+5 worked closely with Altor to bring their products into a cancer research coalition he
+6 created. In April 2016, he was named Chairman of Altor’s Board of Directors. By the
+7 end of 2016, entities controlled by Soon-Shiong had acquired over 50% of the equity in
+8 Altor.
+9 36. At the time Soon-Shiong took majority control of Altor, ALT-803 was
+10 being evaluated in several late-stage Phase 2 trials for various forms of cancer,
+11 including non-muscle invasive bladder cancer (“NMIBC”). In May 2017, ALT-803
+12 received Fast Track designation from the FDA for the treatment of NMIBC in
+13 combination with a standard cancer vaccine, baccilus Calmette-Guérin (“BCG”), based
+14 on the data generated in Phase 1 clinical trials. The FDA’s Fast Track program is
+15 designed to expedite the development and review of drugs that treat serious conditions,
+16 like cancer, and fill unmet medical needs.
+17 37. In or around July 2017, Legacy ImmunityBio acquired Altor, including its
+18 lead cytokine-based therapeutic compound, ALT-803, and continued to develop it under
+19 the name N-803. At the time, a Phase 3 clinical trial for N-803 with BCG had just
+20 begun in BCG unresponsive patients with in situ and papillary forms of NMIBC. In
+21 December 2019, N-803 in combination with BCG received Breakthrough Therapy
+22 designation from the FDA for the treatment of NMIBC in patients who were
+23 unresponsive to BCG based on interim data indicating that the primary endpoint of the
+24 Phase 2 trial was already met mid-study. Breakthrough Therapy designation is designed
+25 to expedite the development and review of drugs that are intended to treat serious
+26 conditions and preliminary clinical evidence shows a substantial improvement over
+27 available therapy. By August 2020, N-803 was known internally as Anktiva.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.471 Page 14
+of 81
+1 38. Since its IPO in 2015, NantKwest experienced a number of setbacks and
+2 had not materially progressed its proprietary line of natural killer cell therapies. With
+3 Anktiva moving much faster through the clinical development and regulatory process,
+4 Soon-Shiong decided to use NantKwest as the vehicle to take Legacy ImmunityBio and
+5 its product portfolio public. On December 21, 2020, the two companies issued a joint
+6 press release announcing that they agreed to merge in a stock-for-stock merger. That
+7 same day, Legacy ImmunityBio announced that preliminary data from the Phase 3 trial
+8 of Anktiva with BCG showed that the study already achieved its primary endpoint for
+9 patients with in situ forms of NMIBC.
+10 39. The Legacy ImmunityBio-NanktKwest merger closed on March 9, 2021.
+11 In connection with the transaction, a subsidiary of NanktKwest merged with and into
+12 Legacy ImmunityBio, and NanktKwest changed its name to ImmunityBio. It assumed
+13 the assets of Legacy ImmunityBio, including Anktiva, and its publicly traded shares
+14 continued to be listed on the NASDAQ under the symbol IBRX as of March 10, 2021.
+15 Immediately following the closing of the transaction, Defendant Soon-Shiong or
+16 affiliates controlled by him beneficially owned approximately 82% of the Company’s
+17 outstanding common stock.
+18 2. The FDA Approval Process
+19 40. Before a new drug can be introduced into interstate commerce for
+20 commercial purposes, it must be approved by the FDA. The FDA’s rules and
+21 regulations distinguish between chemically-synthesized drugs, known as “small
+22 molecule” drugs, and therapies derived from living material, known as “biologics.” In
+23 contrast to small molecule drugs, the means used to request FDA approval for a
+24 biologic, like Anktiva, is a biologic license application (“BLA”).
+25 41. The contents of a BLA must conform to strict guidelines outlined in FDA
+26 rules and associated guidance. See 21 C.F.R. §§ 601.2(a), 601.29. Generally speaking,
+27 a BLA includes data and supporting materials collected in clinical trials, along with
+28 other information needed for the FDA to determine that the product meets prescribed
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.472 Page 15
+of 81
+1 standards for approval, including information on the manner in which the product is
+2 manufactured. In practice, a new BLA is a voluminous compendium of materials, and
+3 usually includes raw study data, historic records, written summaries, and academic
+4 literature, among other things, organized using a specific format adopted by the FDA.
+5 42. The section of the BLA that describes the manufacturing process and
+6 integrity of the drug is known as the Chemistry, Manufacturing, and Controls (“CMC”)
+7 section of the BLA. Unlike small molecule drugs, biologics are structurally complex
+8 materials that are not clearly defined or characterized. The process used to manufacture
+9 these materials at scale involves an array of highly technical steps, each of which must
+10 be carefully controlled to ensure a consistent final product free from impurities.
+11 Accordingly, the CMC section contains extensive information on the overall process,
+12 including, among other things, a full description of the manufacturing processes from
+13 start to finish, in-process controls used at each step, analytical methods used to test the
+14 product for release at various stages, and stability testing to show that the product
+15 remains true to form at regular intervals following final release, along with supporting
+16 documentation for each. See FDA, Guidance for Industry: For the Submission of
+17 Chemistry, Manufacturing, and Controls Information for a Therapeutic Recombinant
+18 DNA-Derived Product or a Monoclonal Antibody Product for In Vivo Use (1996).
+19 43. The CMC section of the BLA not only describes the proposed process and
+20 protocols for manufacturing at scale, but also must include data generated in connection
+21 with previously-produced process performance qualification (“PPQ”) batches using the
+22 stated manufacturing processes and equipment. See FDA, Guidance for Industry:
+23 Process Validation: General Principles and Practices (2011). The purpose of such a
+24 qualification study is to validate that the proposed manufacturing process is capable of
+25 reproducing results within predetermined specifications at commercial scale. Id.
+26 44. Importantly, the FDA is not authorized to approve a BLA unless it can
+27 determine from the materials submitted that the manufacturing process complies with
+28 cGMP. See 21 C.F.R. §§ 601.2(d), 601.4. cGMP refers to the collection of minimum
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.473 Page 16
+of 81
+1 procedures and practices set forth in FDA regulations, codified primarily at 21 C.F.R.
+2 §§ 210-11, that companies must follow to ensure that the manufacture, processing,
+3 packaging and holding of drugs is well-controlled. The FDA has stated that these
+4 standards and practices assure the “identity, strength, quality, and purity” of drugs and
+5 prevent “contamination, mix-ups, deviations, failures, and errors.” Any drug
+6 manufactured using systems that fail to comply with these well-known and long-
+7 standing cGMP regulations are deemed “adulterated,” subjecting the party who is
+8 responsible for the failure to adverse regulatory action. See 21 C.F.R. § 210.1(b).
+9 45. Once submitted, the time for the FDA to act on the BLA is governed by
+10 various rules. In the first instance, the FDA will decide within 60 days if the BLA is
+11 sufficiently complete to “file” it for substantive review. See 21 C.F.R. § 314.101(a). If
+12 the FDA decides to file a BLA, the deadline for the FDA to act on it is determined by
+13 the goal dates set forth in the Prescription Drug User Fee Act of 1992, as amended
+14 (“PDUFA”). The version of PDUFA in effect at the time of the Anktiva BLA (PDUFA
+15 VI) directed the FDA to act on 90% of new BLA submissions within 10 months of the
+16 60-day “filing” date, unless the BLA is designated as a “priority” submission which
+17 truncates the timeline to 6 months from the 60-day “filing” date. Development
+18 programs that receive Fast Track or Breakthrough Therapy designations are ordinarily
+19 eligible for, although not automatically entitled to, priority review under PDUFA.
+20 46. As part of the review process, the FDA will also conduct a “pre-license
+21 inspection” of each facility used to manufacture the drug at a prescheduled time during
+22 the review period. See 21 C.F.R. § 601.20(d). The purpose of this inspection is to
+23 ensure that the facilities comply with applicable regulations, including cGMP. Id. Any
+24 cGMP failures identified during the inspection can prevent the issuance of a license for
+25 the product. Id.
+26 47. Pre-license inspections follow a standard protocol. See, e.g., FDA,
+27 Compliance Program Manual (“CPM”) § 7356.002M (2021). Staff carry out their
+28 responsibilities not only by observing the site in operation but also by reviewing
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.474 Page 17
+of 81
+1 appropriate records at the facility reflecting past activities. Id. Given the significance
+2 of this visit, many manufacturers hold mock inspections, perform cGMP audits, or
+3 otherwise shore up compliance gaps in advance of the FDA review period to minimize
+4 the risk for any adverse observations.
+5 48. After completing its review, the FDA will either approve the BLA or send
+6 the sponsor a complete response letter (“CRL”). A CRL outlines any issues identified
+7 by the FDA during the review that prevent approval of the BLA in its current form and,
+8 where possible, recommend actions that a sponsor may take to remedy the issues or
+9 otherwise position the application for approval. See 21 C.F.R. § 601.3(a).
+10 49. Upon receipt of a CRL, the applicant may resubmit the BLA with
+11 amendments to address the stated deficiencies or withdraw it. See 21 C.F.R. § 601.3(b).
+12 B. Class Period Plans for Anktiva
+13 1. ImmunityBio Actively Planned to File a BLA for Anktiva by No
+Later Than the Start of the Class Period
+As noted above, ImmunityBio acquired the rights to Anktiva in July 2017
+upon completing its acquisition of Altor. At the time of that acquisition, Altor had
+recently initiated a Phase 3 clinical trial for N-803 with BCG in BCG unresponsive
+patients with in situ and papillary forms of NMIBC.
+By early December 2020, ImmunityBio learned from interim data that the
+Phase 3 trial of Anktiva with BCG already achieved its primary endpoint for patients
+with in situ forms of NMIBC with no treatment-related adverse events.
+Thus, by no later than December 2020, ImmunityBio knew that it was
+reasonably likely that the Company would file a BLA for Anktiva upon final completion
+of the study. Indeed, in the release announcing the initial results on December 21, 2020,
+Soon-Shiong stated “[w]e expect to file a Biologics License Application following a
+meeting with the FDA in 2021,” likely a reference to a “pre-BLA” meeting during
+which ImmunityBio can gain input from the FDA on the content and format of an
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.475 Page 18
+of 81
+1 anticipated BLA. See 21 C.F.R. § 312.47(b)(2). In fact, the release included the
+2 following headline: “Biologics License Application anticipated in second half of 2021.”
+3 53. This precipitated a flurry of activity in 2021. On or around August 11,
+4 2021, ImmunityBio appointed Soon-Shiong to the newly-created position of Global
+5 Scientific and Medical Officer. In this new role, Soon-Shiong assumed responsibility
+6 for clinical development. On September 13, 2021, ImmunityBio issued a press release
+7 disclosing that updated data from the Phase 3 study of Anktiva with BCG continued to
+8 show favorable data with no treatment-related adverse events in the in situ cohort.
+9 Then, at the end of November 2021, ImmunityBio submitted a briefing document to the
+10 FDA with updated data from that study. Such briefing material must be submitted to
+11 the FDA at least one month before a pre-BLA meeting. See 21 C.F.R. § 312.47(b)(2).
+12 ImmunityBio subsequently had discussions with the FDA about its forthcoming BLA.
+13 54. On December 17, 2021, NantCapital, LLC, a Soon-Shiong investment
+14 vehicle, provided $300 million in financing to ImmunityBio. The release announcing
+15 this stated that the financing came directly “from ImmunityBio’s founder . . . Dr. Patrick
+16 Soon-Shiong.” In addition, the release stated that the Company “anticipates a BLA
+17 filing . . . in Q1, 2022” and noted that recent financing would be used to “expand our
+18 commercial operations in anticipation of our bladder cancer BLA filing in Q1, 2022.”
+19 55. On May 23, 2022, ImmunityBio announced that it submitted a BLA to the
+20 FDA for Anktiva in combination with BCG for the treatment of BCG-unresponsive
+21 patients with the in situ form of NMIBC. The BLA included the results of previous
+22 clinical studies in that population, including the recently completed Phase 3 study, as
+23 well as at least three previously-completed PPQ runs for Anktiva at the facility where
+24 Anktiva was made. ImmunityBio requested priority review of the BLA. The FDA
+25 accepted the BLA for filing in late July 2022, and assigned it a target PDUFA date of
+26 May 23, 2023. In other words, the FDA put the BLA on a standard 10 month review.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.476 Page 19
+of 81
+The Individual Defendants Were Well-Aware of the Critical Role That
+1 cGMP Compliance Played in Securing BLA Approval
+2 56. Like most anyone with a working knowledge of the FDA approval process,
+3 much less seasoned biotech executives, the Individual Defendants were well-aware of
+4 the FDA’s cGMP regulations at all relevant times. On January 29, 2021, Defendants
+5 Soon-Shiong and Adcock acknowledged in regulatory filings made with the SEC that
+6 any manufacturing facility for products that it develops are subject to “all applicable
+7 FDA and foreign regulatory authority requirements, including cGMP,” and specified
+8 that “cGMP requirements include quality control, quality assurance and the maintenance
+9 of records and documentation.” The Individual Defendants, including Defendant Sachs,
+10 continued to make the same, or substantially similar, statements in each annual report on
+11 Form 10-K filed on behalf of ImmunityBio during the Class Period.
+12 57. Throughout the Class Period, the Individual Defendants also knew
+13 demonstrating compliance with cGMP was mission critical to securing approval from
+14 the FDA for a new biologic product, like Anktiva. In the same regulatory filings
+15 referenced above, the Individual Defendants admitted that “[t]he FDA will not approve
+16 an application [BLA] unless it determines that the manufacturing process and facilities
+17 comply with cGMP requirements.”
+18 58. In this regard, the Individual Defendants were privy to the fact that the
+19 FDA makes its cGMP assessment based not only on the manufacturing data that must
+20 be included in a BLA but also on the results of an in-person inspection of the facility
+21 while in use during the review period. In the same regulatory filings referenced above,
+22 the Individual Defendants advised that a “BLA/NDA must include . . . detailed
+23 information relating to the product’s chemistry, manufacturing, controls and proposed
+24 labeling,” including “quality control documentation” generated by the facility that
+25 manufactures the product and that “[m]anufacturing facilities must submit to pre-
+26 approval inspections by the FDA that will be conducted after we submit our marketing
+27 applications, including our BLAs” to demonstrate that they are compliant with cGMP.
+28 Indeed, they specified that the purpose of such inspections was to “assess compliance
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.477 Page 20
+of 81
+1 with cGMP and to assure that the facilities, methods and controls are adequate to
+2 preserve the product candidates’ continued safety, quality, purity and potency.”
+3 C. ImmunityBio’s Reliance on CMOs to Manufacture Anktiva
+4 59. At the time ImmunityBio acquired the rights to Anktiva from Altor, its
+5 production was outsourced to a predecessor of AGC Biologics, Inc. (“AGC”), a third-
+6 party CMO that provided manufacturing services for protein therapies which was
+7 recently acquired by Asahi Glass Company. Indeed, just two months earlier, in April
+8 2017, Altor entered into a manufacturing agreement with that CMO to manufacture
+9 Anktiva for use in upcoming Phase 3 trials. At the time, Defendant Soon-Shiong was
+10 Chairman of Altor’s Board of Directors. Following a corporate reorganization in
+11 January 2018, that CMO was renamed AGC.
+12 60. Upon acquiring Altor, ImmunityBio continued to rely on AGC to
+13 manufacture Anktiva. As CW1 explained, AGC “originated” the technology for
+14 producing the active ingredient in Anktiva and, thus, it would be exceedingly expensive
+15 and risky to transfer that technology in-house, particularly with Phase 3 clinical trials
+16 recently started. This was echoed by CW2, who observed it would be “extremely
+17 difficult, time-consuming, and expensive to switch to another manufacturer at that
+18 point.”
+19 61. By the start of the Class Period in March 2021, AGC manufactured the
+20 bulk drug substance for Anktiva. In contrast to a final drug product, which includes
+21 both the active pharmaceutical ingredient and other materials used for delivery,
+22 appearance, or taste, e.g., tablet coating, saline solution, etc., drug substance refers
+23 strictly to the active pharmaceutical ingredient. According to CW2, once released by
+24 AGC quality personnel, drug substance for Anktiva was shipped by AGC in large
+25 containers to be filled in vials in its final dosage form at another CMO elsewhere. This
+26 was confirmed by CW3, who explained that drug substance made at AGC was sent to a
+27 fill site operated by another CMO in California.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.478 Page 21
+of 81
+1 62. Notably, the building at these CMOs where Anktiva was produced were
+2 “multi-product facilities,” meaning they were used not only to produce Anktiva but
+3 other drugs as well. Indeed, during the Class Period, there were up to ten other active
+4 pharmaceutical ingredients produced by AGC in the same building, and AGC’s internal
+5 policies even allowed for the simultaneous production of two or more products in
+6 certain production suites within the building. This configuration poses a heightened risk
+7 for cross-contamination and creates other significant control challenges.
+8 D. The Pervasive Undisclosed cGMP Failures at the Facility ImmunityBio
+Used to Manufacture Anktiva Known to Defendants
+AGC Was Inundated By Constant cGMP Failures Before the
+10 FDA’s Pre-License Inspection
+11 63. All facilities that manufacture drugs for the U.S. market must register with
+12 the FDA, even if they are not the license holder, including CMOs. See 21 C.F.R. § 207.
+13 In doing so, they become subject to routine cGMP surveillance inspections.
+14 Historically, over 90-95% of drug manufacturers are found to be compliant with cGMP
+15 upon inspection.
+16 64. From March 11, 2021, to March 19, 2021, the FDA conducted a non-
+17 routine inspection at the same AGC building where Anktiva was manufactured. The
+18 inspection resulted in the issuance of a Form 483 by the FDA. A Form 483 is a
+19 document issued at the conclusion of an inspection to memorialize significant
+20 deficiencies observed during the inspection that, in the judgment of the inspectors,
+21 constitute violations of FDA regulations, including cGMP. FDA investigators are
+22 trained to ensure that each observation in a Form 483 is clear, specific, and significant.
+23 The Form 483 is presented to, and discussed with, the company’s senior management at
+24 the conclusion of an inspection. This procedure is designed to ensure that firm
+25 management understands each observation and what they mean.
+26 65. The Form 483 issued by the FDA in connection with the March 2021
+27 inspection included a staggering sixteen item list of objectionable observations, replete
+28 with numerous examples supporting each item. These included, most notably, failure
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.479 Page 22
+of 81
+1 on the part of AGC’s quality unit to adequately investigate deviations, inadequate
+2 oversight of manufacturing procedures on the part of the quality unit, lack of adequate
+3 documentation for quality control testing, poorly qualified and validated manufacturing
+4 processes, and gaps in record keeping such that inspectors could not determine whether
+5 manufacturing was operating in a state of control. Among other things, AGC
+6 committed to implement a CAPA that required it to complete a data integrity risk
+7 assessment for its computerized systems.
+8 66. Just four months later, from July 12, 2021, to July 23, 2021, the FDA
+9 conducted a routine cGMP inspection of the same building. This inspection resulted in
+10 the issuance of a three-item Form 483. Among other things, the July 2021 inspection
+11 found problems that would repeat themselves in the FDA’s February 2023 pre-license
+12 inspection. For example, the firm either had deficient procedures or failed to follow
+13 existing procedures for sanitation, cleaning, and maintenance. In addition, the FDA also
+14 condemned AGC’s failure to document conclusions or follow up actions in response to
+15 deviations.
+16 67. Despite the FDA identifying these glaring quality lapses, this AGC facility
+17 continued to suffer from myriad quality and control issues in the lead up to the Anktiva
+18 BLA filing and the ensuing pre-license inspection by the FDA.
+19 68. For example, AGC regularly failed to release batches, and thus delayed the
+20 release of corresponding manufacturing batch records to ImmunityBio, on schedule. As
+21 CW3 explained, batch records contain extensive detail about all parameters at the plant
+22 at each step in the production process, as well as test results at certain stages of
+23 production to ensure there are no deviations from the established production process.
+24 As is standard, AGC was required to target final batch disposition within a set number
+25 of days after completing its production process. But it routinely failed to do so. For
+26 example, numerous batches of drug substance produced at AGC were not released until
+27 well after the target disposition date by as much as three to four months. CW3
+28 confirmed that AGC “frequently” missed batch disposition timelines between August
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.480 Page 23
+of 81
+1 2021 and February 2023. This is corroborated by CW2, who observed that
+2 ImmunityBio had difficulty obtaining manufacturing batch records from AGC even
+3 though they were needed for the Anktiva BLA. In particular, CW2 explained that
+4 ImmunityBio did not receive the batch records for the PPQs needed for the Anktiva
+5 BLA “for a long time” because AGC was “keeping” them long past the deadline.
+6 69. There were also significant delays initiating and closing deviations
+7 throughout the Class Period. A deviation is any departure from the written procedures
+8 governing the manufacturing process. Adherence to the stated protocol is of paramount
+9 importance for biologics. Due to their complex structure, even minor deviations from
+10 normal manufacturing processes can result in significant changes in product
+11 composition. cGMP requires manufacturers to document, investigate, and justify the
+12 deviation for the batch to remain viable. See § 211.100. Prompt record management
+13 ensures that immediate action can be taken in response to the root cause. AGC
+14 maintained deviation management policies which required deviations to be opened
+15 within a set number of days after detection and close out the investigation within a set
+16 window of time as well. From 2021 through February 2023, AGC regularly failed to
+17 initiate a deviation record and/or close out the investigation on schedule. For example,
+18 several deviations during this time were opened a full year after the incident occurred,
+19 and numerous deviations opened in 2021 still remained open as of February 2023.
+20 70. Similarly, AGC closed critical deviations without implementing a
+21 corrective and preventative action (“CAPA”). As the name suggests, maintaining a
+22 CAPA is a critical component of a control environment because it can help prevent a
+23 significant or recurring issue from arising again. cGMP requires all manufacturers to
+24 establish written CAPA policies. See 21 C.F.R. § 820.100. AGC’s deviation
+25 management policies required it to perform a root cause analysis and craft appropriate
+26 CAPAs for any critical deviations. But in many instances throughout the Class Period,
+27 AGC closed critical deviations without implementing a CAPA.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.481 Page 24
+of 81
+1 71. Several CWs also reported that AGC regularly failed to conduct required
+2 stability tests on Anktiva. A stability test is study performed on a batch sample at
+3 periodic intervals after completing the production process to ensure that it does not
+4 undergo unacceptable deterioration over time. Such studies are mandated by cGMP
+5 because they ensure that product held for future commercial use remains pure and safe
+6 to use when stored as planned. See 21 C.F.R. § 211.166. AGC was required to conduct
+7 such stability testing at regular intervals, including upon completing the production
+8 process, 3 months thereafter, 6 months thereafter, and 12 months thereafter. According
+9 to CW1, AGC “regularly missed” required test windows since at least January 2021.
+10 CW2 was also aware that AGC failed at times to conduct required stability tests prior to
+11 the Anktiva BLA. For example, testing on a single lot of Anktiva produced at AGC
+12 missed the 3 month window by 158 days, missed the 6 month window by 21 days, and
+13 the 12 month window by 60 days.
+14 72. CW1 also recalled that AGC ran out of “reference material” for Anktiva in
+15 approximately April 2022. Reference material, also known as reference standard
+16 material, is a specific drug batch of well-known composition and purity used as a
+17 benchmark against which samples of unknown composition and purity are compared.
+18 The lack of such reference material was a “major concern,” said CW1, given that it is
+19 used to test drug substance for release during the final quality control review and for
+20 stability tests thereafter. CW1 recounted that this lasted for “months.” This is
+21 consistent with the account of CW2, who recalled that, in May 2022, AGC refused to
+22 provide a “firm” date for when the next batch of Anktiva would be released to go to the
+23 CMO who ran the fill site. CW2 explained that the delays became so extensive that
+24 ImmunityBio was ultimately forced to pay a “postponement fee” to the fill site
+25 amounting to hundreds of thousands of dollars.
+26 73. CW3, who headed the AGC facility where Anktiva was made, also
+27 confirmed that there were “a number of batches that were not successful” at the facility,
+28 meaning the entire batch was discarded because of critical deviations from the
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.482 Page 25
+of 81
+1 established manufacturing process, several of which involved Anktiva. In fact, CW3
+2 advised that AGC performed six PPQ runs as part of its PPQ campaign because three
+3 failed. CW3 explained that this was unusual because, typically, manufacturers present
+4 three successful runs in a row to show that the process is repeatable, and usually only
+5 involves one bad run. That there were “six attempts” to get three good runs raised
+6 “questions,” and CW3 added “they were pretty messy.”
+7 74. Plaintiff has retained Mr. Todd D. Clark, the current President of Value of
+8 Insight Consulting, Inc. who has decades of experience in FDA compliance, among
+9 other topics, and has frequently testified as an expert witness in pharmaceutical
+10 litigation. Mr. Clark has a Master of Science in drug development and regulation from
+11 John Hopkins University and a Master of Business Administration from the Kellogg
+12 Graduate School of Management at Northwestern University.
+13 75. In Mr. Clark’s opinion, the actions described above are not merely
+14 technical or academic matters but, rather, represent serious substantive violations of
+15 cGMP with the potential to directly affect the potency, purity, and composition of active
+16 pharmaceutical ingredients of drugs, posing a threat to cancer patients whose health
+17 status is already severely weakened. Mr. Clark further explains as follows:
+18 AGC’s lack of effective batch and deviation management is indicative of a
+manufacturing facility that is out of control. Significantly, the failure to
+adhere to appropriate quality review timelines—one of the most basic
+20 functions of the quality unit—was not limited to one or two isolated
+incidents, but endemic during the relevant time period across different
+functions. In addition, the importance of an established reference standard
+22 to serve as the basis of comparison cannot be overstated. In the absence of
+a reference standard, pharmaceutical manufacturers sometimes have to shut
+down production, even to the point of withdrawing a drug from the market,
+24 because it may not be possible to determine whether future batches possess
+the appropriate characteristics. Stability testing is also critical, arguably
+more so for biological than for chemical drugs given their increased
+26 complexity and specialized storage needs. It is hard to understand why any
+biopharmaceutical manufacturer would repeatedly fail to conduct required
+stability tests within the specified timeframe, especially in advance of a
+28 BLA submission.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.483 Page 26
+of 81
+1 76. Finally, Mr. Clark underscores that, from the sponsor’s perspective, even if
+2 the cGMP problems were not present, the fact that multiple batches had to be discarded
+3 at such a late stage in the development process indicates a poorly controlled (hence,
+4 unreliable) process that was not ready for BLA submission, much less FDA approval.
+5 2. The FDA Observed Numerous cGMP Violations During Its Pre-
+License Inspection for Anktiva at AGC
+On November 1, 2022, the FDA provided notice to Paul Tsang, Executive
+Vice President of Global Quality for AGC that it would conduct a pre-license inspection
+at the facility used to manufacture drug substance for Anktiva in February 2023 in
+connection with the pending BLA for Anktiva.
+A group of six cross-functional FDA specialists conducted the pre-license
+inspection of the AGC facility that manufactured Anktiva from February 2, 2023 to
+February 10, 2023. As provided in the FDA’s CGM, the pre-license inspection covered
+the firm’s quality, production, materials, facilities and equipment, laboratory controls,
+packaging and labelling systems. See FDA, CGM § 7356.002M. The inspection ended
+with a “closeout” meeting on February 10, 2023, attended by FDA inspectors and AGC
+senior management, including CW3; Wendy Laderach, Vice President, Corporate
+Quality; Martin Shawala, Vice President, Quality; and Mike Barlow, Vice President,
+Manufacturing.
+At the close-out meeting on February 10, 2023, the FDA issued a scathing
+five item, 15-page Form 483 to CW3 that detailed a litany of regulatory violations at the
+site for each item. The objectionable conditions were organized into five categories
+consistent with FDA standard practice but supported by extensive examples supporting
+the observations.
+Inspectors cited multiple instances of inadequate deviation management
+from as far back as January 2021. At the very core of cGMP is the principle that
+deviations be timely and reliably traced back to their root cause and, if identified,
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.484 Page 27
+of 81
+1 addressed with CAPA to avoid repeating the deviation. In its February 2023 inspection,
+2 the FDA found overlapping violations of this principle again and again. For example:
+3 • The FDA found that “significant” time passed between an event and its
+classification as a deviation, citing several examples of a full year passing
+between the time of the incident and the classification. Unsurprisingly, AGC’s
+5 failure to create deviation records in a timely manner also prevented
+appropriate resolutions from being implemented.
+• AGC failed to conduct timely investigations, as demonstrated both by the fact
+that less than 40% of all deviations since July 2021 were closed on schedule
+8 and 80 investigations remained open at the time of the inspection, including
+several that were open for two years. Among other things, AGC’s dilatory
+approach caused market-ready batches to be left in limbo awaiting resolution
+10 of open deviations for more than five months.
+11 • The FDA also found that deviation investigations were closed without
+documenting an appropriate conclusion or implementing any CAPA.
+Inspectors found deficiencies in data integrity, missing validation for
+computer systems, and lack of reliability of audit trails by, among other things, the fact
+that computerized date and time settings were susceptible to improper changes. Among
+the production components affected by the lack of proper data procedures were a
+“critical sterilization process control.” Worst still, AGC had still not completed the data
+integrity risk assessment that it committed to perform following the March 2021
+inspection for “most of the computerized systems in use at the site.”
+The site also failed in critical sanitation and contamination-management
+practices. FDA inspectors cited an absence or lack of adherence to established cleaning
+and sanitation programs to prevent introduction of microbial contaminants in controlled
+environments and numerous potential cross-contamination hazards and cleaning
+failures. A simple walk-through tour found violations in pest control in the warehouse
+area, deficient filtration in a clean corridor, and a pool of standing liquid on the solution
+prep room floor. The presence of clean and dirty components in the same room also
+posed cross-contamination risks and the inspectors noted that AGC transported clean
+and dirty components between buildings in the same vehicles for intra-site movement.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.485 Page 28
+of 81
+1 Notably, inadequate equipment-cleaning procedures had been identified in the March
+2 2021 investigation. AGC revised its policies in response, but failed to conduct a study to
+3 validate the revised process. AGC also created a CAPA to control the risk of
+4 contamination by personnel, but failed for over two years to implement that program.
+5 83. Inspectors found that AGC did not follow its own standard operating
+6 procedures and written instructions. Most notably, the performance of stability tests
+7 occurred outside planned test windows “by a significant number of days” including, in
+8 one case, approximately five months. Other problems with standard procedures included
+9 an operator’s nonadherence during a bulk-fill operation in a clean room environment as
+10 well as inadequate procedures to ensure that materials were not kept at ambient
+11 conditions in an uncontrolled or unacceptable manner.
+12 84. Finally, and most critically of all, the FDA found, at a general level, that
+13 AGC’s quality unit failed to adequately oversee manufacturing operations and, thus,
+14 appropriately exercise its authority and responsibilities. In this regard, FDA inspectors
+15 cited a lack of security to prevent unauthorized access to the site, inadequate cleanliness
+16 and maintenance, failure to ensure that equipment used for testing was properly
+17 qualified, the ad hoc use of a new reference standard different from the one set forth in
+18 the BLA (with no assurance that the affected lots would not be released into commerce),
+19 and extensive delays in reviewing batch records. As but one example of systemic
+20 failure of the quality unit’s function, the FDA observed during the inspection a product
+21 in cold storage with a printed product label and status tag which carried different lot
+22 (i.e., batch) numbers. The FDA inspection team indicated that for “such a critical
+23 deviation to occur, quality oversight failed at multiple steps in the process.”
+24 85. During the closeout meeting, FDA personnel reviewed each observation
+25 with senior management present from AGC, including each of those summarized above.
+26 In response, AGC management told the FDA officials that they “understood” each
+27 observation and had no other comments. One of the FDA inspectors expressed concern
+28 that the GMP deficiencies found by the FDA inspection team indicate that the firm’s
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.486 Page 29
+of 81
+1 quality unit had not been effectively exercising its authority and/or responsibilities and,
+2 of considerable importance for Anktiva’s FDA review cycle, noted that an independent
+3 assessment of the firm’s quality management systems might be required to
+4 systematically identify and address needed improvements in GMP practices.
+5 86. Significantly, the pre-license inspection at AGC was classified by the FDA
+6 as Official Action Indicated (“OAI”). Pursuant to its internal guidelines, the FDA will
+7 assign one of three classifications to an inspection based on the severity of the
+8 infractions observed (or lack thereof). No Action Indicated means there were no
+9 objectionable conditions observed. Voluntary Action Indicated means objectionable
+10 conditions were found but the FDA is not prepared to recommend administrative or
+11 regulatory action. OAI is the most severe and means that regulatory and/or
+12 administrative actions are recommended to remedy the objectionable conditions. As set
+13 forth in the FDA’s internal CPM guidelines for pre-license inspections, an OAI
+14 classification will issue if there is a finding that “one or more manufacturing systems is
+15 out of control.” FDA, CPM § 7356.002M. Critically, the same guidelines that the FDA
+16 used to conduct the pre-license inspection at AGC provide that an OAI classification
+17 will result in a “withhold” recommendation on any pending BLA, which “ensures the
+18 product cannot be marketed in the United States until a follow-up inspection verifies
+19 implementation.” FDA CPM § 7346.832. In practice, this means that any pending
+20 applications with the FDA will result in a CRL.
+21 87. Given the serious nature of the underlying violations, OAI classifications
+22 are exceedingly rare. During the FDA’s past ten full fiscal years before the pre-license
+23 inspection, i.e., fiscal years 2012 to 2022, only nine percent of all inspections at drug
+24 manufacturing facilities were classified as OAI.
+25 88. Mr. Clark stresses that, wholly apart from the classification assigned to the
+26 investigation by the FDA, the nature and extent of the violations cataloged by the FDA
+27 inspection team are extremely serious. Mr. Clark explained that the departures from
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.487 Page 30
+of 81
+1 cGMP were so numerous and pervasive that they called into question whether the
+2 quality unit was carrying out its basic functions.
+3 89. In addition, Mr. Clark believes that the findings from the FDA inspection
+4 would, at a minimum, lead to a recommendation to withhold rather than approve the
+5 Anktiva BLA by the FDA. His assessment is based on the enormous number of
+6 unresolved or behind-schedule batch dispositions and deviation investigations,
+7 inadequate protections for computer systems and the facility itself, numerous
+8 contamination risks, mismatched lot numbers, the possibility that inappropriate batches
+9 might be introduced into commerce, multiple other cGMP violations, including several
+10 “critical” violations, and a general lack of appropriate oversight by AGC’s quality unit.
+11 90. Mr. Clark points out that, in the FDA’s view, a pattern of failure to conduct
+12 investigations and resolve deviations is, on its own, sufficient cause for an OAI finding.
+13 Other reasons for the FDA to issue an OAI finding that were present at the AGC site
+14 include a reasonable potential for contamination, failure to qualify computers and other
+15 equipment, absent or not-adhered-to standard operating procedures, and failure to
+16 follow stability testing protocols.
+17 91. At the end of the inspection, the FDA team raised the possibility that
+18 AGC’s quality management systems could require an extensive independent assessment
+19 to systematically identify and address needed improvements in cGMP practices. Mr.
+20 Clark advised that, even if that could somehow be avoided, it would be unreasonable to
+21 expect problems of this scale to be resolved to the FDA’s satisfaction (including another
+22 inspection) within the few months remaining before Anktiva’s PDUFA date; meaning,
+23 in other words, that a CRL was the only practical outcome.
+24 3. The FDA Observed Several Objectionable Conditions At the
+CMO That Filled Anktiva Into Vials
+Making matters worse, the FDA also observed several objectionable
+conditions at the CMO that ImmunityBio used to fill drug substance received from AGC
+into vials in connection with its pre-license inspection of that facility.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.488 Page 31
+of 81
+1 93. From January 11, 2023 to January 16, 2023, three FDA specialists
+2 conducted the pre-license inspect of the facility used by the CMO that operated the fill
+3 site for Anktiva. At end of the inspection, the FDA issued a five item Form 483 to
+4 facility management which detailed several objectionable conditions at the site,
+5 including that (1) the site used equipment and conditions which were not properly
+6 validated through qualification studies; and (2) there was inadequate equipment
+7 maintenance. For example, a sensor used on a piece of equipment was due for service
+8 in December 2020 but still in use at the time of the inspection.
+9 MATERIALLY FALSE AND MISLEADING STATEMENTS
+10 94. Despite the steady stream of significant cGMP failings at AGC known by
+11 ImmunityBio, Defendants made numerous false and misleading statements during the
+12 Class Period about its manufacturing strategies and capabilities. Lead Plaintiff asserts
+13 that all statements set forth below that are bolded and italicized are materially false and
+14 misleading for the reasons set forth therein. Statements that are not bolded and
+15 italicized are included for context.
+16 95. The Class Period begins on March 10, 2021, when ImmunityBio securities
+17 began publicly trading on the NASDAQ and the Company filed a current report on
+18 Form 8-K with the SEC signed by Defendant Adcock (the “March 10, 2021 Form 8-
+19 K”). Among other things, the March 10, 2021 Form 8-K disclosed that the Company
+20 updated its previous disclosures regarding its business and risk factors as a result of the
+21 Legacy ImmunityBio-NantKwest merger, copies of which were attached as Exhibits
+22 99.2 and 99.3 thereto. Exhibit 99.2 to the March 10, 2021 Form 8-K touted that cGMP
+23 manufacturing was one of its core competencies, stating in relevant part:
+24 ImmunityBio, together with its merger with NantKwest, has now
+progressed into a leading late-stage clinical company with a broad
+immunotherapy clinical-stage pipeline of over 40 clinical trials in Phase I,
+26 II and III development (company sponsored and investigator initiated)
+across 19 indications in solid and liquid cancers and infectious diseases. . . .
+The expansive clinical-stage pipeline and intellectual property portfolio
+28 with 17 first in human antibody cytokine fusion proteins, chemo immuno-
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.489 Page 32
+of 81
+modulators, vaccine vectors and cell therapies in clinical trials, including
+25 in Phase II to III clinical trials, as well as a strong global intellectual
+2 property portfolio of issued and pending worldwide patent applications
+with patent life extending to 2035 and beyond, places ImmunityBio in a
+leading position to transform immunotherapy care beyond current
+4 standards of care. In addition, the company has adopted the strategy of
+establishing GMP manufacturing capacity at scale and to date, the
+company has cutting-edge cell manufacturing expertise, ready-to-
+6 scale facilities, with extensive and seasoned R&D, clinical trial, and
+regulatory operations and development teams, which together will occupy
+over 400,000 square feet of manufacturing and R&D facilities.
+Exhibit 99.2 also represented that one of the key elements of its current
+business strategy included investment in manufacturing capabilities for antibody
+cytokine fusion proteins, such as Anktiva:
+We seek to become the leading global immunological discovery and
+therapeutics company by creating the next generation of immunotherapies
+13 to address serious unmet needs within oncology and infectious diseases. To
+achieve this goal, the key elements of our strategy include:
+. . .
+• Optimizing investment in our discovery, development and
+manufacturing capabilities for our next generation targeted antibody
+cytokine fusion proteins and vaccine candidates, as well as for cell
+therapies including utilizing our just-in-time, decentralized advanced
+cell therapy GMP-in-a-box manufacturing technologies.
+Exhibit 99.3 to the March 10, 2021 Form 8-K outlined certain risks which
+could adversely impact ImmunityBio’s business, financial condition, results of
+operations, or prospects if they came to pass, including the following:
+The manufacture of our product candidates is complex, and we may
+23 encounter difficulties in production, particularly with respect to process
+development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+25 manufacturers encounter such difficulties, our ability to provide supply
+of our product candidates for clinical trials or our products for patients,
+if approved, could be delayed or stopped, or we may be unable to
+27 maintain a commercially viable cost structure.
+28 . . .
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.490 Page 33
+of 81
+Currently we manufacture our product candidates or use CMOs.
+. . .
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+4 approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+6 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-
+8 approval inspections by the FDA that will be conducted after we submit
+our marketing applications, including our BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+10 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary chemistry, manufacturing and
+quality control documentation in support of a BLA or NDA on a timely
+12 basis. There is no guarantee that we or our CMOs will be able to
+successfully pass all aspects of a pre-approval inspection by the FDA or
+other foreign regulatory authorities.
+. . .
+Our or our CMOs’ manufacturing facilities may be unable to comply with
+our specifications, cGMP, and with other FDA, state, and foreign
+regulatory requirements. Poor control of production processes can lead to
+the introduction of adventitious agents or other contaminants, or to
+inadvertent changes in the properties or stability of product candidates that
+may not be detectable in final product testing. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+The statements identified in bold and italicized text in the paragraphs above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as more fully described
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.491 Page 34
+of 81
+1 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+2 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+3 in its “lead” product candidate, were not merely hypothetical.
+4 99. On March 10, 2021, ImmunityBio issued a press release announcing that
+5 the Company’s common stock began trading on the NASDAQ following the completion
+6 of the Legacy ImmunityBio-NantKwest merger, which represented as follows:
+7 ImmunityBio is a leading producer of cryopreserved and clinical dose
+forms of off-the-shelf natural killer (NK) cell therapies. The company has
+established GMP manufacturing capacity at scale with cutting-edge cell
+9 manufacturing expertise, ready-to-scale facilities, extensive and seasoned
+R&D, clinical trial, and regulatory operations and development teams.
+The statement identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statement not misleading, because, as more fully described above,
+ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+facility that suffered from a collection of serious and recurring cGMP failings; (ii) the
+aforementioned cGMP failings were not remediated and, thus, allowed to continue; and,
+accordingly, (iii) the risks posed by a failure to comply with cGMP at a CMO that
+manufactured a product for ImmunityBio, particularly the active ingredient in its “lead”
+product candidate, were not merely hypothetical.
+On April 30, 2021, ImmunityBio filed an automatic shelf registration
+statement on Form S-3 with the SEC to place an unspecified number of debt and equity
+securities on the “shelf,” which contained a prospectus relating thereto (as
+supplemented, the “April 2021 Shelf Registration Statement”). The April 2021 Shelf
+Registration Statement was signed by the Individual Defendants. On May 3, 2023,
+ImmunityBio filed a prospectus supplement to the April 2021 Shelf Registration
+Statement with the SEC pursuant to Rule 424(b)(5) (the “April 2021 Prospectus
+Supplement”), to facilitate an open market, or “at-the-market,” sales agreement the
+Company entered into with Jeffries LLC for up to a maximum aggregate amount of
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.492 Page 35
+of 81
+1 $500 million of its common stock. As supplemented by the April 2021 Prospectus
+2 Supplement, the April 2021 Shelf Registration Statement expressly incorporated by
+3 reference the March 10, 2021 Form 8-K, including the materially false and misleading
+4 statements set forth in ¶¶ 95-97.
+5 102. In addition, the April 2021 Shelf Registration Statement expressly
+6 incorporated certain information from the Definitive Proxy Statement on Schedule 14A
+7 that ImmunityBio previously filed with the SEC on February 2, 2021 (the “Merger
+8 Proxy Statement”), including all information under the heading “Business of
+9 ImmunityBio—Manufacturing.” In that section of the Merger Proxy Statement, the
+10 Company boasted that the third-party it used to manufacture Anktiva had robust
+11 manufacturing standards:
+12 For our Anktiva product candidate, we have contracted with a multi-
+national biologics manufacturer with multiple cGMP-compliant facilities
+in the United States, Europe and Asia for our current clinical trials and
+14 future commercial sales, if approved. The facilities have robust process
+development and validation and quality oversight with high-capacity
+production suites operating multiple 2,000-20,000L production bioreactors.
+The statements identified in bold and italicized text in the paragraphs above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+in its “lead” product candidate, were not merely hypothetical.
+On May 14, 2021, ImmunityBio filed with the SEC a quarterly report on
+Form 10-Q for the quarter ended March 31, 2021 (the “1Q 2021 Form 10-Q”), which
+was signed by Defendants Adcock and Sachs. The 1Q 2021 Form 10-Q outlined certain
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.493 Page 36
+of 81
+1 risks which “could” have a significant adverse impact on ImmunityBio’s business,
+2 financial condition, results of operations, or prospects if they came to pass, including the
+3 following:
+4 The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+development, quality control, or scaling-up of our manufacturing
+6 capabilities. If we or our related parties, or any of our third party
+manufacturers encounter such difficulties, our ability to provide supply of
+our product candidates for clinical trials or our products for patients, if
+8 approved, could be delayed or stopped, or we may be unable to maintain a
+commercially viable cost structure.
+. . .
+Currently we manufacture our product candidates or use CMOs.
+. . .
+In addition, the manufacturing process and facilities for any products that
+13 we may develop are subject to FDA and foreign regulatory authority
+approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+15 an ongoing basis. The cGMP requirements include quality control, quality
+assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+17 inspections. Manufacturing facilities must submit to pre-approval
+inspections by the FDA that will be conducted after we submit our
+marketing applications, including our BLAs and NDAs, to the FDA.
+19 Manufacturers are also subject to continuing FDA and other regulatory
+authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary chemistry, manufacturing and
+21 quality control documentation in support of a BLA or NDA on a timely
+basis. There is no guarantee that we or our CMOs will be able to
+successfully pass all aspects of a pre-approval inspection by the FDA or
+23 other foreign regulatory authorities.
+24 . . .
+25 Our or our CMOs’ manufacturing facilities may be unable to comply
+with our specifications, cGMP, and with other FDA, state, and foreign
+regulatory requirements. Poor control of production processes can lead to
+27 the introduction of adventitious agents or other contaminants, or to
+inadvertent changes in the properties or stability of product candidates that
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.494 Page 37
+of 81
+may not be detectable in final product testing. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+2 FDA or other regulatory authorities, or in accordance with the strict
+regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+The statements identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+in its “lead” product candidate, were not merely hypothetical.
+On August 12, 2021, ImmunityBio filed with the SEC a quarterly report on
+Form 10-Q for the quarter ended June 30, 2021 (the “2Q 2021 Form 10-Q”), which was
+signed by Defendants Adcock and Sachs. The 2Q 2021 Form 10-Q outlined certain
+risks which “could” have a significant adverse impact on ImmunityBio’s business,
+financial condition, results of operations, or prospects if they came to pass, including the
+following:
+The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+21 development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+23 adequate supply of our product candidates for clinical trials or our
+products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+26 Currently we manufacture our product candidates or we may use third-
+party CMOs or some of our related parties to manufacture our product
+candidates.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.495 Page 38
+of 81
+. . .
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+3 approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+5 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+7 inspections by the FDA that will be conducted after we submit our
+marketing applications, including our BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+9 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary chemistry, manufacturing and
+quality control documentation in support of a BLA or NDA on a timely
+11 basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+13 CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+. . .
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+17 properties or stability of product candidates that may not be detectable in
+final product testing. If microbial, viral, environmental or other
+contaminations are discovered in our product candidates or in the
+19 manufacturing facilities in which our product candidates are made, such
+manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+21 clinical trials and adversely harm our business. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+23 regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+The statements identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.496 Page 39
+of 81
+1 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+2 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+3 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+4 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+5 in its “lead” product candidate, were not merely hypothetical.
+6 108. On September 1, 2021, ImmunityBio issued a press release announcing that
+7 the oral presentation of new clinical trial results from the Phase 3 trial of Anktiva in
+8 patients with BCG-unresponsive bladder cancer at the American Urological
+9 Association’s Annual Meeting on September 1, 2021, which represented as follows:
+10 ImmunityBio is a leading producer of cryopreserved and clinical dose
+forms of off-the-shelf natural killer (NK) cell therapies. The company has
+established GMP manufacturing capacity at scale with cutting-edge cell
+12 manufacturing expertise and ready-to-scale facilities, as well as extensive
+and seasoned R&D, clinical trial, and regulatory operations and
+development teams.
+The statement identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statement not misleading, because, as described more fully above,
+ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+On September 13, 2021, ImmunityBio issued a press release announcing
+the results of the Phase 3 trial of Anktiva in patients with BCG-unresponsive bladder
+cancer, filed with the SEC as Exhibit 99.1 to the current report on Form 8-K, dated
+September 13, 2021 signed by Defendant Sachs, which represented as follows:
+ImmunityBio is a leading producer of cryopreserved and clinical dose
+forms of off-the-shelf natural killer (NK) cell therapies. The company has
+established GMP manufacturing capacity at scale with cutting-edge cell
+manufacturing expertise and ready-to-scale facilities, as well as extensive
+and seasoned R&D, clinical trial, and regulatory operations and
+development teams.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.497 Page 40
+of 81
+1 111. The statement identified in bold and italicized text in the paragraph above
+2 were materially false and misleading when made, or omitted to state material facts
+3 necessary to make the statement not misleading, because, as described more fully above,
+4 ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+5 facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+6 the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+7 112. On October 19, 2021, ImmunityBio issued a press release to announce the
+8 results of the Phase 3 study of Anktiva in patients with the papillary form of bladder
+9 cancer, which represented as follows:
+10 The company’s platforms are based on the foundation of four separate
+modalities: Antibody cytokine fusion proteins, synthetic
+immunomodulators, second-generation human adenovirus (hAd5) and
+12 yeast vaccine technologies, and state-of-the-art, off-the-shelf natural killer
+cells, including autologous and allogenic cytokine-enhanced memory NK
+cells. ImmunityBio is currently developing a dual construct COVID-19
+14 vaccine candidate using its hAd5 platform. The company has established
+GMP manufacturing capacity at scale with cutting-edge cell
+manufacturing expertise and ready-to-scale facilities, as well as extensive
+16 and seasoned R&D, clinical trial, and regulatory operations and
+development teams.
+The statement identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statement not misleading, because, as described more fully above,
+ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+On November 12, 2021, ImmunityBio filed with the SEC a quarterly report
+on Form 10-Q for the quarter ended September 30, 2021 (the “3Q 2021 Form 10-Q”),
+which was signed by Defendants Adcock and Sachs. The 2Q 2021 Form 10-Q outlined
+certain risks which “could” have a significant adverse impact on ImmunityBio’s
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.498 Page 41
+of 81
+1 business, financial condition, results of operations, or prospects if they came to pass,
+2 including the following:
+3 The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+development, quality control, or scaling-up of our manufacturing
+5 capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+adequate supply of our product candidates for clinical trials or our
+7 products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+Currently we manufacture our product candidates or we may use third-
+party CMOs or some of our related parties to manufacture our product
+candidates.
+. . .
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+14 approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+16 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+18 inspections by the FDA that will be conducted after we submit our
+marketing applications, including our BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+20 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary chemistry, manufacturing and
+quality control documentation in support of a BLA or NDA on a timely
+22 basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+24 CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+27 properties or stability of product candidates that may not be detectable in
+final product testing. If microbial, viral, environmental or other
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.499 Page 42
+of 81
+contaminations are discovered in our product candidates or in the
+manufacturing facilities in which our product candidates are made, such
+2 manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+clinical trials and adversely harm our business. If we or our CMOs are
+4 unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+regulatory requirements, we may not obtain or maintain the approvals we
+6 need to commercialize such products.
+The statements identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+in its “lead” product candidate, were not merely hypothetical.
+On December 20, 2021, ImmunityBio issued a press release announcing
+recent financing activities as well as its ongoing business initiatives, including the
+planned BLA submission for Anktiva, filed with the SEC as Exhibit 99.1 to the current
+report on Form 8-K, dated December 20, 2021 signed by Defendant Sachs, which
+represented as follows:
+The company’s platforms are based on the foundation of four separate
+22 modalities: Antibody cytokine fusion proteins, synthetic
+immunomodulators, second-generation human adenovirus (hAd5) and
+yeast vaccine technologies, and state-of-the-art, off-the-shelf natural killer
+24 cells, including autologous and allogenic cytokine-enhanced memory NK
+cells. ImmunityBio is currently developing a dual construct COVID-19
+vaccine candidate using its hAd5 platform. The company has established
+26 GMP manufacturing capacity at scale with cutting-edge cell
+manufacturing expertise and ready-to-scale facilities, as well as extensive
+and seasoned R&D, clinical trial, and regulatory operations and
+28 development teams.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.500 Page 43
+of 81
+1 117. The statement identified in bold and italicized text in the paragraph above
+2 were materially false and misleading when made, or omitted to state material facts
+3 necessary to make the statement not misleading, because, as described more fully above,
+4 ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+5 facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+6 the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+7 118. On March 1, 2022, ImmunityBio filed a post-effective amendment to the
+8 Shelf Registration Statement (as amended, the “Shelf Registration Statement
+9 Amendment No. 1”), which was signed by the Individual Defendants. The Shelf
+10 Registration Statement Amendment No. 1 expressly incorporated by reference the
+11 March 10, 2021 Form 8-K, including the materially false and misleading statements set
+12 forth in ¶¶ 95-97.
+13 119. The statements identified in bold and italicized text in the paragraph above
+14 were materially false and misleading when made, or omitted to state material facts
+15 necessary to make the statements not misleading, because, as described more fully
+16 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+17 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+18 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+19 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+20 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+21 in its “lead” product candidate, were not merely hypothetical.
+22 120. On March 1, 2022, ImmunityBio filed an annual report with the SEC on
+23 Form 10-K for the year ended December 31, 2021 (the “2021 Form 10-K”), which was
+24 signed by the Individual Defendants. The 2021 Form 10-K touted that the Company
+25 maintained cGMP manufacturing resources, stating in relevant part:
+26 We have established Good Manufacturing Practice (GMP)
+manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.501 Page 44
+of 81
+research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+The 2021 Form 10-K also assured investors that ImmunityBio develops its
+products in accordance with cGMP:
+ImmunityBio has adopted a strategic position to be vertically integrated
+and develop its products according to the FDA’s GMP standards for
+6 large-scale manufacturing, even during Phase 2 clinical trial development.
+Biological upstream and downstream manufacturing capabilities, with its
+attendant know-how and regulatory compliance for approval, have long
+8 lead times. We have adopted an approach for preparedness to provide our
+vaccine, immunotherapy and cell therapy products at a global scale. As
+such, we have established our own plants and have access to facilities on a
+10 global basis.
+11 122. In the 2021 Form 10-K, the Company boasted that the third-party it used to
+12 manufacture Anktiva, specifically, had robust manufacturing standards:
+13 For our Anktiva product candidate, we have contracted with a multi-
+national biologics manufacturer with multiple cGMP-compliant facilities
+in the U.S., Europe and Asia for our current clinical trials and future
+15 commercial sales, if approved. The facilities have robust process
+development and validation and quality oversight with high-capacity
+production suites operating multiple 2,000-20,000L production bioreactors.
+The 2021 Form 10-K also outlined certain risks which “could” have a
+significant adverse impact on ImmunityBio’s business, financial condition, results of
+operations, or prospects if they came to pass, including the following:
+The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+22 development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+24 adequate supply of our product candidates for clinical trials or our
+products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.502 Page 45
+of 81
+Currently we manufacture our product candidates or we may use third-
+party CMOs or some of our related parties to manufacture our product
+2 candidates.
+3 . . .
+4 In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+approval processes, and we or our CMOs will need to meet all applicable
+6 FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+assurance and the maintenance of records and documentation. The FDA
+8 and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+inspections by the FDA that will be conducted after we submit our
+10 marketing applications, including our BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+authority inspections following marketing approval. Further, we and our
+12 third-party CMOs must supply all necessary chemistry, manufacturing and
+quality control documentation in support of a BLA or NDA on a timely
+basis. Our or our CMOs’ manufacturing facilities may be unable to
+14 comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+CMOs will be able to successfully pass all aspects of a pre-approval
+16 inspection by the FDA or other foreign regulatory authorities.
+17 Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+properties or stability of product candidates that may not be detectable in
+19 final product testing. If microbial, viral, environmental or other
+contaminations are discovered in our product candidates or in the
+manufacturing facilities in which our product candidates are made, such
+21 manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+clinical trials and adversely harm our business. If we or our CMOs are
+23 unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+regulatory requirements, we may not obtain or maintain the approvals we
+25 need to commercialize such products.
+26 124. The statements identified in bold and italicized text in the paragraphs above
+27 were materially false and misleading when made, or omitted to state material facts
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.503 Page 46
+of 81
+1 necessary to make the statements not misleading, because, as described more fully
+2 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+3 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+4 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+5 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+6 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+7 in its “lead” product candidate, were not merely hypothetical.
+8 125. On May 10, 2022, ImmunityBio filed with the SEC a quarterly report on
+9 Form 10-Q for the quarter ended March 31, 2022 (the “1Q 2022 Form 10-Q”), which
+10 was signed by Defendants Adcock and Sachs. The 1Q 2022 Form 10-Q touted that the
+11 Company maintained cGMP manufacturing resources, stating in relevant part:
+12 We have established Good Manufacturing Practice (GMP)
+manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+14 research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+In addition, the 1Q 2022 Form 10-Q outlined certain risks which “could”
+have a significant adverse impact on ImmunityBio’s business, financial condition,
+results of operations, or prospects if they came to pass, including the following:
+The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+adequate supply of our product candidates for clinical trials or our
+products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+Currently we manufacture our product candidates or we may use third-
+26 party CMOs or some of our related parties to manufacture our product
+candidates.
+. . .
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.504 Page 47
+of 81
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+2 approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+4 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+6 inspections by the FDA that will be conducted after we submit our
+marketing applications, including BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+8 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary chemistry, manufacturing and
+quality control documentation in support of a BLA or NDA on a timely
+10 basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+12 CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+15 properties or stability of product candidates that may not be detectable in
+final product testing. If microbial, viral, environmental or other
+contaminants are discovered in our product candidates or in the
+17 manufacturing facilities in which our product candidates are made, such
+manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+19 clinical trials and adversely harm our business. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+21 regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+23 127. The statements identified in bold and italicized text in the paragraphs above
+24 were materially false and misleading when made, or omitted to state material facts
+25 necessary to make the statements not misleading, because, as described more fully
+26 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+27 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+28 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.505 Page 48
+of 81
+1 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+2 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+3 in its “lead” product candidate, were not merely hypothetical.
+4 128. On May 23, 2022, ImmunityBio issued a press release announcing the
+5 submission of the Anktiva BLA to the FDA, which represented as follows:
+6 The company has established GMP manufacturing capacity at scale with
+cutting-edge cell manufacturing expertise and ready-to-scale facilities, as
+well as extensive and seasoned R&D, clinical trial, and regulatory
+8 operations, and development teams.
+The statement identified in bold and italicized text in the paragraph above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statement not misleading, because, as described more fully above,
+ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+On June 6, 2022, ImmunityBio issued a press release announcing new data
+from the Phase 3 trial of Anktiva in BCG-unresponsive patients with the CIS form of
+NMIBC, in which Defendant Soon-Shiong represented that the Company has built
+cGMP manufacturing capacity: “We have, at risk, made the investments to build GMP
+commercial-scale manufacturing for our platforms and are now positioned to launch
+QUILT trials in earlier first-line, neoadjuvant and even preventative settings.”
+The same press release represented as follows:
+The company has established GMP manufacturing capacity at scale with
+cutting-edge cell manufacturing expertise and ready-to-scale facilities, as
+well as extensive and seasoned R&D, clinical trial, and regulatory
+operations, and development teams.
+The statements identified in bold and italicized text in the paragraphs above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.506 Page 49
+of 81
+1 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+2 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+3 failings; and (ii) the aforementioned cGMP failings were not remediated and, thus,
+4 allowed to continue.
+5 133. On July 28, 2022, ImmunityBio issued a press release announcing that the
+6 FDA filed the Anktiva BLA for review, in which Defendant Adcock represented that
+7 the Company was prepared to quickly move ahead with commercial manufacturing:
+8 “We are pleased the FDA has begun its review, and ImmunityBio is
+prepared to move rapidly to manufacturing and marketing should the
+Agency approve our therapeutic for this indication,” said Richard Adcock,
+10 President and CEO of ImmunityBio.
+The same press release represented as follows:
+The company has established GMP manufacturing capacity at scale with
+cutting-edge cell manufacturing expertise and ready-to-scale facilities, as
+well as extensive and seasoned R&D, clinical trial, and regulatory
+operations, and development teams.
+The statements identified in bold and italicized text in the paragraphs above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; and (ii) the aforementioned cGMP failings were not remediated and, thus,
+allowed to continue.
+On August 8, 2022, ImmunityBio filed with the SEC a quarterly report on
+Form 10-Q for the quarter ended June 30, 2022 (the “2Q 2022 Form 10-Q”), which was
+signed by Defendants Adcock and Sachs. The 2Q 2022 Form 10-Q touted that the
+Company maintained cGMP manufacturing resources, stating in relevant part:
+We have established Good Manufacturing Practice (GMP)
+27 manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.507 Page 50
+of 81
+research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+In addition, the 2Q 2022 Form 10-Q outlined certain risks which “could”
+have a significant adverse impact on ImmunityBio’s business, financial condition,
+results of operations, or prospects if they came to pass, including the following:
+The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+7 development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+9 adequate supply of our product candidates for clinical trials or our
+products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+12 Currently we manufacture our product candidates or we may use third-
+party CMOs or some of our related parties to manufacture our product
+candidates.
+. . .
+In addition, the manufacturing process and facilities for any products that
+16 we may develop are subject to FDA and foreign regulatory authority
+approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+18 an ongoing basis. The cGMP requirements include quality control, quality
+assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+20 inspections. Manufacturing facilities must submit to pre-approval
+inspections by the FDA that will be conducted after we submit our
+marketing applications, including BLAs and NDAs, to the FDA.
+22 Manufacturers are also subject to continuing FDA and other regulatory
+authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary Chemistry, Manufacturing and
+24 Controls (CMC) documentation in support of a BLA or NDA on a timely
+basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+26 foreign regulatory requirements, and there is no guarantee that we or our
+CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.508 Page 51
+of 81
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+2 properties or stability of product candidates that may not be detectable in
+final product testing. If microbial, viral, environmental or other
+contaminants are discovered in our product candidates or in the
+4 manufacturing facilities in which our product candidates are made, such
+manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+6 clinical trials and adversely harm our business. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+8 regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+10 138. The statements identified in bold and italicized text in the paragraphs above
+11 were materially false and misleading when made, or omitted to state material facts
+12 necessary to make the statements not misleading, because, as described more fully
+13 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+14 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+15 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+16 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+17 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+18 in its “lead” product candidate under review by the FDA, were not merely hypothetical.
+19 139. On November 9, 2022, ImmunityBio filed with the SEC a quarterly report
+20 on Form 10-Q for the quarter ended September 30, 2022 (the “3Q 2022 Form 10-Q”),
+21 which was signed by Defendants Adcock and Sachs. The 3Q 2022 Form 10-Q touted
+22 that the Company maintained cGMP manufacturing resources, stating in relevant part:
+23 We have established Good Manufacturing Practice (GMP)
+manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+25 research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.509 Page 52
+of 81
+1 140. In addition, the 3Q 2022 Form 10-Q outlined certain risks which “could”
+2 have a significant adverse impact on ImmunityBio’s business, financial condition,
+3 results of operations, or prospects if they came to pass, including the following:
+4 The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+development, quality control, or scaling-up of our manufacturing
+6 capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+adequate supply of our product candidates for clinical trials or our
+8 products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+Currently we manufacture our product candidates or we may use third-
+party CMOs or some of our related parties to manufacture our product
+candidates.
+. . .
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+15 approval processes, and we or our CMOs will need to meet all applicable
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+17 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+19 inspections by the FDA that will be conducted after we submit our
+marketing applications, including BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+21 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary Chemistry, Manufacturing and
+Controls (CMC) documentation in support of a BLA or NDA on a timely
+23 basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+25 CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+28 properties or stability of product candidates that may not be detectable in
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.510 Page 53
+of 81
+final product testing. If microbial, viral, environmental or other
+contaminants are discovered in our product candidates or in the
+2 manufacturing facilities in which our product candidates are made, such
+manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+4 clinical trials and adversely harm our business. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+6 regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+8 141. The statements identified in bold and italicized text in the paragraphs above
+9 were materially false and misleading when made, or omitted to state material facts
+10 necessary to make the statements not misleading, because, as described more fully
+11 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+12 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+13 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+14 to continue; and, accordingly, (iii) the risks posed by a failure to comply with cGMP at
+15 a CMO that manufactured a product for ImmunityBio, particularly the active ingredient
+16 in its “lead” product candidate under review by the FDA, were not merely hypothetical.
+17 142. On November 10, 2022, ImmunityBio issued a press release announcing
+18 the publication of the full results of the Phase 3 trial of Anktiva with BCG in BCG-
+19 unresponsive patients with the CIS form of NMIBC, which represented as follows:
+20 The company has established GMP manufacturing capacity at scale with
+cutting-edge cell manufacturing expertise and ready-to-scale facilities, as
+well as extensive and seasoned R&D, clinical trial, and regulatory
+22 operations, and development teams.
+23 143. The statement identified in bold and italicized text in the paragraph above
+24 were materially false and misleading when made, or omitted to state material facts
+25 necessary to make the statement not misleading, because, as described more fully above,
+26 ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture Anktiva at a
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.511 Page 54
+of 81
+1 facility that suffered from a collection of serious and recurring cGMP failings; and (ii)
+2 the aforementioned cGMP failings were not remediated and, thus, allowed to continue.
+3 144. On February 7, 2023, ImmunityBio filed with the SEC a shelf registration
+4 statement on Form S-3 to place an unspecified number of debt and equity securities not
+5 to exceed a total aggregate price of $750 million on the “shelf,” which contained a
+6 prospectus relating thereto (as supplemented, the “February 2023 Shelf Registration
+7 Statement”). The February 2023 Shelf Registration Statement was signed by the
+8 Individual Defendants. The SEC declared the February 2023 Shelf Registration
+9 Statement effective on February 9, 2023. On February 16, 2023, ImmunityBio filed a
+10 final prospectus supplement to the February 2023 Shelf Registration Statement with the
+11 SEC pursuant to Rule 424(b)(5) (the “February 2023 Prospectus Supplement”), to
+12 facilitate a registered direct offering of approximately $50 million in ImmunityBio
+13 common stock and warrants to purchase up to a total of $60 million in ImmunityBio
+14 common stock. As supplemented by the February 2023 Prospectus Supplement, the
+15 February 2023 Shelf Registration Statement declared that it was “unclear” when, or if,
+16 the FDA would approve the pending Anktiva BLA:
+17 In May 2022, we announced the submission of a Biologics License
+Application (BLA) to the FDA for our product candidate, Anktiva in
+combination with BCG for the treatment of patients with BCG-
+19 unresponsive NMIBC with CIS with or without Ta or T1 disease. In
+July 2022, we announced the FDA has accepted our BLA for review and
+set a target Prescription Drug User Fee Act (PDUFA) action date of
+21 May 23, 2023. It is unclear when the FDA will approve our BLA, if at
+all.
+The February 2023 Shelf Registration Statement also represented as
+follows:
+We have established Good Manufacturing Practice (GMP)
+manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.512 Page 55
+of 81
+1 146. In addition, the February 2023 Shelf Registration Statement expressly
+2 incorporated by reference the 2021 Form 10-K, the 1Q 2022 Form 10-Q, the 2Q 2022
+3 Form 10-Q, and the 3Q 2022 Form 10-Q, including the materially false and misleading
+4 statements set forth in ¶¶ 120-123, 125-126, 136-137, and 139-140.
+5 147. The statements identified in bold and italicized text in the paragraphs above
+6 were materially false and misleading when made, or omitted to state material facts
+7 necessary to make the statements not misleading, because, as described more fully
+8 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+9 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+10 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+11 to continue; (iii) the FDA observed an array of significant cGMP violations at the
+12 aforementioned facility during the pre-license inspection for Anktiva which indicated
+13 that the firm’s quality unit was not effectively exercising its authority and/or
+14 responsibilities; and, accordingly, (iv) the risks posed by a failure to comply with cGMP
+15 at a CMO that manufactured a product for ImmunityBio, particularly the active
+16 ingredient in its “lead” product candidate under review by the FDA, were not merely
+17 hypothetical; and (v) far from being “uncertain” if the FDA would approve the Anktiva
+18 BLA, any such approval was no longer viable.
+19 148. On March 1, 2023, ImmunityBio filed an annual report with the SEC on
+20 Form 10-K for the year ended December 31, 2022 (the “2022 Form 10-K”), which was
+21 signed by the Individual Defendants. The 2022 Form 10-K touted that the Company
+22 maintained cGMP manufacturing resources, stating in relevant part:
+23 We have established Good Manufacturing Practice (GMP)
+manufacturing capacity at scale with cutting-edge cell manufacturing
+expertise and ready-to-scale facilities, as well as extensive and seasoned
+25 research and development (R&D), clinical trial, and regulatory operations
+and development teams.
+The 2022 Form 10-K also assured investors that ImmunityBio develops its
+products in accordance with cGMP:
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.513 Page 56
+of 81
+ImmunityBio has adopted a strategic position to be vertically integrated
+and develop its products according to the FDA’s GMP standards for
+2 large-scale manufacturing, even during Phase 2 clinical trial development.
+Biological upstream and downstream manufacturing capabilities, with its
+attendant know-how and regulatory compliance for approval, have long
+4 lead times. We have adopted an approach for preparedness to provide our
+vaccine, immunotherapy and cell therapy products at a global scale. As
+such, we have established our own plants and have access to facilities on a
+6 global basis.
+In the 2022 Form 10-K, the Company boasted that the third-party it used to
+manufacture Anktiva, specifically, had robust manufacturing standards:
+For our N-803 product candidate, we have contracted with a multi-
+10 national biologics manufacturer with multiple cGMP-compliant facilities
+in the U.S., Europe and Asia for our current clinical trials and future
+commercial sales, if approved. The facilities have robust process
+12 development and validation and quality oversight with high-capacity
+production suites operating multiple 2,000-20,000L production bioreactors.
+The 2022 Form 10-K also outlined certain risks which “could” have a
+significant adverse impact on ImmunityBio’s business, financial condition, results of
+operations, or prospects if they came to pass, including the following:
+The manufacture of our product candidates is complex, and we may
+encounter difficulties in production, particularly with respect to process
+18 development, quality control, or scaling-up of our manufacturing
+capabilities. If we or our related parties, or any of our third-party
+manufacturers encounter such difficulties, our ability to provide
+adequate supply of our product candidates for clinical trials or our
+products for patients, if approved, could be delayed or stopped, or we may
+be unable to maintain a commercially viable cost structure.
+. . .
+Currently we manufacture our product candidates or we may use third-
+24 party CMOs or some of our related parties to manufacture our product
+candidates.
+. . .
+In addition, the manufacturing process and facilities for any products that
+we may develop are subject to FDA and foreign regulatory authority
+approval processes, and we or our CMOs will need to meet all applicable
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.514 Page 57
+of 81
+FDA and foreign regulatory authority requirements, including cGMP, on
+an ongoing basis. The cGMP requirements include quality control, quality
+2 assurance and the maintenance of records and documentation. The FDA
+and other regulatory authorities enforce these requirements through facility
+inspections. Manufacturing facilities must submit to pre-approval
+4 inspections by the FDA that will be conducted after we submit our
+marketing applications, including BLAs and NDAs, to the FDA.
+Manufacturers are also subject to continuing FDA and other regulatory
+6 authority inspections following marketing approval. Further, we and our
+third-party CMOs must supply all necessary Chemistry, Manufacturing and
+Controls (CMC) documentation in support of a BLA or NDA on a timely
+8 basis. Our or our CMOs’ manufacturing facilities may be unable to
+comply with our specifications, cGMP, and with other FDA, state, and
+foreign regulatory requirements, and there is no guarantee that we or our
+10 CMOs will be able to successfully pass all aspects of a pre-approval
+inspection by the FDA or other foreign regulatory authorities.
+Poor control of production processes can lead to the introduction of
+adventitious agents or other contaminants, or to inadvertent changes in the
+13 properties or stability of product candidates that may not be detectable in
+final product testing. If microbial, viral, environmental or other
+contaminants are discovered in our product candidates or in the
+15 manufacturing facilities in which our product candidates are made, such
+manufacturing facilities may need to be closed for an extended period of
+time to investigate and remedy the contamination which could delay
+17 clinical trials and adversely harm our business. If we or our CMOs are
+unable to reliably produce products to specifications acceptable to the
+FDA or other regulatory authorities, or in accordance with the strict
+19 regulatory requirements, we may not obtain or maintain the approvals we
+need to commercialize such products.
+21 152. Finally, the 2022 Form 10-K declared that it was “unclear” when, or if, the
+22 FDA would approve the pending Anktiva BLA:
+23 In May 2022, we announced the submission of a Biologics License
+Application (BLA) to the FDA for our product candidate, Anktiva in
+combination with BCG for the treatment of patients with BCG-
+25 unresponsive NMIBC with CIS with or without Ta or T1 disease. In
+July 2022, we announced that the FDA had accepted our BLA for review
+and set a target Prescription Drug User Fee Act (PDUFA) action date
+27 of May 23, 2023. It is unclear when the FDA will approve our BLA, if at
+all.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.515 Page 58
+of 81
+1 153. The statements identified in bold and italicized text in the paragraphs above
+2 were materially false and misleading when made, or omitted to state material facts
+3 necessary to make the statements not misleading, because, as described more fully
+4 above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+5 Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+6 failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+7 to continue; (iii) the FDA observed an array of significant cGMP violations at the
+8 aforementioned facility during the pre-license inspection for Anktiva which indicated
+9 that the firm’s quality unit was not effectively exercising its authority and/or
+10 responsibilities; and, accordingly, (iv) the risks posed by a failure to comply with cGMP
+11 at a CMO that manufactured a product for ImmunityBio, particularly the active
+12 ingredient in its “lead” product candidate under review by the FDA, were not merely
+13 hypothetical; and (v) far from being “uncertain” if the FDA would approve the Anktiva
+14 BLA, any such approval was no longer viable.
+15 154. On March 20, 2023, ImmunityBio filed a current report on Form 8-K with
+16 the SEC (the “March 20, 2023 Form 8-K”) to announce various ongoing business
+17 initiatives and updates, which was signed by Defendant Sachs. Among other things, the
+18 March 20, 2023 Form 8-K declared that it was “unclear” when, or if, the FDA would
+19 approve the pending Anktiva BLA:
+20 As previously disclosed, in May 2022 ImmunityBio, Inc. (the “Company”)
+announced the submission of a Biologics License Application (“BLA”) to
+the United States Food and Drug Administration (“FDA”) for N-803 in
+22 combination with bacillus Calmette-Guérin (“BCG”) for the treatment of
+patients with BCG-unresponsive NMIBC with carcinoma in situ (“CIS”)
+with or without Ta or T1 disease. In July 2022, we announced that the
+24 FDA had accepted our BLA for review and set a target Prescription Drug
+User Fee Act (“PDUFA”) action date of May 23, 2023. The Company
+continues to engage in ongoing discussions and dialogue with the FDA,
+26 including the proposed label for the product candidate under review in the
+BLA. It remains unclear if the FDA will approve our BLA on the
+PDUFA action date, if at all.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.516 Page 59
+of 81
+1 155. The March 20, 2023 Form 8-K also informed investors that the Company
+2 was focused on preparing for the approval of the Anktiva BLA:
+3 As the Company remains focused on preparing for the potential approval
+of the BLA by the FDA as described above, it intends to continue to
+explore opportunities to engage in incremental financing transactions to
+5 raise the working capital needed to fund the Company’s ongoing operations
+through the anticipated May 23, 2023 PDUFA date and execute the
+Company’s business strategy and initiatives.
+The statements identified in bold and italicized text in the paragraphs above
+were materially false and misleading when made, or omitted to state material facts
+necessary to make the statements not misleading, because, as described more fully
+above, ImmunityBio failed to disclose that (i) it relied on a CMO to manufacture
+Anktiva at a facility that suffered from a collection of serious and recurring cGMP
+failings; (ii) the aforementioned cGMP failings were not remediated and, thus, allowed
+to continue; (iii) the FDA observed an array of significant cGMP violations at the
+aforementioned facility during the pre-license inspection for Anktiva which indicated
+that the firm’s quality unit was not effectively exercising its authority and/or
+responsibilities; and, accordingly, (iv) far from being “uncertain” if the FDA would
+approve the Anktiva BLA, any such approval was no longer viable.
+THE TRUTH EMERGES
+During the Class Period, before the truth of Defendants’ fraud was
+revealed, the market as a whole remained in the dark as to the extensive and rampant
+cGMP failures at the CMO used by ImmunityBio to manufacture Anktiva. The market,
+including analysts who follow ImmunityBio, did not expect manufacturing issues to
+pose a threat to the approvability of the Anktiva BLA. For example, Piper Sandler
+analyst Joseph Catanzaro, Ph. D., said in a note on September 29, 2022 that, “overall we
+continue to see a high likelihood of approval” for the pending Anktiva BLA. The note
+acknowledged that there were “a few questions” that could pose obstacles to approval,
+but manufacturing issues was not one of them.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.517 Page 60
+of 81
+1 158. Thus, the market was shocked on May 11, 2023, when ImmunityBio,
+2 during pre-market hours, filed a current report with the SEC on Form 8-K (the “May 11,
+3 2023 Form 8-K”) which disclosed that, on May 9, 2023, the FDA delivered a CRL to
+4 the Company in response to the Anktiva BLA arising from deficiencies observed during
+5 the FDA’s pre-license inspection of its CMOs. Specifically, the May 11, 2023 Form 8-
+6 K disclosed, in relevant part:
+7 ImmunityBio, Inc. (the “Company”) announces that it has received a
+complete response letter from the U.S. Food and Drug Administration
+(“FDA”) on May 9, 2023 regarding its Biologics License Application
+9 (“BLA”) for its product candidate, Anktiva™ (N-803) in combination with
+Bacillus Calmette-Guérin (“BCG”) for the treatment of patients with BCG-
+unresponsive non-muscle invasive bladder cancer (“NMIBC”) with
+11 carcinoma in situ (“CIS”) with or without Ta or T1 disease. The letter
+indicates that the FDA has determined that it cannot approve the BLA in
+its present form, and the FDA has made recommendations to address the
+13 issues raised.
+14 The deficiencies relate to the FDA’s pre-license inspection of the
+Company’s third-party contract manufacturing organizations.
+Satisfactory resolution of the observations noted at the pre-license
+16 inspection is required before the BLA may be approved. The FDA further
+provided recommendations specific to additional Chemistry,
+Manufacturing and Controls (“CMC”) issues and assays to be resolved.
+On this news, ImmunityBio common stock fell $3.43 per share, or 55.14%,
+on heavy volume to close at $2.79 on May 11, 2023.
+ImmunityBio’s receipt of the CRL received widespread coverage in the
+press. Many stories linked the stock drop specifically to the CRL. For example,
+industry publication BioSpace reported on May 11, 2023, that “ImmunityBio took a hit
+on Thursday as the FDA rejected its bladder cancer treatment due to deficiencies with
+the company’s third-party contract manufacturer,” noting the stock was “down nearly
+60% in premarket trading.” Similarly, Seeking Alpha issued a story that day with the
+headline “ImmunityBio crashes 57% after FDA snub for cancer therapy.” A report by
+Yahoo Finance on May 12, 2023, also highlighted that “[s]hares of ImmunityBio IBRX
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.518 Page 61
+of 81
+1 were down 55.1% on Thursday after management announced that FDA issued a
+2 complete response letter (‘CRL’) to its biologics license application (‘BLA’) seeking
+3 approval for combination use of its lead pipeline candidate, Anktiva (N-803) . . . .”
+4 ADDITIONAL FACTS PROBATIVE OF SCIENTER
+5 161. The Individual Defendants acted with scienter because at the time they
+6 issued public documents and other statements in ImmunityBio’s name, they knew, or
+7 with extreme recklessness disregarded the fact that such statements were materially
+8 false and misleading or omitted material facts. The Individual Defendants knew such
+9 documents and statements would be issued or disseminated to the investing public,
+10 knew that persons were likely to rely upon those misrepresentations and omissions, and
+11 knowingly and recklessly participated in the issuance and dissemination of such
+12 statements and documents as primary violators of the federal securities laws.
+13 162. A holistic examination of the facts and circumstances, including those set
+14 forth below, collectively supports a strong inference that throughout the Class Period,
+15 Defendants knew or, at a minimum, recklessly disregarded, that their statements were
+16 materially false and misleading.
+17 A. Defendants Had A Known Duty to Ensure That the Their
+Manufacturing CMOs Complied with cGMP
+The FDA’s cGMP regulations recognize that sponsors commonly use
+CMOs to perform some or all manufacturing activities. See 21 C.F.R. § 200.10(b).
+These regulations specify that the sponsor remains legally responsible for approving or
+rejecting drug products that are manufactured by a CMO. See 21 C.F.R. § 211.22(a).
+Importantly, the FDA has emphasized that this duty is non-transferrable
+and non-delegable in a CMO arrangement. Accordingly, the FDA has advised that “if
+the license manufacturer enters into an agreement with a [CMO], the license
+manufacturer must ensure that the facility complies with the applicable standards,”
+including, specifically, cGMP. FDA, Guidance for Industry: Cooperative
+Manufacturing Arrangements for Licensed Biologics (2008).
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.519 Page 62
+of 81
+1 165. Consistent with the guidelines outlined above, the Individual Defendants
+2 knew that ImmunityBio was ultimately responsible for AGC’s compliance with
+3 applicable FDA rules and regulations, including cGMP, since before the start of the
+4 Class Period. In the same SEC filing on January 29, 2021 discussed above, Defendants
+5 Soon-Shiong and Adcock recognized that “our CMOs will need to meet all applicable
+6 FDA . . . requirements, including cGMP, on an ongoing basis,” but admitted, “to the
+7 extent we use CMOs, we are ultimately responsible for the manufacture of our
+8 products.” The Individual Defendants, including Defendant Sachs, made these same
+9 statements in ImmunityBio’s periodic reports filed during the Class Period.
+10 B. AGC Was Required to Share Manufacturing Information with
+ImmunityBio, Including Significant cGMP Issues
+Because the obligation to comply with cGMP is non-transferable, the FDA
+has advised for years that “[t]he license manufacturer must have a procedure in place for
+receiving information from a contract facility on all deviations, complaints, and adverse
+events” that arise during manufacturing. FDA, Guidance for Industry: Cooperative
+Manufacturing Arrangements for Licensed Biologics (2008). The FDA also suggested
+that CMO agreements should include “procedures to regularly assess the [CMO]’s
+compliance” including, but not limited to, “review of records and manufacturing
+deviations and defects, and periodic audits” as well as “assurance from the [CMO] that
+any FDA list of inspectional observations will be shared with the license manufacturer.”
+Id.
+In 2016, the FDA released new guidance which specified that “[t]here
+should be a written and approved contract or formal agreement between a company and
+its [CMOs] that defines in detail the GMP responsibilities, including quality measures,
+of each party.” ICH, Q7 Good Manufacturing Practice Guidance for Active
+Pharmaceutical Ingredients (2016). That FDA also specified that any “[c]hanges in the
+process, equipment, test methods, specifications, or other contractual requirements
+should not be made unless the contract giver is informed and approves of the change.”
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.520 Page 63
+of 81
+1 Id. Later that year, the FDA adopted further guidance which recommended that parties
+2 enter into “quality agreements” to do so. FDA, Contract Manufacturing Arrangements
+3 for Drugs: Quality Agreements, Guidance for Industry (2016). Consistent with its
+4 previous guidance, the FDA advised that such agreements should contain provisions for
+5 reporting, among other things, deviations, FDA inspection observations, proposed
+6 process changes, and all laboratory test results conducted by the CMO, including, in
+7 particular, any that generate results which are out of specification. Id.
+8 168. ImmunityBio maintained at least one such quality agreement with AGC
+9 during the Class Period (the “Quality Agreement”). As CW4 explained, the Quality
+10 Agreement that ImmunityBio had with AGC was “standard” and required AGC to
+11 provide typical information, including any deviations, out of specification tests and any
+12 FDA inspection observations. This was echoed by CW3, who indicated that the Quality
+13 Agreement required AGC to provide findings of any inspection by a government
+14 agency, batch records, batch disposition reports, certain deviation notices, and reports
+15 for any deviation investigations. As detailed by CW3, the extensive information
+16 contained in the batch records (¶ 68) were used by AGC to decide whether the batch
+17 was successful, in which case it signs off on a batch disposition and provides the same
+18 records to ImmunityBio so it could perform the same analysis. According to CW3,
+19 ImmunityBio was “100 percent” aware of each instance when AGC missed a target date
+20 for batch disposition through this reporting mechanism.
+21 169. As is standard, the Quality Agreement during the start of CW3 tenure only
+22 required AGC to notify ImmunityBio about certain types of deviations from the
+23 established manufacturing process, including, for example, those deemed “critical.” But
+24 CW3 reported that between August 2021 and November 2022, there was “a verbal or
+25 written agreement for all deviations.” According to CW3, this change was made
+26 because “they [ImmunityBio] wanted to see all of them,” even those classified as minor.
+27 Thereafter, said CW3, “they [ImmunityBio] had direct awareness of all the deviations
+28 and problems that arose with each of the batches from a quality perspective.”
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.521 Page 64
+of 81
+1 170. In addition, AGC maintained a variety of internal policies that required it to
+2 either notify ImmunityBio or obtain its approval for certain matters. For example,
+3 AGC’s internal policy for stability testing required it to confirm with ImmunityBio, in
+4 the event testing must be performed outside the test window, that samples can be
+5 returned to the long-term storage location until testing can be performed.
+6 171. Consistent with these reporting mechanisms, as described above, it was
+7 common knowledge in ImmunityBio’s manufacturing and quality departments from
+8 approximately mid-2021 through February 2023 that AGC suffered from myriad cGMP
+9 problems, including a recurring inability to timely release batch records, close
+10 deviations, conduct stability testing, and running out of critical reference material
+11 needed for testing. Indeed, CW1 pointed out that ImmunityBio began to “remind” AGC
+12 at each test window to perform the testing because of the known buildup of misses
+13 before the Anktiva BLA.
+14 C. The Individual Defendants Were Intimately Aware of the Significant
+cGMP Failings at AGC Throughout the Class Period
+As provided above (¶¶ 68-71), AGC was consistently unable to provide
+batch records, deviation reports, and stability tests on schedule throughout the Class
+Period. CW3 explained that timely batch disposition was especially “important” to
+ImmunityBio leadership in 2021 because the results were needed for the Anktiva BLA.
+Numerous CWs confirm that Defendant Adcock regularly met with AGC
+executives during the Class Period to discuss the firm’s continued delays. CW3
+attended monthly meetings with Adcock and ImmunityBio’s Chief Operating Officer,
+Leonard Sender, beginning in August 2021, during which they discussed missed target
+dates for batch dispositions and deviation close outs. CW3 said these meetings became
+more frequent in the lead up to the FDA inspection. CW1 was personally aware of
+approximately 10 such meetings between mid-2021 and 2022 attended by Adcock and
+Sender as well as ImmunityBio’s Senior Director of Quality Control, Scott Yuen. This
+is consistent with the account of CW4, who recalled that Adcock and Sender were
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.522 Page 65
+of 81
+1 meeting with AGC’s senior executives “every other week” during this time. CW4
+2 emphasized that Adcock and Sender were meeting with AGC so often because AGC
+3 was extremely late submitting batch records for ImmunityBio to review for final release.
+4 174. CW3 also confirmed that Adcock and Sender discussed the PPQ runs
+5 during the routine meetings they held with AGC.
+6 175. According to CW1, in 2022, ImmunityBio placed contract workers in the
+7 AGC facility to assist with the growing backlog because AGC was unable to fix the
+8 problem on its own. CW1 heard from colleagues that the contract workers were a
+9 significant cost and would have, at the very least, required Defendant Sachs approval.
+10 Unfortunately, even after this, AGC was still unable to stay on schedule, said CW1.
+11 176. Notably, CW2 said that Defendant Soon-Shiong “personally reviewed” and
+12 “approved” the Anktiva BLA before it was filed. CW2 became aware of this from a
+13 colleague who explained that the Company was waiting for Soon-Shiong to sign off
+14 before formally submitting the BLA. This is notable because the BLA would need to
+15 address, among other things, the significant number of missed stability checks as well as
+16 the failed batch runs of Anktiva that took place before then.
+17 177. Between the BLA filing and the FDA’s pre-license inspection,
+18 ImmunityBio continued to work with AGC to shore up its cGMP deficiencies. For
+19 example, CW2 advised that, before departing the Company in November 2022,
+20 ImmunityBio maintained a spreadsheet internally known as the “pre-approval inspection
+21 tracker” which cataloged, in detail, all of the potential cGMP issues at each
+22 manufacturing location, including AGC. CW2 commented that “there were a lot of eyes
+23 on that,” and confirmed that ImmunityBio leadership reviewed it.
+24 178. As provided above (¶ 77), the FDA notified AGC on November 1, 2022,
+25 that it planned to hold a pre-license inspection at the facility it used to manufacture
+26 Anktiva in February 2023. In connection therewith, the FDA informed AGC that the
+27 inspection would span two weeks and involve six inspectors. CW3 noted that this is
+28 “on the far side of the high intensity spectrum,” explaining that pre-approval inspections
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.523 Page 66
+of 81
+1 of this type are typically conducted by one or two inspectors over several days. CW3
+2 confirmed that AGC shared this information with ImmunityBio and recalled that, upon
+3 learning about the scope of the inspection, “everybody was nervous” at ImmunityBio,
+4 including Defendants Soon-Shiong and Adcock. In fact, CW3 said “they were very
+5 concerned” after learning this.
+6 179. CW3 said that this prompted ImmunityBio to hold a “mock” inspection for
+7 several days in January 2023 in which its representatives had full access to its
+8 documentation and facilities. As CW3 explained, “they [ImmunityBio] wouldn’t have
+9 asked for a pre-audit if they weren’t concerned.” CW3 emphasized that Defendant
+10 Adcock and Leonard Sender were “intricately involved” in the mock inspection,
+11 including “the planning of it, the execution of it, the results of it—all aspects.” Neither
+12 attended the audit itself, but CW3 indicated that they were updated along the way. CW1
+13 also recalled that ImmunityBio conducted its own inspection at AGC in or around
+14 January 2023 and confirmed that Scott Yuen attended the mock inspection from
+15 ImmunityBio.
+16 180. Both CW3 and CW1 recalled that the mock inspection uncovered a host of
+17 objectionable conditions that required remediation by AGC before the FDA’s official
+18 inspection in February 2023. Among other things, CW3 recalled that one of
+19 ImmunityBio’s specialists identified gaps and weaknesses in AGC’s data integrity
+20 system. CW1 learned from Scott Yuen, who attended the mock inspection, that the
+21 observations noted deficiencies in cGMP compliance, including general concerns about
+22 AGC’s repeated testing delays. CW3 confirmed that ImmunityBio’s top leadership was
+23 made fully aware of the findings of the mock inspection at the time it concluded.
+24 Indeed, CW3 personally presented the findings of the mock inspection to Defendant
+25 Adcock and Leonard Sender.
+26 181. Based on the findings from the mock inspection, CW3 said that
+27 ImmunityBio leadership became engaged “on a very technical level” with prep for the
+28 FDA inspection because they “knew this could be a risk.” Among other things,
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.524 Page 67
+of 81
+1 ImmunityBio assembled a list of all “gaps” that needed to be closed before the FDA
+2 inspection. But CW3 reported that the team was unable to close all gaps before the
+3 FDA inspection. As CW3 explained, “there wasn’t enough time between the pre-audit
+4 and the actual audit to completely cover everything.”
+5 182. The FDA’s pre-license inspection at AGC took place between February 2,
+6 2023, and February 10, 2023. CW3 confirmed that ImmunityBio sent at least six
+7 representatives to attend the inspection, and there was a plan in place on how to update
+8 ImmunityBio on the progress of the inspection.
+9 183. However, as CW3 highlighted, the plan changed after the FDA observed a
+10 number of deficiencies on the first day of the inspection. Leonard Sender got “nervous”
+11 after hearing this from AGC and, soon thereafter, Defendant Soon-Shiong demanded
+12 that he wanted a personal call at the end of each day to discuss how the inspection went
+13 that day between ImmunityBio’s top leadership and AGC’s top leadership, including
+14 CW3. In addition, Defendant Adcock flew up to Washington overnight to be present
+15 for the next several days of the inspection.
+16 184. As the inspection progressed, the ImmunityBio management team became
+17 increasingly anxious. At first, Soon-Shiong demanded that CW3 allow ImmunityBio
+18 employees to be “in the room” with the inspectors. CW3 refused because it would be
+19 improper, which sent Soon-Shiong into “yelling.” Eventually CW3 agreed to have an
+20 AGC employee frequently feed information back to ImmunityBio leadership about what
+21 was happening, for example, “here are the discussions going on, here are the questions
+22 the FDA is asking, here’s how we intend to answer.” CW3 commented “[i]t was as real
+23 time as possible.” In addition, CW3 verified that the daily leadership call demanded by
+24 Soon-Shiong took place as scheduled every day after the end of the inspection. CW3
+25 participated on the calls and added that they were attended on the ImmunityBio side by
+26 Defendants Soon-Shiong and Adcock as well as Leonard Sender. The Individual
+27 Defendants were fully informed about the results of the FDA’s pre-license inspection.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.525 Page 68
+of 81
+D. The Fact That ImmunityBio Initiated Plans to Manufacture Anktiva
+1 In-House Supports an Inference of Scienter
+2 185. The inference that Defendants were aware of the subpar manufacturing
+3 standards and cGMP failures at AGC, and thus the inference of scienter, is further
+4 supported by the fact that ImmunityBio initiated plans to manufacture Anktiva in-house
+5 midway through the Class Period. Specifically, by no later than March 1, 2022,
+6 ImmunityBio initiated plans to establish a cGMP-compliant facility in California, which
+7 included a large space for the production of antibodies and fusion proteins, including,
+8 specifically, Anktiva.
+9 186. The process of building a cGMP-compliant facility, either from an existing
+10 space or from scratch, is very time-consuming and expensive. Similarly, the process of
+11 “transferring” the manufacturing technology from one facility to another consistent with
+12 the specifications for the product is also very time-consuming and expensive. These
+13 activities independently and in combination would require new FDA approvals.
+14 187. At the very least, ImmunityBio would not take on the significant cost and
+15 time required to build, qualify, and receive approval for such a facility if it was satisfied
+16 with the services provided to it by AGC.
+17 E. FDA Approval of Anktiva Was Critical to ImmunityBio’s Financial
+Success
+It is reasonable to infer that Defendants were aware of the manufacturing
+issues that AGC reported or otherwise communicated to ImmunityBio, including the
+inspection observations made by the FDA in March 2021 and July 2021, given the
+critical importance of the Anktiva BLA to ImmunityBio’s continued success. As of the
+start of the Class Period, ImmunityBio was a clinical-stage company with no approved
+drugs and, thus, no source of meaningful revenues. At the time its “lead” product
+candidate, and by far the most developed in its product portfolio, was Anktiva. As such,
+on January 29, 2021, Defendants Soon-Shiong and Adcock stated in SEC filings made
+in connection with the Legacy ImmunityBio-NantKwest merger that “[t]he combined
+company’s business depends entirely on the successful development, regulatory
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.526 Page 69
+of 81
+1 approval and commercialization” of its three main product candidates, including
+2 Anktiva. Adcock made this same statement in an SEC filing on March 10, 2021.
+3 F. Soon-Shiong Was a Controlling Hands-On Manager
+4 189. According to CW3, Defendant Soon-Shiong was an “extreme control
+5 freak.” As CW3 explained, it was not uncommon for Soon-Shiong to yell at people
+6 during business meetings. CW3 also witnessed meetings where Soon-Shiong was
+7 “telling everybody what to do.” It appeared to CW3 that Soon-Shiong was the one
+8 calling the shots at ImmunityBio, often issuing orders to Defendant Adcock, CEO of
+9 ImmunityBio.
+10 G. Respondeat Superior and Agency Principles Apply
+11 190. ImmunityBio is liable for the acts of the Individual Defendants and other
+12 Company officers, directors, employees, and agents under the doctrine of respondeat
+13 superior and common law principles of agency as all wrongful acts alleged herein were
+14 carried out within the scope of their employment or agency with the authority or
+15 apparent authority to do so. The scienter of the Individual Defendants and other
+16 Company officers, employees , and agents is therefore imputable to ImmunityBio.
+17 LOSS CAUSATION
+18 191. At all relevant times, ImmunityBio common stock traded in an open, well-
+19 developed, and efficient market which promptly digested new information regarding the
+20 Company from all reasonably accessible public sources and reflected such information
+21 in the price of ImmunityBio’s common stock.
+22 192. As described above, throughout the Class Period, Defendants made false
+23 and misleading statements which misrepresented and/or failed to disclose the adverse
+24 facts detailed herein. Defendants’ false and misleading statements caused ImmunityBio
+25 securities to trade at artificially inflated prices throughout the Class Period and, thus,
+26 operated as a fraud or deceit on Lead Plaintiff and other members of the Class who
+27 purchased or otherwise acquired such securities before such the inflation was removed.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.527 Page 70
+of 81
+1 193. As detailed herein, the price of ImmunityBio common stock fell
+2 precipitously on high volume in response to disclosures made by the Company on May
+3 11, 2023. The price of ImmunityBio common stock fell in response to each such
+4 disclosure by revealing information that removed part of the inflation introduced by
+5 Defendants’ previous misstatements and omissions, causing real economic loss to Lead
+6 Plaintiff and other members of the Class who purchased ImmunityBio common stock
+7 during the Class Period at inflated prices.
+8 194. Each decline in the price of ImmunityBio common stock referenced above
+9 was a direct and proximate result of Defendants’ misstatements or omissions being
+10 revealed to the market and/or the materialization of risks concealed by the fraud. The
+11 timing and magnitude of each such price decline negates any inference that the losses
+12 suffered by Lead Plaintiff and other members of the Class were caused by changed
+13 market conditions, macroeconomic factors, or Company-specific facts unrelated to the
+14 fraud alleged herein.
+15 195. Accordingly, Defendants’ wrongful conduct directly and proximately
+16 caused Lead Plaintiff and other members of the Class to suffer economic losses, i.e.,
+17 damages under the federal securities laws.
+18 PRESUMPTION OF RELIANCE
+19 196. Lead Plaintiff and the Class is entitled to a presumption of reliance under
+20 the fraud-on-the-market doctrine adopted by the Supreme Court in Basic v. Levinson,
+21 485 U.S. 224 (1998). Such a presumption is appropriate because, among other things:
+22 (a) during the Class Period, Defendants made public misrepresentations
+23 or failed to disclose material facts necessary to make the public statements that were
+24 made not misleading;
+25 (b) such misrepresentations and/or omissions were material;
+26 (c) the Company’s common stock traded in an efficient market;
+27 (d) the misrepresentations and/or omissions would tend to induce a
+28 reasonable investor to misjudge the value of ImmunityBio’s common stock; and
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.528 Page 71
+of 81
+1 (e) Lead Plaintiff and other members of the Class purchased
+2 ImmunityBio common stock between the time Defendants misrepresented or failed to
+3 disclose material facts necessary to make the statements that were made not misleading
+4 and the time the true facts were disclosed, without knowledge of the true and/or omitted
+5 facts.
+6 197. At all relevant times, the market for ImmunityBio’s common stock was
+7 efficient for the following reasons, among others:
+8 (a) ImmunityBio’s common stock met the requirements for listing, and
+9 were listed, on the NASDAQ, a highly efficient and automated market;
+10 (b) as a regulated issuer, ImmunityBio filed periodic public reports with
+11 the SEC;
+12 (c) throughout the Class Period, ImmunityBio’s common stock was
+13 highly liquid, with an average daily trading volume of 1.9 million shares;
+14 (d) ImmunityBio regularly communicated with public investors via
+15 established market communication mechanisms, including through regular
+16 dissemination of press releases on the national circuits of major newswire services and
+17 through other wide-ranging public disclosures, such as communications with the
+18 financial press and other similar reporting services; and/or
+19 (e) ImmunityBio was followed by securities analysts employed by
+20 brokerage firms who wrote reports about the Company, and these reports were
+21 distributed to the sales forces and certain customers of their respective brokerage firms,
+22 and, thus, entered the public marketplace; and
+23 (f) unexpected company-specific news was reflected and incorporated
+24 into the stock price for ImmunityBio’s common stock.
+25 198. As a result of the foregoing, the market for ImmunityBio’s common stock
+26 promptly digested new information regarding the Company from all reasonably
+27 accessible public sources and reflected such information in the price of ImmunityBio’s
+28 common stock. Under these circumstances, all purchasers of ImmunityBio common
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.529 Page 72
+of 81
+1 stock during the Class Period suffered similar injury through their purchase of such
+2 securities at artificially inflated prices, and a presumption of reliance applies.
+3 199. A Class-wide presumption of reliance is also appropriate under the
+4 Supreme Court’s holding in Affiliated Ute Citizens of Utah v. United States, 406 U.S.
+5 128 (1972), because the Class’s claims center, in large part, upon Defendants’ material
+6 omissions. Because this action involves Defendants’ failure to disclose material adverse
+7 information regarding the Company’s business operations and financial prospects—
+8 information that Defendants were obligated by law to disclose—positive proof of
+9 reliance is not a prerequisite to recovery.
+10 NO SAFE HARBOR
+11 200. The statutory safe harbor provided for forward-looking statements under
+12 certain circumstances does not apply to any of the statements alleged to be false or
+13 misleading herein.
+14 201. None of the statements alleged herein to be false or misleading are
+15 forward-looking statements. Such statements address facts and conditions existing at
+16 the time the statements were made. Furthermore, none of the historic or present-tense
+17 statements alleged herein to be false or misleading were assumptions underlying or
+18 relating to any plan, projection, or statement of future economic performance, as they
+19 were not stated to be such an assumption when made, nor were any of the projections or
+20 forecasts made by Defendants expressly related to or stated to be dependent on those
+21 historic or present-tense statements when made.
+22 202. To the extent certain of the statements alleged herein to be false or
+23 misleading may be characterized as forward-looking, they were not identified as
+24 “forward-looking statements” when made, and they were not accompanied by any
+25 meaningful cautionary statements identifying important factors that could cause actual
+26 results to differ materially from those in the purportedly forward-looking statements.
+27 Any purported cautionary language warned only of theoretical future risks at times
+28 when the risks were not merely hypothetical Moreover, the purported cautionary
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.530 Page 73
+of 81
+1 language failed to adjust over time, using the same theoretical tone even after concrete
+2 changes of circumstance. In the alternative, Defendants are liable for those forward-
+3 looking statements because at the time each such statement was made, the speaker had
+4 actual knowledge, or recklessly disregarded the risk, that the forward-looking statement
+5 was materially false or misleading, and/or the forward-looking statement was authorized
+6 or approved by an executive officer of ImmunityBio who knew, or recklessly
+7 disregarded the risk, that the statement was false when made.
+8 CLASS ACTION ALLEGATIONS
+9 203. Lead Plaintiff brings this action as a class action pursuant to Rule 23 of the
+10 Federal Rules of Civil Procedure on behalf of Class consisting of all persons and entities
+11 other than Defendants that purchased or otherwise acquired ImmunityBio common
+12 stock between March 7, 2021 and May 10, 2023, both dates inclusive, and were
+13 damaged thereby.
+14 204. The members of the Class are so numerous and geographically dispersed
+15 that joinder of all members is impracticable. The disposition of their claims in a class
+16 action will provide substantial benefits to the parties and the Court. During the Class
+17 Period, ImmunityBio common stock was actively traded on the NASDAQ. As of May
+18 5, 2023, there were approximately 435,984,529 shares of ImmunityBio common stock
+19 outstanding. While the exact number of Class members is unknown to Lead Plaintiff at
+20 this time and can be ascertained only through appropriate discovery, Lead Plaintiff
+21 believes that there are hundreds or thousands of members in the proposed Class. Record
+22 owners and other members of the Class may be identified from records maintained by
+23 ImmunityBio or its transfer agent, and may be notified of the pendency of this action by
+24 mail, using a form of notice similar to that customarily used in securities class actions.
+25 205. Lead Plaintiff’s claims are typical of the claims of the members of the
+26 Class. All members of the Class were similarly affected by Defendants’ wrongful
+27 conduct in violation of the Exchange Act, as complained of herein.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.531 Page 74
+of 81
+1 206. Lead Plaintiff will fairly and adequately protect the interests of the
+2 members of the Class and has retained counsel competent and experienced in class
+3 actions and securities litigation. Lead Plaintiff has no interests antagonistic to, or in
+4 conflict with, those of the Class.
+5 207. Common questions of law and fact exist as to all members of the Class and
+6 predominate over any questions solely affecting individual members of the Class,
+7 including:
+8 (a) whether Defendants’ acts alleged herein violated the federal
+9 securities laws and/or SEC rules promulgated thereunder;
+10 (b) whether Defendants’ statements during the Class period
+11 misrepresented material facts or omitted material facts necessary in order to make the
+12 statements made, in the circumstances under which they were made, not misleading;
+13 (c) whether Defendants made such statements;
+14 (d) whether Defendants acted with the requisite level of scienter;
+15 (e) whether and to what extent the material misstatements and omissions
+16 alleged herein artificially inflated the market price of ImmunityBio common stock; and
+17 (f) whether the members of the Class have sustained damages and, if so,
+18 the proper measure of damages.
+19 208. A class action is superior to all other available methods for the fair and
+20 efficient adjudication of this controversy because, among other reasons, joinder of all
+21 members is impracticable. Furthermore, as the damages suffered by individual
+22 members of the Class may be relatively small, the expense and burden of individual
+23 litigation make it impossible for members of the Class individually to redress the
+24 wrongs done to them individually. There will be no difficulty in the management of this
+25 action as a class action.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.532 Page 75
+of 81
+COUNT I
+(Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5
+2 Against All Defendants)
+3 209. Lead Plaintiff repeats and realleges every allegation pleaded above as if
+4 fully set forth herein.
+5 210. This Count is brought against Defendants under Section 10(b) of the
+6 Exchange Act, codified at 15 U.S.C. § 78j(b), and Rule 10b-5 promulgated thereunder
+7 by the SEC, codified at 17 C.F.R. § 240.10b-5.
+8 211. Throughout the Class Period, Defendants, individually and in concert,
+9 directly or indirectly, by use of the means or instrumentalities of interstate commerce,
+10 including but not limited to the mails and the internet, and/or the facilities of the
+11 NASDAQ, engaged in a plan, scheme, conspiracy and course of conduct, pursuant to
+12 which they knowingly or recklessly engaged in acts, transactions, practices and courses
+13 of business which operated as a fraud and deceit upon Lead Plaintiff and the other
+14 members of the Class; made various untrue statements of material facts and omitted to
+15 state material facts necessary in order to make the statements made, in light of the
+16 circumstances under which they were made, not misleading; and employed devices,
+17 schemes and artifices to defraud in connection with the purchase and sale of securities.
+18 212. As alleged herein, Defendants made or otherwise caused ImmunityBio to
+19 issue the materially false or misleading statements specified above. Specifically, the
+20 Individual Defendants participated directly or indirectly in the preparation, approval
+21 and/or issuance of public disclosures specified above that contained untrue statements of
+22 material fact and/or omitted material facts necessary to make the statements therein not
+23 misleading. Such scheme was intended to, and did, as alleged herein: (i) deceive the
+24 investing public, including Lead Plaintiff and other Class members; (ii) artificially
+25 inflate and maintain the market price of ImmunityBio common stock; and (iii) cause
+26 Lead Plaintiff and other members of the Class to purchase or otherwise acquire
+27 ImmunityBio common stock at artificially inflated prices.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.533 Page 76
+of 81
+1 213. As set forth above, the Individual Defendants knew or were reckless in not
+2 knowing that such statements, when made, were false or misleading, in that they
+3 contained material misrepresentations or otherwise failed to disclose material facts
+4 necessary in order to make the statements made, in light of the circumstances under
+5 which they were made, not misleading.
+6 214. ImmunityBio is liable for the acts of its executives, directors, officers, and
+7 agents, including the Individual Defendants, at common law and under the doctrine of
+8 respondeat superior because all the wrongful acts and omissions complained of herein
+9 were carried out within the scope of such person’s employment. The scienter of
+10 ImmunityBio’s executives, directors, officers, and agents, including the Individual
+11 Defendants, is similarly imputed to ImmunityBio under established agency principles.
+12 215. As a result of the foregoing, the market price of ImmunityBio’s common
+13 stock was artificially inflated during the Class Period. Lead Plaintiff and other members
+14 of the Class relied on the integrity of the market price for ImmunityBio common stock
+15 during the Class Period and paid prices for such securities that were artificially inflated
+16 as a result of the false and misleading statements described herein. Lead Plaintiff and
+17 members of the Class would not have purchased such securities at the prices they paid,
+18 or at all, if they had been aware that the market prices of such securities was artificially
+19 inflated by Defendants’ false and misleading statements.
+20 216. As a direct and proximate result of Defendants’ wrongful conduct, Lead
+21 Plaintiff and the other members of the Class have suffered damages in connection with
+22 their purchases of ImmunityBio common stock during the Class Period.
+23 217. By reason of the foregoing, Defendants are liable to Lead Plaintiff and
+24 members of the Class for violations of Section 10(b) of the Exchange Act and Rule 10b-
+25 5 promulgated thereunder.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.534 Page 77
+of 81
+COUNT II
+(Violations of Section 20(a) of the Exchange Act
+2 Against Defendants the Individual Defendants)
+3 218. Lead Plaintiff repeats and realleges every allegation pleaded above as if
+4 fully set forth herein.
+5 219. This Count is brought against the Individual Defendants under Section
+6 20(a) of the Exchange Act, codified at 15 U.S.C. § 78t(a).
+7 220. As alleged above, Defendants, and each of them, violated Section 10(b) of
+8 the Exchange Act and SEC Rule 10b-5 promulgated thereunder by making materially
+9 false and misleading statements and omitted material information in connection with the
+10 purchase and sale of the Company’s common stock and by participating in a fraudulent
+11 scheme and course of business or conduct throughout the Class Period.
+12 221. Throughout the Class Period, the Individual Defendants had direct and
+13 supervisory involvement in the day-to-day operations of ImmunityBio and, therefore,
+14 are presumed to have had the power to control or influence the particular transactions
+15 giving rise to the securities violations alleged herein, and exercised the same.
+16 222. As officers and/or directors of a publicly owned company, the Individual
+17 Defendants also had a duty to disseminate accurate and truthful information with respect
+18 to ImmunityBio’s business, operations, financial condition, and prospects. In this
+19 capacity, the Individual Defendants were provided with or had unlimited access to
+20 copies of the Company’s reports, press releases, public filings, and other statements
+21 alleged by Lead Plaintiff to be false or misleading prior to and/or shortly after these
+22 statements were issued and had the ability to prevent the issuance of the statements or
+23 cause the statements to be corrected.
+24 223. Thus, by virtue of their positions as senior officers and/or directors of
+25 ImmunityBio, the Individual Defendants had the power to influence and control, and did
+26 influence and control, directly or indirectly, the decision-making of the Company,
+27 including the content and dissemination of the false and misleading statements alleged
+28 herein to give rise to the primary violations alleged herein. Indeed, the Individual
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.535 Page 78
+of 81
+1 Defendants exercised their power and authority to cause ImmunityBio to engage in the
+2 wrongful acts alleged herein or personally participate in the unlawful conduct alleged.
+3 224. By reason of the foregoing, the Individual Defendants are liable to Lead
+4 Plaintiff and members of the Class for violations of Section 20(a) of the Exchange Act.
+5 PRAYER FOR RELIEF
+6 WHEREFORE, Lead Plaintiff prays for judgment against Defendants as follows:
+7 A. Declaring that this action may be maintained as a class action under Rule
+8 23 of the Federal Rules of Civil Procedure, and certifying Lead Plaintiff as the class
+9 representative;
+10 B. Awarding compensatory damages in favor of Lead Plaintiff and the other
+11 members of the Class against all Defendants, jointly and severally, for all damages
+12 sustained as a result of Defendants’ wrongdoing, in an amount to be proven at trial,
+13 including interest thereon;
+14 C. Awarding Lead Plaintiff and the Class their reasonable costs and expenses
+15 incurred in connection with this action, including reasonable attorneys’ fees and costs
+16 incurred by consulting and testifying experts; and
+17 D. Awarding such other and further relief as the Court deems just and proper.
+18 JURY TRIAL DEMANDED
+Lead Plaintiff hereby demands a trial by jury on all issues so triable.
+AMENDED CLASS ACTION COMPLAINT: Case No. 3:23-cv-01216-GPC-DEB
+Case 3:23-cv-01216-GPC-VET Document 37 Filed 11/17/23 PageID.536 Page 79
+of 81
+Dated: November 17, 2023 Respectfully submitted,
+2 POMERANTZ LLP
+/s/ Justin D. D’Aloia
+4 Jeremy A. Lieberman (pro hac vice)
+(NY Bar # 4161352)
+Justin D. D’Aloia (pro hac vice) (NY
+6 Bar # 4935979)
+600 Third Avenue, 20th Floor
+New York, New York 10016
+8 Telephone: (212) 661-1100
+Facsimile: (212) 661-8665
+jalieberman@pomlaw.com
+10 jdaloia@pomlaw.com
+Jennifer Pafiti (SBN 282790)
+12 1100 Glendon Avenue, 15th Floor
+Los Angeles, California 90024
+Telephone: (310) 405-7190
+Facsimile: (917) 463-1044
+jpafiti@pomlaw.com
+Counsel for Lead Plaintiff and Co-Lead
+Counsel for the Proposed Class
+HOLZER & HOLZER, LLC
+Corey D. Holzer (pro hac vice
+forthcoming)
+211 Perimeter Center Parkway
+Suite 1010
+Atlanta, Georgia 30346

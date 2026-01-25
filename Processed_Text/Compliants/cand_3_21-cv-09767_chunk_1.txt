@@ -1,0 +1,1921 @@
+v. COMPLAINT
+ROBINHOOD MARKETS, INC., VLADIMIR
+17 TENEV, JASON WARNICK, BAIJU BHATT,
+JAN HAMMER, PAULA LOOP, JONATHAN
+18 RUBENSTEIN, SCOTT SANDELL, ROBERT JURY TRIAL DEMANDED
+ZOELLICK, GOLDMAN SACHS & CO. LLC,
+19 J.P. MORGAN SECURITIES LLC,
+BARCLAYS CAPITAL INC., WELLS FARGO
+20 SECURITIES, LLC, MIZUHO SECURITIES
+USA LLC, JMP SECURITIES LLC,
+21 KEYBANC CAPITAL MARKETS INC.,
+PIPER SANDLER & CO., ROSENBLATT
+22 SECURITIES INC., BMO CAPITAL
+MARKETS CORP., BTIG, LLC,
+23 SANTANDER INVESTMENT SECURITIES
+INC., ACADEMY SECURITIES, INC., LOOP
+24 CAPITAL MARKETS LLC, SAMUEL A.
+RAMIREZ & COMPANY, INC., and SIEBERT
+25 WILLIAMS SHANK & CO., LLC,
+26 Defendants.
+AMENDED CLASS ACTION COMPLAINT
+1 Plaintiffs Vinod Sodha and Amee Sodha (“Lead Plaintiffs”) make the following
+2 allegations, individually and on behalf of all others similarly situated, by and through Lead
+3 Plaintiffs’ counsel, upon information and belief, except as to those allegations concerning Lead
+4 Plaintiffs, which are alleged upon personal knowledge. Lead Plaintiffs’ information and belief are
+5 based upon, inter alia, counsel’s investigation, which included, among other things, review and
+6 analysis of: (i) regulatory filings made by Robinhood Markets, Inc. (“Robinhood” or the
+7 “Company”) with the United States Securities and Exchange Commission (“SEC”); (ii) press
+8 releases and media reports issued and disseminated by the Company; (iii) analyst reports and
+9 media reports; and (iv) interviews with former employees and contractors of Robinhood, as well
+10 as other publicly available information about the Company. Lead Plaintiffs believe that substantial
+11 evidentiary support will exist for the allegations set forth herein after a reasonable opportunity for
+12 discovery.
+13 NATURE AND SUMMARY OF THE ACTION
+14 1. Lead Plaintiffs bring this federal class action under §§11, 12, and 15 of the
+15 Securities Act of 1933 (“Securities Act”) against: (i) Robinhood; and (ii) certain of the Company’s
+16 senior executives and directors who signed the Registration Statement, effective July 28, 2021,
+17 issued in connection with the Company’s initial public offering (the “IPO” or the “Offering”), and
+18 the underwriters of the Offering. Plaintiffs allege that the Registration Statement and Prospectus
+19 (collectively, the “Offering Documents”), contained materially false and misleading statements
+20 and omitted material information that was required by law to be disclosed. Defendants are each
+21 strictly liable for such misstatements and omissions (subject only to their ability to establish a “due
+22 diligence” affirmative defense).
+23 2. Robinhood Markets, Inc. is a financial services company headquartered in Menlo
+24 Park, California. It is primarily known for its brokerage services, which customers typically access
+25 through apps installed on their mobile devices.
+26 3. On or about July 30, 2021, Robinhood conducted a large IPO premised on the
+27 representation that the Company was successfully executing a revolutionary strategy to
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 “democratize” investing and thereby achieving massive growth as measured by revenue and the
+2 Company’s Key Performance Indicators” (“KPI”). On the basis of these claims in the Offering
+3 Documents, Robinhood and the other Defendants offered 55 million shares of common stock to
+4 the public at a price of $38 per share (the “Offering Price”) for proceeds of over $2 billion.
+5 4. According to the Offering Documents, Robinhood’s mission was to “democratize
+6 finance for all.” The Company claimed to be riding a profound transformation in how people think
+7 about money driven by the emergence of younger investors and non-traditional investors such as
+8 “gig economy workers.” The pillars of Robinhood’s strategy to reach these new and/or non-
+9 traditional investors supposedly were: (i) a primary focus on the safety and reliability of
+10 Robinhood’s trading platform; (ii) a focus on the needs of smaller investors; (iii) a “radical” focus
+11 on responding to customer problems and feedback; and (iv) a willingness to make “bold bets” that
+12 challenge the status quo.
+13 5. Robinhood claimed that its strategy allowed it to achieve massive growth. In its
+14 words, “Our mission to democratize finance for all drives our revenue model” and “We have grown
+15 rapidly and achieved significant scale in recent periods.” As proof of its successful strategy,
+16 Robinhood presented its revenue and KPI performance data through June 30, 2021, filling the
+17 Offering Documents with charts and tables depicting exponential growth. For example, the
+18 Offering Documents heavily touted the growth in Robinhood’s number of Monthly Active Users
+19 (“MAU”), which, rose from 4.3 million by year end 2019, to 11.7 million by year end 2020, to
+20 17.7 million by March 31, 2021, and which Robinhood stated would be 21.3 million for the three
+21 months ended June 30, 2021, the quarter that ended the month before the IPO:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+MAU (IN MILLIONS)
+3 21.3
+20 17.7
+5 11.7
+4.3
+8 0
+2019 (A) 2020 (A) 1Q21 (A) 2Q21 (E)
+Likewise, the Offering Documents emphasized the Company’s revenue growth,
+which rose nearly sequentially quarter over quarter. For example, from $224.2 million for the
+three months ended June 30, 2020, to $269.5 million for the three months ended September 30,
+2020, to $317.5 million for the three months ended December 31, 2020, to $522.2 million for the
+three months ended March 31, 2021, and to approximately $560 million (at the midpoint of the
+range provided by management) for the three months ended June 30, 2021, as illustrated below:
+TOTAL REVENUE (IN MILLIONS)
+600 560.0
+522.2
+317.5
+300 269.5
+20 244.2
+21 127.6
+100 56.1 71.7 77.5 72.2
+1Q19 2Q19 3Q19 4Q19 1Q20 2Q20 3Q20 4Q20 1Q21 2Q21 (E)
+(A) (A) (A) (A) (A) (A) (A) (A) (A)
+Similarly, the Offering Documents hyped the substantial increases observed in
+Robinhood’s total assets under custody (“AUC”), a figure representing the fair value of all equities,
+options, cryptocurrency and cash held by users in their accounts, net of customer margin balances.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Specifically, the Offering Documents frequently noted how Robinhood’s AUC grew from
+2 approximately $14.1 billion in 2019 to nearly $63 billion in 2020 to $80.9 billion in the first quarter
+3 of 2021 alone, before then stating that Robinhood’s AUC for the second quarter of 2021 is
+4 expected to be approximately $102.04 billion, as illustrated by the charts below:
+TOTAL AUC (IN BILLIONS)
+120,000.0
+7 102,035
+100,000.0
+80,932.4
+80,000.0
+62,978.5
+60,000.0
+40,000.0
+12 20,000.0 14,135.6
+13 0.0
+2019 (A) 2020 (A) 1Q21 (A) 2Q21 (E)
+AUC BY ASSET TYPE (IN MILLIONS)
+16 Equities Options Crypto
+70,000.00 65,076.7
+60,000.00
+52,983.1
+50,000.00
+19 40,000.00
+20 30,000.00
+20,000.00
+21 11,721.80 11,597.4
+10,000.00 2,117 3,527 2,041.4
+244.6 414.7
+0.00
+2019 (A) 2020 (A) 1Q21 (A)
+24 8. Moreover, the Offering Documents touted the growth Robinhood experienced in
+25 its net funded cumulative accounts (“NCFA”), a metric Robinhood uses to assess customer
+26 engagement. In fact, as illustrated by the graph below, the Offering Documents repeatedly note
+27 that Robinhood’s NCFA increased from 5.1 million to 12.5 million to 18 million for the period
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 ended December 31, 2019, December 31, 2020 and March 31, 2021, respectively, and further that,
+2 Robinhood expected its NCFA to reach 22.5 million by June 30, 2021:
+NET CUMULATIVE FUNDED ACCOUNTS
+(IN MILLIONS)
+22.5
+20 18.0
+12.5
+5.1
+10 5
+2019 (A) 2020 (A) 1Q21 (A) 2Q21 (E)
+13 9. Lastly, and relatedly, the Offering Documents play up the Company’s rising
+14 average revenues per user (“ARPU”), which Robinhood contends correlates positively with
+15 deepening user engagement, by repeatedly noting the increases observed from, for example,
+16 $65.70 for the year ended December 31, 2019, to $108.9 for the year ended December 31, 2020,
+17 to $137 for the three months ended March 31, 2021.
+18 10. Unbeknownst to investors, the truth was that Robinhood was not successfully
+19 generating massive growth by executing its strategy. Rather, Robinhood was completely failing
+20 to follow the stated principles of its strategy and, in the months prior to the IPO, Robinhood’s
+21 performance metrics were plummeting as traders left the Company in droves, and revenue cratered.
+22 11. Former employees at Robinhood explain that the Company completely abandoned
+23 its stated principles. Rather than prioritize safety and reliability, Robinhood knowingly operated
+24 with insufficient controls or personnel, allowing fraud to run rampant on the platform and
+25 imperiling investor accounts. Rather than cater to the needs of small customers, Robinhood
+26 commodified them, deliberately undermining their decision-making process through app features
+27 designed to trigger rapid trading that generated fees for Robinhood at the expense of investors.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Robinhood exposed inexperienced customers to more complex and dangerous trading products,
+2 such as options and margin trading because those products were lucrative for Robinhood and
+3 ignored the protests of Robinhood employees that such decisions were causing customers
+4 staggering losses. In the run-up to the IPO, Robinhood’s predatory tactics drove a swell of investor
+5 anger and attrition. Robinhood also saw a decline in its “net promote score” (“NPS”), reflecting
+6 the willingness of Robinhood investors to recommend Robinhood to new users, undermining a
+7 key driver of future growth.
+8 12. Furthermore, in June and July 2021, the two months prior to the IPO, Robinhood’s
+9 revenue and KPIs experienced severe deterioration. In fact, as discussed in greater detail herein,
+10 Robinhood’s: (1) MAUs declined nearly 11.62% between May 2021 and June 2021 and by 8.45%
+11 between June 2021 and July 2021; (2) crypto trading volume declined over 76% between May
+12 2021 and June 2021 and by 56.67% between June 2021 and July 2021; (3) AUC declined overall
+13 by nearly 4.25%; and (4) customer base and usage, as measured by its NCFA, had completely
+14 stagnated, as Robinhood’s ARPU declined by at least $25.30, if not likely more. This
+15 deterioration, which was a matter of historical fact at the time of the IPO, directly contradicted
+16 Robinhood’s claims regarding the success of its strategy and the Company’s growth.
+17 13. Robinhood was able to track these metrics in real-time or nearly so using an
+18 analytics platform that it developed and operates. Multiple confidential witnesses confirmed
+19 Robinhood tracked this performance data ahead of the IPO, observing, for example, that
+20 Robinhood’s MAU, net new customer, and funded account metrics were deteriorating while its
+21 customer attrition was increasing.
+22 14. The truth began to emerge on October 27, 2021, when the Company revealed the
+23 sharp declines in its KPIs during its third quarter 2021 earnings call, resulting in the Company’s
+24 stock dropping sharply. Jim Cramer commented that the earnings call made him “depressed”
+25 because “if you read the conference call, you’d think it was a fad . . . and if it’s a fad, well what
+26 can I say? They’ve got a lot of people, 22 million, but they don’t have a lot of money in their
+27 accounts.” The market learned more about the dismal state of Robinhood’s strategy in the
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 following months as the Company continued to report declining KPIs and revenue. Commenting
+2 on the trend in January 2022, JP Morgan concluded that Robinhood is “a growth company without
+3 the growth.” [Emphasis added.]
+4 15. As shown in the below chart, the Company’s shares have traded as low as $6.81
+5 per share since the IPO, representing a decline of more than 82% from the Offering Price of $38.
+14 16. By this action, Lead Plaintiffs, on behalf of themselves and other members of the
+15 Class (defined below) who also acquired Robinhood’s shares pursuant and traceable to the
+16 Offering, now seek to obtain a recovery for the damages suffered as a result of Defendants’
+17 violations of the Securities Act, as alleged herein.
+18 JURISDICTION AND VENUE
+19 17. The claims asserted herein arise under and pursuant to §§11, 12(a)(2), and 15 of the
+20 Securities Act, 15 U.S.C. §§77k, 77l(a)(2), and 77o, respectively.
+21 18. This Court has jurisdiction over the subject matter of this action pursuant to 28
+22 U.S.C. §§1331 and §22 of the Securities Act, 15 U.S.C. §77v.
+23 19. Venue is proper in this District pursuant to 28 U.S.C. §1391(b) because the acts and
+24 transactions giving rise to the violations of law complained of herein occurred, in part, in this
+25 District, including the dissemination of false and misleading statements into this District, certain
+26 Defendants reside and/or transact business in this District, and the Company maintains its
+27 corporate headquarters in this District.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 20. In connection with the acts, transactions, and conduct alleged herein, Defendants
+2 directly and indirectly used the means and instrumentalities of interstate commerce, including the
+3 United States mail, interstate telephone communications, and the facilities of a national securities
+4 exchange.
+5 PARTIES
+6 A. Lead Plaintiffs
+7 21. Lead Plaintiffs purchased shares of the Company’s common stock that were issued
+8 pursuant and traceable to the Registration Statement and Offering and were damaged thereby.
+9 B. Defendants
+10 1. The Company
+11 22. Defendant Robinhood is a Menlo Park, California-based company that provides a
+12 vehicle through which people can buy and sell stocks, ETFs and cryptocurrencies. Incorporated
+13 under the laws of the state of Delaware, Robinhood maintains its principle executive offices at
+14 85 Willow Road, Menlo Park, California 94025. Robinhood’s common stock is listed on the
+15 NASDAQ under the ticker symbol “HOOD.”
+16 2. The Individual Defendants
+17 23. Defendant Vladimir Tenev (“Tenev”) is, and was at all relevant times, Co-Founder,
+18 Chief Executive Officer (“CEO”), and President of Robinhood, as well as a director on the
+19 Company’s Board of Directors (the “Board”). Defendant Tenev reviewed, approved, and
+20 participated in making statements in the Offering Documents, which he signed.
+21 24. Defendant Jason Warnick (“Warnick”) is, and was at all relevant times,
+22 Robinhood’s Chief Financial Officer (“CFO”). Defendant Warnick reviewed, approved, and
+23 participated in making statements in the Offering Documents, which he signed.
+24 25. Defendant Baiju Bhatt (“Bhatt”) is, and was at all relevant times, Co-Founder and
+25 Chief Creative Officer of Robinhood, as well as a director on the Board. Defendant Bhatt
+26 reviewed, approved, and participated in making statements in the Offering Documents, which he
+27 signed.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 26. Defendant Jan Hammer (“Hammer”) is, and was at all relevant times, a director on
+2 the Board. Defendant Hammer reviewed, approved, and participated in making statements in the
+3 Offering Documents, which he signed.
+4 27. Defendant Paula Loop (“Loop”) is, and was at all relevant times, a director on the
+5 Board. Defendant Loop reviewed, approved, and participated in making statements in the Offering
+6 Documents, which she signed.
+7 28. Defendant Jonathan Rubenstein (“Rubenstein”) is, and was at all relevant times, a
+8 director on the Board. Defendant Rubenstein reviewed, approved, and participated in making
+9 statements in the Offering Documents, which he signed.
+10 29. Defendant Scott Sandell (“Sandell”) is, and was at all relevant times, a director on
+11 the Board. Defendant Sandell reviewed, approved, and participated in making statements in the
+12 Offering Documents, which he signed.
+13 30. Defendant Robert Zoellick (“Zoellick”) is, and was at all relevant times, a director
+14 on the Board. Defendant Zoellick reviewed, approved, and participated in making statements in
+15 the Offering Documents, which he signed.
+16 31. Defendants Tenev, Warnick, Bhatt, Hammer, Loop, Rubenstein, Sandell, and
+17 Zoellick are collectively referred to herein as the “Individual Defendants.”
+18 3. The Underwriter Defendants
+19 32. The Underwriter Defendants were also instrumental in soliciting investors and in
+20 making the Robinhood shares that were offered and sold in or traceable to the IPO available to
+21 Lead Plaintiffs and the other members of the Class. The table below lists each of the Underwriter
+22 Defendants, together with the number of allotted shares that each sold in the IPO:
+23 Name Number of Shares
+Goldman Sachs & Co. LLC 16,716,315
+24 J.P. Morgan Securities LLC 15,671,645
+Barclays Capital Inc. 6,268,680
+Citigroup Global Markets Inc. 6,268,680
+26 Wells Fargo Securities, LLC 6,268,680
+Mizuho Securities USA LLC 568,040
+27 JMP Securities LLC 426.030
+KeyBanc Capital Markets Inc. 426.030
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Name Number of Shares
+Piper Sandler & Co. 426.030
+2 Rosenblatt Securities Inc. 426.030
+BMO Capital Markets Corp. 284,020
+BTIG, LLC 284,020
+4 Santander Investment Securities Inc. 284,020
+Academy Securities, Inc. 170,445
+5 Loop Capital Markets LLC 170,445
+Samuel A. Ramirez & Company, Inc. 170,445
+Siebert Williams Shank & Co., LLC 170,445
+Defendant Goldman Sachs & Co. LLC (“Goldman Sachs”) was an underwriter of
+the Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+Documents. Goldman Sachs acted as a representative of all the underwriters. Goldman Sachs also
+participated in conducting and promoting the roadshow for the IPO and paying for the expenses
+of the Individual Defendants who participated in the roadshow, including lodging and travel,
+among other expenses. Goldman Sachs’ participation in and its solicitation of offers in connection
+with the IPO was motivated by its financial interests. Defendant Goldman Sachs conducts business
+in this District.
+Defendant J.P. Morgan Securities LLC (“J.P. Morgan”) was an underwriter of the
+Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+Documents. J.P. Morgan acted as a representative of all the underwriters. J.P. Morgan also
+participated in conducting and promoting the roadshow for the IPO and paying for the expenses
+of the Individual Defendants who participated in the roadshow, including lodging and travel,
+among other expenses. J.P. Morgan’s participation in and its solicitation of offers in connection
+with the IPO was motivated by its financial interests. Defendant J.P. Morgan conducts business
+in this District.
+Defendant Barclays Capital Inc. (“Barclays”) was an underwriter of the Company’s
+IPO, serving as a financial advisor for and assisting in the preparation and dissemination of the
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Company’s material inaccurate, misleading, and incomplete Offering Documents. Barclays
+2 participated in conducting and promoting the roadshow for the IPO and paying for the expenses
+3 of the Individual Defendants who participated in the roadshow, including lodging and travel,
+4 among other expenses. Barclays’ participation in and its solicitation of offers in connection with
+5 the IPO was motivated by its financial interests. Defendant Barclays conducts business in this
+6 District.
+7 36. Defendant Citigroup Global Markets Inc. (“Citigroup”) was an underwriter of the
+8 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+9 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+10 Documents. Citigroup participated in conducting and promoting the roadshow for the IPO and
+11 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+12 lodging and travel, among other expenses. Citigroup’s participation in and its solicitation of offers
+13 in connection with the IPO was motivated by its financial interests. Defendant Citigroup conducts
+14 business in this District.
+15 37. Defendant Wells Fargo Securities, LLC (“Wells Fargo”) was an underwriter of the
+16 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+17 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+18 Documents. Wells Fargo participated in conducting and promoting the roadshow for the IPO and
+19 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+20 lodging and travel, among other expenses. Well Fargo’s participation in and its solicitation of
+21 offers in connection with the IPO was motivated by its financial interests. Defendant Wells Fargo
+22 conducts business in this District.
+23 38. Defendant Mizuho Securities USA LLC (“Mizuho”) was an underwriter of the
+24 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+25 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+26 Documents. Mizuho participated in conducting and promoting the roadshow for the IPO and
+27 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 lodging and travel, among other expenses. Mizuho’s participation in and its solicitation of offers
+2 in connection with the IPO was motivated by its financial interests. Defendant Mizuho conducts
+3 business in this District.
+4 39. Defendant JMP Securities LLC (“JMP”) was an underwriter of the Company’s IPO,
+5 serving as a financial advisor for and assisting in the preparation and dissemination of the
+6 Company’s material inaccurate, misleading, and incomplete Offering Documents. JMP
+7 participated in conducting and promoting the roadshow for the IPO and paying for the expenses
+8 of the Individual Defendants who participated in the roadshow, including lodging and travel,
+9 among other expenses. JMP’s participation in and its solicitation of offers in connection with the
+10 IPO was motivated by its financial interests. Defendant JMP conducts business in this District.
+11 40. Defendant KeyBanc Capital Markets Inc. (“KeyBanc”) was an underwriter of the
+12 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+13 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+14 Documents. KeyBanc participated in conducting and promoting the roadshow for the IPO and
+15 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+16 lodging and travel, among other expenses. KeyBanc’s participation in and its solicitation of offers
+17 in connection with the IPO was motivated by its financial interests. Defendant KeyBanc conducts
+18 business in this District.
+19 41. Defendant Piper Sandler & Co. (“Piper Sandler”) was an underwriter of the
+20 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+21 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+22 Documents. Piper Sandler participated in conducting and promoting the roadshow for the IPO and
+23 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+24 lodging and travel, among other expenses. Piper Sandler’s participation in and its solicitation of
+25 offers in connection with the IPO was motivated by its financial interests. Defendant Piper Sandler
+26 conducts business in this District.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 42. Defendant Rosenblatt Securities Inc. (“Rosenblatt”) was an underwriter of the
+2 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+3 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+4 Documents. Rosenblatt participated in conducting and promoting the roadshow for the IPO and
+5 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+6 lodging and travel, among other expenses. Rosenblatt’s participation in and its solicitation of
+7 offers in connection with the IPO was motivated by its financial interests. Defendant Rosenblatt
+8 conducts business in this District.
+9 43. Defendant BMO Capital Markets Corp. (“BMO”) was an underwriter of the
+10 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+11 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+12 Documents. BMO participated in conducting and promoting the roadshow for the IPO and paying
+13 for the expenses of the Individual Defendants who participated in the roadshow, including lodging
+14 and travel, among other expenses. BMO’s participation in and its solicitation of offers in
+15 connection with the IPO was motivated by its financial interests. Defendant BMO conducts
+16 business in this District.
+17 44. Defendant BTIG, LLC (“BTIG”) was an underwriter of the Company’s IPO,
+18 serving as a financial advisor for and assisting in the preparation and dissemination of the
+19 Company’s material inaccurate, misleading, and incomplete Offering Documents. BTIG
+20 participated in conducting and promoting the roadshow for the IPO and paying for the expenses
+21 of the Individual Defendants who participated in the roadshow, including lodging and travel,
+22 among other expenses. BTIG’s participation in and its solicitation of offers in connection with the
+23 IPO was motivated by its financial interests. Defendant BTIG conducts business in this District.
+24 45. Defendant Santander Investment Securities Inc. (“Santander”) was an underwriter
+25 of the Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+26 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+27 Documents. Santander participated in conducting and promoting the roadshow for the IPO and
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+2 lodging and travel, among other expenses. Santander’s participation in and its solicitation of offers
+3 in connection with the IPO was motivated by its financial interests. Defendant Santander conducts
+4 business in this District.
+5 46. Defendant Academy Securities, Inc. (“Academy”) was an underwriter of the
+6 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+7 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+8 Documents. Academy participated in conducting and promoting the roadshow for the IPO and
+9 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+10 lodging and travel, among other expenses. Academy’s participation in and its solicitation of offers
+11 in connection with the IPO was motivated by its financial interests. Defendant Academy conducts
+12 business in this District.
+13 47. Defendant Loop Capital Markets LLC (“Loop Capital”) was an underwriter of the
+14 Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+15 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+16 Documents. Loop Capital participated in conducting and promoting the roadshow for the IPO and
+17 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+18 lodging and travel, among other expenses. Loop Capital’s participation in and its solicitation of
+19 offers in connection with the IPO was motivated by its financial interests. Defendant Loop Capital
+20 conducts business in this District.
+21 48. Defendant Samuel A. Ramirez & Company, Inc. (“Ramirez”) was an underwriter
+22 of the Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+23 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+24 Documents. Ramirez participated in conducting and promoting the roadshow for the IPO and
+25 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+26 lodging and travel, among other expenses. Ramirez’s participation in and its solicitation of offers
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 in connection with the IPO was motivated by its financial interests. Defendant Ramirez conducts
+2 business in this District.
+3 49. Defendant Siebert Williams Shank & Co., LLC (“Siebert”) was an underwriter of
+4 the Company’s IPO, serving as a financial advisor for and assisting in the preparation and
+5 dissemination of the Company’s material inaccurate, misleading, and incomplete Offering
+6 Documents. Siebert participated in conducting and promoting the roadshow for the IPO and
+7 paying for the expenses of the Individual Defendants who participated in the roadshow, including
+8 lodging and travel, among other expenses. Siebert’s participation in and its solicitation of offers
+9 in connection with the IPO was motivated by its financial interests. Defendant Siebert conducts
+10 business in this District.
+11 50. Defendants listed in ¶¶32-49 are collectively referred to herein as the “Underwriter
+12 Defendants.”
+13 51. Pursuant to the Securities Act, each Underwriter Defendant is liable for the
+14 materially inaccurate, misleading, and incomplete statements in the Offering Documents. In
+15 addition, although not an element of Lead Plaintiffs’ claims and an issue on which each
+16 Underwriter Defendant bears the burden of proof to the extent it seeks to assert it as an affirmative
+17 defense, no Underwriter Defendant conducted an adequate due diligence investigation in
+18 connection with the matters alleged herein and will accordingly be unable to establish a statutory
+19 “due diligence” affirmative defense under the Securities Act. Each Underwriter Defendant
+20 committed acts and omissions that were a substantial factor leading to the harm complained of
+21 herein.
+22 52. Each Underwriter Defendant named herein is an investment banking firm whose
+23 activities include, inter alia, the underwriting of public offerings of securities. As the underwriters
+24 of the IPO, the Underwriter Defendants earned lucrative underwriting fees.
+25 53. As underwriters, the Underwriter Defendants met with potential investors in the
+26 IPO and presented highly favorable, but materially incorrect and/or materially misleading,
+27 information about the Company, its business, products, plans, and financial prospects, and/or
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 omitted to disclose material information required to be disclosed under the federal securities laws
+2 and applicable regulations promulgated thereunder.
+3 54. Representatives of the Underwriter Defendants also assisted Robinhood and the
+4 Individual Defendants in planning the IPO. They further purported to conduct an adequate and
+5 reasonable investigation into the business, operations, products, and plans of the Company, an
+6 undertaking known as a “due diligence” investigation. During the course of their “due diligence,”
+7 the Underwriter Defendants had continual access to confidential corporate information concerning
+8 the Company’s business, financial condition, products, plans, and prospects.
+9 55. In addition to having access to internal corporate documents, the Underwriter
+10 Defendants and/or their agents, including their counsel, had access to Robinhood’s management,
+11 directors, and lawyers to determine: (i) the strategy to best accomplish the IPO; (ii) the terms of
+12 the IPO, including the price at which Robinhood’s common stock would be sold; (iii) the language
+13 to be used in the Offering Documents; (iv) what disclosures about Robinhood would be made in
+14 the Offering Documents; and (v) what responses would be made to the SEC in connection with its
+15 review of the Offering Documents. As a result of those constant contacts and communications
+16 between the Underwriter Defendants’ representatives and Robinhood’s management, directors,
+17 and lawyers, at a minimum, the Underwriter Defendants should have known of Robinhood’s
+18 undisclosed then-existing problems and plans, and the Offering Documents’ materially inaccurate,
+19 misleading, and incomplete statements and omissions, as detailed herein.
+20 56. The Underwriter Defendants also demanded and obtained an agreement from
+21 Robinhood under which Robinhood agreed to indemnify and hold the Underwriter Defendants
+22 harmless from any liability under the Securities Act.
+23 57. The Underwriter Defendants caused the Registration Statement to be filed with the
+24 SEC and declared effective in connection with the IPO, so that they, and the Individual Defendants,
+25 could offer to sell, and sell, Robinhood shares to Lead Plaintiffs and other members of the Class
+26 pursuant (or traceable) to the Offering Documents.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 BACKGROUND
+2 A. Robinhood Promoted Itself as the Innovative, Safety-First, Customer-Centric,
+Brokerage Platform for the Retail Investor
+Robinhood is an online brokerage firm founded in 2013. Robinhood markets itself
+almost exclusively to retail investors, many of whom are first-time traders. Robinhood offers these
+individuals the ability to invest in stocks and exchange-traded funds, as well as more risky and
+complex products like cryptocurrencies, options and margin trading, both online and through a
+mobile application.
+9 59. Robinhood’s customers engage with the financial markets through an application
+10 and user interface that are intentionally designed by the Company to be both appealing and easy
+11 to understand. The Company’s investing interface provides customers with trading functionality
+12 and market information such as historical prices, valuation multiples, recent news, analyst ratings,
+13 and more. The Robinhood application also enables: (i) fractional share trading, allowing
+14 customers to invest in fractions of a share of stock, rather than requiring them to buy and sell whole
+15 shares; (ii) recurring investments, giving customers the ability to automatically buy shares of
+16 equities and certain ETFs on a set schedule; and (iii) IPO access, affording customers the ability
+17 to buy shares in participating IPOs at the IPO price and before trading begins on public exchanges.
+18 60. For customers interested in accessing more premium features, Robinhood offers a
+19 monthly subscription service called “Robinhood Gold.” With this program, after the initial 30-
+20 day free trial, customers pay a flat monthly rate to be able to immediately access: (i) up to $50,000
+21 depending on a user’s brokerage account balance and status (i.e., Robinhood will not require Gold
+22 members to wait up to five days for their funds to settle before allowing them to trade); (ii) in-
+23 depth stock research reports on approximately 1,000 stocks through Morningstar; (iii) Nasdaq
+24 Level II market data that shows greater depth of orders for any given stock or option; and (iv) upon
+25 meeting certain eligibility criteria set by Robinhood, margin investing, which provides subscribers
+26 the ability to borrow a specific amount of funds to use as additional investing capital.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 61. Finally, Robinhood offers a variety of educational tools and resources that are
+2 marketed as aids to customers to achieve their financial goals, including: “Robinhood Snacks,” a
+3 curated digest of top business news and stories; “Robinhood Learn,” a collection of over 650
+4 articles designed to provide everyone with access to a breadth of financial education; “Newsfeeds,”
+5 a facility that aggregates and presents news from financial and business websites and/or
+6 publications; and “Robinhood Lists,” a utility that affords customers the ability to monitor specific
+7 securities, ETFs or cryptocurrencies.
+8 B. Robinhood Primarily Earns Revenue by Routing Customer Transactions to
+Market Makers in Exchange for Payments, a Process Known as “Pay for
+Order Flow”
+10 62. Unlike many traditional brokers, Robinhood does not charge customers a fee for
+11 executing a trade. Rather, Robinhood is a commission-free broker that earns its revenue through
+12 a process known as “payment for order flow” (“PFOF”). PFOF is a process in which market
+13 makers or exchanges pay broker-dealers such as Robinhood to route trades to the market maker or
+14 the exchange for execution.
+15 63. For example, once a trade is placed on Robinhood’s application, the customer’s
+16 cash and securities are custodied by Robinhood Financials’ clearing brokers, Robinhood
+17 Securities, which services the customers’ account by executing, clearing, and settling the
+18 customer’s trade.
+19 64. In order to execute the trade, Robinhood Securities typically routes the trade to a
+20 market maker, such as Citadel Securities (“Citadel”). Market makers pay or provide rebates to
+21 Robinhood in exchange for Robinhood routing its customers trades to them, hence “payment for
+22 order flow.”
+23 65. As a market maker, Citadel’s job, for example, is to provide bid prices (i.e., the
+24 price investors are willing to purchase at) and ask prices (i.e., the price investors are willing to sell
+25 at) for the securities. The difference between the two is known as the “spread.”
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 66. Market makers maintain an inventory of securities from their own trading and
+2 matches incoming buy and sell orders in order to fill those orders. Once an order is filled, the
+3 spread is pocketed by the market maker as a profit.
+4 67. Market makers may also execute an order routed to it by Robinhood by taking the
+5 other side of the transaction, a process known as “internalization.” For example, if Citadel receives
+6 an order to buy certain security, it may route that order to an exchange or it may execute the order
+7 in its capacity as a dealer by transacting against the buy order with contra-side sell orders, either
+8 from its own inventory or by selling the security “short.”
+9 68. Once the trade is executed, Robinhood relays the trade information to the
+10 Depository Trust & Clearing Corporation’s (DTCC) affiliated clearinghouse entity, the NSCC for
+11 clearinghouse and settling services. Trades do not settle instantaneously. Rather, trades submitted
+12 to the NSCC settle at the end of the second business day after submission, in what is known as
+13 T+2 settlement. This means that when a trade is executed on a Monday, the cash and the securities
+14 related to that trade are electronically transferred on Wednesday.
+15 69. PFOF comprises the majority of Robinhood’s revenue. For example, for 2020,
+16 revenue derived from PFOF (and Transaction Rebates, which are paid to Robinhood in exchange
+17 for flowing its customers’ cryptocurrency trades) represented 75% of the Company’s total
+18 revenues, or approximately $719 million.
+19 70. PFOF has been highly criticized by the United States Securities and Exchange
+20 Commission because it creates a potential conflict of interest in that brokers are incentivized to
+21 sell flow to market makers who pay more even if those market makers have worse spreads. For
+22 example, SEC Commissioner Gary Gensler has stated PFOF “provides an opportunity for the
+23 market maker to make more, and for ultimately the investing public to get a little less when they
+24 sell, or have to pay more when they buy,” adding further, “I think it also affects companies raising
+25 money,” because it could be a barrier to “fair, orderly and efficient markets.” In earlier speeches,
+26 Gensler even called out Robinhood directly for having “explicitly offered to accept less price
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 improvement for its customers in exchange for receiving higher payment for order flow for itself.
+2 As a result, many Robinhood customers shouldered the costs of inferior executions.”1
+3 71. In December 2020, the SEC charged Robinhood for repeated misstatements that
+4 failed to disclose the firm’s receipt of payments from trading firms for routing customer orders to
+5 them, and with failing to satisfy its duty to seek the best reasonably available terms to execute its
+6 customer orders.
+7 72. As a registered broker-dealer, Robinhood is required under SEC and Financial
+8 Industry Regulatory Authority (“FINRA”) regulations to obtain the best reasonably available terms
+9 for customer orders. In part, this requires Robinhood to use reasonable diligence so that the price
+10 to the customer is as favorable as possible under prevailing market conditions, taking into account,
+11 among other things, the character of the market for the security, the size and type of the transaction,
+12 the number of markets checked, accessibility of quotations and the terms and conditions of the
+13 order as communicated by the broker-dealer’s customer.
+14 73. Although Robinhood is not required to examine every customer order individually
+15 for compliance with its duty of best execution, it must undertake regular and rigorous reviews of
+16 the quality of its customer order executions. See Payment for Order Flow, Securities and
+17 Exchange Commission Final Rule Release, Exchange Act Release No. 34902, 59 Fed. Reg. 55006,
+18 at 55009 (Oct. 27, 1994).
+19 74. Despite not admitting to any wrongdoing, Robinhood agreed to pay $65 million to
+20 settle the SEC’s charges. Additionally, in June 2021, FINRA extracted a nearly $70 million
+21 penalty from Robinhood for a sweeping set of allegations, including misleading investors about
+22 trading with borrowed money and lacking sufficient controls in its technology and options trading
+23 approval process.
+24 C. The Security and Reliability of Robinhood’s Platform Is Critical
+25 75. Robinhood has experienced significant platform failures due, in large part, to its
+26 lack of sufficient infrastructure. From January 1, 2020 through November 30, 2020, Robinhood
+1 Testimony of SEC Chairman Gensler before the House Committee on Financial Services
+May 6, 2021.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 experienced as many as 70 outages or disruptions on its trading platform, with six occurring in
+2 April 2020, 15 occurring in June 2020, and seven occurring in August 2020.
+3 76. One of the most notable outages occurred March 2, 2020 and March 3, 2020. On
+4 March 2, 2020, the Dow Jones Industrial Average experienced what was at the time the largest
+5 point gain in its history. Robinhood’s trading platform collapsed at market open on March 2, 2020,
+6 leaving its millions of customers unable to benefit from the historic market gains. The collapsed
+7 platform remained inoperative for the entire day and part of the next day, March 3, 2020.
+8 77. On March 9, 2020, in the midst of a stock market plunge, Robinhood experienced
+9 another outage on its trading platform that prevented customers from making trades in their
+10 accounts for a portion of that day.
+11 78. To make matters worse, during these outages, Robinhood’s help center either shut
+12 down, or otherwise failed to properly serve its customers and address their concerns.
+13 79. Unfortunately, these service outages continued to plague the Company in 2021,
+14 with Robinhood, for example, experiencing partial service outages and further degrading service
+15 in mid-April 2021 and again in early May 2021, in both instances resulting from surging customer
+16 demand for cryptocurrency trading.
+17 D. Robinhood’s Key Performance Metrics
+18 80. In addition to revenue and profits, Robinhood uses (and directs the market’s
+19 attention to) certain “Key Performance Indicators” to evaluate its business, identify trends
+20 affecting the business, formulate business plans and make strategic decisions. These KPIs are
+21 “Monthly Active Users (MAU),” “Assets Under Custody (AUC),” “Average Revenues Per User
+22 (ARPU),” and “Net Cumulative Funded Accounts (“NCFA”)”
+23 81. Robinhood defines “MAU” as the number of Monthly Active Users during a
+24 specified calendar month. A “Monthly Active User” is a unique user who makes a transaction,
+25 transitions between two different screens on a mobile device while logged into their account, or
+26 who loads a page in a web browser, at any point during the relevant month. A user need not satisfy
+27 these conditions on a monthly or recurring basis or have a Funded Account to be included in MAU.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 82. Robinhood utilizes MAU to measure how many customers interact with its
+2 products and services during a given month. MAU does not measure the frequency or duration of
+3 the interaction, but Robinhood considers it a useful indicator for engagement. Additionally, MAUs
+4 are positively correlated with the performance of revenue and other key performance indicators.
+5 83. Robinhood defines “AUC” as the sum of the fair value of all equities, options,
+6 cryptocurrency and cash held by users in their accounts, net of customer margin balances, as of a
+7 stated date or period end on a trade date basis.
+8 84. Robinhood defines “ARPU” as total revenue for a given period (or, in the case of
+9 ARPU for a given cohort, total revenue generated by that cohort during a given year or period)
+10 divided by the average of Net Cumulative Funded Accounts (or, in the case of ARPU for a given
+11 cohort, the Net Cumulative Funded Accounts included in that cohort) as of the last day of that
+12 period and as of the last day of the immediately preceding period. In the case of ARPU for a three-
+13 month period, this figure is multiplied by four to annualize the figure for comparability.
+14 85. And, finally, Robinhood defines “Net Cumulative Funded Accounts” as the total of
+15 Net Funded Accounts from inception to a stated date or period end. “Net Funded Accounts” is the
+16 total number of Funded Accounts for a stated period, excluding “churned users” and including
+17 “resurrected users” as of the end of that period. A “Funded Account” is a Robinhood account into
+18 which the account user makes an initial deposit or money transfer of any amount during the
+19 relevant period, which account is designed to provide a customer with access to any and all of the
+20 products offered on Robinhood’s platform.
+21 86. Robinhood’s ability to track these metrics is in real-time or nearly so. In that regard,
+22 the Offering Documents state that Robinhood tracks “certain operational metrics using internal
+23 company data gathered on an analytics platform that we developed and operate, including metrics
+24 such as MAU, AUC and Net Cumulative Funded Accounts.” The Offering Documents further
+25 state that Robinhood has focused on developing the “real-time” capabilities of its technology
+26 systems.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 87. The confidential witnesses corroborate that Robinhood’s ability to analyze its
+2 performance data was instantaneous or nearly so. For example, Confidential Witness #1 (“CW1”)
+3 worked in reviewing customer analytics at Robinhood from 2018 to late 2021. CW1 observed that
+4 Robinhood used Looker, a data platform, to track its performance data and create performance
+5 data dashboards. Looker advertises itself as a platform that allows “for real-time dashboards for
+6 in-depth, consistent analysis.”2 CW1 had access to some of Robinhood’s Looker dashboards,
+7 including those that displayed Robinhood’s MAU, customer attrition, net new customer and
+8 funded account metrics. Moreover, CW1 as well as Confidential Witness #2 (“CW2”), a trading
+9 specialist who worked at the Company from late 2020 to August 2021, both observed that MAU
+10 and other corporate metrics were discussed by Robinhood’s top officers, including Defendants
+11 Tenev and Bhatt, at weekly all-hands meetings.
+12 E. Robinhood’s July 30, 2021 IPO
+13 88. On July 1, 2021, Robinhood filed with the SEC a draft registration statement on
+14 Form S-1, which would be used for the IPO following a series of amendments in response to SEC
+15 comments.
+16 89. On July 25, 2021, Robinhood filed its final amendment to the Registration
+17 Statement, which registered 60.5 million Robinhood shares for public sale, including 5.5 million
+18 shares that the Underwriter Defendants had the option to purchase, solely to cover over-allotments.
+19 90. The SEC declared the Registration Statement effective on July 28, 2021.
+20 91. On July 30, 2021, Defendants priced the IPO at $38 per share and filed the final
+21 Prospectus for the IPO, which forms part of the Registration Statement.
+22 ADVERSE FACTS THAT EXISTED AT THE TIME OF THE IPO THAT WERE NOT
+DISCLOSED IN THE OFFERING DOCUMENTS
+24 92. Robinhood’s claim to be executing a ground-breaking new strategy to grow its
+25 business by bringing in new investors was false and misleading in two respects. First, Robinhood
+26 was not following its stated strategy. Robinhood was not trying to build a secure and robust
+28 2 www.looker.com.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 platform and was not trying to cater to the needs and concerns of small investors. Rather, as
+2 detailed by Robinhood’s former employees and contractors, Robinhood was operating without
+3 sufficient internal controls in many important respects, including as to fraud prevention.
+4 Robinhood also treated its customers as a commodity to be ground down and exposed to massive
+5 costs and risk in the quest for Robinhood’s short term gain. In the run-up to the IPO, Robinhood’s
+6 customers responded to these tactics with a torrent of negative feedback, attrition, and a decline in
+7 the number of customers willing to recommend Robinhood to others, a key marketing metric for
+8 Robinhood.
+9 93. Second, Robinhood failed to disclose a massive amount of hard data showing that
+10 the Company’s strategy was not working. For months ahead of the IPO, Defendants possessed
+11 data showing that Robinhood’s MAU, crypto total trading volumes, ARPU, and AUC, were all
+12 sharply declining, undermining many statements made in the Offering Documents and confirming
+13 that Robinhood’s “innovative,” “revolutionary” business strategy was (to the extent it was even
+14 being executed) not working.
+15 94. Many former Robinhood employees witnessed Robinhood’s divergence from its
+16 stated strategy. Confidential Witness #3 (“CW3”) was a contract fraud analyst who worked at
+17 Robinhood from mid-2020 through July 2021. CW3 observed the operations of the Robinhood
+18 fraud department during two weekly meetings, one attended by the entire department, and one
+19 attended by a smaller group. CW3 reported that Robinhood’s fraud department was “extremely
+20 poorly managed, not sophisticated” and that there was a “ridiculous backlog” during CW3’s
+21 “whole tenure.”
+22 95. One area CW3 was working on was ACH fraud, which involves funds being
+23 withdrawn from a customer account without authorization, for example, when someone other than
+24 the authorized user takes over or compromises a customer account. The perpetrators of such
+25 activity are usually hackers.
+26 96. CW3 observed that there was no automated surveillance system in place that
+27 flagged signs of fraudulent activity in customer accounts. Moreover, Robinhood did not make it
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 easy to resolve fraud. If a hacker gained access to an account and performed unauthorized trades,
+2 the account owner could not access their account and withdraw the remaining funds in order to
+3 protect themselves. Rather, in order for Robinhood to make the customer whole, the customer
+4 would have to later redeposit the funds in an account; at that point, Robinhood would reverse the
+5 trades.
+6 97. Robinhood also made it “hard to close accounts,” even where suspicious activity
+7 was occurring. The policy was that an account would only be closed if there was “conclusive
+8 evidence” of fraud.
+9 98. CW3 witnessed a surge of fraud activity beginning in the Christmas 2020 through
+10 January 2021 timeframe that reached overwhelming levels. CW3 raised with the manager of ACH
+11 fraud that the Company should try to streamline the identification of fraudulent ACH incidents,
+12 but CW3’s manager was not interested in the idea. CW3 offered to design a system to automate
+13 ACH-fraud identification but was told that “software engineers are expensive.” CW3 also
+14 observed that “there were concerns that safeguards would ruin the streamlined experience of the
+15 app.” The whole idea of Robinhood was to make it easy and fast for retail investors to trade.
+16 Robinhood’s managers discouraged CW3 from discussing ways to “stop” or “slow [ ] down” fraud
+17 on the Company’s platform.
+18 99. Confidential Witness #4 (“CW4”) was a contract fraud analyst at Robinhood from
+19 mid-2020 to August 2021. Over the course of that period, CW4 observed that the pressures placed
+20 upon fraud analysts expended exponentially, leading to significant frustration among employees.
+21 CW4 reviewed customer accounts that were displaying signs of potentially fraudulent activity.
+22 The accounts were escalated to the fraud department via the internal CRX department. CW4
+23 observed that the CRX department was unable to do its job of parsing through the accounts and
+24 ended up escalating everything to the fraud department. Part of the reason for the CRX
+25 department’s failure was that they were overwhelmed themselves, a common complaint among
+26 Robinhood employees. CW4 explained that the Company tended to add responsibilities to already
+27 overloaded employees instead of taking the time to establish protocols or creating new roles.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 100. The fraud department met weekly as a whole. In the months prior to the IPO, the
+2 meetings were attended by the Vice President of Operations. CW4 witnessed in the months leading
+3 up to the IPO an extreme backlog of reviews. CW4 witnessed fraud trends with Robinhood debit
+4 cards and service disruptions. These led to customer losses.
+5 101. CW4 observed that Robinhood did not have any protocols in place to deal with the
+6 rising inflow of fraud reviews. CW4 observed that there were barely any established protocols
+7 regarding fraud protection, let alone rules to help further the process of examining potential fraud.
+8 102. In CW4’s view, Robinhood perceived fraud reviews as “minor” and was much
+9 more concerned with driving revenue. CW4 recalled that, as a result of the backlog, he worked on
+10 fraud reviews that were 30 days old, which he remembered was well after the federally mandated
+11 time period for conducting a fraud assessment. In the months before the IPO, Robinhood’s review
+12 backlog began to increase due to third-party access disruptions. Robinhood accounts were being
+13 accessed by third parties at increasing rates, which in turn raised the number of fraud reviews.
+14 103. Aside from the backlogs, Robinhood customers experienced several disruptions to
+15 the platform. After customers complained that their accounts were frozen or disrupted, those
+16 complaints would go to the fraud department for analysis. CW4 recalled how frustrated customers
+17 were at how slow the process was for Robinhood to respond to them.
+18 104. CW4 also recalled that a concerning number of customers asked for their accounts
+19 to be closed due to the combination of the foregoing issues, including the disruptions and backlog.
+20 In the November 2020 through January 2021 time period, management commented on the
+21 customer losses during weekly fraud department meetings.
+22 105. Robinhood also put its revenue needs ahead of the well-being of its customers.
+23 CW1 recalls that he repeatedly asked Robinhood’s C-Suite, including Defendants Tenev and
+24 Bhatt, to implement protocol changes that would educate Robinhood customers to the benefits of
+25 long-term trading, but was shut down by upper management and “actively disincentivized” from
+26 working towards this goal. CW1, who worked with Robinhood customer data to analyze behavior,
+27 recalled that Robinhood permitted investors to access advanced trading methods even when the
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Company’s internal data showed that customers were not capable of comprehending those trading
+2 methods. For example, the Company studied margin trading in early 2020. Robinhood granted
+3 customers, even novice ones, access to margin trading. To assess the capabilities of its customers,
+4 Robinhood sent a survey to customers asking basic questions about margin trading. The data
+5 showed that customers with access to margin trading answered correctly at a rate “worse than
+6 chance.” Given the risk entailed in margin trading, CW1 recommended installing more barriers
+7 to entry for complex trading or lowering the interest rates for customers borrowing on margin.
+8 CW1 discussed the results of this analysis with Defendants Tenev and Bhatt.
+9 106. CW1 pointed out other ways that Robinhood’s platform selectively presented
+10 information to customers to affect their decision-making process. By presenting customers with
+11 certain types of information in their home screen, Robinhood made it more likely that investors
+12 would use that specific information to make decisions. CW1 pointed out that Robinhood’s home
+13 screen displayed each customer’s results for that day. The one-day view was a very short time-
+14 horizon that encouraged customers to trade based on that information. There was even a blinking
+15 dot that flashed every second, updating and displaying portfolio differences as minor as one cent.
+16 This encouraged customers to trade frequently and created a sense of urgency. CW1 raised these
+17 concerns to management to no avail.
+18 107. CW1 took part in monthly management meetings attended by all members of the
+19 C-Suite and other managers, including all who were director level and above. Defendants Tenev
+20 and Bhatt attended these meetings. The meetings covered many topics, including Robinhood’s
+21 Net Promoter Score (“NPS”). The NPS represented how likely Robinhood customers were to
+22 recommend the product to others and was seen as an important metric. It was measured by
+23 subtracting the percentage of customers that would not recommend Robinhood from the
+24 percentage of customers that would. This data was collected in surveys sent out to Robinhood
+25 users. In the months prior to the IPO, Robinhood’s NPS suffered, as with other growth metrics.
+26 108. CW1 observed that MAU data was frequently reviewed in these meetings. The
+27 metric was also discussed in weekly all-hands meetings. CW1 witnessed that MAU declined in
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 the months leading up to the IPO. Defendants Tenev and Bhatt presented the data and
+2 acknowledged the declining metric.
+3 109. CW1 also recalls that other features of Robinhood’s app were discussed during
+4 monthly meetings. For example, the behavioral department’s analysis of the so-called “blinking
+5 dot” was presented at a meeting attended by Defendants Tenev and Bhatt. It was explained that
+6 the analysis showed that the dot increased user trading activity. CW1 suggested that the dot should
+7 be removed, but Robinhood executives opted to keep the feature.
+8 110. CW1 also recalls discussing with executives that Robinhood customers had a
+9 terrible rate of return. CW1 was informed that for 2020, Robinhood customers had an average rate
+10 of return of -9%. That was dismal compared to the S&P average for the year.3 CW1 raised this
+11 in a monthly meeting and was told that he was not to bring it up again, and that no one cared.
+12 111. In mid-2020, CW1 met with members of Robinhood’s C-Suite to discuss the
+13 concerning trends and topics CW1 had uncovered in CW1’s research. CW1 advised Robinhood’s
+14 C-Suite that encouraging long-term investing would be a better strategy for Robinhood because it
+15 would increase its customer’s returns, encouraging them to stay with the Company and bring other
+16 investors to the Company. Defendant Bhatt said he would think about the proposal but did not
+17 follow up. CW1 recalls that Robinhood’s CFO, Defendant Warnick, challenged the notion that
+18 Robinhood was focused only on short term revenue. When CW1 asked for evidence supporting
+19 Defendant Warnick’s claim, Defendant Warnick “threw a fit” and gave a sweeping “libertarian
+20 talk” about how he did not want to restrict customers’ choices.
+21 112. The work of Robinhood’s researchers did not seem important to Robinhood’s C-
+22 Suite. Whenever the behavioral research was published to the C-Suite, they invariably focused on
+23 whether a particular change would increase the amount of trading engaged in by investors on the
+24 platform, and thereby affect revenue.
+25 113. As part of CW1’s research, he sent questionnaires to customers regarding security.
+26 The responses were always “really bad.” Customers were aware of the pre-IPO security hacks and
+28 3 The S&P returned 16.26% in 2020.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 breaches and knew it continued to be a problem after the IPO. As a direct result of this knowledge,
+2 Robinhood’s NPS decreased significantly. Sometime around February 2021, Robinhood hired a
+3 “red hat” team whose job was to try and hack into Robinhood’s platform to expose weaknesses.
+4 The red hat team was successful.
+5 114. CW2 stated that in her experience, Robinhood was a “reckless” company that
+6 “targets naïve traders.” CW2 was an options trading specialist whose job was to answer customer
+7 complaints, concerns, or questions pertaining to options trades. Options trading involves
+8 complexities that stock and bond trading do not.
+9 115. But Robinhood made it very easy for customers to access options trades. As CW1
+10 points out, options trading was Robinhood’s most profitable area. Per CW2, customers simply
+11 had to answer a trading quiz to gain access. There were no controls if a customer lied or
+12 exaggerated his or her trading ability. A customer could also override the quiz by calling a
+13 customer representative, even if the customer had given a “red flag” answer in the quiz that raised
+14 concerns about the customer’s trading knowledge.
+15 116. It was “very easy” for customers to get in trouble. CW2 often dealt with “disaster
+16 cases” resulting from novice traders having the highest level of trading access. Two or three times
+17 a week, CW2 dealt with really bad situations where a Robinhood customer was in serious peril.
+18 For example, CW2 assisted a customer who had entered into a naked short sale, which is extremely
+19 risky. In a typical short sale, an investor sells short, borrowed shares of a stock. In a naked short
+20 sale, the shares are not confirmed to exist, and the investor sells short shares that he does not
+21 possess. The customer in question owed somewhere between $30,000 and $40,000.
+22 117. Customer frustration with their losses drove attrition at Robinhood. In the months
+23 before the IPO, CW2 noticed that the cancellation requests increased.
+24 118. CW2 attended weekly all-hands meetings with Defendants Tenev and Bhatt
+25 present. During these meetings, employees were often shown recent analyses of the Company’s
+26 performance trends, including as to MAU, new customer sign-ups, customer attrition and customer
+27 complaints.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 119. CW2 recalls looking at these numbers between January 2021 and July 2021 in
+2 particular. CW2 recalls this time period specifically because it was bookmarked by the “GameStop
+3 incident” and the IPO. During this period, CW2 recalls that there was a decrease in new customers
+4 and that attrition increased. Customer complaints also increased. Defendants Tenev and Bhatt
+5 acknowledged these issues but said that Robinhood “had plenty of money” and the numbers were
+6 “nobody’s fault.” CW2 recalls that the decrease in new customers and increase in attrition was “a
+7 lot.”
+8 120. CW2 also recalls that during weekly all-hands meetings, employees submitted
+9 questions to Defendants Tenev and Bhatt about Robinhood’s incentives to engage in risky trading,
+10 but that Defendants Tenev and Bhatt ignored these questions.
+11 121. Confidential Witness #5 (“CW5”) worked on the customer experience team from
+12 mid-2020 to early 2022. During this time, Robinhood operated with a lack of sufficient
+13 infrastructure. In mid-2020, for example, Robinhood did not have an operable phone system for
+14 customers to call. Instead, Robinhood had an email system that served as the sole form of
+15 communication with customers.
+16 122. Also, in late November 2020, there was a “mini firestorm” at Robinhood related to
+17 “B Notices.” CW5 explained that B Notices were tax notices that customers had to respond to.
+18 Despite knowing that customers had to respond, Robinhood was not prepared to assist customers
+19 leading to lengthy ques of tens of thousands of customer inquiries. The experience underlined for
+20 CW5 that Robinhood was not capable of operating at scale.
+21 123. CW1 likewise observed that Robinhood had serious training problems. Customer
+22 service training was much less in depth, for example, then at competitors such as Charles Schwab.
+23 Robinhood only put customer representatives through basic training and did not have any
+24 dedicated teams (except for a white glove team that handled cases where there was a threatened
+25 lawsuit).
+26 124. Representatives often struggled to deal with complicated questions from investors,
+27 making them less productive and leading to both a backlog of, and untimely responses to,
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 complaints. CW5 raised these concerns to CW5’s manager multiple times but was ignored. CW5
+2 recalls that customers were irate with how long their complaints and questions took to process.
+3 125. The training issues were never ratified. When a customer was not satisfied with a
+4 scripted answer provided by a representative, the customer was escalated to CW5. These
+5 customers were often irate and asked for their accounts to be closed. These cancellations were
+6 occurring in the lead up to the IPO and CW5 raised them repeatedly in management meetings.
+7 Despite the attention provided by CW5, the Company provided no meaningful response.
+8 126. In the aftermath of the GameStop incident in January 2021, during which
+9 Robinhood suspended trading of GameStop shares, Robinhood experienced a surge of customer
+10 cancellations. Prior to GameStop, attrition was not a substantial problem. Afterwards, there was
+11 a “huge uptick.” The cancellations continued at an elevated level throughout 2021 and into 2022.
+12 127. Again, CW5 attended weekly all-hands meetings where Defendants Tenev and
+13 Bhatt were present. CW5 recalls that during one meeting, an employee asked if new customer
+14 requests could be put on hold for a time until employees could catch up and felt ready to take them
+15 on. The question was “up voted” but ultimately turned down and not answered by either Defendant
+16 Tenev or Defendant Bhatt.
+17 128. Just as importantly, at the time of the IPO, Robinhood’s rapacious, short-sighted
+18 tactics were failing miserably. As the Company recently admitted, at the time of the IPO,
+19 Robinhood’s performance metrics and revenue had been cratering for months, directly
+20 contradicting the Offering Documents’ claims of growth and a successful business strategy.
+21 129. For example, as was later revealed, Robinhood was witnessing a negative trend in
+22 its MAU in the lead up to the IPO. Specifically, Robinhood’s MAU, which is used by the
+23 Company to measure “engagement” as it reflects the number of unique users who make a
+24 transaction, transition between two different screens on a mobile device, or load a page in a web
+25 browser while logged into their account, was declining precipitously and substantially between
+26 May 2021 and July 2021, as illustrated by the chart below:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+2021 MAU
+2 (IN MILLIONS)
+26 24.1
+21.3 21.3
+19.5
+4 20
+5 16
+7 6
+Apr May Jun Jul
+10 130. The percentage declines were considerable with Robinhood observing a nearly
+11 11.62% decline and an additional 8.45% decline between May 2021 and June 2021 and June
+12 2021 and July 2021, respectively. Robinhood lost 4.6 million users. This loss was highly material
+13 to investors because it showed that Robinhood was not bringing in droves of new customers by
+14 “democratizing” investing. Quite the opposite, investors were leaving Robinhood in large
+15 numbers, calling into question Robinhood’s strategy and future.
+16 131. Similarly, Robinhood’s total crypto trading volume absolutely cratered between
+17 May 2021 and June 2021, before declining even further in July 2021, the month Robinhood went
+18 public, as illustrated in the graph below:
+2021 TOTAL CRYPTO TRADING
+20 VOLUME (IN BILLIONS)
+21 $140 $127
+$120
+$100
+23 $76
+$80
+24 $60
+$40 $30
+$13
+$20
+$0
+Apr May Jun Jul
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 132. Specifically, between May 2021 and June 2021, Robinhood lost $97B worth of
+2 crypto trading volume, representing a decline of over 76% in this 30-day period. To make matters
+3 worse, Robinhood then lost an additional $17B in crypto trading volume between June 2021 and
+4 July 2021, representing a 56.67% decline from its already depleted June 2021 figure. In all,
+5 between May 2021 and July 2021, Robinhood lost $114B in crypto trading volume.
+6 133. As explained above, Robinhood makes its money by selling order flow to market
+7 makers. Consequently, the revenues Robinhood earned from selling its crypto customers’ trades
+8 to market makers for execution, i.e., payment for order flow in the form of Transaction Rebates,
+9 hemorrhaged at the time of the IPO. This was particularly significant because crypto revenue
+10 made an outsized contribution to Robinhood’s bottom line in 2Q21, accounting for approximately
+11 $320.7 million of the approximately $871.6 million Robinhood generated in total transaction-
+12 based revenues for the period. As a percentage of total net revenues, this amount represented 30%.
+13 134. Further, the Company’s ARPU was steeply declining during the three months
+14 between March and July 2021, falling from $137 at its peak to somewhere between $111.70 and
+15 $654 by the time of the Offering, as illustrated below:
+ARPU
+$160.00
+$137
+18 $140.00
+$111.70
+$120.00 $106.47
+$101.90
+$100.00
+$80.00
+$60.00
+21 $40.00
+$20.00
+22 $0.00
+2020 Q3 2020 Q4 2021 Q1 2021 Q2
+27 4 Robinhood’s ARPU for the 3Q21 was $65. Though Robinhood does not provide its ARPU
+monthly, by the time of the IPO, the Company had already experienced the disastrous June and
+July trading months, causing Robinhood’s ARPU to decline even more.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 135. In addition, the sum of fair value of all equities, options, cryptocurrency and cash
+2 held by users in their accounts (net of receivables), or AUC, was also trending down from April
+3 2021 through July 2021, as illustrated by the graph below:
+5 2021 MONTHLY TOTAL AUC
+(IN BILLIONS)
+6 $104.0
+$102.0
+$102.0
+$100.0 $98.9
+8 $98.5
+$98.0
+$96.0
+$94.7
+$94.0
+$92.0
+12 $90.0
+Apr May Jun Jul
+14 136. But for the one-time bump Robinhood experienced in June 2021, which the
+15 Company said “exceptionally strong interest in trading, particularly in cryptocurrencies” drove,
+16 Robinhood’s AUC was deteriorating, falling from $98.9 billion in April 2021, to $98.5 billion in
+17 May 2021, to $94.7 billion in July 2021 when the Company went public.
+18 137. According to Defendants, AUC is correlated to revenue and is also affected by
+19 customer engagement with the Robinhood platform. Therefore, this negative trend in AUC, as
+20 well as the nearly 4.25% overall decline observed, which Robinhood was tracking in the lead up
+21 to the IPO, suggests that Robinhood’s business strategy was failing as it was going public.
+22 138. Finally, Robinhood’s customer base and usage, as measured by “net cumulative
+23 funded accounts,” remained almost flat throughout May, June, and July 2021:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+2021 MONTHLY NET CUMULATIVE
+FUNDED ACCOUNTS (NCFA)
+3 (IN MILLIONS)
+4 23.0 22.3 22.5 22.4
+22.0
+21.0
+20.1
+6 20.0
+19.0
+18.0
+8 Apr May Jun Jul
+9 139. These numbers showed that Robinhood’s “innovative” and “revolutionary”
+10 business strategy, which at the time of the IPO supposedly drove (and was continuing to drive)
+11 people to the platform and which set Robinhood up to “serve an increasing portion of the
+12 population and the broader financial services ecosystem,” was, in fact, not working.
+13 THE MATERIALLY FALSE AND MISLEADING OFFERING DOCUMENTS
+14 140. The Offering Documents used to effectuate Robinhood’s IPO, as well as the road
+15 show talking points and script used in conjunction with presenting the road show PowerPoint
+16 presentation for the IPO, contained materially untrue or misleading statements of material facts
+17 and/or omitted to state various facts necessary to make the statements made therein not materially
+18 misleading or incomplete in violation of the Securities Act. The Offering Documents told
+19 investors that Robinhood has a visionary strategy that it was successfully executing to achieve
+20 ongoing growth. The truth was that Robinhood was not even trying to execute much of its strategy
+21 and for months prior to the IPO, Robinhood’s business strategy – such as it was – was undeniably
+22 failing as evidenced by the sharp decline in Robinhood’s KPIs and revenue.
+23 141. According to the Offering Documents, Robinhood’s “new way for people to
+24 interact with the financial system,” started with “a revolutionary, bold brand and design” which,
+25 at the time of the IPO, made “investing approachable for millions.” It also purportedly resulted in
+26 Robinhood transforming the financial industry forever and positioned Robinhood for continued
+27 growth:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 We built a market-leading financial technology platform with an intuitive customer
+interface that has changed the landscape of retail investing. While we have
+2 already achieved significant growth, we believe we are well-positioned to serve an
+increasing portion of the population and the broader financial services ecosystem.
+4 Id. [Emphasis added.]
+5 142. Robinhood’s strategy purportedly put customers’ long-term interest first, ahead of
+6 short-term revenue:
+7 We will continue to make bold multi-year investments when we believe they will
+lead to the opportunity to deliver lower prices and a 10x better experience. At
+8 times, we may sacrifice short-term profitability, but we’ll never sacrifice what’s in
+our customers’ long-term best interest in order to “make our quarter.” Id.
+10 143. Robinhood’s strategy also was supposedly, “empowering a new generation of
+11 financial consumers,” all of whom Robinhood made certain commitments to, such as
+12 “maintain[ing] strong relationships with our loyal customer base and earning customers’ trust
+13 when they choose our platform on their financial journey,” “keeping our customers’ accounts
+14 safe . . . promis[ing] to reimburse direct losses that happen due to unauthorized activity,” and
+15 “helping our customers build sustainable, long-term financial success.” Id. [Emphasis added.]
+16 144. Robinhood’s purported focus on customers and customer-safety also supposedly
+17 set it up well for continued and long-lasting success:
+18 By taking a fresh, people-centric approach and creating a delightful, engaging
+customer experience, we believe we have built a trusted, category-defining brand
+19 that has made investing socially relevant for the next generation.
+20 The excitement around Robinhood demonstrates how our innovative approach to
+financial products has built deep, loyal customer relationships and positioned us
+21 well to continue attracting new people to our platform, and sharing new product
+experiences with our customers.
+Our people-centric approach has driven customer enthusiasm and engagement,
+23 resulting in rapid adoption of our products. We designed our platform to provide
+our customers with relevant, accessible information when they need it most. Being
+24 an investor involves following a regular cycle of events ‒ news releases, earnings
+announcements, transaction executions ‒ that creates a regular cadence of content
+25 and information. We use our platform, from push notifications to widgets, to
+provide seamless customized updates to our customers. This engenders trust,
+26 creates enduring long-term relationships and has resonated with our customers.
+Id. [Emphasis added.]
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 145. The Offering Documents continued, in pertinent part:
+2 Robinhood is a safety-first company. This starts with the reliability of our
+platform, which is of paramount importance.
+We’ve had our growing pains as we’ve navigated the acceleration of our business
+4 at scale, and over the last 3 years we’ve made wholesale changes to our
+infrastructure to add redundancy and capacity and to make it easier for our
+5 engineers to test and release product updates. As a result of these investments, we
+believe we are prepared to handle over 30x the volumes that we struggled with
+6 back in 2020, and we systematically prepare for 3x the highest load we’ve seen in
+the past, so that we’re there when our customers need us most.
+We also understand that sometimes customers will have questions or encounter
+8 unexpected issues. For that, we’ve increased and accelerated our investments in
+customer support. We’ve rolled out live phone support for the most pressing
+9 issues, opened three new service centers, and more than tripled the size of our full-
+time customer support team in 2020 alone. We’re employing machine learning and
+10 natural language processing to improve our triage and routing, and we’re constantly
+making upstream product improvements to prevent the most acute customer
+11 support interactions from happening in the first place. You will see us continue
+to make significant investments to ensure that customers can get support quickly
+12 and conveniently when they need it.
+13 Finally, we provide education and build safeguards into our products so that our
+customers are in the best position to succeed. . . . We will continue to experiment
+14 with new content and mediums in an effort to meet you where you are, and we
+commit to speaking clearly and transparently to you.
+Customer feedback is at the heart of product development at Robinhood. . . .
+16 Today, we continue . . .[to] seek[] customer perspectives to inform our priorities
+and inspire our innovation. . . . Their insights help us focus on what is important
+17 and this approach enables us to expand our offering centered on their needs. . . .
+We have replaced confusing jargon with simplicity and slang. Our tools are
+18 delightful and engaging.
+19 Id. [Emphasis added.]
+20 146. The statements identified in paragraphs 141 through 145 above, however, were
+21 false and/or materially misleading because, as detailed above, these statements are completely
+22 inconsistent with Robinhood’s actual policies and procedures. Robinhood did not put investors’
+23 long-term interests first, it prioritized its own short-term interest in revenue by exposing customers
+24 to products they were not ready for and rigging the app to encourage trading that was profitable
+25 for Robinhood but ruinous for its customer investors. Robinhood’s internal systems were
+26 completely inadequate. The Company’s staff was woefully undertrained, unable to respond to
+27 customer complaints or questions, or the staggering losses that Robinhood’s own practices
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 encouraged. The Company was not creating long-term relationships built on trust, it was stoking
+2 customer rage that was leading to significant attrition, the loss of millions of users and a declining
+3 NPS. The Company was not putting safety first, it allowed fraud to run rampant on the platform
+4 and turned a blind eye to the concerns repeatedly raised by the Company’s own employees.
+5 147. For these same reasons, the Offering Documents generalized “Risk Factors” were
+6 themselves false and misleading, or otherwise wholly inadequate. For example, the Offering
+7 Documents warned that Robinhood’s business and reputation could be negatively affected or
+8 damaged from technical failures or interruptions, cybersecurity breaches or attacks, or because of
+9 Robinhood’s failure to protect personal data, stating in relevant part:
+10 Our platform has been, and may in the future be, subject to interruption and
+instability due to operational and technological failures, whether internal or
+11 external.
+12 Our business could be materially and adversely affected by a cybersecurity breach
+or other attack involving our computer systems or data or those of our customers
+13 or third-party service providers.
+14 We collect, store, share, disclose, transfer, use and otherwise process customer
+information and other data, including personal data, and an actual or perceived
+15 failure by us or our third-party service providers to protect such information and
+data or respect customers’ privacy could damage our reputation and brand,
+16 negatively affect our ability to retain customers and harm our business, financial
+condition, operating results, cash flows and prospects.
+18 Id. [Emphasis added.]
+19 148. Significantly, this discussion above was misleading because these risks had come
+20 to fruition for the reasons discussed above. Robinhood’s customer surveys document that the
+21 Company’s disregard for the safety of its customers was negatively impacting customers’
+22 willingness to recommend the Company to others or even keep their accounts open at the time of
+23 the IPO.
+24 149. The Offering Documents also misleadingly claimed that as a result of Robinhood’s
+25 supposedly successful strategy, the Company was experiencing growth:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+19 150. The Offering Documents complement these illustrations with the tables below. The
+20 first shows that Robinhood’s four KPIs have been increasing yearly since (at least) 2017. The
+21 second affirms, according to “preliminary information currently available to management,” that
+22 Robinhood’s Net Cumulative Funded Accounts, MAU, and AUC were each continuing to
+23 increase in the current quarter (i.e., the second quarter of 2021):
+Three Months or Month Ended
+Year or Month Ended December 31, March 31,
+(in millions except for
+ARPU) 2017 2018 2019 2020 2020 2021
+Net Cumulative
+Funded Accounts(1) 1.9 3.3 5.1 12.5 7.2 18.0
+Monthly Active
+Users (MAU)(2) 1.8 3.3 4.3 11.7 8.6 17.7
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Assets Under
+Custody (AUC)(3) $ 4,505.7 $ 8,359.5 $ 14,135.6 $ 62,978.5 $ 19,220.1 $ 80,932.4
+2 Average Revenues
+Per User (ARPU)(4) $ 37.0 $ 66.5 $ 65.7 $ 108.9 $ 82.9 $ 137.0
+Three Months or Month Ended
+June 30, 2020 June 30, 2021
+5 Actual Estimate
+Key Performance Metrics
+Net Cumulative Funded Accounts 9.8 22.5
+Monthly Active Users (MAU) 10.2 21.3
+Assets Under Custody (AUC) $ 33,422 102,035
+9 151. These illustrations and tables led prospective investors to believe that Robinhood
+10 was thriving. As does the Offering Documents’ explanation that Robinhood’s preliminary
+11 estimates for Net Cumulative Funded Accounts, MAU and AUC for the current quarter, of
+12 22.5M, 21.3M, and $102B, respectively, is based on “an increase in new users joining [the]
+13 platform, driven by general market interest trading.”
+14 152. Even the Offering Documents’ heads-up that the “rate of growth” in these KPIs will
+15 be lower in the third quarter of 2021 due to the “exceptionally strong interest in trading, particularly
+16 in cryptocurrencies, [Robinhood] experienced in the three months ended June 30, 2021,” suggests
+17 that the KPIs will nonetheless continue to grow.
+18 153. The statements identified in paragraphs 149 through 152 above, however, were
+19 false and/or materially misleading because at the time of the IPO, Robinhood’s KPIs had been in
+20 sharp decline for months. Between May 2021 and July 2021, Robinhood lost 4.6 million users.
+21 It’s MAU declined nearly 11.62% by June 2021 and by another 8.45% by July 2021. Between
+22 May 2021 and July 2021, Robinhood also lost $114B in crypto trading volume. Its crypto trading
+23 volume declined by over 76% by June 2021 and by another 56.67% by July 2021. And, between
+24 May 2021 and July 2021, Robinhood’s AUC suffered an overall decline of nearly 4.25%. In
+25 addition, Robinhood’s net cumulative funded accounts had completely flatlined while its ARPU
+26 declined by at least $25.30. Thus, Robinhood’s KPIs were not growing, they were sharply falling,
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 a major reversal in trend that called into question Robinhood’s strategy, growth, and future as a
+2 Company.
+3 154. For these same reasons, the following generalized “Risk Factor” concerning
+4 Robinhood’s recent growth and the potential that Robinhood “may not continue to grow on pace
+5 with historical rates,” is itself false and misleading, or otherwise wholly inadequate:
+6 We may not continue to grow on pace with historical rates.
+7 We have grown rapidly over the last few years, and therefore our recent
+revenue growth rate and financial performance should not be considered indicative
+8 of our future performance. In particular, since March 2020, we have experienced
+a significant increase in revenue, MAU, AUC and Net Cumulative Funded
+9 Accounts.
+10 * * *
+11 The circumstances that have accelerated the growth of our business may
+not continue in the future, and we expect the growth rates in revenue, MAU, AUC
+12 and Net Cumulative Funded Accounts to decline in future periods, and such
+declines could be significant.
+Id. [Emphasis added.]
+The foregoing was false and misleading because it indicates that Robinhood is still
+growing when, in fact, Robinhood’s performance data had been cratering for months.
+What is more, even the Offering Documents’ attempt at handicapping Robinhood’s
+cryptocurrency growth for its upcoming quarters, suggested growth, nonetheless:
+Trading activity was particularly high during the first two months of the 2021
+19 period, returning to levels more in line with prior periods during the last few
+weeks of the quarter ended June 30, 2021, and remained at similar levels into the
+20 early part of the third quarter.
+* * *
+We anticipate the rate of growth in these Key Performance Metrics [i.e., Net
+23 Cumulative Funded Accounts, MAUs, and Assets Under Custody (AUC)] will be
+lower for the period ended September 30, 2021, as compared to the three months
+24 ended June 30, 2021, due to the exceptionally strong interest in trading,
+particularly in cryptocurrencies, we experienced in the three months ended June
+25 30, 2021 and seasonality in overall trading activities.
+Id. [Emphasis added.]
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 157. The foregoing was false and misleading because it indicates that Robinhood’s
+2 performance metrics were continuing to grow, albeit at a slower rate. But that was not the case.
+3 Robinhood’s reference to trading activity returning to a more “normal” level was also misleading
+4 in light of the fact that crypto trading declined by nearly 90% in only two months, to rates that
+5 were far below those in April 2021.
+6 158. For these same reasons, the Offering Documents generalized “Risk Factors”
+7 concerning the potential implications of changes in the volume of cryptocurrency trading on
+8 Robinhood’s platform, were themselves false and misleading, or otherwise wholly inadequate. For
+9 example, the Offering Documents warned:
+10 Our business and reputation may be harmed by changes in business, economic
+or political conditions that impact global financial markets, or by a systemic
+11 market event.
+12 As a financial services company, our business, results of operations and
+reputation are directly affected by elements beyond our control, such as economic
+13 and political conditions, changes in the volatility in financial markets (including
+volatility as a result of the COVID-19 pandemic), significant increases in the
+14 volatility or trading volume of particular securities or cryptocurrencies, broad
+trends in business and finance, changes in volume of securities or
+15 cryptocurrencies trading generally, changes in the markets in which such
+transactions occur and changes in how such transactions are processed. These
+16 elements can arise suddenly and the full impact of such conditions can remain
+uncertain. A prolonged weakness in equity markets, such as a slowdown causing
+17 reduction in trading volume in securities, derivatives or cryptocurrency markets,
+may result in reduced revenues and would have an adverse effect on our business,
+18 financial condition and results of operations.
+19 * * *
+20 In addition, a prolonged weakness in the U.S. equity markets or in specific
+cryptocurrencies or equity securities or a general economic downturn could cause
+21 our customers to incur losses, which in turn could cause our brand and reputation
+to suffer.
+23 Id. [Emphasis added.]
+24 159. The Offering Documents also stated:
+25 The prices of cryptocurrencies are extremely volatile. Fluctuations in the price
+of various cryptocurrencies may cause uncertainty in the market and could
+26 negatively impact trading volumes of cryptocurrencies, which would adversely
+affect the success of RHC’s business, financial condition and results of
+27 operations.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 The cryptocurrency markets are volatile, and changes in the prices and/or
+trading volume of cryptocurrencies may adversely impact RHC’s growth strategy
+2 and business. In addition, while we have observed a positive trend in the total
+market capitalization of cryptocurrency assets historically, driven by increased
+3 adoption of cryptocurrency trading by both retail and institutional investors as
+well as continued growth of various non-investing use cases, historical trends are
+4 not indicative of future adoption, and it is possible that the adoption of
+cryptocurrencies may slow, take longer to develop or never be broadly adopted,
+5 which would negatively impact our business, financial condition and results of
+operations.
+7 Id. [Emphasis added.]
+8 160. The Offering Documents also stated:
+9 For the three months ended March 31, 2021, 17% of our total revenue was derived
+from transaction-based revenues earned from cryptocurrency transactions,
+10 compared to 4% for the three months year ended December 31, 2020. While we
+currently support a portfolio of seven cryptocurrencies for trading, for the three
+11 months ended March 31, 2021, 34% of our cryptocurrency transaction-based
+revenue was attributable to transactions in Dogecoin, as compared to 4% for the
+12 three months ended December 31, 2020. As such, in addition to the factors
+impacting the broader cryptoeconomy described elsewhere in this section, RHC’s
+13 business may be adversely affected, and growth in our net revenue earned from
+cryptocurrency transactions may slow or decline, if the markets for Dogecoin
+14 deteriorate or if the price of Dogecoin declines, including as a result of factors
+such as negative perceptions of Dogecoin or the increased availability of
+15 Dogecoin on other cryptocurrency trading platforms.
+16 Id. [Emphasis added.]
+17 161. In fact, all of these supposed risks identified in paragraph 158 through 160 above,
+18 had already come to pass. Cryptocurrency trading on Robinhood’s platform in the months leading
+19 up to the IPO was down more than 90%.
+20 THE OFFERING DOCUMENTS FAILED TO COMPLY WITH
+APPLICABLE SEC REGULATIONS
+22 162. In addition, Item 303 imposed an independent duty on Defendants to disclose in the
+23 Offering Documents any known events, trends, or uncertainties that Robinhood, as of the IPO,
+24 “reasonably expect[ed] will have a material favorable or unfavorable impact on the sales or
+25 revenues or income from continuing operations.” The Offering Documents violated Item 303 by
+26 failing to disclose that, as of the IPO: (1) Robinhood was not following its stated strategy; and
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 (2) that Robinhood’s stated strategy was not working as evidenced by massive pre-IPO declines
+2 in Robinhood’s revenue and key performance metrics.
+3 163. Similarly, Item 105 required Robinhood to adequately describe and discuss, in the
+4 “Risk Factor” section of the Offering Documents, the most significant factors that make the
+5 offering risky or speculative. The Offering Documents violated Item 105 by failing to adequately
+6 describe, if even described at all, that: (1) Robinhood was not following its stated strategy; and
+7 (2) Robinhood’s stated strategy was not working as evidenced by massive pre-IPO declines in
+8 Robinhood’s revenue and key performance metrics.
+9 ADDITIONAL FACTS DEMONSTRATING MATERIALITY
+10 164. In the months following Robinhood’s IPO, news concerning the aforementioned
+11 adverse facts and conditions that existed prior to and at the time of the Offering leaked out to the
+12 market. The responses from investors and securities analysts further demonstrates the significance
+13 of the information.
+14 165. The market began to see the impact of Robinhood’s pre-IPO business declines on
+15 October 26, 2021, when, after market close, Robinhood reported its financial results for the third
+16 quarter ended September 30, 2021 (“3Q21”). Notably, Robinhood’s MAU experienced a massive
+17 decline from 21.3 million in 2Q21 to 18.9 million in 3Q21. Robinhood also reported that its
+18 revenue had declined from $565 million in 2Q21 to $365 million in 3Q21, with revenue from
+19 crypto trading declining from $233 million to $51 million, respectively. In addition, Robinhood
+20 reported that its net cumulative funded accounts had dropped from 22.5 million in the second
+21 quarter to 22.4 million in the third quarter and that its ARPU also decreased quarter over quarter
+22 by 41.8% to $65.Securities analysts were quick to characterize the quarter as “disappointing” and
+23 warned that the results were likely to be poorly received by investors. For example, commenting
+24 on the results, Mizuho analyst Dan Dolev stated:
+25 With top-line results significantly below expectations (ours as well as consensus),
+lower MAUs, declining ARPU, very negative adjusted EBITDA . . . and
+26 disappointing 4Q guidance including no uptick in new funded accounts, we
+believe 3Q may be poorly received and we expect a negative stock reaction.
+28 Id. [Emphasis added.]
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 166. In a note, Piper Sandler analyst, Richard Repetto, recognized how the $51 million
+2 of crypto trading revenue Robinhood reported fell $112 million short of Piper Sandler’s estimate
+3 and represented a “far sharper drop than the 35% reduction in total crypto trading volume across
+4 the industry.”
+5 167. Financial reporters likewise viewed Robinhood’s results negatively. For example,
+6 shortly after the release of Robinhood’s 3Q21 8-K, CNBC published an article entitled,
+7 “Robinhood shares tank as revenue falls way short of expectations on lighter crypto trading,”
+8 noting:
+9 For the third quarter, total net revenue came in at $365 million, missing a Refinitiv
+estimate of $431.5 million. Revenues . . . were well below the second quarter’s
+10 revenue of $565 million, which was bolstered by a massive surge in crypto
+trading.
+Third-quarter transaction based revenue totaled $267 million, with only $51
+12 million coming from cryptocurrency trading. Revenue from crypto trading
+totaled $233 million in the second quarter, helped by interest in meme-inspired
+13 dogecoin.
+14 * * *
+15 Net cumulative accounts dropped to 22.4 million in the third quarter from 22.5
+million in the second quarter. Monthly active users totaled 18.9 million, down
+16 from 21.3 million in the second quarter.
+17 Id. [Emphasis added.]
+18 168. The Company’s disappointing third quarter results also led CNBC anchor Jim
+19 Cramer to tell viewers during the October 27, 2021 airing of Squawk on the Street, that it appears,
+20 “Robinhood is a fad,” suggesting further that the market “hit the pause button” on the so-called,
+21 “Robinhood revolution.”
+22 169. Robinhood’s stock price fell $4.13 per share, or approximately 10.44%, to close at
+23 $35.44 per share on October 27, 2021.
+24 170. On November 8, 2021, Robinhood disclosed that in the evening of November 3,
+25 2021, an unauthorized third party socially engineered a Robinhood customer service representative
+26 to gain access to the email addresses and other personal information of millions of Robinhood
+27 customers, stating in relevant part:
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 Late in the evening of November 3, we experienced a data security incident. An
+unauthorized third party obtained access to a limited amount of personal
+2 information for a portion of our customers. Based on our investigation, the attack
+has been contained and we believe that no Social Security numbers, bank account
+3 numbers, or debit card numbers were exposed and that there has been no financial
+loss to any customers as a result of the incident. The unauthorized party socially
+4 engineered a customer support employee by phone and obtained access to certain
+customer support systems. At this time, we understand that the unauthorized party
+5 obtained a list of email addresses for approximately five million people, and full
+names for a different group of approximately two million people. We also believe
+6 that for a more limited number of people approximately 310 in total-additional
+personal information, including name, date of birth, and zip code, was exposed,
+7 with a subset of approximately 10 customers having more extensive account
+details revealed. We are in the process of making appropriate disclosures to
+8 affected people.
+9 Id. [Emphasis added.]
+10 171. This significant lapse and the impact it were certain to have on Robinhood’s
+11 reputation and continued use by customers was not lost on Robinhood nor its Chief Security
+12 Officer, Caleb Sima, who quickly went into damage control, characterizing its disclosure to the
+13 entire Robinhood community as the “right thing to do,” stating in relevant part: “As a safety first
+14 company, we owe it to our customers to be transparent and act with integrity. Following a diligent
+15 review, putting the entire Robinhood community on notice of this incident now is the right thing
+16 to do.”
+17 172. Reporters took note. After the market closed on November 8, 2021, for example,
+18 Vice published an article entitled, “Robinhood Says It Was Hacked and Extorted But Nobody Lost
+19 Any Money,” which recounted the story of one Robinhood customer whose information was
+20 improperly accessed by the hacker. According to the article, Erin Gallagher (“Gallagher”), a social
+21 media and disinformation researcher, told Motherboard (i.e., Vice) that “she previously asked
+22 Robinhood to delete her account,” which “Robinhood [had] confirmed it [did] in January,” but that
+23 “she received the notice saying her email address was exposed in this latest breach . . . raising
+24 questions on what data Robinhood has kept on previous users.”
+25 173. Users also were quick to denounce the Company with many voicing their disdain
+26 on Reddit, a social news aggregator and discussion website, which had previously been a primary
+27 driver of the Company’s apparent pre-IPO success. For example, The_Count_99 wrote, “Karma
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 for staying with hood when you knew better,” and tax_evading_apple said they are surprised the
+2 Company still has millions of customers, while torytechlead colorfully recommending that users
+3 stop using “this sh*tty backstabbing piece of sh*t company.”
+4 174. The next day, Dealbreaker, published an article claiming that Robinhood’s
+5 cybersecurity defenses “appear to be as porous as ever.” [Emphasis added.] In “Company That
+6 Wants to Guard Your Cryptos Can’t Keep Your Personal Information Safe,” Dealbreaker writes:
+7 Back in July, Robinhood raised a tidy $1.89 billion in its initial public offering.
+Apparently, however, none of this money found its way to the company’s
+8 cybersecurity effort, as its defenses appear to be as porous as ever.
+9 * * *
+10 Sounds like just the kind of company you’d want to entrust with your not-at-all-
+susceptible-to-hackers cryptocurrency fortune.
+Id.
+Of all coverage, however, Bloomberg’s November 9, 2021 report entitled, “Why
+310 of Robinhood’s Cyber-Attack Victims Should Really Worry,” put the significance of the data
+breach in context most succinctly, stating in relevant part, “The company’s ‘safety first’ maxim,
+oft repeated by executives, will ring hollow to the millions of users who are now a little more
+vulnerable to phishing attacks and the smaller group who’ll have to be extra vigilant.” Id.
+[Emphasis added.]
+At the same time, Robinhood also revealed it was investigating reports that “some
+customers are having issues with transferring money into and out of the app.” “We're working to
+resolve this as soon as possible,” the Company said on its status page in a message with a 7:06
+AM PT (10:06 AM ET) time stamp. An hour later, the status page listed bank transfers as
+operational. Notwithstanding, Robinhood users’ use of the application for their intended purposes,
+was yet again disrupted.
+Following the Company’s announcement of the November 3, 2021 data breach and
+the November 9, 2021 disruption, as well as the publication of multiple media reports reporting on
+both failures, Robinhood’s stock declined 3.37%, to close at $36.70 per share on November 9,
+2021.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 178. The next day, Vice continued its coverage of the data breach by publishing an article
+2 entitled “Robinhood Hackers Accessed Internal Tool for Removing Account Security Features,
+3 Screenshots Show,” which included screenshots of what additional information the Robinhood
+4 hackers were able to (and did) access, as well as the critical back-end account features they had
+5 the option of tampering with. Specifically, the article states and shows:
+6 The hackers behind the recent breach of customer data from app-based broker
+Robinhood had access to an internal tool that presented them the option of
+7 tampering with user accounts, including removing specific users’ multi-factor
+authentication protections, according to screenshots of the tool obtained by
+8 Motherboard.
+9 * * *
+10 The news highlights the potential risks that hackers can pose beyond simply
+stealing sensitive data. The screenshots of the tool also show buttons for logging
+11 a user out of their account, adding a trusted device, and blocking certain sessions
+from accessing the Robinhood account. The screenshots also show the hackers
+12 could view sensitive information on users, such as their balances and trades.
+13 [Emphasis added.]
+14 A source who presented themselves as a proxy for the hackers provided
+Motherboard with the screenshots.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+16 179. As this new information reached the market, Robinhood’s stock sank further,
+17 closing on November 10, 2021 at $34.49 per share, representing a decline of 6.02%.
+18 180. On November 19, 2021, Deutsche Bank analyst Brian Bedell (“Bedell”) opened a
+19 sell “Catalyst Call” on Robinhood before the market opened. His call was based on concerns about
+20 “near-term growth and profitability headwinds,” which were mainly driven by the fact that “the
+21 meme stock phenomenon we witnessed en masse earlier in the year was more applicable to
+22 Robinhood’s recent customer growth and likely resulted in overestimation of the company’s
+23 core fundamentals and growth trajectory.” He separately noted how the November security
+24 incident could further negatively impact the Company by “driv[ing] some customer attrition.” On
+25 November 19, 2021, the price of Robinhood’s stock fell over 5%, to close at $28.99 per share.
+26 [Emphasis added.]
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 181. On December 3, 2021, SeekingAlpha published an article entitled, “Where Will
+2 Robinhood Stock Be In 5 Years? Potentially Still Down Here,” characterizing “the Q3 report [as]
+3 unequivocally a disaster.” On December 3, 2021, Robinhood’s stock declined 10.95%, to close at
+4 $21.55 per share.
+5 182. After the market closed on December 7, 2021, the Wall Street Journal published an
+6 article entitled, “Investors Are Using Robinhood, Other Platforms to Jump Into Options Trades,
+7 Worrying U.S. Regulators,” reporting that the “flood of everyday Americans into options trading
+8 has drawn a skeptical eye from U.S. regulators, who are considering possible rule changes for the
+9 era of smartphone brokerage apps.” Noting that “options give the holder the right, but not the
+10 obligation, to buy or sell an underlying security, such as shares of a public company,” and that
+11 “they have long been used by experienced traders for sophisticated strategies such as hedging
+12 portfolios or betting that certain stocks will experience a burst of volatility,” the Wall Street
+13 Journal explains that “brokers have long been required to perform extra due diligence before
+14 approving someone to trade options. This includes obtaining information about the customer’s
+15 financial background and investment experience and making sure the customer has been apprised
+16 of the risks.”
+17 183. The Wall Street Journal also recounts how “in June, Robinhood agreed to pay
+18 nearly $70 million to resolve sweeping allegations by Finra that focused in part on its options-
+19 approval procedures.” “According to the regulator, Robinhood qualified thousands of accounts to
+20 trade options even though clients didn’t meet the eligibility criteria.” Critically, the Wall Street
+21 Journal concludes that “gaining approval to buy and sell options through some brokerages, such
+22 as Robinhood Markets Inc., [continues to be] significantly easier than others.” As stated in the
+23 report:
+24 [Robinhood’s] app, still asks new users if they would like to enable commission-
+free options trading once their account is opened. The ‘Yes’ button is highlighted
+25 in green; the ‘No’ button is white. Approval can be obtained in a few minutes by
+clicking through a set of questions about one’s assets and income, investment
+26 experience, and by attesting to having read a 100-page document.
+27 * * *
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 The company said at the time of the Finra settlement that it had enhanced its
+oversight of customers’ use of options, including through conducting monthly
+2 reviews to ensure clients meet eligibility rules.
+3 Still, other brokers are more rigorous in reviewing customers’ applications to trade
+options. Some large brokerages, such as Charles SchwabCorp., manually review
+4 all applications, a process that can take days even for people seeking the most basic
+level of options trading.
+Robinhood, by contrast, approves investors’ applications instantly if their
+6 responses to the questionnaire meet the company’s criteria.
+7 Id. [Emphasis added.]
+8 184. The next day, on December 8, 2021, the Motley Fool published an article entitled,
+9 “5 Red Flags for Robinhood Markets’ Future,” identifying Robinhood’s “decelerating growth in
+10 users and revenue” as well as its “dependence on dogecoin,” as two areas of particular concern.
+11 185. After the market closed on December 8, 2021, additional articles were published
+12 warning that the risk of regulators restricting options trading was rising, posing a significant
+13 problem for Robinhood who relied heavily on options trading as payments received for flowing
+14 options orders to market makers are “far higher” than for equities or crypto. For example, in “The
+15 risk of regulators restricting options trading is rising, and that could be a problem for Robinhood
+16 and others,” SeekingAlpha News Editor, David Jackson, notes how:
+17 Recent comments by FINRA and the SEC suggest that regulator may be
+considering restricting the ability of brokerages to promote options trading to retail
+18 investors. If that were to happen, it could negatively impact the revenue of trading
+platforms including Robinhood. . . .
+20 * * *
+21 Restrictions on the ability of brokerages to promote options trading could
+significantly reduce the payments for order flow the brokerages receive, because
+22 payments for order flow are far higher for options than for equities. A 2020 analysis
+of SEC filings by Piper Sandler found that Robinhood (HOOD) makes the most
+23 from payment for order flow, receiving $0.17 per 100 equity shares and $0.58 per
+100 options. Schwab (SCHW) receives $0.11 per 100 equity shares and $0.37 per
+24 100 options, while E*Trade receives $0.15 per 100 equity shares and $0.46 per 100
+options, and Ameritrade $0.15 per 100 equity shares and $0.58 per 100 options.
+26 Id.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 186. As the market learned that Robinhood’s supposed enhancements in oversight were,
+2 in fact, simply window-dressing, and that, as a result, regulators were increasingly considering
+3 imposing strict regulations on its (and others) ability to promote options trading to retail investors,
+4 Robinhood’s stock price declined 7.63% to close at $21.91 per share on December 9, 2021.
+5 187. The next day, the Wall Street Journal published an article, entitled “Robinhood’s
+6 Stock Fizzles After Splashy Public Offering,” which was then published in the print edition of the
+7 Wall Street Journal on December 10, 2021 under the headline “Robinhood Fizzles After Hot Start”
+8 noting how the “slowdown in cryptocurrency trading, particularly in the meme cryptocurrency
+9 dogecoin, weighed heavily on [Robinhood’s] results.” [Emphasis added.]
+10 188. Following this news, Robinhood’s shares fell another 8.12%, closing at $20.13 per
+11 share on December 10, 2021.
+12 189. Later, on December 15, 2021, after the markets closed, Bank of America initiated
+13 its coverage of Robinhood with an underperform rating and a price objective of $22 per share. In
+14 its initial report, Bank of America advised that the market, based on Robinhood’s then-current
+15 stock price, “may be underappreciating . . . [Robinhood’s] overstated growth trajectory in 2020-
+16 21,” which was driven by the “‘meme’ stock phenomenon [&] crypto appreciation.” [Emphasis
+17 added.] Bank of America expressed its concern that “HOOD’s cryptocurrency offering triggered
+18 significant growth in 1H21, but after clients realized that its crypto offering was inferior to the
+19 crypto exchanges (no digital wallet, less currencies) and the coins’ rapid appreciation reversed,
+20 HOOD’s momentum in crypto faded for at least a few quarters.” [Emphasis added.] Bank of
+21 America also determined that HOOD’s declining cryptocurrency trading activity, “caused HOOD
+22 to experience a deceleration in its funded accounts and [to] report significantly lower revenues
+23 as trading activity declined,” offering the following illustration to show how the decline in ARPU
+24 began in March 2021 (i.e., before the IPO):
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+10 190. On December 16, 2021, Robinhood’s shares declined 6.97% to close at $18.14 per
+11 share.
+12 191. Robinhood’s business strategy was placed further under the microscope on January
+13 18, 2022, when the media began reporting on the results of a study looking at the impact of trading
+14 platform gamification on retail traders’ risk taking, first published on Sunday, November 28, 2021
+15 (the “Gamification Study”).5 According to the Gamification Study, online brokers have needed to
+16 find new ways to differentiate, for example, “by offering investors sleek interfaces aimed to
+17 stimulate trading volume and engagement with the platform,” as competition on fees has reached
+18 a zero lower bound with, for example, Charles Schwab, TD Ameritrade Holding Corp, and
+19 E*Trade Financial Corp. each eliminating trading fees on equities, ETFs and options within a week
+20 from one another. So, they have increasingly gamified their apps by featuring bright flashing
+21 colors, “achievements,” and others features such as confetti to celebrate a trade. Assistant
+22 professor of finance at the University of Toronto, Marius Zoican (“Zoican”), among others, set out
+23 to determine whether “the gamification of trading apps exacerbate[s] risk-taking by individual
+24 traders. In the randomized online experiment, participants ‒ on average, 31 or 32 years old, which
+25 is in line with the demographic who typically use commission-free trading apps, like Robinhood
+26 ‒ were assigned to either a simple trading app, or a gamified app that mimicked features found on
+28 5 Available at, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3971868.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 existing platforms such as bursts of confetti after a trade, animations and other prompts. The
+2 Gamification Study found that the investors using the gamified apps, like Robinhood, took on
+3 more risk, especially when training high-volatility assets. Indeed, traders using gamified apps
+4 were “more likely to gamble their money away,” especially when “given [ ] more risky securities
+5 to trade.” [Emphasis added.] On January 18, 2022, the price of Robinhood’s stock declined
+6 5.08%.6
+7 192. A week later, before the market opened on January 26, 2022, Reuters ran another
+8 article warning of increasing regulation related to Robinhood’s gamification of trading. In
+9 “Analysis: Will the games stop? SEC mulls crackdown on trading apps,” Reuters notes how the
+10 SEC is studying ways to crack down on psychological prompts used by Robinhood and others to
+11 promote frequent stock trading. Why? Because “noises, bright colors and other sensory details
+12 ‘steer users to act,’” and that is a “big deal” when “real money is on the line,” especially since
+13 “investors generally lose money when they churn their portfolio.” Stated differently, according to
+14 the SEC, Robinhood’s video game-like features and other behavioral prompts, including, but not
+15 limited to, its “trading contests, points and rewards, as well as lively sound, bright colors,
+16 notifications, social networking tools, [or] curated lists of trading and investment ideas,” likely
+17 require greater oversight, as they could be (and are) extremely dangerous to investors. On this
+18 news, Robinhood’s shares declined 4.90%, to close at $12.41 per share on January 26, 2022.
+19 193. The next day, after the market closed, Robinhood reported its financial results for
+20 the fourth quarter and full year ended December 31, 2021 (“4Q 2021” and “FY 2021,”
+21 respectively). In its January 27, 2021, 4Q 2021 earnings release, Robinhood reported another
+22 round of financials that substantially missed analyst estimates: Robinhood’s MAU declined nearly
+23 8.5% quarter over quarter, missing estimates by 2.6 million; Robinhood’s net revenues of $362.7
+24 million fell short of the $370.9 million expected; Robinhood’s transaction-based revenue of $263.9
+25 million came in below the $269.3 million expected; Robinhood’s crypto transaction revenue of
+26 $48 million fell short of the $55 million expected, which also represented a decline of 5.9% quarter
+6 See, e.g., https://www.thestar.com/business/2022/01/18/gamified-apps-push-diy-traders-
+to-make-riskier-investments-study.html.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 over quarter; and Robinhood’s ARPU declined 1.5% quarter over quarter, missing estimates by
+2 $2.63. Robinhood’s revenue outlook for the first quarter of the year likewise came in below
+3 expectations, with the Company forecasting $340 million as compared to the $447 million analysts
+4 projected.
+5 194. As with Q3 2021, Analysts reacted adversely to Robinhood’s fourth quarter
+6 earnings release. Hugh Tallents (“Tallents”), senior partner at management consultancy cg42, for
+7 example, told Yahoo Finance, “Robinhood had all of the tailwinds that you could want running up
+8 to their IPO. The problem that they’ve had is that all of those basically have unwound in the
+9 last eight to 10 months.” In other words, Robinhood’s business turned in March or May 2021,
+10 months before the IPO. That Robinhood failed to disclose that shift so it could demand a premium
+11 for its shares during the IPO was not lost on Tallents who noted, “They had five years of business
+12 plan success baked into that IPO price. Now you’re starting to see it valued more like a ‘fin’ than
+13 a ‘tech,’ and that multiple isn’t attractive necessarily.” [Emphasis added.]
+14 195. Jesse Cohen (“Cohen”), senior analyst at Investing.com, likewise characterized
+15 Robinhood’s results as “awful.” Despite Defendant Warnick’s claim during the Company’s
+16 January 27, 2022 analyst call that the Company sees “nothing to suggest [its] customers are
+17 disengaging,” Cohen found that Robinhood’s results, “highlight the several challenges the trading
+18 platform company currently faces, mainly a slowdown in user growth, as well as weaker retail
+19 trading activity in stocks and crypto.” [Emphasis added.]
+20 196. The financial media also recognized the significance of the continuing decline in
+21 Robinhood’s cryptocurrency trading with, for example, Bloomberg noting that the 4Q21 print
+22 “mark[s] a second-consecutive quarter-over-quarter decline,” the Associated Press recognizing
+23 that “Growth keeps slowing,” and CNBC observing, in an article entitled, “Robinhood loses active
+24 users in the fourth quarter, forecasts weak revenue,” that, “revenue from crypto has been declining
+25 since the second quarter of 2021,” and that “Thursday’s report shows its continuing to decline.”
+26 [Emphasis added.]
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 197. Following Robinhood’s release of its 4Q21 earnings and the publication of
+2 numerous securities analysts’ and financial reporters’ views on those results, Robinhood’s stock
+3 price declined approximately 6.45%, to close at $11.61 per share on January 27, 2022.
+4 198. Days later, on February 1, 2022, the Motley Fool published an article entitled,
+5 “Robinhood Stock is Down 85%, and it Could Get Worse,” which, after assessing the Company’s
+6 KPIs from each quarter, concludes that Robinhood’s shift towards cryptocurrencies in early 2021
+7 only worked for a short time, stating in relevant part:
+8 Late 2020 into early 2021 was a bumper period for Robinhood, as the meme-stock
+frenzy was driven primarily by younger investors, its target demographic . . . . To
+9 maintain momentum, Robinhood made a pivot from its stock and options
+products into cryptocurrencies, as these assets were in high demand from its
+10 audience. While this worked for a short period of time, the company has since
+suffered sequential declines across most of the important financial metrics used
+11 to measure its business. Id. [Emphasis added.]
+By market close on February 2, 2022, Robinhood’s stock had declined 4.30%, to
+$14.02 per share.
+Then, author Michael Lewis (“Lewis”), known for his non-fiction writing about
+Wall Street culture, quickly put a stop to the notion that Robinhood is “disrupting Wall Street,”
+during an interview with Andrew Ross Sorkin (“Sorkin”), columnist and the founder and editor at
+large of Dealbook. According to an article entitled, “Michael Lewis Revisits ‘Liar’s Poker,”
+printed in the New York Times on February 7, 2022, which covered the conversation, in response
+to Sorkin’s question about whether Robinhood was “smashing the aisles” or otherwise “disrupting
+Wall Street in all kinds of ways,” Lewis stated:
+I’m not sure what Robinhood upends ‒ preserving both a fiction and the guts of a
+27 screwed up stock market without making a real dent on anything meaningful. And
+the fiction is that people can go into the market and systematically beat the market
+28 and you should be doing this with your money. I understand it’s fun if you’re
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 treating it like a casino. It is not a very healthy one. I think of Vanguard as being
+more useful, disruptive than Robinhood, teaching people not to do that.
+3 Id. [Emphasis added.]
+4 201. On this news, Robinhood’s shares declined 8.37%, to close on February 7, 2022 at
+5 $13.91 per share.
+6 202. Similar sentiments (and more) were published before the market opened on March
+7 11, 2022, by Motley Fool in an article entitled, “The hidden danger of trading apps: how investing
+8 can quickly become gambling,” which cited views from senior trading analyst at BrokerChooser,
+9 Kirsztian Gatonyi (“Gatonyi”), who argued that “‘the slogan for Robinhood should be changed
+10 to: Gambling for Everyone’!” According to Gatonyi, “users should be warned about the game-
+11 like features that are offered by the Robinhood mobile app[,]” because “[g]ame-like features can
+12 manipulate beginners to increase the number of their transactions, which is good for
+13 Robinhood’s Payment for Order Flow model. But not for user.” The article continues, in
+14 relevant part:
+15 Due to the nature of the app, Robinhood traders are prompted to increase the
+frequency of their trades and spend less time analysing the market. This leads
+16 to a lack of informed decisions.
+17 According to Gatonyi, “The more frequently beginners trade, the more likely
+they end up losing money.”
+19 Id. [Emphasis added.]
+20 203. The Motley Fool article also quotes Gatonyi explaining how “[t]he incentives in
+21 Robinhood’s app get young customers impatient and makes them believe investing is about
+22 pressing the ‘buy’ button on mobile phones[,]” which “involves making fewer quality decisions.”
+23 Id. Gatonyi goes on to warn that “this can quickly become addictive – and dangerous,” recounting
+24 a tragic story from 2020, when a “20-year-old student committed suicide after losing $730,000
+25 (£558,000) using his Robinhood account.” Id.
+26 204. On this news, Robinhood’s stock declined approximately 8.55%, to close at $11.02
+27 per share on March 11, 2022.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 205. Robinhood’s ineffective business strategy and the resulting poor performance of its
+2 crypto business, also led to the resignation of the Company’s top crypto executive Christine Brown
+3 who, during the evening of March 29, 2022, announced on Twitter that she was stepping down
+4 from her role as Robinhood Crypto’s COO, a position she had started less than a year earlier.
+5 Robinhood’s stock declined 8.49% the next trading day.
+6 206. Even Robinhood’s introduction of new cryptocurrencies to its platform could not
+7 distract the financial media from acknowledging the negative trends resulting from Robinhood’s
+8 deteriorating business as of the IPO. For example, on April 13, 2022, the Motley Fool ran an
+9 article entitled, “3 reasons Robinhood’s addition of Shiba Inu doesn’t matter,” which noted not
+10 only that “crypto traders have already cleared out” of Robinhood, but that “Robinhood lost traction
+11 as 2021 played out,” according to the following key metrics:
+12 • The number of monthly transacting users slipped from 21.3 million in the
+second quarter to 18.9 million in the third quarter, and then 17.3 million in
+13 the fourth quarter.
+14 • Average revenue per user has fallen in three consecutive quarters.
+Robinhood has gone from generating $137 per user during the first quarter
+15 to $64 in the fourth quarter.
+16 • Assets under custody were lower by the end of the year than where they
+were at the midpoint of 2021.
+18 207. The April 13, 2022 Motley Fool article continued:
+19 The pressure points are everywhere. Fewer people are trading, and people are
+trading less. That’s a bad look for a trading platform, and we haven’t even gotten
+20 to the most problematic metric.
+21 Id.
+22 * * *
+23 Robinhood reported transactions-based crypto revenue of $233 million in the
+second quarter, followed by $51 million in the third and $48 million in the fourth
+24 quarter. Put another way, Crypto transactions revenue went from 52% of
+Robinhood’s business in the second quarter to just 18% by the end of year.
+26 Id.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 208. On this news, Robinhood’s stock declined 4.29%, closing on April 14, 2021 at
+2 $11.38 per share.
+3 209. Then, after the market closed on April 28, 2022, the Company announced its 1Q
+4 2022 financial results, which were again disappointing. Robinhood’s MAU of 15.9 million
+5 represented an 8% decline from the previous quarter, AUC of $93.1 billion represented a 5%
+6 decline from the previous quarter, and ARPU of $53 represented an 18% declined from the
+7 previous quarter. Robinhood’s total net revenues of $299 million and transaction-based revenues
+8 of $218 million, of which crypto revenue only totaled $54 million, was likewise disappointing.
+9 210. In addition, Robinhood reported its KPIs on a monthly basis, showing for the first
+10 time the truth about Robinhood’s fledgling business in the months leading up to the IPO. See
+11 supra.
+12 211. As this news reached the market, the price of Robinhood’s stock dropped
+13 approximately 2.78%, with shares closing on April 29, 2022 at $9.81 per share.
+14 CLASS ACTION ALLEGATIONS
+15 212. Lead Plaintiffs repeat and reallege each and every allegation contained above as if
+16 fully set forth herein.
+17 213. Lead Plaintiffs bring this action as a class action, pursuant to Rules 23(a) and
+18 23(b)(3) of the Federal Rules of Civil Procedure, on behalf of a class consisting of all persons and
+19 entities that purchased, or otherwise acquired, Robinhood common stock issued in connection with
+20 the Company’s IPO.
+21 214. Excluded from the Class are: (i) Defendants; (ii) present or former executive
+22 officers of Robinhood, members of the Robinhood’s Board, and members of their immediate
+23 families (as defined in 17 C.F.R. §229.404, Instructions (1)(a)(iii) and (1)(b)(ii)); (iii) any of the
+24 foregoing persons’ legal representatives, heirs, successors, or assigns; and (iv) any entities in
+25 which Defendants have or had a controlling interest, or any affiliate of Robinhood.
+26 215. The members of the Class are so numerous that joinder of all members is
+27 impracticable. While the exact number of Class members is unknown to Lead Plaintiffs at this
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 time, and can only be ascertained through appropriate discovery, Lead Plaintiffs believe that there
+2 are hundreds or thousands of members in the Class. During the relevant time, millions of
+3 Robinhood shares were publicly traded on the NASDAQ, a national exchange. Record owners
+4 and other members of the Class may be identified from records maintained by Robinhood or its
+5 transfer agent and may be notified of the pendency of this action by mail, using a form of notice
+6 similar to that customarily used in securities class actions.
+7 216. Lead Plaintiffs’ claims are typical of the claims of Class members, who were all
+8 similarly affected by Defendants’ wrongful conduct in violation of the federal securities laws.
+9 Further, Lead Plaintiffs will fairly and adequately protect the interests of Class members and have
+10 retained counsel competent and experienced in class and securities litigation.
+11 217. Common questions of law and fact exist as to all members of the Class and
+12 predominate over any questions solely affecting individual members of the Class. Among the
+13 questions of law and fact common to the members of the Class are:
+14 (a) whether Defendants violated the Securities Act;
+15 (b) whether statements made by Defendants to the investing public
+16 misrepresented material facts about the business, operations, and prospects of Robinhood;
+17 (c) whether statements made by Defendants to the investing public omitted
+18 material facts necessary in order to make the statements made, in light of the circumstances
+19 under which they were made, not misleading; and
+20 (d) the extent of damage sustained by Class members and the appropriate
+21 measure of damages.
+22 218. A class action is superior to all other available methods for the fair and efficient
+23 adjudication of this controversy, since joinder of all members is impracticable. Further, as the
+24 damages suffered by individual Class members may be relatively small, the expense and burden
+25 of individual litigation makes it impossible for Class members to individually redress the wrongs
+26 done to them. There will be no difficulty in the management of this action as a class action.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 CLAIM ONE
+2 For Violations of §11 of the Securities Act
+(Against All Defendants)
+4 219. Lead Plaintiffs repeat and reallege each and every allegation contained above as if
+5 fully set forth herein.
+6 220. This claim is brought pursuant to §11 of the Securities Act, 15 U.S.C. §77k, on
+7 behalf of the Class, against all Defendants. This is a non-fraud cause of action. Lead Plaintiffs do
+8 not assert that Defendants committed intentional or reckless misconduct or that Defendants acted
+9 with scienter or fraudulent intent.
+10 221. The Offering Documents were inaccurate and misleading, contained untrue
+11 statements of material facts, omitted facts necessary to make the statements made therein not
+12 misleading, and omitted to state material facts required to be stated therein.
+13 222. The Company is the registrant of the securities purchased by Lead Plaintiffs and
+14 the Class. As such, the Company is strictly liable for the materially inaccurate statements
+15 contained in the Offering Documents and the failure of the Offering Documents to be complete
+16 and accurate. By virtue of the Offering Documents containing material misrepresentations and
+17 omissions of material fact necessary to make the statements therein not false and misleading,
+18 Robinhood is liable under §11 of the Securities Act to Lead Plaintiffs and the Class.
+19 223. The Individual Defendants each signed the Offering Documents and caused its
+20 issuance. As such, each is strictly liable for the materially inaccurate statements contained in the
+21 Offering Documents and the failure of the Offering Documents to be complete and accurate, unless
+22 they are able to carry their burden of establishing an affirmative “due diligence” defense. The
+23 Individual Defendants each had a duty to make a reasonable and diligent investigation of the
+24 truthfulness and accuracy of the statements contained in the Offering Documents and ensure that
+25 they were true and accurate, there were no omissions of material facts that would make the
+26 Offering Documents misleading, and the documents contained all facts required to be stated
+27 therein. In the exercise of reasonable care, the Individual Defendants should have known of the
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 material misstatements and omissions contained in the Offering Documents and also should have
+2 known of the omissions of material fact necessary to make the statements made therein not
+3 misleading. Accordingly, the Individual Defendants are liable to Lead Plaintiffs and the Class.
+4 224. The Underwriter Defendants each served as underwriters in connection with the
+5 IPO. As such, each is strictly liable for the materially inaccurate statements contained in the
+6 Offering Documents and the failure of the Offering Documents to be complete and accurate, unless
+7 they are able to carry their burden of establishing an affirmative “due diligence” defense. The
+8 Underwriter Defendants each had a duty to make a reasonable and diligent investigation of the
+9 truthfulness and accuracy of the statements contained in the Offering Documents. They had a duty
+10 to ensure that such statements were true and accurate, there were no omissions of material facts
+11 that would make the Offering Documents misleading, and the documents contained all facts
+12 required to be stated therein. In the exercise of reasonable care, the Underwriter Defendants should
+13 have known of the material misstatements and omissions contained in the Offering Documents
+14 and also should have known of the omissions of material facts necessary to make the statements
+15 made therein not misleading. Accordingly, each of the Underwriter Defendants is liable to Lead
+16 Plaintiffs and the Class.
+17 225. Defendants acted negligently in preparing the Offering Documents. None of the
+18 Defendants named in this Claim made a reasonable investigation or possess reasonable grounds
+19 for the belief that the statements contained in the Offering Documents were true and without
+20 omission of any material facts and were not misleading. In alleging the foregoing, Lead Plaintiffs
+21 specifically disclaim any allegation of fraud.
+22 226. By reasons of the conduct herein alleged, each Defendant named in this claim
+23 violated §11 of the Securities Act.
+24 227. None of the untrue statements or omissions of material fact in the Offering
+25 Documents alleged herein was a forward-looking statement. Rather, each such statement
+26 concerned existing facts. Moreover, the Offering Documents did not properly identify any of the
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 untrue statements as forward-looking statements and did not disclose information that undermined
+2 the putative validity of these statements.
+3 228. Lead Plaintiffs acquired the Company’s securities pursuant or traceable to the
+4 Offering Documents and without knowledge of the untruths and/or omissions alleged herein. Lead
+5 Plaintiffs sustained damages, and the price of the Company’s shares declined substantially, due to
+6 material misstatements in the Offering Documents.
+7 229. This Claim is brought within one year after the discovery of the untrue statements
+8 and omissions and within three years of the date of the Offering.
+9 230. By virtue of the foregoing, Lead Plaintiffs and the other members of the Class are
+10 entitled to damages under §11, as measured by the provisions of §11(e), from the Defendants and
+11 each of them, jointly and severally.
+12 CLAIM TWO
+13 For Violations of §12(a) of the Securities Act
+(Against All Defendants)
+15 231. Lead Plaintiffs repeat and reallege each and every allegation contained above, as if
+16 fully set forth herein.
+17 232. By means of the defective Prospectus, Defendants promoted, solicited, and sold
+18 Robinhood shares to Lead Plaintiffs and other members of the Class.
+19 233. The Prospectus for the IPO contained untrue statements of material fact, and
+20 concealed and failed to disclose material facts, as detailed above. Defendants owed Lead
+21 Plaintiffs, and the other members of the Class who purchased Robinhood shares pursuant to the
+22 Prospectus, the duty to make a reasonable and diligent investigation of the statements contained in
+23 the Prospectus, to ensure that such statements were true and that there was no omission to state a
+24 material fact required to be stated, in order to make the statements contained therein not
+25 misleading. Defendants, in the exercise of reasonable care, should have known of the
+26 misstatements and omissions contained in the Prospectus, as set forth above.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 234. Lead Plaintiffs did not know, nor in the exercise of reasonable diligence could Lead
+2 Plaintiffs have known, of the untruths and omissions contained in the Prospectus at the time Lead
+3 Plaintiffs acquired Robinhood shares.
+4 235. By reason of the conduct alleged herein, Defendants violated §12(a)(2), 15 U.S.C.
+5 §77l(a)(2) of the Securities Act. As a direct and proximate result of such violations, Lead Plaintiffs
+6 and the other members of the Class who purchased Robinhood securities, pursuant to the
+7 Prospectus, sustained substantial damages in connection with their purchases of the shares.
+8 Accordingly, Lead Plaintiffs and the other members of the Class who hold Robinhood securities
+9 issued pursuant to the Prospectus have the right to rescind and recover the consideration paid for
+10 their shares, and hereby tender their Robinhood shares to Defendants sued herein. Class members
+11 who have sold their Robinhood securities seek damages to the extent permitted by law.
+12 CLAIM THREE
+13 For Violations of §15 of the Securities Act
+(Against the Individual Defendants)
+15 236. Lead Plaintiffs repeat and reallege each and every allegation contained above as if
+16 fully set forth herein.
+17 237. This claim is brought pursuant to §15 of the Securities Act, 15 U.S.C. §77o, on
+18 behalf of the Class, against each of the Individual Defendants.
+19 238. The Individual Defendants were controlling persons of the Company within the
+20 meaning of §15 of the Securities Act. By reason of their ownership interest in, senior management
+21 positions at, and/or directorships held at the Company, as alleged above, these Defendants invested
+22 in, individually and collectively, and had the power to influence, and exercised same over, the
+23 Company to cause it to engage in the conduct complained of herein. Similarly, each of the other
+24 Individual Defendants not only controlled those subject to liability as primary violators of §11 of
+25 the Securities Act, as alleged above, they directly participated in controlling Robinhood by having
+26 signed, or authorized the signing of, the Registration Statement and authorizing the issuance of
+27 Robinhood securities to Lead Plaintiffs and members of the Class.
+AMENDED CLASS ACTION COMPLAINT
+Case No. 3:21-cv-09767
+1 239. As control persons of Robinhood, each of the Individual Defendants are jointly and
+2 severally liable pursuant to §15 of the Securities Act with and to the same extent as Robinhood for
+3 its violations of §11 of the Securities Act.
+4 PRAYER FOR RELIEF
+5 WHEREFORE, Lead Plaintiffs, on Lead Plaintiffs’ own behalf and on behalf of the Class,
+6 pray for relief and judgement as follows:
+7 A. Declaring that this action is a proper class action, pursuant to Fed. R. Civ. P. 23,
+8 certifying Lead Plaintiffs as representatives of the Class, and designating Lead Plaintiffs’ counsel
+9 as Class Counsel;
+10 B. Awarding Lead Plaintiffs and the other members of the Class compensatory
+11 damages;
+12 C. Awarding Lead Plaintiffs and the other members of the Class rescission on their
+13 §12(a)(2) claims;
+14 D. Awarding Lead Plaintiffs and the other members of the Class pre-judgment and
+15 post-judgment interest, as well as reasonable attorneys’ fees, expert witness fees, and other costs
+16 and disbursements; and
+17 E. Awarding Lead Plaintiffs and the other members of the Class such other and further
+18 relief as the Court may deem just and proper.
+19 DEMAND FOR TRIAL BY JURY

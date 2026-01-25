@@ -8,29 +8,35 @@ Prior scholarly work has shown that LLM performance degrades as context length i
 Accordingly, this work concentrates on complaints that are likely to stress current LLM capabilities due to both their length and structural complexity. The goal is not to demonstrate isolated successes, but to provide a realistic assessment of current LLMs capabilities. To that end, the models are evaluated through two distinct tests. The first test assesses whether an LLM can reliably extract simple, objective information from a complaint. The second test evaluates whether an LLM can objectively summarize the complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss.  Finally, given the nature of these tests, we will see if finetuning models will meaningfully improve performance of the LLM. 
 ## The Tests
 
-The evaluation consists of two tests designed to assess distinct capabilities of large language models in the context of complex legal complaints.
-### Test One: Objective Information Extraction
+To evaluate large language models’ ability to summarize long and complex documents, we employ two complementary approaches: (1) direct long-context summarization and (2) retrieval-augmented generation (“RAG”)–based summarization. These approaches are tested separately to isolate model capabilities from retrieval and embedding effects.
 
-The first test evaluates an LLM’s ability to extract basic, objective data points from complaints filed in securities and commodities litigation. Specifically, the models are evaluated on whether they can correctly identify:
+### 1. Direct Long-Context Summarization (Baseline)
 
-1. The plaintiff(s)
-2. The defendant(s)
-3. Whether any defendant is a publicly traded company and, if so, the corresponding ticker symbol
-4. The causes of action asserted against each defendant
-5. The key factual allegations supporting the asserted causes of action
+In the first test, each model is evaluated on its ability to summarize long documents without retrieval or chunk-based augmentation.
 
-Items (1) through (4) are objectively scored. Each correctly identified plaintiff or defendant receives one point, and each correctly identified cause of action receives one point, regardless of whether the cause of action is stated verbatim or paraphrased.
+Source PDFs are collected and converted to text.The extracted text is cleaned and normalized to remove artifacts such as headers, footers, page numbers, and filing stamps, while preserving logical section boundaries The same cleaned text is provided directly to each model as input, subject only to the model’s maximum context window.Each model generates a summary according to a fixed prompt and output specification.
 
-Item (5) is evaluated by comparing the LLM’s output to the source complaint using automated metrics designed to assess accuracy and factual faithfulness.
-### Test Two: Complaint Summarization and Dismissal Assessment
+The resulting summaries are evaluated against predefined benchmarks. This test isolates the model’s native long-context reasoning and summarization ability, independent of embeddings, chunking, or retrieval strategies, and serves as the baseline for all subsequent comparisons.
 
-The second test evaluates an LLM’s ability to objectively summarize a complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss. For this test, LLM-generated summaries are compared to the court’s characterization of the complaint as reflected in written decisions resolving motions to dismiss.
+### 2. Retrieval-Augmented Summarization (RAG)
 
-As in the first test, model outputs are evaluated using the same set of metrics to assess accuracy and faithfulness.
+In the second test, models are evaluated using a RAG pipeline to assess summarization performance when document context is selectively retrieved rather than fully provided.
 
-### Fine-Tuning and Re-Evaluation
+Cleaned document text is segmented into fixed-size chunks using a consistent chunking strategy. Two embedding strategies are evaluated:
 
-Based on performance across both tests, the top-performing models are selected for further fine-tuning. Fine-tuning is performed using domain-specific embeddings derived from Legal-BERT. The fine-tuned models are then re-evaluated using the same testing framework to assess whether fine-tuning produces measurable improvements in extraction accuracy and summarization faithfulness.
+ 1. general-purpose embedding model (e.g., OpenAI embeddings), and
+
+ 2. a transformer-based embedding model trained on legal-domain text.
+
+Chunk embeddings and associated metadata are stored in a vector database For each document, targeted retrieval queries are issued to retrieve relevant chunks from the vector database. Retrieved text chunks are provided to the model along with a fixed summarization prompt. The model generates a summary based solely on the retrieved context.
+
+Summaries are evaluated using the same scoring framework as the direct summarization test. This test measures the combined performance of retrieval quality and downstream summarization, enabling comparison of embedding strategies and their impact on summary accuracy, coverage, and faithfulness.
+
+### 3. Comparative Evaluation and Fine-Tuning
+
+Results from the direct summarization and RAG-based tests are compared to distinguish intrinsic model summarization capability from retrieval-assisted performance, and assess whether domain-specific embeddings materially improve summarization outcomes.
+
+Where appropriate, selected models may be fine-tuned using a separate training corpus, and the above tests are repeated using a strict train/dev/test split to evaluate the impact of fine-tuning on both direct and RAG-based summarization performance.
 
 ## Metrics  Used to Evaluate Performance
 

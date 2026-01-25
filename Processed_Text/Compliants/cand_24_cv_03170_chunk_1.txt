@@ -1,0 +1,1557 @@
+VIOLATION OF THE FEDERAL
+THIS DOCUMENT RELATES TO:
+14 SECURITIES LAWS
+All Actions
+15 DEMAND FOR JURY TRIAL
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 TABLE OF CONTENTS
+2 NATURE OF THE ACTION ......................................................................................................... 1
+JURISDICTION AND VENUE ..................................................................................................... 8
+PARTIES ........................................................................................................................................ 9
+FORMER EMPLOYEES WHO SUBSTANTIATE THE ALLEGATIONS ............................... 10
+5 SUBSTANTIVE ALLEGATIONS .............................................................................................. 12
+Background ....................................................................................................................... 12
+Fastly Experiences a Significant Customer Pullback Beginning in 2023......................... 15
+The Company Struggles to Acquire New Customers ....................................................... 20
+8 DEFENDANTS’ FALSE AND MISLEADING STATEMENTS ............................................... 22
+Defendants Mislead Investors During Q4 2023 About Macroeconomic Impacts on the
+Company’s Business ......................................................................................................... 23
+10 The Previously Downplayed Risks Begin to Materialize but Defendants Continue to
+Mislead Investors .............................................................................................................. 24
+Defendants Fail to Disclose Information Required to be Disclosed Under Regulation S-K
+........................................................................................................................................... 29
+The Truth Begins to Emerge ............................................................................................. 30
+Defendants Continue to Mislead Investors About its Existing Customers’ Growth ........ 33
+14 The Full Truth Emerges .................................................................................................... 36
+SCIENTER ALLEGATIONS ....................................................................................................... 39
+LOSS CAUSATION ..................................................................................................................... 44
+NO SAFE HARBOR .................................................................................................................... 45
+17 APPLICABILITY OF PRESUMPTION OF RELIANCE ........................................................... 45
+(FRAUD-ON-THE-MARKET DOCTRINE) ............................................................................... 45
+PLAINTIFFS’ CLASS ACTION ALLEGATIONS ..................................................................... 47
+COUNT I ...................................................................................................................................... 49
+20 COUNT II ..................................................................................................................................... 51
+PRAYER FOR RELIEF ............................................................................................................... 52
+DEMAND FOR TRIAL BY JURY .............................................................................................. 52
+i
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 Lead Plaintiff Olger Guri (“Lead Plaintiff”) and named plaintiff Ken Kula (collectively,
+2 “Plaintiffs”), individually and on behalf of all others similarly situated, by Plaintiffs’ undersigned
+3 attorneys, allege the following based upon personal knowledge as to Plaintiffs and Plaintiffs’ own
+4 acts, and information and belief as to all other matters, based upon, inter alia, the investigation
+5 conducted by Plaintiffs’ attorneys, which included, among other things, a review of Fastly, Inc.’s
+6 (“Fastly” or the “Company”) public documents, conference calls, statements, and announcements
+7 made by Fastly, Fastly’s Chief Executive Officer, Todd Nightingale, and Fastly’s Chief Financial
+8 Officer, Ronald Kisling (collectively, “Defendants”); United States Securities and Exchange
+9 Commission (“SEC”) filings, wire and press releases published by and regarding Fastly; analyst
+10 reports and advisories about the Company; interviews with former employees; and information
+11 readily obtainable on the Internet.
+12 NATURE OF THE ACTION
+13 1. This is a federal securities class action on behalf of a class consisting of all persons
+14 and entities other than Defendants that purchased or otherwise acquired Fastly securities between
+15 November 15, 2023 and August 7, 2024, both dates inclusive (the “Class Period”), seeking to
+16 recover damages caused by Defendants’ violations of the federal securities laws and to pursue
+17 remedies under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 (the “Exchange
+18 Act”) and Rule 10b-5 promulgated thereunder, against the Company and certain of its executives.
+19 2. Fastly operates an edge cloud platform for processing, serving, and securing
+20 customer’s applications. The edge cloud is a category of Infrastructure-as-a-Service (“IaaS”) that
+21 enables developers to build, secure, and deliver digital experiences. Fastly’s platform includes a
+22 Content Delivery Network (“CDN”), or a geographically distributed network of proxy servers and
+23 their data centers. Content owners, such as media companies and e-commerce vendors, pay CDN
+24 operators to deliver their content to their end users. In other words, Fastly’s customers are
+25 delivering web experiences, whether in the form of applications, websites, or streaming services.
+26 Certain companies have adopted a “Multi-CDN” framework which combines multiple CDNs from
+27 various providers into one large global network.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 3. The bulk of the Company’s revenue is derived from its existing customers’ use of
+2 Fastly’s platform, although the Company generates some revenue from additional products and
+3 other services, such as account management and customer support.
+4 4. Fastly charges customers based on their use of the Company’s platform and
+5 typically enters into contracts that include a monthly minimum billing commitment in exchange
+6 for more favorable pricing terms.
+7 5. For the fiscal year ended December 31, 2023, roughly 95% of the Company’s
+8 revenue was derived from customers’ use of its platform and new customers contributed less than
+9 10% of that revenue.
+10 6. The majority of the Company’s revenue is generated by its enterprise customers,
+11 which, as explained more fully below, were previously defined as those customers with revenue
+12 in excess of $100,000 over the trailing 12-month period, but are currently defined as those
+13 customers with annualized current quarter revenue in excess of $100,000, which is calculated by
+14 taking the revenue recognized in the current quarter and multiplying it by four.
+15 7. The Company’s ten largest customers, which one confidential witness referred to
+16 as “big whales,” include large streaming accounts and other accounts in the media space such as
+17 TikTok, Amazon Video, Apple, Twitter (X), Netflix, Paramount, and Disney. These customers
+18 account for a significant portion of the Company’s revenue, generating 37% of the Company’s
+19 revenue in FY 2023.
+20 8. Thus, a decline in revenue from the Company’s existing enterprise customers,
+21 especially its largest customers, or a decline in retention of such customers, could create volatility
+22 in the Company’s revenue and materially impact Fastly’s business.
+23 9. Against that backdrop, beginning in November 2023, Defendants began to mislead
+24 investors about how macroeconomic trends and uncertainties (i.e., the impact of rising interest
+25 rates, banking instability, and recession fears) were affecting the Company’s business.
+26 10. During a November 15, 2023 conference, in response to a question about whether
+27 “macro trends” were getting better, Nightingale replied: “The biggest pressure that people saw in
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 this area was like in small to medium SMB customers, maybe some of the mid market. We don’t
+2 have a lot of exposure there. . . . [s]o I didn’t see too many headwinds. The only thing we saw was
+3 a little bit of elongated deal flow.” When pressed, Nightingale responded, “My competitors are
+4 seeing these effects, some slowing in growth, and [] we’re not seeing that” (emphasis added).
+5 11. However, according to one confidential witness, such statements were “BS,” and
+6 Nightingale was “probably just trying to keep the share price afloat.” That same confidential
+7 witness explained that 30 to 40% of the Company’s sales team was dedicated to the small and
+8 medium-sized business (“SMB”) segment of the market. Another confidential witness, who
+9 worked with mid market enterprise customers, described how beginning in March and April of
+10 2023, customers began requesting more aggressive discounts. There was a direct correlation
+11 between when customers began asking for these discounts and when interest rates began rising
+12 significantly.
+13 12. In addition, one confidential witness explained that, contrary to Nightingale’s
+14 November 2023 public statements, macro forces, such as rising interest rates, were “definitely in
+15 the business cycle” and in fact, negatively affecting the Company’s revenues overall throughout
+16 2023, including revenues from Fastly’s largest customers, who were increasingly more price-
+17 conscious.
+18 13. Adding to the pressures on Fastly was the fact that Fastly’s competitors (i.e.,
+19 Cloudflare, Akamai, and Imperva) in the CDN market had caught up to the Company in
+20 technological prowess. Thus, Fastly had far less leverage in negotiating prices with its customers.
+21 14. The previously downplayed risks of macro effects on the Company’s business
+22 began to materialize when the Company announced its Q4 and FY 2023 financial results on
+23 February 14, 2024. The Company reported revenues of $506 million for FY 2023 and $137.8
+24 million for Q4 2023. The reported Q4 2023 revenue was on the lower side of their previous
+25 guidance and, according to Zacks Investment Research, missed analysts’ consensus estimates by
+26 1.1%. In response to this news, Fastly’s stock price fell significantly, from $23.54 to close at
+27 $16.34 on February 15, 2024, a decline of 30.59 %.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 15. However, Defendants continued to mislead investors by making misleading
+2 statements about the Company’s customer retention rates and its existing customers’ continued
+3 expansion of their use of Fastly’s services. During the February 14, 2024 earnings call with
+4 investors and analysts, Nightingale stated that the Company’s “customer retention efforts were
+5 stable in the fourth quarter.” When pressed by analysts on whether there were fundamental changes
+6 to the business in light of macroeconomic trends and uncertainties affecting the Company,
+7 Nightingale stated unequivocally in the conference call, “No, I think it was pretty much as we saw
+8 last quarter. A handful of deals may be taking a little longer than we thought, a little bit of deals
+9 elongation.”
+10 16. However, according to various confidential witnesses, in 2023, the appetite for
+11 Fastly’s services was declining. These confidential witnesses describe how numerous enterprise
+12 customers were canceling their contracts in 2023 and it was very difficult to land new clients. For
+13 example, Indeed and USAA did not renew their contracts with Fastly in 2023. In or around March
+14 and April of 2023, some enterprise customers began requesting steeper discounts when negotiating
+15 contract renewals with Fastly. The revenue decline became apparent to one confidential witness
+16 in November 2023, when they began to struggle to meet sales quotas. By the end of 2023, only 30
+17 percent of salespeople met their revenue targets. Customers continued to experience a stagnation
+18 in growth in 2024.
+19 17. Both the macro impacts on the Company’s business and the declining appetite for
+20 Fastly’s services was well known throughout the Company and the Company’s C-Suite because
+21 the Company regularly held quarterly “all hands” meetings at the Company’s San Francisco office,
+22 which discussed the overall state of the business, including, but not limited to, the effect of macro
+23 forces on the Company’s business in 2023. All hands meetings typically were held a week after
+24 the Company’s earnings calls and would provide a recap of what was discussed during the earnings
+25 call. They would include slide deck presentations and were attended by the Company’s C-Suite
+26 and all employees, who either attended in-person or could tune into the meetings live via Vimeo.
+27 Recordings of the meetings were distributed to all employees by email after the meeting.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 18. By November 2023, during these all hands meetings, Nightingale was discussing
+2 how the Company’s largest accounts were not bringing in as much traffic to Fastly. Specifically,
+3 during the November 2023 all hands meeting, which occurred shortly after Fastly’s November 1,
+4 2023 Q3 2023 earnings call, Nightingale spoke about “decreasing revenue from [the Company’s]
+5 big customers” and discussed how Fastly’s large media accounts had “throttled down” their usage,
+6 warning that a specific streaming company was “throttling things back, which is why revenue is
+7 down” (emphasis added). One confidential witness corroborated seeing this trend with their
+8 customers, stating that “New business really started falling off a cliff in Q4 .”
+9 19. The decline in traffic was also known to Defendants because the Company’s top
+10 executives – including, occasionally, Nightingale – attended weekly meetings throughout the
+11 relevant period, during which the Company’s customers were rated based on how much traffic
+12 they were transmitting through Fastly’s platform. If a major enterprise customer continued to be
+13 rated poorly, a “tiger team” was assembled to focus on improving that customer’s performance.
+14 20. Notwithstanding the discussion behind the scenes about the Company’s largest
+15 customers “throttling things back” in November 2023, during the February 14, 2024 earnings call,
+16 Nightingale also misleadingly attributed the Company coming in at the lower end of its guidance
+17 range to “weaker than anticipated international traffic, offset by seasonally strong live streaming
+18 and gaming activity” while omitting the critical information that a substantial contributor to the
+19 revenue decline was several of the Company’s largest customers simultaneously experiencing a
+20 decline in traffic.
+21 21. Defendants continued to make similarly misleading statements in its annual report
+22 filed on February 22, 2024, touting that the Company’s existing enterprise customers were
+23 increasing their spend on Fastly’s platform and continuing to drive the Company’s revenue growth.
+24 Further, Defendants claimed that any chance of its existing customers decreasing their use of
+25 Fastly’s platform was a hypothetical risk, despite the fact that the risk had already materialized.
+26 22. Additional negative information corrective of Defendants’ prior misrepresentations
+27 emerged on May 1, 2024, when Fastly hosted an earnings call to discuss the Company’s Q1 2024
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 financial results. During that call, Defendants decreased the company’s FY 2024 revenue
+2 projections from a range of $580 million to $590 million to a range of $555 million to $565 million,
+3 blaming the decline in revenue on some of the Company’s largest customers.
+4 23. Specifically, Defendants disclosed that the “biggest factor” contributing to a
+5 revenue decline was “a reduction of revenue from a small number of [the Company’s] largest
+6 customers,” explaining that there was “a slight uptick from the typical level of rerates with [the
+7 Company’s] largest customers,” which was not accompanied by “the commensurate traffic
+8 expansion usually associated with this motion.”
+9 24. When pressed for further detail on the timing of that pricing pressure from some of
+10 the Company’s largest accounts, Kisling clarified “[A] lot of that arose really at the end of March
+11 and in early April” with “negotiations result[ing] in bigger discounts than we thought that did not
+12 come with the typical increase in traffic that we’ve seen historically.”
+13 25. Analysts reacted negatively to the volatility with some of the Company’s largest
+14 customers. For example, on May 2, 2024, BofA downgraded Fastly stock from “Buy” to
+15 “Underperform,” citing the “[d]ecelerating growth in Fastly’s largest customers” as a basis to
+16 question “a rebound in 2024.” Similarly, D.A. Davidson downgraded Fastly’s stock from “Buy”
+17 to “NEUTRAL,” expressing concern about the Company’s apparent expectation to “recover[]
+18 traffic with large customers,” and stating “[w]e cannot get comfortable with that premise given
+19 what’s transpired over the last two quarters.”
+20 26. Following these developments, Fastly’s stock price fell $4.14 per share, or 32.02%,
+21 to close at $8.79 per share on May 2, 2024.
+22 27. Nevertheless, Defendants continued to withhold the full truth from investors about
+23 the Company’s revenue prospects from its existing enterprise customers, including its largest
+24 customers.
+25 28. During the May 2, 2024 earnings call, Nightingale portrayed the revenue decline
+26 from the Company’s top customers as stabilizing, stating: “Right now, we have already launched
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 a new engagement model. We’re driving a far higher touch across all those major accounts. We’ve
+2 been running it for a couple of weeks now, and we’re – I’m pretty happy with the progress so far.”
+3 29. In reality, Defendants had not made any progress with its largest customers. To the
+4 contrary, according to one confidential witness who was tasked with developing a product for two
+5 of the Company’s largest customers, Apple and Amazon, Apple and Amazon had been requesting
+6 the product since 2023 and the Company promised to deliver it by the end of 2023, but the
+7 Company had not even begun working on it until May 2024. Nightingale told that confidential
+8 witness to do whatever was needed to get the project done.
+9 30. Defendants also continued to mislead investors about the Company continuing to
+10 drive growth through existing customers. In the Company’s Q1 2024 Quarterly Report filed on
+11 Form 10-Q on May 1, 2024, Defendants repeated that the Company is “focused on . . . expanding
+12 [its] relationship with existing customers” and “emphasize[s] retaining [its] customers and
+13 expanding their usage of [Fastly’s] platform and adoption of [the Company’s] other products.”
+14 31. However, by that time, Defendants had shifted the Company’s focus away from
+15 driving revenue growth through existing customers, implementing a new sales strategy using a
+16 new compensation model in 2024 that prioritized revenue generated from new customer
+17 acquisitions over existing customers, thereby incentivizing the sales team to focus their efforts on
+18 new customer growth. Historically, new customers only accounted for less than 10% of the
+19 Company’s revenue derived from the use of its platform.
+20 32. The Company’s Q1 2024 Quarterly Report also discussed the risk of existing
+21 customers, especially the Company’s largest customers, decreasing their use of the Company’s
+22 platform as hypothetical risks when, in reality, the risk had already materialized, as existing
+23 customers’ use of Fastly’s platform had been stagnating for at least a quarter.
+24 33. The full truth came to light on August 7, 2024, when the Company hosted an
+25 earnings call to discuss its Q2 2024 financial results and disclosed that revenue from the
+26 Company’s largest customers was continuing to decline and the Company had shifted its focus
+27 towards new customer acquisitions in order to diversify and mitigate the Company’s dependence
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 on its largest customers. Fastly’s top 10 customers’ revenue share had fallen from 40% to 34% in
+2 two quarters.
+3 34. Analysts reacted negatively. For instance, on August 7, 2024, Piper Sandler noted
+4 there was now “likely lack of management credibility for at least the next few quarters” (emphasis
+5 added). In an August 8, 2024 report, Craig-Hallum Capital noted that “[t]he team did make it clear
+6 that the decline was not in the whole top 10, but a ‘small handful’ of the top 10 in the media
+7 vertical. This would seem to imply declines of major magnitude at those customers, something on
+8 the order of halving revenue at those three or four customers.” (emphasis added). It added, “[t]here
+9 will be questions around management’s visibility after this surprise” and “FSLY is bleeding
+10 badly when it comes to large customers and is providing very little visibility. . . . [I[nvestors are
+11 going to need more information” (emphasis added).
+12 35. Following these developments, Fastly’s stock price fell $0.98 per share, or 14.33%,
+13 to close at $5.86 per share on August 8, 2024.
+14 36. As a result of Defendants’ wrongful acts and omissions, and the precipitous decline
+15 in the market value of the Company’s securities, Plaintiffs and other Class members have suffered
+16 significant losses and damages.
+17 JURISDICTION AND VENUE
+18 37. The claims asserted herein arise under Sections 10(b) and 20(a) of the Exchange
+19 Act (15 U.S.C. §§ 78j(b) and 78t(a)) and Rule 10b-5 promulgated thereunder by the SEC (17
+20 C.F.R. § 240.10b-5).
+21 38. This Court has jurisdiction over the subject matter of this action pursuant to 28
+22 U.S.C. § 1331 and Section 27 of the Exchange Act.
+23 39. Venue is proper in this Judicial District pursuant to Section 27 of the Exchange Act
+24 (15 U.S.C. § 78aa) and 28 U.S.C. § 1391(b). Fastly is headquartered in this Judicial District,
+25 Defendants conduct business in this Judicial District, and a significant portion of Defendants’
+26 activities took place within this Judicial District.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 40. In connection with the acts alleged in this complaint, Defendants, directly or
+2 indirectly, used the means and instrumentalities of interstate commerce, including, but not limited
+3 to, the mails, interstate telephone communications, and the facilities of the national securities
+4 markets.
+5 PARTIES
+6 41. Lead Plaintiff acquired Fastly securities at artificially inflated prices during the
+7 Class Period and was damaged upon the revelation of the alleged corrective disclosures.
+8 42. Named Plaintiff Ken Kula acquired Fastly securities at artificially inflated prices
+9 during the Class Period and was damaged upon the revelation of the alleged corrective disclosures.
+10 43. Defendant Fastly is a Delaware corporation with principal executive offices located
+11 at 475 Brannan Street, Suite 300, San Francisco, California 94107. The Company’s common stock
+12 trades in an efficient market on the New York Stock Exchange (“NYSE”) under the ticker symbol
+13 “FSLY.”
+14 44. Defendant Nightingale has served as Fastly’s Chief Executive Officer at all relevant
+15 times.
+16 45. Defendant Kisling has served as Fastly’s Chief Financial Officer at all relevant
+17 times.
+18 46. Defendants Nightingale and Kisling are collectively referred to herein as the
+19 “Individual Defendants.”
+20 47. The Individual Defendants possessed the power and authority to control the
+21 contents of Fastly’s SEC filings, press releases, and other market communications. The Individual
+22 Defendants were provided with copies of Fastly’s SEC filings and press releases alleged herein to
+23 be misleading prior to or shortly after their issuance and had the ability and opportunity to prevent
+24 their issuance or to cause them to be corrected. Because of their positions with Fastly, and their
+25 access to material information available to them but not to the public, the Individual Defendants
+26 knew that the adverse facts specified herein had not been disclosed to and were being concealed
+27 from the public, and that the positive representations being made were then materially false and
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 misleading. The Individual Defendants are liable for the false statements and omissions pleaded
+2 herein.
+3 48. Fastly and the Individual Defendants are collectively referred to herein as
+4 “Defendants.”
+5 FORMER EMPLOYEES WHO SUBSTANTIATE THE ALLEGATIONS
+6 49. CW1 worked for Fastly remotely out of Dallas as an Enterprise Sales Director from
+7 December 2021 through September 2024. CW1 reported to a Director of Sales, who reported to a
+8 Senior Vice President of Sales, who reported to the Chief Revenue Officer. CW1 worked with
+9 both new and existing customers and had a portfolio of about twenty companies, which included
+10 several Fortune 500 companies. CW1 was responsible for selling Fastly’s security services and
+11 managing existing customers. By the end of CW1’s employment at Fastly, CW1’s job was heavily
+12 focused on acquiring new customers.
+13 50. CW2 worked for Fastly both remotely and out of the Culver City office as a Senior
+14 Account Executive for the West Coast from September 2022 until August 2024. CW2 reported to
+15 Robbie Leukam, a current Senior Sales Leader for the West Coast, who reported to TJ Michie, a
+16 Senior Vice President of Sales. CW2 managed around fifty mid-market enterprise customers and
+17 was involved in contract renewals, as well as “cross-selling,” i.e., working with existing customers
+18 to see if they could benefit from additional services offered by Fastly. CW2 worked with both new
+19 and existing mid-market enterprise customers.
+20 51. CW3 worked for Fastly remotely from New Hampshire as an Enterprise Account
+21 Manager from September 2021 until April 2024 and reported to the Director of Account
+22 Management. CW3 was part of the Northeast enterprise account team, which focused on managing
+23 clients that brought in more than $100 million/year in revenue. These clients included some of the
+24 biggest clients at Fastly. CW3’s job responsibilities included engaging in contract negotiations
+25 with customers and trying to upsell those customers by getting them to agree to use more of Fastly’
+26 services. CW3 was given quotas to meet on a “half-year” basis.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 52. CW4 worked remotely for Fastly as a Senior Enterprise Account Executive for the
+2 West Coast sales team from July 2023 through April 2024 and reported to the West Coast
+3 Enterprise Sales Director. CW4 focused on customer growth and acquisition and managed a
+4 portfolio of about ten enterprise customers. CW4’s duties included reaching out to potential new
+5 business, going to sales events, and meeting with current customers looking for expansion
+6 opportunities. CW4 was tasked with attempting to bring on about one hundred and fifty businesses
+7 as customers.
+8 53. CW5 worked for Fastly as a Technical Program Manager from March 2021 until
+9 August 2024, and reported to the VP of Product Operations, Chris Domergue, who reported to the
+10 Chief Product Officer, currently Kip Compton. CW5 worked remotely but went into the San
+11 Francisco office about once a month. CW5 formed teams to develop new products at Fastly and
+12 CW5’s responsibilities included assigning engineers to new roles, maintaining deadlines, and
+13 overseeing progress. CW5 interacted with many different departments, including the engineering,
+14 marketing, and sales teams. Following the release of the Q1 2024 results in May 2024, CW5 was
+15 tasked with developing a product for two of Fastly’s biggest accounts, Apple and Amazon. The
+16 product consisted of a “staging environment” that would allow those companies to test out new
+17 web features before they go live on their platformsand functions much like a dress rehearsal where
+18 web engineers can evaluate how well a new product or tool works on their website before it is
+19 implemented.
+20 54. CW6 worked for Fastly remotely out of California as a Website Producer from
+21 January 2021 through August 2024 and reported to a Web Production Manager, Chris LeCompte,
+22 who is no longer employed by Fastly. CW6’s job responsibilities included managing Fastly’s
+23 marketing website, overseeing content updates, and making the website more accessible for the
+24 public. CW6 was in charge of search engine optimization to improve page rankings and resolving
+25 any bugs on the website’s backend.
+26 55. CW7 worked for Fastly, both remotely and based out of Fastly’s headquarters in
+27 San Francisco, as a Senior Program Manager from February 2016 through September 2023. CW7’s
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 immediate boss was a Senior Manager, Jordana Pilmanis, who is no longer employed by Fastly.
+2 CW7 was part of the Client Services team, also known as the Customer Ops team, and CW7’s
+3 daily responsibilities included setting up meetings for new customers switching over to Fastly’s
+4 CDN. CW7 worked with large enterprise clients to ensure everything ran smoothly as they
+5 integrated Fastly’s services to their operations and stepped in to resolve any issues the enterprise
+6 customer had. CW7 also sent executive management weekly, and sometimes daily, end-of-day
+7 reports to an email address for the C-Suite. During CW7’s final year with Fastly, CW7 managed
+8 large live events for streaming companies, which included high-traffic events like the premiere of
+9 a hit TV show or popular live sports broadcasts. For example, CW7 oversaw Fastly’s contract with
+10 CBS for hosting the Super Bowl, ensuring the CDN could handle the massive influx of viewers
+11 for such a major event.
+12 SUBSTANTIVE ALLEGATIONS
+13 Background
+14 56. Fastly operates an edge cloud platform for processing, serving, and securing its
+15 customer’s applications in the U.S., the Asia Pacific, Europe, and other international locations.
+16 The edge cloud is a category of IaaS that enables developers to build, secure, and deliver digital
+17 experiences. Organizations seeking to improve their user experience (i.e., by faster loading
+18 websites) can benefit from processing at the edge.
+19 57. Fastly’s customers include organizations across many different industries.
+20 According to CW1, the majority of the Company’s top ten customers are in the media space (i.e.,
+21 TikTok, Apple, Twitter (X), Paramount, and Amazon Video), known at Fastly as the “media
+22 accounts.”
+23 58. The Company generates substantially all of its revenue from charging customers
+24 based on their usage of Fastly’s platform, measured in gigabytes.
+25 59. Typically, the Company enters into one-year contracts with customers, which
+26 include a minimum monthly billing commitment in exchange for more favorable pricing terms,
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 although terms may vary by contract. Most of the Company’s contracts are non-cancelable over
+2 the contractual term.
+3 60. However, the Company also generates some revenue from additional products and
+4 professional and other services, such as implementation, account management, and customer
+5 support. The Company charges a flat one-time fee or recurring monthly fee for the additional
+6 products and services.
+7 61. According to CW2, negotiations for existing customer contracts typically begin
+8 three months before the contract is set to expire, particularly with larger enterprise customers.
+9 62. The bulk of the Company’s revenue is derived from existing customers’ usage of
+10 Fastly’s platform.
+11 63. For the years ended December 31, 2023 and 2022, approximately 95% and 94% of
+12 the Company’s revenue, respectively, was driven by usage of its platform. New customers
+13 contributed less than 10% of that revenue.
+14 64. Historically, the Company’s revenue has been driven primarily by its enterprise
+15 customers who leverage the platform substantially from a usage standpoint.
+16 65. The Company previously defined enterprise customers as those customers with
+17 revenue in excess of $100,000 over the trailing 12-month period. However, in 2023, the Company
+18 updated its methodology and redefined enterprise customers as those customers with annualized
+19 current quarter revenue in excess of $100,000, which is calculated by taking the revenue
+20 recognized in the current quarter and multiplying it by four.
+21 66. Under the prior methodology, the comparative revenue generated from enterprise
+22 customers versus non-enterprise customers for FY 2021, 2022, and 2023 was as follows:
+23 2023 2022 2021
+Enterprise customers $458,472,000 $386,853,000 $313,360,000
+24 Non-enterprise customers $47,516,000 $45,872,000 $40,970,000
+Total Revenue $505,988,000 $432,725,000 $354,330,000
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 67. Under the new methodology, the comparative revenue generated from enterprise
+2 customers versus non-enterprise customers for FY 2021, 2022, and 2023 was as follows:
+3 2023 2022 2021
+Enterprise customers $464,452,000 $393,152,000 $315,918,000
+4 Non-enterprise customers $41,536,000 $39,573,000 $38,412,000
+Total Revenue $505,988,000 $432,725,000 $354,330,000
+6 68. The Company’s ten largest customers account for a significant portion of its
+7 revenue. In FY 2022, the ten largest customers generated an aggregate of 35% of the Company’s
+8 revenue and in FY 2023, they generated an aggregate of 37% of the Company’s revenue.
+9 69. Thus, changes in usage by these customers can create volatility in the Company’s
+10 revenue.
+11 70. The Company measures revenue growth from existing customers – either through
+12 increased usage of Fastly’s platform or purchase of additional products or services – using three
+13 key metrics: Dollar-Based Net Expansion Rate (“DBNER”), Net Retention Rate (“NRR”) and
+14 Last-Twelve Months Net Retention Rate (“LTM NRR”).
+15 71. DBNER measures the Company’s expansion of business with existing customers
+16 and provides insight into how effectively the Company is retaining and expanding its customer
+17 base over a specific period. DBNER increases when customers increase their usage of Fastly’s
+18 platform or purchase additional products. It declines when customers reduce their usage of Fastly’s
+19 platform, obtain lower pricing on their existing usage, or curtail their purchases of additional
+20 products. DBNER measures expansion only among continuing customers and does not indicate
+21 any decrease in revenue attributable to former customers.
+22 72. DBNER is calculated by dividing revenue for a given period from customers who
+23 remained customers as of the last day of the given period (the current period) by revenue from the
+24 same customers for the same period measured one year prior (the base period). The revenue
+25 included in the current period excludes customers that churned (i.e., terminated services) after the
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 end of the base period and new customers that entered into customer agreements after the end of
+2 the base period.
+3 73. NRR captures the ability of the Company to retain revenue from existing customers
+4 over a specific period by measuring the change in revenue generated by existing customers from
+5 one period to another. Fastly calculates NRR by dividing revenue derived from existing customers
+6 in the last month of the period by revenue from those same customers during the last month of the
+7 same period one year prior.
+8 74. NRR is a metric that tracks growth from existing customers without factoring in
+9 new customer acquisition. A low NRR could indicate customer churn or dissatisfaction. A NRR
+10 greater than 100% is a growth indicator.
+11 75. Beginning in Q1 2024, the Company discontinued disclosing quarterly NRR and
+12 DBNER. The Company had reported DBNER as a key metric since its first quarterly report, its
+13 Q2 2019 quarterly report filed with the SEC on Form 10-Q on August 9, 2019. The Company had
+14 reported quarterly NRR as a key metric since its Q2 2020 quarterly report filed with the SEC on
+15 Form 10-Q on August 7, 2020. The Company still discloses LTM NRR, which it described as
+16 “intended to be supplemental to our NRR” when it first began disclosing LTM NRR in the
+17 Company’s Q3 2020 Quarterly Report filed on November 6, 2020.
+18 Fastly Experiences a Significant Customer Pullback Beginning in 2023
+19 76. During the Class Period, Nightingale denied that macro forces were having an
+20 impact on the Company’s business, claiming that factors that had negatively impacted its
+21 competitors did not apply to Fastly because Fastly was not exposed to the type of customer where
+22 the market weakness was being felt (the SMB customer market).
+23 77. However, in reality, the Company did face exposure from SMB customers who,
+24 according to CW2, specifically cited economic reasons and noted a correlation with rising interest
+25 rates as a reason for customers’ requests for better pricing. Starting in March and April 2023,
+26 CW2’s mid-market enterprise customers began requesting more aggressive discounts when
+27 renewing their contracts with Fastly and threatened to terminate services with Fastly. According
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 to CW2, customers were requesting these deals due to economic concerns and there was a direct
+2 correlation between when customers began asking for discounts and when interest rates began
+3 significantly rising. On average, customers were asking for a ten percent cut to their rates. Rather
+4 than agreeing to a discounted rate, Fastly often compromised by not increasing rates in the renewal
+5 contracts for these usage-based customers.
+6 78. According to CW2, when considering whether to agree to discounted rates, a major
+7 component Fastly considers is how much traffic the customer is driving towards Fastly. CW2 had
+8 to get approval from a VP of Sales for discounts that went past a certain threshold. The Company
+9 had a system in place that once a contract would go above a certain percentage of a discount, it
+10 required executive approval.
+11 79. CW1 similarly described how macro forces, such as rising interest rates, were
+12 “definitely in the business cycle” and in fact, negatively affecting the Company’s revenues overall
+13 throughout 2023, including revenues from Fastly’s largest customers, who were increasingly more
+14 price-conscious. CW1 referred to Nightingale’s macro statements as “BS,” and stated Nightingale
+15 was “probably just trying to keep the share price afloat.”
+16 80. Moreover, according to CW1, macro forces were negatively impacting the
+17 Company’s business as a whole, as even the largest customers were becoming increasingly price
+18 conscious and demanding better pricing. Adding to the pressures on Fastly was the fact that
+19 Fastly’s competitors (i.e., Cloudflare, Akamai, and Imperva) in the CDN market had caught up to
+20 the Company in technological prowess. Thus, Fastly had far less leverage in negotiating prices
+21 with its customers. CW1 confirmed that these macro concerns were discussed at the Company’s
+22 all hands meetings throughout 2023.
+23 81. Defendants also touted that the Company’s revenue growth was being driven by
+24 existing enterprise customers even as Defendants knew that revenue from existing enterprise
+25 customers, including the Company’s largest enterprise customers, was on the decline.
+26 82. Beginning in 2023 and throughout 2024, existing enterprise customers were losing
+27 their appetite for Fastly’s services.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 83. During 2023, several of CW1’s enterprise customers cancelled their contracts. For
+2 example, Indeed cancelled its $500,000/year security contract with Fastly in April 2023 because
+3 Fastly did not have the capability to fulfill their requirements for a bot solution. USAA’s two-year
+4 $400,000 deal ended in November 2023 because the Company never implemented Fastly’s
+5 software and CW1 could not convince the Company to deploy it.
+6 84. In both instances, CW1 knew more than six months before the contracts were set
+7 to renew that it would be difficult to keep those customers.
+8 85. CW1 also shared concerns about losing the $500,000/year contract if Fastly could
+9 not meet the customer’s requirements all the way up to the founder of the Company, Artur
+10 Bergman.
+11 86. CW4 worked on contract renewals for roughly ten existing customers between July
+12 2023 through April 2024, and during that time period, only two of those customers were expanding
+13 their business with Fastly, while the majority of CW4’s customers were stagnant in how they used
+14 Fastly year over year.
+15 87. CW3, whose team handled clients responsible for at least $100 million of revenues,
+16 began to notice that revenues were declining for CW3’s largest customers in November 2023
+17 because CW3 began struggling to meet the quotas that the Company set for CW3. By the end of
+18 2023, CW3 was about 40% short of meeting the quota set for CW3. CW3’s colleagues were facing
+19 similar struggles with both large and small accounts. CW3 explained customers were no longer
+20 expanding their contracts with Fastly due to “tightening budgets” on their end, a general downturn
+21 in the tech sector as a whole, and sometimes being offered a better deal from competitors.
+22 88. According to CW1, the Company’s C-Suite “absolutely” knew by November 2023
+23 that revenue for its larger customers was expected to decline because this issue was specifically
+24 being discussed in all hands meetings being held during Q4 2023 at these meetings. Nightingale
+25 discussed how large accounts were not bringing in as much traffic to Fastly, and the revenue
+26 derived from the large accounts was decreasing. He explained measures the Company was taking
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 to address the decrease in traffic, such as assigning more “customer success” employees to the big
+2 accounts and using analytics to identify which accounts were slowing down the most.
+3 89. CW6 corroborated CW1’s account, describing that during all hands meetings
+4 during the last two quarters of 2023, including the November 2023 all hands meeting that occurred
+5 shortly after Fastly’s November 1, 2023 Q3 2023 earnings call, Nightingale discussed how several
+6 of the Company’s large media accounts were not bringing in as much traffic to Fastly. During that
+7 all hands meeting, Nightingale spoke about “decreasing revenue from [the Company’s] big
+8 customers” and how Fastly’s large media accounts had had “throttled down” their usage
+9 simultaneously, resulting in a decrease in revenue. Nightingale warned that a specific streaming
+10 company was “throttling things back, which is why revenue is down” (emphasis added).
+11 90. CW6 explained, during all hands meetings, Nightingale also discussed how the
+12 Company was trying to lessen its reliance on these big accounts by acquiring several other large
+13 enterprise accounts because he was concerned about Fastly’s revenue model relying on just a
+14 handful of big streaming accounts (i.e., Netflix and Disney), which CW6 described as “big whales”
+15 and which were known to fluctuate in how much they used Fastly’s services.
+16 91. According to CW6, the Company’s C-Suite and all employees attended the all
+17 hands meetings either in-person in the San Francisco office or remotely via Vimeo. The meetings
+18 included slide deck presentations and recordings of the meetings were distributed to all employees
+19 by email. The meetings were held regularly every quarter and typically occurred a week after the
+20 Company’s earnings call. The meetings would include slide deck presentations and there would
+21 be a recap of what was discussed during the earnings call.
+22 92. In addition, the Company also regularly tracked its customers’ usage of Fastly’s
+23 platform and their traffic flow.
+24 93. According to CW1, employees at Fastly can track how much traffic a customer is
+25 using through an internal tool known as the “Fastly App” and anyone managing those accounts
+26 would be able to see traffic flow. The app is mostly used by the customer success and engineering
+27 teams to analyze performance.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 94. CW7 explained the Company also held weekly Customer Ops meetings, since at
+2 least as far back as 2022, to address customer issues and track bandwidth usage (i.e., how much
+3 traffic was being transmitted through Fastly’s platform) brought in by top clients, which took place
+4 every Thursday, typically at either 10 or 11 a.m. PT.
+5 95. These meetings were attended by around fifty to seventy-five people via Zoom and
+6 were recorded and uploaded to the Company’s intranet for individuals unable to attend the meeting
+7 live.
+8 96. These meetings were cross-functional and included Account Managers, Technical
+9 Account Managers, Engineers, Customer Operations, and Sales team members. . During the
+10 meetings, account managers would present the amount of bandwidth (also referred to as the
+11 “throughput”) that each customer was using and Fastly used a red/yellow/green system to indicate
+12 how much bandwidth its top customers were using, with red representing a customer who was not
+13 using as much bandwidth as expected or desired.
+14 97. A slide deck, compiled by Fastly’s Vice President of Customer Support, Kami
+15 Richey, was always used at the meetings, showing each client’s name and their color status. Every
+16 week, the Vice President of Customer Support gathered throughput data from the Account
+17 Managers, who monitored those numbers daily, and put that information in the slide deck.
+18 98. During the meetings, Account Managers or Technical Account Managers typically
+19 provided the overview, with Account Managers talking about their top customers. If a major
+20 customer had opened a support ticket, that would also be a key topic of discussion and an
+21 engineering employee would provide a summary of the issue and the steps being taken to resolve
+22 it. A support person also would present on the top support tickets and big customer tickets. The
+23 meetings would also include discussion about any type of security incident that would affect
+24 everyone.
+25 99. Fastly’s Chief Customer Officer, Kim Ogletree, and the Vice President of Global
+26 Customer Success, Windy Mesquita, regularly attended these meetings. Nightingale would also
+27 occasionally join the meetings.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 100. If a major enterprise customer remained in “red” status week after week, the Chief
+2 Customer Officer, Vice President of Global Customer Success, and Vice President of Customer
+3 Support would assemble a “tiger team” to focus on improving the customer’s performance.
+4 101. CW7 recalled that by March 2023, Ticketmaster was one larger enterprise customer
+5 that consistently had issues with Fastly’s services, was labeled “red” status in terms of throughput
+6 usage, and frequently threatened to cancel its contract with Fastly. These issues dated as far back
+7 as November 2022, with CW7 describing an incident involving Taylor Swift “Eras Tour” tickets,
+8 and Ticketmaster’s system crashing due to several backend technical failures. CW7 explained
+9 Ticketmaster blamed Fastly for the issue.
+10 102. In addition, according to CW1, it was well known throughout the Company,
+11 beginning in some point during 2023, that the Company was at high risk of eventually losing
+12 TikTok as a customer because TikTok had begun “building out their own network,” which would
+13 result in TikTok transitioning off of Fastly at some point.
+14 103. According to CW1, after the Q1 2024 results were released, the Company’s leaders
+15 set up a “war room” and “tiger team,” headed by the Chief Customer Officer, Kim Ogletree, to
+16 address the substantial drop in traffic from the Company’s bigger customers. The tiger team was
+17 made up of employees involved with “customer success.”
+18 104. In subsequent all hands meetings, CW6 recalled Nightingale discussing how
+19 several of the Company’s top ten accounts were simultaneously reducing usage.
+20 The Company Struggles to Acquire New Customers
+21 105. As revenue from existing customers, including the Company’s largest customers,
+22 declined, the Company shifted its sales teams’ focus towards acquiring new business, despite the
+23 fact that the vast majority of the Company’s revenue was historically derived from existing
+24 customers and Defendants continued to publicly emphasize that the Company was driving revenue
+25 growth from existing customers.
+26 106. Behind the scenes, according to CW6, Nightingale and the new Chief Revenue
+27 Officer put together teams to try to obtain business from several bigger companies in 2024.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 107. Further, according to CW1, CW2, CW3, and CW4, Fastly reconfigured its sales
+2 compensation plan in 2024 in a manner that prioritized revenue secured from new accounts (also
+3 referred to as new “logos”) over revenue generated from existing customers, thereby discouraging
+4 sales team members from continuing to attempt to drive growth from existing clients.
+5 108. According to CW4, prior to 2024, the sales compensation model weighed all
+6 additional revenue a sales employee secured equally, regardless of whether it was generated from
+7 a new or existing customer. Under the new model implemented in 2024, sales employees received
+8 fifty percent more pay on revenue acquired from new customers, while the pay-out for revenue
+9 gained from cross-sells, upsells, and renewals was substantially lowered. CW2 explained revenue
+10 secured from renewals, cross-sells, and upsells was no longer a significant factor because the
+11 Company was only counting new logos. CW1 corroborated that “the entire focus of the
+12 organization shifted to new business” and “[i]t was almost punitive to continue to work with your
+13 existing clients.”
+14 109. CW4’s boss explained to CW4 and CW4’s colleagues that the basis for the new
+15 compensation plan was that Fastly needed to acquire new customers in order to succeed.
+16 110. However, according to CW1, new business “dried up” and started “falling off a
+17 cliff” during Q4 2023. No new contracts were being signed. CW1 explained potential customers
+18 were not interested in CW1’s proposals because Fastly was offering only a slightly better deal than
+19 their current provider, but it would require a lot of resources and energy to implement Fastly’s
+20 software.
+21 111. CW1 stated that the Company fell far short of the unrealistic sales goals it had set
+22 for new customer acquisitions for 2023. The Company’s 2023 target was set at around a lofty one
+23 hundred and seventy new logos. However, CW1 only managed to bring on two new enterprise
+24 customers throughout all of 2023 and CW1 ranked as number two across the entire enterprise team.
+25 The number one person on the enterprise team was only able to bring on three new customers.
+26 Several colleagues were unable to bring on even one new customer that year.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 112. In 2023, only 30% of the Company’s salespeople were able to meet their targets, a
+2 fact that was conveyed to CW1 and others by TJ Michie, the Senior VP of Sales for Fastly.
+3 113. CW4 and the entire West Coast sales team, which was made up of six other sales
+4 executives and account managers, were unable to acquire any new business during CW4’s tenure
+5 with the Company (July 2023-April 2024). Each week CW4 and CW4’s boss had one-on-one
+6 meetings, and the West Coast sales team had weekly meetings during which the primary topic
+7 discussed was the lack of new customers that the team was bringing in. While CW4’s boss was
+8 concerned about the lack of new business in the latter half of 2023, that concern escalated during
+9 2024. Acquiring new customers was the main topic of conversation starting in 2024 until CW4 left
+10 Fastly in April 2024.
+11 114. CW3 stated the Company began setting unrealistic quotas for the enterprise account
+12 managers in the first two months of 2024 and the new sales compensation plan made it even more
+13 challenging to meet the targets set by the Company.
+14 115. According to CW2, sales teams struggled to meet the 2024 quota numbers and
+15 Fastly starting using performance improvement plans around April 2024. After CW3 left Fastly in
+16 April 2024, CW3 similarly heard that Fastly had begun instituting performance improvement plans
+17 in an effort to boost revenues and “increase quota attainment” and if employees failed to show
+18 signs of improvement, they were “on the chopping block.”
+19 116. Notwithstanding the lack of monetary incentive to drive revenue through existing
+20 customers, CW2 continued to have renewal meetings with existing customers in 2024, describing
+21 it as follows: “we want[ed] to do the right thing and take care of them, but would not get
+22 compensated for it.” However, CW2’s customers did not have the appetite for more of Fastly’s
+23 software and experienced a stagnation in growth that continued until CW2 left Fastly in August
+24 2024.
+25 DEFENDANTS’ FALSE AND MISLEADING STATEMENTS
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 Defendants Mislead Investors During Q4 2023 About Macroeconomic Impacts on the
+Company’s Business
+3 117. During a November 15, 2023 conference call involving Nightingale, Kisling, and
+4 Rishi Jaluria from RBC Capital Markets, Defendants made misleading statements regarding macro
+5 impacts on the Company’s business.
+6 118. Specifically, when asked whether macro trends were getting better, Nightingale
+7 replied: “The biggest pressure that people saw in this area was like in small to medium SMB
+8 customers, maybe some of the mid market. We don’t have a lot of exposure there. I wish [we] did
+9 have more exposure, and I am working to make our products simpler so we can. But I didn’t have
+10 a lot of exposure. Financial services customers and telco customers, again, if I would had more
+11 exposure there, I probably would have seen more.”
+12 119. In a follow-up question, Jaluria referenced how “[O]n the last earnings call, you did
+13 talk about some budget tightening that you had started to see.”
+14 120. Nightingale responded that “[F]or the last three or four quarters, I’ve gotten this
+15 question in each earnings call about what are we seeing from the macro. My competitors are seeing
+16 these effects, some slowing in growth, and [] we’re not seeing that” (emphasis added).
+17 121. These statements were materially false or misleading because (i) numerous existing
+18 enterprise customers were cancelling their contracts with the Company in 2023 or requesting more
+19 aggressive discounts when renewing their contracts; (ii) according to CW1 and CW2, customers
+20 were requesting more aggressive discounts in March and April 2023 due to economic concerns
+21 (i.e., rising interest rates); (iii) the negative effect of macro forces such as rising interest rates had
+22 been generally discussed among Company executives at all hands meetings throughout 2023; and
+23 (iv) Fastly was exposed to these macro pressures because Fastly’s competitors in the CDN market
+24 had improved their services such that they were at least on par with Fastly, if not superior, and, as
+25 a result, Fastly had far less leverage in negotiating prices with its customers and was experiencing
+26 increased pricing pressure. Thus, contrary to Nightingale’s statement, macro forces were, in fact,
+27 negatively affecting the Company and slowing its growth.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 The Previously Downplayed Risks Begin to Materialize but Defendants Continue to
+Mislead Investors
+3 122. During after-market hours on February 14, 2024, the Company issued a press
+4 release announcing the Company’s Q4 and FY 2023 financial results and an investor supplement
+5 discussing the Company’s Q4 and FY 2023 financial results. The Company reported revenues of
+6 $506 million for FY 2023 and $137.8 million for Q4 2024. The reported Q4 2023 revenue was on
+7 the lower side of their previous guidance and, according to Zacks Investment Research, missed
+8 analysts’ consensus estimates by 1.1%. In response to this news, the Company’s stock price fell
+9 from $23.54 to close at $16.34 on February 15, 2024, a decline of 30.59 %.
+10 123. The press release also provided FY 2024 guidance in a range of $580 million to
+11 $590 million.
+12 124. On that same day, the Company hosted an earnings call with investors and analysts
+13 to discuss the Company’s Q4 and FY 2023 financial results (the “Q4 2023 Earnings Call”), during
+14 which Nightingale and Kisling made materially false and misleading statements.
+15 125. First, Nightingale stated that the Company’s “customer retention efforts were stable
+16 in the fourth quarter.”
+17 126. Second, Kisling indicated that the projected revenue range of $580 to $590 million
+18 was based on, inter alia, the Company’s “expectation for . . . revenue growth through the year
+19 driven by . . . continued expansion of existing customers.”
+20 127. The statements quoted in ¶¶ 125-126 were materially false or misleading because
+21 Nightingale and Kisling suggested that the Company’s revenue from existing customers was, at
+22 least, stable, and would likely grow in 2024, despite the fact that (i) the Company’s revenue from
+23 its larger enterprise customers had been declining because they were not bringing in as much traffic
+24 to Fastly, which Defendants knew by, at latest, November 2023 given that the Company was
+25 hosting all hands meetings by that time during which Nightingale discussed the decline, and (ii) the
+26 Company’s revenue from some of its largest customers was likely going to continue to decline
+27 because some of their contracts were up for renewal and by that time, those customers were already
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 demanding more favorable pricing; (iii) numerous existing enterprise customers were cancelling
+2 their contracts with the Company in 2023 or requesting more aggressive discounts when renewing
+3 their contracts; and (iv) the Company had shifted its sales strategy using a new compensation plan,
+4 beginning in 2024, to prioritize new customer acquisitions over generating revenue from existing
+5 customers, thereby discouraging sales team members from continuing to dedicate resources
+6 towards driving revenue from existing customers.
+7 128. The fact that the Company’s existing customers were decreasing their use of
+8 Fastly’s platform was material because the Company derived the vast majority of its revenue from
+9 such customers. For example, in FY 2023, 95% of the Company’s revenue was derived from the
+10 usage of its platform and new customers only contributed less than 10% of that revenue.
+11 129. Further, the fact that the Company’s largest customers, in particular, were
+12 decreasing their use of Fastly’s platform also was material because the ten largest customers
+13 accounted for a substantial portion of the Company’s revenue. In FY 2023, they generated an
+14 aggregate of 37% of the Company’s revenue.
+15 130. During the Q4 2023 Earnings Call, Nightingale also attributed the Company’s
+16 revenue coming in at the lower end of the Q4 2023 guidance range to “weaker than anticipated
+17 international traffic, offset by seasonally strong live streaming and gaming activity.”
+18 131. This statement was materially false or misleading insofar as it omitted the critical
+19 information that the decline in traffic involved several of the Company’s largest customers, which
+20 accounted for a significant portion of the Company’s revenue, and Defendants knew about the
+21 traffic decline by, at latest, November 2023 given that the Company was hosting all hands meetings
+22 by that time during which Nightingale discussed the decline.
+23 132. In addition, when pressed by analysts during the Q4 2023 Earnings Call on whether
+24 there were fundamental changes to the business in light of macro impacts on the Company,
+25 Nightingale stated: “No. I think it was pretty much as we saw last quarter. A handful of deals may
+26 be taking a little longer than we thought, a little bit of deal elongation.”
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 133. This statement was materially false or misleading because (i) the Company’s
+2 revenue from its larger enterprise customers had been declining because they were not bringing in
+3 as much traffic to Fastly, which Defendants knew by, at latest, November 2023 given that the
+4 Company was hosting all hands meetings by that time during which Nightingale discussed the
+5 decline; (ii) numerous existing enterprise customers were cancelling their contracts with the
+6 Company in 2023 or requesting more aggressive discounts when renewing their contracts; (iii)
+7 according to CW1 and CW2, customers were requesting more aggressive discounts in March and
+8 April 2023 due to economic concerns (i.e., rising interest rates); (iv) the negative effect of macro
+9 forces such as rising interest rates had been generally discussed among Company executives at all
+10 hands meetings throughout 2023; and (v) Fastly was exposed to these macro pressures because
+11 Fastly’s competitors in the CDN market had improved their services such that they were at least
+12 on par with Fastly, if not superior, and, as a result, Fastly had far less leverage in negotiating prices
+13 with its customers and was experiencing increased pricing pressure.
+14 134. In a February 15, 2024 report titled “Mixed Quarter And Outlook Driven By
+15 International Weakness. Lowering to HOLD,” Jeff Van Rhee of Craig-Hallum Capital Group LLC
+16 noted the Company’s lack of transparency: “Explanations on the call around the weak Q4 and
+17 weak Q1 revenue guide were particularly vague, other than generally calling out international” and
+18 “we are unclear on the drivers of Q4 and Q1 weakness.”
+19 135. Defendants made similar misleading statements and risk disclosures about the
+20 growth of the Company’s existing customers in the Company’s annual report reporting the
+21 Company’s financial and operating results for the quarter and year ended December 31, 2023,
+22 which the Company filed with the SEC on Form 10-K on February 22, 2024 (the “2023 10-K”).
+23 136. Nightingale and Kisling signed the 2023 10-K and it included as exhibits signed
+24 certifications pursuant to the Sarbanes-Oxley Act of 2002, wherein Nightingale and Kisling
+25 certified that the 2023 10-K “does not contain any untrue statement of a material fact or omit to
+26 state a material fact necessary to make the statements made, in light of the circumstances under
+27 which such statements were made, not misleading with respect to the period covered by this
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 report;” and that “the financial statements, and other financial information included in this report,
+2 fairly present in all material respects the financial condition, results of operations and cash flows
+3 of the [Company] as of, and for, the periods presented in this report[.]”
+4 137. First, the 2023 10-K stated: “Our enterprise customers continue to leverage our
+5 platform, increasing their spend on our platform and driving our revenue growth year over year.”
+6 138. This statement was materially false or misleading because (i) the Company’s
+7 revenue from its larger enterprise customers had been declining because they were not bringing in
+8 as much traffic to Fastly, which Defendants knew by, at latest, November 2023 given that the
+9 Company was hosting all hands meetings by that time during which Nightingale discussed the
+10 decline; (ii) the Company’s revenue from its some of its largest customers was likely going to
+11 continue to decline because some of their contracts were up for renewal and by that time, those
+12 customers were already demanding more favorable pricing terms; (iii) numerous existing
+13 enterprise customers were cancelling their contracts with the Company in 2023 or requesting more
+14 aggressive discounts when renewing their contracts; and (iv) the Company had shifted its sales
+15 strategy using a new compensation plan, beginning in 2024, to prioritize new customer acquisitions
+16 over generating revenue from existing customers, thereby discouraging sales team members from
+17 continuing to dedicate resources towards driving revenue from existing customers.
+18 139. Second, under the heading, “If we are unable . . . to have existing enterprise
+19 customers continue and increase their use of our platform, our business will likely be harmed,” the
+20 2023 10-K warned investors, in relevant part (emphasis added):
+21 [O]ur ability to grow and generate incremental revenue depends on our
+ability to maintain and grow our relationships with our existing enterprise
+22 customers so that they continue and increase their usage of our platform. If these
+customers do not maintain and increase their usage of our platform, our revenue
+23 may decline and our results of operations will likely be harmed.
+24 For some of our products, we charge our customers based on the usage of
+our platform. Most of our customers, including some of our largest enterprise
+25 customers, do not have long-term contractual financial commitments to us. In
+addition, most of our current customer contracts are only one year in duration and
+26 these customers may not use our platform in a subsequent year. In order for us to
+maintain or improve our results of operations, it is important that our customers, in
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+particular, our enterprise customers, use our platform in excess of their commitment
+1 levels, if any, and continue to use our platform on the same or more favorable terms.
+2 …
+3 Our future success also depends in part on our ability to expand our
+existing customer relationships, in particular, with enterprise customers, by
+4 increasing their usage of our platform, selling them additional products and
+upgrading their existing products. . . . If our efforts to increase usage of our
+5 platform by, or sell new and additional products to, our enterprise customers
+are not successful, our business would be harmed. In addition, even if our largest
+6 customers increase their usage of our platform, we cannot guarantee that they will
+maintain those usage levels for any meaningful period of time.
+8 140. This statement was materially false or misleading because the largest customers’
+9 use of Fastly’s platform had been declining since 2023, which Defendants knew by, at latest,
+10 November 2023 given that the Company was hosting all hands meetings by that time during which
+11 Nightingale discussed the decline. Defendants’ disclosures were, therefore, inadequate.
+12 141. Third, under the heading, “We receive a substantial portion of our revenues from a
+13 limited number of customers …, and the loss of, or a significant reduction in usage by, one or more
+14 of our major customers would result in lower revenues and could harm our business,” the 2023
+15 10-K also warned investors, in relevant part:
+16 It is likely that we will continue to be dependent upon a limited number of
+customers for a significant portion of our revenues for the foreseeable future. . . .
+17 The loss of one or more key customers or a reduction in usage by any major
+customers would reduce our revenues. If we fail to maintain existing customers . .
+18 . , our business would be harmed.
+19 142. This statement was materially false or misleading because Defendants described
+20 the risk of loss of its key customers, or a reduction in their usage of Fastly’s platform, in
+21 hypothetical terms when that risk had already materialized, as (i) the Company’s revenue from its
+22 larger enterprise customers had already been declining since 2023, which Defendants knew by, at
+23 latest, November 2023 given that the Company was hosting all hands meetings by that time during
+24 which Nightingale discussed the decline; and (ii) the Company’s revenue from some of its largest
+25 customers was likely going to continue to decline because some of their contracts were up for
+26 renewal and by that time, those customers were already demanding more favorable pricing terms.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 143. Fourth, under the Management’s Discussion and Analysis of Financial Condition
+2 and Results of Operations Section of the 2023 10-K, it states: “[w]e emphasize retaining our
+3 customers and expanding their usage of our platform and adoption of our other products.”
+4 144. This statement was materially false or misleading because, the Company had
+5 shifted its sales strategy using a new compensation plan, beginning in 2024, to prioritize new
+6 customer acquisitions over generating revenue from existing customers, thereby discouraging
+7 sales team members from continuing to dedicate resources towards driving revenue from existing
+8 customers.
+9 145. Fifth, under the Management’s Discussion and Analysis of Financial Condition and
+10 Results of Operations Section of the 2023 10-K, it states: “[o]ur enterprise customers continue to
+11 leverage our platform, increasing their spend on our platform and driving our revenue growth year
+12 over year.”
+13 146. This statement was materially false and misleading because (i) the Company’s
+14 revenue from its larger enterprise customers had been declining since 2023, which Defendants
+15 knew by, at latest, November 2023 given that the Company was hosting all hands meetings by that
+16 time during which Nightingale discussed the decline; (ii) the Company’s revenue from some of its
+17 largest customers was likely going to continue to decline because some of their contracts were up
+18 for renewal and by that time, those customers were already demanding more favorable pricing
+19 terms; and (iii) numerous existing enterprise customers were cancelling their contracts with the
+20 Company in 2023 or requesting more aggressive discounts when renewing their contracts.
+21 Defendants Fail to Disclose Information Required to be Disclosed Under Regulation S-K
+22 147. Item 303 of SEC Regulation S-K, 17 C.F.R. § 229.303(b)(2)(ii), requires
+23 Defendants to “[d]escribe any known trends or uncertainties that have had or that are reasonably
+24 likely to have a material favorable or unfavorable impact on net sales or revenues or income from
+25 continuing operations.”
+26 148. Under the Management’s Discussion and Analysis of Financial Condition and
+27 Results of Operations Section of the 2023 10-K, Defendants stated: “[o]ur enterprise customers
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 continue to leverage our platform, increasing their spend on our platform and driving our revenue
+2 growth year over year.”
+3 149. As set forth above, this statement was materially false or misleading and, in
+4 violation of Item 303, Defendants failed to accurately describe the trends or uncertainties related
+5 to the Company’s revenue derived from existing customers.
+6 150. Whereas Defendants claimed that the Company’s existing enterprise customers
+7 were continuing to increase their usage of Fastly’s platform and drive revenue growth, in reality,
+8 as described above, there was a trending material decline in such customers’ use of Fastly’s
+9 platform and the Company’s revenue derived from them.
+10 The Truth Begins to Emerge
+11 151. On May 1, 2024, Fastly issued a press release announcing the Company’s Q1 2024
+12 financial results.
+13 152. On that same day, Fastly hosted an earnings call with investors and analysts (the
+14 “Q1 2024 Earnings Call”), during which Defendants disclosed that revenue from some of its
+15 largest customers had declined due to pricing pressure and a decrease in traffic from those
+16 customers and, as a result, the Company’s “revenue projection has pulled back,” decreasing from
+17 the $580 million to $590 million originally forecasted for FY 2024 to $555 million to $565 million.
+18 153. During the scripted portion of the Q1 2024 Earnings Call, Nightingale stated, in
+19 relevant part (emphasis added):
+20 There are a few factors that contributed to a challenging short-term environment.
+The biggest factor is a reduction of revenue from a small number of our largest
+21 customers. The first-quarter revenue from our top 10 customers dropped from
+40% to 38%.
+Many of the top 10 accounts run a multi-vendor strategy. And we did see significant
+23 volatility here. And there are a few reasons for that. Firstly, historically, Fastly has
+gradually won greater traffic share in our largest accounts. But with the timing of
+24 rate and volume changes, we saw increased volatility this quarter. To be clear, we
+have not been removed from any of our largest customers and we remain in a strong
+25 strategic position, each of them long term.
+26 Secondly, in some accounts, we did see an addition of CDN vendors or reversal of
+the vendor consolidation we saw last year. And thirdly, we are seeing a slight
+27 uptick from the typical level of rerates with our largest customers, but we have
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+not yet seen the commensurate traffic expansion usually associated with this
+1 motion.
+3 154. Similarly, Defendant Kisling stated: “we are facing a challenging environment
+4 of revenue declines in our largest customers” (emphasis added).
+5 155. During the Q&A portion of the call, Nightingale told investors (emphasis added):
+6 [W]hat we saw in our top-10, 15 largest accounts, we saw some or slightly more
+kind of pricing pressure than we’re used to. And that’s got an outsized impact
+7 for us, and we are trying to make sure that we’re doing the right adjustments to our
+projection based on that.
+Usually, with these kinds of pricing changes, we see a commensurate volume
+9 increase as well, and we still hope to see that, especially in some of these key
+accounts.
+11 156. Kisling added, “we saw more modest rerates historically. I think that continues
+12 across kind of the broad market, but we have seen a change in the largest accounts.”
+13 157. Nightingale also stated: “The weakness and the shift in the projection from last
+14 quarter [to] this quarter is really in those large accounts,” and “[W]e see a little more pricing
+15 pressure up there[] [a]nd that has – for the large accounts for us and have a large impact”
+16 (emphasis added).
+17 158. In addition, Nightingale stated: “I think it’s fair to say that we’ve seen some more
+18 rerates in our largest 10 or 15 accounts in this past quarter.”
+19 159. Rudy Kessinger, an analyst from D.A. Davidson, pushed for further detail, asking:
+20 When exactly in the quarter did these customers start repricing contracts and adding
+other CDNs and moving share, et cetera? And with these repricings, I guess, you
+21 guys just have no control over it whatsoever. And they just asked for repricing, you
+guys do it within a couple of days. I mean, I just don’t understand how, you know,
+22 three months ago, you told us you didn’t have any barge repricing expected. And
+now it turns out you did within a six-week time frame.
+Kisling responded (emphasis added):
+[A] lot of that arose really at the end of March and in early April, when we
+25 saw, one, the motion of some of our customers, kind of reversing their trend to
+consolidating on CDNs, which affected our traffic projections for the year. And
+26 then as we engage in some of the rerates that we knew were coming, those
+negotiations resulted in bigger discounts than we thought that did not come
+27 with the typical increase in traffic that we’ve seen historically. And so those
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+were the big drivers. I would say timeframe really was late March, early April,
+1 when we saw these different dynamics.
+3 161. Nightingale responded to a follow-up question:
+4 [A] small number of accounts where we had – where our projection, our revenue
+projection has pulled back. And those are large accounts that have very significant
+5 swing and they need to be handled and managed and optimized very specifically.
+It’s why we’re changing our motion there and look I believe we have an opportunity
+6 to move back to growth in those accounts. But our projection reflects where we
+currently are.
+8 162. In response to a question about the volatility with some of the Company’s larger
+9 customers, Nightingale stated:
+10 [W]e had a couple of accounts in that very large set that negotiated rerates in the
+past quarter. Usually, a rerate like that would come up – would come with like a
+11 commensurate volume increase. And we tried to model that very carefully. But our
+projections there was a little bit aggressive, I believe.
+13 163. Then, on May 2, 2024, during pre-market hours, BofA downgraded Fastly stock
+14 from a “Buy” rating to an “Underperform” rating and cut its price target on the stock from $18 per
+15 share to a mere $8 per share, noting that “[d]ecelerating growth in Fastly’s largest customers, share
+16 loss in delivery, and limited visibility in 2H cause us to question a rebound in 2024,” and that
+17 “[w]hile we continue to like Fastly’s positioning in the edge compute market, we see it as a 2025
+18 opportunity instead of a near-term growth driver.”
+19 164. Other analysts followed suit. On May 2, 2024, in a report titled “Expectations Were
+20 Low But Wow; D/G to NEUTRAL - $8.50 PT,” Rudy Kessinger, CFA, of D.A. Davidson,
+21 downgraded Fastly’s stock from “Buy” to “NEUTRAL,” stating:
+22 The revised guide implies acceleration . . . seemingly expected to come from
+recovering traffic with large customers. We cannot get comfortable with that
+23 premise given what’s transpired over the last two quarters. We are thus stepping to
+the sidelines until we can get more comfort around the concentration risk and see
+24 more durable growth from non-top 10 customers.
+25 165. On that same day, in a report titled “Fastly Earnings: Atrocious Outlook on
+26 Weakness with Major Customers Creates Grave Concerns,” Matthew Dolgin, of Morningstar,
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 announced that Morningstar was cutting its fair value estimate in half, from $20 to $10. Discussing
+2 the drop in revenue guidance, Dolgin stated:
+3 More troublesome is that this drop does not seem to be due to short-term
+vacillations. Management advised that the change in its outlook was due to a
+4 decline in revenue from Fastly’s biggest customers. Fastly’s top 10 customers make
+up nearly 40% of revenue, and more than 90% comes from enterprise customers
+5 spending more than $25,000 quarterly. Major enterprises use multiple providers for
+their content delivery network needs. The biggest enterprises are now paying Fastly
+6 lower prices without giving Fastly more traffic, and it appears the reduced traffic is
+not the result of less demand but rather a shift to other providers.
+8 166. Following these developments, Fastly’s stock price fell $4.14 per share, or 32.02%,
+9 to close at $8.79 per share on May 2, 2024.
+10 Defendants Continue to Mislead Investors About its Existing Customers’ Growth
+11 167. Even while Defendants pulled back the Company’s FY 2024 revenue projections
+12 for being “a little bit aggressive,” Defendants continued to mislead investors about the Company’s
+13 revenue prospects from its existing enterprise customers, including its largest customers.
+14 168. During the Q1 2024 Earnings Call, Nightingale stated (emphasis added):
+15 The top 15 or 20 accounts at Fastly, they carry a lot of our revenue and the way that
+we engage with them, the way that we drive platforms like product line penetration,
+16 the way we drive price control and discount control, the way that we optimize their
+performance and driving more significant and complete technology solution, I
+17 believe we have an opportunity in all of those categories to improve the way that
+we engage and dedicate more resources and more focus to it. And that’s exactly
+18 what we’re doing.
+19 Right now, we have already launched a new engagement model. We’re driving
+a far higher touch across all those major accounts. We’ve been running it for
+20 a couple of weeks now, and we’re – I’m pretty happy with the progress so far.
+But just looking at the – where our projection is for those accounts and how much
+21 it’s changed in just one quarter, like you said, some plus February, I think decisive
+change in our engagement model was warranted. And that’s exactly the transition
+22 that we’re undergoing right now.
+24 169. This statement was materially false or misleading because it suggested that the
+25 Company had begun making progress with driving additional revenue from these major accounts
+26 when no such progress had been made. Fastly’s customers were bringing their business to
+27 competitors, reversing the consolidation trend (i.e., working with more vendors).
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 170. Further, according to CW5, two of Fastly’s largest accounts, Apple and Amazon,
+2 had been requesting a “staging environment” to test out new web features before they go live on
+3 their platforms since 2023, and while Fastly originally told these customers it would have the
+4 product completed by the end of 2023, Fastly did not begin working on it until May 2024.
+5 According to CW5, two other program managers had previously tried to get the staging
+6 environment launched in 2023 but were unable to secure the necessary resources to do so.
+7 However, when CW5 was tasked with this project following the release of the Company’s Q1
+8 2024 results, it was backed by the Chief Product Officer and Nightingale. CW5 was instructed to
+9 have the product ready by the end of June 2024, and Nightingale told CW5 to do whatever was
+10 needed to get it done. CW5 was under the impression that Apple and Amazon would leave Fastly
+11 if Fastly was unable to deliver this feature, but described the June 2024 deadline as unrealistic and
+12 was ultimately unable to meet it.
+13 171. Defendants also made materially false or misleading statements in the Company’s
+14 Q1 2024 Quarterly Report on Form 10-Q, filed with the SEC on May 1, 2024 (the “Q1 2024 10-
+15 Q”).
+16 172. Nightingale and Kisling signed the Q1 2024 10-Q and it included as exhibits signed
+17 certifications pursuant to the Sarbanes-Oxley Act of 2002, wherein the Individual Defendants
+18 certified that the Q1 2024 10-Q “does not contain any untrue statement of a material fact or omit
+19 to state a material fact necessary to make the statements made, in light of the circumstances under
+20 which such statements were made, not misleading with respect to the period covered by this
+21 report;” and that “the financial statements, and other financial information included in this report,
+22 fairly present in all material respects the financial condition, results of operations and cash flows
+23 of the [Company] as of, and for, the periods presented in this report.”
+24 173. Under the Management’s Discussion and Analysis of Financial Condition and
+25 Results of Operations section, the Company stated “[w]e focus our direct selling efforts on
+26 expanding our customer’s use of our platform,” “[w]e are focused on . . . expanding our
+27 relationship with existing customers,” “[w]e emphasize retaining our customers and expanding
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 their usage of our platform and adoption of our other products,” and “[u]tilizing our direct sales
+2 force, we have multiple selling points within organizations to . . . increase usage from our existing
+3 customers.”
+4 174. These statements were materially false and misleading because they suggested the
+5 Company was focused on driving revenue from existing customers when at that time, the Company
+6 had already shifted its sales strategy using a new sales compensation plan that prioritized new
+7 customer acquisitions over generating revenue from existing customers, thereby discouraging
+8 sales team members from continuing to dedicate resources towards driving revenue from existing
+9 customers.
+10 175. The Q1 2024 10-Q also contained the same misleading risk disclosures as the 2023
+11 10-K.
+12 176. Under the heading, “If we are unable . . . to have existing enterprise customers
+13 continue and increase their use of our platform, our business will likely be harmed,” the Q1 2024
+14 10-Q warned investors, in relevant part (emphasis added):
+15 [O]ur ability to grow and generate incremental revenue depends on our
+ability to maintain and grow our relationships with our existing enterprise
+16 customers so that they continue and increase their usage of our platform. If these
+customers do not maintain and increase their usage of our platform, our revenue
+17 may decline and our results of operations will likely be harmed.
+18 For some of our products, we charge our customers based on the usage of
+our platform. Most of our customers, including some of our largest enterprise
+19 customers, do not have long-term contractual financial commitments to us. In
+addition, most of our current customer contracts are only one year in duration and
+20 these customers may not use our platform in a subsequent year. In order for us to
+maintain or improve our results of operations, it is important that our customers, in
+21 particular, our enterprise customers, use our platform in excess of their commitment
+levels, if any, and continue to use our platform on the same or more favorable terms.
+…
+Our future success also depends in part on our ability to expand our existing
+24 customer relationships, in particular, with enterprise customers, by increasing
+their usage of our platform, selling them additional products and upgrading
+25 their existing products. . . . If our efforts to increase usage of our platform by,
+or sell new and additional products to, our enterprise customers are not
+26 successful, our business would be harmed. In addition, even if our largest
+customers increase their usage of our platform, we cannot guarantee that they will
+27 maintain those usage levels for any meaningful period of time.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 177. This statement was materially false or misleading because Defendants described
+2 the risk of existing customer growth stagnating or declining due to decreased usage as hypothetical
+3 or possible when the risk had already materialized, as existing customers’ growth had already been
+4 stagnating for at least a quarter, and the Company had already shifted its sales strategy using a new
+5 sales compensation model in 2024 that deterred the sales team from focusing on driving existing
+6 customer growth, given that their compensation plan weighed revenue from new customer
+7 acquisition more heavily than revenue from existing customers.
+8 178. Under the heading, disclosure “We receive a substantial portion of our revenues
+9 from a limited number of customers …, and the loss of, or a significant reduction in usage by, one
+10 or more of our major customers would result in lower revenues and could harm our business,” the
+11 Q1 2024 10-Q also warned investors, in relevant part:
+12 It is likely that we will continue to be dependent upon a limited number of
+customers for a significant portion of our revenues for the foreseeable future. . . .
+13 The loss of one or more key customers or a reduction in usage by any major
+customers would reduce our revenues. If we fail to maintain existing customers
+14 . . . , our business would be harmed.
+15 179. This statement was materially false or misleading because Defendants described
+16 the risk of loss of its key customers, or a reduction in their usage of Fastly’s platform, in
+17 hypothetical terms when that risk had already materialized, as (i) the Company’s revenue from its
+18 larger enterprise customers was continuing to decline, (ii) the Company’s new engagement model
+19 for driving growth among these customers was not making progress in driving growth, and (iii) at
+20 least some of the Company’s largest customers were not likely to contribute to any revenue growth
+21 because the Company failed to deliver products to them within the time period requested and the
+22 Company had only just begun working on the product in May 2024, despite telling the customers
+23 that the product would be ready by the end of 2023.
+24 The Full Truth Emerges
+25 180. On August 7, 2024, Fastly issued a press release announcing the Company’s Q2
+26 2024 results, disclosing “we are experiencing demand challenges with some of our largest
+27 customers.”
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 181. On that same day, Fastly hosted an earnings call with investors and analysts to
+2 discuss the Company’s Q2 2024 financial results (the “Q2 2024 Earnings Call”).
+3 182. During the Q2 2024 Earnings Call, Defendants disclosed that the Company was
+4 continuing to see a drop in revenue from its largest customers and was shifting its focus towards
+5 acquiring new business.
+6 183. Specifically, during the scripted portion of the Q2 2024 Earnings Call, Nightingale
+7 discussed the Company’s challenges “with a small set of [its] largest customers” and how
+8 “projected growth in those accounts ha[d] declined,” disclosing that revenue from the Company’s
+9 largest ten customers had declined to 34% of the Company’s revenue, a 4% drop from the previous
+10 quarter.
+11 184. Similarly, during the scripted portion of the Q2 2024 Earnings Call, Kisling stated:
+12 In the second quarter, we continued to see sequential declines in revenue from some
+of our largest customers that partially offset growth in revenue from other areas,
+13 particularly social media, development platforms and gaming. The sequential
+declines in revenue from our largest customers were driven by further impacts from
+14 the reversal in the consolidation of network services vendors last year that we
+discussed in Q1 and also a continuation of lower follow-on traffic than we have
+15 historically seen following typical customer rerate.
+16 As a result, network services revenue per gigabit declined more year-over-year than
+the historical trend line we typically experience. We anticipate this dynamic will
+17 continue throughout Q3 and then begin to moderate in the fourth quarter.
+18 Our Top 10 customers comprised 34% of our total revenues in the second quarter
+of 2024 compared to 38% in Q1 2024, reflecting the impact of the revenue declines
+19 from some of our largest customers. Also, no customer accounted for more than
+10% of revenue in the second quarter.
+In response to a question about the declines from the largest customers, Nightingale
+clarified:
+[T]here is definitely softness in the traffic of those large accounts, primarily media,
+23 large media accounts. And there’s certainly a push to profitability from within those
+teams and we’re seeing that and trying to react to their needs and their business
+24 priorities of those customers. We’ve really transformed our customer success
+motion for these large multi-vendor customers.
+We’re focusing on delivering the kind of differentiation and the kind of service that
+26 they’re looking for in a very bespoke way. So we have consumed obviously some
+headwinds here in terms of the revenue projection for the back half which you see
+27 in our outlook. But yes, we believe we’ve stabilized those accounts at this point.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 186. However, Kisling discussed how the Company’s “increased engagement model”
+2 with those accounts, which entailed “senior level engagement regularly with these customers,”
+3 would provide “much better visibility into their own internal dynamics around their traffic
+4 expectations and traffic allocations,” which would “translate[] into a much more reliable view of
+5 how their business will play out over the remainder of the year.”
+6 187. Nightingale also described the Company’s shifting focus towards acquiring new
+7 business, stating “we haven’t lost focus on driving customer acquisition and growth in the other
+8 2/3 of our business to effectively outgrow this concentration risk over time” and “[t]he success in
+9 this transformation will continue to drive top line revenue growth and become the foundation of
+10 our business.”
+11 188. Nightingale stated that “[t]his is truly a moment of transition for Fastly,” focused
+12 on “mitigat[ing] [the Company’s] dependence on large multi-vendor customers,” including by
+13 “expanding [the Company’s] portfolio,” in order to “drive more stability and higher growth for
+14 Fastly in the years to come.”
+15 189. Similarly, Kisling stated: “As we continue to transform our business towards a
+16 bifurcated customer strategy, we will continue to focus our customer acquisition strategy and direct
+17 more development and go-to-market investment towards the broader market opportunity outside
+18 our Top 10 customers.”
+19 190. Nightingale concluded by discussing the Company’s “outlook” and “path forward,”
+20 stating:
+21 The large customer headwinds we’ve seen have continued to impact our business.
+. . . [A]s I discussed previously, this is a moment of transition and we take this very
+22 seriously.
+23 We must continue to acquire new customers and grow accounts outside our large
+media cohort. This will diversify and strengthen our business and this is exactly the
+24 path that we’re on.
+25 191. The Company, again, decreased its revenue projection for FY 2024 from the $555
+26 million to $565 million forecasted during the Q1 2024 Earnings Call to a range between $530
+27 million and $540 million, which, Kisling stated, “reflects continued weakness with some of [the
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 Company’s] largest customers, offset by growth outside [its] largest existing customers and newer
+2 enterprise customers.”
+3 192. Following these developments, Fastly’s stock price fell $0.98 per share, or 14.33%,
+4 to close at $5.86 per share on August 8, 2024.
+5 193. As a result of Defendants’ wrongful acts and omissions, and the precipitous decline
+6 in the market value of the Company’s securities, Plaintiffs and other Class members have suffered
+7 significant losses and damages.
+8 SCIENTER ALLEGATIONS
+9 194. During the Class Period, Defendants emphasized the importance of the Company’s
+10 existing enterprise customers, including its largest customers, for driving the Company’s revenue
+11 growth, even while Defendants knew or recklessly disregarded the fact that the revenue derived
+12 from such customers was on the decline and would likely continue to decline given that: (i) many
+13 enterprise customers were canceling contracts or demanding more favorable pricing, (ii) the
+14 Company’s largest customers were already decreasing their use of the platform and some of them
+15 were in the process of renegotiating their contracts and seeking more favorable terms, (iii) the
+16 Company was shifting its focus towards acquiring new business versus generating revenue from
+17 existing customers, and iv) the Company’s new engagement model with its largest customers was
+18 not driving progress as Defendants suggested.
+19 195. At the time when Defendants touted revenue growth from its existing enterprise
+20 customers, Defendants knew, or should have known, that the revenue from such customers was on
+21 the decline.
+22 196. Nightingale conceded during a November 15, 2023 RBC Capital Markets 2023
+23 Technology, Internet, Media and Telecommunications Conference, “I track – just to give you it a
+24 hundred percent verbatim, I’m always tracking top 10, top 20 deals for any given quarter.”
+25 197. Based on the information provided by CW1, CW2, CW3, and CW4, at best,
+26 customers were stagnant in their use of Fastly’s platform at that time, whereas many other
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 enterprise customers were canceling contracts and requesting more aggressive discounts during
+2 contract renewals, threatening to leave Fastly altogether.
+3 198. This trend pervaded Company sales teams across the country and was known by
+4 Defendants. CW1 described sharing concerns about a contract that was cancelled in April 2023 all
+5 the way up to the founder of the Company.
+6 199. Further, the Company held all hands meetings attended by the Individual
+7 Defendants during 2023, during which, according to CW1 and CW6, Nightingale discussed how
+8 the Company’s largest accounts had “throttled down” their usage and were not bringing in as much
+9 traffic, which resulted in a decrease in revenue from these customers. These all hands meetings
+10 also included discussion on the overall state of the Company’s business, including, but not limited
+11 to, the effect of macro forces on the Company’s business.
+12 200. In addition, according to CW1, the Company tracked its customers’ traffic using
+13 the “Fastly App.”
+14 201. According to CW7, the Company also held weekly Customer Ops meetings every
+15 Thursday during the relevant period to discuss any customer issues and their bandwidth usage (i.e.,
+16 how much traffic they were transmitting through Fastly’s platform). Top Company executives,
+17 including the Chief Customer Officer, Vice President of Global Customer Success, and Vice
+18 President of Customer support regularly attended and participated in these meetings, and
+19 Nightingale occasionally attended as well. During the Customer Ops meetings, each customer was
+20 rated using a red/yellow/green system to indicate how much the customer was using Fastly’s
+21 platform, with red indicating a customer who was not using as much bandwidth as expected or
+22 desired. If a major enterprise customer continued to be rated “red,” the Chief Customer Officer,
+23 Vice President of Global Customer Success, and Vice President of Customer Support would
+24 assemble a “tiger team” to focus on improving the customer’s performance.
+25 202. Defendants, thus, knew by, at latest, November 2023, that the Company’s revenue
+26 from its largest customers was declining and would continue to decline.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 203. Further, following the release of the Company’s Q1 2024 results, the Company also
+2 set up a “war room” and “tiger team” to address the substantial drop in traffic from the Company’s
+3 biggest customers.
+4 204. While Defendants touted the growth from these customers, behind the scenes, they
+5 knew that the revenue derived from its largest customers, which contributed a significant portion
+6 of the Company’s revenue, would continue to decline.
+7 205. Some of the Company’s largest customers’ contracts were up for renewal in March
+8 and April 2024. According to CW2, contract negotiations typically begin roughly three months
+9 before the contract is set to expire. Thus, given Defendants’ disclosures that some of its largest
+10 customers had their contracts repriced in late March, early April 2024, these large customers were
+11 already negotiating their renewals and demanding more favorable pricing terms when Defendants
+12 made their false and misleading rosy statements about their revenue prospects in February 2024.
+13 Defendants knew, or should have known, by early January 2024 at the latest (three months before
+14 early April 2024) that there was a significant risk that the Company’s revenue generated from these
+15 large customers, whose use of the platform Defendants knew was already declining, would
+16 continue to decline insofar as they were demanding more favorable pricing terms.
+17 206. Defendants also falsely or misleadingly implied that their new engagement model
+18 with the Company’s largest customers was making progress, when in reality, that was not the case.
+19 Specifically, according to CW5, two of Fastly’s largest accounts, Apple and Amazon, had been
+20 requesting a staging environment to test out new web features before they go live on their platforms
+21 since 2023, and while Fastly originally told these customers it would have the product ready by
+22 the end of 2023, no one at Fastly actually began working on it until May 2024. CW5 was instructed
+23 to have the product ready by the end of June 2024, but CW5 described that deadline as unrealistic
+24 and was unable to meet it.
+25 207. Nightingale knew about the product that CW5 was tasked with developing because,
+26 according to CW5, the only reason CW5 managed to get traction on the project was because she
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 had the backing of the Chief Product Officer and the CEO, Nightingale. Nightingale told CW5 to
+2 do whatever was needed to get it done.
+3 208. In addition, Defendants knew, or should have known, that the revenue derived from
+4 its other existing enterprise customers would continue to decline because, despite touting its
+5 continued focus on expanding its existing customers’ use, the Company began shifting its focus
+6 towards acquiring new business.
+7 209. Unbeknownst to investors, Defendants reconfigured the sales strategy under a new
+8 sales compensation model in 2024 to prioritize revenue derived from new accounts over revenue
+9 derived from existing customers, thereby discouraging sales team members from continuing to
+10 dedicate resources towards driving revenue from existing customers.
+11 210. As CW2 explained, sales team members lacked a financial incentive to continue to
+12 push for growth from existing customers, and only worked with them because “we want[ed] to do
+13 the right thing and take care of them.”
+14 211. Meanwhile, Defendants took steps to ensure that the declining revenue from its
+15 existing customers would remain undetected. Beginning in Q1, 2024, the Company discontinued
+16 disclosing metrics that measure revenue growth from existing customers, DBNER and quarterly
+17 NRR.
+18 212. The Company had reported DBNER as a key metric since its first quarterly report,
+19 its Q2 2019 quarterly report. The Company had reported quarterly NRR as a key metric since its
+20 Q2 2020 quarterly report. The only remaining key metric which the Company discloses that
+21 measures growth from existing customers, LTM NRR, was “intended to be supplemental to [the
+22 Company’s] NRR,” according to the Company’s Q3 2020 quarterly report, when the Company
+23 first reported LTM NRR.
+24 213. Defendants claimed the Company ceased reporting these metrics because,
+25 according to the Company’s Q1 2024 10-Q, they “were used infrequently by investors.” However,
+26 both Defendants and analysts regularly discussed these metrics.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 214. For example, during the August 12, 2019 KeyBanc Capital Markets Technology
+2 Leadership Forum, Adriel Lares, then-CFO of Fastly, discussed the growth of the Company’s
+3 enterprise customers, stating:
+4 And the idea is, how much can we continue with them to grow, which is why we
+report the DBNER. The DBNER also takes into account any rerates they may
+5 negotiate on a yearly basis. So hopefully, it’s a fairly truthful metric, because if
+there’s a rerate an the DBNER is 132%, for example, that must mean their traffic
+6 to us is growing quite quickly.
+7 215. During the Company’s Q2 2021 Earnings Call, Rishi N. Jaluria of D.A. Davidson
+8 asked:
+9 If I look at NRR in the quarter itself, it’s the first time I’ve ever seen this number
+drop below 100%. And that’s kind of a little bit of a scary number to see. Can you
+10 maybe walk me through why was NRR so low this quarter, at 93%? What is that –
+when you have customers that are shrinking their footprint, is it bringing more to
+11 competitors? Is it bringing more in-house? Maybe walk us through that number and
+how we should be thinking about that metric going forward.
+13 216. Further, the decision to discontinue reporting DBNER and quarterly NRR was
+14 suspiciously timed when those metrics would have revealed the trend that existing customer
+15 growth was declining, in contradiction to Defendants’ statements about existing customers
+16 continued to drive revenue growth.
+17 217. While the Company’s 2023 10-K, the Company’s last disclosure of DBNER,
+18 showed a deceased in DBNER from 122.7% in FY 2022 to 119% in FY 2023 and showed a drop
+19 in NRR from 110.7% in FY 2022 to 110.1% in FY 2023, the quarterly data that the Company
+20 disclosed for 2022-2023 showed fluctuations in DBNER and NRR and did not yet reveal a trend.
+21 218. With the market price of Fastly stock artificially inflated based on Defendants’ false
+22 and misleading statements and omissions, Defendants Nightingale and Kisling sold a substantial
+23 amount of Fastly stock during the Class Period. Specifically, Defendant Nightingale sold 410,228
+24 of his shares of Fastly stock for proceeds of roughly $5,968,797, while Defendant Kisling sold
+25 149,568 of his shares of Fastly stock for proceeds of roughly $1,969,417.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 LOSS CAUSATION
+2 219. As a result of Defendants’ materially false or misleading statements and omissions
+3 of material fact, Fastly securities traded at artificially inflated prices during the Class Period.
+4 Relying on the integrity of the market price for Fastly securities and public information related to
+5 Fastly, Plaintiffs and other Class members purchased or otherwise acquired Fastly securities at
+6 prices that incorporated and reflected Defendants’ misrepresentations and omissions of material
+7 fact alleged herein.
+8 220. Defendants’ materially false and misleading statements and omissions of material
+9 fact had their intended effect, directly and proximately causing Fastly securities to trade at a price
+10 higher than it would have had the facts, risks, and conditions concealed by Defendants’ fraud
+11 become known sooner than they did.
+12 221. Absent Defendants’ misrepresentations and omissions of material fact, Plaintiffs
+13 and other Class members would not have purchased or otherwise acquired their Fastly securities
+14 at the artificially inflated prices at which they traded.
+15 222. Plaintiffs and other Class members were damaged when the material facts and
+16 foreseeable risks mispresented or concealed by Defendants were revealed through the disclosure
+17 of new information concerning Fastly on the dates listed below, each of which directly and
+18 proximately caused declines in the price of Fastly securities by removing the artificial inflation in
+19 the price of Fastly’s securities that resulted from Defendants’ fraud.
+20 223. The previously downplayed risks of macro effects on the Company’s business
+21 began to materialize when the Company announced its Q4 and FY 2023 financial results on
+22 February 14, 2024, reporting revenues on the lower side of their previous guidance and that missed
+23 analysts’ consensus estimates by 1.1%. In response to this news, Fastly’s stock price fell
+24 significantly, from $23.54 to close at $16.34 on February 15, 2024, a decline of 30.59 %.
+25 224. The truth was further revealed on May 1, 2024, when Fastly issued a press release
+26 announcing the Company’s Q1 2024 financial results and hosted the Q1 2024 Earnings Call.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 225. Following the corrective statements made during the Q1 2024 Earnings Call,
+2 discussed above and incorporated by reference herein, Fastly’s stock price fell $4.14 per share, or
+3 32.02%, to close at $8.79 per share on May 2, 2024.
+4 226. The full truth emerged on August 7, 2024, when Fastly issued a press release
+5 announcing the Company’s Q2 2024 results and hosted the Q2 2024 Earnings Call.
+6 227. Following the corrective statements made during the Q2 2024 Earnings Call,
+7 discussed above and incorporated by reference herein, Fastly’s stock price fell $0.98 per share, or
+8 14.33%, to close at $5.86 per share on August 8, 2024.
+9 NO SAFE HARBOR
+10 228. The statutory safe harbor provided for forward-looking statements under certain
+11 circumstances does not apply to any of the alleged misstatements pled in this Complaint. The
+12 statements alleged to be false and/or misleading herein all relate to then-existing facts and
+13 conditions. In addition, to the extent certain of the statements alleged to be false may be
+14 characterized as forward looking, they were not identified as “forward-looking statements” when
+15 made and there were no meaningful cautionary statements identifying important factors that could
+16 cause actual results to differ materially from those in the purportedly forward-looking statements.
+17 In the alternative, to the extent that the statutory safe harbor is determined to apply to any forward-
+18 looking statements pleaded herein, Defendants are liable for those false forward-looking
+19 statements because at the time each of those forward-looking statements was made, the speaker
+20 had actual knowledge that the forward-looking statement was materially false or misleading,
+21 and/or the forward-looking statement was authorized or approved by an executive officer of Fastly
+22 who knew that the statement was false when made.
+23 APPLICABILITY OF PRESUMPTION OF RELIANCE
+24 (FRAUD-ON-THE-MARKET DOCTRINE)
+25 229. At all relevant times, the market for Fastly’s securities was open, well-developed,
+26 and efficient for the following reasons:
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 (a) Fastly’s stock met the requirements for listing, and was listed and actively
+2 traded on the New York Stock Exchange (NYSE), a highly efficient and
+3 automated market;
+4 (b) As a regulated issuer, Fastly filed periodic public reports with the SEC;
+5 (c) Fastly regularly communicated with the public using established market
+6 communication mechanisms, including through regular dissemination of
+7 press releases on the national circuits of major newswire services,
+8 publication on its website, and through other wide-ranging public
+9 disclosures, such as conference calls, communications with the financial
+10 press, and other similar reporting services; and
+11 (d) Fastly was followed by numerous securities analysts employed by major
+12 brokerage firms who wrote reports which were distributed to those
+13 brokerage firms’ sales force and certain customers. Each of those reports
+14 was publicly available and entered the public marketplace.
+15 230. As a result of the foregoing, the market for Fastly securities reasonably and
+16 promptly digested current information regarding Fastly from all publicly available sources and
+17 reflected such information in the price of Fastly securities. All purchasers and acquirers of Fastly
+18 securities during the Class Period suffered similar injury through their purchases and acquisitions
+19 of Fastly securities at artificially inflated prices and a presumption of reliance applies.
+20 231. During the Class Period, the artificial inflation of Fastly’s securities was caused by
+21 the material misrepresentations and/or omissions particularized herein, causing the damages
+22 sustained by Plaintiffs and other members of the Class. As described herein, during the Class
+23 Period, Defendants made or caused to be made, a series of materially false and/or misleading
+24 statements about, inter alia, macro effects on the Company’s business, the Company’s existing
+25 customers expanding their use of Fastly’s services, and the Company’s continued emphasis on
+26 driving revenue growth through its existing customers. These material misstatements and/or
+27 omissions created an unrealistically positive assessment of the Company and its business,
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 operations, and prospects, thus causing the price of the Company’s securities to be artificially
+2 inflated at all relevant times, and when disclosed, negatively affected the value of the Company’s
+3 shares.
+4 232. The material misrepresentations and omissions alleged herein would tend to induce,
+5 and did induce, reasonable investors to misjudge the value of the Company’s securities and
+6 purchase the Company’s securities at artificially inflated prices.
+7 233. Plaintiffs and other Class members relied on Defendants to timely disclose material
+8 information as required by law, and would not have purchased or otherwise acquired Fastly
+9 securities at artificially inflated prices if Defendants had timely disclosed all material information
+10 as required by law.
+11 234. To the extent Defendants concealed or improperly failed to disclose material facts
+12 concerning Fastly and its business, Plaintiffs and other Class members are entitled to a presumption
+13 of reliance in accordance with Affiliated Ute Citizens v. United States, 406 U.S. 128, 153 (1972).
+14 PLAINTIFFS’ CLASS ACTION ALLEGATIONS
+15 235. Plaintiffs bring this action as a class action pursuant to Federal Rule of Civil
+16 Procedure 23(a) and (b)(3) on behalf of a Class, consisting of all those who purchased or otherwise
+17 acquired Fastly securities during the Class Period (the “Class”), and were damaged upon the
+18 revelation of the alleged corrective disclosures. Excluded from the Class are Defendants herein,
+19 the officers and directors of the Company, at all relevant times, members of their immediate
+20 families and their legal representatives, heirs, successors or assigns and any entity in which
+21 Defendants have or had a controlling interest.
+22 236. The members of the Class are so numerous that joinder of all members is
+23 impracticable. Throughout the Class Period, Fastly securities were actively traded on the NYSE.
+24 While the exact number of Class members is unknown to Plaintiffs at this time and can be
+25 ascertained only through appropriate discovery, Plaintiffs believe that there are hundreds or
+26 thousands of members in the proposed Class. Record owners and other members of the Class may
+27 be identified from records maintained by Fastly or its transfer agent and may be notified of the
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 pendency of this action by mail, using the form of notice similar to that customarily used in
+2 securities class actions.
+3 237. Plaintiffs’ claims are typical of the claims of the members of the Class as all
+4 members of the Class are similarly affected by Defendants’ wrongful conduct in violation of
+5 federal law that is complained of herein.
+6 238. Plaintiffs will fairly and adequately protect the interests of the members of the Class
+7 and have retained counsel competent and experienced in class action and securities litigation.
+8 Plaintiffs have no interests antagonistic to or in conflict with those of the Class.
+9 239. Common questions of law and fact exist as to all members of the Class and
+10 predominate over any questions solely affecting individual members of the Class. Among the
+11 questions of law and fact common to the Class are:
+12 • whether the federal securities laws were violated by Defendants’ acts as alleged
+herein;
+• whether statements made by Defendants to the investing public during the Class
+14 Period misrepresented material facts about the business, operations and
+management of Fastly;
+• whether the Individual Defendants caused Fastly to issue false and misleading
+16 financial statements during the Class Period;
+17 • whether Defendants acted knowingly or recklessly in issuing false and misleading
+financial statements;
+• whether the prices of Fastly securities during the Class Period were artificially
+19 inflated because of the Defendants’ conduct complained of herein; and
+20 • whether the members of the Class have sustained damages and, if so, what is the
+proper measure of damages.
+22 240. A class action is superior to all other available methods for the fair and efficient
+23 adjudication of this controversy since joinder of all members is impracticable. Furthermore, as the
+24 damages suffered by individual Class members may be relatively small, the expense and burden
+25 of individual litigation make it impossible for members of the Class to individually redress the
+26 wrongs done to them. There will be no difficulty in the management of this action as a class action.
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 COUNT I
+2 (Violations of Section 10(b) of the Exchange Act and Rule 10b-5 Promulgated Thereunder
+Against All Defendants)
+4 241. Plaintiffs repeat and re-allege each and every allegation contained above as if fully
+5 set forth herein.
+6 242. This Count is asserted against Defendants and is based upon Section 10(b) of the
+7 Exchange Act, 15 U.S.C. § 78j(b), and Rule 10b-5 promulgated thereunder by the SEC.
+8 243. During the Class Period, Defendants made various untrue statements of material
+9 facts and omitted to state material facts necessary in order to make the statements made, in light
+10 of the circumstances under which they were made, not misleading. This was intended to, and,
+11 throughout the Class Period, did: (i) deceive the investing public, including Plaintiffs and other
+12 Class members, as alleged herein; (ii) artificially inflate and maintain the market price of Fastly
+13 securities; and (iii) cause Plaintiffs and other members of the Class to purchase or otherwise
+14 acquire Fastly securities and options at artificially inflated prices. In furtherance of this unlawful
+15 conduct, Defendants took the actions set forth herein.
+16 244. Each of the Defendants participated directly or indirectly in the preparation and/or
+17 issuance of the quarterly and annual reports, SEC filings, press releases and other statements and
+18 documents described above, including statements made to securities analysts and the media that
+19 were designed to influence the market for Fastly securities. Such reports, filings, releases and
+20 statements were materially false and misleading in that they failed to disclose material adverse
+21 information and misrepresented the truth about Fastly’s finances and business prospects.
+22 245. By virtue of their positions at Fastly, Defendants had actual knowledge of the
+23 materially false and misleading statements and material omissions alleged herein and intended
+24 thereby to deceive Plaintiffs and the other members of the Class, or, in the alternative, Defendants
+25 acted with reckless disregard for the truth in that they failed or refused to ascertain and disclose
+26 such facts as would reveal the materially false and misleading nature of the statements made,
+27 although such facts were readily available to Defendants. Said acts and omissions of Defendants
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 were committed willfully or with reckless disregard for the truth. In addition, each Defendant knew
+2 or recklessly disregarded that material facts were being misrepresented or omitted as described
+3 above.
+4 246. Information showing that Defendants acted knowingly or with reckless disregard
+5 for the truth is peculiarly within Defendants’ knowledge and control. As the senior managers
+6 and/or directors of Fastly, the Individual Defendants had knowledge of the details of Fastly’s
+7 internal affairs.
+8 247. The Individual Defendants are liable both directly and indirectly for the wrongs
+9 complained of herein. Because of their positions of control and authority, the Individual
+10 Defendants were able to and did, directly or indirectly, control the content of the statements of
+11 Fastly. As officers and/or directors of a publicly-held company, the Individual Defendants had a
+12 duty to disseminate timely, accurate, and truthful information with respect to Fastly’s businesses,
+13 operations, future financial condition and future prospects. As a result of the dissemination of the
+14 aforementioned false and misleading reports, releases and public statements, the market price of
+15 Fastly securities was artificially inflated throughout the Class Period. In ignorance of the adverse
+16 facts concerning Fastly’s business and financial condition which were concealed by Defendants,
+17 Plaintiffs and the other members of the Class purchased or otherwise acquired Fastly securities at
+18 artificially inflated prices and relied upon the price of the securities, the integrity of the market for
+19 the securities and/or upon statements disseminated by Defendants, and were damaged thereby.
+20 248. During the Class Period, Fastly securities were traded on an active and efficient
+21 market. Plaintiffs and the other members of the Class, relying on the materially false and
+22 misleading statements described herein, which the Defendants made, issued or caused to be
+23 disseminated, or relying upon the integrity of the market, purchased or otherwise acquired shares
+24 of Fastly securities at prices artificially inflated by Defendants’ wrongful conduct. Had Plaintiffs
+25 and the other members of the Class known the truth, they would not have purchased or otherwise
+26 acquired said securities, or would not have purchased or otherwise acquired them at the inflated
+27 prices that were paid. At the time of the purchases and/or acquisitions by Plaintiffs and the Class,
+28 {00637015;12 }
+AMENDED COMPLAINT FOR VIOLATIONS OF THE FEDERAL SECURITIES LAWS
+1 the true value of Fastly securities was substantially lower than the prices paid by Plaintiffs and the
+2 other members of the Class. The market price of Fastly securities declined sharply upon public
+3 disclosure of the facts alleged herein to the injury of Plaintiffs and Class members.
+4 249. By reason of the conduct alleged herein, Defendants knowingly or recklessly,
+5 directly or indirectly, have violated Section 10(b) of the Exchange Act and Rule 10b-5
+6 promulgated thereunder.
+7 250. As a direct and proximate result of Defendants’ wrongful conduct, Plaintiffs and
+8 the other members of the Class suffered damages in connection with their respective purchases,
+9 acquisitions and sales of the Company’s securities during the Class Period, upon the disclosure
+10 that the Company had been disseminating material misstatements and omissions to the investing
+11 public.
+12 COUNT II
+13 (Violations of Section 20(a) of the Exchange Act Against the Individual Defendants)
+14 251. Plaintiffs repeat and re-allege each and every allegation contained in the foregoing
+15 paragraphs as if fully set forth herein.
+16 252. During the Class Period, the Individual Defendants participated in the operation
+17 and management of Fastly, and conducted and participated, directly and indirectly, in the conduct
+18 of Fastly’s business affairs. Because of their senior positions, they knew the adverse non-public
+19 information about Fastly’s false statements.
+20 253. As officers and/or directors of a publicly owned company, the Individual
+21 Defendants had a duty to disseminate accurate and truthful information with respect to Fastly, and
+22 to correct promptly any public statements issued by Fastly which had become materially false or
+23 misleading.
+24 254. Because of their positions of control and authority as senior officers, the Individual
+25 Defendants were able to, and did, control the contents of the various reports, press releases, public
+26 statements, and public filings which Fastly disseminated in the marketplace during the Class

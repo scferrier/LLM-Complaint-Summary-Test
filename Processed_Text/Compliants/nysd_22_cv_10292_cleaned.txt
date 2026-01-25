@@ -1,0 +1,1446 @@
+E. BRENNAN,
+Defendants.
+CONSOLIDATED CLASS ACTION COMPLAINT FOR VIOLATIONS OF THE
+FEDERAL SECURITIES LAWS
+KAPLAN FOX & KILSHEIMER LLP
+Robert N. Kaplan
+Jeffrey P. Campisi
+800 Third Avenue, 38th Floor
+New York, NY 10022
+T: 212-687-1980
+F: 212-687-7714
+rkaplan@kaplanfox.com
+jcampisi@kaplanfox.com
+Kathleen A. Herkenhoff
+(admitted pro hac vice)
+KAPLAN FOX & KILSHEIMER LLP
+1999 Harrison Street, Suite 1560
+Oakland, CA 94612
+T: (415) 772-4700
+F: (415) 772-4707
+kherkenhoff@kaplanfox.com
+Lead Counsel for Lead Plaintiff Steven B.
+Christiansen and the Proposed Class
+Dated: May 26, 2023
+TABLE OF CONTENTS
+Page(s)
+I. OVERVIEW OF THE CLAIMS .........................................................................................1
+II. JURISDICTION AND VENUE ........................................................................................14
+III. PARTIES ...........................................................................................................................15
+IV. FACTUAL BACKGROUND AND DEFENDANTS’ FRAUDULENT
+CONDUCT ........................................................................................................................17
+A. The FDA Regulatory Process for Regular Drug Approval ....................................17
+B. The FDA’s Accelerated Approval (AA) Pathway .................................................18
+C. Spectrum Studies Pozi on Previously Treated NSCLC Patients with
+HER2 Exon 20 Mutations ......................................................................................20
+D. The FDA Raises Concerns that Spectrum’s Dose Selection Was Not
+Optimized ...............................................................................................................21
+E. Defendants Spectrum and Lebel Study Pozi in BID (twice per day)
+Dosing ....................................................................................................................21
+F. Defendants Spectrum and Lebel Release Cohort 2 Study Data
+Results ....................................................................................................................22
+G. The FDA Reiterates Material Concerns that Spectrum Did Not Have
+Adequate Data to Optimize the 16 mg QD Dose ...................................................22
+H. Defendants Spectrum and Lebel Meet with the FDA to Discuss the
+PINNACLE Study .................................................................................................24
+I. Defendants’ Fraudulent Conduct ...........................................................................25
+V. THE TRUTH BEGINS TO EMERGE ..............................................................................30
+VI. DEFENDANTS’ FALSE AND MISLEADING STATEMENTS DURING
+THE CLASS PERIOD .......................................................................................................36
+VII. LOSS CAUSATION ..........................................................................................................47
+VIII. ADDITIONAL SCIENTER ALLEGATIONS ..................................................................48
+IX. NO SAFE HARBOR .........................................................................................................50
+i
+X. APPLICABILITY OF PRESUMPTION OF RELIANCE:
+FRAUD ON THE MARKET.............................................................................................51
+XI. CLASS ACTION ALLEGATIONS ..................................................................................52
+XII. CAUSES OF ACTION ......................................................................................................54
+COUNT I For Violation of Section 10(b) of the Exchange Act and Rule 10b-5
+Against All Defendants ......................................................................................................54
+COUNT II For Violation of Section 20(a) of the Exchange Act
+Against the Individual Defendants.....................................................................................55
+XIII. PRAYER FOR RELIEF ....................................................................................................55
+XIV. JURY DEMAND ...............................................................................................................56
+ii
+Lead Plaintiff Steven Christiansen (“Plaintiff”), on behalf of himself and a class of
+similarly situated investors, by and through Plaintiff’s counsel, alleges the following upon
+information and belief, except as to those allegations concerning Plaintiff, which are alleged upon
+personal knowledge. The investigation of counsel included, among other things: 1) a review of
+Spectrum Pharmaceuticals, Inc.’s (“Spectrum” or the “Company”) public filings with the United
+States Securities and Exchange Commission (“SEC”); 2) press releases issued by the Company,
+and media, news and analyst reports about the Company; 3) Spectrum quarterly earnings
+conference calls, and investor conferences with Company executives, and analysts and investors;
+4) information based on consultation with experts in loss causation and economic loss; 5) publicly
+available information relating to the September 22, 2022 virtual meeting of the Oncologic Drugs
+Advisory Committee of the United States Food and Drug Administration’s Center for Drug
+Evaluation and Research (defined below), including the transcript of the virtual meeting and the
+FDA’s briefing document (defined below); and 6) other publicly available data, including, but not
+limited to, publicly available trading data relating to the price and trading volume of Spectrum’s
+common stock. Plaintiff believes that substantial additional evidentiary support will exist for the
+allegations set forth herein after a reasonable opportunity for discovery.
+I. OVERVIEW OF THE CLAIMS
+This is a securities class action on behalf of all purchasers of Spectrum common
+stock during the period March 17, 2022 through September 22, 2022, inclusive (the “Class
+Period”), who were damaged thereby (the “Class”). The claims asserted in this consolidated action
+(the “Action”) are alleged against Spectrum, Thomas J. Riga (“Riga”), the Company’s President
+and Chief Executive Officer (“CEO”) and a member of the Company’s board of directors, Francois
+J. Lebel (“Lebel”), the Company’s former Executive Vice President (“EVP”) and former Chief
+Medical Officer (“CMO”), and Nora E. Brennan (“Brennan”), the Company’s EVP and Chief
+Financial Officer (“CFO”) and former member of the Company’s board of directors, and arise
+under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 (the “Exchange Act”), 15
+U.S.C. §§ 78j(b) and 78t(a), and SEC Rule 10b-5, 17 C.F.R. § 240.10b-5, promulgated thereunder.
+Before and during the Class Period, Spectrum purported to be a biopharmaceutical
+company focused on acquiring, developing, and commercializing novel and targeted oncology
+therapies. The Company focused on development of poziotinib, or “pozi”, a drug under
+investigation for the treatment of previously treated patients (so-called second-line patients) with
+non-small cell lung cancer (“NSCLC”) with certain genetic mutations, including HER2 exon 20
+insertion mutations, which represent 2-3% of NSCLC patients. Pozi is administered orally and
+purports to be an inhibitor of certain cellular activity linked to cellular growth (called a tyrosine
+kinase inhibitor, or TKI) in NSCLC.
+Before any new drug can be marketed and sold commercially in the U.S., the United
+States Food and Drug Administration (“FDA”) requires that the drug undergo clinical trials
+involving three phases of human testing, with each phase involving increasingly larger patient
+pools. Typically, Phase 1 trials test the safety, dose tolerance, and other properties of the drug;
+Phase 2 trials seek to gather information about efficacy, optimal dosage levels, adverse effects,
+and safety risks; and Phase 3 trials are designed to gather further efficacy and safety information
+used to evaluate a drug’s overall benefit/risk profile. In a Phase 3 trial involving anti-cancer drugs,
+the drug candidate is typically compared to a standard, FDA-approved treatment for the target
+disease to verify clinical benefit or lack of benefit, and study patients are randomly assigned to
+receive the drug candidate or the standard of care treatment. After completion of all three clinical
+trial Phases, if the data indicates that the drug is safe and effective, a new drug application (“NDA”)
+can be filed with the FDA requesting approval to market the new drug as a treatment for the target
+disease.
+However, in cases where a drug candidate treats a serious condition and fills an
+unmet medical need, the FDA developed the Accelerated Approval (“AA”) pathway for earlier
+approval of drugs that demonstrate an effect on an endpoint (a measurement of benefit) reasonably
+likely to predict clinical benefit. AA is typically based on Phase 2 study data results. For a drug
+candidate granted approval under the AA pathway, the FDA has postmarketing requirements
+(“PMR”), which are typically additional studies or clinical trials designed to confirm or verify
+clinical benefit. PMRs are typically one or more Phase 3 randomized controlled studies, referred
+to as confirmatory studies or trials. FDA guidance provides that at the time AA is granted, a Phase
+3 confirmatory trial should already be underway because Phase 3 confirmatory trials that are in
+progress at the time AA is granted are more likely to result in a timely verification of benefit, and
+mitigate the risks that patients are exposed to undue risks by an ineffective drug granted AA.
+In or around October 2017, Spectrum commenced a clinical development program
+for pozi that included a Phase 2 study of pozi’s efficacy and safety, referred to as Cohort 2. Cohort
+2 comprised 90 patients with previously treated locally advanced or metastatic NSCLC with HER2
+exon 20 insertion mutations and all patients were to be treated with 16 mg of pozi QD (“QD” is
+once per day). In a July 27, 2020 press release, Spectrum stated that Cohort 2 had met its primary
+endpoint (27.8% of patients experienced reduction in tumor size), and in December 2020,
+Spectrum disclosed that the FDA allowed the Company to file an NDA based on the Cohort 2
+study data results under the AA pathway.
+On November 24, 2021, Spectrum completed its submission of the NDA for pozi
+at a 16 mg QD dose in patients with previously treated NSCLC with HER2 exon 20 insertion
+mutations (the “Pozi NDA”), and sought AA for the 16 mg QD dose based on the Phase 2 study
+data results from Cohort 2. Spectrum’s PMR, or Phase 3 confirmatory trial, was called the
+PINNACLE Study.
+In November 2021, during Spectrum’s earnings conference call with investors
+announcing the Company’s third quarter 2021 financial results, an analyst asked Defendant Lebel,
+the Company’s CMO, “what confirmatory study are you committing to in terms of design?
+Because obviously you need to do that as part of the [AA]?” In response, Defendant Lebel stated:
+. . . we’re in discussion with the [FDA] regarding this, and we clearly have
+developed a PMR [(the PINNACLE Study)]. And when you file the NDA, you
+have to have a PMR essentially underway and so we absolutely intend to do that.
+But obviously, want to make sure we’re in complete agreement . . . as to the nature
+of the PMR. So I’m not going to go any further on that, but it’s probably a
+randomized controlled study . . . And we’ll need to define that with the [FDA] and
+probably quite soon, you will be able to see what we’re doing.
+In February 2022, Spectrum told investors that the FDA had accepted the Pozi NDA
+for review, that under the Prescription Drug User Fee Act (“PDUFA”), the FDA set November 24,
+2022 (referred to as the PDUFA date) as the date by which the FDA would approve the Pozi NDA,
+reject it, or issue a complete response letter (“CRL”),1 and that the “FDA [had] reiterated [to
+Spectrum] the importance of having the confirmatory trial [(the PINNACLE Study)] substantially
+enrolled at the time of [AA] . . .”.
+The Class Period begins on March 17, 2022, when, during Spectrum’s conference
+call with investors and analysts to discuss the Company’s fourth quarter 2021 and full-year 2021
+financial results, Defendant Riga represented that “we have learned to optimize” the dosage for
+pozi. Dose optimization data identifies a dosage that provides optimal balance of efficacy and
+safety needed to maximize the chances of a successful outcome in a Phase 3 study.
+Defendant Riga’s representation that Spectrum had learned to “optimize” the
+1 The FDA will send a CRL if it determines that it will not approve an application in its present
+form and will describe all of the specific deficiencies that the FDA has identified in an application.
+dosage for pozi was materially false and misleading because, unknown to investors, during
+meetings with Defendants Lebel and/or Riga before the Class Period, the FDA repeatedly told
+Defendants Lebel and/or Riga that Spectrum’s dosing data were inadequate and that additional
+data and studies were needed to determine whether Spectrum’s dose selection for pozi was
+optimized.
+The sticking point for the FDA was that while patients in Cohort 2 were treated
+with 16 mg QD and the Pozi NDA sought AA to treat patients with a 16 mg QD dose, Defendants
+Riga and/or Lebel proposed to treat patients in the PINNACLE Study with a different dosage
+regimen (8 mg BID (twice per day)) in an effort to mitigate negative side effects observed in
+Cohort 2 while maintaining efficacy. The incongruent dosing schedules troubled and concerned
+FDA officials. While Spectrum had submitted with the Pozi NDA dosing data from a Phase 1
+study and additional dosing data, including from an ongoing pozi exploratory trial (Cohort 5) in
+which patients were treated with 6 or 8 mg BID, or 10 mg QD, the FDA repeatedly told Defendants
+Riga and/or Lebel that the data were inadequate and that additional dosing data and studies were
+required to determine the optimal dose for further evaluation in the PINNACLE Study. The FDA
+also repeatedly expressed concerns to Defendants Lebel and/or Riga that pozi’s efficacy was low
+and did not represent an advantage to patients over other approved therapies, and that the safety
+profile demonstrated a high level of toxicity, requiring a large number of dose reductions and drug
+interruptions. In light of the FDA’s concerns, the FDA informed Defendants Riga and/or Lebel
+that additional data were needed to determine whether the pozi dose was optimized for further
+evaluation in the PINNACLE Study. As revealed after the Class Period by the FDA, Spectrum’s
+failure to optimize the dosage was a “fatal flaw” in the development of pozi.
+Also during the March 17, 2022 conference call, Defendant Lebel stated that
+Spectrum would disclose the design and details of the PINNACLE Study after the first patient was
+enrolled.
+Then, on May 12, 2022, Defendants Riga and Lebel disclosed the design and details
+of the PINNACLE Study, and represented that patients were enrolling in the PINNACLE Study:
+A study for poziotinib has been initiated to confirm the clinical benefit seen in
+Cohort 2, as required for an accelerated approval. The trial, Study SPI-POZ-301
+(PINNACLE), is designed to enroll 268 patients with previously treated NSCLC
+harboring HER2 exon 20 mutations. Patients are being randomized 2-to-1 into
+one of two treatment arms using 8mg of poziotinib orally administered BID
+(twice daily) versus 75mg/m2 of docetaxel administered intravenously every
+three weeks. The primary endpoint will be Progression Free Survival.
+(Emphasis added).
+Also on May 12, 2022, during a Spectrum conference call with investors, an analyst
+asked Defendants Riga and Lebel “how do you reconcile a full approval in a different dose [16 mg
+QD] with the [AA] with a sort of different dosing schedule [(8 mg BID])?” Defendant Riga
+responded “we believe that 16 QD is a safe and effective dose and obviously aligned with FDA
+on the confirmatory study to go with the 8-milligram BID.” (Emphasis added).
+Defendants’ representations were materially false and misleading because they
+created the false impression that the PINNACLE Study was enrolling patients and that PINNACLE
+was on track to be substantially enrolled by November 24, 2022 (the PDUFA date), when, in fact,
+no patients had enrolled, and that Defendants and the FDA were aligned concerning the design of
+the PINNACLE Study to treat patients at the 8 mg BID dose, which was not true. Unknown to
+investors, in light of the FDA’s concerns about the inadequate dose optimization data, and pozi’s
+efficacy and safety data, the FDA did not agree with Defendants on the design of the PINNACLE
+Study and had warned Defendants Lebel and/or Riga that proceeding with PINNACLE at 8 mg
+BID was at their own risk. Unknown to investors, as of May 12, 2022, no patients had enrolled in
+the PINNACLE Study.
+As later revealed at a public meeting of the FDA’s Oncologic Drugs Advisory
+Committee (“ODAC”)2 on September 22, 2022 at the end of the Class Period to discuss the Pozi
+NDA and to vote whether to recommend that the FDA grant AA to the Pozi NDA based on a
+benefit-risk analysis, FDA officials repeated what they had been privately telling Defendants Lebel
+and/or Riga since before the start of the Class Period:
+we did not come to any formal agreement about the 8-mg BID dose. It’s very
+limited data, and we told [Spectrum] that it would be at their own risk to move
+forward with this incongruent dose [(8 mg BID)] . . . I think a lot of this speaks
+to [Spectrum] kind of rushing this development program and trying to take catch-
+up steps, whereas the steps should have been taken slowly, and methodically, and
+appropriately early in development. . . . [Defendants] have missed several
+opportunities and several steps along the way to optimize this dose . . . This is
+a fatal [] flaw in this development program . . . .
+Proceeding with a drug development program when you don’t have a well-founded
+dose is literally building a house on quicksand here, and this is one of the problems
+. . . .
+[PINNACLE] has not enrolled any patients as of this month, and is not slated
+to read out until 2026 at the earliest. Patients could be exposed to a highly toxic
+drug with unverified clinical benefit for at least four years.
+(Emphasis added).
+Indeed, Defendants’ false representations misled analysts that covered Spectrum.
+For example, a May 16, 2022 report published by JMP Securities LLC (“JMP”) stated “Spectrum
+noted that it has started enrolling patients” in the PINNACLE Study “which needs to be
+substantially enrolled by” November 2022; a May 13, 2022 report published by H.C. Wainwright
+& Co., LLC (“H.C. Wainwright”) stated “the PINNACLE study utilizing 8 mg BID bodes well for
+the potential approval”; and in a May 13, 2022 research report, Jefferies LLC (“Jefferies”) reported
+that Spectrum “announced alignment w/FDA on confirmatory ph.III [] design . . . the confirmatory
+2 ODAC is an independent panel of experts that reviews and evaluates data concerning the efficacy
+and safety of investigational products for use in the treatment of cancer. ODAC makes nonbinding
+recommendations to the FDA regarding product approval.
+study is an important moving part, b/c FDA has iterated the importance of having the confirmatory
+trial ‘substantially enrolled’ by the time of approval”, when, in fact, Spectrum was not aligned
+with the FDA on the design of the PINNACLE Study and at that point no patients had been enrolled
+in the PINNACLE Study.
+Defendants were motivated to take a risky gamble and prematurely rush the Pozi
+NDA and the PINNACLE Study without the dose optimization data required by the FDA and
+mislead investors because Spectrum was in a precarious financial condition and needed to raise
+cash. Spectrum was on track to run out of cash by the end of 2022. As of December 31, 2021,
+Spectrum reported cash, cash equivalents and marketable securities of approximately $100 million
+and had reported spending at least $25 million per quarter (with no revenue from commercial
+sales).
+During the period April 2022 through May 12, 2022, Defendants Riga and Brennan
+caused Defendant Spectrum to sell 1.4 million shares of Spectrum common stock for proceeds of
+$1.4 million under an at-the-market (“ATM”) sales agreement with Cantor Fitzgerald & Co.
+(“Cantor Fitzgerald”), H.C. Wainwright and B. Riley FBR, Inc. (“B. Riley”), dated April 5, 2019,
+(the “April 2019 ATM Agreement.”).
+On May 18, 2022, Defendants Riga and/or Lebel met with the FDA, and FDA
+officials again expressed concerns regarding the safety profile of pozi, particularly at the 16 mg
+QD dose, given the high rate of dose reductions and dose interruptions. FDA stated that additional
+clinical data at a dosage of 8 mg BID and other dosages was necessary to assess the risk-benefit
+profile. FDA expressed concern to Defendants Riga and/or Lebel about the delayed enrollment in
+the PINNACLE Study and communicated that based on the ongoing review, uncertainties
+remained regarding whether the proposed dosage for AA of 16 mg QD is optimized from both the
+efficacy and safety perspectives. Unknown to investors, as of May 18, 2022, no patients had
+enrolled in the PINNACLE Study.
+During the period May 13 through June 30, 2022, Defendants Riga and Brennan
+caused Defendant Spectrum to sell 4,219,827 shares of Spectrum common stock for proceeds of
+$3,547,000 under the April 2019 ATM Agreement.
+On July 28, 2022, Defendants Riga and/or Lebel met with the FDA to discuss the
+adequacy of dosage optimization to support both the proposed dose of 16 mg QD for AA and the
+8 mg BID dose for PINNACLE Study. The FDA reiterated its concerns regarding the safety and
+efficacy of pozi, that Defendants had inadequate data on dosing, and that the Company delayed
+enrollment in the PINNACLE study. Specifically, the FDA stated that the proposed dosage of 16
+mg QD for AA did not appear adequately justified and additional data was required to compare
+the benefit-risk profiles of the 16 mg QD to alternative dosage regimens. Additionally, the FDA
+asked Defendants Riga and/or Lebel for an update on the PINNACLE Study. Unknown to
+investors, as of July 28, 2022, no patients had been enrolled in the PINNACLE Study.
+During the period July 2022 through August 12, 2022, Defendants Riga and
+Brennan caused Defendant Spectrum to sell 5.1 million shares of Spectrum common stock for
+proceeds of approximately $4.5 million under the April 2019 ATM Agreement.
+On August 11, 2022, Defendants Riga, Lebel and Brennan caused Spectrum to issue
+a press release concerning the Company’s financial results for the quarter ended June 30, 2022 that
+represented:
+A study for poziotinib is in progress to confirm the clinical benefit seen in Cohort
+2, as required for an accelerated approval. The trial, Study SPI-POZ-301
+(PINNACLE), is designed to enroll 268 patients with previously treated NSCLC
+harboring HER2 exon 20 mutations. Patients are being randomized 2-to-1 into
+one of two treatment arms using 8mg of poziotinib orally administered BID
+(twice daily) versus 75mg/m2 of docetaxel administered intravenously every
+three weeks. The primary endpoint is progression free survival.
+(Emphasis added).
+Also on August 11, 2022, during a Spectrum conference call with investors, an
+analyst asked Defendants Riga, Lebel and Brennan “on [the PINNACLE Study], how many sites
+are active right now? What percentage of your target patients have been enrolled in Phase III? And
+where do you need to be on enrollment to satisfy FDA’s focus on substantial enrollment by
+[November 24, 2022]?”
+While knowing, or at least recklessly disregarding, that FDA had repeatedly
+expressed concerns about pozi’s efficacy, safety and lack of adequate dosing optimization data,
+that Spectrum and the FDA did not agree on the design of the PINNACLE Study and that
+Defendants were pressing forward in the face of being told by the FDA that they were proceeding
+at their own risk, and that as of August 11, 2022 no patients had enrolled in the PINNACLE Study,
+Defendant Lebel made the following materially false and misleading statements: “we’re very
+active in opening site[s]. But as I’m sure you know, it takes a long time to open sites. We have
+some site[s] open. I’m not going to give you numbers today. I’m not going to speak directly to
+enrollment today. And so we’re moving as fast as we can internationally as well as in North
+America.”
+Defendant Lebel’s false and misleading representations reaffirmed investors’
+impression about the status of the PINNACLE Study that differed in a material way from the one
+that actually existed, in violation of the federal securities laws. Indeed, on August 12, 2022, H.C.
+Wainwright published a report concerning Spectrum that stated “the PINNACLE study utilizing 8
+mg BID bodes well for the potential approval.”
+During the period August 13 through September 30, 2022, Defendant Riga and
+Brennan caused Defendant Spectrum to sell 13,794,118 shares of Spectrum common stock for
+proceeds of $17,113,000 under the April 2019 ATM Agreement.3
+On September 8, 2022, Defendants Riga and/or Lebel met with the FDA. The FDA
+reiterated its concerns regarding the safety and efficacy of pozi, that Defendants had inadequate
+data on dosing, and that the Company had delayed the PINNACLE study. Specifically, the FDA
+indicated that based on the ongoing review, uncertainties remained regarding whether the proposed
+dosage of 16 mg QD was optimized from both the efficacy and safety perspectives. The FDA again
+stated that additional clinical data was needed to compare the benefit-risk profiles of the 16 mg
+QD dosage to alternative dosage regimens. Unknown to investors, as of September 8, 2022, no
+patients had been enrolled in the PINNACLE Study.
+Starting on September 20, 2022, before the market opened, investors began to learn
+the truth when the FDA released the FDA Briefing Document, Oncologic Drugs Advisory
+Committee Meeting (the “FDA Briefing Document”) in anticipation of its September 22, 2022
+meeting with Defendants Spectrum and Lebel to review the Pozi NDA.
+Investors were surprised when, despite Riga and Lebel’s representations that
+Spectrum had learned to optimize the dosage for pozi, and that Spectrum was enrolling patients in
+the PINNACLE Study, the FDA Briefing Document disclosed that before the filing of the Pozi
+NDA (November 2021), the FDA had repeatedly told Defendants Spectrum, Riga and/or Lebel
+that they had inadequate data on dosing, that additional data and studies were needed to determine
+whether Defendants’ dose selection for pozi was optimized, that the FDA had concerns regarding
+the efficacy and safety study data results from Cohort 2 and the delayed enrollment in the
+3 Because Spectrum’s SEC filings do not provide the specific dates or price per share of the
+transactions sold under the April 2019 ATM Agreement, some or all of these shares may have
+been sold after the Class Period. This is information that is within Defendants’ possession, custody
+and control and would be a subject of discovery.
+PINNACLE study, and that as of September 20, 2022 no patients had enrolled in the PINNACLE
+Study.
+As a result of this news disclosed to investors for the first time in the FDA Briefing
+Document, shares of Spectrum common stock declined from a closing price of $1.06 per share on
+September 19, 2022, to a close at $0.66 per share on September 20, 2022, a decline of $0.40 per
+share, or over 37% on heavier than usual volume.
+On September 20, 2022, Cantor Fitzgerald, issued a report titled “FDA Briefing
+Docs Negative for Poziotinib Approval” and discussed the FDA concerns revealed by the FDA
+Briefing Document. Also on September 20, 2022, H.C. Wainwright released a report entitled
+“Upcoming ODAC meeting for pozi could be more argumentative than we initially thought . . .
+“[i]mportantly, the confirmatory study of poziotinib 8mg BID [PINNACLE] has not yet started . .
+. [t]he focus on dosing optimization in the briefing documents give us some pause.”
+On September 22, 2022, before the opening of the market, trading in Spectrum
+common stock on Nasdaq was halted at $0.63 per share pending the outcome of the ODAC
+meeting.
+On September 22, 2022, the FDA’s ODAC (Oncologic Drugs Advisory
+Committee) conducted its meeting concerning pozi in which Defendant Lebel participated on
+behalf of the Company. The ODAC meeting involved presentations by the FDA review team, the
+Company, and others, and a question and answer period. Two FDA officials stated that the FDA
+and the Company did not reach an agreement on the design of the PINNACLE Study to treat
+patients at the 8 mg BID dose and that the FDA warned the “sponsor [Spectrum] that it would be
+at their own risk to move forward with this incongruent dose.” Defendant Lebel admitted that no
+patients had enrolled in the PINNACLE Study. At the end of the meeting, ODAC members voted
+9-4 that pozi’s purported benefits did not outweigh its risks, which was a recommendation that the
+FDA not approve the Pozi NDA.
+As a result of this news, when trading in Spectrum common stock resumed on
+September 23, 2022, shares of Spectrum common stock further declined from a closing price of
+$0.63 per share on September 21, 2022 before trading was halted, to a close at $0.43 per share on
+September 23, 2022, a decline of $0.20 per share, or over 31% on heavier than usual volume.
+On September 23, 2022, H.C. Wainwright published a report that stated “[w]e
+believe the ODAC vote is negative for potential approval of poziotinib. We note that the FDA does
+not have to follow the recommendations of the ODAC; however, the FDA’s views in the briefing
+documents and during the meeting do not bode well for approval, in our opinion.” Also on
+September 23, 2022, Jefferies released a report titled “Based on Negative Pozi Adcom, We
+Anticipate CRL; Next Steps for Pozi Unclear”. B. Riley issued a report that stated ODAC’s
+negative vote followed “an excruciating FDA review that had been previously evident in the
+company’s correspondence with the agency since NDA acceptance” in February 2022.
+On November 25, 2022, Spectrum issued a press release disclosing receipt of a
+complete response letter (CRL) from the FDA regarding the Pozi NDA and that the Company
+would “deprioritize” development of pozi:
+Spectrum . . . has received a [CRL] from the [FDA] regarding [the Pozi NDA]. The
+FDA issued a CRL indicating the poziotinib application cannot be approved in its
+present form. Based on the CRL, the Company would have to generate
+additional data including a randomized controlled study prior to approval.
+“While we are not surprised by the CRL given the ODAC recommendation in
+September, we are disappointed. After multiple interactions with the FDA since
+ODAC, and following careful consideration, we have made the strategic decision
+to immediately de-prioritize the poziotinib program,” said [Defendant] Riga . . .
+The Company will de-prioritize poziotinib program activities, effective
+immediately, and is in the process of reducing its R&D workforce by approximately
+75%.
+(Emphasis added).
+On January 4, 2023, given his prominent role in interacting with the FDA on behalf
+of the Company and his blatant misrepresentations to investors, unsurprisingly, Spectrum filed a
+report on Form 8-K with the SEC and issued a press release stating that Defendant Lebel “resigned
+from employment” as the Company’s EVP and CMO, effective December 31, 2022.
+In the 90-trading days after the end of the Class Period, Spectrum shares did not
+recover, trading at an average price of $0.43 per share.
+As alleged herein, during the Class Period, Defendants violated the federal
+securities laws by making false or misleading representations or by failing to disclose material
+facts they had a duty to disclose while selling millions of shares of Spectrum common stock at
+artificially inflated prices. Defendants should be held accountable for these violations of the federal
+securities laws.
+II. JURISDICTION AND VENUE
+The claims asserted herein arise under Sections 10(b) and 20(a) of the Exchange
+Act, 15 U.S.C. §§ 78j(b) and 78t(a), and Rule 10b-5 promulgated thereunder by the SEC, 17 C.F.R.
+§ 240.10b-5. Jurisdiction for this Court is conferred over the subject matter of the Action pursuant
+to 28 U.S.C. §§ 1331 and 1337, and Section 27 of the Exchange Act, 15 U.S.C. § 78aa.
+Venue is proper in this District pursuant to Section 27 of the Exchange Act,
+15 U.S.C. § 78aa, and 28 U.S.C. § 1391(b). The acts and transactions giving rise to the violations
+of law complained of occurred in part in this District, including the dissemination of false and
+misleading statements into and from within this District. In addition, Spectrum’s common stock
+trades on the NASDAQ in this District under the symbol SPPI. On or around June 16, 2022,
+Defendants Riga and Lebel participated in the JMP Securities Life Sciences Conference in this
+District, and on or around June 9, 2022 Defendants Lebel and Riga participated in the Jefferies
+Healthcare Conference in this District. Members of the proposed Class, including several
+institutional investors, have offices in this District. Under the April 2019 ATM Agreement, which
+is governed by New York law, each time the Company sold shares during the Class Period, the
+sales were effected by and through either Cantor Fitzgerald, H.C. Wainwright & Co., or B. Riley
+through their respective employees or agents at offices in this District.
+In connection with the acts and conduct alleged in the Action, Defendants, directly
+or indirectly, used the means and instrumentalities of interstate commerce, including, but not
+limited to, the mails and interstate wire and telephone communications.
+III. PARTIES
+Plaintiff purchased Spectrum common stock during the Class Period as described
+in the Certification attached hereto, and suffered damages as a result of the violations of the federal
+securities laws alleged herein.
+Defendant Spectrum is a biopharmaceutical company that is incorporated in
+Delaware, and has its headquarters in Boston, Massachusetts. Spectrum’s common stock is traded
+under the symbol SPPI on the NASDAQ in this District. According to Spectrum’s annual report
+for the year ended December 31, 2021 filed with the SEC on March 18, 2022 on Form 10-K (“2021
+10-K”), there were 177,151,513 shares of the Company’s common stock outstanding as of March
+10, 2022. According to the 2021 10-K, the Company’s primary strategy purported to be acquiring,
+developing, and commercializing novel and targeted oncology therapies, and the Company had
+two drugs in late-stage development, pozi, and eflapegrastim (branded Rolontis), a drug for the
+treatment of chemotherapy-induced neutropenia (low white blood cells). During the Class Period,
+Spectrum reported no revenue from sales of commercial products.
+Defendant Riga was appointed the Company’s President and CEO and a member
+of the Company’s board of directors effective December 31, 2021, and served in those roles
+throughout the Class Period. During the period March 18, 2022 through May 25, 2022 (which
+was the effective date of Defendant Brennan’s appointment), Defendant Riga served as Interim
+Principal Financial Officer of the Company. At the time he was appointed CEO, he was serving
+as the Company’s Chief Commercial Officer (“CCO”) and Chief Operating Officer (“COO”).
+Defendant Riga joined the Company in July 2013 as Vice President of Corporate Accounts and
+was named CCO in August 2014 and COO in December 2017. He made materially false and
+misleading statements and omitted material facts he had a duty to disclose in Spectrum’s SEC
+filings, press releases or on public conference calls with analysts and investors during the Class
+Period.
+Defendant Lebel was appointed CMO on November 18, 2018 and was the
+Company’s EVP and CMO throughout the Class Period. Effective December 31, 2022, he
+resigned from his positions with the Company. He made materially false and misleading
+statements and omitted material facts he had a duty to disclose in Spectrum’s SEC filings, press
+releases or on public conference calls with analysts and investors during the Class Period. During
+the Class Period, Defendant Lebel sold a total of 15,335 shares of Spectrum common stock for
+proceeds of over $14,000.
+Defendant Brennan was appointed as the Company’s CFO and EVP on May 11,
+2022, effective May 25, 2022. Prior to being appointed CFO, Defendant Brennan served on
+Spectrum’s Board of Directors and as Chairperson of the Audit Committee since December 2020.
+She made materially false and misleading statements and omitted material facts she had a duty to
+disclose in Spectrum’s SEC filings during the Class Period. During the Class Period, Defendant
+Brennan sold 3,569 shares of Spectrum common stock for proceeds of $2,819.51.
+Defendants Riga, Lebel and Brennan (the “Individual Defendants”), as senior
+executives of Spectrum, acted within the scope of their respective authority and as agents of
+Spectrum during the Class Period.
+The Individual Defendants, because of their respective positions with the Company,
+possessed the power and authority to control the contents of the Company’s reports to the SEC,
+press releases, and representations and presentations to securities analysts, money and portfolio
+managers, and institutional and individual investors, i.e. the market. They were provided with
+copies of the Company’s reports and press releases alleged herein to be misleading prior to, or
+shortly after, their issuance and had the ability and opportunity to prevent their issuance or cause
+them to be corrected.
+IV. FACTUAL BACKGROUND AND DEFENDANTS’ FRAUDULENT CONDUCT
+A. The FDA Regulatory Process for Regular Drug Approval
+Before any new drug can be marketed and sold commercially in the U.S., the FDA
+requires that the drug undergo pre-clinical (animal) trials, and clinical trials involving three phases
+of human testing, with each phase involving increasingly larger patient pools.
+During pre-clinical testing stage, laboratory and animal studies are conducted to
+show biological activity of a drug against the targeted disease. The compound is evaluated for
+safety. After certain pre-clinical studies are completed, an Investigational New Drug Application
+(“IND”) is submitted to the FDA to request the ability to begin human testing of the drug. An IND
+becomes effective thirty days after the FDA receives the application (unless the FDA notifies the
+sponsor of a clinical hold), or upon prior notification by the FDA.
+Phase 1 Clinical Trials: These trials typically involve small numbers of healthy
+volunteers or patients and usually define a drug candidate’s safety profile, including the safe
+dosage range.
+Phase 2 Clinical Trials: In Phase 2 clinical trials, controlled studies of human
+patients with the targeted disease are conducted to assess the drug’s effectiveness. These studies
+are designed primarily to determine the appropriate dose levels, dose schedules and route(s) of
+administration, and to evaluate the effectiveness of the drug on humans, as well as to determine if
+there are any side effects on humans to expand the safety profile following Phase 1. These clinical
+trials, and Phase 3 trials discussed below, are designed to evaluate the product’s overall benefit-
+risk profile, and to provide information for physician labeling.
+Phase 3 Clinical Trials: This Phase usually involves a larger number of patients
+with the targeted disease. Investigators (typically physicians) monitor the patients to determine the
+drug candidate’s efficacy and to observe and report any adverse reactions that may result from
+long-term use of the drug on a large, more widespread, patient population. During the Phase 3
+clinical trials, typically the drug candidate is compared to either a placebo or a standard treatment
+for the target disease in a randomized trial where some patients are treated with the drug candidate,
+and some are treated with a placebo or a standard treatment.
+New Drug Application: After completion of all three clinical trial Phases, if the data
+indicate that the drug is safe and effective, an NDA is filed with the FDA requesting FDA approval
+to market the new drug as a treatment for the target disease.
+B. The FDA’s Accelerated Approval (AA) Pathway
+The AA pathway aims to speed the regular drug approval process outlined above
+on the basis of Phase 1 or 2 study data results relating to a surrogate endpoint deemed reasonably
+likely to predict clinical benefit or an intermediate clinical end point other than irreversible illness
+or death. AA may be sought for drugs that treat a serious condition and provide a meaningful
+advantage over available therapies.
+According to the FDA’s Guidance for Industry, Expedited Programs for Serious
+Conditions – Drugs and Biologics (May 2014), a drug sponsor should ordinarily discuss the
+possibility of AA with the review division during development, supporting, for example, the use
+of the planned endpoint as a basis for approval and discussing confirmatory trials, which should
+usually be already underway at the time of AA.
+For drugs granted AA, postmarketing confirmatory trials (also called postmarketing
+requirements, or PMR) have been required to verify clinical benefit, and these additional trials
+must be completed with due diligence. The FDA has interpreted the due diligence requirement to
+mean that the postmarketing trial intended to verify the clinical benefit must be conducted
+promptly to facilitate determination, as soon as possible, of whether clinical benefit has been
+verified or not verified.
+A May 6, 2021 article published in the New England Journal of Medicine
+(“NEJM”) titled “‘Dangling’ Accelerated Approval in Oncology” that was authored by two FDA
+officials, Dr. Julia A. Beaver4 and Dr. Richard Pazdur5 stated that “[t]o improve their timely
+completion, confirmatory trials should be ongoing, if not fully enrolled, at the time of accelerated
+approval.” Both Dr. Beaver and Dr. Pazdur were involved in the review of the Pozi NDA and the
+ODAC meeting at the end of the Class Period, as alleged below.
+If a drug is granted AA and marketed for use in patients, a delay in the timely
+completion of a confirmatory trial represents the greatest risk to patients. The FDA desires that
+drug sponsors provide sufficient evidence of effectiveness and adequate of assurance of safety,
+while expediting access to drugs and minimizing the time between AA and demonstration of
+4 Julia A. Beaver M.D. (“Dr. Beaver”) was Chief of Medical Oncology, of the FDA’s Oncology
+Center of Excellence (“OCE”), Deputy Director (Acting) of the Office of Oncologic Diseases
+(“OOD”) and the FDA’s Center for Drug Evaluation and Research (“CDER”).
+5 Richard Pazdur, M.D. (“Dr. Pazdur”) was the Director of OCE, Director (Acting) of ODD, Office
+of New Drugs (“OND”) and CDER.
+clinical benefit or lack of clinical benefit.
+C. Spectrum Studies Pozi on Previously Treated NSCLC Patients with HER2
+Exon 20 Mutations
+NSCLC accounts for approximately 85% of all lung cancers. The main difference
+between NSCLC and small cell lung cancer (“SCLC”) is the way the cells appear under a
+microscope. SCLC cells appears as flat and smaller than cancer cells in NSCLC. SCLC typically
+grows faster than NSCLC and often spreads to the lymph nodes.
+Enzymes are proteins that act as biological catalysts by accelerating chemical
+reactions. Receptor tyrosine kinases (“RTKs”) are a type of enzyme that regulate cellular
+functions, including cell growth and metabolism. HER2 is a type of RTK and is present on cell
+membranes of cells in the lungs.
+Mutations or insertions in HER2 can lead to NSCLC. According to Spectrum, up
+to 86% of the HER2 tumor-causing mutations are exon 20 insertions, which represents
+approximately 3,000 newly diagnosed patients per year in the U.S.
+Pozi is purportedly a novel, oral inhibitor of tyrosine kinases (“TKI”), including
+HER2 exon 20 insertion mutations. Pozi purportedly has a unique structure that inhibits certain
+cellular activity linked to cancer. Pozi is administered orally. TKIs like pozi are targeted
+treatments, unlike chemotherapy and other cancer treatments toxic to cells.
+On or around July 28, 2017, Spectrum submitted an IND for pozi to the FDA.
+Spectrum initiated a clinical development program for pozi called ZENITH20 (Study SPI-POZ-
+202) to study pozi for different indications or exploratory purposes and ultimately comprised 7
+cohorts.
+Cohort 2 was a stand-alone, independent Phase 2 study concerning the efficacy and
+safety of pozi at a dose of 16 mg QD in previously treated (second-line) NSCLC patients with
+HER2 exon 20 insertion mutations. The primary endpoint of Cohort 2 was objective response rate,
+or ORR (which measured complete or partial decrease in the size of tumor or cancer).
+D. The FDA Raises Concerns that Spectrum’s Dose Selection Was Not
+Optimized
+Spectrum’s dose selection of 16 mg QD was based on a preliminary Phase 1 study
+conducted in South Korea involving approximately 20 patients (the “Phase 1 Study”). The Phase
+1 Study dosed three patients at 12 mg QD, seven to eight patients at 16 mg QD, six patients at 18
+mg QD, and three patients at 24 mg QD.
+On or around July 28, 2017, unknown to investors, the FDA communicated
+concerns to Spectrum that the 16 mg QD dose was not optimized. Dose optimization is essential
+to ensure that patients receive therapies which maximize efficacy while minimizing toxicity.
+Because the Phase 1 Study involved few patients, the FDA determined that there were very limited
+safety and preliminary activity data available. The FDA further determined that the insufficient
+study data results from the Phase 1 Study were not adequate to differentiate the risk-benefit profile
+of the clinically active dose range (12mg to 16 mg per day) in the proposed patient population.
+The FDA made clear to Spectrum that the Phase 1 Study did not support dose
+optimization for pozi. The FDA reiterated concerns to Spectrum during the pozi development
+program and throughout the Class Period that Spectrum did not have adequate study data results
+that confirmed optimal dose selection.
+E. Defendants Spectrum and Lebel Study Pozi in BID (twice per day) Dosing
+On February 27, 2020, Defendants Spectrum and Lebel disclosed that Cohort 2 was
+fully enrolled and that top-line results were expected by mid-2020. All Cohort 2 patients were
+treated with 16 mg QD.
+On May 7, 2020, Defendants Spectrum and Lebel disclosed that Spectrum would
+study additional dosing schedules beyond the 16mg QD due to high rates of dose interruptions. In
+an exploratory study (Cohort 5), patients would receive 10 mg QD, or 6 or 8 mg BID.
+F. Defendants Spectrum and Lebel Release Cohort 2 Study Data Results
+On July 27, 2020, Defendants Spectrum and Lebel stated that Cohort 2 met its pre-
+specified endpoint. The ORR was 27.8% and the lower bound of the 95% confidence interval
+exceeded the pre-specified criterion of 17%. Defendants Spectrum and Lebel also stated the results
+of secondary endpoints: the median duration of response (“DOR”) was 5.1 months, the disease
+control rate (“DCR”) was 70%, and median progression free survival was 5.5 months.
+On November 9, 2020, Defendant Lebel met with the FDA in a telephonic Type B
+Pre-NDA meeting to discuss the adequacy of the safety and efficacy results from Cohort 2 during
+which Defendant Lebel presented top-line data from Cohort 2. The FDA determined that Spectrum
+could submit an NDA for pozi under the FDA’s AA pathway for substantive review, however,
+unknown to investors, the FDA reiterated to Defendant Lebel the FDA’s ongoing concerns
+regarding the efficacy and safety data, inadequate dose selection data and the FDA requested
+additional data on dose optimization be provided in the NDA.
+G. The FDA Reiterates Material Concerns that Spectrum Did Not Have
+Adequate Data to Optimize the 16 mg QD Dose
+On July 16, 2021, Defendant Lebel participated in a Type C guidance meeting with
+the FDA to discuss Spectrum’s planned confirmatory trial and whether the BID dosing from the
+ongoing exploratory study (Cohort 5) could be submitted with the Pozi NDA.
+The FDA reiterated concerns about the dosing data from Cohort 2 and that it was
+not known based on Spectrum’s study data if alternative dosages provided similar effectiveness
+compared to the 16 mg QD dose. While the initial dosage in Cohort 2 was 16 mg QD, due to dose
+interruptions from adverse events (89% of patients), most patients (74%) received dosages of 12
+mg daily or less. FDA agreed with the inclusion of data from the ongoing exploratory study
+(Cohort 5) in the Pozi NDA and recommended that Spectrum pool all study data from completed
+trials and perform analyses of the data to justify that 8 mg BID was the optimum biologic dosage
+and schedule. In addition to data from Cohort 2 and the ongoing exploratory study (Cohort 5),
+Spectrum had data on NSCLC patients treated with 16 mg QD or 8 mg BID from an investigator-
+sponsored study and from other ZENITH20 cohorts.
+On October 1, 2021, Spectrum submitted the first portion of the rolling submission
+of the Pozi NDA under the AA pathway.
+During a Spectrum earnings conference call with investors on November 10, 2021
+in which Defendant Lebel participated, an analyst asked Defendant Lebel “what confirmatory
+study are you committing to in terms of design? Because obviously you need to do that as part of
+the [] approval? In response, Defendant Lebel stated:
+. . . we’re in discussion with the [FDA] regarding this, and we clearly have
+developed a PMR [(post-marketing requirement, i.e. PINNACLE)]. And when you
+file the NDA, you have to have a PMR essentially underway and so we absolutely
+intend to do that. But obviously, want to make sure we’re in complete agreement
+. . . as to the nature of the PMR.
+So I’m not going to go any further on that, but it’s probably a randomized controlled
+study . . . And we’ll need to define that with the [FDA] and probably quite soon,
+you will be able to see what we’re doing.
+(Emphasis added).
+On November 24, 2021, Spectrum submitted the final components of the Pozi NDA
+to the FDA. Defendants Spectrum and Lebel sought AA approval of the 16 mg pozi QD dose
+based on the Cohort 2 study data results, despite the fact that, since 2017, the FDA reiterated
+concerns that Spectrum did not have adequate data to justify the 16 mg QD dose. The Pozi NDA
+also included the additional dosing data from the ongoing exploratory study (Cohort 5) that
+Defendant Lebel discussed at the July 16, 2021 meeting with FDA officials as supportive data to
+justify dosing patients at lower doses than 16 mg QD.
+The ongoing exploratory study (Cohort 5) was treating patients with lower doses of
+pozi, including 6 and 8 mg BID, in very limited numbers and was studying a mix of NSCLC
+patients, only some of whom were like the patients treated in Cohort 2 (i.e., second-line NSCLC
+with HER2 exon 20 mutations).
+H. Defendants Spectrum and Lebel Meet with the FDA to Discuss the
+PINNACLE Study
+In November 2021, the FDA began its formal review of the Pozi NDA and, as one
+FDA official disclosed after the Class Period, the concerns that the FDA had previously expressed
+to Defendants Spectrum and Lebel were “confirmed and magnified”.
+Days later, on December 13, 2021, Defendant Lebel participated in a Type B Pre-
+phase 3 meeting with the FDA to discuss the proposed design of the PINNACLE Study. For the
+PINNACLE Study, Defendant Lebel proposed a dosage regimen of 16 mg QD for 2 weeks
+followed by 8 mg BID or 6 mg BID. The FDA raised concerns that the data submitted with the
+Pozi NDA was inadequate and that it was not known if alternative dosages provided similar
+effectiveness compared to the 16 mg QD dosage, and stated that additional dosing data were
+needed to determine whether the pozi dose was optimized for further evaluation in the PINNACLE
+Study.
+Specifically, the FDA indicated to Defendant Lebel that Spectrum should evaluate
+the 6 mg BID dose in one or more confirmatory trials, potentially conducted as a run-in phase, and
+that the 8 mg BID dose as the starting dose was preferable to 16 mg QD that Spectrum proposed.
+A run-in phase study would occur before the confirmatory trial, adding both time and expense to
+the pozi development program. Spectrum and FDA did not reach an agreement on the design of
+the PINNACLE Study due to the inadequate optimization study data and incongruent dosing
+regimens proposed by Defendant Lebel.
+On February 7, 2022, Defendants Riga and/or Lebel participated in a Type B End
+of Phase 2 meeting with the FDA to discuss Spectrum’s design for PINNACLE to treat patients
+with an 8 mg BID dosage. The FDA requested additional efficacy data from patients enrolled in
+the ongoing exploratory study (Cohort 5) to further analyze the antitumor activity of pozi 8 mg
+BID. The FDA expressed concern about the delay in the initiation of the PINNACLE Study and
+emphasized the need to begin enrollment as soon as possible. Further, the FDA reiterated its
+concerns regarding top line efficacy results, lack of dosage optimization, delayed confirmatory
+trial status, and the safety profile of pozi. The FDA and Spectrum did not reach an agreement on
+the design of the PINNACLE Study.
+On February 11, 2022, Defendants Riga and Lebel caused Spectrum to issue a press
+release titled “Spectrum Pharmaceuticals Announces Acceptance of New Drug Application Filing
+for Poziotinib” that stated the following:
+The NDA acceptance is based on the positive Phase 2 study results in patients with
+previously treated locally advanced or metastatic non-small cell lung cancer
+(NSCLC) harboring HER2 exon 20 insertion mutations. There is currently no
+treatment specifically approved by the FDA for this indication. The product has
+received Fast Track designation and the agency has set a Prescription Drug User
+Fee Act (PDUFA) date of November 24, 2022. The FDA reiterated the importance
+of having the confirmatory trial substantially enrolled at the time of approval and
+requested additional information around dosing. . . .
+I. Defendants’ Fraudulent Conduct
+The Class Period begins on March 17, 2022, when, during Spectrum’s conference
+call with investors and analysts to discuss the Company’s fourth quarter 2021 and full year 2021
+financial results, Defendant Riga, while knowing, or at least recklessly disregarding that the FDA
+repeatedly told Defendants Lebel and/or Riga that Spectrum’s dose optimization data was
+inadequate and that additional data and studies were needed to determine whether Defendants’
+dose selection for pozi was optimized for further study in the PINNACLE Study utilizing 8 mg
+BID, falsely represented that “we have learned to optimize some of the tolerability and abate some
+of the AEs here with the BID dosage.”
+During the period April 2022 through May 12, 2022, Defendants Riga and Brennan
+caused Defendant Spectrum to sell 1.4 million shares of Spectrum common stock for proceeds of
+$1.4 million under the April 2019 ATM Agreement. On April 4, 2022, Defendant Lebel sold 1,205
+shares of Spectrum common stock at a price of $1.35 per share, for proceeds of approximately
+$1,626.75. On April 5, 2022, Defendant Lebel sold 1,367 shares of Spectrum common stock at a
+price of $1.41 per share, for proceeds of approximately $1,927.47.
+On May 12, 2022, Defendants Riga and Lebel participated in a Spectrum
+conference call with investors during which Defendant Riga and Lebel disclosed the design of the
+PINNACLE Study to treat patients with pozi at the 8 mg BID dose, and falsely represented that
+the PINNACLE Study was enrolling patients (“patients are being randomized”) and that
+Defendants and the FDA were “obviously aligned” on the PINNACLE Study design to treat
+patients at the 8 mg BID dose.
+In truth, unknown to investors, as of May 12, 2022 no patients had enrolled in the
+PINNACLE Study and the FDA did not agree with Spectrum’s proposed design for the
+PINNACLE Study to treat patients with 8 mg of pozi BID due to Spectrum’s inadequate dose
+optimization data. Moreover, far from being “aligned”, the FDA told Defendants Riga and/or
+Lebel that the FDA did not agree on the design of the PINNACLE Study to treat patients with 8
+mg BID and warned Defendants, in light of the FDA’s concerns about the dosing, efficacy and
+safety data, that proceeding with the 8 mg BID dose in the PINNACLE Study was at their own
+risk.
+Defendants Riga and Lebel’s representations were materially false and misleading
+because they created the false impression that the PINNACLE Study was enrolling patients, that
+PINNACLE was on track to be substantially enrolled by November 24, 2022 (the PDUFA date),
+and that Defendants and the FDA were aligned concerning the design of the PINNACLE Study to
+treat patients at the 8 mg BID dose, none of which were true.
+Indeed, Defendant Riga and Lebel’s misrepresentations misled analysts who
+covered Spectrum stock. In a May 13, 2022 research report, Jefferies reported that Spectrum
+“announced alignment w/FDA on confirmatory ph.III [] design . . . the confirmatory study is an
+important moving part, b/c FDA has iterated the importance of having the confirmatory trial
+‘substantially enrolled’ by the time of approval.”
+Also on May 13, 2022, H.C. Wainwright & Co. published a report that stated “the
+PINNACLE study utilizing 8 mg BID bodes well for the potential approval.”
+On May 16, 2022, JMP published a report that stated “Spectrum noted that it has
+started enrolling patients” in the PINNACLE Study.
+During the period May 13 through June 30, 2022, Defendants Riga and Brennan
+caused Defendant Spectrum to sell 4,219,827 shares of Spectrum common stock for proceeds of
+$3,547,000.
+On May 18, 2022, Defendants Riga and/or Lebel participated in a Midcycle
+Communication meeting with the FDA in which FDA again expressed concerns regarding the
+safety profile of pozi, particularly at the 16 mg QD dose, given the high rate of dose reductions
+and dose interruptions. Again, the FDA told Defendants Riga and/or Lebel that additional clinical
+data at a dosage of 8 mg BID and other dosages was necessary to assess pozi’s risk-benefit profile.
+FDA expressed concern to Defendants Riga and/or Lebel about the delayed enrollment in the
+PINNACLE Study and communicated that based on the ongoing review, uncertainties remained
+regarding whether the proposed dosage of 16 mg QD is optimized from both the efficacy and
+safety perspectives.
+During July 2022 through August 12, 2022, Defendants Riga and Brennan caused
+Defendant Spectrum to sell 5.1 million shares of Spectrum common stock for proceeds of
+approximately $4.5 million under the April 2019 ATM Agreement. On June 21, 2022, Defendant
+Brennan sold 3,569 shares of Spectrum common stock at a price of $0.79 per share, for proceeds
+of approximately $2,819.51. On June 22, 2022, Defendant Lebel sold 6,096 shares of Spectrum
+common stock at a price of $0.81 per share, for proceeds of approximately $4,937.76. On June 23,
+2022, Defendant Lebel sold 6,667 shares of Spectrum common stock at a price of $$0.84 per share,
+for proceeds of approximately $5,600.28.
+On July 28, 2022, Defendants Riga and/or Lebel participated in a Type B Guidance
+meeting with the FDA to discuss the adequacy of dosage optimization data to support both the
+proposed dose of 16 mg QD for the Pozi NDA and the 8 mg BID dose for the PINNACLE Study.
+The FDA again stated that the proposed dosage of 16 mg QD does not appear adequately justified
+and that additional clinical data from the ongoing exploratory study (Cohort 5) and the PINNACLE
+Study (which as of July 28, 2022 had not enrolled any patients) were needed to compare the
+benefit-risk profiles of the 16 mg QD to alternative dosage regimens. Additionally, FDA asked
+for an update on the planned confirmatory trial. As of July 28, 2022, no patients had been enrolled
+in the PINNACLE Study.
+On August 11, 2022, Defendants disclosed Spectrum’s financial results for the
+quarter ended June 30, 2022 and held a conference call with investors. Defendants Riga and Lebel
+again falsely represented that that patients were enrolling in the PINNACLE Study. During the
+conference call, an analyst asked Defendants Riga, Lebel and Brennan “on the confirmatory Phase
+III, how many sites are active right now? What percentage of your target patients have been
+enrolled in Phase III? And where do you need to be on enrollment to satisfy FDA’s focus on
+substantial enrollment by PDUFA date?”
+While knowing, or at least recklessly disregarding, that FDA had repeatedly
+expressed concerns about pozi’s efficacy, safety and lack of adequate dosing optimization data,
+that Spectrum and the FDA did not agree on the design of the PINNACLE Study and that
+Defendants were pressing forward in the face of being told by the FDA that they were proceeding
+at their own risk, and that as of August 11, 2022 no patients had enrolled in the PINNACLE Study,
+Defendant Lebel made the following materially false and misleading statements: “we’re very
+active in opening site[s]. But as I’m sure you know, it takes a long time to open sites. We have
+some site[s] open. I’m not going to give you numbers today. I’m not going to speak directly to
+enrollment today. And so we’re moving as fast as we can internationally as well as in North
+America.”
+Defendant Lebel’s false representations misled investors concerning the true status
+of enrollment in the PINNACLE Study and that the FDA and Spectrum did not agree on the design
+to treat patients with 8 mg BID in the PINNACLE Study. Indeed, on August 12, 2022, H.C.
+Wainwright published a report concerning Spectrum that stated we “believe the PINNACLE study
+utilizing 8 mg BID bodes well for the potential approval.”
+Also during the August 11, 2022 conference call, Defendant Riga indicated to
+investors that he was aware of the FDA’s guidance on AA. In response to an analyst’s question
+about the FDA’s view on the AA pathway, Defendant Riga stated “we’re aware of the kind of
+macro environment of FDA comments on accelerated approvals.”
+During the period August 13 through September 30, 2022, Defendants Riga and
+Brennan caused Defendant Spectrum to sell 13,794,118 shares of Spectrum common stock for
+proceeds of $17,113,000 under the April 2019 ATM Agreement.
+On September 8, 2022, Defendants Riga and/or Lebel participated in a Late Cycle
+Communication meeting with the FDA in which FDA indicated that based on its ongoing review,
+uncertainties remain regarding whether the proposed dosage of 16 mg QD is optimized from both
+the efficacy and safety perspectives. The FDA stated that additional clinical data from Cohort 5
+(which was still ongoing) and the PINNACLE Study (which as of September 8, 2022 had not
+enrolled any patients) were needed to compare the benefit-risk profiles of the 16 mg QD dosage
+to alternative dosage regimens. As of September 8, 2022 no patients had been enrolled in the
+PINNACLE Study.
+V. THE TRUTH BEGINS TO EMERGE
+On September 20, 2022, before the market opened, the FDA released the FDA
+Briefing Document ahead of its scheduled September 22, 2022 ODAC meeting regarding the pozi
+development program and to vote whether to recommend AA to the FDA based on a benefit-risk
+analysis. In sharp contrast to Defendants Riga and Lebel’s representations that the FDA and
+Defendants were aligned on the design of the PINNACLE Study and that patients had been
+enrolling, and that Spectrum had learned to optimize the pozi dose, the FDA Briefing Document
+revealed that before and during the Class Period, the FDA reiterated material, negative concerns
+about the efficacy and safety data supporting the Pozi NDA, that the FDA informed Defendants
+Riga and/or Lebel that Spectrum’s dosing data was inadequate and that additional data and studies
+were required to optimize the dose, and revealed that the PINNACLE Study had not enrolled a
+single patient and initial results were not anticipated for 4-5 years.
+As a result of these disclosures, the price of Spectrum’s common stock declined
+from a closing price on September 19, 2022 of $1.06 per share, to close at $0.66 per share on
+September 20, 2022, a decrease of $0.40 per share or over 37%, on massive trading volume of
+over 21.85 million shares.
+On September 22, 2022, trading in Spectrum stock was halted in advance of the
+ODAC meeting.
+Members of the FDA review team who participated in the ODAC meeting included
+Dr. Pazdur and Dr. Beaver, and other FDA officials who reviewed the Pozi NDA and had meetings
+and communications with Defendants Riga and/or Lebel before and during the Class Period. As
+alleged above, in May 2021, Dr. Pazdur and Dr. Beaver published an article in the NEJM that
+stated “[t]o improve their timely completion, confirmatory trials should be ongoing, if not fully
+enrolled, at the time of accelerated approval.”
+Nicole Drezner, M.D.,6 stated the following:
+As you will hear in the subsequent FDA presentations, the major review issues
+were discussed with the applicant prior to submission of the NDA [in
+November 2021] and throughout poziotinib’s development.
+Beginning in 2017, we informed the applicant that their plans for dose
+optimization were not adequate to support a registrational program. When
+[Spectrum] presented [its] top-line data at a pre-NDA meeting in late 2020, we
+requested that additional data on dose optimization be provided in the NDA but felt
+that the application was fileable.
+Given that one year elapsed between the pre-NDA meeting and submission of the
+NDA, our concerns were once again expressed in July 2021, and the applicant
+committed to providing additional data at the time of NDA submission. Our formal
+review began in November 2021, which has confirmed and magnified our
+several concerns. . . .
+(Emphasis added).
+6 Dr. Drezner was a Clinical Team Lead, Division of Oncology 2 (“DO2”), OOD (Office of
+Oncologic Diseases), OND (Office of New Drugs), CDER (Center for Drug Evaluation and
+Research).
+Dr. Drezner identified the following “major review issues” which “were discussed
+with the applicant prior to submission of the NDA and throughout poziotinib’s development”:
+1) the efficacy of pozi, as demonstrated by a limited response rate with poor
+durability, was not improved over approved second-line therapies. If granted
+accelerated approval, pozi would be the least effective target therapy for lung
+cancer approved to date;
+2) the high rate of toxicity observed with pozi at 16 mg QD and that it was unclear
+whether alternative doses, namely 8 mg BID, would improve the toxicity profile
+associated with pozi. Spectrum did not rigorously assess patient-reported
+symptoms and side effects, and therefore inadequately assessed tolerability of
+pozi.
+3) Defendants failed to adequately explore various dosages throughout the
+development program, resulting in disparate dosages being investigated (16 mg
+QD) versus the planned confirmatory trial (8 mg BID) and inadequate
+optimization of the pozi dosage throughout the development, raising concerns
+that the 16 mg QD may not represent the optimal regimen; and
+4) The delay in confirmation of benefit and that despite ongoing discussions with
+the FDA about the need for a confirmatory trial beginning as early as 2020, that
+enrollment was not opened until well after submission of the NDA, and no
+patients had been enrolled as of September 2022.
+Jeanne Fourie Zirkelbach, Ph.D.,7 stated the following:
+When FDA reviewed the top-line data in 2020 and 2021, we reiterated our
+concerns regarding efficacy, safety, dose selection, and the delay of
+confirmation of benefit. In an effort to accelerate the confirmatory trial,
+[Spectrum] moves forward with a different dosage of 8 milligrams twice daily for
+their randomized trial, however, FDA continued to reiterate the need for
+additional data to support the proposed dosage.
+Initiating the trial absent these data was at [Spectrum’s] risk. Clinical data at
+the proposed dosage show that poziotinib has marginal activity with a high rate of
+toxicity. Limited data available are available for other dosages, and it is
+uncertain if alternative dosages can maintain effectiveness and improve tolerability,
+therefore, additional dosage optimization is still warranted. As of today, FDA’s
+clinical pharmacology team does not have sufficient information to determine
+the optimal poziotinib dosage.
+7 Dr. Zirkelbach was a Team Lead, Clinical Pharmacology, Division of Cancer Pharmacology 2,
+Office of Clinical Pharmacology, Office of Translational Sciences, CDER.
+(Emphasis added).
+Harpreet Singh, M.D.,8 stated the following:
+Dr. Fourie Zirkelbach did state in her presentation, let me reiterate, we did not
+come to any formal agreement about the 8-milligram BID dose. It’s very
+limited data, and we told [Spectrum] that it would be at their own risk to move
+forward with this incongruent dose. The safety ER analysis, exposure-response
+analysis, conducted by our clinical pharmacologist shows fairly comparable safety
+profiles between the 8 milligrams twice daily and the 16 milligrams once daily. I
+think a lot of this speaks to [Spectrum] kind of rushing this development
+program and trying to take catch-up steps, whereas the steps should have been
+taken slowly, and methodically, and appropriately early in development. . . .
+You know, [Spectrum] keeps talking about how they have amassed the largest
+database in this rare need [ ]. Thus, I find it unfortunate that they have missed
+several opportunities and several steps along the way to optimize this dose. If
+they had so many patients with this mutation, they should have moved forward
+either, or both, to adequately optimize the dose in larger patient cohorts, rather than
+3 patients per cohort, as they did, or they should have initiated randomized trials.
+This is a fatal [] flaw in this development program, and we really needed to show
+this data in a different way.
+(Emphasis added).
+Dr. Pazdur stated the following:
+what this really represents is poor drug development. Obviously, before
+somebody launches a large phase 3 trial, they should have confidence in what their
+dose is, and the dose optimization should occur beforehand.
+What would we do if the large phase 3 trial -- if it can accrue, and that’s a big if --
+is negative? Is it because they chose the wrong dose? We have a whole program
+here at the FDA on dose optimization, and this just points to one of the problems
+that we have here when one attempts to launch a phase 3 study without
+adequately looking at what the dose is and having confidence in it.
+I said this before, and I’ll say it again. Proceeding with a drug development
+program when you don’t have a well-founded dose is literally building a house
+on quicksand here, and this is one of the problems.
+(Emphasis added).
+During the ODAC meeting, a member of the ODAC panel (a clinical
+8 Dr. Singh was Director, DO2, OOD, OND, CDER.
+investigator/thoracic oncologist from the National Cancer Institute) asked Defendant Lebel “[i]s
+the confirmatory trial really underway? . . . the FDA documents seem to indicate that it’s much
+delayed, but [your] discussion seems to suggest it’s well under way, although patients are not
+enrolled. Where is that at this point?”
+In response, Defendant Lebel stated “this study is very much underway, and we
+acknowledge there are no patients right now . . . we never expected patients at this stage, and
+we’re on track.” (Emphasis added).
+Defendant Lebel’s statement that Defendants did not expect patients at this stage
+and that Spectrum was on track was met with incredulity, in light of the fact that since before the
+Class Period, the FDA had raised concerns about the delayed enrollment in the PINNACLE Study,
+and the FDA had reiterated the importance of the PINNACLE Study being substantially enrolled
+by November 24, 2022.
+Specifically, Dr. Pazdur responded as follows:
+[Spectrum] might be happy; we’re not, and let me make this real clear.
+The issue here is we want companies to come in and have a comprehensive
+discussion with us very early on regarding what their plans are for accelerated
+approval and what their plans are to confirm their study. FDA guidance, that has
+been there for more than a decade, clearly states that it is anticipated that these
+trials should be ongoing, and by ongoing, we mean accrual of patients to the
+study at the time of the accelerated approvals . . . .
+. . . the point that we want to get across is that we want early discussions on these
+trials and them to be ongoing, and it’s really only fair to the patients because you’re
+really putting patients significantly at risk, and you’re also putting your
+development program at risk because many times response rates will not really
+project what the true benefit of the drug is, and that will only be seen with a
+randomized study that looks at overall survival.
+In other words, these response rates may not be good correlates or surrogates for
+overall survival, so you could actually be abandoning drugs just looking at response
+rates.
+But the point I want to get across is really we’d want to have these trials ongoing,
+and it really is to the detriment of patients not to have these trials ongoing, and
+this has been in the FDA guidance for many months.
+We took a look at this. If one takes a look at the accelerated approvals over the past
+three or four years, probably 85 percent of these accelerated approvals have
+ongoing trials. So industry has heard us loud and clear, and this trial is obviously -
+- or this application is not consistent with many of the current trends that we’re
+seeing with other sponsors . . . .
+(Emphasis added).
+Also, on September 22, 2022, the ODAC panel voted 9-4 that the benefit of pozi
+did not outweigh its risks, a recommendation that the FDA not approve the Pozi NDA, and
+Spectrum issued a press release concerning the FDA ODAC’s meeting that stated the following:
+SPECTRUM PHARMACEUTICALS PROVIDES AN UPDATE ON
+POZIOTINIB FOLLOWING FDA ONCOLOGIC DRUGS ADVISORY
+COMMITTEE MEETING
+Spectrum . . . announced that [ODAC] met to review poziotinib for the treatment
+of patients with previously treated locally advanced or metastatic non-small cell
+lung cancer (“NSCLC”) harboring HER2 exon 20 insertion mutations. The
+committee voted 9-4 that the current benefits of poziotinib did not outweigh its
+risks.
+As a result of this news, on September 23, 2022, when trading in shares of Spectrum
+common stock resumed on Nasdaq, the stock fell again from a closing price on September 21,
+2022 of $0.63 per share (before trading was halted) to close at $0.43 per share on September 23,
+2022, a decrease of $0.20 per share or approximately 31% on heavier than usual volume.
+On November 25, 2022, Spectrum issued a press release disclosing that the
+Company received a CRL from the FDA indicating the poziotinib NDA could not be approved in
+its present form and that the Company would “deprioritize” development of pozi.
+Effective December 31, 2022, Defendant Lebel resigned as EVP and CMO of
+Spectrum.
+VI. DEFENDANTS’ FALSE AND MISLEADING STATEMENTS DURING THE
+CLASS PERIOD
+During the Class Period, Defendants’ representations to investors were materially
+false and misleading at the time they were made, and Defendants failed to disclose material facts
+that they had a duty to disclose in order to make the statements made by Defendants, in light of
+the circumstances under which they were made, not misleading.9
+On March 17, 2022, Defendants Riga and Lebel caused Spectrum to issue a press
+release titled “Spectrum Pharmaceuticals Reports Fourth Quarter 2021 and Full Year 2021
+Financial Results and Corporate Update”, and Defendants Defendant Riga and Lebel participated
+in an earnings call with analysts and investors. During the conference call with investors and
+analysts, an analyst asked Defendants Riga and Lebel “how should we be thinking about a potential
+label in second line? Is there the possibility of getting the 8-milligram BID dosing? Or are you
+thinking it has to be 16-milligram to start?”10 Defendant Riga responded as follows:
+So you know that the Cohort 2 was dosed at 16 milligrams QD and through Cohort
+5 and a number of the work that we’ve done have produced a pretty healthy body
+of evidence in the BID setting. So we’ll wait and see until the label negotiation part
+of the discussion with the agency occurs. But we are seeing that 16 QD is certainly
+a safe and effective dose. And I think over time, we have learned to optimize some
+of the tolerability and abate some of the AEs [(adverse events)] here with the
+BID dosage. So I think that will be a key topic when we get to label negotiations
+with the agency, and we’re simply not at that point of the review cycle, which will
+be coming here shortly.
+Defendant Riga’s representation that Spectrum had “learned to optimize some of
+the tolerability and abate some of the AEs here with the BID dosage” was materially false and
+misleading at the time he made it, and he failed to disclose material facts that he had a duty to
+9 In Section VI, Defendants’ false and misleading statements are identified in bold typeface, and
+other statements are included to provide context and to demonstrate the materially false and
+misleading nature of Defendants’ representations, and Defendants’ material omissions.
+10 Federal regulations require FDA-approved drugs to include information concerning the drug’s
+approved dosage on the drug’s label. 21 C.F.R. § 201.57.
+disclose in order to make the statements made by him, in light of the circumstances under which
+they were made, not misleading because Defendant Riga’s representations created the false
+impression that Spectrum had adequate data to “optimize” the BID dose for pozi, when in fact, the
+FDA had informed Defendants Riga and/or Lebel that this was not true. During meetings with
+Defendants Lebel and/or Riga before the Class Period, the FDA repeatedly told Defendants Lebel
+and/or Riga that Spectrum’s dose optimization data were inadequate for both the 16 mg QD and 8
+mg BID doses, that additional data and studies were needed to determine whether Defendants’
+dose selection for pozi was optimized, and that Spectrum had not optimized the dosage for pozi
+for further evaluation in the PINNACLE Study at 8 mg BID.
+On May 12, 2022, Defendants Riga and Lebel caused the Company to issue a press
+release titled “Spectrum Pharmaceuticals Reports First Quarter 2022 Financial Results and
+Provides Corporate Update” (the “May 12 Press Release”) that stated the following:
+A study for poziotinib has been initiated to confirm the clinical benefit seen in
+Cohort 2, as required for an accelerated approval. The trial, Study SPI-POZ-301
+(PINNACLE), is designed to enroll 268 patients with previously treated NSCLC
+harboring HER2 exon 20 mutations. Patients are being randomized 2-to-1 into
+one of two treatment arms using 8mg of poziotinib orally administered BID
+(twice daily) versus 75mg/m2 of docetaxel administered intravenously every
+three weeks. The primary endpoint will be Progression Free Survival.
+Also on May 12, 2022, Spectrum hosted an earnings call with analysts and
+investors. Defendant Riga and Lebel participated on behalf of Spectrum and Defendant Lebel
+repeated the representations in the May 12 Press Release as follows:
+We believe poziotinib has the potential to be the first to market for this specific
+indication, an area of great unmet medical need. We now have initiated a
+randomized confirmatory study following discussion with the FDA and are
+operat[ing] with a great sense of urgency. Study SPI-POZ-301 or PINNACLE is
+designed to enroll 268 patients with previously treated non-small cell lung cancer,
+harboring HER2 exon 20 mutation. Patients are being randomized 2:1 into this
+global multicenter study to receive 8-milligram of pozi-administered BID
+versus 75-milligram per meter square of docetaxel-administered IV every 3
+weeks.
+Defendant Riga and Lebel’s representations that “patients are being randomized”
+into the PINNACLE Study were materially false and misleading at time the they made them, and
+they failed to disclose material facts that they had a duty to disclose in order to make the statements
+made by them, in light of the circumstances under which they were made, not misleading because,
+in fact, as of May 12, 2022 the PINNACLE Study had not enrolled any patients.
+Also during the May 12, 2022 earnings call, an analyst asked Defendants Riga and
+Lebel “between now and ODAC, how much will we learn from your ongoing studies? And what
+might be the data you are able to present to the panel on the 8 mg? And how do you reconcile a
+full approval in a different dose with the [accelerated] approval with a sort of different dosing
+schedule?” Defendant Riga responded as follows:
+So the registrational -- the filing [(the Pozi NDA)] is based on Cohort 2. As you
+mentioned, the 16 milligrams given QD, and the PMR [post marketing
+requirement] is at 8-milligrams BID ([the PINNACLE Study)]. So both are 16-
+milligrams per day. We believe that 16-milligrams QD demonstrated a safe and
+effective dose for a patient population that needs a solution.
+I think the subsequent data has given an indication that there could be a more
+optimal way to reduce some of the on-target toxicities. So I think that the
+conundrum that you mentioned is likely a topic that FDA would like to hear from
+industry experts at the ODAC panel. But we believe that 16 QD is a safe and
+effective dose and obviously aligned with FDA on the confirmatory study to go
+with the 8-milligram BID. . . .
+Defendant Riga’s representation that the “16 QD is a safe and effective dose and
+obviously aligned with FDA on the confirmatory study to go with the 8-milligram BID” was
+materially false and misleading at the time it was made, and he failed to disclose material facts that
+he had a duty to disclose in order to make the statements made by him, in light of the circumstances
+under which they were made, not misleading because, far from being “aligned with FDA” on the
+8 mg BID dose for the design of the PINNACLE Study, the FDA told Defendants Riga and/or
+Lebel during meetings before the Class Period that Spectrum’s dose optimization data were
+inadequate, that additional data and studies were needed to determine whether Defendants’ dose
+selection for pozi was optimized, that Spectrum had not optimized the dosage for pozi for further
+evaluation in the PINNACLE Study at 8 mg BID, that the FDA did not agree on the design of the
+PINNACLE Study design to treat patients at 8 mg BID due to Spectrum’s inadequate dose
+optimization data, and warned Defendants Riga and/or Lebel, in light of the FDA’s concerns about
+the dosing, efficacy and safety data, that proceeding with the 8 mg BID dose in the PINNACLE
+Study was at their own risk.
+Also on the May 12, 2022 earnings call, an analyst asked Defendants Riga and
+Lebel, in reference to the confirmatory trial, “regarding the ODAC meeting. I just wanted to get
+your thoughts on maybe what preparations are you doing? What are you expecting the advisory
+committee to ask?” Defendant Riga responded, in pertinent part:
+So here’s how we’re thinking about it. We’re looking forward to the opportunity to
+bring this to an advisory committee and really share the full benefit that pozi could
+bring in this high area of unmet need. So if you think about even at the acceptance,
+we had made some statements that the FDA had questions about the status of the
+confirmatory study as well as questions on the dose. And today, we announced the
+PINNACLE study which has a dose of 8-milligrams BID, which is different than
+the 16-milligram QD registrational data.
+So it’s, for us, very -- it makes a lot of sense. It’s very logical that the FDA could
+have additional questions on dosing and wanting to hear from industry experts
+on how to bring that issue to resolution. But that’s us looking at where we’ve been,
+what the discussions have been with the agency, those are two of the issues that
+certainly could be discussed at ODAC. But as the date gets closer, we will gain
+more clarity from FDA, and obviously, be prepared to represent the full NDA.
+So our preparation efforts are -- the last half of your question, they’re under –
+they’re actively underway. We think we’ve got the right team in place to prepare,
+and are looking forward to the opportunity.
+Defendant Riga’s representation that the “the FDA could have additional questions
+on dosing” was materially false and misleading at the time it was made, and he failed to disclose
+material facts that he had a duty to disclose in order to make the statements made by him, in light
+of the circumstances under which they were made, not misleading because Defendant Riga knew,
+or recklessly disregarded, that Spectrum’s dosing data was the sticking point for the FDA at that
+point in time and the FDA had unanswered questions and ongoing concerns about Defendants’
+dose optimization data that as of May 12, 2022 Spectrum had not addressed to the satisfaction of
+the FDA. Defendant Riga knew, or recklessly ignored, that the FDA told Defendants Riga and/or
+Lebel during meetings before the Class Period that Spectrum’s dose optimization data were
+inadequate, that additional data and studies were needed to determine whether Defendants’ dose
+selection for pozi was optimized, that Spectrum had not optimized the dosage for pozi for further
+evaluation in the PINNACLE Study at 8 mg BID, that the FDA did not agree on the design of the
+PINNACLE Study design to treat patients at the 8 mg BID dose due to Spectrum’s inadequate
+dose optimization data, and warned Defendants, in light of the FDA’s concerns about the dosing,
+efficacy and safety data, that proceeding with the 8 mg BID dose in the PINNACLE Study was at
+their own risk.
+Defendant Riga and Lebel’s misrepresentations on May 12, 2022 created a false
+impression that the PINNACLE Study was enrolling patients and that the Company and the FDA
+were aligned on the design of the PINNACLE Study, and that Spectrum was on track to
+substantially enroll patients in the PINNACLE Study by November 24, 2022, none of which was
+true. Indeed, in a May 13, 2022 research report, Jefferies reported that Spectrum “announced
+alignment w/FDA on confirmatory ph.III [] design, which will assess pozi 8mg BID in [second-
+line] HER2 exon20 NSCLC w/primary [endpoint median progression free survival]; the
+confirmatory study is an important moving part, b/c FDA has iterated the importance of having
+the confirmatory trial ‘substantially enrolled’ by the time of approval.” On May 16, 2022, JMP
+published a research report that showed that Defendants’ misrepresentations that “patients are
+being randomized” into the PINNACLE Study created the false impression that patients were
+enrolling in the PINNACLE Study, when, in fact, no patients had enrolled as of May 12, 2022:
+“[i]n preparation for the approval, Spectrum noted that it has started enrolling patients in a
+confirmatory trial, SPI-POZ-301 (PINNACLE), which needs to be substantially enrolled by the
+time of the approval.”
+On May 12, 2022, Defendant Riga caused the Company to file its quarterly report
+for the quarter ended March 31, 2022 with the SEC on Form 10-Q (“Q1 2022 10-Q”). The Q1
+2022 10-Q, which was signed by Defendant Riga, incorporated by reference purported warnings
+about future risks stated in the 2021 10-K (which was filed in March 2022), as follows:
+We are currently conducting multiple clinical trials for our products . . . The
+commencement and completion of these clinical trials may be delayed by various
+factors, including . . . difficulties in identifying and enrolling patients who meet
+trial eligibility criteria . . . .
+Moreover, the commencement and completion of clinical trials may be delayed by
+many factors that are beyond our control, including: . . . slower than anticipated
+patient enrollment or our inability to recruit and enroll patients to participate in
+clinical trials for various reasons . . . .
+Defendant Riga’s warning of potential future risks were materially false and
+misleading at the time they were made, and he failed to disclose material facts that he had a duty
+to disclose in order to make the statements made by him, in light of the circumstances under which
+they were made, not misleading, because the stale, hypothetical and generic risk warning that
+clinical trials “may be delayed” had already materialized and was negatively affecting the
+Company at that time. In fact, as of May 12, 2022, contrary to Defendants’ representations and
+warning that clinical trials may be delayed, no patients had enrolled in the PINNACLE Study and
+the FDA had repeatedly expressed concerns to Defendants Riga and/or Lebel about the delays in
+enrollment in the PINNACLE Study.
+Item 303 of SEC Regulation S-K, 17 C.F.R. 929.303 (“Item 303”) required the Q1
+2022 10-Q’s Management Discussion and Analysis (“MD&A”) section to disclose known
+uncertainties that are reasonably likely to have a material unfavorable impact on the Company’s
+net sales or revenues or income from continuing operations. Defendant Riga knew, or at least
+recklessly disregarded, that the FDA informed Defendants Riga and/or Lebel that Spectrum’s dose
+optimization data were inadequate and that additional data and studies were required to determine
+the optimal dose, that the Company and the FDA did not agree on the design of the PINNACLE
+Study to treat patients with pozi at the 8 mg BID dose and that the FDA warned that Spectrum was
+proceeding at its own risk, and that Spectrum had failed to enroll any patients in the PINNACLE
+Study as of May 12, 2022, all of which were known material uncertainties that were reasonably
+likely to have a material unfavorable impact on pozi’s commercial value, and ultimately did have
+a material unfavorable impact on the Company’s net sales, revenues, and income.
+On June 16, 2022, Defendants Riga and Lebel participated in the JMP Securities
+Life Sciences Conference in New York City during which Defendant Riga represented that
+Spectrum was on “the cusp of not just one, but two FDA approvals with the action dates in the
+next five months.”
+Defendant Riga’s representation to investors that Spectrum was “on the cusp” of
+FDA approval created the misleading impression that the Pozi NDA was on the verge of FDA
+approval. However, far from being on the cusp or verge of AA for the Pozi NDA, as of June 16,
+2022, Defendant Riga knew of, or at least recklessly ignored, material negative facts and the FDA’s
+expressed concerns about the pozi NDA that contradicted his positive representation: as of June
+16, 2022, no patients had enrolled in the PINNACLE Study, which was designed to enroll 268
+patients and which the FDA required to be substantially enrolled by November 24, 2022, and just
+weeks before Defendant Riga’s representations, during a May 18, 2022 meeting, Defendants Riga
+and/or Lebel were again told of the FDA’s ongoing concerns about Spectrum’s inadequate dose
+optimization data, its concerns about pozi’s efficacy and safety, and delays in the enrollment in
+the PINNACLE Study. Indeed, at the May 18, 2022 meeting, the FDA informed Defendants Riga
+and/or Lebel that “uncertainties remain” regarding whether the proposed dosage of 16 mg QD,
+which is what was being sought for AA in the Pozi NDA, was optimized from both the efficacy
+and safety perspectives. Accordingly, Defendant Riga had no reasonable basis in fact to represent
+to investors that the Pozi NDA was on the cusp of approval.
+On August 11, 2022, Defendants Riga, Lebel and Brennan caused Spectrum to issue
+a press release titled “Spectrum Pharmaceuticals Reports Second Quarter 2022 Financial Results
+and Provides Corporate Update” that stated the following:
+A study for poziotinib is in progress to confirm the clinical benefit seen in Cohort
+2, as required for accelerated approval. The trial, Study SPI-POZ-301
+(PINNACLE), is designed to enroll 268 patients with previously treated NSCLC
+harboring HER2 exon 20 mutations. Patients are being randomized 2-to-1 into
+one of two treatment arms using 8mg of poziotinib orally administered BID
+(twice daily) verses 75mg/m2 of docetaxel administered intravenously every
+three weeks. The primary endpoint is progression free survival.
+Defendants Riga, Lebel and Brennan’s representations to investors were materially
+false and misleading at the time they were made, and they failed to disclose material facts that they
+had a duty to disclose in order to make the statements made by them, in light of the circumstances
+under which they were made, not misleading because as of August 11, 2022 no patients had in fact
+enrolled in the PINNACLE Study.
+On August 11, 2022, Spectrum hosted an earnings call with analysts and investors,
+in which Defendants Riga, Lebel and Brennan participated. Defendant Lebel made the following
+statements:
+Our randomized [confirmatory] study is underway. We have leveraged our team
+with the extensive experience of PPD, one of the largest international CRO, to
+conduct the study in as many as 20 countries targeting up to 150 sites. I just returned
+from the World Lung Cancer meeting, where we had multiple interaction with
+highly interested international investigators.
+We look forward to continuing our active engagement with investigators at the
+ESMO upcoming meeting. Study 301 or PINNACLE is designed to enroll 268
+patients with previously-treated non-small cell lung cancer harboring HER2 exon
+20 mutations. Patients are being randomized 2:1 into this global multicenter
+study to receive 8 milligram of pozi administered BID versus 75 milligram per
+meter square of docetaxel administered IV every 3 weeks. Patient will be
+evaluated at week 6 and every 6 weeks thereafter. Following progression on
+docetaxel, patient will be allowed to cross over to be pozi arm. The primary
+endpoint is progression-free survival with OS, ORR, duration of response and
+disease control rates, and safety as secondary objectives. This design will provide
+a power of 95% to test the hypothesis that pozi is superior to docetaxel for a hazard
+ratio of equal or smaller than 0.5 days using 2 sided logrank test.
+Defendants Lebel’s representation to investors that “patients are being randomized”
+in the PINNACLE Study was materially false and misleading at the time it was made, and he failed
+to disclose material facts that he had a duty to disclose in order to make the statements made by
+him, in light of the circumstances under which it was made, not misleading because as of August
+11, 2022 no patients had in fact enrolled in the PINNACLE Study.
+Also on the August 11, 2022 earnings call an analyst asked Defendants Riga, Lebel
+and Brennan “a follow-up on pozi. So maybe on the confirmatory Phase III, how many sites are
+active right now? What percentage of your target patients have been enrolled in Phase III? And
+where do you need to be on enrollment to satisfy FDA’s focus on substantial enrollment by
+PDUFA date?” The following colloquy ensued:
+[Defendant Lebel:] So we’re -- again, were very active in opening site. But as I’m
+sure you know, it takes a long time to open sites. We have some site open. I’m not
+going to give you numbers today. I’m not going to speak directly to enrollment
+today. And so we’re moving as fast as we can internationally as well as in North
+America. So I can’t remember -- the second part of your question was what?
+[Analyst:] Where do you need to be on enrollment to satisfy on FDA’s substantial
+enrollment or PDUFA [date].
+[Defendant Lebel:] So we have discussed directly with the agency if there was a
+particular threshold that we had to achieve by PDUFA da[te] and the
+information we got from the [agency is] that this would be a multifactorial
+judgment that there’s not a single number that one has to achieve and that we
+believe that on the basis of that discussion is that we have to demonstrate a true
+active program here that as you know, over the years, the last few years, the number
+of companies maybe were not quite as serious as they probably had to be, and we
+believe that we will be able to show unequivocally that we are taking this
+commitment very seriously and are moving forward as fast as we can.
+Defendants Lebel’s representations to investors were materially false and
+misleading at the time they were made, and he failed to disclose material facts that he had a duty
+to disclose in order to make the statements made by him, in light of the circumstances under which
+they were made, not misleading because at that time Defendant Lebel knew, or at least recklessly
+disregarded, that the FDA had repeatedly expressed concerns about pozi’s efficacy, safety and lack
+of adequate dosing optimization data and informed Defendants Lebel and/or Riga that additional
+data and studies were required to optimize the pozi dosage, that Spectrum and the FDA did not
+agree on the design of the PINNACLE Study and that Defendants were pressing forward in the
+face of being told by the FDA that they were proceeding at their own risk, and that as of August
+11, 2022 no patients had enrolled in the PINNACLE Study. Furthermore, Defendant Lebel’s
+representations about his discussions with the FDA concerning enrollment in the PINNACLE
+Study and his statement “that there’s not a single number that one has to achieve”, was false and
+misleading because he created the false impression that, while the FDA may not have required a
+specific number of patients to be enrolled by November 24, 2022 (the PDUFA date), Spectrum, as
+of August 11, 2022, had and was continuing to enroll patients in the PINNACLE Study and that
+Spectrum was on track for the PINNACLE Study to be substantially enrolled by November 24,
+2022 as required by the FDA, when, in fact, as of August 11, 2022 no patients had enrolled in the
+PINNACLE Study and the FDA had repeatedly expressed concerns about the delayed enrollment
+in the PINNACLE Study.
+Defendant Lebel’s misrepresentations concerning the status of patient enrollment
+in the PINNACLE Study misled investors. On August 12, 2022, H.C. Wainwright published a
+report concerning Spectrum that stated “the PINNACLE study utilizing 8 mg BID bodes well for
+the potential approval,” when, in fact, it did not bode well. Unknown to investors, Spectrum and
+the FDA had not agreed on the design of the PINNACLE Study utilizing the 8 mg BID dose due
+to the FDA’s ongoing concerns that Spectrum lacked adequate dose optimization data and, in light
+of Spectrum’s inadequate dose optimization data, the FDA warned Defendants that they were
+proceeding with the PINNACLE Study at their own risk, and as of August 12, 2022, no patients
+had enrolled in the PINNACLE Study.
+On August 12, 2022, Defendants Riga, Lebel and Brennan caused the Company to
+file its quarterly report for the quarter ended June 30, 2022 with SEC on form 10-Q (“Q2 2022 10-
+Q). Defendant Riga certified that he reviewed Q2 2022 10-Q and the Q2 2022 10-Q was signed
+by Defendant Brennan. The Q2 2022 10-Q repeated the purported risk warnings set forth in
+paragraph 133.
+Defendants Brennan and Riga’s representations to investors were materially false
+and misleading at the time they were made, and they failed to disclose material facts that they had
+a duty to disclose in order to make the statements made by them, in light of the circumstances
+under which they were made, not misleading because the stale, hypothetical and generic future
+risk warned of—that clinical studies “may be delayed”—had already materialized and was then
+negatively affecting the Company, and as of August 12, 2022, no patients had enrolled in the
+PINNACLE Study.
+Item 303 required the Q2 2022 10-Q’s MD&A section to disclose known
+uncertainties that are reasonably likely to have a material unfavorable impact on the Company’s
+net sales or revenues or income from continuing operations. Defendants Riga and Brennan knew,
+or at least recklessly disregarded, that the FDA informed Defendants Riga and/or Lebel that
+Spectrum’s dose optimization data were inadequate and that additional data and studies were
+required to determine the optimal dose, that the Company and the FDA did not agree on the design
+of the PINNACLE Study to treat patients with pozi at the 8 mg BID dose and that the FDA warned
+that Spectrum was proceeding at its own risk, and that Spectrum had failed to enroll any patients
+in the PINNACLE Study as of August 12, 2022, all of which were known material uncertainties
+that were reasonably likely to have a material unfavorable impact on pozi’s commercial value, and
+ultimately did have a material unfavorable impact on the Company’s net sales, revenues, and
+income.
+VII. LOSS CAUSATION
+During the Class Period, as detailed herein, Defendants engaged in a scheme to
+deceive the market and a course of conduct that artificially inflated the prices of Spectrum common
+stock and operated as a fraud or deceit on purchasers of Spectrum common stock. As detailed
+above, when the truth about Spectrum’s misconduct was revealed, the value of the Company’s
+stock declined precipitously as the prior artificial inflation no longer inflated the stock’s prices.
+The decline in the price of Spectrum shares were the direct result of the nature and extent of
+Defendants’ fraud finally being revealed to investors and the market.
+The timing and magnitude of the share price declines negate any inference that the
+losses suffered by Plaintiff and other members of the Class were caused by changed market
+conditions, macroeconomic or industry factors, or Company specific facts unrelated to the
+Defendants’ fraudulent conduct.
+The economic loss, i.e., damages, suffered by Plaintiff and other Class members,
+was a direct result of Defendants’ fraudulent scheme to artificially inflate the prices of the
+Company’s stock and the subsequent significant decline in the value of the Company’s stock when
+Defendants’ prior misrepresentations and other fraudulent conduct were revealed.
+At all relevant times, Defendants’ materially false and misleading statements or
+omissions alleged herein directly or proximately caused the damages suffered by the Plaintiff and
+other Class members. As alleged with particularity in Section VI, throughout the Class Period,
+Defendants made materially false and misleading statements and omitted material facts necessary
+to make Defendants’ statements not false or misleading, causing the price of Spectrum’s common
+stock to be artificially inflated. Plaintiff and other Class members purchased Spectrum stock at
+those artificially inflated prices, causing them to suffer damages when Defendants’ fraud was
+revealed and the price of Spectrum shares declined.
+VIII. ADDITIONAL SCIENTER ALLEGATIONS
+During the Class Period, Defendants had actual knowledge of the materially false
+and misleading nature of the statements they made, or at least acted in reckless disregard of the
+true information known to them at the time. In so doing, Defendants participated in a scheme to
+defraud and committed acts, practices, and participated in a course of business that operated as a
+fraud or deceit on purchasers of Spectrum common stock during the Class Period. The scienter of
+senior executives and officers of Spectrum, including Defendants Riga, Lebel and Brennan, who
+acted within the scope of their authority and as agents of Spectrum, is imputed to corporate
+Defendant Spectrum.
+During the Class Period, Defendants had both the motive and opportunity to
+conduct fraud. Defendants were motivated to commit the acts alleged herein in order to inflate the
+price of Spectrum common stock and sell Spectrum common stock at artificially inflated prices.
+Through sales under the April 2019 ATM Agreement throughout the Class Period,
+Defendants Riga and Brennan caused Spectrum to sell at least 10.7 million shares of Spectrum
+common stock for proceeds of approximately $9.4 million.
+Under the April 2019 ATM Agreement, each time the Company sold shares during
+the Class Period (each a “Placement”), Defendants Riga and Brennan in their respective capacities
+as principal financial officer of the Company, notified the New York City-based employees or
+agents of Cantor Fitzgerald, H.C. Wainwright & Co., or B. Riley by email notice (or other method
+mutually agreed to by them) of the number shares to be issued, the time period during which sales
+were requested to be made, any limitation on the number of shares to be sold and any minimum
+price below which sales would not be made (a “Placement Notice”). During the Class Period, the
+Placement Notices originated from Defendant Riga and Brennan, with approval of the Company’s
+board, including any committees of the Spectrum Board, such as the Placement Committee.
+According to the Company’s SEC filings, the Company’s CEO was a member of the Placement
+Committee and the Placement Committee possessed the authority to act on behalf of Spectrum’s
+board with respect to approving and evaluating all issuances of Spectrum securities (other than
+relating to compensation), including the authority to set the terms of each security being issued.
+Defendants were motivated to take a risky gamble and prematurely rush the Pozi
+NDA and the PINNACLE Study without the dose optimization data required by the FDA and
+mislead investors because Spectrum was in a precarious financial condition and needed to raise
+cash. Spectrum was on track to run out of cash by the end of 2022. As of December 31, 2021,
+Spectrum reported cash, cash equivalents and marketable securities of approximately $100 million
+and had reported spending at least $25 million per quarter (with no revenue from commercial
+sales). During the Class Period, Spectrum issued a going concern warning.
+None of the Individual Defendants purchased Spectrum common stock on the open
+market, and Defendants Lebel and Brennan sold shares of Spectrum common stock as set forth
+below at artificially inflated prices:
+a. On April 4, 2022, Defendant Lebel sold 1,205 shares of Spectrum common
+stock at a price of $1.35 per share, for proceeds of approximately $1,626.75.
+b. On April 5, 2022, Defendant Lebel sold 1,367 shares of Spectrum common
+stock at a price of $1.41 per share, for proceeds of approximately $1,927.47.
+c. On June 21, 2022, Defendant Brennan sold 3,569 shares of Spectrum
+common stock at a price of $0.79 per share, for proceeds of approximately
+$2,819.51.
+d. On June 22, 2022, Defendant Lebel sold 6,096 shares of Spectrum common
+stock at a price of $0.81 per share, for proceeds of approximately $4,937.76.
+e. On June 23, 2022, Defendant Lebel sold 6,667 shares of Spectrum common
+stock at a price of $0.84 per share, for proceeds of approximately $5,600.28.
+IX. NO SAFE HARBOR
+The materially false and misleading statements alleged in Section VI were not
+forward-looking, but rather were historic or present tense representations of facts. Accordingly,
+any “Safe Harbor” warnings are inapplicable.
+Assuming arguendo, any of Defendants’ representation were forward-looking
+statements (“FLS”), Spectrum’s “Safe Harbor” warnings accompanying any such FLS issued
+during the Class Period were ineffective to shield those statements from liability.
+Defendants are liable for any false or misleading FLS pleaded herein because, at
+the time each FLS was made, the speaker knew the FLS was false or misleading and the FLS was
+authorized and/or approved by an executive officer of Spectrum who knew that the FLS was false.
+None of the historic or present tense statements made by Defendants were assumptions underlying
+or relating to any plan, projection, or statement of future performance, as they were not stated to
+be such assumptions underlying or relating to any projection or statement of future economic
+performance when made, nor were any of the projections or forecasts made by Defendants
+expressly related to or stated to be dependent on those historic or present tense statements when
+made.
+In addition, the FLS were contradicted by existing, undisclosed material negative
+facts that were required to be disclosed so that the FLS would not be misleading.
+Finally, Defendants’ “Safe Harbor” warnings were themselves misleading because
+they warned of “risks” that could or might occur, but that had already materialized or failed to
+provide any meaningful disclosures of the relevant risks.
+X. APPLICABILITY OF PRESUMPTION OF RELIANCE: FRAUD ON THE
+MARKET
+Plaintiff will rely upon the presumption of reliance established by the fraud-on-the-
+market doctrine in that, among other things:
+(a) Defendants made public misrepresentations or failed to disclose material
+facts during the Class Period;
+(b) The omissions and misrepresentations were material;
+(c) The Company’s common stock traded in an efficient market;
+(d) The misrepresentations alleged would tend to induce a reasonable investor
+to misjudge the value of the Company’s common stock; and
+(e) Plaintiff and other members of the Class purchased Spectrum common
+stock between the time Defendants misrepresented or failed to disclose material
+facts and the time the true facts were disclosed, without knowledge of the
+misrepresented or omitted facts.
+A Class-wide presumption of reliance is also appropriate in this action under the
+Supreme Court’s holding in Affiliated Ute Citizens of Utah v. United States, 406 U.S. 128 (1972).
+Here, the Class’ claims are also grounded on Defendants’ failure to disclose the material, adverse
+concerns the FDA had concerning Cohort 2 study data results and the efficacy, safety, and dosing
+optimization data for pozi, delays in the PINNACLE Study and that not a single patient enrolled,
+and that the FDA and the Company were not aligned on the design of the PINNACLE Study—
+information that the Defendants should have disclosed and proof that positive reliance is not a
+prerequisite to recovery. Instead, the withheld facts must be material in the sense that a reasonable
+investor may have considered them important in making investment decisions. Based on the
+alleged omissions herein, this requirement is satisfied here.
+At all relevant times, the market for Spectrum common stock was efficient for the
+following reasons, among others:
+(a) As a regulated issuer, Spectrum filed periodic public reports with the SEC;
+(b) The Company’s shares traded on NASDAQ, an efficient market;
+(c) Defendants regularly communicated with public investors via established
+market communication mechanisms, including through regular disseminations of
+press releases on the major news wire services and through other wide-ranging
+public disclosures, such as communications with the financial press, securities
+analysts and investors, and other similar reporting services;
+(d) The Company was covered by research analysts, including Jefferies, Cantor
+Fitzgerald, H.C. Wainwright, JMP, and B. Riley; and
+(e) Spectrum was eligible to file a Form S-3 Registration Statement under the
+Securities Act of 1933 with the SEC, and, in fact, had filed a Registration Statement
+on Form S-3 on July 13, 2021.
+XI. CLASS ACTION ALLEGATIONS
+Plaintiff brings this action as a class action pursuant to Rule 23 of the Federal Rules
+of Civil Procedure on behalf the Class. Excluded from the Class are Defendants, current and former
+directors and officers of Spectrum, and their families and affiliates. The members of the Class are
+so numerous that joinder of all members is impracticable.
+The disposition of Class members’ claims in a class action will provide substantial
+benefits to the parties and the Court. Spectrum had more than 177 million shares of common stock
+outstanding as of March 10, 2022 and more than 188 million shares outstanding as of August 8,
+2022.
+There is a well-defined community of interest in the questions of law and fact
+involved in this case. Questions of law and fact common to the members of the Class which
+predominate over questions which may affect individual Class members include:
+(a) Whether the Exchange Act was violated by Defendants;
+(b) Whether Defendants omitted and/or misrepresented material facts;
+(c) Whether Defendants’ statements omitted material facts necessary in order
+to make the statements made, in light of the circumstances under which they were
+made, not misleading;
+(d) Whether Defendants knew, or disregarded with at least recklessness, that
+their statements were false and misleading at the time they were made;
+(e) Whether the price of Spectrum common stock was artificially inflated; and
+(f) The extent of damage sustained by Class members and the appropriate
+measure of damages.
+Plaintiff’s claims are typical of those of the Class because Plaintiff and the Class
+sustained damages from Defendants’ wrongful conduct.
+Plaintiff will adequately protect the interests of the Class and has retained counsel
+(Kaplan Fox) who are experienced in class action securities litigation. Plaintiff has no interests
+which conflict with those of the Class.
+A class action is superior to other available methods for the fair and efficient
+adjudication of this controversy.
+XII. CAUSES OF ACTION
+COUNT I
+For Violation of Section 10(b) of the Exchange Act and Rule 10b-5
+Against All Defendants
+Plaintiff incorporates paragraphs 1-171 by reference.
+During the Class Period, Defendants disseminated or approved the false and
+misleading statements specified above, which they knew were false and misleading, or at least
+recklessly disregarded that they were false and misleading, because they contained
+misrepresentations or failed to disclose material facts necessary in order to make the statements
+made, in light of the circumstances under which they were made, not misleading.
+Defendants violated Section 10(b) of the Exchange Act and Rule 10b-5 in that they:
+(a) Employed devices, schemes, and artifices to defraud;
+(b) Made untrue statements of material fact or omitted to state material facts
+necessary in order to make the statements made, in light of the circumstances under
+which they were made, not misleading; or
+(c) Engaged in acts, practices, and a course of business that operated as a fraud
+or deceit upon Plaintiff and others similarly situated in connection with their

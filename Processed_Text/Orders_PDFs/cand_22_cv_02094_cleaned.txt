@@ -1,0 +1,2209 @@
+i
+r t s f o
+i
+D t c 15 hearing on the motion on September 8, 2023. Having carefully considered the parties’ papers, the
+si
+r
+et
+t a t s i D 16 relevant legal authority, the arguments advanced by counsel during the hearing on the motion, and
+S
+d
+n
+r
+ee 17 good cause appearing, the Court DENIES the motion IN PART and GRANTS the motion IN
+th
+i nt
+r
+Uo
+N 18 PART WITH LEAVE TO AMEND and GRANTS Defendants’ accompanying request for
+19 judicial notice.
+20 I. BACKGROUND
+21 A. Factual Background1
+22 In 2016, Lucid unveiled a prototype of its electric vehicle, the Lucid Air. ECF 78 ¶¶ 4, 70.
+23 Production was to start in 2018. Id. ¶¶ 4, 70. Needing funding, in 2018, Lucid secured $1 billion
+24 from Saudi Arabia’s sovereign wealth fund – the Public Investment Fund – in exchange for a
+26 1 This factual background is based on the well-pleaded allegations in the consolidated complaint,
+which are taken as true for the purpose of deciding the instant motion. See Wochos v. Tesla, Inc.,
+985 F.3d 1180, 1185 (9th Cir. 2021). The Court addresses additional facts below where relevant
+to its analysis.
+1 majority interest in the company. Id. ¶¶ 7, 100. In September 2020, Lucid revealed the
+2 production version of the Air. Id. ¶ 71. By early 2021, commercial production of the vehicle had
+3 still not commenced, and Lucid again needed funding. Id. ¶¶ 7, 102.
+4 On February 22, 2021, Lucid announced its plan to merge with Churchill Capital Corp IV.
+5 Id. ¶¶ 8, 103. The merger would allow Lucid to go public through a special purpose acquisition
+6 company and provide Lucid with $4.4 billion in cash.2 Id. ¶¶ 8, 103. Lucid’s CEO – Peter
+7 Rawlinson3 – would earn a $2 million bonus and $556 million in potential stock option
+8 compensation. Id. ¶¶ 9, 12, 108, 110. Half of the stock options would vest only if Lucid met
+9 certain capitalization targets within five years of going public. Id. ¶¶ 12, 110. The merger was set
+10 to close on July 22, 2021, but Defendants had not secured the necessary votes from Churchill
+11 shareholders. Id. ¶¶ 11, 116. The merger closed a day later, after “Rawlinson implored investors
+a
+12 to ‘please, please vote,’ and again reiterated that Lucid was ‘energized about going into full
+t r i n
+u o r o 13 production mode’ later this year. ” Id. ¶¶ 11, 117, 119. Public trading of Lucid stock began on
+Cf
+i
+t
+l
+a
+cC 14 July 26, 2021. Id. ¶ 121.
+i
+r t s f o
+i
+D t c 15 On September 28, 2021, Lucid announced that it began production of the Air. Id. ¶¶ 13,
+si
+r
+et
+t a t s i D 16 122. Deliveries to customers started on October 30, 2021. Id. ¶¶ 13, 81, 124. Lucid announced
+S
+d
+n
+r
+ee 17 its first quarterly results as a public company on November 15, 2021, telling investors that it was
+th
+i nt
+r
+Uo
+N 18 “confident in [its] ability to achieve 20,000 units in 2022.” Id. ¶ 14. With this news causing a
+19 “surge in the shares,” on December 8, 2021, Lucid announced a public offering of convertible
+20 senior notes, raising over $2 billion. Id. ¶¶ 24, 25, 306. By January 25, 2022, Rawlinson had met
+21 the capitalization benchmarks triggering the vesting of nearly 14 million stock options from his
+22 promised compensation package.4 Id. ¶¶ 25, 309.
+2 In the interim, Lucid would require $600 million in bridge financing to continue operations until
+the merger closed. ECF 78 ¶ 104.
+26 3 Rawlinson joined Lucid as Chief Technology Officer in 2013. Id. ¶ 41. Lucid announced
+Rawlinson’s appointment as CEO on April 23, 2019. Id.
+4 On April 28, 2022, Bloomberg reported that the stock options were worth $263 million. Id.
+¶ 309.
+1 During a February 28, 2022 earnings call, Lucid announced it would miss the 20,000 unit
+2 target and reduced its vehicle production forecast to a range of 12,000 to 14,000 vehicles. Id.
+3 ¶¶ 27, 312. Lucid’s stock price fell “from a close of $28.98 per share on February 28, 2022, to a
+4 close at $24.99 per share on March 1, 2022.” Id. ¶¶ 27, 313. On May 5, 2022, Lucid reiterated its
+5 vehicle production target of 12,000 to 14,000 vehicles. Id. ¶¶ 30, 332.
+6 On August 3, 2022, Lucid reduced its vehicle production target to between 6,000 and
+7 7,000 vehicles. Id. ¶¶ 32, 338. Lucid also disclosed that it had only produced 1,405 vehicles in
+8 the first six months of 2022, and only delivered 679 to customers. Id. ¶¶ 33, 338. Rawlinson
+9 stated: “Our revised outlook guidance for the year reflects the logistic challenges I described as we
+10 begin scaling, which exposed the immaturity of our logistics processes.” Id. ¶ 339. He explained
+11 that once “ ‘supply chain and logistics challenges’ began to abate and ‘we attempted to push
+a
+12 forward the rate, we found that our logistics constraints prevented us from scaling meaningfully.’ ”
+t r i n
+u o r o 13 Id. Specifically, Rawlinson “noted that Lucid had struggled with its ‘ability to speed the correct
+Cf
+i
+t
+l
+a
+cC 14 part to [Lucid’s production] line at the correct time and cadence,’ ” and had “experienced
+i
+r t s f o
+i
+D t c 15 ‘unplanned production pauses’ ” resulting from efforts “ ‘to improve . . . logistics processes.’ ” Id.
+si
+r
+et
+t a t s i D 16 ¶ 340 (modifications in original). Rawlinson also disclosed that Lucid “was already taking steps
+S
+d
+n
+r
+ee 17 to fix the internal logistics problems that he referred to as the ‘primary bottlenecks,’ including
+th
+i nt
+r
+Uo
+N 18 bringing ‘logistics operations in-house’ and ‘restructur[ing] . . . logistics and manufacturing
+19 operations,” which Rawlinson said should “help mitigate and begin to eliminate the logistics
+20 bottlenecks.” Id. (modifications in original). On this news, Lucid’s stock price fell “from a close
+21 of $20.56 per share on August 3, 2022, to a close at $18.56 per share on August 4, 2022.” Id.
+22 ¶¶ 33, 341.
+23 A. Procedural Background
+24 On April 1, 2022, an individual investor filed a putative securities class action against
+25 Lucid, Rawlinson, and House. ECF 1. A second proposed class action – Goel v. Lucid Group,
+26 Inc., No. 22-cv-03176 (N.D. Cal.) – followed on May 31, 2022. On September 30, 2022, the
+27 Court related and consolidated the two cases, appointed Sjunde AP-Fonden Lead Plaintiff, and
+28 approved its selection of Kessler Topaz Meltzer & Check, LLP as Lead Counsel. ECF 60.
+1 On December 13, 2022, Lead Plaintiff filed a consolidated class action complaint on behalf
+2 of all persons and entities who bought or acquired Lucid common stock between November 15,
+3 2021 and August 3, 2022. ECF 78 at 6, ¶ 506. Lead Plaintiff alleges violations of Section 10(b)
+4 of the Securities Exchange Act of 1934 (the “Exchange Act”), 15 U.S.C § 78j(b), and Rule 10b-5
+5 promulgated thereunder, 17 U.S.C. § 240.10b-5, and brings a claim against Rawlinson and House
+6 for control person liability under Section 20(a) of the Exchange Act, 15 U.S.C. § 78t(a). Id.
+7 ¶¶ 518-526, 527-533.
+8 Defendants filed a motion to dismiss the consolidated complaint on February 23, 2023,
+9 with a request for judicial notice. ECF 83, 84. Lead Plaintiff filed an opposition to the motion on
+10 April 24, 2023, without a response to the request for judicial notice. ECF 88. Defendants’ reply
+11 followed on June 8, 2023. ECF 94. The Court held a hearing on September 8, 2023. ECF 99.
+12 II. LEGAL STANDARDS
+a
+t r i n
+u o r o 13 A. Motion to Dismiss
+Cf
+i
+t
+l
+a
+cC 14 Federal Rule of Civil Procedure 8 requires a complaint to include “a short and plain
+i
+r t s f o
+i
+D t c 15 statement of the claim showing that the pleader is entitled to relief.” Fed. R. Civ. P. 8(a)(2). A
+si
+r
+et
+t a t s i D 16 complaint that fails to meet this standard may be dismissed pursuant to Federal Rule of Civil
+S
+d
+n
+r
+ee 17 Procedure 12(b)(6).
+th
+i nt
+r
+Uo
+N 18 To overcome a Rule 12(b)(6) motion to dismiss, the factual allegations in the plaintiff’s
+19 complaint “ ‘must . . . suggest that the claim has at least a plausible chance of success.’ ” Levitt v.
+20 Yelp! Inc., 765 F.3d 1123, 1135 (9th Cir. 2014) (quoting In re Century Aluminum Co. Sec. Litig.,
+21 729 F.3d 1104, 1107 (9th Cir. 2013) (alterations in original)). In ruling on a Rule 12(b)(6) motion,
+22 courts “accept factual allegations in the complaint as true and construe the pleadings in the light
+23 most favorable to the nonmoving party.” Manzarek v. St. Paul Fire & Marine Ins. Co., 519 F.3d
+24 1025, 1031 (9th Cir. 2008) (citation omitted).
+25 “[A]llegations in a complaint . . . may not simply recite the elements of a cause of action,
+26 but must contain sufficient allegations of underlying facts to give fair notice and to enable the
+27 opposing party to defend itself effectively.” Levitt, 765 F.3d at 1135 (quoting Starr v. Baca, 652
+28 F.3d 1202, 1216 (9th Cir. 2011)). The court may dismiss a claim “where there is either a lack of a
+1 cognizable legal theory or the absence of sufficient facts alleged under a cognizable legal claim.”
+2 Hinds Invs., L.P. v. Angioli, 654 F.3d 846, 850 (9th Cir. 2011) (citing Johnson v. Riverside
+3 Healthcare Sys., LP, 534 F.3d 1116, 1121 (9th Cir. 2008)). “[T]he non-conclusory ‘factual
+4 content’ and reasonable inferences from that content must be plausibly suggestive of a claim
+5 entitling the plaintiff to relief.” Moss v. U.S. Secret Service, 572 F.3d 962, 969 (9th Cir. 2009).
+6 For claims sounding in fraud or mistake, a plaintiff must “state with particularity the
+7 circumstances regarding the fraud or mistake.” Fed. R. Civ. P. 9(b). A plaintiff must set forth
+8 “ ‘the who, what, when, where, and how’ of the misconduct charged.” Vess v. Ciba-Geigy Corp.
+9 USA, 317 F.3d 1097, 1107 (9th Cir. 2003) (quoting Cooper v. Pickett, 137 F.3d 616, 627 (9th Cir.
+10 1997)).
+11 A claim for violations of Section 10(b) and Rule 10b-5 “must meet both the heightened
+12 pleading requirements for fraud claims under Fed. R. Civ. P. 9(b) . . . and the exacting pleading
+a
+t r i n
+u o r o 13 requirements . . . of the Private Securities Litigation Reform Act (‘PSLRA’) . . . .” In re Quality
+Cf
+i
+t
+l
+a
+cC 14 Systems, Inc. Sec. Litig., 865 F.3d 1130, 1140 (9th Cir. 2017) (citing Tellabs, Inc. v. Makor Issues
+i
+r t s f o
+i
+D t c 15 & Rights, Ltd., 551 U.S. 308, 313 (2007)). In assessing whether a securities fraud claim meets this
+si
+r
+et
+t a t s i D 16 heightened pleading standard, “courts must consider the complaint in its entirety, as well as other
+S
+d
+n
+r
+ee 17 sources courts ordinarily examine when ruling on Rule 12(b)(6) motions to dismiss, in particular,
+th
+i nt
+r
+Uo
+N 18 documents incorporated into the complaint by reference, and matters of which a court may take
+19 judicial notice.” Tellabs, 551 U.S. at 322-23 (citations omitted).
+20 III. DISCUSSION
+21 A. Request for Judicial Notice
+22 Defendants ask that the Court take judicial notice of the following 13 documents:
+23 • Exhibit 1: Lucid’s Form 10-Q, filed with the SEC on November 15, 2021.
+24 • Exhibit 2: Excerpts of Lucid’s Form 10-K, filed with the SEC on February 28, 2022.
+25 • Exhibit 3: Excerpts of Lucid’s Form 10-Q, filed with the SEC on May 5, 2022.
+26 • Exhibit 4: Lucid’s Form 10-Q, filed with the SEC on August 3, 2022.
+27 • Exhibit 5: Lucid’s Q3 2021 Earnings Call Transcript, dated November 15, 2021.
+28 • Exhibit 6: Lucid’s Form 8-K, filed with the SEC on November 15, 2021, together with
+1 excerpts of Lucid’s press release entitled Lucid Announces Third Quarter 2021
+2 Financial Results and Lucid Air Wins 2022 MotorTrend Car of the Year, which is
+3 appended thereto as Ex. 99.1.
+4 • Exhibit 7: Lucid’s Q4 2021 Earnings Call Transcript, dated February 28, 2022.
+5 • Exhibit 8: Lucid’s Form 8-K, filed with the SEC on February 28, 2022, together with
+6 excerpts of a Lucid press release entitled, Lucid Announces Fourth Quarter and Full
+7 Year 2021 Financial Results, Updates 2022 Outlook, which is appended thereto as Ex.
+8 99.1.
+9 • Exhibit 9: Lucid’s Q1 2022 Earnings Call Transcript, dated May 5, 2022.
+10 • Exhibit 10: Lucid’s Form 8-K, filed with the SEC on May 5, 2022, together with
+11 excerpts of Lucid’s press release entitled, Lucid Reports First Quarter 2022 Financial
+12 Results, which was appended thereto as Ex. 99.1.
+a
+t r i n
+u o r o 13 • Exhibit 11: Lucid’s Q2 2022 Earnings Call Transcript, dated August 3, 2022.
+Cf
+i
+t
+c
+l
+a
+C 14 • Exhibit 12: The unpublished opinion, Crews v. Rivian Auto., Inc., No. 2:22-cv-01524-
+i
+r t s f o
+i
+D t c 15 JLS-E (C.D. Cal. Feb. 16, 2023).
+si
+r
+et
+t a t s i D 16 • Exhibit 13: Excerpts from Lucid’s Proxy Statement, filed with the SEC on April 28,
+S
+d
+n
+r
+ee 17 2022.
+th
+i nt
+r
+Uo
+N 18 ECF 84 at 2-3. 5
+19 1. Federal Rule of Evidence 201(b)
+20 A district court may take judicial notice of facts that are “not subject to reasonable dispute”
+21 because they are (1) “generally known within the trial court’s territorial jurisdiction,” or (2) “can
+22 be accurately and readily determined from sources whose accuracy cannot reasonably be
+23 questioned.” Fed. R. Evid. 201(b); United States v. Bernal-Obeso, 989 F.2d 331, 333 (9th Cir.
+5 The documents are attached to the declaration of Neal Potischman filed in support of
+Defendants’ motion to dismiss. ECF 83-1. An additional exhibit, which is an excerpt from a
+26 webpage of the Council of Supply Chain Management Professionals, is attached to the Potischman
+declaration but is not listed in Defendants’ request for judicial notice. See ECF 83-1 ¶ 15; ECF
+At oral argument, Defendants indicated that the document is not essential to their arguments
+for dismissal. Accordingly, the Court has not considered Exhibit 14 in ruling on the instant
+motion.
+1 1993). “Accordingly, ‘[a] court may take judicial notice of matters of public record.’ ” Khoja v.
+2 Orexigen Therapeutics, Inc., 899 F.3d 988, 999 (9th Cir. 2018) (quoting Lee v. City of Los
+3 Angeles, 250 F.3d 668, 689 (9th Cir. 2001)). A court cannot, however, “take judicial notice of
+4 disputed facts contained in such public records.” Id.
+5 Lead Plaintiff did not file a response to Defendants’ request for judicial notice. During
+6 oral argument, Lead Plaintiff indicated that it does not oppose Defendants’ request for judicial
+7 notice to the extent Defendants seek to rely on documents for the limited purpose of establishing
+8 that certain representations were made to the market. With that statement from Lead Plaintiff in
+9 mind, the Court GRANTS the request for judicial notice as follows:
+10 The Court takes judicial notice of Exhibit 12, which is an unpublished district court
+11 decision. See Selane Prod., Inc. v. Cont’l Cas. Co., No. 21-55123, 2021 WL 4496471, at *2 n.4
+12 (9th Cir. Oct. 1, 2021) (granting motion to take judicial notice of unpublished case). The Court
+a
+t r i n
+u o r o 13 also takes judicial notice of Exhibits 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 13, which consist of SEC
+Cf
+i
+t
+l
+a
+cC 14 filings, earnings calls transcripts, and press releases, for the limited purpose of noting the
+i
+r t s f o
+i
+D t c 15 representations Defendants made to the market and only to the extent Defendants have specifically
+si
+r
+et
+t a t s i D 16 identified any such representations within those documents. See Weston v. DocuSign, Inc., 669 F.
+S
+d
+n
+r
+ee 17 Supp. 3d 849, 872 (N.D. Cal. 2023). The Court does not take judicial notice of the contents of
+th
+i nt
+r
+Uo
+N 18 those documents for their truth. See Khoja, 899 F.3d at 1000 (“To the extent that the district court
+19 judicially noticed the . . . investors’ call transcript for the purpose for which was offered, i.e., to
+20 determine what the investors knew . . . at that time, the district court abused its discretion.”).
+21 2. Incorporation by Reference
+22 As to Exhibits 5, 6, 7, 8, 9, 10, and 13, Defendants also assert that the documents are
+23 properly before the Court because they are incorporated into the consolidated complaint by
+24 reference. ECF 84 at 3.
+25 “Unlike rule-established judicial notice, incorporation-by-reference is a judicially created
+26 doctrine that treats certain documents as though they are part of the complaint itself. The doctrine
+27 prevents plaintiffs from selecting only portions of documents that support their claims, while
+28 omitting portions of those very documents that weaken – or doom – their claims.” Khoja, 899
+1 F.3d at 1002. “Although the incorporation-by-reference doctrine is designed to prevent artful
+2 pleading by plaintiffs, the doctrine is not a tool for defendants to short-circuit the resolution of a
+3 well-pleaded claim.” Id. at 1003.
+4 Exhibits 5, 6, 7, 8, 9, 10, and 13 are the source of several statements Lead Plaintiff alleges
+5 were false and misleading. See, e.g., ECF 78-2 (Statements 1, 2, 10, 13, 18, 19, 23). As such, the
+6 documents form the basis of Lead Plaintiff’s claims. For this reason, the Court finds that Exhibits
+7 5, 6, 7, 8, 9, 10, and 13 are incorporated by reference. See Khoja, 899 F.3d at 1006 (district court
+8 did not abuse its discretion by incorporating Form S-8 registration statement where complaint
+9 alleged the registration statement “incorporated by reference the Company’s materially misleading
+10 . . . Form 8-K”). The Court, however, does not assume the truth of any facts stated in Exhibits 5,
+11 6, 7, 8, 9, 10, or 13 to the extent they serve to dispute well-pleaded facts in the consolidated
+a
+12 complaint. See id. at 1003 (“[I]t is improper to assume the truth of an incorporated document if
+t r i n
+u o r o 13 such assumptions only serve to dispute facts stated in a well-pleaded complaint.”).
+Cf
+i
+t
+l
+a
+cC 14 B. Motion to Dismiss
+i
+r t s f o
+i
+D t c 15 Defendants move to dismiss Lead Plaintiff’s Section 10(b) claim and the derivative
+si
+r
+et
+t a t s i D 16 Section 20(a) claim. ECF 83 at 15, 28. Because the Section 20(a) claim is derivative, the Court
+S
+d
+n
+r
+ee 17 addresses the Section 10(b) claim first.
+th
+i nt
+r
+Uo
+N 18 1. Section 10(b) and Rule 10b-5 Claim
+19 To state a claim under Section 10(b) and Rule 10b-5,6 a plaintiff must allege “(1) a
+20 material misrepresentation or omission by the defendant; (2) scienter; (3) a connection between
+21 the misrepresentation or omission and the purchase or sale of a security; (4) reliance upon the
+22 misrepresentation or omission; (5) economic loss; and (6) loss causation.’ ” Quality Systems, 865
+23 F.3d at 1140-41 (quoting Halliburton Co. v. Erica P. John Fund, Inc., 573 U.S. 258, 267 (2014)).
+6 “SEC Rule 10b-5 implements [Section] 10(b) by declaring it unlawful: ‘(a) To employ any
+device, scheme, or artifice to defraud, (b) To make any untrue statement of a material fact or to
+26 omit to state a material fact necessary in order to make the statements made . . . not misleading, or
+(c) To engage in any act, practice, or course of business which operates or would operate as a
+fraud or deceit upon any person, in connection with the purchase or sale of any security.’ ”
+Tellabs, 551 U.S. at 318 (quoting 17 C.F.R. § 240.10b-5).
+1 Defendants argue that Lead Plaintiff’s Section 10(b) claim fails for two reasons. ECF 83
+2 at 15-23, 23-29. First, they argue that Lead Plaintiff fails to plead any actionable misstatement or
+3 omission, because the allegations of falsity are insufficient and because the statements at issue fall
+4 within the PSLRA’s safe harbor, are non-actionable opinion, and/or constitute corporate puffery.
+5 Id. at 15-23. Second, Defendants argue that Lead Plaintiff does not plead particularized facts
+6 sufficient to support a strong inference of scienter. Id. at 23-28. The Court first addresses whether
+7 Lead Plaintiff has sufficiently alleged an actionable misstatement or omission, then analyzes
+8 whether Lead Plaintiff has adequately alleged facts supporting a strong inference of scienter.
+9 a. Alleged material misstatements or omissions
+10 “Where the alleged fraud is a material misstatement or omission, ‘the complaint shall
+11 specify (1) each statement alleged to have been misleading, (2) the reason or reasons why the
+12 statement is misleading, and, (3) if an allegation regarding the statement or omission is made on
+a
+t r i n
+u o r o 13 information and belief, the complaint shall state with particularity all facts on which that belief is
+Cf
+i
+t
+l
+a
+cC 14 formed.’ ” Khoja, 899 F.3d at 1008 (quoting 15 U.S.C. § 78u-4(b)(1)).
+i
+r t s f o
+i
+D t c 15 “In the securities fraud context, statements and omissions are actionably false or
+si
+r
+et
+t a t s i D 16 misleading if they directly contradict what the defendant knew at that time, or create an impression
+S
+d
+n
+r
+ee 17 of a state of affairs that differs in a material way from the one that actually exists[.]” In re
+th
+i nt
+r
+Uo
+N 18 Facebook, Inc. Sec. Litig., 87 F.4th 934, 948 (9th Cir. 2023) (internal quotations and citations
+19 omitted).
+20 Lead Plaintiff alleges that the following statements were false or materially misleading:
+• In a November 15, 2021 press release titled Lucid Announces Third Quarter 2021
+Financial Results and Lucid Air Wins MotorTrend Car of the Year, issued on Form 8-
+K and signed by House:
+Rawlinson stated: “We see significant demand for the award-winning Lucid Air,
+with accelerating reservations as we ramp production at our factory in Arizona. We
+remain confident in our ability to achieve 20,000 units in 2022. This target is not
+without risk, given ongoing challenges facing the automotive industry with global
+disruptions to supply chains and logistics. We are taking steps to mitigate these
+challenges,7 however, and look forward to the launch of the Grand Touring,
+7 In the consolidated complaint, Lead Plaintiff uses bold and italics to identify the portions of
+Touring, and Pure versions of Lucid Air through 2022.” ECF 78 ¶ 349; ECF 78-2
+at 1.
+• During a 3Q21 Earnings Call held November 15, 2021:
+House stated: “Heading into 2022, we remain committed to our plan to achieve
+4 20,000 units in the calendar year. However, this plan is not without risk, given
+the extraordinary supply chain and logistics challenges that the automotive
+5 industry has been facing.” ECF 78 ¶ 350; ECF 78-2 at 1-2.
+Rawlinson stated: “Even in a challenging environment as COVID-19 continues to
+present numerous obstacles for the auto industry and supply chain. Lucid is no
+stranger to this, but we have continued to deliver against our time line and with
+8 the highest standard of quality.” ECF 78 ¶ 351; ECF 78-2 at 4.
+9 • During an interview with CNBC’s Jim Cramer on November 16, 2021:
+Cramer asked: “But you have said, let’s be clear about this, you have a lot of
+demand, 17,000. And that’s not a problem for you to make. But you have dreams.
+Let’s hopefully realities [sic] of 500,000 production and more.” ECF 78 ¶ 357;
+ECF 78-2 at 5-6.
+a
+t r i n
+u o r o 13 Rawlinson responded: “Absolutely. We already have a factory scale for 34,000
+C
+t
+f i l
+a
+units a year. As soon as we can get this quality parts to the line, we can spool
+cC 14
+i
+r t s i
+D
+f o
+t c 15
+t
+¶
+h
+a
+t
+u
+;
+p
+E
+.
+C
+T
+F
+h e
+7 8
+fa
+-2
+c t
+a
+o
+t
+r
+y
+-
+i
+s
+.
+there and ready for 34,000 units per annum.” ECF 78
+si
+r
+et
+t a t s i D 16 5. Cramer also asked: “So if I go under the hood, which fortunately could be in a size
+S
+d
+n
+r
+of a suitcase, will I find the same Semiconductor shortage problem? Will I find the
+ee 17 labor problem? I find all the things that are plaguing every other company in the
+th
+i nt
+r automotive business. Or would they be looking at, say, an Apple phone and
+Uo
+N 18
+saying, you know what? Look, we’ve got the technology, the customers love it,
+and let’s stop worrying about things that don’t really mean anything to us.” ECF
+78 ¶ 359; ECF 78-2 at 6-7.
+Rawlinson responded: “We’ve been able to mitigate the semiconductor risk
+21 because as a tech company, we design all our printed circuit boards, our PCBAs, in
+house, and that means that we can design for alternative sourcing and different
+types of chip and that will reduce the risk. So we’ve been able to mitigate that
+risk. That isn’t to say we aren’t vulnerable to today’s supply chain shortages that
+the entire industry is facing, in fact, many industries are facing, that is something
+24 that we are a challenge with and we have mitigation plans for.” ECF 78 ¶ 360;
+ECF 78-2 at 6-7.
+statements that it alleges are actionable and provides additional text for context. ECF 78 at 91 n.4;
+ECF 78-2 at 1 n.2.
+• During a February 14, 2022 hearing before the Arizona State Legislature’s
+Transportation and Technology Committee:
+Arizona State Senator, Rosanna Gabaldón, Member of the Arizona State
+3 Legislature’s Transportation and Technology Committee asked: “[I]n regards to
+supplies, you know, you drive by any car dealership today and there’s very few
+cars on their lot. I’m wondering how Lucid is addressing this? I guess I heard you
+say that there’s orders and that people are going to be coming, et cetera. So I was
+wondering if you could address that.” ECF 78 ¶ 365; ECF 78-2 at 8-9.
+Daniel Witt, Lucid’s Head of State and Local Public Policy, responded: “Yes, we’re
+7 in a little bit of an enviable position and that we are so small this year, we’re
+looking to produce about 20,000 units.” ECF 78 ¶¶ 364, 366; ECF 78-2 at 9.
+Witt added: “Much larger auto companies excuse me . . . much larger companies
+that produce millions of units annually are having a much more difficult time
+10 due to supply constraints than we ultimately are.” ECF 78 ¶ 366; ECF 78-2 at 9.
+11 7. Senator Gabaldón also asked: “[Y]ou indicated all these employees, and, so the
+orders that you have, maybe I am misunderstanding, so the orders that you do have,
+a [can be] filled at this time with individuals that have, the consumer who has
+t r u o i n r o 13 purchased these vehicles.” ECF 78 ¶ 367; ECF 78-2 at 9-10.
+Cf
+i
+t c
+l
+a C 14 Witt responded, in part: “We have the capacity to fill all the orders received to
+i
+r t s f o date and more.” ECF 78 ¶ 368; ECF 78-2 at 10.
+i
+D t c 15
+s
+e t a t S
+d
+i r
+t s i D
+n
+r
+16 • I R n e s a u p lt r s e , s U s r p e d l a ea te s s e 2 ti 0 tl 2 e 2 d O L u u t c l i o d o A k, n i n s o su u e n d c e o s n F F o o u r r m th 8 Q -K ua a r n te d r s a ig n n d e F d u b l y l Y H e o a u r s 2 e 0 : 2 1 Financial
+ee 17
+t
+i n
+h
+t r 8. Defendants stated: “Updating 2022 production outlook for Lucid Air to a range of
+Uo
+N 18 12,000 to 14,000 vehicles.” ECF 78 ¶ 374; ECF 78-2 at 10-11.
+Rawlinson stated: “Looking ahead, we’re updating our outlook for 2022
+production to a range of 12,000 to 14,000 vehicles. This reflects the
+extraordinary supply chain and logistics challenges we’ve encountered and our
+unrelenting focus on delivering the highest quality products. We remain
+confident in our ability to capture the tremendous opportunities ahead given our
+22 technology leadership and strong demand for our cars[.]” ECF 78 ¶ 375; ECF 78-2
+at 11.
+• During a 4Q21 & FY2021 Earnings Call held February 28, 2022:
+25 10. Rawlinson stated: “In the more immediate term, like many manufacturers, our
+production has been and indeed continued to be impacted by supply chain
+26 challenges. As you saw from our press release today, we have updated our 2022
+production outlook for Lucid Air to a range of 12,000 to 14,000 vehicles.” ECF
+78 ¶ 377; ECF 78-2 at 14.
+Rawlinson then stated: “The supply chain issues that we are experiencing from
+factors including components shortages, our insistence on the highest quality
+parts and logistics issues. In some cases, the pandemic meant that our teams could
+not visit our suppliers in person to ensure alignment on engineering specifications
+3 and tooling. As travel has opened back up, our supplier quality teams have been
+able to address many of these issues. I will note that these issues are impacting
+4 only a handful of our approximately 250 suppliers and are not affecting critical
+single source or dual source components like semiconductors or batteries.
+Instead, it’s been commodity items like glass and carpets, and we’ve adapted by
+changing our specifications or indeed switching vendors if needed.” ECF 78
+¶ 378; ECF 78-2 at 17-18.
+Rawlinson also stated: “We accomplished deep deliveries against the backdrop of
+an extraordinary supply chain and supply quality challenges. Indeed, we could
+have chosen to build faster, but we elected not to sacrifice quality, given our
+unwavering commitment to the highest standards.” ECF 78 ¶ 379; ECF 78-2 at
+19.
+11 13. House stated: “All in, with everything we’ve accomplished recently, we have the
+elements in place to execute successfully on our plans, the core pillars for future
+a scalability and growth. Now turning to guidance. We’re updating our outlook for
+t r u o i n r o 13 2022 production to a range of 12,000 to 14,000 vehicles. This projection
+Cf
+i
+represents our best estimate as we analyze our relationship with our suppliers
+t c
+l
+a C 14 and where the bottlenecks still exist in the supply chain, as well as our own
+i
+r t s f o internal plans to improve logistics. We expect to remain supply chain
+i
+D t c 15 constrained in select parts of the business in the coming months, and project
+si
+r
+e
+t a t
+t
+s i D 16
+improvement in the second half of the year.” ECF 78 ¶ 380; ECF 78-2 at 22-23.
+S
+d
+n
+r 14. House also stated: “As mentioned by Peter [Rawlinson], we are managing through
+ee 17
+th
+i nt
+r
+supply chain challenges that you’ve heard about in numerous companies across
+Uo
+N 18 industries this earning season. At Lucid, we have the right experience and
+resources to help mitigate these issues. In some cases, we’re buying ahead to
+19 reduce the risk of parts shortages.” ECF 78 ¶ 381; ECF 78-2 at 27.
+Analyst Itay Michaeli (“Michaeli”), Citigroup Inc., Research Division, Director &
+Global Head of Autos Sector, asked Rawlinson: “A couple of questions. Just first,
+going back to the supply chain pressures. I was hoping you can maybe articulate it
+22 sounds like you expect most of the recovery to happen in the second half of the
+year. Maybe talk about how much visibility you have over the next few months
+23 with some of the suppliers you mentioned and just the degree of confidence of how
+to think about the cadence of improvement in production throughout the year.”
+ECF 78 ¶ 382; ECF 78-2 at 29-31.
+Rawlinson responded: “Yes. Well, we have an earning focus on addressing some
+26 of the supply chain challenges. We see them to continue for the next few months.
+But we see an uptake in the second half of the year. So we’re really optimistic
+27 that we’re going to be able to resolve these. And again, this is a small handful of
+suppliers. We’re not talking about fundamental technologies here. We’re
+talking largely paradoxically commodity suppliers, finishes, carpet, glass and
+things like that. And unfortunately, you can’t sell a single quality car unless
+those -- particularly those visible parts are absolutely perfect. So we’re very
+optimistic that we will resolve, but it’s going to take a few months, and the second
+half of the year, we’ll see a significant uptake. And our guidance is based upon
+3 that premise.” ECF 78 ¶ 383; ECF 78-2 at 29-31.
+4 16. John Joseph Murphy, BofA Securities, Research Division, MD and Lead United
+States Auto Analyst, asked: “[A]s you think about the causal factors for the
+reduction in your planned production this year, I mean, you’re citing supply chain.
+It appears that maybe some of the capacity expansion and reorganization has put
+forth or been prioritized over ramping volume in the near term for the benefit in the
+7 long term, and there might be some other micro issues that we can’t see. I’m just
+wondering if you could kind of bucket those or maybe rank those in order of sort of
+impact. And then also as we think about this, does this change your outlook for
+2023 volumes? Or is this sort of short-term pain for long-term gain?” ECF 78
+¶ 384; ECF 78-2 at 33-34.
+Rawlinson responded: “Those are interesting points. I mean, first of all, I would
+11 say that we have been primarily constrained. We’ve got about 250 suppliers
+worldwide, notionally about 3,000 parts. And this has been really a phenomenon
+a of just a small handful of our 250 suppliers. Paradoxically, we’ve been mainly
+t r u o i n r o 13 impacted in a commodity supply parts. For example, finished parts, trim parts
+Cf i for the exterior, even glass and carpet. So it’s not the core technologies of the
+t c
+l
+a C 14 vehicle that have been largely impacting us here. And we have – you’re right,
+i
+r t s f o we’ve chosen quality over volume. We don’t want to get sucked into myopic view
+i
+D t c 15 of short-term numbers. We’re building a brand with a 10-year plan. And our
+si
+r
+e t a t S
+d
+t s i D
+n
+r
+¶
+c in u
+t s o
+t o
+o m
+;
+u
+E
+r e r
+C
+c s a
+F
+r h , a
+t v
+h e
+-
+e
+b b
+a
+e u
+t
+e i n l
+d
+r
+-
+q e
+a u
+l a l
+.
+l y i t g y r [ a .] t e S fu o l w an e d p a r p io p r r i e ti c z i e a t q iv u e a l o i f t y t h o e v e q r u n al u it m y b th e a rs t . w ” e E ’v C e F b 7 u 8 il t
+ee 17
+t
+i n
+h
+t r
+Uo
+N 18 • A March 17, 2022 article entitled Rising Costs Have Lucid CEO Eyeing Price Hike for
+Future Electric Cars stated:
+Lucid in February cut its production forecast for this year to a range of 12,000 to
+14,000, from its original target of 20,000 vehicles, citing “extraordinary supply
+chain and logistics challenges.” Its shares slid after that announcement.
+22 Rawlinson on Thursday said the bottlenecks were caused by a handful of
+suppliers for windshield glass, carpeting and some exterior trim parts. “I’m super
+frustrated because we’re not gated by silicon chips, we’re not gated by our ability
+to make electric motors,” Rawlinson said. ECF 78 ¶ 391; ECF 78-2 at 37.
+25 • In Lucid’s 2022 Proxy Statement filed in connection with Lucid’s Schedule 14A, dated
+April 28, 2022:
+Rawlinson stated: “We are not immune to the challenging global environment
+that has impacted parts of our supply chain and logistics, but our team continues
+to work hard to mitigate these risks.” ECF 78 ¶ 393; ECF 78-2 at 39.
+• In a press release titled Lucid Reports First Quarter 2022 Financial Results, issued on
+Form 8-K and signed by House:
+3 19. Defendants stated: “Lucid reiterated its 2022 production volume outlook of 12,000
+to 14,000 vehicles” and Lucid’s “[p]roduction volume outlook for 2022 remains
+on track at 12,000 to 14,000 vehicles.” ECF 78 ¶ 396; ECF 78-2 at 41.
+Rawlinson stated: “We continued to make progress in the first quarter of 2022
+despite on-going global supply chain challenges.” ECF 78 ¶ 397; ECF 78-2 at 42.
+7 21. House stated: “Similar to many companies in our industry, we continue to face
+global supply chain and logistics challenges, including Covid-related factory
+shutdowns in China. We are working closely with our suppliers to mitigate the
+impact of disruptions.” ECF 78 ¶ 398; ECF 78-2 at 44.
+10 22. House stated: “While any extended disruptions could result in an impact to our
+production forecast, today we are reiterating our 12,000-14,000 vehicle
+11 production forecast for 2022 based on the information we have at this point
+combined with our mitigation plans.” ECF 78 ¶ 399; ECF 78-2 at 47-48.
+a
+t r u o i n r o 13 • During a 1Q22 Earnings Call held May 5, 2022:
+Cf
+i
+t
+c
+l
+a
+C 14 23. Rawlinson stated: “[I]n April alone, we delivered well over 300 vehicles,
+i
+r t s f o demonstrating our accelerated production ramp. And this growth progression
+i
+D t c 15 keeps us nicely on track for our 12,000 to 14,000 production targets.” ECF 78
+si
+r
+e t a t
+S
+d
+t s i D
+n
+r
+24.
+¶
+R a
+w
+li
+;
+n
+E
+so
+C
+n
+F
+a
+ls
+o
+- 2
+s t
+a
+a
+t
+t e
+d
+:
+.
+“I do want to highlight that supply chain dynamics are
+ee 17
+th
+i nt
+r
+very fluid, and the COVID lockdowns in China that’s impacting others in the
+Uo
+N 18 industry are also resulting in some bottlenecks for us.” ECF 78 ¶ 401; ECF 78-2
+at 49.
+House stated: “Moving to our production outlook. Similar to many companies in
+our industry, we continue to face global supply chain and logistics challenges,
+including COVID-related factory shutdowns in China. We are working closely
+with our suppliers to mitigate the impact of disruption. While any extended
+22 disruptions could result in an impact to our production forecast, today, we are
+reiterating our 12,000 to 14,000 vehicle production guidance for 2022 based on
+the information we have at this point, combined with our mitigation plan.” ECF
+78 ¶ 402; ECF 78-2 at 52.
+25 26. Itay Michaeli asked: “Any kind of early update on Q2, maybe an April number?”
+ECF 78 ¶ 403; ECF 78-2 at 56-57.
+House responded: “So Itay, as we said in our prepared remarks, we are reiterating our
+12,000 to 14,000 guidance for the balance of the year, so long as the supply chain
+logistics disruptions aren’t material and our mitigation plans are effective. And
+we’ve been watching the China lockdown situation really closely. We have had a little
+bit of impact there. We had a couple of days that we did shut down, and we did have a
+little bit of slowing for about 1.5 weeks in April. But we have mitigation plans in
+place. We were able to get access to some warehouses. We’re able to move
+3 production to another area of China in one case.” ECF ¶ 404; ECF 78-2 at 56-57.
+4 27. Rawlinson also responded: “We’re reiterating our 12,000 to 14,000 vehicle
+production forecast for ’22. And that’s based on the information we have at this
+point, combined with our current mitigation plans.” ECF 78 ¶ 405; ECF 78-2 at
+59.
+7 • A slide from a May 5, 2022 1Q22 Earnings Call Presentation stated:
+“Production Volume • 12,000-14,000 vehicles.” ECF 78 ¶ 406; ECF 78-2 at 64.
+• During a May 20, 2022 Interview with Lara Habib Chamat of Al Arabiya News
+10 Channel:
+11 29. Lara asked: “Let’s discuss now your global operations. We know that the company
+is facing some issues in delivering the cars due to supply chain disruptions. We
+a know that Lucid lowered the annual production target to 12,000 cars versus original
+t r u o i n r o 13 prediction of 20,000 cars for this year. When do you expect when do you expect
+Cf i things to look better?” ECF 78 ¶ 411; ECF 78-2 at 64-65.
+t
+l
+a
+cC 14
+i
+r t s f o Rawlinson responded: “Our challenge now is to ramp up the volume of this
+i
+D t c 15 incredible machine. We’re facing global supply chain challenges, as is all the
+si
+r
+e t a t S
+d
+t s i D
+n
+r
+16 a o
+lo
+u u
+o
+t r
+k
+o n
+i n
+i e n
+g
+a d r
+f
+u -
+o
+t s e
+r
+t
+w
+r rm y
+a
+a
+r
+c
+d
+n h d
+t
+a
+o
+o l l
+h
+t e h
+i
+n
+t
+e
+t
+g r
+in
+e i s
+g
+n w d
+o
+u i
+u
+t s h
+r
+t r
+c i
+o e s m
+t
+.
+o
+m A
+o
+n d
+,
+d
+i t
+w y
+e g ’
+u
+o r
+n
+o e
+i
+d
+t
+w s
+s
+o a
+t
+r
+h
+r k
+a
+e i
+t
+n b
+w
+g ei
+e
+a n
+’
+s
+r
+g s
+e
+i r d
+t
+e
+a
+u s
+r
+o o
+g
+l u
+e
+v s
+t
+e
+i
+l d
+n
+y
+g
+a to n
+f o
+d o
+r
+v w e e rc ’r o e m e
+ee 17
+th
+i nt
+r
+production this year.” ECF 78 ¶ 412; ECF 78-2 at 64-65.
+Uo
+N 18
+• In a May 26, 2022 article published by Business Insider:
+Nat Lingo, a Lucid spokesperson stated Lucid was “committed to maintaining a
+consistent, high level of quality as we ramp production towards our year-end goal
+21 of 12,000 to 14,000 vehicles.” ECF 78 ¶ 417; ECF 78-2 at 67-68.
+i. Adequacy of Allegations
+23 Defendants argue that Lead Plaintiff does not allege particularized facts to plausibly allege
+24 that Statements 1-30 were false or misleading. ECF 83 at 15. Specifically, Defendants attack the
+25 sufficiency of Lead Plaintiff’s allegations with respect to statements about Lucid’s production
+26 targets (Statements 1-4, 6, 8-10, 12-16, 18-23, 25-30), Lucid’s manufacturing capacity (Statements
+27 4 and 7), and the reasons for Lucid’s production delays (Statements 1-3, 5, 9-18, 20-21, 24-26,
+28 29). ECF 15 at 15-19.
+1 Before turning to each category, the Court notes that Defendants have lumped the
+2 following statements into the first category, though portions of them do not concern production
+3 targets: Statements 3 (portion indicating that Lucid was making deliveries “with the highest
+4 standard of quality”), 4 (discussing factory capacity), 12 (indicating Lucid’s “unwavering
+5 commitment to the highest standards”), 14 (discussing supply chain challenges), 15 (referencing
+6 supplier issues), 16 (stating that Lucid prioritizes quality over numbers), 18 (referring to global
+7 supply chain challenges), 20 (same), 21 (same), 30 (portion expressing commitment “to
+8 maintaining a consistent, high level of quality as [Lucid] ramp[s] production”).
+9 As to portions of Statements 3, 12, 16, and 30 that merely concern Lucid’s commitment to
+10 quality, without relying on quality as an excuse for production delays, Lead Plaintiff’s
+11 consolidated complaint does not contain particularized facts as to why those portions were false or
+a
+12 misleading. See Scheller v. Nutanix, Inc., 450 F. Supp. 3d 1024, 1039 (N.D. Cal. 2020) (“In order
+t r i n
+u o r o 13 to adequately allege that [defendant] made misleading statements regarding product quality,
+Cf
+i
+t
+l
+a
+cC 14 plaintiffs must allege with specificity how each alleged statement was false or misleading at the
+i
+r t s f o
+i
+D t c 15 time it was made, and ho[w] it was not mere puffery.”). The Court discusses Statements 12 (in
+si
+r
+et
+t a t s i D 16 part), 14, 15, 16, 18, 20, and 21 with the other statements about the reasons for Lucid’s production
+S
+d
+n
+r
+ee 17 delays and Statement 4 with the other statement about Lucid’s manufacturing capacity.
+th
+i nt
+r
+Uo
+N 18 Moreover, the Court notes that Lead Plaintiff has failed to adequately allege falsity as to
+19 the following statements, which do not cleanly fit into any of the three categories Defendants
+20 outline: Statement 1 (portion that reads “[w]e are taking steps to mitigate these challenges”),
+21 5 (portions discussing mitigation plans and mitigating risk), 12 (portion discussing “deep
+22 deliveries” that Lucid accomplished), 18 (portion indicating that Lucid team “continues to work
+23 hard to mitigate these risks”), 20 (portion indicating that Lucid “continued to make progress in the
+24 first quarter of 2022”), 21 (portion indicating Lucid was working closely with suppliers to mitigate
+25 impact of disruption), 25 (same), 28 (portion indicating Lucid was working to overcome near-term
+26 challenges), 29 (portion that states Lucid was “working assiduously to overcome [its] near-term
+27 challenges with commodity goods”). See Wochos, 985 F.3d at 1196 (“Tesla’s remark . . . that
+28 ‘great progress’ was being made on battery production would potentially be an actionable false
+1 statement only if, as the district court put it, Tesla had been ‘making no progress at all.’ Plaintiffs
+2 pleaded no facts that would establish falsity in that sense.”). The Court offers this guidance to aid
+3 Lead Plaintiff in the preparation of a more focused amended complaint. The Court now turns to
+4 the remaining statements Defendants identify as falling in the first category.
+5 a) Production targets
+6 Defendants challenge the following statements on the ground that Lead Plaintiff has not
+7 sufficiently alleged falsity: Statement 1 (“We remain confident in our ability to achieve 20,000
+8 units in 2022.”), 2 (“Heading into 2022, we remain committed to our plan to achieve 20,000 units
+9 in the calendar year.”), 6 (“[W]e’re looking to produce about 20,000 units.”); 8 (“Updating 2022
+10 production outlook for Lucid Air to a range of 12,000 to 14,000 vehicles.”), 9 (“Looking ahead,
+11 we’re updating our outlook for production to a range of 12,000 to 14,000 vehicles.”), 10 (“[W]e
+12 have updated our 2022 production outlook for Lucid Air to a range of 12,000 to 14,000
+a
+t r i n
+u o r o 13 vehicles.”), 13 (“We’re updating our outlook for 2022 production to a range of 12,000 to 14,000
+Cf
+i
+t
+l
+a
+cC 14 vehicles.”), 19 (“ ‘Lucid reiterated its 2022 production volume outlook of 12,000 to 14,000
+i
+r t s f o
+i
+D t c 15 vehicles’ and that ‘Lucid’s [p]roduction volume outlook for 2022 remains on track at 12,000 to
+si
+r
+et
+t a t s i D 16 14,000 vehicles.’ ”) (modification in original), 22 (“[T]oday we are reiterating our 12,000-14,000
+S
+d
+n
+r
+ee 17 vehicle production forecast for 2022[.]”), 23 (“And this growth progression keeps us nicely on
+th
+i nt
+r
+Uo
+N 18 track for our 12,000 to 14,000 production targets.”), 25 (“[T]oday we are reiterating our 12,000 to
+19 14,000 vehicle production guidance for 2022[.]”), 26 (“[W]e are reiterating our 12,000 to 14,000
+20 guidance for the balance of the year.”), 27 (“We’re reiterating our 12,000 to 14,000 vehicle
+21 production forecast for ’22.”), 28 (“Production Volume • 12,000-14,000 vehicles.”), 29 (“[W]e’re
+22 looking forward to hitting our 12 to 14,000 units that we’re targeting for production this year.”),
+23 30 (discussing ramping up “production towards our year-end goal of 12,000-14,000 vehicles”).
+24 ECF 88 at 16.
+25 “The most direct way to show both that a statement was false when made and that the party
+26 making the statement knew that it was false is via contemporaneous reports or data, available to
+27 the party, which contradict the statement.” Nursing Home Pension Fund Local 144 v. Oracle
+28 Corp., 380 F.3d 1226, 1230 (9th Cir. 2004).
+1 To demonstrate that here, Lead Plaintiff offers statements from former employees.8
+2 Former employee 2 “(“FE-2”) worked for “Lucid in multiple positions in the Company’s Logistics
+3 Department from the summer of 2020 to the end of 2021. From the end of 2020 to the end of
+4 2021, FE-2 held coordinator and supervisory roles in Lucid’s Warehouse.” ECF 78 ¶ 58. FE-2
+5 stated that during meetings held during October 2021, Rawlinson and others “made statements
+6 that Lucid was going to miss its year-end vehicle production targets for 2021, 2022, and 2023,”
+7 and directed employees to keep the information “confidential and not to share it.” Id. ¶ 288. FE-2
+8 also stated that at one meeting, held in October 2021 or the first week of November 2021,
+9 “Rawlinson stated Lucid would make less than 10,000 vehicles in 2022.” Id. ¶ 289. FE-2 recalls
+10 Rawlinson instructing that this information “should be kept in your ‘belt loop.’ ” Id. FE-2 also
+11 indicated that Rawlinson “only discussed the fact that Lucid would miss its production targets in
+12 the smaller group setting, and that Rawlinson was telling them so they would not kill themselves
+a
+t r i n
+u o r o 13 to meet targets that Lucid would miss.” Id.
+Cf
+i
+t
+l
+a
+cC 14 This account is consistent with that of former employee 1 (“FE-1”), who worked for
+i
+r t s f o
+i
+D t c 15 “Lucid in several managerial and supervisory roles relating to logistics from mid-2021 to mid-
+si
+r
+et
+t a t s i D 16 2022. . . . At the Plant in Casa Grande, FE-1 supervised and had responsibilities concerning
+S
+d
+n
+r
+ee 17 Lucid’s internal logistics. By late summer 2021, FE-1 moved to and was working at Lucid’s
+th
+i nt
+r
+Uo
+N 18 Warehouse, where he remained for the rest of his tenure at Lucid.” Id. ¶ 57. During his “meetings
+19 with Rawlinson in September 2021 and November 2021, FE-1 personally told Rawlinson, in the
+20 context of discussing Lucid’s internal logistics issues[,] that because of all of those issues, Lucid
+21 would never meet its production goals,” to which “Rawlinson reacted by nodding his head.” Id.
+22 ¶ 291.
+8 For the reasons set forth in the section discussing scienter, the Court takes the allegations based
+on the observations of the former employees discussed in this order as true, as Lead Plaintiff
+plausibly alleges that these former employees observed the circumstances they describe first-hand,
+26 and Defendants do not dispute that the former employees “saw what they claim to have seen,”
+with the exception of FE-2. See In re BoflHolding, Inc. Sec. Litig., 977 F.3d 781, 793 (9th Cir.
+2020) (finding that facts alleged by midlevel auditor revealed that a number of alleged
+misstatements were false).
+1 In the context of the first category of statements Defendants attack, FE-1’s and FE-2’s
+2 statements can only be tied to Statements 1 and 2, made on November 15, 2021. See Crews v.
+3 Rivian Auto., Inc., No. 2:22-CV-01524-JLS-E, 2023 WL 4361098, at *8 (C.D. Cal. July 3, 2023)
+4 (“A plaintiff may rely on contemporaneous statements or conditions to demonstrate why
+5 statements were false when made[.]”). Rawlinson, however, did not make Statement 2. House
+6 did. Other than the assertion that Rawlinson and House “worked together to promote” the
+7 production guidance, ECF 88 at 25, Lead Plaintiff does not connect any of the statements from
+8 FE-1 or FE-2 to House or establish that House held or adopted the negative views those former
+9 employees expressed about Lucid’s ability to meet its production targets. Cf. Robb v. Fitbit Inc.,
+10 No. 16-CV-00151-SI, 2017 WL 219673, at *6 (N.D. Cal. Jan. 19, 2017) (failing to allege that
+11 executive did not share information with other defendants was not fatal where a holistic evaluation
+12 of the allegations presented a cogent and compelling argument that information known to the
+a
+t r i n
+u o r o 13 executive would have been known to the other defendants).
+Cf
+i
+t
+l
+a
+cC 14 As a result, Lead Plaintiff’s existing allegations are insufficient to show that House made
+i
+r t s f o
+i
+D t c 15 Statement 2 while possessing knowledge of contradictory information. See Khoja, 899 F.3d at
+si
+r
+et
+t a t s i D 16 1008 (“Falsity is alleged when a plaintiff points to defendant’s statements that directly contradict
+S
+d
+n
+r
+ee 17 what the defendant knew at that time.”) (citations omitted); Quality Systems, 865 F.3d at 1142-44
+th
+i nt
+r
+Uo
+N 18 (finding actionable a statement about new customer sales where speaker allegedly knew sales
+19 opportunities were decreasing).
+20 As to Statement 1, the accounts from FE-1 and FE-2 plausibly suggest that when
+21 Rawlinson said “[w]e remain confident in our ability to achieve 20,000 units in 2022,” he
+22 possessed contrary facts and had subscribed to the former employees’ views that meeting Lucid’s
+23 projection goals was not possible at that time. This is sufficient. Cf. Wochos, 985 F.3d at
+24 1194 (“Plaintiffs rely on allegations that two employees told Musk in 2016 that the goal of
+25 producing 5,000 cars per week by the end of 2017 was impossible to achieve, but the district court
+26 correctly held that Plaintiffs failed to plead any facts showing that Musk ever accepted those
+27 employees’ views that the goal was impossible.”); In re Talis Biomedical Corp. Sec. Litig., No.
+28 22-CV-00105-SI, 2022 WL 17551984, at *15 (N.D. Cal. Dec. 9, 2022) (concluding that
+1 allegations that CEO was “ ‘notorious’ for not having a scheduling buffer support[ed] an inference
+2 that [he] was aggressive in setting timelines, rather than an inference that statements about
+3 projected timelines were false when made.”).
+4 For these reasons, the Court finds that the portion of Statement 1 discussed above is
+5 adequately pleaded, but the portions of Statements 2, 6, 8, 9, 10, 13, 19, 22, 23, 25, 26, 27, 28, 29,
+6 30 discussing projection targets are not adequately pleaded because the complaint lacks allegations
+7 indicating that the speaker possessed contemporaneous knowledge that the statements were false
+8 when made.9
+9 b) Manufacturing Capacity
+10 Defendants argue that Statements 4 and 7, which concern Lucid’s manufacturing capacity,
+11 are also insufficiently pleaded. ECF 83 at 16-17. On November 16, 2021, Rawlinson told
+a
+12 CNBC’s Jim Cramer: “We already have a factory scale for 34,000 units a year. As soon as we can
+t r i n
+u o r o 13 get this quality parts to the line, we can spool that up. The factory is there and ready for 34,000
+Cf
+i
+t
+l
+a
+cC 14 units per annum.” ECF 78 ¶ 358; ECF 78-2 at 5-6 (Statement 4). On February 14, 2022, Daniel
+i
+r t s f o
+i
+D t c 15 Witt told Arizona State Senator Gabaldón: “We have the capacity to fill all the orders received to
+si
+r
+et
+t a t s i D 16 date and more.” ECF 78 ¶ 368; ECF 78-2 at 10 (Statement 7).
+S
+d
+n
+r
+ee 17 Lead Plaintiff contends that these statements were misleading because, even if it was
+th
+i nt
+r
+Uo
+N 18 literally true that Lucid’s factory was built for a production capacity of 34,000 vehicles, the
+19 company was “nowhere near ready” to fill its actual orders because of “severe internal issues” that
+20 Lucid was concealing from investors and the market. ECF 88 at 20.
+21 “[Section] 10(b) and Rule 10b-5(b) do not create an affirmative duty to disclose any and all
+22 material information. Disclosure is required under these provisions only when necessary ‘to
+23 make . . . statements made, in the light of the circumstances under which they were made, not
+9 Though Lead Plaintiff points to allegations about discussions between FE-2 and Rawlinson that
+26 took place in February 2022, those statements merely establish knowledge of inventory issues.
+This is insufficient to establish falsity as to any contemporaneous statements absent an allegation
+that Rawlinson adopted FE-2’s views about the inability to meet production targets at that time.
+See Wochos, 985 F.3d at 1194; In re Talis Biomedical Corp. Sec. Litig., 2022 WL 17551984, at
+*15.
+1 misleading.’ ” Macquarie Infrastructure Corp. v. Moab Partners, L.P., 601 U.S. 257, 263 (2024)
+2 (quoting Matrixx Initiatives, Inc. v. Siracusano, 563 U.S. 27, 44 (2011)). A statement is
+3 misleading by omission if it “affirmatively create[s] an impression of a state of affairs that differs
+4 in a material way from the one that actually exists.” Brody v. Transitional Hospitals Corp., 280
+5 F.3d 997, 1006 (9th Cir. 2002) (citation omitted).
+6 Here, Statement 4 gives that impression. It suggests that once “quality parts” made it “to
+7 the line,” Lucid was ready to operate at the capacity its manufacturing facility was built for. Lead
+8 Plaintiff’s allegations, however, describe a materially different picture of Lucid’s actual
+9 manufacturing capacity. Lucid did not have a functioning inventory control and management
+10 system, leaving employees with little to no information about how many parts the company had,
+11 where they were, and whether they were usable. ECF 78 ¶¶ 136, 140, 298. As a result, employees
+12 tried to manually track and manage inventory, leading to inaccuracies, inefficiencies, and
+a
+t r i n
+u o r o 13 production delays. Id. ¶ 142. Lucid’s warehouse was also “well over-capacity, which led to parts
+Cf
+i
+t
+l
+a
+cC 14 getting lost or destroyed and constant delays in production” and prevented parts from getting to
+i
+r t s f o
+i
+D t c 15 the “production line in an effective and timely fashion, which resulted in frequent and often
+si
+r
+et
+t a t s i D 16 elongated production shuts downs.” Id. ¶¶ 136, 178, 298. Lucid “experienc[ed] significant issues
+S
+d e
+n
+r e 17 with reflashing, sequencing, and quality checks at the Warehouse, which resulted in delays in
+th
+i nt
+r
+Uo
+N 18 delivering parts to the line, as well as deficient parts being delivered to the line.” Id. ¶ 298. In
+19 addition, “the Lucid Air had design flaws that were preventing Lucid’s chosen suppliers from
+20 producing parts in the quantity and quality that Lucid required to build the Air.” Id. ¶¶ 136, 239.
+21 This meant that while production was in progress, “Lucid was scrambling to redesign parts on the
+22 fly and to find temporary workarounds to produce cars with faulty or outdated parts.” Id. ¶ 136.
+10 FE-9, a contract employee who worked in the Reflashing Department at Lucid’s warehouse
+describes “reflashing” as “the updating of the software component of parts received from a vendor
+26 with the most updated software available for the part.” ECF 78 ¶¶ 65, 131.
+27 11 FE-1, who worked in supervisory and managerial roles concerning logistics at Lucid’s
+warehouse and plant, describes “sequencing” as “the process by which certain parts of vehicles,
+including bumpers, cameras, and tires, are put together manually”. Id. ¶¶ 57, 133.
+1 By the time Rawlinson made Statement 4 on November 16, 2021, Rawlinson had
+2 acknowledged that these difficulties meant that Lucid would not meet its upcoming production
+3 goal. According to FE-2, at meetings held in October or November 2021, “Rawlinson stated that
+4 Lucid would make less than 10,000 vehicles in 2022,” and attendees indicated that the reasons
+5 why Lucid would miss its production targets included inventory control problems, vehicle
+6 redesign, and supply chain issues. Id. ¶¶ 288-89. According to FE-1, during “meetings . . . in
+7 September 2021 and November 2021,” when FE-1 told Rawlinson that Lucid would never meet its
+8 production goals because of internal logistics issues, “Rawlinson reacted by nodding his head.”
+9 Id. ¶ 291.
+10 In light of these allegations, the Court finds that Statement 4 “affirmatively create[d] an
+11 impression of a state of affairs that differs in a material way from the one that actually exist[ed].”
+12 See In re QuantumScape Sec. Class Action Litig., 580 F. Supp. 3d 714, 730 (N.D. Cal. 2022)
+a
+t r i n
+u o r o 13 (internal quotations and citation omitted). While Rawlinson may have been truthfully describing
+Cf
+i
+t
+l
+a
+cC 14 that Lucid had built manufacturing facilities capable of building 34,000 vehicles, he gave the
+i
+r t s f o
+i
+D t c 15 impression that Lucid was in a position to realize that capacity as soon as Lucid could “get . . .
+si
+r
+et
+t a t s i D 16 quality parts to the line.” The allegations set forth above describe circumstances that plausibly
+S
+d
+n
+r
+ee 17 show much more than that needed to happen. Rawlinson plausibly knew Lucid did not have the
+th
+i nt
+r
+Uo
+N 18 parts, could not find the parts, or could not use the parts that were necessary for that
+19 manufacturing capacity to translate to actual vehicles for delivery. Lead Plaintiff has therefore
+20 adequately alleged that Statement 4 was false and misleading. See id. at 735 (finding that
+21 plaintiffs sufficiently alleged that statement was misleading where it suggested that only two
+22 major steps remained for product development).
+23 Lead Plaintiff has not, however, adequately pleaded that Statement 7 was false or
+24 misleading. It has drawn no similar connection between the allegations detailed above and Daniel
+25 Witt, Lucid’s Head of State & Local Public Policy, who is the source of Statement 7. Because
+26 Lead Plaintiff has failed to allege facts plausibly showing that Witt knew Statement 7 was false
+27 and misleading at the time he made it, Lead Plaintiff’s current allegations as to Witt’s statement
+28 are insufficient at this stage. See Crews, 2023 WL 4361098, at *8 (“[T]o be actionable, a
+1 statement must be known to be false or misleading at [the time made] by the people who made
+2 them.”) (internal quotations and citations omitted; modifications in original). Lead Plaintiff’s
+3 allegations as to Statement 7 are also insufficient because they are silent as to Witt’s authority to
+4 speak on behalf of Lucid. See In re Facebook, Inc. Sec. Litig., 87 F.4th at 952 (stating, in the
+5 context of analyzing scienter, that “[f]or obvious reasons, an actionably misleading statement must
+6 be made by a spokesperson who has actual or apparent authority”) (internal quotations and
+7 citations omitted). Lead Plaintiff’s argument that Lucid, not Witt, is the maker of Statement 7
+8 does not save it from dismissal. Lead Plaintiff’s reliance on In re Alphabet, Inc. Sec. Litig., 1
+9 F.4th 687, 705-06 (9th Cir. 2021) is misplaced. There, the Ninth Circuit found the allegations
+10 sufficient to establish that the CEO knew about operational problems at the time SEC disclosures
+11 were made, and thus, the CEO’s knowledge could be fairly imputed to the company. Id. at 706.
+12 Here, Lead Plaintiff seeks to impute knowledge on Lucid through the statement Witt made though
+a
+t r i n
+u o r o 13 Witt’s knowledge is insufficiently alleged. While In re Alphabet allows Rawlinson’s knowledge
+Cf
+i
+t c
+l
+a C 14 to be fairly imputed on Lucid, it does not support the same result as to Witt.12
+i
+r t s f o
+i
+D t c 15 Accordingly, Lead Plaintiff has adequately pleaded that Statement 4 is false or misleading
+si
+r
+et
+t a t s i D 16 but its allegations as to Statement 7 are insufficient.
+S
+d e
+n
+r e 17 c) Reasons for Delay
+th
+i nt
+r
+Uo
+N 18 The third category of statements Defendants contend are insufficiently pleaded include:
+19 Statement 1 (portion referencing “global disruptions to supply chains and logistics”), 2 (portion
+20 mentioning “extraordinary supply chain and logistics challenges that the automotive industry has
+21 been facing”), 3 (portion referring to “challenging environment as COVID-19 continues to present
+22 numerous obstacles for the auto industry and supply chain”), 5 (portion discussing “today’s supply
+23 chain shortages that the entire industry” and “many industries are facing”), 9 (referring to
+24 “extraordinary supply chain and logistics challenges [Lucid] encountered and [its] unrelenting
+25 focus on delivery the highest-quality products”), 10 (“like many manufacturers, [Lucid’s]
+27 12 This conclusion applies equally to Statement 6, also made by Witt, and Statement 30, made by
+Nat Lingo, a “Lucid spokesperson.” ECF 78 ¶¶ 337.
+1 production has been and indeed continued to be impacted by supply chain challenges”),
+2 11 (referencing supply chain issues, components shortages, logistics issues, and insistence on
+3 highest quality parts), 12 (referencing “extraordinary supply chain and supply quality challenges”
+4 and stating that Lucid “could have chosen to build faster, but . . . elected not to sacrifice quality”),
+5 13 (referencing bottlenecks in the supply chain), 14 (stating Lucid “is managing through supply
+6 chain challenges that you’ve heard about in numerous companies across industries this earning
+7 season”), 15 (referencing supplier issues), 16 (referencing supplier issues and “quality over
+8 volume”), 17 (stating that “bottlenecks were caused by a handful of suppliers” and that Lucid was
+9 “gated by silicon chips,” not the “ability to make electric motors”), 18 (stating that Lucid is “not
+10 immune to the challenging global environment that has impacted parts of our supply chain and
+11 logistics”), 20 (indicating progress “despite on-going global supply chain challenges”), 21
+a
+12 (“Similar to many companies in our industries, we continue to face global supply chain and
+t r i n
+u o r o 13 logistics challenges, including Covid-related factory shutdowns in China.”), 24 (“COVID
+Cf
+i
+t
+l
+a
+cC 14 lockdowns in China that’s impacting others in the industry are also resulting in some bottlenecks
+i
+r t s f o
+i
+D t c 15 for us”), 25 (referencing “global supply chain and logistics challenges, including COVID-related
+si
+r
+et
+t a t s i D 16 factory shutdowns in China”), 26 (portion reiterating guidance but noting “so long as the supply
+S
+d
+n
+r
+ee 17 chain logistics disruptions aren’t material and our mitigation plans are effective”), and 29
+th
+i nt
+r
+Uo
+N 18 (“[W]e’re facing global supply chain challenges, as is all the auto industry and other industries.”).
+19 Lead Plaintiff argues that Statements 1, 3-6, 9-18, 20-22, 24-27, 2913 were materially false
+20 or misleading because Lucid attributed its production problems to “global, industrywide supply
+22 13 The Court notes that while Defendants did not include Statements 4, 6, 22, and 27 in this third
+category, Lead Plaintiff offers arguments as to why they were false and misleading in this context.
+23 The Court has already analyzed Statements 4 and 6 above and will not repeat that analysis here.
+As to the portions of Statements 22 (“While any extended disruptions could result in an impact to
+our production . . . .”) and 27 (“And that’s based on the information we have at this point . . . .”),
+that the Court has not addressed in the discussion of projection targets, Lead Plaintiff has not
+sufficiently alleged why those portions are false and misleading. In addition, Defendants include
+26 Statement 2 in the third category, but Lead Plaintiff does not address it. While a party concedes an
+argument by failing to respond to it, see Ardente, Inc. v. Shanley, No. C 07-4479 MHP, 2010 WL
+546485, at *6 (N.D. Cal. Feb. 9, 2010) (“Plaintiff fails to respond to this argument and therefore
+concedes it through silence.”), that is of no moment here, as the Court’s rationale for why
+Statement 2 fails to the extent it discusses production targets applies equally to the portion of
+1 chain and logistics issues” rather than “fundamental and persistent internal issues preventing mass
+2 production.” ECF 88 at 17.
+3 As to the risks Rawlinson articulated in Statements 1, 3, and 5, made around the time of
+4 the meetings FE-1 and FE-2 describe, the Court finds Lead Plaintiff has adequately alleged a false
+5 or misleading statement. By describing Lucid’s production problems as attributable to supply
+6 chain and logistics issues stemming from a pandemic that affected the auto industry and others
+7 across-the-board, Rawlinson gave the impression that Lucid stood on equal footing with other
+8 companies facing the same global supply chain and logistical challenges posed by an
+9 unprecedented global health crisis. This, however, concealed that Lucid’s own internal
+10 operational failings had materialized, which was something instead unique to Lucid and unrelated
+11 to the pandemic. See In re Facebook, Inc. Sec. Litig., 87 F.4th at 950 (“A company may make a
+12 materially misleading statement when it speaks entirely of as-yet-unrealized risks when the risks
+a
+t r i n
+u o r o 13 have already come to fruition.”) (citations omitted).
+Cf
+i
+t
+l
+a
+cC 14 As to the remaining statements comprising this category, the Court concludes that they are
+i
+r t s f o
+i
+D t c 15 insufficiently pleaded for the same reasons the statements discussing production targets fail. See
+si
+r
+et
+t a t s i D 16 supra pp. 17-20.
+S
+d
+n
+r
+ee 17 Having analyzed each category of statements Defendants challenge, the Court finds that
+th
+i nt
+r
+Uo
+N 18 Lead Plaintiff has adequately pleaded falsity as to Statements 1, 3, 4, and 5. The Court now turns
+19 to whether the statements are not actionable on other grounds, i.e., whether they are protected by
+20 the PSLRA’s safe harbor, are statements of opinion, or constitute mere corporate puffery.
+21 ii. Safe Harbor
+22 Defendants assert that Statements 1-10, 13, 15, 17, 19, 22-23, 25-30 are subject to the
+23 PSLRA’s safe harbor provision. ECF 83 at 19-21.14 Lead Plaintiff argues that the safe harbor
+Statement 2 that discusses reasons for delay.
+26 14 With their opening brief, Defendants submitted a chart purporting to summarize the basis on
+which each statement is challenged. See ECF 83-16. There are discrepancies between
+Defendants’ brief and the chart. Compare ECF 83 at 1-13 (identifying statements 1-10, 13, 15, 17,
+19, 22-23, 25-30 as forward looking) with ECF 83-16 at 8-15 (showing a checkmark in PSLRA
+safe harbor column for statements 12, 14, 16, 18, 20, 21, 24 in addition to the statements identified
+1 does not apply because the statements claimed to be protected were statements about problems
+2 that “purportedly had been or were currently” facing Lucid. ECF 88 at 21. That is, the statements
+3 were not “misleading because they failed to predict the future, but because they concealed or
+4 downplayed current facts about Lucid’s internal problems.” Id. Lead Plaintiff specifically points
+5 to Statements 3-7, 9-16, 18, 21, 25, 27, 29-30. ECF 21 n.9.15 The Court limits its analysis to only
+6 those statements as to which Lead Plaintiff has pleaded sufficient facts – Statements 1, 3, 4, and 5
+7 – as discussed above.
+8 The safe harbor provision provides:
+9 Except as provided in subsection (b), in any private action arising
+under this chapter that is based on an untrue statement of a material
+10 fact or omission of a material fact necessary to make the statement
+not misleading, a person . . . shall not be liable with respect to any
+11 forward-looking statement, whether written or oral, if and to the
+extent that—
+a
+12 (A) the forward-looking statement is—
+t r i n (i) identified as a forward-looking statement, and is
+u o r o 13 accompanied by meaningful cautionary statements
+Cf
+i
+t
+l
+a
+identifying important factors that could cause actual results
+c i C 14 to differ materially from those in the forward-looking
+r t s f o statement; or
+i
+D t c 15 (ii) immaterial; or
+si
+r
+et (B) the plaintiff fails to prove that the forward-looking statement—
+t a t s i D 16 (i) if made by a natural person, was made with actual
+S
+d
+n
+r
+knowledge by that person that the statement was false or
+ee 17 misleading; or
+th
+i n
+U
+t r
+o
+(ii) if made by a business entity; was—
+N 18 (I) made by or with the approval of an executive
+officer of that entity; and
+19 (II) made or approved by such officer with actual
+knowledge by that officer that the statement was false
+20 or misleading.
+21 15 U.S.C. § 78u-5(c)(1).
+23 in the opposition brief but showing no checkmark for statement 17). Where those discrepancies
+exist, the Court disregards the chart.
+15 Defendants note that Lead Plaintiff “do[es] not dispute . . . that statements ##1-2, 8, 19, 22-23,
+26, and 28 are forward-looking.” ECF 94 at 13. On that basis, they argue that Lead Plaintiff has
+26 conceded the issue. Id. Because the Court is granting leave to amend, it will address whether
+Statement 1 is forward-looking notwithstanding Lead Plaintiff’s failure to specifically address
+Defendants argument on that point. In drafting its amended complaint, Lead Plaintiff should
+consider including only the statements it can fully defend within the default page limits applicable
+to any future briefing.
+1 A forward-looking statement is “any statement regarding (1) financial projections,
+2 (2) plans and objectives of management for future operations, (3) future economic performance, or
+3 (4) the assumptions ‘underlying or related to’ any of these issues.” No. 84 Employer-Teamster
+4 Joint Council Pension Trust Fund v. Am. W. Holding Corp., 320 F.3d 920, 936 (9th Cir. 2003)
+5 (citing 15 U.S.C. § 78u(i)). “[A] defendant will not be liable for a false or misleading statement if
+6 it is forward-looking and either is accompanied by cautionary language or is made without actual
+7 knowledge that it is false or misleading.” Wochos, 985 F.3d at 1190 (internal quotations and
+8 citations omitted). However, “the safe harbor is not designed to protect companies and their
+9 officials when they knowingly make a materially false or misleading statement about current or
+10 past facts.” Quality Systems, 865 F.3d at 1142. It is also not “designed to protect them when they
+11 make a materially false or misleading statement about current or past facts, and combine that
+a
+12 statement with a forward-looking statement.” Id. When “mixed” statements such as these are at
+t r i n
+u o r o 13 issue, “only the forward-looking aspects could be immunized from liability. . . .” Wochos, 985
+Cf
+i
+t
+l
+a
+cC 14 F.3d at 1190 (citing Quality Systems, 865 F.3d at 1141-42).
+i
+r t s f o
+i
+D t c 15 The portion of Statement 1 stating “[w]e remain confident in our ability to achieve 20,000
+si
+r
+et
+t a t s i D 16 units in 2022” is a forward-looking statement. See Wochos, 985 F.3d at 1192 (“Tesla’s goal to
+S
+d
+n
+r
+ee 17 produce 5,000 vehicles per week is unquestionably a forward-looking statement . . . .”) (internal
+th
+i nt
+r
+Uo
+N 18 quotations and citation omitted).
+19 The portions of Statement 1, 3, 4, 5 containing language like “[w]e are taking steps to
+20 mitigate these challenges,” “we have continued to deliver against our time line and with the
+21 highest standard of quality,” “[a]s soon as we can get this quality parts to the line, we can spool
+22 that up,” “the factory is there and ready,” or describing existing challenges are not forward-
+23 looking statements. This language conveys information about current or past facts, and as such,
+24 the statements containing them are not protected by the PSLRA’s safe harbor. See
+25 QuantumScape, 580 F. Supp. 3d at 737 (statement that technology is “ready for commercial
+26 deployment as soon as we can scale up production” was not forward-looking); Wochos, 985 F.3d
+27 at 1193 (statement that Tesla had “stated the installation of Model 3 manufacturing equipment”
+28 was not forward-looking).
+1 Even if the Statements 1, 3, 4, and 5 were forward-looking in their entirety, they would not
+2 be protected under the safe harbor for lack of meaningful cautionary language.16 In order to be
+3 “meaningful,” cautionary language must identify “important factors that could cause actual results
+4 to differ materially from those in the forward-looking statement[.]” 15 U.S.C. § 78u-5(c)(1)(A)(i).
+5 “To be adequate . . . , the caution must ‘discredit the [allegedly misleading statements] so
+6 obviously that the risk of real deception drops to nil.’ ” QuantumScape, 580 F. Supp. 3d at 737
+7 (quoting Virginia Bankshares, Inc. v. Sandberg, 501 U.S. 1083, 1097 (1991)).
+8 The language Defendants rely on here falls short of this standard. Any purported
+9 cautionary language within the statements themselves portrays a global, pandemic-focused picture
+10 of the challenges impeding production, rather than specific internal problems unattributable to a
+11 circumstance affecting Lucid and its competitors alike. In the statements themselves, then, the
+a
+12 caution does not “precisely and directly address the alleged misrepresentations.” See id. (internal
+t r i n
+u o r o 13 quotations, citations, and modifications omitted).
+Cf
+i
+t
+l
+a
+cC 14 The warnings in SEC filings of hypothetical risks that could impact Lucid’s operations fare
+i
+r t s f o
+i
+D t c 15 no better. For example, Lucid’s Form 10-Q, filed with the SEC on November 15, 2021 states:
+si
+r
+e
+t a t S
+d
+t
+s i D
+n
+r
+16 • “
+fr
+W
+eq
+e
+u
+h
+en
+av
+tl
+e
+y
+e
+e
+n
+x
+c
+p
+o
+e
+u
+ri
+n
+e
+t
+n
+e
+c
+re
+e
+d
+d
+a
+b
+n
+y
+d
+e
+e
+a
+x
+rl
+p
+y
+e
+-
+c
+s
+t
+t a
+t
+g
+o
+e
+c
+c
+o
+o
+n
+m
+tin
+p
+u
+a
+e
+n i
+t
+e
+o
+s
+e
+i
+n
+n
+c
+r
+o
+a
+u
+p
+n
+id
+te
+ly
+r r
+c
+i
+h
+sk
+an
+s
+g
+a
+i
+n
+n
+d
+g
+u
+m
+n
+a
+c
+r
+e
+k
+rt
+e
+a
+t
+i
+s
+n
+,
+ties
+ee 17
+th
+i nt
+r
+including risks relating to our ability to, among other things . . . establish and refine our
+Uo
+N 18 commercial manufacturing capabilities and distribution infrastructure[.]” ECF 83-2 at
+6-7.
+• “We have experienced and may in the future experience significant delays in the
+design, manufacture, launch and financing of the Lucid Air, which could harm our
+21 business and prospects.” ECF 83-2 at 13.
+22 • “Our plan to commercially manufacture and sell the Lucid Air is dependent upon the
+timely availability of funds, upon our finalizing of the related design, engineering,
+component procurement, testing, build-out and manufacturing plans in a timely manner
+and also upon our ability to execute these plans within the planned timeline.” ECF 83-
+2 at 14.
+16 As discussed in the section discussing production targets, these statements would also not be
+entitled to protection under the actual knowledge prong, as Lead Plaintiff has sufficiently alleged
+that Rawlinson made these statements while in possession of facts that contradicted them. See
+Quality Systems, 865 F.3d at 1142.
+• “[W]e rely on third party suppliers for the provision and development of many of the
+key components and materials used in our vehicles. To the extent our suppliers
+experience any delays in providing us with or developing necessary components, we
+could experience delays in delivering on our timelines.” ECF 83-2 at 14.
+• “We cannot provide any assurance as to whether we will be able to develop efficient,
+automated, low-cost production capabilities and processes and reliable sources of
+component supply that will enable us to meet the quality, price, engineering, design
+and production standards, as well as the production volumes, required to successfully
+6 mass market our vehicles.” ECF 83-2 at 16.
+7 • “Bottlenecks and other unexpected challenges may also arise as we ramp production of
+the Lucid Air, and it will be important that we address them promptly while continuing
+to control our manufacturing costs. If we are not successful in doing so, or if we
+experience issues with our manufacturing process improvements, we could face delays
+in establishing and/or sustaining our production ramps[.]” ECF 83-2 at 17.
+• “[O]ur volume production of the Lucid Air and planned future vehicles will necessitate
+continued development, maintenance and improvement of our information technology
+and communication systems in the United States and abroad, such as systems for
+t r
+a
+i n
+product data management, procurement, inventory management, production planning
+u o r o 13 and execution, sales, service and logistics, dealer management, financial, tax and
+Cf
+i regulatory compliance systems. Our ability to operate our business will depend on the
+t
+l
+a
+cC 14 availability and effectiveness of these systems. The implementation, maintenance,
+i
+r t s f o segregation and improvement of these systems require significant management time,
+i
+D t c 15 support and cost. Moreover, there are inherent risks associated with developing,
+si
+r
+e t a t S
+d e
+t s i D
+n
+r e
+i i
+e
+m n
+x
+c
+e
+p l
+c
+u r
+u
+o d
+t
+v i
+i
+n
+o
+in g
+n
+g
+,
+t h
+f
+a
+i
+e n
+n
+d
+a
+d
+n
+i e s
+c
+x r
+e
+u p
+,
+p a
+s
+n t
+u
+i d o
+p
+i n
+p
+n
+l
+g o
+y
+f o
+c
+o u
+h
+u r
+a
+r c
+i n
+d o a r
+a
+e t
+n
+a s
+d
+m y
+s
+s a
+a
+t n e
+le
+m a
+s
+g s
+a
+e
+n
+m as
+d
+e w n
+se
+t e ,
+r
+l
+v
+p l
+i
+r a
+c
+o s
+e
+c i u
+p
+m r
+r
+e
+o
+p m
+c
+le
+e
+e m
+s
+n
+s
+e t
+e
+, n
+s
+m t
+.
+i
+W
+n a g n
+e
+u n f
+c
+e a
+a
+w c
+n
+t
+n
+u s
+o
+y ri
+t
+s n t
+b
+g e
+e
+m
+c
+s
+e
+,
+r tain
+th
+i nt
+r
+that these systems or their required functionality will be effectively and timely
+Uo
+N 18 developed, implemented, maintained or expanded as planned. If we are unsuccessful
+in any of the foregoing, our operations may be disrupted, our ability to accurately or
+timely report our financial results could be impaired, and deficiencies may arise in our
+internal control over financial reporting, which may impact our ability to certify our
+financial results. If these systems or their functionality do not operate as we expect
+21 them to, we may be required to expend significant resources to make corrections or
+find alternative sources for performing these functions. Any of the foregoing could
+22 materially adversely affect our business, prospects, results of operations and financial
+condition.” ECF 83-2 at 22.
+These disclosures are couched in terms of hypotheticals rather than the concrete risks that
+Lead Plaintiff alleges Rawlinson knew had materialized by the time he made Statements 1, 3, 4,
+and 5. The statements do not engage the specific allegations that Lucid never disclosed the
+“incompetence in [its] logistics system” that led to “bottlenecks,” shipment of wrong parts or those
+“that had not properly been reflashed or sequenced,” and factory shut downs for hours or even
+1 days at a time. See, e.g., ECF 78 ¶ 267. Thus, the proffered cautionary statements are too
+2 generalized for the safe harbor to apply. See In re Facebook, Inc. Sec. Litig., 87 F.4th at 951
+3 (“Broad pronouncements without meaningful acknowledgement of the known risks of improper
+4 data access and disclosure does not suffice to invoke the safe harbor provision.”); QuantumScape,
+5 80 F. Supp. 3d at 738 (finding that “a high level of generality about unspecified ‘delays’ . . . d[id]
+6 not adequately warn investors that QuantumScape in fact did not (allegedly) have a battery that
+7 would function as promised”); but see Wochos, 985 F.3d at 1193 & n.3 (finding that although
+8 plaintiffs did not directly challenge the adequacy of Tesla’s cautionary statements, such statements
+9 were sufficiently detailed and specific, where, among other things, it disclosed past “significant
+10 delays or other complications in the design, manufacture, launch and production ramp of new
+11 vehicles” and that it could experience “similar challenges with new vehicles”).
+a
+12 iii. Opinions
+t r i n
+u o r o 13 Defendants also challenge Statements 1-16, 18-19, 21-30 as non-actionable opinion. ECF
+Cf
+i
+t
+l
+a
+cC 14 83 at 21. Lead Plaintiff argues that “[m]any are representations of current facts, and thus, are not
+i
+r t s f o
+i
+D t c 15 opinions,” but only identifies four statements in that assertion. ECF 88 at 23 n.13 (listing
+si
+r
+et
+t a t s i D 16 statements 5, 10, 11, 14).17
+S
+d
+n
+r
+ee 17 “[A] fact is a thing done or existing or an actual happening. An opinion is a belief, a view,
+th
+i nt
+r
+Uo
+N 18 or a sentiment which the mind forms of persons or things. Most important, a statement of fact
+19 (‘the coffee is hot’) expresses certainty about a thing, whereas a statement of opinion (‘I think the
+20 coffee is hot’) does not.” Omnicare, Inc. v. Laborers Dist. Council Const. Indus. Pension Fund,
+21 575 U.S. 175, 183 (2015) (internal quotation marks, citations, and alterations omitted).
+22 There are “three different standards for pleading falsity of opinion statements.” City of
+23 Dearborn Heights Act 345 Police & Fire Ret. Sys. v. Align Tech., Inc., 856 F.3d 605, 615 (9th Cir.
+24 2017. If a plaintiff relies on a material misrepresentation theory, they “must allege both that ‘the
+17 Defendants note Lead Plaintiff’s failure to address many statements claimed to be nonactionable
+opinion (1-4, 6-9, 12-13, 15-16, 18-19, and 21-30), and again argue that in failing to address the
+statements, they have conceded the issue. ECF 94 at 14. The Court will nonetheless address
+whether Statements 1, 3, 4, and 5 are nonactionable opinion.
+1 speaker did not hold the belief . . . professed’ and that the belief is objectively untrue.” Id.
+2 (quoting Omnicare, Inc. v. Laborers Dist. Council Constr. Indus. Pension Fund, 575 U.S. 175,
+3 186 (2015)). If a plaintiff alleges “that a statement of fact contained within an opinion is
+4 materially misleading, the plaintiff must allege that the supporting fact the speaker supplied is
+5 untrue.” Id. (alterations, internal quotations and citation omitted). Finally, if a plaintiff relies on
+6 material omissions, they must allege “facts going to the basis for the [speaker’s] opinion . . .
+7 whose omission makes the opinion statement at issue misleading to a reasonable person reading
+8 the statement fairly and in context.” Id. (quoting Omnicare, 575 U.S. at 194).
+9 With the exception of the portion of Statement 1 expressing Rawlinson’s confidence in
+10 Lucid’s projections, Statements 1, 3, 4, and 5 express certainty about specific issues and their
+11 effects on Lucid’s operations. The issues and their effects either exist or not as factual matter. As
+12 such, subject to the exception noted above and discussed below, Statements 1, 3, 4, and 5 do not
+a
+t r i n
+u o r o 13 convey an opinion. See QuantumScape 580 F. Supp. 3d at 739 (concluding that statements about
+Cf
+i
+t
+l
+a
+cC 14 problems company “has addressed” or can address were not opinion).
+i
+r t s f o
+i
+D t c 15 As to the portion of Statement 1 that reads “[w]e remain confident in our ability to achieve
+si
+r
+et
+t a t s i D 16 20,000 units in 2022,” Lead Plaintiff has plausibly alleged that Rawlison did not hold that belief
+S
+d
+n
+r
+ee 17 and that the belief was objectively untrue. That is sufficient to allege an actionable opinion
+th
+i nt
+r
+Uo
+N 18 statement. See Dearborn, 856 F.3d at 615.
+19 Accordingly, the Court finds that Statements 1, 3, 4, and 5 are not opinion statements.
+20 iv. Puffery
+21 In the Ninth Circuit, “vague, generalized assertions of corporate optimism or statements of
+22 ‘mere puffing’ are not actionable material misrepresentations under federal securities laws”
+23 because no reasonable investor would rely on such statements. City of Royal Oak Ret. Sys. v.
+24 Juniper Networks, Inc., 880 F. Supp. 2d 1045, 1063 (N.D. Cal. 2012) (quoting In re Impac Mortg.
+25 Holdings, Inc. Sec. Litig., 554 F. Supp. 2d 1083, 1096) (citing Glen Holly Entm’t, Inc. v.
+26 Tektronix, Inc., 352 F.3d 367, 379 (9th Cir. 2003)); see In re Cutera Sec. Litig., 610 F.3d 1103,
+27 1111 (9th Cir. 2010) (“professional investors, and most amateur investors as well, know how to
+28 devalue the optimism of corporate executives”) (citation omitted). This is because “[w]hen
+1 valuing corporations, . . . investors do not rely on vague statements of optimism like ‘good,’ ‘well-
+2 regarded,’ or other feel good monikers.” In re Cutera, 610 F.3d at 1111. However, even “general
+3 statements of optimism, when taken in context,” may be misleading “when those statements
+4 address specific aspects of a company’s operation that the speaker knows to be performing
+5 poorly.” Quality Systems, 865 F.3d at 1143.
+6 Statements 1, 3, 4, and 5 are not statements of corporate puffery. As discussed above, the
+7 statements convey concrete facts about matters affecting the core of Lucid’s business. While,
+8 “[u]ltimately, the difference between a statement of fact and mere puffery rests in the specificity or
+9 generality of the claim,” see QuantumScape, 580 F. Supp. 3d at 740, here, Defendants cannot
+10 credibly minimize Statements 1, 3, 4, and 5 as statements that cannot be expected to induce
+11 reliance given the relevant context. The Court thus finds that Statements 1, 3, 4, and 5 are not
+12 puffery.
+a
+t r i n
+u o r o 13 b. Scienter
+Cf
+i
+t
+l
+a
+cC 14 In addition to its arguments about why Lead Plaintiff has failed to allege an actionable
+i
+r t s f o
+i
+D t c 15 false or misleading statement, Defendant also seeks dismissal on the ground that Lead Plaintiff
+si
+r
+et
+t a t s i D 16 does not plead particularized facts supporting a strong inference of scienter. ECF 83 at 23-28.
+S
+d
+n
+r
+ee 17 To establish scienter, the complaint must “state with particularity facts giving rise to a
+th
+i nt
+r
+Uo
+N 18 strong inference that the defendant acted with the required state of mind.” 15 U.S.C. § 78u-
+19 4(b)(2)(A). The required state of mind is “a mental state that not only covers ‘intent to deceive,
+20 manipulate, or defraud,’ but also ‘deliberate recklessness.’ ” Schueneman v. Arena Pharms., Inc.,
+21 840 F.3d 698, 705 (9th Cir. 2016) (internal citations omitted). Deliberate recklessness is “ ‘an
+22 extreme departure from the standards of ordinary care,’ which ‘presents a danger of misleading
+23 buyers or sellers that is either known to the defendant or is so obvious that the actor must have
+24 been aware of it.’ ” In re Alphabet, 1 F. 4th at 701 (emphasis in original) (quoting Nguyen v.
+25 Endologix, Inc., 962 F.3d 405, 414 (9th Cir. 2020)). The “strong inference” required by the
+26 PSLRA “must be more than merely ‘reasonable’ or ‘permissible’ – it must be cogent and
+27 compelling, thus strong in light of other explanations.” Tellabs, 551 U.S. at 324. “Facts showing
+28 mere recklessness or a motive to commit fraud and opportunity to do so provide some reasonable
+1 inference of intent, but are not sufficient to establish a strong inference of deliberate recklessness.”
+2 In re VeriFone Holdings, Inc. Sec. Litig., 704 F.3d 694, 701 (9th Cir. 2012). “A court must
+3 compare the malicious and innocent inferences cognizable from the facts pled in the complaint,
+4 and only allow the complaint to survive a motion to dismiss if the malicious inference is at least as
+5 compelling as any opposing innocent inference.” Zucco Partners, LLC v. Digimarc Corp., 552
+6 F.3d 981, 991 (9th Cir. 2009); see Nguyen, 962 F.3d at 415. In evaluating whether a complaint
+7 satisfies the “strong inference” requirement, courts must consider the allegations and other
+8 relevant material “holistically,” not “scrutinized in isolation.” In re VeriFone Holdings, 704 F.3d
+9 at 701-02 (citing Tellabs, 551 U.S. at 323, 326). Because scienter is a subjective inquiry, “the
+10 ultimate question is whether the defendant knew his or her statements were false, or was
+11 consciously reckless as to their truth or falsity.” Gebhart v. SEC, 595 F.3d 1034, 1042 (9th Cir.
+12 2010).
+a
+t r i n
+u o r o 13 To establish scienter, Lead Plaintiff relies, in part, on information from former employees.
+Cf
+i
+t
+l
+a
+cC 14 ECF 88 at 24-28. Information provided by former employees to establish scienter must “pass two
+i
+r t s f o
+i
+D t c 15 hurdles.” Zucco, 552 F.3d at 995. “First, the confidential witnesses whose statements are
+si
+r
+et
+t a t s i D 16 introduced to establish scienter must be described with sufficient particularity to establish their
+S
+d
+n
+r
+ee 17 reliability and personal knowledge. . . . Second, those statements which are reported by
+th
+i nt
+r
+Uo
+N 18 confidential witnesses with sufficient reliability and personal knowledge must themselves be
+19 indicative of scienter.” Id. (citation omitted).
+20 The Court limits this part of its analysis to the two former employees – FE-1 and FE-2 –
+21 whose reports provide the core basis for Lead Plaintiff’s allegations about Lucid’s inability to
+22 meet production goals and the conditions at Lucid’s facilities. For both of these former
+23 employees, the allegations in the consolidated complaint cover job titles, job responsibilities, and
+24 details of specific interactions with Rawlinson and other members of Lucid management. See
+25 ECF 78 ¶¶ 56, 58. The allegations establish that these former employees’ accounts, complete with
+26 approximate dates and substantive details about the topics of discussion, are consistent. See id.
+27 ¶¶ 289, 291. They align even in their descriptions of Rawlinson’s reactions to certain parts of the
+28 conversations; in one instance, Rawlinson “nodding his head,” see id. ¶ 291, in another,
+1 instructions to FE-2 along the lines of keeping the information discussed “confidential” and in the
+2 “belt loop[,]” see id. ¶ 289, instructions which are themselves indicative of scienter. See Weston,
+3 669 F. Supp. 3d at 885.
+4 In addition to the information from former employees, Lead Plaintiff also relies on
+5 allegations of financial gain. “[M]otive can be a relevant consideration, and personal financial
+6 gain may weigh heavily in favor of a scienter inference . . . .” Tellabs, 551 U.S. at 325 (citation
+7 omitted). The allegations in the complaint detail the pressure on Rawlinson to maintain certain
+8 capitalization thresholds, absent which he would not receive the lucrative stock options that he
+9 described as “what motivates and drives [him].” See ECF 78 ¶ 309. As alleged in the
+10 consolidated complaint, by concealing the truth from investors, Rawlinson was able to obtain
+11 billions in funding from multiple sources, which would allow Lucid to continue its operations and
+12 allow him to receive the equivalent of hundreds of millions of dollars in compensation. These
+a
+t r i n
+u o r o 13 financial motives help support an inference of intent to defraud, irrespective of whether Rawlinson
+Cf
+i
+t
+l
+a
+cC 14 realized any profit from the stock options he received. See QuantumScape, 580 F. Supp. 3d at
+i
+r t s f o
+i
+D t c 15 741-42 (finding scienter where defendant had raised hundreds of millions of dollars and thus had
+si
+r
+et
+t a t s i D 16 financial incentive to represent that its products were farther along and less risky than they were);
+S
+d
+n
+r
+ee 17 but see Webb v. Solarcity Corp., 884 F.3d 844, 856 (9th Cir. 2018) (lack of stock sales cut against
+th
+i nt
+r
+Uo
+N 18 a finding of scienter where executives purchased additional stock during class period).
+19 In addition, Lead Plaintiff relies on the core operations doctrine to establish scienter. The
+20 “core operations” doctrine allows the knowledge of certain facts that are critical to a business’s
+21 “core operations” to be attributed to a company’s key officers. Webb, 884 F.3d at 854.
+22 “Allegations that rely on the core-operations inference are among the allegations that may be
+23 considered in the complete PSLRA analysis.” S. Ferry LP, No. 2 v. Killinger, 542 F.3d 776, 784
+24 (9th Cir. 2008). “[C]orporate management’s general awareness of the day-to-day workings of the
+25 company’s business does not establish scienter – at least absent some additional allegation of
+26 specific information conveyed to management and related to the fraud.” Metzler Inv. GMBH v.
+27 Corinthian Colleges, Inc., 540 F.3d 1049, 1068 (9th Cir. 2008).
+1 Lead Plaintiff makes sufficient allegations to support the corporate operations inference in
+2 this case. Rawlinson admitted to Lucid employees that the company would not make its
+3 projections, instructed employees to keep the information confidential, and was aware of specific
+4 internal failings that impeded Lucid’s ability to make its only product. Indeed, during the hearing
+5 on the instant motion, Defendants admitted that “Rawlinson, came to the factory to try and really
+6 focus people on addressing these issues.” This admission, combined with Lead Plaintiff’s other
+7 allegations, supports the core operations inference here. Cf. Webb, 884 F.3d at 854 (rejecting
+8 invocation of core operations doctrine where the plaintiff had not alleged that defendants had
+9 “actual access to the accounting formula, but only generalized access to reports that may have
+10 documented its application”). Taking Lead Plaintiff’s allegations holistically, as to Rawlinson, the
+11 inference of intent to defraud here is at least as compelling as an inference of innocent conduct.
+12 As to House and any other speakers, the scienter allegations in the consolidated complaint
+a
+t r i n
+u o r o 13 fall short. Lead Plaintiff ties no allegations to Daniel Witt and Nat Lingo other than to name them
+Cf
+i
+t
+l
+a
+cC 14 as the sources of Statements 6, 7, and 30. See generally ECF 78. As to House, Lead Plaintiff’s
+i
+r t s f o
+i
+D t c 15 allegations do not approach the level of specificity of those provided for Rawlinson. They
+si
+r
+et
+t a t s i D 16 describe more sporadic involvement in Lucid’s day-to-day operations, see, e.g., ECF 78 ¶ 427
+S
+d
+n
+r
+ee 17 (request made to House for authorization to scrap production materials), ¶ 429 (attendance at one
+th
+i nt
+r
+Uo
+N 18 inventory meeting), despite assertions of “unquestionably intimate[] involve[ment]” with Lucid’s
+19 production guidance and information about the factors affecting Lucid’s performance, see id.
+20 ¶ 437. As such, the allegations concerning House, Witt, or Lingo do not give rise to a strong
+21 inference of scienter. For the reasons previously set forth in this order, the Ninth Circuit’s
+22 decision in In re Alphabet does not compel a different conclusion.
+23 2. Section 20(a) Claim
