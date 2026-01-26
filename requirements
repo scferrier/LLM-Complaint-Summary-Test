@@ -5,3 +5,7 @@ qafacteval
 pdfplumber
 PyPDF2
 pymupdf
+google-generativeai
+pandas
+python-dotenv
+openpyxl

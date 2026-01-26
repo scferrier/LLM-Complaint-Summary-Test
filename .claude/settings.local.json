@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip install:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(dir \"C:\\\\Users\\\\ScottFerrier\\\\Desktop\\\\LLM-Compl-Sum\" /s /b)",
+      "Bash(dir \"C:\\\\Users\\\\ScottFerrier\\\\Desktop\\\\LLM-Compl-Sum\\\\Processed_Text\")",
+      "Bash(wc:*)",
+      "WebSearch"
+    ]
+  }
+}

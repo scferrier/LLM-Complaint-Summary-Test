@@ -28,38 +28,44 @@ class PDFTextProcessor:
         self.max_chunk_size = max_chunk_size
         self.overlap_size = overlap_size
 
-        # Patterns for cleaning
+        # Patterns for cleaning - case headers and page identifiers
         self.header_patterns = [
-            r"Case \d+:\d{2}-cv-\d{5}-\w+ Document \d+ Filed \d{2}/\d{2}/\d{2} Page \d+ of \d+",
-            r"Case \d+:\d{2}-cv-\d{5} Document \d+ Filed \d{2}/\d{2}/\d{2} Page \d+ of \d+",
-            r"\w+ v\. \w+ et al Doc\. \d+",
-            r"\d+ Civ\. \d+ \(\w{3}\)",
+            # Case headers with various formats
+            r"Case\s+\d+:\d{2}-cv-\d+-\S+\s+Document\s+\d+\s+Filed\s+\d+/\d+/\d+\s+Page\s*ID[.\d]+\s+Page\s+\d+\s+of\s+\d+",
+            r"Case\s+\d+:\d{2}-cv-\d+-\S+\s+Document\s+\d+\s+Filed\s+\d+/\d+/\d+\s+Page\s+\d+\s+of\s+\d+",
+            r"Case\s+\d+:\d{2}-cv-\d+\s+Document\s+\d+\s+Filed\s+\d+/\d+/\d+\s+Page\s+\d+\s+of\s+\d+",
+            r"Case\s+No\.\s*\d+:\d{2}-cv-\d+-\S+",  # Case No. format
+            r"Case\s+No\.\s*\d+-cv-\d+",  # Shorter case number format
+            r"\w+\s+v\.\s+\w+.*Doc\.\s*\d+",
+            r"\d+\s+Civ\.\s+\d+\s*\(\w{3}\)",
             r"Dockets\.Justia\.com",
             r"^\s*\d+-\d+-\d+\.v\d+\s*$",  # Document control numbers like 4865-0944-1967.v1
             r"^-\s*\d+\s*$",  # Page number dashes
+            # Document title lines with case numbers (page footers)
+            r"^.*:\s*Case\s+No\.\s*\d+:\d{2}-cv-\d+",
+            r"^.*COMPLAINT.*:\s*Case\s+No\.",
+            r"^.*COMPLAINT.*Case\s+\d+:",
+            # Page footers
+            r"^\s*-\s*\d+\s*-\s*$",
+            r"^.*Page\s*ID[.\d]+\s*Page\s+\d+",
         ]
 
         self.page_number_patterns = [
             r"Page \d+ of \d+$",
             r"^\d+$",
             r"^-\s*\d+\s*-$",
+            r"^[ivxlc]+$",  # Roman numeral page numbers (i, ii, iii, iv, etc.)
+            r"^[ivxlc]+\s+of\s+\d+$",  # "i of 81" format
+            r"^of\s+\d+$",  # "of 81" fragment (from partial page numbers)
         ]
 
+        # More conservative signature block patterns - only match clear signature indicators
         self.signature_block_patterns = [
-            r"[A-Z][A-Z\s,\.]+(?:LLP|P\.C\.|PC|Esq\.|Jr\.|Sr\.|II|III|IV)",
-            r"Telephone:.*",
-            r"Fax:.*",
-            r"Email:.*",
-            r"Counsel for.*",
-            r"Lead Counsel for.*",
-            r"Additional Counsel",
-            r"SO ORDERED\.",
-            r"Dated:.*",
-            r"^\s*_+\s*$",
-            r"^\s*[A-Z][A-Z\s,\.]+\s*$",
+            r"Respectfully\s+submitted",
+            r"^/s/\s+",  # Electronic signature
+            r"^\s*_+\s*$",  # Signature underline
             r"United States District Judge",
-            r"^-\s*\d+\s*-\s*$",  # Page numbers in dashes at end
-            r"^\s*\d+\s*$",  # Standalone page numbers
+            r"SO ORDERED\.$",
         ]
 
     def extract_text_from_pdf(self, pdf_path: str) -> str:
@@ -142,8 +148,9 @@ class PDFTextProcessor:
 
     def _clean_line(self, line: str) -> str:
         """Clean individual line content."""
-        # Remove line numbers in gutters (patterns like "1.", "2.", etc. at start)
-        line = re.sub(r"^\d+\.\s+", "", line)
+        # Remove line numbers in gutters (patterns like "1.", "2.", "1 ", "25 " etc. at start)
+        line = re.sub(r"^\d+\.\s+", "", line)  # "1. " format
+        line = re.sub(r"^\d+\s+", "", line)     # "1 " or "25 " format (margin line numbers)
 
         # Remove gutter numbers in brackets
         line = re.sub(r"\[\d+\]", "", line)
@@ -170,9 +177,20 @@ class PDFTextProcessor:
         # Remove case captions (usually at beginning)
         text = self._remove_case_caption(text)
 
-        # Clean up whitespace
-        text = re.sub(r"[ \t]+", " ", text)
-        text = re.sub(r"\n[ \t]+\n", "\n\n", text)
+        # Remove table of contents
+        text = self._remove_table_of_contents(text)
+
+        # Remove table of authorities
+        text = self._remove_table_of_authorities(text)
+
+        # Remove any remaining TOC-style dot leader lines
+        text = self._remove_toc_dot_leaders(text)
+
+        # Join lines into continuous prose (remove newlines, normalize whitespace)
+        text = self._join_to_prose(text)
+
+        # Final cleanup - remove any remaining dot leaders that survived joining
+        text = self._remove_dot_leaders_from_prose(text)
 
         return text.strip()
 
@@ -228,20 +246,172 @@ class PDFTextProcessor:
         lines = text.split("\n")
         signature_start = len(lines)
 
-        # Find where signature block starts
-        for i, line in enumerate(lines):
+        # Only look at the very last 30 lines for signature blocks
+        search_start = max(0, len(lines) - 30)
+
+        for i in range(search_start, len(lines)):
+            line = lines[i]
             if any(
                 re.search(pattern, line, re.IGNORECASE)
                 for pattern in self.signature_block_patterns
             ):
-                # Check if this looks like the start of signature block
-                if i > len(lines) - 50:  # Only consider last 50 lines
-                    signature_start = i
-                    break
+                signature_start = i
+                break
 
         if signature_start < len(lines):
             return "\n".join(lines[:signature_start])
         return text
+
+    def _remove_table_of_contents(self, text: str) -> str:
+        """Remove table of contents section from text."""
+        lines = text.split("\n")
+        toc_start = None
+        toc_end = None
+
+        for i, line in enumerate(lines):
+            stripped = line.strip().upper()
+
+            # Detect TOC start
+            if toc_start is None and re.search(
+                r"^TABLE\s+OF\s+CONTENTS?$", stripped
+            ):
+                toc_start = i
+                continue
+
+            # If we're in TOC, look for end markers
+            if toc_start is not None and toc_end is None:
+                # TOC ends when we hit substantive content that starts with a number
+                # (like "1. This is a federal securities class action...")
+                if re.search(r"^\d+\.\s+\w+.{50,}", line.strip()):
+                    toc_end = i
+                    break
+                # Or when we hit a long substantive paragraph
+                if (
+                    len(line.strip()) > 100
+                    and not re.search(r"\.\s*\d+\s*$", line)
+                    and not re.search(r"\.{2,}\s*\d+\s*$", line)
+                    and not re.search(r"\.{5,}", line)
+                ):
+                    toc_end = i
+                    break
+
+        # Remove TOC section if found
+        if toc_start is not None:
+            if toc_end is None:
+                # If no clear end, assume TOC is max 100 lines
+                toc_end = min(toc_start + 100, len(lines))
+            return "\n".join(lines[:toc_start] + lines[toc_end:])
+        return text
+
+    def _remove_table_of_authorities(self, text: str) -> str:
+        """Remove table of authorities section from text."""
+        lines = text.split("\n")
+        toa_start = None
+        toa_end = None
+
+        for i, line in enumerate(lines):
+            stripped = line.strip().upper()
+
+            # Detect TOA start
+            if toa_start is None and re.search(
+                r"^TABLE\s+OF\s+AUTHORITIES$", stripped
+            ):
+                toa_start = i
+                continue
+
+            # If we're in TOA, look for end markers
+            if toa_start is not None and toa_end is None:
+                # TOA ends when we hit substantive content headers
+                if re.search(
+                    r"^(I\.\s+)?INTRODUCTION$|^SUMMARY$|^BACKGROUND$|"
+                    r"^FACTUAL\s+(BACKGROUND|ALLEGATIONS)$|^PARTIES$|"
+                    r"^NATURE\s+OF\s+(THE\s+)?ACTION$|^PRELIMINARY\s+STATEMENT$|"
+                    r"^COUNT\s+[IVX]+|^JURISDICTION|^TABLE\s+OF\s+CONTENTS?$",
+                    stripped,
+                ):
+                    toa_end = i
+                    break
+                # Also end if we see a line that looks like substantive paragraph
+                if (
+                    len(line.strip()) > 100
+                    and not re.search(r"\.\s*\d+\s*$", line)
+                    and not re.search(r"\.{2,}\s*\d+\s*$", line)
+                    and not re.search(r"passim|supra|infra", line, re.IGNORECASE)
+                ):
+                    toa_end = i
+                    break
+
+        # Remove TOA section if found
+        if toa_start is not None:
+            if toa_end is None:
+                # If no clear end, assume TOA is max 100 lines
+                toa_end = min(toa_start + 100, len(lines))
+            return "\n".join(lines[:toa_start] + lines[toa_end:])
+        return text
+
+    def _join_to_prose(self, text: str) -> str:
+        """Join text into continuous prose by removing newlines and extra whitespace."""
+        # Replace newlines with spaces
+        text = re.sub(r"\n+", " ", text)
+        # Normalize all whitespace to single spaces
+        text = re.sub(r"\s+", " ", text)
+        return text.strip()
+
+    def _remove_toc_dot_leaders(self, text: str) -> str:
+        """Remove table of contents style lines with dot leaders (before joining to prose)."""
+        lines = text.split("\n")
+        cleaned_lines = []
+
+        for line in lines:
+            stripped = line.strip()
+
+            # Skip lines that look like TOC entries with dot leaders
+            # Pattern: text followed by dots/periods and a page number
+            if re.search(r"\.{3,}\s*\d+\s*$", line):  # ... followed by number
+                continue
+            if re.search(r"(\.\s+){3,}\d+\s*$", line):  # . . . followed by number
+                continue
+            if re.search(r"\.{2,}\s*\d+\s*$", line):  # .. followed by number
+                continue
+            # Catch TOC lines with many dots anywhere in the line
+            if re.search(r"\.{5,}", line):  # Line with 5+ consecutive dots
+                continue
+            # Page number patterns like "Page(s)" at start indicating TOC
+            if re.search(r"^\s*Page\(s\)\s*$", line, re.IGNORECASE):
+                continue
+            # Skip short lines that are just "of XX" (page number fragments)
+            if re.search(r"^\s*of\s+\d+\s*$", stripped, re.IGNORECASE):
+                continue
+            # Skip lines that look like TOC section letters (A., B., C., etc.) without content
+            if re.search(r"^[A-Z]\.\s*$", stripped):
+                continue
+            # Skip lines that are just numbers (subsection numbers from TOC)
+            if re.search(r"^\d+\.\s*$", stripped):
+                continue
+            # Skip TOC-style section headings: lines starting with letter (A., B.)
+            # that are short and end abruptly, but NOT numbered paragraphs
+            if (
+                re.search(r"^[A-Z]\.\s+\w+", stripped)
+                and len(stripped) < 80
+                and not re.search(r"[.!?]\s*$", stripped)
+            ):
+                continue
+            cleaned_lines.append(line)
+
+        return "\n".join(cleaned_lines)
+
+    def _remove_dot_leaders_from_prose(self, text: str) -> str:
+        """Remove any remaining TOC-style dot leader patterns from continuous prose."""
+        # Remove patterns like "Section Name . . . . . 25" or "Introduction...........12"
+        # These patterns: text + multiple dots/spaces + number
+        text = re.sub(r"(\s*\.){4,}\s*\d+", "", text)  # . . . . 25
+        text = re.sub(r"\.{4,}\s*\d+", "", text)  # .....25
+        text = re.sub(r"(\s*\.){3,}\s*\d+", "", text)  # . . . 25
+        text = re.sub(r"\.{3,}\s*\d+", "", text)  # ...25
+
+        # Clean up any resulting double spaces
+        text = re.sub(r"\s{2,}", " ", text)
+        return text.strip()
 
     def split_into_chunks(self, text: str) -> List[str]:
         """
@@ -341,7 +511,7 @@ class PDFTextProcessor:
             start = end
 
     def process_pdf(
-        self, pdf_path: str, output_dir: Optional[str] = None
+        self, pdf_path: str, output_dir: Optional[str] = None, save_chunks: bool = False
     ) -> Tuple[str, List[str]]:
         """
         Process a PDF file: extract, clean, and optionally save results.
@@ -349,6 +519,7 @@ class PDFTextProcessor:
         Args:
             pdf_path: Path to PDF file
             output_dir: Directory to save processed text files (optional)
+            save_chunks: If True, also save chunk files (default: False)
 
         Returns:
             Tuple of (cleaned_text, chunks)
@@ -372,18 +543,19 @@ class PDFTextProcessor:
             os.makedirs(output_dir, exist_ok=True)
             base_name = Path(pdf_path).stem
 
-            # Save full cleaned text
-            full_path = os.path.join(output_dir, f"{base_name}_cleaned.txt")
+            # Save single cleaned text file
+            full_path = os.path.join(output_dir, f"{base_name}.txt")
             with open(full_path, "w", encoding="utf-8") as f:
                 f.write(cleaned_text)
 
-            # Save chunks
-            for i, chunk in enumerate(chunks):
-                chunk_path = os.path.join(output_dir, f"{base_name}_chunk_{i + 1}.txt")
-                with open(chunk_path, "w", encoding="utf-8") as f:
-                    f.write(chunk)
+            # Optionally save chunks
+            if save_chunks:
+                for i, chunk in enumerate(chunks):
+                    chunk_path = os.path.join(output_dir, f"{base_name}_chunk_{i + 1}.txt")
+                    with open(chunk_path, "w", encoding="utf-8") as f:
+                        f.write(chunk)
 
-            print(f"Saved files to {output_dir}")
+            print(f"Saved to {output_dir}")
 
         return cleaned_text, chunks
 
