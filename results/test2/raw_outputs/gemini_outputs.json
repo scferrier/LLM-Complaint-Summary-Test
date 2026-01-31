@@ -1,0 +1,887 @@
+[
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Carvana Co. ('Carvana') Class A common stock between May 6, 2020, and November 3, 2022. The lead plaintiffs are United Association National Pension Fund and Saskatchewan Healthcare Employees’ Pension Plan. The defendants include Carvana, its co-founders (Ernest Garcia III and Ernest Garcia II), senior executives (Mark Jenkins, Ryan Keeton, Benjamin Huston), various directors, and underwriters of a 2022 public offering. The complaint alleges that Carvana operated a 'pump-and-dump' scheme where the defendants artificially inflated the company's stock price by touting unsustainable retail growth and a 'capital-light' business model while concealing severe internal operational failures. Specifically, the plaintiffs allege that Carvana: (1) lowered vehicle purchasing and verification standards to buy 'trash cars' to boost inventory and induce trade-ins; (2) systematically violated state title and registration laws to push through sales, leading to license suspensions in multiple states (NC, MI, IL, PA); (3) expanded into markets far from its infrastructure, causing ballooning logistics costs; and (4) engaged in non-arm's length related-party transactions with DriveTime to inflate sales volume. The plaintiffs allege that while investors were misled, the individual defendants sold over $3.87 billion in stock, with Ernest Garcia II (Garcia Senior) alone reaping $3.6 billion. The stock price eventually plummeted 97% from its peak as the truth emerged through various regulatory actions and financial disclosures. The complaint asserts claims under Sections 10(b), 20(a), and 20(A) of the Exchange Act, and Sections 11, 12(a)(2), and 15 of the Securities Act.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiffs have sufficiently pleaded the elements of a Section 10(b) claim under the PSLRA's heightened pleading standards. Regarding material misrepresentations, the complaint identifies specific statements concerning Carvana's 'Total GPU,' growth sustainability, and regulatory compliance that were allegedly misleading because they omitted the costs of outbound logistics and the systematic violation of state titling laws. Scienter is strongly supported by the 'unusual and suspicious' timing and magnitude of insider sales—specifically Garcia Senior's $3.6 billion in proceeds and the frequent modification of 10b5-1 plans during the Class Period. Furthermore, testimony from eleven confidential witnesses (CWs) provides corroboration that senior management was aware of 'trash' inventory and the 'titling mess.' Loss causation is adequately pleaded through a series of partial disclosures, including state-level license suspensions and the eventual admission of declining retail units and the need for the ADESA acquisition to fix infrastructure gaps."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Because the primary Section 10(b) claim has been sustained, and because the individual defendants (the Garcias, Jenkins, Keeton, and Huston) held high-level executive positions and/or controlled a majority of the voting power, the plaintiffs have adequately alleged 'control person' liability. The complaint details how the Garcias maintained an 'iron grip' on the company through a dual-class share structure, satisfying the requirement that they had the power to influence and control the specific activities comprising the primary violation."
+        },
+        {
+          "claim": "Section 20(A) of the Exchange Act (Insider Trading)",
+          "ruling": "sustained",
+          "reasoning": "The complaint alleges that Garcia Senior, Jenkins, Keeton, and Huston sold Carvana stock while in possession of material non-public information (MNPI) regarding the company's operational failures and regulatory violations. The plaintiffs have identified specific contemporaneous trades where they purchased shares on the same days the defendants sold, fulfilling the statutory requirement for a Section 20(A) claim. The underlying primary violation of Section 10(b) provides the necessary predicate for this claim."
+        },
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "This is a strict liability claim against the issuer and a negligence-based claim against other defendants regarding the 2022 Public Offering. The plaintiffs allege that the Offering Documents (including the incorporated 2021 10-K) contained material omissions regarding the severity of Carvana's registration and titling crisis and the lack of infrastructure to support its expanded footprint. Given that the company was already under investigation by various state DMVs at the time of the offering, the failure to disclose the extent of these risks renders the Registration Statement's 'risk factors' misleadingly boilerplate. The plaintiffs have standing as they purchased shares directly in the offering."
+        },
+        {
+          "claim": "Section 12(a)(2) of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "The plaintiffs allege they purchased shares in the 2022 Public Offering directly from the Underwriter Defendants (Citigroup) by means of a Prospectus Supplement that contained the same material omissions as the Registration Statement. Under the Securities Act, underwriters can be held liable for soliciting sales via a misleading prospectus. The allegations that the underwriters failed to conduct adequate due diligence regarding Carvana's regulatory compliance and operational costs are sufficient at the motion to dismiss stage."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Similar to the Section 20(a) claim, the Section 15 claim is sustained because the primary Securities Act violations (Sections 11 and 12(a)(2)) have survived dismissal. The Individual Securities Act Defendants, as signatories of the Registration Statement and senior officers/directors, are sufficiently alleged to be control persons."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 113667,
+      "completion_tokens": 1347,
+      "total_tokens": 116089
+    },
+    "case_id": "azd-2_22-cv-02126"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by Lead Plaintiff Glen Littleton on behalf of investors who traded Tesla, Inc. ('Tesla') securities between August 7, 2018, and August 17, 2018. The defendants include Tesla, its CEO and then-Chairman Elon Musk, and members of Tesla’s Board of Directors. The complaint alleges that on August 7, 2018, Musk issued a series of false and misleading tweets, most notably stating he was considering taking Tesla private at $420 per share and that 'funding' was 'secured.' Musk further claimed that 'investor support' was 'confirmed' and the only contingency was a shareholder vote. Plaintiff alleges these statements were objectively false because Musk had only engaged in preliminary, non-binding discussions with Saudi Arabia’s Public Investment Fund, had not secured any formal financing commitments, had not agreed on a price with any investors, and had not presented a formal proposal to the Board. The complaint asserts that Musk’s conduct was motivated by a desire to 'burn' short sellers and to artificially inflate the stock price to satisfy conditions of Tesla's convertible bonds. The fallout from these statements included extreme market volatility, a massive surge in stock price followed by a sharp decline as the truth emerged, and billions of dollars in losses for shareholders, short sellers, and option traders. The complaint asserts claims for violations of Section 10(b) of the Securities Exchange Act and Rule 10b-5 against Musk and Tesla, and Section 20(a) 'control person' liability against the Board of Directors.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 (Against Musk and Tesla)",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded all elements of a Section 10(b) claim. First, regarding material misrepresentations, the statement 'funding secured' is a concrete, factual assertion that a reasonable investor would consider highly significant. The complaint alleges specific facts—supported by subsequent SEC findings—showing that no such funding was in place. Second, the complaint establishes a strong inference of scienter. Musk knew the status of his preliminary talks with the Saudi fund and admitted the $420 price was a rounded-up 'joke' for his girlfriend. His documented animosity toward short sellers and the looming pressure of convertible debt provide a plausible motive for intentional deception. Third, reliance is presumed under the fraud-on-the-market doctrine, as Tesla is traded on the efficient NASDAQ market and the statements were public. Finally, loss causation is adequately pleaded by the 9% drop in stock price on August 17, 2018, following the New York Times expose which revealed that funding was 'far from secure' and that the Board had not reviewed the tweets, thereby correcting the prior misinformation."
+        },
+        {
+          "claim": "Section 20(a) (Against the Board of Directors)",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must plead a primary violation of the Exchange Act and that the defendants exercised 'control' over the primary violator. As the court has sustained the Section 10(b) claim against Musk and Tesla, the primary violation element is satisfied. Regarding 'control,' the complaint alleges that Tesla officially designated Musk’s Twitter account as a formal channel of corporate communication in 2013. This designation placed the Board in a position of authority and duty to oversee the accuracy of material information disseminated via that channel. The complaint further alleges that the Board had the power to—and eventually did—intervene to restrict Musk's tweeting on the subject. At the motion to dismiss stage, these allegations are sufficient to establish that the Board members were 'control persons' who had the ability to influence the conduct that led to the primary violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 29029,
+      "completion_tokens": 850,
+      "total_tokens": 30985
+    },
+    "case_id": "cand-3_18-cv-04865"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Netflix, Inc. ('Netflix') common stock or options between January 19, 2021, and April 19, 2022 (the 'Class Period'). The Lead Plaintiff, Fiyyaz Pirani (Trustee of Imperium Irrevocable Trust), alleges that Netflix and its senior executives (Reed Hastings, Ted Sarandos, Spencer Neumann, and Gregory Peters) violated the Securities Exchange Act of 1934 by making materially false and misleading statements regarding the company's subscriber growth and market penetration. Specifically, the complaint alleges that Defendants attributed slowing subscriber growth primarily to a 'COVID-19 pull-forward' effect, while concealing the true extent of 'account sharing' (password sharing). Plaintiff alleges that while Netflix reported being roughly 60% penetrated in the U.S. and Canada (UCAN) market, the actual penetration was approximately 83% when including 30 million non-paying households. Globally, the complaint alleges over 100 million households were using the service without paying. The truth was revealed in two stages: on January 20, 2022, when Netflix issued weak guidance and admitted acquisition had not re-accelerated, and on April 19, 2022, when Netflix finally disclosed the 100-million-household account-sharing figure and admitted it created significant 'revenue growth headwinds.' These disclosures resulted in stock price declines of 21.7% and 35%, respectively.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded the elements of a Section 10(b) claim under the PSLRA standards. Regarding material misrepresentations, the complaint identifies specific statements by CFO Neumann and others claiming 60% penetration and 'ample runway' for growth while allegedly knowing that account sharing had effectively saturated key markets. These are not mere 'puffery' but factual assertions about market health. Scienter is adequately pleaded through allegations that management tracked IP addresses to quantify sharing, received internal memos (as noted by FE1 and FE2) regarding the impact of password sharing on revenue, and were actively testing monetization strategies (the 'crackdown') while publicly attributing growth issues solely to COVID-19. The 'Core Operations' doctrine further supports scienter given that subscriber growth is Netflix's primary business metric. Loss causation is established by the precipitous stock drops following the January and April 2022 disclosures which corrected the prior misleading narrative. The 'Safe Harbor' for forward-looking statements does not apply here because many of the challenged statements concerned then-present facts (e.g., current penetration rates and the current reasons for growth stagnation)."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Control person liability under Section 20(a) requires a primary violation and a showing that the individual defendants exercised control over the primary violator. Because the Section 10(b) claim against Netflix has been sustained, the first prong is met. The Individual Defendants (Hastings, Sarandos, Neumann, and Peters) held the highest executive positions at the company (Co-CEOs, CFO, and COO), signed SEC filings containing the alleged misstatements, and spoke directly to investors on earnings calls. These facts sufficiently allege 'actual power or influence' over the corporate entity and the specific statements at issue. Therefore, the motion to dismiss the Section 20(a) claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 47732,
+      "completion_tokens": 810,
+      "total_tokens": 49632
+    },
+    "case_id": "cand-4_22-cv-02672"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Talis Biomedical Corporation ('Talis') common stock pursuant to its February 2021 Initial Public Offering (IPO) or during the Class Period of March 30, 2021, through March 15, 2022. The Plaintiffs allege that Talis, a diagnostic company, made materially false and misleading statements regarding its flagship product, the Talis One COVID-19 test. Specifically, the Complaint alleges that the Defendants concealed that: (1) Talis's Emergency Use Authorization (EUA) submission to the FDA was fundamentally flawed because it used an insufficiently sensitive comparator assay; (2) the Talis One device suffered from high 'invalid rates' (failed tests) and significant design defects; and (3) the company lacked the capability to manufacture the device or its cartridges at the scale represented to investors. The Complaint asserts claims under Sections 11 and 15 of the Securities Act of 1933, and Sections 10(b) and 20(a) of the Securities Exchange Act of 1934. Key dates include the February 11, 2021 IPO, the March 8, 2021 disclosure of the EUA withdrawal, and the March 15, 2022 disclosure of manufacturing failures and high invalid rates which led to a 95% total decline from the IPO price.",
+      "claim_rulings": [
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have adequately alleged that the Registration Statement contained material misstatements and omissions. Specifically, the claim that Talis had 'ordered 5,000 instruments' was later revealed to be an order for 'components for up to 5,000 instruments,' a material distinction for a company in the commercialization phase. Furthermore, the failure to disclose that the FDA submission used a comparator assay that did not meet high-sensitivity standards constitutes a material omission regarding the regulatory risk. Under Section 11's strict liability standard for issuers, these well-pleaded factual discrepancies regarding manufacturing readiness and regulatory compliance are sufficient to survive a motion to dismiss."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Because the underlying Section 11 claim has been sustained, the Section 15 claim against the Individual Defendants (officers and directors who signed the Registration Statement) also survives. Plaintiffs have sufficiently alleged that these defendants occupied positions of control and authority within Talis, giving them the power to direct the management and policies of the company, including the contents of the defective Registration Statement."
+        },
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Complaint satisfies the heightened pleading standards of the PSLRA. Materiality is established through the discrepancy between public assurances of being 'ready to go' and internal reports of 10%+ invalid rates and manufacturing failures. Scienter is supported by a 'strong inference' based on: (1) statements from five former employees (FEs) alleging that CEO Coe and other executives were briefed on manufacturing delays and design flaws; (2) the 'core operations' doctrine, as the Talis One was the company's only viable product; and (3) the suspicious timing of executive departures (Coe and Blaser). Loss causation is adequately pleaded through a series of corrective disclosures between August 2021 and March 2022 that resulted in significant stock price declines as the truth regarding manufacturing and product reliability emerged."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Control person liability under Section 20(a) requires a primary violation of the Exchange Act and that the defendants exercised actual power or control over the primary violator. As the Section 10(b) claim has been sustained against the company and the Officer Defendants, and given the high-level positions held by Coe, Moody, and Kelley, the Plaintiffs have adequately pleaded control person liability for the allegedly fraudulent public statements and SEC filings."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 42845,
+      "completion_tokens": 956,
+      "total_tokens": 45026
+    },
+    "case_id": "cand_22_cv_00105"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by Lead Plaintiff Sjunde AP-Fonden (AP7) on behalf of investors who purchased Lucid Group, Inc. common stock between November 15, 2021, and August 3, 2022. The complaint names Lucid Group, Inc., CEO/CTO Peter Rawlinson, and CFO Sherry House as defendants. The core of the action involves allegations that Defendants made materially false and misleading statements regarding the production capacity and 2022 delivery targets for Lucid’s flagship electric vehicle, the Lucid Air. Specifically, the complaint alleges that Defendants repeatedly reaffirmed a 2022 production target of 20,000 units while possessing internal knowledge that the Company would produce fewer than 10,000 units. Furthermore, the complaint asserts that Defendants misleadingly attributed production delays to external, industry-wide supply chain issues while concealing severe, Lucid-specific internal problems, including a non-functional inventory management system (SAP), warehouse overcrowding, significant design flaws requiring 'reworks,' and the scrapping of millions of dollars in parts. The truth was partially revealed on February 28, 2022, when Lucid cut guidance to 12,000–14,000 units, and fully revealed on August 3, 2022, when guidance was slashed to 6,000–7,000 units and management admitted to 'immaturity' in its internal logistics processes. The stock price dropped significantly following both disclosures.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Court finds that the Plaintiff has sufficiently pleaded the elements of a Section 10(b) claim under the PSLRA's heightened standards. Regarding material misrepresentations, the complaint identifies specific statements where Defendants reaffirmed 2022 production targets while omitting internal logistics failures. The 'Scienter' element is strongly supported by allegations from former employees (FEs), particularly FE-2, who alleges that Rawlinson admitted in internal meetings as early as October 2021 that the Company would produce fewer than 10,000 units. Scienter is further bolstered by Rawlinson’s personal financial motive (vesting of RSUs worth $263 million tied to market capitalization) and the 'core operations doctrine,' as the Lucid Air was the Company's only revenue-generating product. Loss causation is adequately pleaded through the stock price declines following the February and August 2022 corrective disclosures, which linked the production failures to the previously concealed internal logistics issues."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Control person liability under Section 20(a) requires a primary violation of the Exchange Act and a showing that the individual defendants exercised control over the primary violator. Because the Court has sustained the Section 10(b) claim against Lucid, the first prong is satisfied. As to the second prong, the Individual Defendants (Rawlinson and House) held the highest executive positions at the Company (CEO and CFO), signed SEC filings, and led earnings calls. The complaint sufficiently alleges they possessed the power to direct the management and policies of Lucid and were directly involved in the dissemination of the allegedly misleading statements. Therefore, the motion to dismiss the Section 20(a) claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 79029,
+      "completion_tokens": 773,
+      "total_tokens": 80862
+    },
+    "case_id": "cand_22_cv_02094"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by the New England Teamsters Pension Fund on behalf of investors who purchased Cutera, Inc. ('Cutera') common stock between March 1, 2022, and March 21, 2024. The complaint names Cutera and several current and former executives, including former CEO David Mowry, former CFO Rohan Seth, and former Executive Chairman J. Daniel Plants, as defendants. The plaintiffs allege that Cutera made materially false and misleading statements regarding the company's internal controls over financial reporting and the commercial rollout of its flagship acne-treatment device, AviClear. Specifically, the complaint alleges that: (1) Cutera lacked adequate internal controls over inventory, leading to a 'logistics nightmare' where physical inventory did not match digital records; (2) Defendants rushed the AviClear rollout to meet performance targets for executive bonuses (the 'Acne Equity Grant'), leading to significant quality control issues and high product return rates; (3) the company over-indexed resources toward AviClear at the expense of its 'Core Capital' business; and (4) these failures resulted in the restatement of financial results for the first and second quarters of 2023. The truth was revealed through a series of corrective disclosures involving revenue misses, the termination of the CEO and Chairman 'with cause,' and the eventual admission of material weaknesses in internal controls. The plaintiffs assert claims under Section 10(b) and 20(a) of the Securities Exchange Act of 1934.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The complaint sufficiently pleads the essential elements of a Section 10(b) claim: material misrepresentation, scienter, reliance, and loss causation. First, the plaintiffs adequately allege falsity and materiality; the company's subsequent restatement of its Q1 and Q2 2023 financial results is an admission that the original statements were materially false. Statements regarding 'successful' AviClear launches and 'effective' internal controls are rendered misleading by specific allegations from former employees (CWs) describing a total lack of inventory oversight and a 'catastrophic' ERP implementation. Second, the complaint raises a strong inference of scienter. The 'Acne Equity Grant' provides a concrete motive for the Individual Defendants to prioritize AviClear placements over operational integrity. Furthermore, the termination of Mowry and Plants 'with cause' and the reports that they were personally warned about supply chain and inventory discrepancies support an inference of at least severe recklessness. Third, reliance is presumed under the fraud-on-the-market doctrine as Cutera stock traded on the Nasdaq. Finally, the complaint details a clear link between the series of corrective disclosures (e.g., the April 2023 terminations and the November 2023 restatement announcement) and subsequent stock price declines, satisfying the requirements for loss causation at the pleading stage."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation of the federal securities laws and (2) that the defendant exercised actual power or control over the primary violator. As the court has sustained the Section 10(b) claim against Cutera, the first element is satisfied. Regarding the second element, the Individual Defendants held high-level positions (CEO, CFO, Executive Chairman) during the Class Period, signed SEC filings, and participated in earnings calls. The complaint alleges they had the authority to control the content of the misleading statements and were deeply involved in the AviClear strategy and the company's internal reporting structures. Consequently, the motion to dismiss the control person liability claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 69623,
+      "completion_tokens": 850,
+      "total_tokens": 71385
+    },
+    "case_id": "cand_23_cv_02560"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Rain Oncology Inc. ('Rain') common stock between April 23, 2021, and May 19, 2023. The plaintiffs allege that Rain, a clinical-stage precision oncology company, and its senior executives misled investors regarding the development of its lead drug candidate, milademetan, an MDM2 inhibitor intended to treat liposarcoma. The core of the alleged misconduct involves Rain's decision to skip Phase 2 clinical trials—a maneuver known as 'Phase 2 Bypass'—and proceed directly from Phase 1 to a 'pivotal' Phase 3 trial (the MANTRA trial). Plaintiffs allege that Defendants falsely represented that the Phase 3 trial was 'de-risked' based on Phase 1 data from a third party (Daiichi Sankyo), despite the fact that the Phase 1 study involved a very small patient subset and had not optimized the dosing schedule. Furthermore, the complaint alleges that the SEC repeatedly warned CEO Avanish Vellanki against describing Rain as a 'late-stage' company or using terms like 'best-in-class,' yet Defendants continued to use these descriptors in subsequent filings and press releases. The fraud was revealed on May 22, 2023, when Rain announced that the MANTRA trial failed to meet its primary endpoint of progression-free survival, leading to a 90% collapse in stock price. The complaint asserts claims under Sections 10(b) and 20(a) of the Exchange Act and Sections 11 and 15 of the Securities Act.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have sufficiently pleaded the elements of a Section 10(b) claim. Regarding material misrepresentations, the complaint identifies specific statements where Defendants characterized Rain as a 'late-stage' company and claimed Phase 1 data 'validated' the dosing schedule. These are adequately alleged to be false or misleading in light of the SEC’s direct admonishments to the CEO and the fact that the Phase 1 data was limited to 16 patients. Scienter is strongly inferred through the 'core operations' doctrine and, more significantly, through the confidential SEC correspondence showing that CEO Vellanki was specifically told to stop using the 'late-stage' and 'best-in-class' descriptors, yet continued to do so. This demonstrates at least deliberate recklessness. Loss causation is sufficiently pleaded by the stock's 87% decline immediately following the disclosure of the failed MANTRA trial results, which analysts linked to the dosing issues Defendants previously claimed were 'validated'."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Because the underlying Section 10(b) claim against Rain survives the motion to dismiss, and because Defendants Vellanki (CEO) and Bryce (CMO) are alleged to have exercised direct control over the company's public statements and clinical strategy, the claim for control person liability is sufficiently stated. The complaint details their high-level positions and their direct involvement in drafting and signing the allegedly misleading SEC filings."
+        },
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Section 11 imposes strict liability on issuers for material misstatements or omissions in registration statements. Plaintiffs allege the IPO prospectus was misleading because it failed to disclose the 'exceedingly atypical risks' of the Phase 2 Bypass and omitted the fact that the prior owner of the drug (Daiichi Sankyo) had intended to conduct a Phase 2 trial. The complaint plausibly alleges that the prospectus's generic risk disclosures were insufficient under Item 105 of Regulation S-K because they did not address the specific, known risks associated with the unoptimized dosing schedule and the deviation from industry standards for MDM2 inhibitors. As the registration statement contained these alleged inaccuracies, the claim survives against Rain and the Director Defendants who signed it."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "As the primary Section 11 claim has been sustained, the Section 15 claim for control person liability against the Director Defendants also survives. The Director Defendants, by virtue of their positions on the Board and their authority to sign and approve the registration statement, are adequately alleged to be control persons for the purposes of the Securities Act."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 33490,
+      "completion_tokens": 1023,
+      "total_tokens": 35590
+    },
+    "case_id": "cand_23_cv_03518"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a federal securities class action brought on behalf of investors who purchased Fastly, Inc. ('Fastly') securities between November 15, 2023, and August 7, 2024. The complaint names Fastly, CEO Todd Nightingale, and CFO Ronald Kisling as defendants. Fastly operates an edge cloud platform and Content Delivery Network (CDN), deriving the vast majority of its revenue from usage-based fees from existing enterprise customers, particularly a small group of 'big whale' accounts (e.g., TikTok, Amazon, Apple) that accounted for 37% of 2023 revenue. Plaintiffs allege that Defendants made materially false and misleading statements regarding the impact of macroeconomic headwinds on the business and the stability of its customer base. Specifically, the complaint alleges that while Defendants publicly downplayed macro pressures and touted stable retention, they were internally aware through 'all hands' meetings and real-time tracking tools that their largest customers were 'throttling back' usage, demanding aggressive discounts due to rising interest rates, and in some cases, migrating to competitors. The complaint further alleges that Fastly shifted its internal sales strategy to prioritize new customer acquisition over existing customer growth—a move that contradicted public narratives—and that Defendants framed materialized risks as merely hypothetical in SEC filings. The truth allegedly emerged through a series of corrective disclosures on February 14, May 1, and August 7, 2024, resulting in significant stock price declines.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiffs have sufficiently pleaded the elements of a Section 10(b) claim under the PSLRA's heightened pleading standards. Regarding material misrepresentations, the complaint identifies specific statements—such as Nightingale's November 2023 assertion that Fastly was not seeing macro-related slowing and February 2024 claims of 'stable' retention—that are directly contradicted by accounts from multiple confidential witnesses (CWs). These CWs describe internal 'all hands' meetings where Nightingale allegedly admitted that large accounts were 'throttling' usage and that revenue from 'big customers' was decreasing. Scienter is adequately pleaded through allegations of the Individual Defendants' access to real-time traffic data (the 'Fastly App') and their participation in weekly 'Customer Ops' meetings where customers were flagged with 'red' status for declining bandwidth. The shift in the sales compensation model to prioritize new 'logos' over existing accounts further supports an inference that Defendants knew the growth narrative for existing customers was faltering. Reliance is presumed under the fraud-on-the-market doctrine, as Fastly stock traded on the NYSE. Loss causation is sufficiently alleged by the three-step decline in stock price following earnings calls where the Company gradually lowered guidance and eventually admitted to the 'demand challenges' and 'softness' in large media accounts that had been previously denied."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Control person liability under Section 20(a) requires a primary violation of the Exchange Act and a showing that the individual defendants exercised control over the primary violator. Because the Court has sustained the Section 10(b) claim against Fastly, the first element is satisfied. As to control, the Individual Defendants (CEO Nightingale and CFO Kisling) occupied the highest positions of authority within the Company. The complaint alleges they possessed the power to direct the management and policies of Fastly, signed the relevant SEC filings (Forms 10-K and 10-Q), and were the primary spokespeople on the earnings calls where the allegedly misleading statements were made. Consequently, the motion to dismiss the Section 20(a) claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 26930,
+      "completion_tokens": 845,
+      "total_tokens": 28758
+    },
+    "case_id": "cand_24_cv_03170"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by a group of investors who held short positions in Vicor Corporation ('Vicor') common stock during 2023. The Plaintiffs allege that Defendants Vicor and its CEO, Patrizio Vinciarelli, violated federal securities laws by making false and misleading statements regarding a purported major customer agreement. Specifically, on July 25, 2023, during an earnings call and in a related press release, Vinciarelli announced that Vicor had secured a 'significant' and 'existing' customer for its next-generation 4G lateral power distribution design, with delivery expected to 'ramp' in the fourth quarter of 2023. This news caused Vicor's stock price to surge from approximately $59 to over $94, forcing the short-selling Plaintiffs to cover their positions at substantial losses. However, on October 24, 2023, Defendants allegedly retracted these claims, denying they had ever identified a specific significant customer and pivoting to a 'medium to long term' growth outlook. Following this disclosure, the stock price plummeted by over 20%. Plaintiffs assert claims under Section 10(b) of the Securities Exchange Act and Rule 10b-5, as well as Section 20(a) control person liability against Vinciarelli. The proposed class period runs from July 25, 2023, through October 24, 2023.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Complaint sufficiently pleads the essential elements of a Section 10(b) claim. First, regarding material misrepresentations, the Plaintiffs identify specific statements made on July 25, 2023, concerning an 'existing' and 'significant' customer and a 'Q4 ramp.' The specificity of these details (e.g., '1,000 amp level') contrasted with the Defendants' total retreat and denial of such statements three months later creates a plausible inference that the statements were false or lacked a reasonable basis when made. Second, the Complaint satisfies the PSLRA's heightened pleading standard for scienter. The 'strong inference' of scienter is supported by Vinciarelli's 80% voting control, the direct contradiction between his July and October statements, and the 'core operations' doctrine, as a major customer deal for a flagship product is a matter central to the company's survival. Third, loss causation is adequately pleaded via the 'fraud-on-the-market' theory; the stock price rose immediately following the July announcement and fell sharply after the October 'corrective disclosure.' While the Plaintiffs are short sellers, they are 'purchasers' within the meaning of the Act when they buy shares to cover their positions in a market allegedly distorted by fraud."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation of the Exchange Act and (2) that the defendant exercised actual power or control over the primary violator. Because the Court has sustained the Section 10(b) claim against Vicor, the first element is satisfied. Regarding the second element, the Complaint contains extensive allegations regarding Vinciarelli's control. He is the founder, Chairman, and CEO, and most significantly, he holds 93.8% of Class B shares, giving him 80% of the total voting power. He personally made the allegedly fraudulent statements and signed the relevant SEC filings. These facts are more than sufficient to establish control person liability at the pleading stage."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 12627,
+      "completion_tokens": 834,
+      "total_tokens": 14586
+    },
+    "case_id": "cand_24_cv_04196"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action brought on behalf of investors who purchased Robinhood Markets, Inc. ('Robinhood') common stock pursuant or traceable to the company's Initial Public Offering ('IPO') in July 2021. The Lead Plaintiffs, Vinod and Amee Sodha, assert claims under Sections 11, 12(a)(2), and 15 of the Securities Act of 1933 against Robinhood, its senior executives and directors, and the investment banks that served as underwriters. The complaint alleges that the Offering Documents (the Registration Statement and Prospectus) were materially false and misleading. Specifically, the plaintiffs allege that while Robinhood touted exponential growth in Key Performance Indicators (KPIs)—such as Monthly Active Users (MAU), Assets Under Custody (AUC), and Net Cumulative Funded Accounts (NCFA)—the company failed to disclose that these metrics were actually cratering in the months and weeks immediately preceding the IPO. Furthermore, the complaint alleges that Robinhood's claims of being a 'safety-first' company focused on 'democratizing finance' were misleading because the company allegedly operated with insufficient fraud controls, ignored internal warnings about customer losses, and used 'gamification' tactics to encourage risky trading behavior that was lucrative for the company but detrimental to its users. The class period centers on the July 28, 2021, effective date of the Registration Statement and the July 30, 2021, IPO.",
+      "claim_rulings": [
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have sufficiently alleged that the Offering Documents contained material omissions and misstatements. Under Section 11, an issuer is strictly liable for material misstatements in a registration statement. The complaint provides specific factual allegations, supported by confidential witnesses and subsequent financial disclosures, that Robinhood's growth metrics (particularly crypto trading volume and MAU) were in sharp decline at the time of the IPO. While the Offering Documents provided 'preliminary estimates' for Q2 2021, they allegedly failed to disclose the negative trends occurring in June and July 2021, which made the overall growth narrative misleading. Additionally, the 'Risk Factors' warned of potential declines that the complaint alleges had already materialized, which is a recognized basis for a claim under the 'bespeaks caution' doctrine. The allegations regarding the disparity between the 'safety-first' public image and internal operational deficiencies (fraud backlogs and lack of training) also meet the materiality threshold for the pleading stage."
+        },
+        {
+          "claim": "Section 12(a)(2) of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Section 12(a)(2) imposes liability on those who offer or sell securities by means of a prospectus containing material misstatements or omissions. The plaintiffs allege they purchased shares traceable to the IPO and that the Defendants (including the Underwriters and the Company) solicited these purchases for financial gain. Because the court has found the allegations regarding the material defects in the Prospectus to be sufficient under Section 11, and the plaintiffs have adequately alleged their standing as purchasers in the offering, the Section 12(a)(2) claim survives the motion to dismiss."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Section 15 provides for 'control person' liability for individuals who exercise control over an entity liable under Section 11 or 12. The Individual Defendants include the Co-Founders, CEO, CFO, and directors who signed the Registration Statement. The complaint adequately alleges that these individuals, by virtue of their positions and roles in the IPO process, had the power to influence and control the contents of the Offering Documents. Since the primary claims under Sections 11 and 12 have been sustained, the derivative Section 15 claim against the Individual Defendants also survives."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 31742,
+      "completion_tokens": 885,
+      "total_tokens": 33808
+    },
+    "case_id": "cand_3_21-cv-09767"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a federal securities class action brought by Lead Plaintiff Steamfitters Local 449 Pension & Retirement Security Funds on behalf of a putative class of investors who purchased SunPower Corporation ('SunPower') securities between August 3, 2021, and January 20, 2022. The complaint names SunPower, CEO Peter Faricy, and former CFO Manavendra S. Sial as defendants. The core of the complaint alleges that Defendants made materially false and misleading statements regarding the health and trajectory of SunPower’s commercial business segments—specifically the Commercial & Industrial Solutions (CIS) and Light Commercial Value-Added Reseller (CVAR) units. Plaintiffs allege that while Defendants were touting the commercial business as a 'point of strength' and asserting that the company was on track to meet its 2021 financial guidance, they were aware of, or recklessly disregarded, a pervasive 'cracking' defect in third-party connectors used in nearly all of their commercial solar systems. Furthermore, the complaint alleges that SunPower’s SEC filings contained boilerplate 'risk factor' warnings that the company *might* experience product defects, when in fact, the cracking issue was already known. The truth emerged on January 20, 2022, when SunPower preannounced it would miss its earnings guidance due to a $31 million supplier-quality charge related to these defective connectors, causing the stock price to decline by approximately 16.9%.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded the essential elements of a Section 10(b) claim under the heightened pleading standards of the PSLRA and Rule 9(b). Regarding material misrepresentations, the complaint identifies specific statements where Defendants touted the commercial business as 'very healthy' and 'on track' while allegedly possessing knowledge of a pervasive cracking defect in connectors that would necessitate a $31 million charge. The use of 'contingent' risk warnings (stating that quality issues 'could' or 'if' they occur) when the defect was allegedly already known is a recognized basis for a misrepresentation claim in the Ninth Circuit. Regarding scienter, the complaint alleges that CEO Faricy was 'diving deep' into the commercial business and that the cracking issue likely surfaced during the due diligence process for the sale of the CIS segment to TotalEnergies. These allegations, taken together, create a 'strong inference' of at least deliberate recklessness. Loss causation is adequately pleaded through the January 20, 2022, corrective disclosure and the subsequent 16.9% drop in stock price, which directly linked the financial miss to the previously undisclosed connector defects."
+        },
+        {
+          "claim": "Section 20(a) (Control Person Liability)",
+          "ruling": "sustained",
+          "reasoning": "Liability under Section 20(a) is derivative of a primary violation of the Exchange Act. Because the Plaintiff has successfully pleaded a primary violation under Section 10(b), and because the Individual Defendants (CEO Faricy and CFO Sial) are alleged to have exercised direct control over the company's operations and the specific public statements at issue by virtue of their high-level executive positions and involvement in SEC filings and earnings calls, the motion to dismiss the Section 20(a) claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 21636,
+      "completion_tokens": 756,
+      "total_tokens": 23325
+    },
+    "case_id": "cand_3_22-cv-00956"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a federal securities class action brought by Lead Plaintiff Dipak Patel on behalf of investors who acquired ImmunityBio, Inc. securities between March 10, 2021, and May 10, 2023. The complaint names ImmunityBio and three individual executives—Patrick Soon-Shiong (Executive Chairman), Richard Adcock (CEO), and David C. Sachs (CFO)—as defendants. The core of the complaint alleges that Defendants made materially false and misleading statements regarding the manufacturing readiness and regulatory compliance of the Company's lead product candidate, Anktiva, a treatment for bladder cancer. Specifically, the complaint alleges that while Defendants touted their manufacturing resources and the 'robust' current Good Manufacturing Practices (cGMP) of their third-party contract manufacturing organization (CMO), AGC Biologics, they were actually aware of systemic and recurring cGMP violations at the facility. These violations included failed stability tests, missing batch records, and data integrity issues. The fraud allegedly culminated in a 'catastrophic' February 2023 FDA inspection, which resulted in an 'Official Action Indicated' classification. The truth was revealed on May 11, 2023, when ImmunityBio announced that the FDA had issued a Complete Response Letter (CRL) rejecting the Anktiva application due to manufacturing deficiencies, causing the stock price to plummet by over 55%.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded the elements of a Section 10(b) claim under the heightened standards of the PSLRA. Regarding material misrepresentations, the complaint identifies specific statements where Defendants described their CMO facilities as 'cGMP-compliant' and 'robust' at a time when they allegedly knew of significant deviations, failed batches, and previous Form 483 observations. These are not mere 'puffery' or forward-looking projections; they are statements of existing fact regarding the quality of the manufacturing process. On scienter, the complaint provides a 'strong inference' based on several factors: (1) the Individual Defendants held monthly or bi-monthly meetings with the CMO to discuss delays; (2) a 'mock inspection' in January 2023, overseen by the CEO, revealed significant gaps just weeks before the FDA visit; (3) the CEO flew overnight to the site during the FDA inspection, and Soon-Shiong demanded daily real-time updates; and (4) the 'core operations' doctrine applies here as Anktiva was the Company's lead product and primary hope for revenue. Loss causation is adequately pleaded by the 55% stock drop immediately following the disclosure of the FDA's rejection due to the very manufacturing issues Defendants allegedly concealed."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation of the federal securities laws and (2) that the individual defendants exercised 'control' over the primary violator. Because the Court has sustained the Section 10(b) claim against ImmunityBio, the first element is satisfied. The second element is satisfied as to the Individual Defendants (Soon-Shiong, Adcock, and Sachs) because of their high-level positions as Executive Chairman, CEO, and CFO, their signatures on the allegedly misleading SEC filings, and their direct involvement in the Anktiva BLA process and CMO oversight as detailed by the confidential witnesses. Consequently, the motion to dismiss the Section 20(a) claim is denied."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34840,
+      "completion_tokens": 817,
+      "total_tokens": 36719
+    },
+    "case_id": "casd_3_23-cv-01216"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This action arises from an alleged accounting fraud at The Lovesac Company ('Lovesac'), a publicly traded furniture retailer. The SEC (acting as plaintiff in this context) alleges that former CFO Donna Dellomo and former Controller Yoon Um engaged in a scheme to hide approximately $2.2 million in 'last mile' shipping expenses incurred during fiscal year 2023. When the discrepancy was discovered in April 2023, the defendants allegedly realized that properly recording the expenses would cause Lovesac to miss its publicly disclosed gross margin target of 50.1% for Q1 2024. To avoid this and the necessity of restating prior filings, Dellomo and Um improperly capitalized these shipping costs as assets to be amortized over future quarters, a practice in direct violation of GAAP. The complaint alleges that Dellomo signed false Sarbanes-Oxley certifications and misled outside auditors through false representation letters. The relevant period spans from the filing of the FY 2023 Form 10-K (March 2023) through the company's restatement announcement on August 16, 2023. The legal claims include violations of the anti-fraud, reporting, books and records, and internal controls provisions of the Securities Act of 1933 and the Securities Exchange Act of 1934.",
+      "claim_rulings": [
+        {
+          "claim": "Securities Act Sections 17(a)(1) and (3) (Against Dellomo and Um)",
+          "ruling": "sustained",
+          "reasoning": "The complaint adequately alleges that Dellomo and Um employed a scheme to defraud in the offer or sale of securities (specifically citing Lovesac's stock incentive plan and warrant exercises during the period). The allegations of intentional misclassification of expenses to meet margin targets satisfy the scienter requirement for 17(a)(1) and the negligence requirement for 17(a)(3)."
+        },
+        {
+          "claim": "Securities Act Section 17(a)(3) (Against Lovesac)",
+          "ruling": "sustained",
+          "reasoning": "Lovesac is liable for the acts of its officers. The complaint details a failure to exercise reasonable care in financial reporting and internal controls, leading to a course of business that operated as a fraud on purchasers of Lovesac securities during the relevant period."
+        },
+        {
+          "claim": "Exchange Act Section 10(b) and Rules 10b-5(a) and (c) (Against Dellomo and Um)",
+          "ruling": "sustained",
+          "reasoning": "The complaint sufficiently pleads 'scheme liability.' Um's creation of the improper journal entry and Dellomo's approval thereof constitute deceptive acts in furtherance of a scheme to mislead investors regarding the company's gross margins. Scienter is strongly inferred from internal communications (Teams chats/emails) showing both defendants knew the accounting treatment was non-GAAP compliant but proceeded to hit financial targets."
+        },
+        {
+          "claim": "Exchange Act Section 10(b) and Rule 10b-5(b) (Against Dellomo)",
+          "ruling": "sustained",
+          "reasoning": "As CFO, Dellomo had ultimate authority over the statements in the Q1 2024 Form 10-Q and relevant 8-Ks. These filings contained material misstatements regarding gross margins and GAAP compliance. The $2.2 million discrepancy is material as it was the exact amount needed to meet management's public projections."
+        },
+        {
+          "claim": "Aiding and Abetting Violations of Section 10(b) and Rule 10b-5(b) (Against Um)",
+          "ruling": "sustained",
+          "reasoning": "The complaint alleges Um provided substantial assistance to Dellomo's primary violations by calculating the fraudulent entry and entering it into the general ledger with the knowledge that it would result in false public filings."
+        },
+        {
+          "claim": "Exchange Act Section 13(b)(5) (Against Dellomo)",
+          "ruling": "sustained",
+          "reasoning": "Dellomo is alleged to have knowingly circumvented internal accounting controls by approving a multi-million dollar journal entry that lacked any supporting documentation or materiality analysis, contrary to standard company policy."
+        },
+        {
+          "claim": "Exchange Act Rule 13b2-1 (Against Dellomo and Um)",
+          "ruling": "sustained",
+          "reasoning": "The defendants are alleged to have directly falsified Lovesac's books and records by recording shipping expenses as an asset (capitalization) rather than an expense, which did not fairly reflect the company's transactions."
+        },
+        {
+          "claim": "Exchange Act Rule 13b2-2 (Against Dellomo)",
+          "ruling": "sustained",
+          "reasoning": "The complaint details specific false statements made by Dellomo to outside auditors in a management representation letter, including false assertions that the interim financial information was prepared in accordance with GAAP and that all relevant information had been provided."
+        },
+        {
+          "claim": "Exchange Act Section 13(a) and Rules 12b-20, 13a-1, 13a-11, and 13a-13 (Against Lovesac)",
+          "ruling": "sustained",
+          "reasoning": "Lovesac filed multiple reports (10-K, 10-Q, 8-K) that were admittedly inaccurate, as evidenced by the company's subsequent restatement of its FY 2023 and Q1 2024 financials. Strict liability applies to the issuer for these reporting violations."
+        },
+        {
+          "claim": "Aiding and Abetting Violations of Section 13(a) (Against Dellomo and Um)",
+          "ruling": "sustained",
+          "reasoning": "Both individual defendants were central to the preparation of the false filings. Their roles as CFO and Controller, combined with their knowledge of the improper accounting, constitute substantial assistance in the company's reporting violations."
+        },
+        {
+          "claim": "Exchange Act Rule 13a-14 (Against Dellomo)",
+          "ruling": "sustained",
+          "reasoning": "Dellomo signed the SOX certifications for the Q1 2024 Form 10-Q. Given the allegations that she knew of the unrecorded expenses and the fraudulent journal entry, her certification that the report contained no material misstatements was knowingly false."
+        },
+        {
+          "claim": "Exchange Act Section 13(b)(2)(A) (Against Lovesac)",
+          "ruling": "sustained",
+          "reasoning": "Lovesac failed to maintain accurate books and records. The misclassification of $2.2 million in shipping expenses as an asset is a clear violation of the requirement to maintain records that fairly reflect the company's financial position."
+        },
+        {
+          "claim": "Aiding and Abetting Violations of Section 13(b)(2)(A) (Against Dellomo and Um)",
+          "ruling": "sustained",
+          "reasoning": "The individual defendants' direct involvement in the 'last mile' shipping accrual process and the subsequent fraudulent journal entry provided the substantial assistance necessary for this aiding and abetting claim."
+        },
+        {
+          "claim": "Exchange Act Section 13(b)(2)(B) (Against Lovesac)",
+          "ruling": "sustained",
+          "reasoning": "The complaint identifies specific weaknesses in Lovesac's internal controls, including the failure to ensure that shipping expenses were properly accrued and the ability of senior management to override controls to book unsupported journal entries."
+        },
+        {
+          "claim": "Aiding and Abetting Violations of Section 13(b)(2)(B) (Against Dellomo)",
+          "ruling": "sustained",
+          "reasoning": "As CFO, Dellomo was responsible for the design and implementation of internal controls. Her active participation in bypassing these controls to hide expenses constitutes substantial assistance in the company's failure to maintain an adequate control system."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 13033,
+      "completion_tokens": 1835,
+      "total_tokens": 16532
+    },
+    "case_id": "ctd-3_24-cv-01727"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This enforcement action is brought by the Securities and Exchange Commission (SEC) against Binance Holdings Limited ('Binance'), BAM Trading Services Inc. ('BAM Trading'), BAM Management US Holdings Inc. ('BAM Management'), and Changpeng Zhao ('Zhao'). The Complaint alleges that since 2017, Defendants have operated unregistered crypto asset trading platforms (Binance.com and Binance.US) and engaged in the unregistered offer and sale of crypto asset securities, including BNB, BUSD, and various investment programs (BNB Vault, Simple Earn, and a staking-as-a-service program). The SEC further alleges that Zhao and Binance implemented a 'Tai Chi' plan to surreptitiously evade U.S. regulatory oversight while continuing to serve high-value U.S. customers. Additionally, the Complaint asserts that BAM Trading and BAM Management defrauded equity and retail investors by making false statements about the existence of market surveillance and trading controls on the Binance.US platform, while actually allowing wash trading by Sigma Chain AG, an entity owned by Zhao. The SEC identifies several other tokens traded on the platforms as securities, including SOL, ADA, MATIC, FIL, ATOM, SAND, MANA, ALGO, AXS, and COTI. The relevant period begins in 2017 and continues through the filing of the complaint in June 2023.",
+      "claim_rulings": [
+        {
+          "claim": "Securities Act Sections 5(a) and 5(c) (Unregistered Offer and Sale of BNB, BUSD, Simple Earn, and BNB Vault against Binance)",
+          "ruling": "sustained",
+          "reasoning": "The SEC has plausibly alleged that these assets and programs constitute 'investment contracts' under the Howey test. Specifically, the Complaint details how Binance marketed BNB and BUSD as investments that would increase in value or provide returns based on Binance's managerial efforts to grow its ecosystem. The 'Simple Earn' and 'BNB Vault' programs involve the investment of money in a common enterprise with a reasonable expectation of profits derived from Binance's deployment of those assets. Because no registration statement was in effect, the Section 5 claims are sufficiently pleaded."
+        },
+        {
+          "claim": "Securities Act Sections 5(a) and 5(c) (Unregistered Offer and Sale of Staking Program against BAM Trading)",
+          "ruling": "sustained",
+          "reasoning": "The Complaint alleges that BAM Trading's staking-as-a-service program involves the investment of money (crypto assets) in a common enterprise (the staking pool) with an expectation of profits (staking rewards) derived from BAM Trading's technical and managerial efforts to maintain nodes and participate in consensus. These allegations satisfy the Howey test at the motion to dismiss stage."
+        },
+        {
+          "claim": "Exchange Act Sections 5, 15(a), and 17A(b) (Unregistered Exchange, Broker-Dealer, and Clearing Agency against Binance and BAM Trading)",
+          "ruling": "sustained",
+          "reasoning": "The SEC provides detailed factual allegations that the Binance Platforms performed the functions of: (1) an exchange by providing a marketplace that brought together buyers and sellers using a non-discretionary matching engine; (2) a broker by effecting transactions in securities for the accounts of others and soliciting investors; and (3) a clearing agency by acting as an intermediary in settling trades and serving as a custodian. The Complaint identifies specific crypto asset securities (e.g., SOL, ADA, MATIC) traded on these platforms, satisfying the requirement to allege transactions in securities."
+        },
+        {
+          "claim": "Exchange Act Section 20(a) (Control Person Liability against Zhao)",
+          "ruling": "sustained",
+          "reasoning": "The Complaint contains extensive allegations regarding Zhao's absolute control over Binance and the BAM entities. It describes his 81-100% ownership, his role as CEO, and his direct involvement in 'shackling' BAM Trading's independence. These allegations are sufficient to establish a primary violation by the controlled entities and Zhao's exercise of control over those entities."
+        },
+        {
+          "claim": "Securities Act Sections 17(a)(2) and 17(a)(3) (Fraud and Misrepresentation against BAM Trading and BAM Management)",
+          "ruling": "sustained",
+          "reasoning": "The SEC has alleged with particularity that BAM Trading and BAM Management made material misrepresentations to equity and retail investors regarding the quality of trade surveillance on the Binance.US platform. The Complaint alleges that while Defendants touted robust controls, they knew such controls were non-existent or ineffective, allowing Zhao-owned Sigma Chain to engage in significant wash trading. This conduct operated as a fraud or deceit upon purchasers of securities, satisfying the elements of Section 17(a)."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 53400,
+      "completion_tokens": 1066,
+      "total_tokens": 55638
+    },
+    "case_id": "dcd-1_23-cv-01599"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Danaher Corporation securities between January 27, 2022, and October 23, 2023. The complaint names Danaher and three of its top executives—CEO Rainer M. Blair, CFO Matthew R. McGrew, and Biotechnology Group Executive Emmanuel Ligner—as defendants. Danaher, a global science and technology conglomerate, experienced explosive growth during the COVID-19 pandemic due to high demand for its diagnostic tests and bioprocessing equipment used in vaccine development. Plaintiffs allege that as the pandemic transitioned to an endemic phase, Defendants made a series of materially false and misleading statements to conceal a 'sales cliff' in the company's bioprocessing business. Specifically, the complaint alleges that Defendants misrepresented the sustainability of COVID-related revenues and the health of the 'base' (non-COVID) bioprocessing business. Key factual allegations include: (1) Defendants ignored internal forecasts from subsidiaries and 'made up' better-looking projections for the market; (2) Defendants denied the existence of customer inventory 'stockpiling' (destocking) despite being aware of it; (3) Defendants failed to disclose the impact of rising interest rates on funding for small biotech customers; and (4) Defendants manipulated non-GAAP metrics like 'base business core revenue' to obscure declining growth. The truth was revealed through a series of partial disclosures between October 2022 and October 2023, each resulting in significant stock price declines. Plaintiffs assert claims under Sections 10(b) and 20(a) of the Exchange Act and SEC Rule 10b-5.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiffs have adequately pleaded the elements of a Section 10(b) claim under the PSLRA's heightened pleading standards. First, the complaint identifies specific misleading statements regarding growth guidance and market conditions (e.g., denying inventory stocking while internal data suggested otherwise). Second, the 'strong inference' of scienter is supported by several factors: (a) Confidential Witness #4's testimony that CEO Blair explicitly 'made up' projections that looked better than the data provided by subsidiary presidents; (b) highly suspicious insider trading, with Blair selling 88% of his holdings and McGrew selling 135% of his pre-class period holdings at peak prices following bullish statements; and (c) the 'core operations' doctrine, as the bioprocessing business accounted for approximately 25-30% of Danaher's total revenue, making it implausible that top executives were unaware of a 20-40% decline in orders. Third, loss causation is sufficiently alleged through a series of corrective disclosures (Oct 2022, Jan 2023, Apr 2023, July 2023, and Oct 2023) where the company gradually lowered guidance as the concealed risks materialized, each time resulting in a statistically significant drop in stock price."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation of the Exchange Act and (2) that the individual defendants exercised control over the primary violator. Because the Court has sustained the Section 10(b) claim against Danaher, the first element is satisfied. Regarding the second element, Defendants Blair (CEO) and McGrew (CFO) occupied the highest positions of authority within the company. They signed SEC filings, issued the allegedly misleading press releases, and led the analyst calls where the misrepresentations occurred. Their direct involvement in the day-to-day operations and their ultimate authority over the company's public statements establish 'control person' status for the purposes of a motion to dismiss."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 38706,
+      "completion_tokens": 882,
+      "total_tokens": 40760
+    },
+    "case_id": "dcd-1_23-cv-02055"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action arises from the August 2023 acquisition of Focus Financial Partners Inc. ('Focus') by private equity firm Clayton, Dubilier & Rice ('CD&R') for $53 per share. Lead Plaintiffs, representing a class of shareholders who sold or exchanged shares between February 27, 2023, and August 31, 2023, allege that Focus, its Board of Directors, and certain executive officers disseminated materially false and misleading statements in the Proxy Statement and supplemental disclosures. The core of the misconduct involves the concealment of significant conflicts of interest and a deficient sale process. Specifically, the complaint alleges that: (1) Stone Point Capital, Focus's largest shareholder, drove the deal to secure a $90 million windfall via Tax Receivable Agreements (TRAs) and a unique equity rollover; (2) Focus management favored CD&R because it promised to retain them, whereas a strategic bidder (Party I/) offered $55 per share but was 'stiff-armed'; (3) Special Committee members received undisclosed 3.5x to 6x fee increases moments before approving the merger; (4) Financial advisor Goldman Sachs was conflicted by a concurrent sale of a Focus subsidiary (KSFB) which limited the bidder pool; and (5) personal and business ties between the 'independent' committee and CEO Rudy Adolf were omitted. Plaintiffs assert claims under Sections 10(b), 14(a), and 20(a) of the Securities Exchange Act of 1934.",
+      "claim_rulings": [
+        {
+          "claim": "Section 14(a) and Rule 14a-9",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have adequately pled that the Proxy Statement contained material omissions and misrepresentations regarding the independence of the Special Committee and the 'robustness' of the sale process. The complaint details specific, non-speculative facts: the Special Committee members were awarded substantial fee increases just before the vote, and the Proxy touted their independence while omitting personal friendships with the CEO and business ties to CD&R. Furthermore, the failure to disclose the specific nature of Goldman Sachs's conflict regarding the KSFB sale—which allegedly led to the exclusion of seven potential bidders—is a material omission that a reasonable investor would consider important in deciding how to vote. The allegation that a $55-per-share bid from a strategic acquiror was discouraged in favor of a lower bid that protected management's jobs sufficiently pleads that the total mix of information was distorted. Negligence is sufficiently pled given the defendants' direct involvement in the negotiations and the drafting of the Proxy."
+        },
+        {
+          "claim": "Section 10(b) and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The complaint satisfies the heightened pleading requirements of the PSLRA for both falsity and scienter. Falsity is established through the contrast between the public narrative of a 'fair' and 'independent' process and the internal reality of self-awarded fee increases and the deliberate obstruction of Party I/'s superior $55 bid. Regarding scienter, the complaint alleges strong circumstantial evidence of conscious misbehavior or recklessness. The individual defendants stood to receive millions in TRA payments and accelerated equity awards only upon the consummation of a change-of-control transaction, providing a concrete motive to favor the CD&R deal regardless of price maximization. The 'stiff-arming' of a higher bidder while simultaneously increasing advisor and committee fees on the eve of the merger creates a strong inference of scienter that is at least as compelling as any non-fraudulent inference. Loss causation is adequately pled by the allegation that the merger price was artificially capped at $53, depriving shareholders of the true value indicated by the $55 proposal or the company's standalone prospects."
+        },
+        {
+          "claim": "Section 20(a)",
+          "ruling": "sustained",
+          "reasoning": "Control person liability is sustained because the underlying primary violations under Sections 10(b) and 14(a) have been adequately pled. The individual defendants, as senior officers and directors of Focus, clearly possessed the power to direct the management and policies of the company, specifically the sale process and the issuance of the Proxy Statement. The complaint alleges that the Officer and Director Defendants were directly involved in the negotiations with CD&R and the drafting of the misleading disclosures, satisfying the 'culpable participation' element required in this circuit."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 35527,
+      "completion_tokens": 984,
+      "total_tokens": 37617
+    },
+    "case_id": "dde_ 23_cv_1466"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action brought on behalf of investors who purchased Walmart Inc. ('Walmart') common stock between March 31, 2017, and December 22, 2020 (the 'Class Period'). The plaintiffs allege that Walmart and individual defendants Douglas C. McMillon (CEO) and M. Brett Biggs (CFO) violated federal securities laws by concealing the company's systemic failure to comply with the Controlled Substances Act (CSA) and a 2011 Memorandum of Agreement (MOA) with the DEA. Specifically, the complaint alleges that Walmart operated its pharmacies to prioritize 'driving sales' over regulatory compliance, pressuring pharmacists to fill invalid opioid prescriptions from 'pill-mill' doctors and failing to report hundreds of thousands of suspicious orders as a distributor. The factual core of the complaint rests on the non-disclosure of an intensifying Department of Justice (DOJ) investigation. Plaintiffs allege that by May 2018, the DOJ had informed Walmart that a criminal indictment was imminent and suggested a $1 billion settlement, yet Walmart continued to issue boilerplate risk disclosures and portrayed itself as a 'steward' in the opioid crisis. The truth emerged through two corrective disclosures: a March 25, 2020, ProPublica expose revealing the criminal investigation and the 2011 MOA, and a December 22, 2020, DOJ civil enforcement action. Plaintiffs assert claims under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Court finds that the Plaintiffs have adequately pleaded all elements of a Section 10(b) claim under the PSLRA's heightened standards. (1) Material Misrepresentations/Omissions: Plaintiffs identified specific statements in SEC filings where Walmart claimed to disclose all 'reasonably possible' material liabilities while omitting the DOJ's threat of indictment. The use of boilerplate risk factors to describe risks that had already materialized (e.g., the 'hypothetical' risk of DEA enforcement when a criminal indictment was imminent) is actionable. (2) Scienter: The complaint alleges strong circumstantial evidence of conscious misbehavior or recklessness. Internal documents like the 2014 'Portfolio Scoring Worksheet' show management knew CSA violations were 'likely' to cause 'severe' harm. Furthermore, McMillon's personal involvement in DOJ presentations and the hiring of a former DOJ official to influence the probe support a strong inference of scienter. (3) Loss Causation: The complaint sufficiently links the stock price declines on March 25, 2020 (5%) and December 22, 2020 (1.88%) to the revelation of the previously concealed investigations and the 2011 MOA. (4) Reliance: Plaintiffs are entitled to a presumption of reliance under the fraud-on-the-market doctrine as Walmart stock trades on the NYSE, an efficient market."
+        },
+        {
+          "claim": "Section 20(a) Control Person Liability",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege a primary violation of the Exchange Act and that the individual defendants exercised control over the primary violator. Because the Court has sustained the Section 10(b) claim against Walmart, the first element is satisfied. Regarding control, Defendants McMillon and Biggs occupied the highest executive positions (CEO and CFO), signed the allegedly misleading SEC filings, and were members of the Ethics, Compliance and Risk Committee. The complaint provides specific allegations that they were personally involved in the company's response to the DOJ investigations and oversaw the policies at the heart of the alleged fraud. These allegations are sufficient to establish 'control person' status at the pleading stage."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 47361,
+      "completion_tokens": 876,
+      "total_tokens": 49118
+    },
+    "case_id": "dde_21_cv_55"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by twenty individual plaintiffs (including Kristoffer Jon Hind, Christopher Campbell, and Lucas Longmire) against two corporate entities, CFT Solutions, LLC ('CFT') and FxWinning Limited ('FxWinning'), along with several individual executives: Renan de Rocha Gomes Bastos (CEO of CFT), Rafael Brito Cutie (CEO of FxWinning), Arthur Percy (COO of CFT), Roman Cardenas (VP of FxWinning), and David Merino (Founder of FxWinning). The complaint alleges a massive fraudulent scheme involving a purported high-frequency trading (HFT) algorithm for the foreign exchange (forex) market. Plaintiffs allege that between 2021 and 2023, Defendants induced them to invest over $27 million by promising high returns, guaranteed fund security, and the ability to withdraw funds at any time. To maintain the illusion of legitimacy, Defendants allegedly utilized a Telegram channel to post fabricated profit reports, held 'Mastermind' events in Miami and the Bahamas featuring high-profile speakers, and provided fake KPMG audit reports and fraudulent account dashboards. While initial withdrawals were permitted to 'lull' investors into a false sense of security, Defendants ceased all withdrawals in early 2023, citing sham 'Know Your Customer' (KYC) and 'Anti-Money Laundering' (AML) requirements. In June 2023, FxWinning abruptly announced it was ceasing operations, and Plaintiffs' funds remain unrecovered. The complaint asserts claims for unregistered sale of securities, securities fraud under Rule 10b-5, Commodity Exchange Act violations, and various state law claims including breach of contract, conversion, and civil conspiracy.",
+      "claim_rulings": [
+        {
+          "claim": "Violation of the Securities Act of 1933, 15 U.S.C. § 77e and 77l(a)(1) (Unregistered Securities)",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have sufficiently alleged that the trading accounts and 'software licenses' offered by CFT and FxWinning constitute 'investment contracts' under the Howey test. There was an investment of money in a common enterprise (pooled funds in a shared trading platform) with an expectation of profits derived solely from the efforts of Defendants' proprietary HFT algorithm. Because no registration statement was in effect, and Defendants acted as 'sellers' or 'solicitors' of these securities, the claim for rescission under Section 12(a)(1) survives the motion to dismiss."
+        },
+        {
+          "claim": "Violation of the Securities Exchange Act of 1934 and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The complaint meets the heightened pleading standards of the PSLRA and Rule 9(b). Plaintiffs identify specific material misrepresentations, including the existence of a successful HFT algorithm, the validity of a KPMG audit, and the guarantee of fund liquidity. Scienter is adequately pleaded through allegations that Individual Defendants used investor funds for personal real estate and cryptocurrency purchases, and that they continued to solicit funds while knowing withdrawals were frozen. Loss causation is established by the total loss of access to the $27 million in invested funds following the collapse of the platform."
+        },
+        {
+          "claim": "Violation of the Commodities Exchange Act (CEA), 7 U.S.C. §§ 6b, 6e, 6o, and 25",
+          "ruling": "sustained",
+          "reasoning": "Forex trading is subject to the CEA. Plaintiffs have pleaded in the alternative that if the investments are characterized as commodities rather than securities, Defendants engaged in a fraudulent scheme to solicit and misappropriate funds for pooled forex trading. The allegations of false reports and deceptive practices in connection with commodity contracts are sufficient to state a claim under Sections 6b and 6o."
+        },
+        {
+          "claim": "Violation of the Florida Securities and Investor Protection Act (FSIPA), §§ 517.301 and 517.211",
+          "ruling": "sustained",
+          "reasoning": "The FSIPA claim mirrors the federal securities fraud claims. Plaintiffs allege that Defendants, operating out of Miami-Dade County, sold fraudulent securities and personally participated in the solicitation and sale. Given the sufficiency of the Rule 10b-5 allegations, the FSIPA claim likewise survives."
+        },
+        {
+          "claim": "Breach of Contract (against FxWinning)",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs allege the existence of a valid contract via FxWinning's Terms and Conditions. Section 3.4 of those terms explicitly stated that clients had the right to withdraw their account balance 'at all times.' FxWinning's refusal to process withdrawals and subsequent cessation of services constitutes a clear material breach of those terms, resulting in specific damages."
+        },
+        {
+          "claim": "Breach of Fiduciary Duty",
+          "ruling": "sustained",
+          "reasoning": "While a standard broker-client relationship is not always fiduciary, Plaintiffs allege that Defendants exercised discretionary control over the funds and the trading algorithm, and held themselves out as 'account managers.' This level of trust and dependency in a complex, non-transparent trading environment is sufficient to plead a fiduciary relationship and a subsequent breach through misappropriation."
+        },
+        {
+          "claim": "Fraud in the Inducement",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs allege that Defendants made specific false statements regarding the algorithm's performance and the security of the funds (e.g., Client Money Insurance) to induce them to open accounts and deposit millions of dollars. These allegations are pleaded with the requisite particularity under Rule 9(b)."
+        },
+        {
+          "claim": "Negligent Misrepresentation",
+          "ruling": "sustained",
+          "reasoning": "Plead in the alternative to fraud, this claim is sustained as Plaintiffs have alleged that Defendants, in the course of their business, supplied false information for the guidance of others in their business transactions, and Plaintiffs suffered pecuniary loss by justifiable reliance upon that information."
+        },
+        {
+          "claim": "Conversion",
+          "ruling": "sustained",
+          "reasoning": "Conversion requires an unauthorized act that deprives another of their property. Plaintiffs allege they have a right to the specific funds in their identified accounts and that Defendants have refused to return those funds despite repeated demands, asserting permanent dominion over the assets."
+        },
+        {
+          "claim": "Unjust Enrichment",
+          "ruling": "sustained",
+          "reasoning": "Although a contract claim exists against FxWinning, Plaintiffs may plead unjust enrichment in the alternative at this stage, particularly against the Individual Defendants and CFT, who may have received commissions or fees from Plaintiffs' deposits without a direct contractual relationship."
+        },
+        {
+          "claim": "Civil Conspiracy",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs allege a common purpose between CFT and FxWinning to defraud investors. The complaint details coordinated overt acts, including joint marketing events, the requirement that CFT clients use FxWinning as a broker, and the shared use of fraudulent dashboards to further the scheme."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16812,
+      "completion_tokens": 1599,
+      "total_tokens": 20016
+    },
+    "case_id": "flsd-1_23-cv-23139"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action brought on behalf of investors who purchased GoHealth, Inc. ('GoHealth') Class A common stock pursuant or traceable to the Registration Statement issued in connection with the Company’s July 14, 2020, Initial Public Offering (IPO). The plaintiffs allege violations of Sections 11 and 15 of the Securities Act of 1933. The defendants include GoHealth, several of its senior officers and directors (the 'Individual Defendants'), its private equity sponsor Centerbridge Partners, and the investment banks that served as underwriters. The complaint alleges that the Registration Statement was materially misleading because it failed to disclose that GoHealth was undergoing a significant strategic shift. Specifically, the plaintiffs allege that GoHealth had maximized its growth with its two primary insurance carriers (Humana and Anthem) and had planned 2020 as an 'investment year.' This plan involved rapid expansion to new carriers and an increased focus on Special Needs Plans (SNPs), which the defendants allegedly knew would result in 'short-term drag' on the Company's key performance metric—Lifetime Value of Commissions (LTV)—due to lower initial commission rates, increased marketing costs, and higher customer churn. The plaintiffs point to post-IPO admissions by executives stating these trends were 'anticipated' and 'modeled out' prior to the offering. The class period begins with the IPO on July 14, 2020.",
+      "claim_rulings": [
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "To survive a motion to dismiss a Section 11 claim, a plaintiff must allege that a registration statement contained an omission or misstatement of material fact. Here, the plaintiffs have adequately pled that the Registration Statement omitted material information regarding a known trend or uncertainty required to be disclosed under Item 303 of Regulation S-K. Specifically, the complaint alleges that at the time of the IPO, GoHealth management had already 'anticipated' and 'modeled' that 2020 would be an 'investment year' resulting in LTV compression and a 'short-term drag' on financial performance due to carrier expansion. While the Registration Statement touted the Company's 'rapid scalability' and 'improving' unit economics, it failed to disclose this specific, known negative trend. The post-IPO statements by Defendant Jones and Defendant Matthiesen, characterizing the 2020 results as 'largely as expected' and part of a pre-planned investment strategy, provide a sufficient factual basis at the pleading stage to infer that these were known trends at the time of the IPO that should have been disclosed to investors."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Section 15 imposes joint and several liability on 'control persons' for primary violations of the Securities Act. To state a claim, a plaintiff must allege (1) a primary violation of the Securities Act and (2) that the defendant exercised control over the primary violator. Because the Court has sustained the Section 11 claim against GoHealth, the primary violation element is satisfied. Regarding control, the complaint alleges that the Individual Defendants (Jones, Cruz, and Matthiesen) held high-level executive positions and signed the Registration Statement. Furthermore, it alleges that Centerbridge and the Founders collectively controlled approximately 71% of the Company's voting power and had the authority to appoint a majority of the Board of Directors. These allegations are sufficient to establish a 'power to control' the entity and the specific transactions giving rise to the alleged violations."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 27377,
+      "completion_tokens": 791,
+      "total_tokens": 29624
+    },
+    "case_id": "ilnd-1_20_cv_05593"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by DarkPulse, Inc. ('DarkPulse' or 'Plaintiff') against FirstFire Global Opportunity Fund, LLC ('FirstFire') and its managing member, Eli Fireman (collectively, 'Defendants'). DarkPulse, a microcap company, alleges that FirstFire operates as an unregistered securities dealer in violation of Section 15(a) of the Securities Exchange Act of 1934. The complaint characterizes FirstFire as a 'toxic' or 'death spiral' lender that provides financing to struggling companies through convertible promissory notes. These notes allow FirstFire to convert debt into company stock at a significant discount to the market price (typically 30% or more), which FirstFire then allegedly 'dumps' into the public market for a profit, causing significant dilution and stock price depression. The complaint focuses on two specific transactions: a September 2018 Note for $247,500 and an April 2021 Note for $825,000. Plaintiff alleges these agreements are void under Section 29(b) of the Act because they were made and performed by an unregistered dealer. Furthermore, Plaintiff asserts that the effective interest rates on these notes (calculated to be 61% and 291.52% respectively) are criminally usurious under New York law, exceeding the 25% cap and meeting the RICO threshold for 'unlawful debt' (twice the enforceable rate). The class period or relevant timeframe of misconduct spans from approximately March 2015 to the present, with specific focus on the DarkPulse transactions occurring between 2018 and 2021.",
+      "claim_rulings": [
+        {
+          "claim": "Section 29(b) Rescission based on Section 15(a) Violation (Contract Making)",
+          "ruling": "sustained",
+          "reasoning": "Plaintiff has sufficiently alleged that FirstFire acted as a 'dealer' under Section 3(a)(5) of the Exchange Act but failed to register as required by Section 15(a). The complaint details FirstFire's 'regular business' of purchasing convertible notes from over 89 issuers, converting them to billions of shares, and selling those shares into the market for a profit derived from the conversion discount (a 'markup') rather than investment appreciation. This volume and business model move FirstFire beyond the 'trader' exception. Because the contracts were allegedly 'made' by an unregistered dealer using instrumentalities of interstate commerce, a claim for rescission under Section 29(b) is plausibly stated."
+        },
+        {
+          "claim": "Section 29(b) Rescission based on Section 15(a) Violation (Contract Performance)",
+          "ruling": "sustained",
+          "reasoning": "Similar to the 'making' claim, Plaintiff alleges that the performance of the Agreements—specifically the conversion of debt into shares and the subsequent sale of those shares—involved the continued violation of Section 15(a) by an unregistered dealer. Under Section 29(b), contracts whose performance involves a violation of the Act are voidable. The factual allegations regarding the 18 separate conversions and the use of transfer agents and brokers to effectuate these transactions satisfy the pleading requirements for a performance-based violation at this stage."
+        },
+        {
+          "claim": "Section 20(a) Control Person Liability against Eli Fireman",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation, (2) control over the primary violator, and (3) culpable participation. As the court has sustained the primary Section 15(a) claims, the first element is met. Plaintiff alleges Fireman is the managing member of FirstFire, personally negotiated the DarkPulse transactions, and signed the notes. These allegations sufficiently plead both control and culpable participation in the unregistered dealer activity."
+        },
+        {
+          "claim": "RICO § 1962(c) - Conduct of an Enterprise through Collection of Unlawful Debt",
+          "ruling": "sustained",
+          "reasoning": "Plaintiff alleges that FirstFire constitutes an 'enterprise' and that Fireman conducted its affairs through the 'collection of unlawful debt.' Under RICO, 'unlawful debt' includes a debt that is usurious under state law at a rate at least twice the enforceable rate. Plaintiff alleges the New York criminal usury cap is 25% (making the RICO threshold 50%). The complaint provides detailed calculations showing effective interest rates of 61% and 291% by including original issue discounts, commitment shares, and conversion discounts as interest, consistent with the New York Court of Appeals' decision in Adar Bays. These allegations are sufficient to survive a motion to dismiss."
+        },
+        {
+          "claim": "Unjust Enrichment",
+          "ruling": "sustained",
+          "reasoning": "While a claim for unjust enrichment is generally precluded by the existence of a valid contract, Plaintiff here seeks to void the contracts as illegal under both the Exchange Act and New York usury law. Because the validity of the underlying Agreements is in dispute, Plaintiff is permitted to plead unjust enrichment in the alternative. The complaint sufficiently alleges that Defendants were enriched by the receipt of millions of dollars in stock at DarkPulse's expense under inequitable circumstances."
+        },
+        {
+          "claim": "Constructive Trust",
+          "ruling": "dismissed",
+          "reasoning": "Under New York law, a constructive trust is an equitable remedy, not an independent cause of action. While the Plaintiff may be entitled to a constructive trust as a remedy if they prevail on their substantive claims (such as unjust enrichment or RICO), it cannot stand as a separate count in the complaint. The court dismisses this as a claim but notes that the request for the remedy remains available in the prayer for relief."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 11857,
+      "completion_tokens": 1297,
+      "total_tokens": 14644
+    },
+    "case_id": "nysd_1_21-cv-11222"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Wells Fargo & Company ('Wells Fargo' or the 'Bank') common stock between February 2, 2018, and March 12, 2020. The Lead Plaintiffs (Handelsbanken, Mississippi, Rhode Island, and Louisiana Sheriffs) allege that Wells Fargo and several 'Insider Defendants' (Timothy Sloan, John Shrewsberry, Charles Scharf, C. Allen Parker, and Elizabeth Duke) violated Sections 10(b) and 20(a) of the Securities Exchange Act of 1934. The complaint centers on the Bank's purported compliance with several 2018 Consent Orders issued by the Federal Reserve, the OCC, and the CFPB following widespread consumer abuses. These orders required the Bank to overhaul its risk management and governance, notably imposing an unprecedented 'asset cap' that restricted growth until compliance was achieved. Plaintiffs allege that throughout the Class Period, Defendants repeatedly and falsely assured investors that the Bank had 'plans in place' and was 'executing' and 'implementing' those plans to satisfy the regulators. In reality, the complaint alleges that regulators consistently rejected the Bank's submissions as 'materially incomplete,' 'shoddy,' and 'unacceptable.' The fraud allegedly culminated in false testimony to Congress by Defendant Sloan and the intentional 'toning down' of disclosures in SEC filings to conceal that the asset cap was not close to being lifted. The truth was revealed through a series of corrective disclosures, including the sudden resignation of CEO Sloan, admissions by new CEO Scharf, and a scathing 2020 report by the House Financial Services Committee, leading to a market capitalization loss of over $54 billion.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The complaint sufficiently pleads all elements of a Section 10(b) claim under the PSLRA's heightened standards. First, Plaintiffs identify numerous material misrepresentations where Defendants stated they were 'executing' or 'implementing' plans, or were in 'agreement' with regulators, when they were actually in receipt of formal rejection letters stating their plans were 'materially incomplete' and 'insufficient.' Second, scienter is strongly inferred by the fact that the Insider Defendants personally received these rejection letters and internal emails (e.g., admitting they 'totally biffed it') yet continued to issue positive public statements. Defendant Sloan's private apology to the Federal Reserve for his 'mischaracterizations' to Congress further bolsters this inference. Third, the 'asset cap' was a central concern for investors, making these misrepresentations material. Finally, loss causation is adequately pleaded through a series of partial disclosures—including the extension of the asset cap timeline, CEO resignations, and the release of the House Committee reports—each followed by significant declines in stock price."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation of the Exchange Act and (2) that the individual defendants exercised control over the primary violator. Because the Court has sustained the Section 10(b) claim against Wells Fargo, the first element is satisfied. Regarding control, the complaint alleges that the Insider Defendants (Sloan, Shrewsberry, Scharf, Parker, and Duke) held high-level executive or board positions, were directly involved in the regulatory compliance process, and had the authority to review and edit the Bank's public disclosures and SEC filings. Specifically, the complaint notes that Sloan and Duke personally agreed to 'tone down' disclosures regarding the work remaining under the Consent Orders. These allegations are sufficient to establish control person liability at the pleading stage."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 54097,
+      "completion_tokens": 854,
+      "total_tokens": 56239
+    },
+    "case_id": "nysd_20_cv_04494"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Spectrum Pharmaceuticals, Inc. (\"Spectrum\") common stock between March 17, 2022, and September 22, 2022. The complaint names Spectrum and three of its executives—Thomas J. Riga (CEO), Francois J. Lebel (former CMO), and Nora E. Brennan (CFO)—as defendants. The allegations center on the clinical development of poziotinib (\"pozi\"), a drug intended to treat non-small cell lung cancer (NSCLC). Plaintiff alleges that Defendants made materially false and misleading statements regarding: (1) the optimization of pozi's dosage, claiming they had found an ideal balance of efficacy and safety when the FDA had repeatedly warned that the dosing data was inadequate; (2) the level of 'alignment' with the FDA regarding the design of the PINNACLE confirmatory study, when the FDA had actually warned Spectrum that proceeding with their chosen dose was 'at their own risk'; and (3) the enrollment status of the PINNACLE study, representing that patients were being 'randomized' and the study was 'underway' when, in fact, zero patients had been enrolled. The complaint asserts that these misrepresentations were motivated by Spectrum's precarious financial position and the need to raise capital through at-the-market (ATM) stock offerings. The truth emerged via FDA briefing documents and an Oncologic Drugs Advisory Committee (ODAC) meeting in September 2022, leading to a massive decline in stock value. The complaint asserts claims under Sections 10(b) and 20(a) of the Exchange Act and Rule 10b-5.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded all elements required to survive a motion to dismiss under the PSLRA. Regarding material misrepresentations, the complaint identifies specific statements—such as the claim that patients were being 'randomized' in the PINNACLE study and that the company was 'aligned' with the FDA—which are directly contradicted by the FDA's subsequent disclosures that zero patients were enrolled and that the FDA had warned the company of a 'fatal flaw' in its dosing strategy. Scienter is strongly inferred through the Individual Defendants' direct participation in 'Type B' and 'Late Cycle' meetings with the FDA where these concerns were explicitly raised, yet withheld from the public. Furthermore, the company's urgent need for cash and its subsequent sale of millions of shares via ATM offerings during the Class Period provide a plausible motive for the alleged fraud. Loss causation is adequately pleaded by the 37% and 31% price drops immediately following the release of the FDA Briefing Document and the negative ODAC vote, which served as corrective disclosures revealing the previously concealed regulatory risks."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Control person liability under Section 20(a) requires a primary violation of the Exchange Act and a showing that the individual defendants exercised control over the primary violator. Because the Section 10(b) claim against Spectrum has been sustained, the requirement for a primary violation is satisfied. The complaint sufficiently alleges that Defendants Riga, Lebel, and Brennan, by virtue of their high-level executive positions (CEO, CMO, and CFO) and their roles in signing SEC filings and leading investor calls, possessed the power to direct the management and policies of Spectrum and specifically controlled the content of the allegedly misleading public statements."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 24820,
+      "completion_tokens": 801,
+      "total_tokens": 26635
+    },
+    "case_id": "nysd_22_cv_10292"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought by Lead Plaintiff Genesee County Employees’ Retirement System against DocGo Inc. ('DocGo' or the 'Company') and several of its top executives, including former CEO Anthony Capone, Chairman Stan Vashovsky, and CFO Andre Oberholzer. DocGo, which went public via a SPAC merger in 2021, provides medical transportation and mobile health services. The complaint alleges that throughout the Class Period (roughly late 2022 through September 2023), the Defendants made a series of materially false and misleading statements to investors. Specifically, the complaint alleges: (1) CEO Anthony Capone repeatedly fabricated his educational credentials, claiming to hold a Master's degree in Computational Learning Theory (AI) from Clarkson University and a triple-summa cum laude undergraduate degree, neither of which existed; (2) Capone falsely inflated the value of a potential contract with U.S. Customs and Border Protection (CBP), claiming it was worth $4 billion when it was actually worth approximately $2 billion; and (3) Capone falsely claimed that DocGo had signed up thousands of migrants for New York State Medicaid through UnitedHealthcare to demonstrate the Company's ability to generate long-term 'payer vertical' revenue. The truth emerged through a series of investigative reports by the Times Union in September 2023, leading to Capone's resignation and a stock price collapse of over 56% from its Class Period high. The complaint asserts violations of Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 and SEC Rule 10b-5.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Plaintiff has sufficiently pleaded all elements of a Section 10(b) claim. Regarding material misrepresentations, the complaint identifies specific statements regarding Capone's educational background, the CBP contract value, and Medicaid enrollments that were demonstrably false. The educational lies are material because DocGo marketed itself as an AI-driven technology company, specifically citing Capone's purported graduate expertise as the 'backbone' of its proprietary technology. Scienter is strongly pleaded, particularly as to Capone, who had actual knowledge that he did not possess the degrees he claimed; the other individual defendants' failure to verify these credentials in public filings and proxies supports an inference of at least deliberate recklessness. Reliance is established via the fraud-on-the-market doctrine, as DocGo shares traded on the NASDAQ, an efficient market. Finally, loss causation is adequately pleaded by the sharp decline in stock price immediately following the corrective disclosures in the Times Union and the Company's Form 8-K filing on September 15, 2023."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "To state a claim under Section 20(a), a plaintiff must allege (1) a primary violation by a controlled person and (2) control over the primary violator by the defendant. Because the Court has sustained the Section 10(b) claim against DocGo and the individual defendants, the requirement for a primary violation is met. The complaint alleges that Vashovsky, Capone, and Oberholzer, by virtue of their high-level positions as CEO, CFO, and Chairman, possessed the power to direct the management and policies of DocGo and specifically oversaw the preparation and dissemination of the false SEC filings and press releases. These allegations are sufficient to establish 'control person' status at the pleading stage."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16564,
+      "completion_tokens": 806,
+      "total_tokens": 18321
+    },
+    "case_id": "nysd_23_cv_9476"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This securities class action is brought on behalf of investors who purchased Mobileye Global Inc. common stock between January 26, 2023, and August 1, 2024 (the 'Class Period'), as well as those who purchased stock in the Company's June 2023 Secondary Public Offering ('Offering'). The Plaintiffs allege that Mobileye, a dominant provider of Advanced Driver-Assistance Systems (ADAS), and its senior executives engaged in a 'channel stuffing' scheme to artificially inflate revenue. Specifically, the complaint alleges that Defendants forced 'Tier 1' customers into annual minimum purchase commitments for Mobileye's flagship 'EyeQ' chips, decoupling sales from actual market demand. While Defendants publicly claimed that shipments depended on 'market conditions' and that they had high visibility into inventory levels, they were allegedly shipping millions of units in excess of demand—4-5 million units in 2021-2022 and another 2-3 million in 2023. This allowed the Company to meet financial guidance and analyst expectations during its first year as a public company following its spin-off from Intel. The truth emerged in two stages: first on January 4, 2024, when Mobileye revealed a massive inventory glut and predicted a 50% revenue drop for Q1 2024, and again on August 1, 2024, when the Company further slashed guidance due to 'residual' inventory issues in China. The complaint asserts claims under Sections 10(b) and 20(a) of the Exchange Act and Sections 11 and 15 of the Securities Act.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5(b) (Misrepresentations and Omissions)",
+          "ruling": "sustained",
+          "reasoning": "The complaint adequately pleads the elements of a Section 10(b) claim under the heightened standards of the PSLRA. First, Plaintiffs identify specific material misstatements regarding the nature of Mobileye's sales (e.g., that they were based on 'market conditions') and the status of customer inventory (e.g., that it was 'stabilized'). These statements were allegedly false because Mobileye was using mandatory minimum commitments to force excess inventory onto customers. Second, scienter is supported by a 'strong inference' based on several factors: the 'core operations' doctrine (EyeQ chips represent ~90% of revenue), corroboration from former employees (FE 1 and FE 2) who state that management was aware of the inventory buildup and forced shipments, and the fact that the alleged scheme allowed the Company to meet precisely its first-year guidance. Third, loss causation is sufficiently pleaded via the stock price collapses following the January and August 2024 disclosures."
+        },
+        {
+          "claim": "Section 10(b) and Rule 10b-5(a) and (c) (Scheme Liability)",
+          "ruling": "sustained",
+          "reasoning": "Plaintiffs have alleged more than just misstatements; they describe a deceptive course of conduct designed to inflate revenue through channel stuffing. The complaint details the 'how' of the scheme: the implementation of atypical annual minimum quantity commitments that made it 'impossible' for customers to adjust orders to demand. This conduct is alleged to have been performed with the intent to deceive the market regarding the organic growth and demand for Mobileye's products. Because the complaint alleges deceptive acts (the forced commitments and excess shipping) in addition to misstatements, the scheme liability claim survives the motion to dismiss."
+        },
+        {
+          "claim": "Section 20(a) (Control Person Liability - Exchange Act)",
+          "ruling": "sustained",
+          "reasoning": "Because the primary Section 10(b) claims have been sustained, and the individual Executive Defendants (Shashua, Rojansky, Heller, and Galves) occupied high-level positions with the power to control the Company's public statements and financial reporting, the claim for control person liability is sufficiently pleaded."
+        },
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "sustained",
+          "reasoning": "Section 11 provides for strict liability against the issuer and negligence-based liability against individual signers for material misstatements in a registration statement. The June 2023 Offering Documents incorporated the 2022 Annual Report and Q1 2023 Quarterly Report, which contained the allegedly false statements regarding the 'market-based' nature of shipments and the lack of mandatory quantity commitments. Furthermore, the complaint adequately alleges a violation of Item 303 of Regulation S-K, as the buildup of 6-7 million units of excess inventory constituted a 'known trend or uncertainty' that was reasonably likely to have a material unfavorable impact on future revenues, yet was omitted from the Offering Documents."
+        },
+        {
+          "claim": "Section 15 of the Securities Act (Control Person Liability - Securities Act)",
+          "ruling": "sustained",
+          "reasoning": "The underlying Section 11 claim has been sustained. Defendants Shashua and Heller, who signed the Registration Statement and served as top executives, are properly alleged to be control persons under Section 15. As the complaint alleges they had the authority to control the contents of the Offering Documents, this claim survives."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 45308,
+      "completion_tokens": 1191,
+      "total_tokens": 47719
+    },
+    "case_id": "nysd_24_cv_310"
+  },
+  {
+    "model": "gemini",
+    "model_id": "gemini-3-flash-preview",
+    "test": "test2",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action brought on behalf of investors who purchased American Airlines Group Inc. ('American') securities between July 20, 2023, and May 28, 2024 (the 'Class Period'). The Plaintiffs (Dominik Dumancic, Luis Vicente Davidoff Cracasso, and Richard Wilkinson) allege that American and its senior executives—CEO Robert D. Isom, Jr., CFO Devon E. May, and former CCO Vasu S. Raja—violated federal securities laws by misrepresenting the success of a major shift in the company's sales and distribution strategy. Historically, American sold tickets through travel agencies using legacy 'EDIFACT' technology. Starting in late 2022, American implemented 'Modern Retailing,' a strategy designed to bypass traditional agencies by pushing customers toward direct booking channels and New Distribution Capability ('NDC') technology. To force this transition, American removed 40% of its fare content from traditional channels and slashed incentives for travel management companies (TMCs) and corporate clients. The complaint alleges that throughout the Class Period, Defendants repeatedly told investors that business demand was 'strong' and that the NDC transition was being 'embraced' by the industry. However, internal data from 'SalesLink Insights,' 'PRISM' reports, and 'IATA' data allegedly showed that the strategy was actually alienating high-value corporate customers and driving them to competitors like Delta and United. The truth emerged on May 28 and 29, 2024, when American abruptly announced the departure of CCO Vasu Raja, slashed its financial guidance for the second quarter and full year 2024, and admitted that its distribution strategy had 'driven customers away.' Following these disclosures, American's stock price fell 13.54% in a single day.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "sustained",
+          "reasoning": "The Court finds that the Plaintiffs have adequately pleaded the essential elements of a Section 10(b) claim under the heightened standards of the PSLRA. First, the complaint identifies specific material misrepresentations regarding 'encouraging' business demand and the 'successful' rollout of NDC technology. These statements are shown to be false or misleading through the testimony of Confidential Witnesses (CW1 and CW2) and internal metrics (PRISM/SalesLink) indicating that agency bookings were down 15% and corporate share was 'withering' as early as July 2023. Second, the complaint supports a 'strong inference' of scienter. Defendants Isom and Raja admitted post-Class Period that they monitored these metrics closely and identified a 'deviation' in revenue performance as early as Q1 2024 but chose to obscure it. The engagement of Bain & Co. to conduct a 'critical review' of the failing strategy further suggests contemporaneous knowledge of the issues. Third, the Plaintiffs have adequately pleaded loss causation by linking the May 2024 corrective disclosures regarding the strategy's failure and Raja's ouster to the immediate 13.5% drop in stock price, which occurred while competitors' stocks remained stable."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "sustained",
+          "reasoning": "Liability under Section 20(a) is derivative of a primary violation of the Exchange Act. Because the Court has sustained the Section 10(b) claim against American and the Individual Defendants, the first element of a Section 20(a) claim is satisfied. Furthermore, the Plaintiffs have sufficiently alleged that the Individual Defendants (Isom, May, and Raja) were 'control persons.' By virtue of their high-level positions as CEO, CFO, and CCO, these individuals had the power to influence and control the company's business strategy and the content of its public statements and SEC filings. The complaint details their direct participation in earnings calls and the development of the 'Modern Retailing' strategy, establishing the requisite control over the primary violator."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 58459,
+      "completion_tokens": 900,
+      "total_tokens": 60133
+    },
+    "case_id": "txnd-4_24-cv-00673"
+  }
+]

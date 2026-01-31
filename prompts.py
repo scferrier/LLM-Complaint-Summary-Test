@@ -9,7 +9,7 @@ TEST1_USER_PROMPT = """Extract the following information from this securities cl
 2. **Defendants**: List all named defendants (companies and individuals)
 3. **Ticker Symbol**: If the Defendant is a public company, the stock ticker symbol if mentioned (or null if not found)
 4. **Class Period**: The start and end dates of the class period
-5. **Causes of Action**: List each cause of action/claim asserted, with a 1-2 sentence summary of the factual basis supporting that claim
+5. **Causes of Action**: List each cause of action/claim asserted
 
 Return your response as a JSON object with this exact structure:
 {{
@@ -20,13 +20,7 @@ Return your response as a JSON object with this exact structure:
         "start": "YYYY-MM-DD",
         "end": "YYYY-MM-DD"
     }},
-    "causes_of_action": [
-        {{
-            "claim": "Name of the legal claim (e.g., Section 10(b) and Rule 10b-5)",
-            "factual_basis": "1-2 sentence summary of the facts supporting this claim"
-        }},
-        ...
-    ]
+    "causes_of_action": ["Section 10(b) and Rule 10b-5", "Section 20(a)", ...]
 }}
 
 COMPLAINT TEXT:
@@ -35,31 +29,33 @@ COMPLAINT TEXT:
 JSON RESPONSE:"""
 
 
-# Test 2: Summarization + MTD Prediction
-TEST2_SYSTEM_PROMPT = """You are a neutral legal analyst that specializes in evaluating legal complaints.
-Your task is to summarize complaints and predict motion to dismiss outcomes based on legal standards.
+# Test 2: Judicial Officer - Complaint Summary & Claim Rulings
+TEST2_SYSTEM_PROMPT = """You are a federal district court judge reviewing a motion to dismiss a securities class action complaint.
+Your task is to summarize the complaint and issue rulings on each claim asserted.
 Always respond with valid JSON only."""
 
-TEST2_USER_PROMPT = """Analyze this securities class action complaint and provide:
+TEST2_USER_PROMPT = """You are presiding over this securities class action case. The defendants have filed a motion to dismiss.
+Review the complaint and provide:
 
-1. **Summary**: A neutral, objective summary of the complaint in 1-3 paragraphs covering:
-   - Who the parties are
-   - What the alleged misconduct was
-   - The key factual allegations
-   - The claims being asserted
+1. **Summary**: A comprehensive summary of the complaint covering:
+   - The parties involved (plaintiffs and defendants)
+   - The alleged fraudulent conduct or misconduct
+   - The key factual allegations supporting the claims
+   - The legal claims being asserted
+   - The class period and any significant dates
 
-2. **MTD Predictions**: For each cause of action, predict the likely outcome of a motion to dismiss:
-   - Outcome: "granted" (claim dismissed), or "denied" (claim survives)
-   - Reasoning: 2-3 sentences explaining why, referencing relevant legal standards (e.g., scienter, materiality, loss causation for 10b-5 claims) and how the facts allege meet or do not meet those standards.
+2. **Claim Rulings**: For each cause of action asserted in the complaint, issue your ruling:
+   - Ruling: "dismissed" (motion granted as to this claim), "sustained" (motion denied, claim survives), or "dismissed_in_part" (partially granted)
+   - Reasoning: Provide detailed legal analysis explaining your ruling. Reference the applicable legal standards (e.g., for Section 10(b) claims: material misrepresentation or omission, scienter, reliance, loss causation; for Section 20(a) claims: primary violation and control person liability). Explain how the factual allegations do or do not satisfy each element.
 
 Return your response as a JSON object with this exact structure:
 {{
-    "summary": "Your 1-3 paragraph neutral summary here...",
-    "mtd_predictions": [
+    "summary": "Your comprehensive summary of the complaint...",
+    "claim_rulings": [
         {{
-            "claim": "Name of the legal claim",
-            "predicted_outcome": "granted" | "denied",
-            "reasoning": "2-3 sentence explanation of the prediction"
+            "claim": "Name of the legal claim (e.g., Section 10(b) and Rule 10b-5)",
+            "ruling": "dismissed" | "sustained" | "dismissed_in_part",
+            "reasoning": "Detailed legal analysis explaining your ruling..."
         }},
         ...
     ]

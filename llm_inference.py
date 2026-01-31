@@ -4,10 +4,13 @@ import re
 import os
 from typing import Optional
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 import litellm
 import pandas as pd
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 from config import (
     MODELS,
@@ -16,12 +19,19 @@ from config import (
     LLM_MAX_TOKENS,
     LLM_TIMEOUT,
     RATE_LIMIT_DELAY,
+    MODEL_RATE_LIMITS,
     RESULTS_DIR,
 )
 from prompts import format_test1_prompt, format_test2_prompt
 
 # Load environment variables
 load_dotenv()
+
+# Thread-safe progress tracking
+_progress_lock = threading.Lock()
+
+# Suppress duplicate tqdm output in threading
+tqdm.monitor_interval = 0
 
 
 def call_gemini_direct(messages: list, model: str, temperature: float = LLM_TEMPERATURE,
@@ -187,104 +197,355 @@ def run_test2_summary(complaint_text: str, model_name: str, model_id: Optional[s
     }
 
 
-def batch_run_test1(cases_df: pd.DataFrame, models: Optional[list] = None, save_results: bool = True,
-    verbose: bool = True) -> dict:
- 
+def _run_model_test1(model_name: str, cases_df: pd.DataFrame, pbar: tqdm,
+                     save_results: bool = True) -> tuple:
+    """
+    Run Test 1 for a single model across all cases.
+    Returns (model_name, results_list).
+    """
+    results = []
+
+    for idx, row in cases_df.iterrows():
+        case_id = row['case_id']
+        complaint_text = row['complaint_text']
+
+        result = run_test1_extraction(complaint_text, model_name)
+        result['case_id'] = case_id
+        results.append(result)
+
+        # Update progress bar (thread-safe)
+        status = "OK" if result['success'] else "ERR"
+        with _progress_lock:
+            pbar.update(1)
+            pbar.set_postfix_str(f"{model_name}: {case_id[:20]}... {status}")
+
+        # Rate limiting (model-specific)
+        delay = MODEL_RATE_LIMITS.get(model_name, RATE_LIMIT_DELAY)
+        time.sleep(delay)
+
+    # Save results for this model
+    if save_results:
+        save_test_results(results, "test1", model_name)
+
+    return model_name, results
+
+
+def _run_model_test2(model_name: str, cases_df: pd.DataFrame, pbar: tqdm,
+                     save_results: bool = True, start_delay: float = 0.0) -> tuple:
+    """
+    Run Test 2 for a single model across all cases.
+    Returns (model_name, results_list).
+
+    Args:
+        start_delay: Seconds to wait before starting (for staggered parallel execution)
+    """
+    # Staggered start to prevent slow models from bunching at the end
+    if start_delay > 0:
+        time.sleep(start_delay)
+
+    results = []
+
+    for idx, row in cases_df.iterrows():
+        case_id = row['case_id']
+        complaint_text = row['complaint_text']
+
+        result = run_test2_summary(complaint_text, model_name)
+        result['case_id'] = case_id
+        results.append(result)
+
+        # Update progress bar (thread-safe)
+        status = "OK" if result['success'] else "ERR"
+        with _progress_lock:
+            pbar.update(1)
+            pbar.set_postfix_str(f"{model_name}: {case_id[:20]}... {status}")
+
+        # Rate limiting (model-specific)
+        delay = MODEL_RATE_LIMITS.get(model_name, RATE_LIMIT_DELAY)
+        time.sleep(delay)
+
+    # Save results for this model
+    if save_results:
+        save_test_results(results, "test2", model_name)
+
+    return model_name, results
+
+
+def batch_run_test1(cases_df: pd.DataFrame, models: Optional[list] = None,
+                    save_results: bool = True, verbose: bool = True,
+                    parallel: bool = True) -> dict:
+    """
+    Run Test 1 extraction across all cases and models.
+
+    Args:
+        cases_df: DataFrame with case_id and complaint_text columns
+        models: List of model names to test (default: all)
+        save_results: Save results to files
+        verbose: Print progress info
+        parallel: Run models in parallel (default: True)
+
+    Returns:
+        dict mapping model_name -> list of results
+    """
     if models is None:
         models = list(MODELS.keys())
 
-    all_results = {model: [] for model in models}
-
     total_calls = len(cases_df) * len(models)
-    call_count = 0
 
-    for model_name in models:
-        if verbose:
-            print(f"\n{'='*50}")
-            print(f"Running Test 1 with {model_name}")
-            print(f"{'='*50}")
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"TEST 1: STRUCTURED DATA EXTRACTION")
+        print(f"{'='*60}")
+        print(f"Cases: {len(cases_df)} | Models: {len(models)} | Total calls: {total_calls}")
+        print(f"Models: {', '.join(models)}")
+        print(f"Mode: {'Parallel' if parallel else 'Sequential'}")
+        print(f"{'='*60}\n")
 
-        for idx, row in cases_df.iterrows():
-            call_count += 1
-            case_id = row['case_id']
-            complaint_text = row['complaint_text']
+    all_results = {}
 
+    # Create progress bar
+    pbar = tqdm(total=total_calls, desc="Test 1 Progress",
+                unit="call", ncols=100, position=0, leave=True,
+                bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]',
+                dynamic_ncols=True)
+
+    if parallel and len(models) > 1:
+        # Run models in parallel using ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=len(models)) as executor:
+            futures = {
+                executor.submit(_run_model_test1, model, cases_df, pbar, save_results): model
+                for model in models
+            }
+
+            for future in as_completed(futures):
+                model_name, results = future.result()
+                all_results[model_name] = results
+                if verbose:
+                    success_count = sum(1 for r in results if r.get('success'))
+                    tqdm.write(f"  Completed {model_name}: {success_count}/{len(results)} successful")
+    else:
+        # Sequential execution
+        for model_name in models:
+            _, results = _run_model_test1(model_name, cases_df, pbar, save_results)
+            all_results[model_name] = results
             if verbose:
-                print(f"  [{call_count}/{total_calls}] Processing {case_id}...", end=" ")
+                success_count = sum(1 for r in results if r.get('success'))
+                tqdm.write(f"  Completed {model_name}: {success_count}/{len(results)} successful")
 
-            result = run_test1_extraction(complaint_text, model_name)
-            result['case_id'] = case_id
+    pbar.close()
 
-            all_results[model_name].append(result)
-
-            if verbose:
-                status = "OK" if result['success'] else f"ERROR: {result.get('error', 'Unknown')}"
-                print(status)
-
-            # Rate limiting
-            time.sleep(RATE_LIMIT_DELAY)
-
-        # Save intermediate results
-        if save_results:
-            save_test_results(all_results[model_name], "test1", model_name)
+    if verbose:
+        print(f"\n{'='*60}")
+        print("TEST 1 COMPLETE")
+        for model, results in all_results.items():
+            success = sum(1 for r in results if r.get('success'))
+            print(f"  {model}: {success}/{len(results)} successful")
+        print(f"{'='*60}\n")
 
     return all_results
 
 
 def batch_run_test2(cases_df: pd.DataFrame, models: Optional[list] = None,
-save_results: bool = True,  verbose: bool = True) -> dict:
+                    save_results: bool = True, verbose: bool = True,
+                    parallel: bool = True) -> dict:
+    """
+    Run Test 2 summarization + MTD prediction across all cases and models.
 
+    Args:
+        cases_df: DataFrame with case_id and complaint_text columns
+        models: List of model names to test (default: all)
+        save_results: Save results to files
+        verbose: Print progress info
+        parallel: Run models in parallel (default: True)
+
+    Returns:
+        dict mapping model_name -> list of results
+    """
     if models is None:
         models = list(MODELS.keys())
 
-    all_results = {model: [] for model in models}
-
     total_calls = len(cases_df) * len(models)
-    call_count = 0
 
-    for model_name in models:
-        if verbose:
-            print(f"\n{'='*50}")
-            print(f"Running Test 2 with {model_name}")
-            print(f"{'='*50}")
+    if verbose:
+        print(f"\n{'='*60}")
+        print(f"TEST 2: SUMMARIZATION + MTD PREDICTION")
+        print(f"{'='*60}")
+        print(f"Cases: {len(cases_df)} | Models: {len(models)} | Total calls: {total_calls}")
+        print(f"Models: {', '.join(models)}")
+        print(f"Mode: {'Parallel' if parallel else 'Sequential'}")
+        print(f"{'='*60}\n")
 
-        for idx, row in cases_df.iterrows():
-            call_count += 1
-            case_id = row['case_id']
-            complaint_text = row['complaint_text']
+    all_results = {}
 
+    # Create progress bar
+    pbar = tqdm(total=total_calls, desc="Test 2 Progress",
+                unit="call", ncols=100, position=0, leave=True,
+                bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]',
+                dynamic_ncols=True)
+
+    if parallel and len(models) > 1:
+        # Staggered start delays to spread out slow models
+        # claude-opus starts first (0s), gpt-5.2 starts last (5s)
+        stagger_delays = {
+            "claude-opus": 0.0,   # Slow - starts first
+            "gemini": 1.0,
+            "perplexity": 2.0,
+            "grok": 3.0,
+            "gpt-5.2": 5.0,       # Slow - starts last
+        }
+
+        # Run models in parallel using ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=len(models)) as executor:
+            futures = {
+                executor.submit(
+                    _run_model_test2, model, cases_df, pbar, save_results,
+                    stagger_delays.get(model, 0.0)
+                ): model
+                for model in models
+            }
+
+            for future in as_completed(futures):
+                model_name, results = future.result()
+                all_results[model_name] = results
+                if verbose:
+                    success_count = sum(1 for r in results if r.get('success'))
+                    tqdm.write(f"  Completed {model_name}: {success_count}/{len(results)} successful")
+    else:
+        # Sequential execution
+        for model_name in models:
+            _, results = _run_model_test2(model_name, cases_df, pbar, save_results)
+            all_results[model_name] = results
             if verbose:
-                print(f"  [{call_count}/{total_calls}] Processing {case_id}...", end=" ")
+                success_count = sum(1 for r in results if r.get('success'))
+                tqdm.write(f"  Completed {model_name}: {success_count}/{len(results)} successful")
 
-            result = run_test2_summary(complaint_text, model_name)
-            result['case_id'] = case_id
+    pbar.close()
 
-            all_results[model_name].append(result)
-
-            if verbose:
-                status = "OK" if result['success'] else f"ERROR: {result.get('error', 'Unknown')}"
-                print(status)
-
-            # Rate limiting
-            time.sleep(RATE_LIMIT_DELAY)
-
-        # Save intermediate results
-        if save_results:
-            save_test_results(all_results[model_name], "test2", model_name)
+    if verbose:
+        print(f"\n{'='*60}")
+        print("TEST 2 COMPLETE")
+        for model, results in all_results.items():
+            success = sum(1 for r in results if r.get('success'))
+            print(f"  {model}: {success}/{len(results)} successful")
+        print(f"{'='*60}\n")
 
     return all_results
 
 
 def save_test_results(results: list, test_name: str, model_name: str):
-    """Save test results to JSON file."""
+    """Save test results to JSON and Excel files."""
     output_dir = Path(RESULTS_DIR) / test_name / "raw_outputs"
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    output_path = output_dir / f"{model_name}_outputs.json"
-    with open(output_path, 'w', encoding='utf-8') as f:
+    # Save JSON
+    json_path = output_dir / f"{model_name}_outputs.json"
+    with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
+    print(f"  Saved JSON to {json_path}")
 
-    print(f"  Saved results to {output_path}")
+    # Save Excel for manual review
+    excel_path = output_dir / f"{model_name}_outputs.xlsx"
+    export_results_to_excel(results, test_name, excel_path)
+    print(f"  Saved Excel to {excel_path}")
+
+
+def export_results_to_excel(results: list, test_name: str, output_path: Path):
+    """
+    Export LLM results to Excel for manual review.
+    Flattens the nested JSON structure into readable columns.
+    Includes evaluation scores if ground truth is available.
+    """
+    from data_loader import load_ground_truth_test1, load_ground_truth_test2
+    from evals import clean_ground_truth_row, evaluate_test1_case, evaluate_test2_case
+
+    # Try to load ground truth for scoring
+    ground_truth = None
+    try:
+        if test_name == 'test1':
+            ground_truth = load_ground_truth_test1()
+        elif test_name == 'test2':
+            ground_truth = load_ground_truth_test2()
+    except FileNotFoundError:
+        pass
+
+    rows = []
+
+    for result in results:
+        if not result.get('success'):
+            rows.append({
+                'case_id': result.get('case_id', ''),
+                'model': result.get('model', ''),
+                'success': False,
+                'error': result.get('error', ''),
+            })
+            continue
+
+        response = result.get('response', {})
+        case_id = result.get('case_id', '')
+        row = {
+            'case_id': case_id,
+            'model': result.get('model', ''),
+            'success': True,
+        }
+
+        if test_name == 'test1':
+            # Test 1: Extraction fields
+            row['plaintiffs'] = '; '.join(response.get('plaintiffs', []))
+            row['defendants'] = '; '.join(response.get('defendants', []))
+            row['ticker'] = response.get('ticker', '')
+
+            period = response.get('class_period', {}) or {}
+            row['class_period_start'] = period.get('start', '')
+            row['class_period_end'] = period.get('end', '')
+
+            # Causes of action (flatten list)
+            causes = response.get('causes_of_action', [])
+            for i, cause in enumerate(causes[:15], 1):
+                if isinstance(cause, str):
+                    row[f'cause_{i}'] = cause
+                elif isinstance(cause, dict):
+                    row[f'cause_{i}'] = cause.get('claim', '')
+
+            # Calculate scores if ground truth available
+            if ground_truth is not None:
+                gt_row = ground_truth[ground_truth['case_id'] == case_id]
+                if not gt_row.empty:
+                    gt_dict = gt_row.iloc[0].to_dict()
+                    actual = clean_ground_truth_row(gt_dict)
+                    scores = evaluate_test1_case(response, actual, apply_cleaning=True)
+                    row['plaintiffs_f1'] = round(scores.get('plaintiffs_f1', 0), 3)
+                    row['defendants_f1'] = round(scores.get('defendants_f1', 0), 3)
+                    row['ticker_match'] = round(scores.get('ticker', 0), 3)
+                    row['class_period_score'] = round((scores.get('class_period_start', 0) + scores.get('class_period_end', 0)) / 2, 3)
+                    row['causes_f1'] = round(scores.get('causes_f1', 0), 3)
+                    row['composite_f1'] = round(scores.get('overall', 0), 3)
+
+        elif test_name == 'test2':
+            # Test 2: Summary + Claim Rulings fields
+            row['summary'] = response.get('summary', '')
+
+            # Handle both new format (claim_rulings) and old format (mtd_predictions)
+            claim_rulings = response.get('claim_rulings', [])
+            if not claim_rulings:
+                claim_rulings = response.get('mtd_predictions', [])
+
+            for i, ruling in enumerate(claim_rulings[:15], 1):
+                if isinstance(ruling, dict):
+                    row[f'claim_{i}'] = ruling.get('claim', '')
+                    row[f'ruling_{i}'] = ruling.get('ruling', ruling.get('predicted_outcome', ''))
+                    row[f'reasoning_{i}'] = ruling.get('reasoning', '')
+
+            # Note: Full scoring is done in evaluate_results() with order texts
+            # Excel export only includes raw LLM outputs for manual review
+
+        # Add token usage
+        usage = result.get('usage', {}) or {}
+        row['prompt_tokens'] = usage.get('prompt_tokens', '')
+        row['completion_tokens'] = usage.get('completion_tokens', '')
+
+        rows.append(row)
+
+    df = pd.DataFrame(rows)
+    df.to_excel(output_path, index=False)
 
 
 def load_test_results(test_name: str, model_name: str) -> list:

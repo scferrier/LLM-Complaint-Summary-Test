@@ -118,7 +118,9 @@ def load_ground_truth_test1(excel_path: str = GROUND_TRUTH_TEST1_PATH) -> pd.Dat
 
 def load_ground_truth_test2(excel_path: str = GROUND_TRUTH_TEST2_PATH) -> pd.DataFrame:
     """
-    Load Test 2 ground truth data (MTD outcomes).
+    Load Test 2 ground truth data (MTD outcomes) from Excel.
+
+    DEPRECATED: Use load_ground_truth_test2_orders() instead for order text comparison.
 
     Returns:
         DataFrame with columns: case_id, summary_reference, cause_1,
@@ -129,6 +131,32 @@ def load_ground_truth_test2(excel_path: str = GROUND_TRUTH_TEST2_PATH) -> pd.Dat
 
     df = pd.read_excel(excel_path)
     return df
+
+
+def load_ground_truth_test2_orders(orders_dir: str = PROCESSED_ORDERS_DIR) -> pd.DataFrame:
+    """
+    Load Test 2 ground truth from order text files.
+
+    The order texts serve as the reference for evaluating LLM-generated
+    complaint summaries and claim rulings.
+
+    Returns:
+        DataFrame with columns: case_id, order_text, order_text_length
+    """
+    texts = load_order_texts(orders_dir)
+
+    if not texts:
+        raise FileNotFoundError(f"No order texts found in: {orders_dir}")
+
+    rows = []
+    for case_id, text in texts.items():
+        rows.append({
+            'case_id': case_id,
+            'order_text': text,
+            'order_text_length': len(text)
+        })
+
+    return pd.DataFrame(rows).sort_values('case_id').reset_index(drop=True)
 
 
 def load_court_summaries(excel_path: str = COURT_SUMMARIES_PATH) -> pd.DataFrame:

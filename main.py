@@ -19,6 +19,7 @@ from config import MODELS, RESULTS_DIR
 from data_loader import (
     build_complaints_df,
     load_ground_truth_test1,
+    load_ground_truth_test2_orders,
     load_ground_truth_test2,
     GROUND_TRUTH_TEST1_PATH,
     GROUND_TRUTH_TEST2_PATH,
@@ -34,6 +35,8 @@ from evals import (
     evaluate_all_test1,
     evaluate_all_test2,
     generate_summary_report,
+    generate_macro_f1_table,
+    generate_test2_results_table,
 )
 
 
@@ -59,7 +62,8 @@ def run_single_test(case_id: str, model: str, test: str) -> dict:
 def run_test1_pipeline(
     models: list = None,
     cases: list = None,
-    verbose: bool = True
+    verbose: bool = True,
+    parallel: bool = True
 ) -> dict:
     """
     Run the Test 1 extraction pipeline.
@@ -68,23 +72,18 @@ def run_test1_pipeline(
         models: List of model names (defaults to all)
         cases: List of case_ids to process (defaults to all)
         verbose: Print progress
+        parallel: Run models in parallel
 
     Returns:
         dict with results for each model
     """
-    print("\n" + "="*60)
-    print("TEST 1: STRUCTURED DATA EXTRACTION")
-    print("="*60)
-
     # Load data
     df = build_complaints_df()
     if cases:
         df = df[df['case_id'].isin(cases)]
 
-    print(f"Processing {len(df)} cases with {len(models or MODELS)} models")
-
     # Run inference
-    results = batch_run_test1(df, models=models, verbose=verbose)
+    results = batch_run_test1(df, models=models, verbose=verbose, parallel=parallel)
 
     return results
 
@@ -92,7 +91,8 @@ def run_test1_pipeline(
 def run_test2_pipeline(
     models: list = None,
     cases: list = None,
-    verbose: bool = True
+    verbose: bool = True,
+    parallel: bool = True
 ) -> dict:
     """
     Run the Test 2 summarization + MTD pipeline.
@@ -101,30 +101,28 @@ def run_test2_pipeline(
         models: List of model names (defaults to all)
         cases: List of case_ids to process (defaults to all)
         verbose: Print progress
+        parallel: Run models in parallel
 
     Returns:
         dict with results for each model
     """
-    print("\n" + "="*60)
-    print("TEST 2: SUMMARIZATION + MTD PREDICTION")
-    print("="*60)
-
     # Load data
     df = build_complaints_df()
     if cases:
         df = df[df['case_id'].isin(cases)]
 
-    print(f"Processing {len(df)} cases with {len(models or MODELS)} models")
-
     # Run inference
-    results = batch_run_test2(df, models=models, verbose=verbose)
+    results = batch_run_test2(df, models=models, verbose=verbose, parallel=parallel)
 
     return results
 
 
-def evaluate_results(compute_summac: bool = False) -> tuple:
+def evaluate_results(compute_factual: bool = True) -> tuple:
     """
     Evaluate all saved results against ground truth.
+
+    Args:
+        compute_factual: Whether to compute SummaC and QAFactEval (slow)
 
     Returns:
         tuple of (test1_scores_df, test2_scores_df)
@@ -133,7 +131,7 @@ def evaluate_results(compute_summac: bool = False) -> tuple:
     print("EVALUATING RESULTS")
     print("="*60)
 
-    # Load ground truth
+    # Load ground truth for Test 1
     try:
         gt1 = load_ground_truth_test1()
         print(f"Loaded Test 1 ground truth: {len(gt1)} cases")
@@ -141,12 +139,21 @@ def evaluate_results(compute_summac: bool = False) -> tuple:
         print("Warning: Test 1 ground truth not found")
         gt1 = pd.DataFrame()
 
+    # Load ground truth for Test 2 (order texts)
     try:
-        gt2 = load_ground_truth_test2()
-        print(f"Loaded Test 2 ground truth: {len(gt2)} cases")
+        gt2 = load_ground_truth_test2_orders()
+        print(f"Loaded Test 2 ground truth (order texts): {len(gt2)} cases")
     except FileNotFoundError:
-        print("Warning: Test 2 ground truth not found")
+        print("Warning: Test 2 order texts not found")
         gt2 = pd.DataFrame()
+
+    # Load ground truth rulings from Excel (for F1 scoring)
+    rulings_df = None
+    try:
+        rulings_df = load_ground_truth_test2()
+        print(f"Loaded Test 2 rulings from Excel: {len(rulings_df)} cases")
+    except FileNotFoundError:
+        print("Warning: Test 2 rulings Excel not found (ruling F1 will be skipped)")
 
     # Load results for each model
     test1_results = {}
@@ -172,19 +179,27 @@ def evaluate_results(compute_summac: bool = False) -> tuple:
         test1_scores.to_csv(output_path, index=False)
         print(f"\nTest 1 scores saved to {output_path}")
 
+        # Generate Macro F1 results table
+        generate_macro_f1_table(test1_scores, RESULTS_DIR)
+
     # Evaluate Test 2
     test2_scores = pd.DataFrame()
     if test2_results and not gt2.empty:
-        complaints_df = build_complaints_df() if compute_summac else None
+        # Load complaints for factual consistency metrics
+        complaints_df = build_complaints_df() if compute_factual else None
         test2_scores = evaluate_all_test2(
             test2_results, gt2,
             complaints_df=complaints_df,
-            compute_summac=compute_summac
+            rulings_df=rulings_df,
+            compute_factual=compute_factual
         )
         output_path = Path(RESULTS_DIR) / "test2" / "scores" / "test2_scores.csv"
         output_path.parent.mkdir(parents=True, exist_ok=True)
         test2_scores.to_csv(output_path, index=False)
         print(f"Test 2 scores saved to {output_path}")
+
+        # Generate Test 2 results comparison table
+        generate_test2_results_table(test2_scores, RESULTS_DIR)
 
     return test1_scores, test2_scores
 
@@ -201,6 +216,14 @@ def generate_report():
 
     test1_scores = pd.read_csv(test1_path) if test1_path.exists() else pd.DataFrame()
     test2_scores = pd.read_csv(test2_path) if test2_path.exists() else pd.DataFrame()
+
+    # Generate Macro F1 table for Test 1
+    if not test1_scores.empty:
+        generate_macro_f1_table(test1_scores, RESULTS_DIR)
+
+    # Generate Test 2 results comparison table
+    if not test2_scores.empty:
+        generate_test2_results_table(test2_scores, RESULTS_DIR)
 
     # Generate report
     report = generate_summary_report(test1_scores, test2_scores)
@@ -245,15 +268,30 @@ def main():
         help="Run single test: --single cand_22_cv_02094 gpt4 test1"
     )
     parser.add_argument(
-        "--summac", action="store_true",
-        help="Compute SummaC scores (slow)"
+        "--factual", action="store_true", default=True,
+        help="Compute factual consistency scores (SummaC + QAFactEval) - enabled by default"
+    )
+    parser.add_argument(
+        "--no-factual", action="store_true",
+        help="Skip factual consistency scores (faster evaluation)"
     )
     parser.add_argument(
         "--quiet", action="store_true",
         help="Reduce output verbosity"
     )
+    parser.add_argument(
+        "--parallel", action="store_true", default=True,
+        help="Run models in parallel (default: True)"
+    )
+    parser.add_argument(
+        "--sequential", action="store_true",
+        help="Run models sequentially instead of in parallel"
+    )
 
     args = parser.parse_args()
+
+    # Handle parallel/sequential flags
+    parallel = not args.sequential
 
     # If no args provided, show help
     if not any([args.test1, args.test2, args.evaluate, args.report, args.all, args.single]):
@@ -286,23 +324,26 @@ def main():
         print(json.dumps(result, indent=2, default=str))
         return
 
+    # Determine whether to compute factual metrics
+    compute_factual = args.factual and not args.no_factual
+
     # Full pipeline
     if args.all:
-        run_test1_pipeline(models=args.models, cases=args.cases, verbose=verbose)
-        run_test2_pipeline(models=args.models, cases=args.cases, verbose=verbose)
-        evaluate_results(compute_summac=args.summac)
+        run_test1_pipeline(models=args.models, cases=args.cases, verbose=verbose, parallel=parallel)
+        run_test2_pipeline(models=args.models, cases=args.cases, verbose=verbose, parallel=parallel)
+        evaluate_results(compute_factual=compute_factual)
         generate_report()
         return
 
     # Individual steps
     if args.test1:
-        run_test1_pipeline(models=args.models, cases=args.cases, verbose=verbose)
+        run_test1_pipeline(models=args.models, cases=args.cases, verbose=verbose, parallel=parallel)
 
     if args.test2:
-        run_test2_pipeline(models=args.models, cases=args.cases, verbose=verbose)
+        run_test2_pipeline(models=args.models, cases=args.cases, verbose=verbose, parallel=parallel)
 
     if args.evaluate:
-        evaluate_results(compute_summac=args.summac)
+        evaluate_results(compute_factual=compute_factual)
 
     if args.report:
         generate_report()

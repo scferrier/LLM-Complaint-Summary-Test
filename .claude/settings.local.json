@@ -7,7 +7,13 @@
       "Bash(dir \"C:\\\\Users\\\\ScottFerrier\\\\Desktop\\\\LLM-Compl-Sum\" /s /b)",
       "Bash(dir \"C:\\\\Users\\\\ScottFerrier\\\\Desktop\\\\LLM-Compl-Sum\\\\Processed_Text\")",
       "Bash(wc:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "WebFetch(domain:docs.perplexity.ai)",
+      "Bash(more:*)",
+      "Bash(ren:*)",
+      "Bash(powershell -Command:*)"
     ]
   }
 }
