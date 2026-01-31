@@ -1,7 +1,6 @@
 litellm
 evaluate
 summac
-qafacteval
 pdfplumber
 PyPDF2
 pymupdf

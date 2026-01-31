@@ -20,7 +20,6 @@ LLM Complaint Summary Test is a benchmarking framework for evaluating Large Lang
   - `litellm` - LLM API abstraction
   - `evaluate` - Evaluation metrics framework
   - `summac` - Summarization consistency evaluation
-  - `qafacteval` - QA-based factual evaluation
   - `requests` - HTTP requests
   - `pandas` - Data manipulation
   - `python-dotenv` - Environment variables
@@ -55,7 +54,6 @@ Required in `.env`:
 - **ROUGE, BLEU, METEOR**: Surface-level text similarity
 - **BERTScore**: Semantic similarity
 - **SummaC**: Summarization consistency
-- **QAFactEval**: Question-answering factual evaluation
 
 ## Data
 

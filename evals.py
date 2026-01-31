@@ -23,7 +23,6 @@ import numpy as np
 # Lazy load heavy dependencies
 _evaluate_metrics = {}
 _summac_model = None
-_qafacteval_model = None
 
 
 def _get_metric(name: str):
@@ -50,20 +49,6 @@ def _get_summac():
             agg="mean"
         )
     return _summac_model
-
-
-def _get_qafacteval():
-    """Lazy load QAFactEval model."""
-    global _qafacteval_model
-    if _qafacteval_model is None:
-        from qafacteval import QAFactEval
-        _qafacteval_model = QAFactEval(
-            cuda_device=-1,  # CPU
-            use_lerc_quip=True,
-            generation_batch_size=8,
-            answering_batch_size=8
-        )
-    return _qafacteval_model
 
 
 # =============================================================================
@@ -558,31 +543,6 @@ def summac_score(source_text: str, summary: str) -> float:
     return result["scores"][0]
 
 
-def qafacteval_score(source_text: str, summary: str) -> float:
-    """
-    Calculate QAFactEval score.
-    Uses question-answering to evaluate factual consistency.
-
-    Returns:
-        float score between 0 and 1
-    """
-    if not source_text or not summary:
-        return 0.0
-
-    try:
-        qafe = _get_qafacteval()
-        results = qafe.score_batch_qafacteval(
-            sources=[source_text],
-            summaries=[summary],
-            return_qa_pairs=False
-        )
-        # QAFactEval returns a list of scores
-        return results[0]['qa-eval']['lerc_quip'] if results else 0.0
-    except Exception as e:
-        print(f"QAFactEval error: {e}")
-        return 0.0
-
-
 def normalize_ruling(outcome: str) -> str:
     """
     Normalize a ruling/outcome string to standard form.
@@ -753,7 +713,7 @@ def combine_llm_output_to_text(predicted: dict) -> str:
 
 def evaluate_test2_case(
     predicted: dict,
-    order_text: str,
+    ground_truth_summary: str,
     source_text: Optional[str] = None,
     ground_truth_rulings: Optional[list] = None,
     compute_factual: bool = True
@@ -761,61 +721,55 @@ def evaluate_test2_case(
     """
     Evaluate Test 2 summarization and claim rulings for a single case.
 
-    Compares LLM output (summary + claim rulings) against actual court order
-    using ROUGE, BLEU, METEOR, BERTScore, SummaC, QAFactEval, and Ruling F1.
+    Compares LLM summary against ground truth summary using ROUGE, BLEU, METEOR,
+    BERTScore. Uses SummaC to check factual consistency against source complaint.
 
     Args:
         predicted: LLM output with 'summary' and 'claim_rulings'
-        order_text: Ground truth order text to compare against
-        source_text: Original complaint text (for factual consistency metrics)
+        ground_truth_summary: Reference summary to compare against for text metrics
+        source_text: Original complaint text (for SummaC factual consistency)
         ground_truth_rulings: List of actual ruling outcomes from Excel (for F1)
-        compute_factual: Whether to compute SummaC and QAFactEval (slow)
+        compute_factual: Whether to compute SummaC (slow)
 
     Returns:
         dict with scores for all metrics
     """
     scores = {}
 
-    # Combine LLM output into text for comparison
-    pred_text = combine_llm_output_to_text(predicted)
+    # Get LLM summary for comparison
     pred_summary = predicted.get('summary', '')
 
-    if not pred_text or not order_text:
+    if not pred_summary or not ground_truth_summary:
         return {
             'rouge1': 0.0, 'rouge2': 0.0, 'rougeL': 0.0,
             'bleu': 0.0, 'meteor': 0.0,
             'bertscore_f1': 0.0,
-            'summac': 0.0, 'qafacteval': 0.0,
+            'summac': 0.0,
             'ruling_f1': 0.0, 'ruling_accuracy': 0.0,
             'overall': 0.0
         }
 
-    # ROUGE scores
-    rouge = rouge_scores(pred_text, order_text)
+    # ROUGE scores (compare LLM summary vs ground truth summary)
+    rouge = rouge_scores(pred_summary, ground_truth_summary)
     scores['rouge1'] = rouge['rouge1']
     scores['rouge2'] = rouge['rouge2']
     scores['rougeL'] = rouge['rougeL']
 
-    # BLEU score
-    scores['bleu'] = bleu_score(pred_text, order_text)
+    # BLEU score (compare LLM summary vs ground truth summary)
+    scores['bleu'] = bleu_score(pred_summary, ground_truth_summary)
 
-    # METEOR score
-    scores['meteor'] = meteor_score(pred_text, order_text)
+    # METEOR score (compare LLM summary vs ground truth summary)
+    scores['meteor'] = meteor_score(pred_summary, ground_truth_summary)
 
-    # BERTScore
-    bert = bert_score(pred_text, order_text)
+    # BERTScore (compare LLM summary vs ground truth summary)
+    bert = bert_score(pred_summary, ground_truth_summary)
     scores['bertscore_f1'] = bert['f1']
 
-    # Factual consistency metrics (compare LLM summary against source complaint)
+    # SummaC: Is the LLM summary factually consistent with the source complaint?
     if compute_factual and source_text:
-        # SummaC: Is the LLM summary factually consistent with the complaint?
         scores['summac'] = summac_score(source_text, pred_summary)
-
-        # QAFactEval: QA-based factual consistency
-        scores['qafacteval'] = qafacteval_score(source_text, pred_summary)
     else:
         scores['summac'] = 0.0
-        scores['qafacteval'] = 0.0
 
     # Ruling F1 (compare predicted rulings against ground truth)
     if ground_truth_rulings:
@@ -844,14 +798,14 @@ def evaluate_test2_case(
     # Overall score (weighted average of all metrics)
     # Surface metrics: ROUGE-1, ROUGE-2, ROUGE-L, BLEU, METEOR (5)
     # Semantic metrics: BERTScore (1)
-    # Factual metrics: SummaC, QAFactEval (2)
+    # Factual metrics: SummaC (1)
     # Ruling metrics: F1 (1)
     surface_score = (
         scores['rouge1'] + scores['rouge2'] + scores['rougeL'] +
         scores['bleu'] + scores['meteor']
     ) / 5
     semantic_score = scores['bertscore_f1']
-    factual_score = (scores['summac'] + scores['qafacteval']) / 2 if compute_factual else 0.0
+    factual_score = scores['summac'] if compute_factual else 0.0
     ruling_score = scores['ruling_f1']
 
     # Weight: 30% surface, 20% semantic, 20% factual, 30% ruling
@@ -999,17 +953,19 @@ def evaluate_all_test2(
     """
     Evaluate all Test 2 results for all models.
 
-    Compares LLM outputs against order texts using ROUGE, BLEU, METEOR,
-    BERTScore, SummaC, QAFactEval, and Ruling F1.
+    Compares LLM summaries against ground truth summaries using ROUGE, BLEU,
+    METEOR, BERTScore. Uses SummaC to check factual consistency against
+    source complaint text.
 
     Args:
         results: dict mapping model_name -> list of result dicts
-        ground_truth_df: DataFrame with order texts (from load_ground_truth_test2_orders)
-                         Must have 'case_id' and 'order_text' columns
-        complaints_df: DataFrame with complaint texts (for factual consistency)
+        ground_truth_df: DataFrame with ground truth summaries
+                         Must have 'case_id' and 'summary' columns
+        complaints_df: DataFrame with complaint texts (for SummaC factual consistency)
+                       Must have 'case_id' and 'complaint_text' columns
         rulings_df: DataFrame with ground truth rulings (from Excel)
-                    Should have 'case_id' and 'ruling_1', 'ruling_2', etc. columns
-        compute_factual: Whether to compute SummaC and QAFactEval scores (slow)
+                    Should have 'case_id' and 'cause_X_mtd_outcome' columns
+        compute_factual: Whether to compute SummaC scores (slow)
 
     Returns:
         DataFrame with scores for each case and model
@@ -1024,7 +980,7 @@ def evaluate_all_test2(
             case_id = result['case_id']
             predicted = result.get('response', {})
 
-            # Get order text (ground truth) for this case
+            # Get ground truth summary for this case
             gt_row = ground_truth_df[ground_truth_df['case_id'] == case_id]
             if gt_row.empty:
                 # Try matching with normalized case_id
@@ -1034,12 +990,12 @@ def evaluate_all_test2(
                 ]
 
             if gt_row.empty:
-                print(f"  Warning: No order text found for case {case_id}")
+                print(f"  Warning: No ground truth found for case {case_id}")
                 continue
 
-            order_text = gt_row.iloc[0].get('order_text', '')
-            if not order_text:
-                print(f"  Warning: Empty order text for case {case_id}")
+            ground_truth_summary = gt_row.iloc[0].get('summary', '')
+            if not ground_truth_summary:
+                print(f"  Warning: Empty ground truth summary for case {case_id}")
                 continue
 
             # Get source complaint text for factual consistency metrics
@@ -1073,10 +1029,10 @@ def evaluate_all_test2(
                         if col in row_data.index and pd.notna(row_data[col]):
                             ground_truth_rulings.append(str(row_data[col]))
 
-            # Evaluate using order text as reference
+            # Evaluate using ground truth summary as reference
             scores = evaluate_test2_case(
                 predicted=predicted,
-                order_text=order_text,
+                ground_truth_summary=ground_truth_summary,
                 source_text=source_text,
                 ground_truth_rulings=ground_truth_rulings,
                 compute_factual=compute_factual
@@ -1196,7 +1152,6 @@ def generate_summary_report(
                     'meteor': successful_data['meteor'].mean() if 'meteor' in successful_data.columns else 0.0,
                     'bertscore_f1': successful_data['bertscore_f1'].mean(),
                     'summac': successful_data['summac'].mean() if 'summac' in successful_data.columns else 0.0,
-                    'qafacteval': successful_data['qafacteval'].mean() if 'qafacteval' in successful_data.columns else 0.0,
                     'ruling_f1': successful_data['ruling_f1'].mean() if 'ruling_f1' in successful_data.columns else 0.0,
                     'success_rate': success_rate,
                     'successful': successful,
@@ -1215,12 +1170,12 @@ def generate_summary_report(
 
             lines.append("")
             lines.append("### Factual Consistency & Ruling Metrics\n")
-            lines.append("| Model | SummaC | QAFactEval | Ruling F1 | Success Rate |")
-            lines.append("|-------|--------|------------|-----------|--------------|")
+            lines.append("| Model | SummaC | Ruling F1 | Success Rate |")
+            lines.append("|-------|--------|-----------|--------------|")
             for stat in model_stats:
                 success_str = f"{stat['successful']}/{stat['total']} ({stat['success_rate']*100:.0f}%)"
                 ruling_f1 = stat.get('ruling_f1', 0.0)
-                lines.append(f"| {stat['model']} | {stat['summac']:.3f} | {stat['qafacteval']:.3f} | {ruling_f1:.3f} | {success_str} |")
+                lines.append(f"| {stat['model']} | {stat['summac']:.3f} | {ruling_f1:.3f} | {success_str} |")
 
             lines.append("")
             lines.append("*Scores calculated on successful cases only*\n")
@@ -1350,7 +1305,7 @@ def generate_test2_results_table(
     - Ruling Macro F1 (primary metric for claim prediction accuracy)
     - Surface metrics: ROUGE-1, ROUGE-2, ROUGE-L, BLEU, METEOR
     - Semantic metric: BERTScore
-    - Factual metrics: SummaC, QAFactEval
+    - Factual metrics: SummaC
     - Overall composite score
 
     Args:
@@ -1369,7 +1324,7 @@ def generate_test2_results_table(
         'ruling_f1', 'ruling_accuracy',
         'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
         'bertscore_f1',
-        'summac', 'qafacteval',
+        'summac',
         'overall'
     ]
 
@@ -1393,7 +1348,7 @@ def generate_test2_results_table(
         row['surface_avg'] = np.mean([row.get(f, 0) for f in surface_fields])
 
         # Factual metrics average
-        factual_fields = ['summac', 'qafacteval']
+        factual_fields = ['summac']
         row['factual_avg'] = np.mean([row.get(f, 0) for f in factual_fields])
 
         # Count cases
@@ -1413,7 +1368,7 @@ def generate_test2_results_table(
     numeric_cols = [
         'ruling_f1', 'ruling_accuracy',
         'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
-        'bertscore_f1', 'summac', 'qafacteval',
+        'bertscore_f1', 'summac',
         'surface_avg', 'factual_avg', 'overall'
     ]
     for col in numeric_cols:
@@ -1426,7 +1381,7 @@ def generate_test2_results_table(
         'ruling_f1', 'ruling_accuracy',
         'surface_avg', 'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
         'bertscore_f1',
-        'factual_avg', 'summac', 'qafacteval',
+        'factual_avg', 'summac',
         'overall', 'n_cases', 'n_successful'
     ]
     df = df[[c for c in column_order if c in df.columns]]
@@ -1465,7 +1420,7 @@ def generate_test2_results_table(
     # Print Semantic & Factual Metrics table
     print("\n### SEMANTIC & FACTUAL METRICS ###")
     print("-" * 70)
-    semantic_df = df[['rank', 'model', 'bertscore_f1', 'factual_avg', 'summac', 'qafacteval']].copy()
+    semantic_df = df[['rank', 'model', 'bertscore_f1', 'factual_avg', 'summac']].copy()
     print(semantic_df.to_string(index=False))
 
     # Print Overall Summary

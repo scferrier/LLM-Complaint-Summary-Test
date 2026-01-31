@@ -13,7 +13,13 @@
       "WebFetch(domain:docs.perplexity.ai)",
       "Bash(more:*)",
       "Bash(ren:*)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(python3:*)",
+      "Bash(grep:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(done)",
+      "Bash(for file in /home/sferrier2/Desktop/LLM-Complaint-Summary-Test/Processed_Text/Orders_PDFs/{cand_22_cv_00105,nysd_22_cv_10292,cand-3_18-cv-04865,dcd-1_23-cv-01599}.txt)",
+      "Bash(pip3 install:*)"
     ]
   }
 }
