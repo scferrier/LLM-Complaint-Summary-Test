@@ -139,21 +139,19 @@ def evaluate_results(compute_factual: bool = True) -> tuple:
         print("Warning: Test 1 ground truth not found")
         gt1 = pd.DataFrame()
 
-    # Load ground truth for Test 2 (order texts)
+    # Load ground truth for Test 2 (summaries and rulings from Excel)
     try:
-        gt2 = load_ground_truth_test2_orders()
-        print(f"Loaded Test 2 ground truth (order texts): {len(gt2)} cases")
+        gt2 = load_ground_truth_test2()
+        print(f"Loaded Test 2 ground truth (summaries): {len(gt2)} cases")
+        if 'summary' in gt2.columns:
+            non_empty = gt2['summary'].notna().sum()
+            print(f"  - {non_empty} cases have ground truth summaries")
     except FileNotFoundError:
-        print("Warning: Test 2 order texts not found")
+        print("Warning: Test 2 ground truth Excel not found")
         gt2 = pd.DataFrame()
 
-    # Load ground truth rulings from Excel (for F1 scoring)
-    rulings_df = None
-    try:
-        rulings_df = load_ground_truth_test2()
-        print(f"Loaded Test 2 rulings from Excel: {len(rulings_df)} cases")
-    except FileNotFoundError:
-        print("Warning: Test 2 rulings Excel not found (ruling F1 will be skipped)")
+    # rulings_df is the same as gt2 (Excel has both summaries and rulings)
+    rulings_df = gt2 if not gt2.empty else None
 
     # Load results for each model
     test1_results = {}

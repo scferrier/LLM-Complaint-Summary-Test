@@ -118,18 +118,27 @@ def load_ground_truth_test1(excel_path: str = GROUND_TRUTH_TEST1_PATH) -> pd.Dat
 
 def load_ground_truth_test2(excel_path: str = GROUND_TRUTH_TEST2_PATH) -> pd.DataFrame:
     """
-    Load Test 2 ground truth data (MTD outcomes) from Excel.
-
-    DEPRECATED: Use load_ground_truth_test2_orders() instead for order text comparison.
+    Load Test 2 ground truth data (summaries and MTD outcomes) from Excel.
 
     Returns:
-        DataFrame with columns: case_id, summary_reference, cause_1,
-        cause_1_mtd_outcome, cause_1_reasoning, etc.
+        DataFrame with columns: case_id, summary, cause_1,
+        cause_1_mtd_outcome, etc.
     """
     if not Path(excel_path).exists():
         raise FileNotFoundError(f"Ground truth file not found: {excel_path}")
 
     df = pd.read_excel(excel_path)
+
+    # Normalize column names (strip whitespace, lowercase for matching)
+    df.columns = df.columns.str.strip()
+
+    # Ensure 'summary' column exists (may be 'Summary' or 'summary ')
+    if 'summary' not in df.columns:
+        for col in df.columns:
+            if col.lower() == 'summary':
+                df = df.rename(columns={col: 'summary'})
+                break
+
     return df
 
 

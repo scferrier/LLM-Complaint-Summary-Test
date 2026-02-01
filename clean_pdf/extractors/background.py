@@ -48,23 +48,26 @@ class BackgroundExtractor:
         ]
 
         # Patterns that indicate the end of a background section
+        # These must be specific to avoid false positives like "Research and Analysis"
+        # Require Roman numerals (II, III, IV) or standalone ALL CAPS section headers
         self._end_patterns = [
-            r"(?:^|\s)II\.\s+[A-Z]",  # Next Roman numeral section
-            r"(?:^|\s)II\s+[A-Z]",    # Roman numeral without period
+            # Roman numeral sections (II., III., IV., etc.) - most reliable
+            r"(?:^|\s)II\.\s+[A-Z]",  # "II. LEGAL STANDARD"
+            r"(?:^|\s)II\s+[A-Z][A-Z]",  # "II LEGAL" (all caps following)
             r"(?:^|\s)III\.\s+[A-Z]",
             r"(?:^|\s)IV\.\s+[A-Z]",
-            r"(?:^|\s)(?:LEGAL\s+STANDARD|Legal\s+Standard)\d*(?:\s|$)",
-            r"(?:^|\s)(?:STANDARD\s+OF\s+REVIEW|Standard\s+of\s+Review)\d*(?:\s|$)",
-            r"(?:^|\s)(?:DISCUSSION|Discussion)\d*(?:\s|$)",
-            r"(?:^|\s)(?:ANALYSIS|Analysis)\d*(?:\s|$)",
-            r"(?:^|\s)(?:CONCLUSION|Conclusion)\d*(?:\s|$)",
-            r"(?:^|\s)(?:ORDER|Order)\d*(?:\s|$)",
-            r"(?:^|\s)(?:RULING|Ruling)\d*(?:\s|$)",
-            r"(?:^|\s)(?:APPLICABLE\s+LAW|Applicable\s+Law)\d*(?:\s|$)",
-            # Numbered sections for end markers
-            r"(?:^|\s)\d+\.\s*(?:LEGAL\s+STANDARD|Legal\s+Standard)",
-            r"(?:^|\s)\d+\.\s*(?:DISCUSSION|Discussion)",
-            r"(?:^|\s)\d+\.\s*(?:ANALYSIS|Analysis)",
+            r"(?:^|\s)V\.\s+[A-Z]",
+            # ALL CAPS section headers only (avoid matching "Analysis" in prose)
+            r"(?:^|\s)LEGAL\s+STANDARD\s",
+            r"(?:^|\s)STANDARD\s+OF\s+REVIEW\s",
+            r"(?:^|\s)DISCUSSION\s+[A-Z]",  # "DISCUSSION Defendants..."
+            r"(?:^|\s)ANALYSIS\s+[A-Z]",    # "ANALYSIS The court..."
+            r"(?:^|\s)CONCLUSION\s+[A-Z]",
+            r"(?:^|\s)APPLICABLE\s+LAW\s",
+            # Numbered sections with ALL CAPS
+            r"(?:^|\s)\d+\.\s*LEGAL\s+STANDARD",
+            r"(?:^|\s)\d+\.\s*DISCUSSION\s",
+            r"(?:^|\s)\d+\.\s*ANALYSIS\s",
         ]
 
         # Compile patterns for efficiency

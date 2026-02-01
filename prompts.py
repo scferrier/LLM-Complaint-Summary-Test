@@ -67,6 +67,60 @@ COMPLAINT TEXT:
 JSON RESPONSE:"""
 
 
+# Background Extraction: Extract and clean factual background from court orders
+BACKGROUND_EXTRACTION_SYSTEM_PROMPT = """You are a legal document processor specializing in extracting factual content from court orders.
+Your task is to extract the factual background section and produce clean, readable prose.
+Always respond with valid JSON only."""
+
+BACKGROUND_EXTRACTION_USER_PROMPT = """Extract the factual background from this court order (motion to dismiss ruling).
+
+Court orders typically contain these sections:
+- BACKGROUND / FACTUAL BACKGROUND / FACTS (this is what we want)
+- LEGAL STANDARD
+- DISCUSSION / ANALYSIS
+- CONCLUSION / ORDER
+
+Your task:
+1. **Identify** the factual background section (usually labeled "Background", "Factual Background", "Facts", or "I. Background")
+2. **Extract** all factual content including:
+   - Description of the parties (plaintiffs, defendants, their roles)
+   - The company's business and operations
+   - The alleged misconduct or fraudulent scheme
+   - Key dates and events
+   - Stock price movements and financial impacts
+   - Any confidential witness allegations
+3. **Clean** the text by removing:
+   - All legal citations (e.g., "Id. ¶ 45", "(Doc. 36 ¶ 18)", "Id. at 5")
+   - Paragraph symbols and numbers (¶, ¶¶)
+   - Case citations (e.g., "(9th Cir. 2021)")
+   - Footnote references
+   - Parenthetical annotations like "(cleaned up)", "(emphasis added)"
+   - ECF references
+4. **Preserve**:
+   - All factual content and narrative
+   - Defined terms like ("UANPF") or (the "Class Period")
+   - Quotations from the complaint or company statements
+   - Section structure (A. The Parties, B. The Scheme, etc.) converted to prose
+
+Return your response as a JSON object:
+{{
+    "background": "The complete, cleaned factual background as continuous prose. Include all parties, allegations, dates, and events. This should read as a comprehensive factual summary without any legal citations or paragraph references."
+}}
+
+COURT ORDER TEXT:
+{order_text}
+
+JSON RESPONSE:"""
+
+
+def format_background_extraction_prompt(order_text: str) -> list:
+    """Format messages for background extraction from court orders."""
+    return [
+        {"role": "system", "content": BACKGROUND_EXTRACTION_SYSTEM_PROMPT},
+        {"role": "user", "content": BACKGROUND_EXTRACTION_USER_PROMPT.format(order_text=order_text)}
+    ]
+
+
 def format_test1_prompt(complaint_text: str) -> list:
     """Format messages for Test 1 extraction."""
     return [

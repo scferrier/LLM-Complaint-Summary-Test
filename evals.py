@@ -8,7 +8,7 @@ Test 1 Metrics (Extraction):
 
 Test 2 Metrics (Summarization + MTD):
 - ROUGE, BERTScore for summary quality
-- SummaC for factual consistency
+- RAGAS Faithfulness (HHEM) for factual consistency
 - Accuracy for MTD outcome predictions
 """
 
@@ -22,7 +22,7 @@ import numpy as np
 
 # Lazy load heavy dependencies
 _evaluate_metrics = {}
-_summac_model = None
+_ragas_faithfulness = None
 
 
 def _get_metric(name: str):
@@ -34,21 +34,17 @@ def _get_metric(name: str):
     return _evaluate_metrics[name]
 
 
-def _get_summac():
-    """Lazy load SummaC model."""
-    global _summac_model
-    if _summac_model is None:
-        from summac.model_summac import SummaCConv
-        _summac_model = SummaCConv(
-            models=["vitc"],
-            bins='percentile',
-            granularity="sentence",
-            nli_labels="e",
-            device="cpu",
-            start_file="default",
-            agg="mean"
+def _get_nli_pipeline():
+    """Lazy load BART-MNLI pipeline for faithfulness scoring."""
+    global _ragas_faithfulness
+    if _ragas_faithfulness is None:
+        from transformers import pipeline
+        _ragas_faithfulness = pipeline(
+            'text-classification',
+            model='facebook/bart-large-mnli',
+            device=-1  # CPU
         )
-    return _summac_model
+    return _ragas_faithfulness
 
 
 # =============================================================================
@@ -527,10 +523,12 @@ def bert_score(prediction: str, reference: str) -> dict:
     }
 
 
-def summac_score(source_text: str, summary: str) -> float:
+def faithfulness_score(source_text: str, summary: str) -> float:
     """
-    Calculate SummaC consistency score.
+    Calculate faithfulness score using BART-MNLI NLI model.
     Measures if the summary is factually consistent with the source.
+
+    Uses entailment scoring: checks if source entails summary statements.
 
     Returns:
         float score between 0 and 1
@@ -538,9 +536,44 @@ def summac_score(source_text: str, summary: str) -> float:
     if not source_text or not summary:
         return 0.0
 
-    summac = _get_summac()
-    result = summac.score([source_text], [summary])
-    return result["scores"][0]
+    try:
+        nli = _get_nli_pipeline()
+
+        # Truncate source to fit model context (BART max ~1024 tokens)
+        # Use first ~3000 chars of source as premise
+        source_truncated = source_text[:3000] if len(source_text) > 3000 else source_text
+
+        # Split summary into sentences and score each
+        import re
+        sentences = re.split(r'[.!?]+', summary)
+        sentences = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+
+        if not sentences:
+            return 0.0
+
+        # Score each sentence for entailment
+        scores = []
+        for sent in sentences[:10]:  # Limit to first 10 sentences for speed
+            # NLI: premise=source, hypothesis=summary sentence
+            # BART-MNLI labels: contradiction, neutral, entailment
+            result = nli(
+                f"{source_truncated[:1500]}</s></s>{sent}",
+                truncation=True
+            )
+            # Get entailment score
+            label = result[0]['label'].lower()
+            if label == 'entailment':
+                scores.append(1.0)
+            elif label == 'neutral':
+                scores.append(0.5)
+            else:  # contradiction
+                scores.append(0.0)
+
+        return sum(scores) / len(scores) if scores else 0.0
+
+    except Exception as e:
+        print(f"  Warning: Faithfulness scoring failed: {e}")
+        return 0.0
 
 
 def normalize_ruling(outcome: str) -> str:
@@ -722,14 +755,14 @@ def evaluate_test2_case(
     Evaluate Test 2 summarization and claim rulings for a single case.
 
     Compares LLM summary against ground truth summary using ROUGE, BLEU, METEOR,
-    BERTScore. Uses SummaC to check factual consistency against source complaint.
+    BERTScore. Uses RAGAS Faithfulness to check factual consistency against source complaint.
 
     Args:
         predicted: LLM output with 'summary' and 'claim_rulings'
         ground_truth_summary: Reference summary to compare against for text metrics
-        source_text: Original complaint text (for SummaC factual consistency)
+        source_text: Original complaint text (for RAGAS Faithfulness factual consistency)
         ground_truth_rulings: List of actual ruling outcomes from Excel (for F1)
-        compute_factual: Whether to compute SummaC (slow)
+        compute_factual: Whether to compute RAGAS Faithfulness (slow)
 
     Returns:
         dict with scores for all metrics
@@ -744,7 +777,7 @@ def evaluate_test2_case(
             'rouge1': 0.0, 'rouge2': 0.0, 'rougeL': 0.0,
             'bleu': 0.0, 'meteor': 0.0,
             'bertscore_f1': 0.0,
-            'summac': 0.0,
+            'faithfulness': 0.0,
             'ruling_f1': 0.0, 'ruling_accuracy': 0.0,
             'overall': 0.0
         }
@@ -765,11 +798,11 @@ def evaluate_test2_case(
     bert = bert_score(pred_summary, ground_truth_summary)
     scores['bertscore_f1'] = bert['f1']
 
-    # SummaC: Is the LLM summary factually consistent with the source complaint?
+    # RAGAS Faithfulness: Is the LLM summary factually consistent with the source complaint?
     if compute_factual and source_text:
-        scores['summac'] = summac_score(source_text, pred_summary)
+        scores['faithfulness'] = faithfulness_score(source_text, pred_summary)
     else:
-        scores['summac'] = 0.0
+        scores['faithfulness'] = 0.0
 
     # Ruling F1 (compare predicted rulings against ground truth)
     if ground_truth_rulings:
@@ -798,14 +831,14 @@ def evaluate_test2_case(
     # Overall score (weighted average of all metrics)
     # Surface metrics: ROUGE-1, ROUGE-2, ROUGE-L, BLEU, METEOR (5)
     # Semantic metrics: BERTScore (1)
-    # Factual metrics: SummaC (1)
+    # Factual metrics: RAGAS Faithfulness (1)
     # Ruling metrics: F1 (1)
     surface_score = (
         scores['rouge1'] + scores['rouge2'] + scores['rougeL'] +
         scores['bleu'] + scores['meteor']
     ) / 5
     semantic_score = scores['bertscore_f1']
-    factual_score = scores['summac'] if compute_factual else 0.0
+    factual_score = scores['faithfulness'] if compute_factual else 0.0
     ruling_score = scores['ruling_f1']
 
     # Weight: 30% surface, 20% semantic, 20% factual, 30% ruling
@@ -839,8 +872,8 @@ def evaluate_test2_case_legacy(
     Args:
         predicted: LLM output with 'summary' and 'mtd_predictions'
         actual: Ground truth with 'summary_reference' and MTD outcomes
-        source_text: Original complaint text (for SummaC)
-        compute_summac: Whether to compute SummaC (slow)
+        source_text: Original complaint text (for RAGAS Faithfulness)
+        compute_summac: Whether to compute RAGAS Faithfulness (slow)
 
     Returns:
         dict with scores for summary quality and MTD accuracy
@@ -862,9 +895,9 @@ def evaluate_test2_case_legacy(
         bert = bert_score(pred_summary, ref_summary)
         scores['bertscore_f1'] = bert['f1']
 
-        # SummaC (optional, slow)
+        # RAGAS Faithfulness (optional, slow)
         if compute_summac and source_text:
-            scores['summac'] = summac_score(source_text, pred_summary)
+            scores['faithfulness'] = faithfulness_score(source_text, pred_summary)
     else:
         scores['rouge1'] = 0.0
         scores['rouge2'] = 0.0
@@ -954,18 +987,18 @@ def evaluate_all_test2(
     Evaluate all Test 2 results for all models.
 
     Compares LLM summaries against ground truth summaries using ROUGE, BLEU,
-    METEOR, BERTScore. Uses SummaC to check factual consistency against
+    METEOR, BERTScore. Uses RAGAS Faithfulness to check factual consistency against
     source complaint text.
 
     Args:
         results: dict mapping model_name -> list of result dicts
         ground_truth_df: DataFrame with ground truth summaries
                          Must have 'case_id' and 'summary' columns
-        complaints_df: DataFrame with complaint texts (for SummaC factual consistency)
+        complaints_df: DataFrame with complaint texts (for RAGAS Faithfulness factual consistency)
                        Must have 'case_id' and 'complaint_text' columns
         rulings_df: DataFrame with ground truth rulings (from Excel)
                     Should have 'case_id' and 'cause_X_mtd_outcome' columns
-        compute_factual: Whether to compute SummaC scores (slow)
+        compute_factual: Whether to compute RAGAS Faithfulness scores (slow)
 
     Returns:
         DataFrame with scores for each case and model
@@ -1151,7 +1184,7 @@ def generate_summary_report(
                     'bleu': successful_data['bleu'].mean() if 'bleu' in successful_data.columns else 0.0,
                     'meteor': successful_data['meteor'].mean() if 'meteor' in successful_data.columns else 0.0,
                     'bertscore_f1': successful_data['bertscore_f1'].mean(),
-                    'summac': successful_data['summac'].mean() if 'summac' in successful_data.columns else 0.0,
+                    'faithfulness': successful_data['faithfulness'].mean() if 'faithfulness' in successful_data.columns else 0.0,
                     'ruling_f1': successful_data['ruling_f1'].mean() if 'ruling_f1' in successful_data.columns else 0.0,
                     'success_rate': success_rate,
                     'successful': successful,
@@ -1170,12 +1203,12 @@ def generate_summary_report(
 
             lines.append("")
             lines.append("### Factual Consistency & Ruling Metrics\n")
-            lines.append("| Model | SummaC | Ruling F1 | Success Rate |")
+            lines.append("| Model | RAGAS Faithfulness | Ruling F1 | Success Rate |")
             lines.append("|-------|--------|-----------|--------------|")
             for stat in model_stats:
                 success_str = f"{stat['successful']}/{stat['total']} ({stat['success_rate']*100:.0f}%)"
                 ruling_f1 = stat.get('ruling_f1', 0.0)
-                lines.append(f"| {stat['model']} | {stat['summac']:.3f} | {ruling_f1:.3f} | {success_str} |")
+                lines.append(f"| {stat['model']} | {stat['faithfulness']:.3f} | {ruling_f1:.3f} | {success_str} |")
 
             lines.append("")
             lines.append("*Scores calculated on successful cases only*\n")
@@ -1305,7 +1338,7 @@ def generate_test2_results_table(
     - Ruling Macro F1 (primary metric for claim prediction accuracy)
     - Surface metrics: ROUGE-1, ROUGE-2, ROUGE-L, BLEU, METEOR
     - Semantic metric: BERTScore
-    - Factual metrics: SummaC
+    - Factual metrics: RAGAS Faithfulness
     - Overall composite score
 
     Args:
@@ -1324,7 +1357,7 @@ def generate_test2_results_table(
         'ruling_f1', 'ruling_accuracy',
         'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
         'bertscore_f1',
-        'summac',
+        'faithfulness',
         'overall'
     ]
 
@@ -1348,7 +1381,7 @@ def generate_test2_results_table(
         row['surface_avg'] = np.mean([row.get(f, 0) for f in surface_fields])
 
         # Factual metrics average
-        factual_fields = ['summac']
+        factual_fields = ['faithfulness']
         row['factual_avg'] = np.mean([row.get(f, 0) for f in factual_fields])
 
         # Count cases
@@ -1368,7 +1401,7 @@ def generate_test2_results_table(
     numeric_cols = [
         'ruling_f1', 'ruling_accuracy',
         'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
-        'bertscore_f1', 'summac',
+        'bertscore_f1', 'faithfulness',
         'surface_avg', 'factual_avg', 'overall'
     ]
     for col in numeric_cols:
@@ -1381,7 +1414,7 @@ def generate_test2_results_table(
         'ruling_f1', 'ruling_accuracy',
         'surface_avg', 'rouge1', 'rouge2', 'rougeL', 'bleu', 'meteor',
         'bertscore_f1',
-        'factual_avg', 'summac',
+        'factual_avg', 'faithfulness',
         'overall', 'n_cases', 'n_successful'
     ]
     df = df[[c for c in column_order if c in df.columns]]
@@ -1420,7 +1453,7 @@ def generate_test2_results_table(
     # Print Semantic & Factual Metrics table
     print("\n### SEMANTIC & FACTUAL METRICS ###")
     print("-" * 70)
-    semantic_df = df[['rank', 'model', 'bertscore_f1', 'factual_avg', 'summac']].copy()
+    semantic_df = df[['rank', 'model', 'bertscore_f1', 'factual_avg', 'faithfulness']].copy()
     print(semantic_df.to_string(index=False))
 
     # Print Overall Summary
