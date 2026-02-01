@@ -19,7 +19,10 @@
       "Bash(pdfinfo:*)",
       "Bash(done)",
       "Bash(for file in /home/sferrier2/Desktop/LLM-Complaint-Summary-Test/Processed_Text/Orders_PDFs/{cand_22_cv_00105,nysd_22_cv_10292,cand-3_18-cv-04865,dcd-1_23-cv-01599}.txt)",
-      "Bash(pip3 install:*)"
+      "Bash(pip3 install:*)",
+      "Bash(del \"C:\\\\Users\\\\ScottFerrier\\\\Desktop\\\\LLM-Compl-Sum\\\\evals.py\")",
+      "Bash(for f in \"C:/Users/ScottFerrier/Desktop/LLM-Compl-Sum/evals/\"*.py)",
+      "Bash(do wc -l \"$f\")"
     ]
   }
 }

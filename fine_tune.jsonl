@@ -1,0 +1,29 @@
+
+#example 
+{"messages": [
+    {"role": "system", "content": "You are a helpful assistant that provides concise answers."}, 
+    {"role": "user", "content": "What is the capital of France?"}, 
+    {"role": "assistant", "content": "Paris."}
+    ]
+}
+{"messages": [
+    {"role": "system", "content": "You are a helpful assistant that provides concise answers."},
+    {"role": "user", "content": "Who wrote Romeo and Juliet?"}, 
+    {"role": "assistant", "content": "William Shakespeare."}
+    ]
+}
+
+
+TEST2_SYSTEM_PROMPT = """You are a federal district court judge reviewing a motion to dismiss a securities class action complaint. Always respond with valid JSON only."""
+
+
+TEST2_USER_PROMPT = """Review the complaint and provide:
+1. Summary: Comprehensive summary covering parties (Plaintiffs/Defendants), alleged misconduct, class period, legal claims and key facts supporting each claim.
+2. Claim Rulings: For each cause of action, state if you think it should be dismissed or sustained and provide your reasoning.
+
+Return JSON: {{"summary": "...", "claim_rulings": [{{"claim": "...", "ruling": "dismissed"|"sustained"|"dismissed_in_part", "reasoning": "..."}}]}}
+
+COMPLAINT TEXT:
+{complaint_text}
+
+JSON RESPONSE:"""
