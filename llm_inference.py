@@ -7,7 +7,7 @@ import litellm, pandas as pd
 from dotenv import load_dotenv
 from tqdm import tqdm
 from config import MODELS, DIRECT_SDK_MODELS, LLM_TEMPERATURE, LLM_MAX_TOKENS, LLM_TIMEOUT, RATE_LIMIT_DELAY, MODEL_RATE_LIMITS, RESULTS_DIR, GROUND_TRUTH_TEST1_PATH, GROUND_TRUTH_TEST2_PATH
-from prompts import format_test1_prompt, format_test2_prompt
+from prompts import format_test1_prompt, format_test2_prompt, format_test3_prompt, format_test4_prompt
 from data_loader import load_ground_truth_test1, load_ground_truth_test2
 from evals import clean_ground_truth_row, evaluate_test1_case
 
@@ -45,6 +45,16 @@ def run_test2_summary(text: str, model_name: str, model_id: Optional[str] = None
     if not model_id: return {"success": False, "error": f"Unknown model: {model_name}"}
     return {"model": model_name, "model_id": model_id, "test": "test2", **call_llm(format_test2_prompt(text), model_id, model_name=model_name)}
 
+def run_test3_summary(text: str, model_name: str, model_id: Optional[str] = None) -> dict:
+    model_id = model_id or MODELS.get(model_name)
+    if not model_id: return {"success": False, "error": f"Unknown model: {model_name}"}
+    return {"model": model_name, "model_id": model_id, "test": "test3", **call_llm(format_test3_prompt(text), model_id, model_name=model_name)}
+
+def run_test4_summary(text: str, model_name: str, model_id: Optional[str] = None) -> dict:
+    model_id = model_id or MODELS.get(model_name)
+    if not model_id: return {"success": False, "error": f"Unknown model: {model_name}"}
+    return {"model": model_name, "model_id": model_id, "test": "test4", **call_llm(format_test4_prompt(text), model_id, model_name=model_name)}
+
 def _run_model_batch(model: str, df: pd.DataFrame, run_func: Callable, pbar: tqdm, save: bool, test: str, delay: float = 0.0) -> tuple:
     if delay > 0: time.sleep(delay)
     results = []
@@ -73,6 +83,12 @@ def batch_run_test1(df: pd.DataFrame, models: list = None, save_results: bool = 
 
 def batch_run_test2(df: pd.DataFrame, models: list = None, save_results: bool = True, verbose: bool = True, parallel: bool = True) -> dict:
     return _batch_run(df, run_test2_summary, "test2", models, save_results, parallel, {"claude-opus": 0.0, "gemini": 1.0, "perplexity": 2.0, "grok": 3.0, "gpt-5.2": 5.0})
+
+def batch_run_test3(df: pd.DataFrame, models: list = None, save_results: bool = True, verbose: bool = True, parallel: bool = True) -> dict:
+    return _batch_run(df, run_test3_summary, "test3", models, save_results, parallel, {"claude-opus": 0.0, "gemini": 1.0, "perplexity": 2.0, "grok": 3.0, "gpt-5.2": 5.0})
+
+def batch_run_test4(df: pd.DataFrame, models: list = None, save_results: bool = True, verbose: bool = True, parallel: bool = True) -> dict:
+    return _batch_run(df, run_test4_summary, "test4", models, save_results, parallel, {"claude-opus": 0.0, "gemini": 1.0, "perplexity": 2.0, "grok": 3.0, "gpt-5.2": 5.0})
 
 def save_test_results(results: list, test: str, model: str):
     out = Path(RESULTS_DIR) / test / "raw_outputs"; out.mkdir(parents=True, exist_ok=True)

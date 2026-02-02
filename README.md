@@ -145,20 +145,108 @@ Test 2 evaluated each model's ability to (1) summarize the complaint and (2) pre
 - **Gemini** achieved the highest faithfulness score (0.580), indicating strong factual consistency with source documents
 - Negative BERTScores across models suggest generated summaries use different vocabulary than reference summaries, though content may still be accurate
 
+### Test 2 Analysis: Prediction Bias
+
+Analysis of Test 2 revealed a significant bias across all models: every model heavily over-predicted "sustained" outcomes. While ground truth showed a roughly 50/50 split between dismissed and sustained rulings, models predicted sustained 82-99% of the time.
+
+| Model | Predicted Dismissed | Predicted Sustained |
+|-------|---------------------|---------------------|
+| Ground Truth | 51% | 49% |
+| Gemini | 1% | 99% |
+| Grok | 10% | 90% |
+| Claude Opus | 10% | 90% |
+| GPT-5.2 | 11% | 89% |
+| Perplexity | 18% | 82% |
+
+This bias likely stems from LLMs being influenced by the plaintiff-favorable framing inherent in complaints, rather than applying the rigorous pleading standards courts actually use.
+
+### Test 3: Scienter-Focused Prompt Engineering
+
+To address the sustained-prediction bias, Test 3 introduced a prompt specifically designed to apply the heightened pleading standards of the Private Securities Litigation Reform Act (PSLRA).
+
+#### The Scienter-Focused Approach
+
+The Test 3 prompt instructs models to:
+
+1. **Scrutinize Scienter Allegations**: The PSLRA requires plaintiffs to plead with *particularity* facts giving rise to a *strong inference* of fraudulent intent. The prompt directs models to dismiss claims where:
+   - Scienter allegations are conclusory (e.g., "defendants knew or should have known")
+   - There are no specific facts showing defendant's actual knowledge of falsity
+   - The complaint relies on "fraud by hindsight" rather than contemporaneous knowledge
+   - Innocent explanations are equally or more plausible
+
+2. **Apply Derivative Claim Logic**: If Section 10(b)/Rule 10b-5 claims are dismissed, Section 20(a) control person liability claims must also be dismissed as they are derivative of the underlying violation.
+
+#### Test 3 Results
+
+| Rank | Model | Test 2 Accuracy | Test 3 Accuracy | Improvement |
+|------|-------|-----------------|-----------------|-------------|
+| 1 | **GPT-5.2** | 35.7% | **66.0%** | **+30.3%** |
+| 2 | **Grok** | 47.2% | **65.5%** | **+18.3%** |
+| 3 | Perplexity | 46.5% | 60.4% | +13.9% |
+| 4 | Claude Opus | 35.8% | 57.4% | +21.6% |
+| 5 | Gemini | 40.8% | 41.9% | +1.1% |
+
+#### Prediction Bias Correction
+
+| Model | Test 2 Dismissed % | Test 3 Dismissed % | Ground Truth: 51% |
+|-------|--------------------|--------------------|-------------------|
+| GPT-5.2 | 11% | 32% | Improved |
+| Grok | 10% | 32% | Improved |
+| Perplexity | 18% | 37% | Improved |
+| Claude Opus | 10% | 18% | Slightly improved |
+| Gemini | 1% | 10% | Marginally improved |
+
+**Key Findings (Test 3):**
+- **Prompt engineering dramatically improved ruling accuracy** - GPT-5.2 improved by 30 percentage points
+- **GPT-5.2** became the top performer at 66% ruling accuracy (up from 35.7%)
+- **Grok** maintained strong performance at 65.5%
+- The scienter-focused prompt partially corrected the sustained-prediction bias
+- **Gemini** showed minimal response to the prompt modification (+1.1%)
+
 ### Overall Assessment
 
 For the primary goal of predicting motion-to-dismiss outcomes:
-1. **Perplexity (Sonar Pro)** is the best performer with 0.436 Ruling F1
-2. **Grok** is a close second with balanced performance across metrics
-3. **GPT-5.2** excels at extraction tasks but underperforms on ruling prediction
+1. **GPT-5.2** with Test 3 prompt achieves the best ruling accuracy (66.0%)
+2. **Grok** with Test 3 prompt is a close second (65.5%)
+3. **Perplexity** with Test 3 prompt performs well (60.4%)
+4. **Prompt engineering proved more impactful than fine-tuning** for this task
+
+The results demonstrate that instructing models to apply specific legal standards (PSLRA scienter requirements) significantly improves their ability to predict judicial outcomes. The simple addition of legal framework guidance in the prompt outperformed more complex approaches like few-shot examples or multi-stage reasoning.
 
 ## Finetuning
 
-Based on the evaluation results, **Perplexity (Sonar Pro)** was selected for fine-tuning due to its superior performance on ruling prediction tasks. The model will be fine-tuned using the 100 complaint-order pairs collected for training, with the goal of improving both summary quality and ruling prediction accuracy.
+We fine-tuned GPT-4.1 using 50 complaint-order pairs with two approaches:
 
-## Finetuned Model Results
-#TODO - Results will be added after fine-tuning is complete
+1. **Version 1**: Trained on background sections (summaries) with rulings
+2. **Version 2**: Trained on full complaint texts with background summaries and rulings as output
 
-## Conclusion & Potential Future Work
-#TODO
+### Finetuned Model Results
+
+| Model | Test 2 Accuracy | Test 3 Accuracy |
+|-------|-----------------|-----------------|
+| GPT-4.1-finetuned (v1) | 7.0% | 63.5% |
+| GPT-4.1-finetuned (v2) | 21.3% | 60.6% |
+
+**Key Findings (Fine-tuning):**
+- Fine-tuned models significantly underperformed base models on Test 2
+- With Test 3's scienter-focused prompt, fine-tuned models achieved competitive accuracy (60-63%)
+- **Prompt engineering outperformed fine-tuning**: The Test 3 prompt improved base GPT-5.2 by +30% while fine-tuning alone only achieved 7-21% accuracy
+- The combination of fine-tuning + Test 3 prompt achieved similar results to base models + Test 3 prompt, suggesting prompt design is the more critical factor
+
+## Conclusion & Future Work
+
+### Conclusions
+
+1. **LLMs exhibit systematic bias** in legal prediction tasks, heavily favoring plaintiff-side outcomes when reviewing complaints
+2. **Prompt engineering is highly effective** for legal reasoning tasks - incorporating specific legal standards (PSLRA scienter requirements) dramatically improved accuracy from ~40% to ~66%
+3. **Fine-tuning has limited benefit** when prompts don't include proper legal framework guidance
+4. **GPT-5.2 and Grok** emerged as the top performers for motion-to-dismiss prediction when using the scienter-focused prompt
+5. **Surface metrics (ROUGE, BLEU) don't correlate** with ruling prediction accuracy - models can produce similar-looking summaries while reaching different legal conclusions
+
+### Future Work
+
+- Test additional prompt variations incorporating other PSLRA elements (loss causation, materiality, forward-looking statement safe harbor)
+- Evaluate RAG-based approaches with legal-domain embeddings
+- Expand test dataset to include other case types beyond securities litigation
+- Investigate whether fine-tuning on the Test 3 prompt format improves results further
 

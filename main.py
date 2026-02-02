@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 from config import MODELS, RESULTS_DIR
 from data_loader import build_complaints_df, load_ground_truth_test1, load_ground_truth_test2
-from llm_inference import batch_run_test1, batch_run_test2, load_test_results, run_test1_extraction, run_test2_summary
+from llm_inference import batch_run_test1, batch_run_test2, batch_run_test3, batch_run_test4, load_test_results, run_test1_extraction, run_test2_summary, run_test3_summary, run_test4_summary
 from evals import evaluate_all_test1, evaluate_all_test2, generate_summary_report, generate_macro_f1_table, generate_test2_results_table
 
 
@@ -29,9 +29,21 @@ def run_test1_pipeline(models: list = None, cases: list = None, verbose: bool = 
 
 def run_test2_pipeline(models: list = None, cases: list = None, verbose: bool = True, parallel: bool = True) -> dict:
     df = build_complaints_df()
-    if cases: 
+    if cases:
         df = df[df['case_id'].isin(cases)]
     return batch_run_test2(df, models=models, verbose=verbose, parallel=parallel)
+
+def run_test3_pipeline(models: list = None, cases: list = None, verbose: bool = True, parallel: bool = True) -> dict:
+    df = build_complaints_df()
+    if cases:
+        df = df[df['case_id'].isin(cases)]
+    return batch_run_test3(df, models=models, verbose=verbose, parallel=parallel)
+
+def run_test4_pipeline(models: list = None, cases: list = None, verbose: bool = True, parallel: bool = True) -> dict:
+    df = build_complaints_df()
+    if cases:
+        df = df[df['case_id'].isin(cases)]
+    return batch_run_test4(df, models=models, verbose=verbose, parallel=parallel)
 
 
 def evaluate_results(compute_factual: bool = True) -> tuple:
@@ -92,7 +104,7 @@ def generate_report():
 def main():
    
     p = argparse.ArgumentParser(description="LLM Complaint Summarization Evaluation Pipeline")
-    p.add_argument("--test1", action="store_true"); p.add_argument("--test2", action="store_true")
+    p.add_argument("--test1", action="store_true"); p.add_argument("--test2", action="store_true"); p.add_argument("--test3", action="store_true"); p.add_argument("--test4", action="store_true")
     p.add_argument("--evaluate", action="store_true"); p.add_argument("--report", action="store_true")
     p.add_argument("--all", action="store_true"); p.add_argument("--models", nargs="+", default=None)
     p.add_argument("--cases", nargs="+", default=None); p.add_argument("--no-factual", action="store_true")
@@ -113,6 +125,8 @@ def main():
     
     if args.test1: run_test1_pipeline(models=args.models, cases=args.cases, parallel=parallel)
     if args.test2: run_test2_pipeline(models=args.models, cases=args.cases, parallel=parallel)
+    if args.test3: run_test3_pipeline(models=args.models, cases=args.cases, parallel=parallel)
+    if args.test4: run_test4_pipeline(models=args.models, cases=args.cases, parallel=parallel)
     if args.evaluate: evaluate_results(compute_factual=compute_factual)
     if args.report: generate_report()
 

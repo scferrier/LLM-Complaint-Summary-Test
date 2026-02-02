@@ -1,0 +1,937 @@
+[
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint asserts six counts: Exchange Act claims under Sections 10(b)/Rule 10b-5 (Count I), 20(a) (Count II), and 20(A) (Count III) for the class period May 6, 2020–November 3, 2022; and Securities Act claims under Sections 11 (Count IV), 12(a)(2) (Count V), and 15 (Count VI) for the April 2022 Public Offering. Exchange Act claims are dismissed for failure to plead scienter with particularity under PSLRA. Securities Act claims are sustained as strict liability/negligence claims without scienter requirement.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: §10(b)/Rule 10b-5 (Exchange Act Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations show defendants knew statements were false when made. CW accounts describe operational issues known to lower-level employees but lack specifics tying individual defendants to actual knowledge of falsity at statement time. Motive (insider sales) and core operations inference insufficient; suspicious 10b5-1 trading countered by plans. Hindsight use of later disclosures (e.g., ADESA acquisition, regulatory fines) fails PSLRA. General corporate knowledge/recklessness via CW complaints or access to metrics speculative, not strong scienter inference over innocent explanations (e.g., aggressive growth strategy amid COVID demand)."
+        },
+        {
+          "claim": "Count II: §20(a) (Exchange Act Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of dismissed §10(b) claim; requires underlying primary violation."
+        },
+        {
+          "claim": "Count III: §20(A) (Garcia II, Jenkins, Keeton, Huston)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Requires §10(b) violation based on material nonpublic information; no adequate §10(b) pleading."
+        },
+        {
+          "claim": "Count IV: §11 (Securities Act Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A (strict liability/negligence; complaint disclaims scienter)"
+        },
+        {
+          "claim": "Count V: §12(a)(2) (Securities Act Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A (negligence; complaint disclaims scienter)"
+        },
+        {
+          "claim": "Count VI: §15 (Individual Securities Act Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A (control person liability derivative of §§11/12(a)(2); no scienter required)"
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 100612,
+      "completion_tokens": 560,
+      "total_tokens": 101172
+    },
+    "case_id": "azd-2_22-cv-02126"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint alleging that Elon Musk and Tesla made materially false and misleading statements regarding a proposed going-private transaction at $420 per share during August 7-17, 2018. The complaint asserts that Musk's tweet stating 'Funding secured' was false because no binding funding agreement existed, numerous material deal terms were unresolved, and Musk knew of substantial contingencies and uncertainties. The complaint also names Tesla's Board as controlling persons liable under Section 20(a). The SEC subsequently filed identical fraud charges against Musk and Tesla, both of whom settled without admitting or denying allegations but agreeing to substantial remedies.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 10(b) and Rule 10b-5 Violation (Against Musk and Tesla)",
+          "ruling": "sustained",
+          "scienter_analysis": "The complaint states a strong inference of scienter through particularized factual allegations. First, Musk possessed specific knowledge of falsity at the time of the August 7 statements: he knew funding was not 'secured' (having only a preliminary 30-45 minute meeting with the Public Investment Fund on July 31 with no binding commitment), he knew the $420 price had never been discussed with any funding source, he knew numerous material deal terms remained unresolved (Board approval, shareholder vote feasibility, retail investor participation structure, regulatory approvals, Middle East facility contingency), and he explicitly stated in his August 2 email to the Board that he believed the transaction had only a 50% likelihood of success and involved 'a lot of uncertainty.' Second, the complaint establishes scienter through Musk's motive and intent: Musk's documented animosity toward short sellers (May 2018 tweets about 'short burn,' stock purchases designed to force short-covering, August 2 email citing desire to avoid 'constant defamatory attacks by the short-selling community'), his strategic timing immediately after positive Q2 earnings to maximize stock price impact, and his deliberate choice of $420 based on personal preference ('better karma') rather than any financial analysis. Third, the complaint demonstrates recklessness rising to scienter: Musk published the tweets without any pre-publication review by anyone else, without notifying NASDAQ as required, and continued making false statements even after receiving a reporter's warning on August 7 at 2:23 p.m. about 'tricky legal territory.' Fourth, Musk's subsequent admissions to the SEC (that statements were 'premised on a long series of baseless assumptions and were contrary to facts that [he] knew') and his settlement requiring him to step down as Chairman constitute powerful circumstantial evidence of scienter. The SEC's swift action and the settlement terms further support the inference. Innocent explanations are not equally plausible: Musk could not have reasonably believed funding was secured based on a preliminary meeting with no executed term sheet, price agreement, or commitment letter. The complaint adequately pleads scienter with particularity under the PSLRA standard."
+        },
+        {
+          "claim": "Count II: Section 20(a) Control Person Liability (Against Board Members Buss, Denholm, Ehrenpreis, Gracias, Murdoch, Kimbal Musk, and Rice)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person liability is derivative of an underlying securities violation. Because Count I (the Section 10(b)/Rule 10b-5 claim) is sustained, the threshold question is whether the Board members are proper defendants under Section 20(a). However, the complaint fails to establish that the Board members possessed the requisite scienter or exercised sufficient control over the specific misstatements to be held liable as controlling persons. The complaint alleges that the Board 'had authority over and/or controlled statements made by Musk through his Twitter account' and that Tesla designated Musk's Twitter account as an official communication channel. It also notes that Gracias (Lead Independent Director) later ordered Musk to stop tweeting about the transaction after August 7. However, the complaint contains no particularized factual allegations that any Board member knew of or approved the specific August 7 tweets before publication, knew they were false, or possessed any information suggesting Musk would make such statements. The complaint does not allege that Board members reviewed Musk's tweets pre-publication or had any advance notice of the 'funding secured' statement. Indeed, the complaint indicates that Viecha (Investor Relations) texted Musk at 1:00 p.m. ET asking 'Was this text legit?'—suggesting even Tesla's communications team was unaware. The Board's subsequent August 8 press release and formation of a special committee suggest the Board was responding to, rather than controlling, Musk's conduct. While the Board bore general fiduciary duties regarding disclosure controls, Section 20(a) requires more than negligent failure to supervise; it requires that the controlling person knew or recklessly disregarded that the controlled person was committing a securities violation. The complaint does not allege facts showing the Board members knew Musk would tweet false statements or that they consciously disregarded a substantial risk that he would do so. The complaint's allegations regarding Board control are conclusory and do not meet the PSLRA's heightened pleading standard for scienter. Therefore, Count II must be dismissed as to all Board defendants."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 27697,
+      "completion_tokens": 1096,
+      "total_tokens": 28793
+    },
+    "case_id": "cand-3_18-cv-04865"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The Amended Complaint alleges violations of Section 10(b)/Rule 10b-5 against Netflix and Individual Defendants (Hastings, Sarandos, Neumann, Peters) for false statements about market penetration, subscriber growth, and attributing slowdowns to COVID pull-forward while concealing massive account sharing (100M+ global households). Section 20(a) control person claims are derivative. All Section 10(b)/Rule 10b-5 claims are DISMISSED for failure to plead scienter with particularity under PSLRA. No specific contemporaneous facts show defendants knew precise extent of account sharing or its material impact at statement time; allegations rely on hindsight, general 'core operations' theory, vague former employee statements, and equally plausible innocent explanations (e.g., monitoring without quantifying impact, COVID effects). Section 20(a) claims DISMISSED as derivative.",
+      "claim_rulings": [
+        {
+          "claim": "First Claim: Violation of Section 10(b) of the Exchange Act and Rule 10b-5 against All Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations show defendants knew statements (e.g., '60% UCAN penetration,' 'healthy metrics,' 'COVID choppiness') were false when made. Complaint alleges post-hoc calculations of ~100M sharing households (stable 'over years') but provides no specific, contemporaneous data (e.g., internal reports, emails, meetings) quantifying sharing or linking it to growth issues before disclosures. FE1 references Q2'20 memo pausing crackdown (pre-Class Period); FE2 alleges vague discussions of 'lost revenue' in meetings without dates, numbers, or defendant-specific knowledge during Class Period. 'Core operations' inference insufficient without specifics. Defendants disclosed monitoring sharing (e.g., 2020 10-K), testing (Q1'21 call), and COVID effects, consistent with innocent explanations equally/more plausible than fraud. Hindsight use of Q1'22 admissions ('hasn't changed much') does not create strong scienter inference. [1][2] Confirms COVID drove actual 2020 surge, supporting non-fraudulent attributions."
+        },
+        {
+          "claim": "Second Claim: Violation of Section 20(a) of the Exchange Act against Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of dismissed Section 10(b)/Rule 10b-5 claim; no underlying primary violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 44742,
+      "completion_tokens": 515,
+      "total_tokens": 45257
+    },
+    "case_id": "cand-4_22-cv-02672"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges four causes of action: Sections 11 and 15 of the Securities Act (sustained as strict liability/negligence claims not requiring scienter), and Sections 10(b)/Rule 10b-5 and 20(a) of the Exchange Act (dismissed for failure to plead scienter with particularity under PSLRA standards). Section 10(b) claims rely on confidential witness statements (FEs) alleging pre-existing problems with the Talis One (comparator assay, invalid rates, manufacturing delays), but these constitute 'fraud by hindsight,' general corporate knowledge, and lack specific contemporaneous facts tying individual defendants to knowledge of statement falsity at the time made. Innocent explanations (aggressive timelines for development-stage company amid COVID urgency, going-concern pressures) are equally or more plausible. Section 20(a) dismissed as derivative.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 11 of the Securities Act against Securities Act Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A (strict liability; no scienter required)"
+        },
+        {
+          "claim": "Count II: Section 15 of the Securities Act against Individual Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A (control person liability derivative of Section 11; negligence standard, no scienter required)"
+        },
+        {
+          "claim": "Count III: Section 10(b) of the Exchange Act and Rule 10b-5 against Exchange Act Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Complaint fails PSLRA standard. No particularized facts show defendants knew statements (e.g., manufacturing readiness, instrument orders, test accuracy) were false when made. FE allegations (e.g., FE-1 on delays, FE-2 on comparator/invalid rates) are vague, second-hand, lack timing specificity pre-statements, and support only corporate mismanagement or optimism in rushed COVID pivot—not intent to deceive or recklessness. Core business allegations and access to reports (RADx/thinXXS contracts) permit equally plausible nonculpable inferences of aggressive goals amid cash crunch. No strong inference over innocence."
+        },
+        {
+          "claim": "Count IV: Section 20(a) of the Exchange Act against Officer Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (derivative of dismissed Section 10(b) claim; requires underlying violation)"
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 39885,
+      "completion_tokens": 509,
+      "total_tokens": 40394
+    },
+    "case_id": "cand_22_cv_00105"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of Section 10(b)/Rule 10b-5 (Count I) against all Defendants and Section 20(a) (Count II) against the Individual Defendants (Rawlinson and House) based on allegedly false statements about Lucid's production guidance and concealment of internal logistics/design issues. After applying PSLRA heightened pleading standards, both claims are dismissed for failure to plead particularized facts showing defendants' actual knowledge of falsity at the time of statements or a strong inference of scienter. Section 20(a) is also dismissed as derivative.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violation of Section 10(b) of the Exchange Act and SEC Rule 10b-5 against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations show defendants knew statements were false when made. FE-2's claim of Rawlinson's October/November 2021 admission of <10,000 units production is single, uncorroborated former employee statement lacking specifics (e.g., exact date, attendees, context); lacks reliability under PSLRA. Other 'knowledge' allegations rely on vague former employee descriptions of 'chaos' (e.g., FE-1, FE-4), general meetings/reports (e.g., daily 5:30 p.m. meetings without content specifics), and Rawlinson's plant/warehouse visits without evidence he was told statements were false. No contemporaneous documents, specific communications, or access to precise contradictory data at statement times. Core operations/motive allegations (Rawlinson's compensation, fundraising) insufficient alone for strong inference. Innocent explanations (optimistic guidance amid industry supply issues, efforts to fix problems like sending executives) equally/more plausible than fraud. 'Fraud by hindsight' from later disclosures (Feb/Aug 2022)."
+        },
+        {
+          "claim": "Count II: Violation of Section 20(a) of the Exchange Act against the Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of dismissed Section 10(b)/Rule 10b-5 claim; no underlying violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 76610,
+      "completion_tokens": 450,
+      "total_tokens": 77060
+    },
+    "case_id": "cand_22_cv_02094"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint alleging violations of Section 10(b) of the Securities Exchange Act and SEC Rule 10b-5 against Cutera, Inc. and seven individual defendants (former and current executives). The complaint alleges that defendants made materially false and misleading statements regarding: (1) the effectiveness of Cutera's internal controls over inventory and financial reporting; (2) the success of the AviClear product rollout; and (3) the strength of the Company's Core Capital business segment. The complaint asserts that defendants concealed severe inventory management failures, quality control problems, supply chain disruptions, and the catastrophic failure of the AviClear rollout strategy—all of which were driven by executives' personal financial incentives tied to AviClear device placements. The complaint alleges defendants knew or were reckless in not knowing about these problems through direct employee communications, customer complaints, and their participation in management meetings. The stock price allegedly remained artificially inflated until a series of corrective disclosures between January 2023 and March 2024 revealed the full extent of the fraud.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 Claim (First Claim for Relief)",
+          "ruling": "dismissed",
+          "scienter_analysis": "While the complaint contains extensive factual allegations regarding defendants' knowledge of internal control failures and the failed AviClear rollout, it fails to meet the PSLRA's heightened pleading standard for scienter in several critical respects: (1) KNOWLEDGE OF FALSITY AT TIME OF STATEMENTS: The complaint relies heavily on hindsight—i.e., that problems eventually materialized months or years after statements were made. For example, defendants' statements in May-August 2022 about AviClear momentum are challenged based on inventory issues that weren't discovered until the January 2023 plant shutdown and March 2024 restatement. This is classic 'fraud by hindsight.' The complaint does not allege with particularity that defendants knew the specific financial figures in Q1 and Q2 2023 filings were false when signed in May and August 2023—only that inventory counts were later found to be inaccurate. (2) EMPLOYEE COMMUNICATIONS: The complaint cites witness statements that employees 'raised concerns' about supply chain and inventory problems to Mowry and others. However, 'raising concerns' about operational challenges is not equivalent to communicating that financial statements are materially misstated. The complaint conflates operational problems (delayed shipments, parts backlogs, quality issues) with accounting errors (inventory overstatement). Defendants could have known about operational difficulties without knowing that the ERP system was producing false financial data. (3) INNOCENT EXPLANATIONS EQUALLY PLAUSIBLE: The complaint's own allegations support innocent explanations: (a) The new SAP/Salesforce systems were implemented in early 2022 with acknowledged bugs and lack of training—a reasonable explanation for initial inventory tracking errors without scienter; (b) The extended January 2023 plant shutdown was described as necessary for audit compliance, suggesting defendants believed inventory counts were being corrected; (c) Defendants' repeated statements about 'addressing' sales allocation problems and implementing new tracking systems suggest good-faith remediation efforts, not concealment; (d) The March 2024 restatement itself shows the company ultimately corrected errors, inconsistent with intentional fraud. (4) CONCLUSORY ALLEGATIONS: Much of the scienter pleading relies on conclusory statements that defendants 'knew' or 'recklessly disregarded' facts. For instance, the complaint states defendants 'knew' the AviClear rollout was failing because CW 1 'raised concerns' to Mowry, but does not allege that Mowry understood these concerns to mean financial statements would be misstated. The complaint alleges defendants 'knew' about inventory problems because they worked in the same building as the warehouse, but this is speculation about constructive knowledge, not particularized facts showing actual knowledge of false accounting. (5) FINANCIAL INCENTIVES: While the complaint alleges defendants had personal financial incentives to place AviClear devices (through PSU awards), financial motive alone does not establish scienter regarding false financial statements. The complaint does not allege defendants knew that rushing AviClear would necessarily cause the specific accounting errors later discovered (inventory overstatement, cost of revenue understatement). Motive to promote a product is not motive to falsify financial statements. (6) SOX CERTIFICATIONS: The complaint emphasizes that defendants signed SOX certifications attesting to effective internal controls. However, signing certifications regarding controls that later prove deficient, without more, does not establish scienter. The complaint must allege defendants knew controls were ineffective when certifying—not merely that controls were later found to be deficient. The complaint alleges defendants were 'reckless in not knowing,' but PSLRA requires a 'strong inference' of actual knowledge or severe recklessness, not constructive negligence. (7) TIMING OF DISCLOSURES: The complaint's own loss causation section demonstrates that stock declines occurred gradually in response to a series of partial disclosures (January 9, March 16, April 12, May 9, August 8, November 8, March 5, and March 21). This pattern is more consistent with gradual revelation of unforeseen operational problems than with concealment of known falsity. If defendants knew in May 2023 that Q1 2023 financials were false, why would the March 5, 2024 restatement (nearly a year later) be necessary? The complaint's own chronology suggests defendants discovered errors through the physical inventory counts, not that they had prior knowledge. CONCLUSION: The complaint adequately alleges that Cutera experienced serious operational problems (inventory mismanagement, quality issues, failed AviClear rollout) and that executives were aware of these operational challenges. However, it does not plead with particularity facts giving rise to a strong inference that defendants knew or were severely reckless regarding the falsity of specific financial statement figures when those statements were made. The complaint relies too heavily on hindsight, conflates operational problems with accounting fraud, and presents facts equally consistent with good-faith mismanagement and subsequent error correction. Under the PSLRA standard, this is insufficient."
+        },
+        {
+          "claim": "Section 20(a) Control Person Liability (Second Claim for Relief)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) liability is derivative of an underlying securities violation. Because the Section 10(b)/Rule 10b-5 claim is dismissed for failure to adequately plead scienter, the Section 20(a) claim must also be dismissed. The complaint alleges that individual defendants were 'controlling persons' of Cutera by virtue of their senior officer positions and their authority over SEC filings and public statements. These allegations are sufficient to establish control person status. However, Section 20(a) provides a defense if the control person 'acted in good faith and did not directly or indirectly induce the act or acts constituting the violation.' Because there is no underlying violation adequately pleaded (due to failure to establish scienter), there is no predicate for Section 20(a) liability. Additionally, even if an underlying violation were established, the complaint's allegations regarding defendants' good-faith remediation efforts (implementing new sales tracking systems, conducting physical inventory counts, ultimately restating financials) would likely support a good faith defense under Section 20(a)."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 67486,
+      "completion_tokens": 1550,
+      "total_tokens": 69036
+    },
+    "case_id": "cand_23_cv_02560"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges securities fraud claims under Sections 10(b)/Rule 10b-5 and 20(a) of the Exchange Act based on statements portraying Rain's Phase 2 Bypass clinical trial strategy as de-risked and supported by Phase 1 data, and Sections 11 and 15 of the Securities Act based on the IPO registration statement/prospectus. Exchange Act claims are dismissed for failure to plead scienter with particularity under the PSLRA. Securities Act claims are sustained as they do not require scienter.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violation of Section 10(b) and Rule 10b-5 against Rain, Vellanki, and Bryce",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead particularized facts showing defendants knew statements were false when made. Allegations that Phase 1 data (from 16 patients) did not support Phase 2 Bypass rely on plaintiffs' interpretation of industry standards and Daiichi Sankyo's intent, not contemporaneous facts known to defendants indicating falsity. FE1's statements confirm Vellanki and Bryce 'understood' Phase 1 limitations but do not show they knew Phase 1 data did not support Bypass or that Bypass was impossible—only that it was aggressive. 'Late-stage' claims and pipeline tables, despite SEC comments, involve puffery or optimism, not known falsity. Phase 3 failure (3.6 vs. 2.2 months PFS) constitutes fraud by hindsight. Motive (fundraising, cost-saving) and core operations inference are insufficient without particularized knowledge allegations. Recklessness as 'extreme departure' from standards is conclusory; innocent explanations (genuine belief in Phase 1 data's strength, business judgment to accelerate) are equally plausible. No strong inference of scienter."
+        },
+        {
+          "claim": "Count II: Violation of Section 20(a) of the Exchange Act against Vellanki and Bryce",
+          "ruling": "dismissed",
+          "scienter_analysis": "Control person liability is derivative of underlying Section 10(b)/Rule 10b-5 violation, which fails for lack of scienter. Dismissed as a matter of law."
+        },
+        {
+          "claim": "Count III: Violation of Section 11 of the Securities Act against Rain and the Director Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 11 imposes strict liability for material misstatements/omissions in registration statements/prospectus without scienter requirement. Complaint pleads actionable misstatements (e.g., Phase 1 data 'validated' dosing and supported Phase 3; inadequate risk disclosures under Item 105) with sufficient particularity for negligence-based claim. Plaintiffs disclaim fraud. Proceeds."
+        },
+        {
+          "claim": "Count IV: Violation of Section 15 of the Securities Act against the Director Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 15 control person liability is derivative of Section 11 violation but requires no scienter, only control. Director Defendants signed registration statement; claim proceeds."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 32067,
+      "completion_tokens": 651,
+      "total_tokens": 32718
+    },
+    "case_id": "cand_23_cv_03518"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of Section 10(b)/Rule 10b-5 (Count I) against all Defendants and Section 20(a) (Count II) against Individual Defendants based on allegedly false statements about macroeconomic impacts, customer retention, expansion, and revenue growth from existing enterprise customers. Applying PSLRA standards, Count I is dismissed for failure to plead particularized facts showing Defendants' actual knowledge of falsity at the time of statements or a strong inference of scienter; innocent explanations (e.g., optimistic projections based on partial data, normal business fluctuations) are at least equally plausible. Count II is dismissed as derivative of the failed Section 10(b) claim.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violations of Section 10(b) of the Exchange Act and Rule 10b-5 against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint relies on confidential witness statements (CW1-CW7) alleging internal discussions of customer throttling and macro pressures, all-hands meetings where Nightingale discussed declining big-customer traffic (e.g., ¶¶18, 88-89), weekly Customer Ops meetings tracking traffic (¶¶94-100), and sales struggles, but fails PSLRA standards. No particularized facts show Nightingale or Kisling knew specific statements (e.g., Nov. 2023 macro denial ¶¶10,118-120; Feb. 2024 retention stability ¶125; 10-K claims of enterprise growth ¶137) were false when made: (1) All-hands allegedly post-dated public statements (e.g., Nov. all-hands after Nov. 1/Q3 call, before Nov. 15 conference); (2) CW accounts are vague/general (no specific dates tying knowledge to statement timing, no direct Individual Defendant quotes on falsity, no CW1-7 reporting directly to Defendants); (3) 'Corporate scienter' via meetings does not substitute for individualized facts; (4) Sales compensation shift (¶¶107-108) and product delays (¶170) post-date early statements; (5) Metric discontinuation (¶211) and insider sales (¶218) are not suspicious (metrics 'infrequently used,' sales not alleged timed to disclosures). Allegations amount to 'fraud by hindsight' (subsequent declines do not prove contemporaneous knowledge, e.g., ¶¶22-24 disclosures of late-March/April issues contradict Feb. knowledge claim) and general 'knew or should have known' (¶¶195,202,205). No motive beyond stock price maintenance (common to all execs); innocent explanations (e.g., limited SMB exposure true re: revenue mix ¶6; deal elongation plausible; guidance met/met low-end ¶122; multi-CDN volatility normal ¶153) equally/more plausible than deceit. No strong scienter inference."
+        },
+        {
+          "claim": "Count II: Violations of Section 20(a) of the Exchange Act against Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims require underlying Section 10(b) violation, which fails; dismissed as derivative."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 25448,
+      "completion_tokens": 661,
+      "total_tokens": 26109
+    },
+    "case_id": "cand_24_cv_03170"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The First Amended Class Action Complaint is dismissed in its entirety. Count One (Section 10(b)/Rule 10b-5) fails to plead with particularity facts giving rise to a strong inference of scienter, relying instead on conclusory allegations, fraud by hindsight, and equally plausible innocent explanations. Count Two (Section 20(a)) is dismissed as derivative of the failed primary violation.",
+      "claim_rulings": [
+        {
+          "claim": "Count One: Violations of Section 10(b) of the Exchange Act and Rule 10b-5(b) against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails PSLRA particularity for scienter. No specific facts show Vinciarelli or Vicor knew on July 25, 2023, that statements about an 'existing' 'significant customer' for Q4 ramp were false when made; quotes describe customer details and expectations ('expected to ramp', 'my expectation'), consistent with forward-looking optimism based on then-current information, not guaranteed contracts. Subsequent October denial of specificity, pivot to diversification, and post-lawsuit press release about $30M 'non-cancellable' bookings (even if tentative) provide innocent explanations equally plausible to fraud: customer changed plans, deal delayed, or statements were aspirational. Allegations of 'cover up', access to information, stock ownership, and insider sales are conclusory 'core operations'/'motive' boilerplate, not particularized facts of actual knowledge. Hindsight from later events does not create strong inference of intent or recklessness at statement time."
+        },
+        {
+          "claim": "Count Two: Violations of Section 20(a) of the Exchange Act against Defendant Vinciarelli",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person claims require underlying Section 10(b) violation, which fails for lack of scienter; derivative claim dismissed."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 11903,
+      "completion_tokens": 401,
+      "total_tokens": 12304
+    },
+    "case_id": "cand_24_cv_04196"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint asserts claims under Sections 11, 12(a)(2), and 15 of the Securities Act only. There are no claims under Section 10(b) or Rule 10b-5, so no PSLRA scienter analysis is required. All Securities Act claims are sustained as they are non-fraud strict liability or control person claims that survive a motion to dismiss at the pleading stage, subject to defendants' affirmative defenses.",
+      "claim_rulings": [
+        {
+          "claim": "Claim One: §11 against all Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "Not applicable; §11 is a strict liability claim without scienter requirement."
+        },
+        {
+          "claim": "Claim Two: §12(a)(2) against all Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "Not applicable; §12(a)(2) does not require scienter."
+        },
+        {
+          "claim": "Claim Three: §15 against Individual Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "Not applicable; §15 is derivative of §11 and does not independently require scienter."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 30065,
+      "completion_tokens": 238,
+      "total_tokens": 30303
+    },
+    "case_id": "cand_3_21-cv-09767"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action against SunPower Corporation and two individual defendants (CEO Peter Faricy and CFO Manavendra Sial) alleging violations of Section 10(b) and Rule 10b-5 for misrepresentations and omissions regarding the company's commercial business performance, financial guidance, and product quality risks during August 2021 through January 2022. The complaint alleges defendants made false statements about commercial segment margins and profitability while concealing a widespread cracking defect in third-party connectors affecting nearly all commercial systems, which ultimately cost approximately $31 million to remediate. Plaintiff seeks class certification and damages under Section 10(b), Rule 10b-5, and Section 20(a) control person liability.",
+      "claim_rulings": [
+        {
+          "claim": "Count I - Section 10(b) and Rule 10b-5 (All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with the particularity required by the PSLRA. While the complaint alleges that defendants 'knew or deliberately disregarded' facts about the cracking defect, it provides no particularized factual allegations showing defendants' actual knowledge of the defect's existence or materiality at the time the statements were made. The complaint relies on: (1) conclusory allegations that defendants 'knew or deliberately disregarded' the facts (¶¶50, 67); (2) post-hoc inferences that because the defect was discovered during CIS due diligence in late 2021, defendants must have known earlier—but the complaint does not allege specific facts about when defendants actually discovered the defect or what they knew; and (3) circumstantial evidence that defendants were 'diving deep' into operations and had 'access to adverse undisclosed information' (¶35), which amounts to generalized corporate knowledge rather than particularized facts about individual defendants' actual knowledge. The December 7, 2021 manual updates warning of connector cracking constitute the first concrete evidence in the complaint of defendants' knowledge, yet statements made in August and November 2021 predate this. The complaint does not allege specific facts showing defendants knew of defects in 'nearly all' commercial systems when they made August and November statements. Innocent explanations are equally or more plausible: (1) the cracking issue may have developed gradually over time, with defendants discovering its full scope only during the CIS sale due diligence process in late 2021; (2) defendants' August and November statements about commercial business strength and on-track guidance could reflect good-faith assessments based on information available at those times; (3) the project delays and permitting issues defendants cited in August were factually accurate explanations for CIS underperformance, distinct from product defects. The complaint does not allege facts showing defendants acted with intent to deceive or reckless disregard for truth—only that they failed to disclose information they may not have possessed with requisite specificity. This is precisely the type of 'fraud by hindsight' and speculation about what defendants 'must have known' that the PSLRA prohibits."
+        },
+        {
+          "claim": "Count II - Section 20(a) Control Person Liability (Individual Defendants Faricy and Sial)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person liability is derivative of an underlying Section 10(b)/Rule 10b-5 violation. Because Count I is dismissed for failure to adequately plead scienter, Count II must also be dismissed. The complaint alleges that Faricy and Sial, as CEO/President/Chairman and CFO/Executive Vice President respectively, were controlling persons with power to cause the company to engage in wrongful conduct (¶109). However, absent a viable underlying securities violation, control person liability cannot attach. The PSLRA's heightened pleading standards apply equally to derivative claims."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 20671,
+      "completion_tokens": 800,
+      "total_tokens": 21471
+    },
+    "case_id": "cand_3_22-cv-00956"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint alleging violations of Section 10(b) of the Securities Exchange Act, SEC Rule 10b-5, and Section 20(a) control person liability. The complaint alleges that defendants made materially false and misleading statements regarding ImmunityBio's manufacturing capabilities and cGMP compliance at its contract manufacturing organization (AGC Biologics), while knowing or recklessly disregarding that AGC suffered from pervasive cGMP violations. The complaint alleges defendants concealed these violations through the Class Period (March 10, 2021 – May 10, 2023) until the FDA issued a Complete Response Letter on May 9, 2023, rejecting the Anktiva BLA due to manufacturing deficiencies, causing a 55% stock price decline.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 10(b) and Rule 10b-5 Violations (All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "While the complaint contains extensive factual allegations regarding defendants' knowledge of cGMP violations at AGC, it fails to meet the PSLRA's heightened pleading standard for scienter. The complaint relies heavily on circumstantial evidence and inferences rather than particularized facts showing defendants' actual knowledge of falsity when statements were made. Specifically: (1) The complaint alleges defendants 'knew or were reckless in not knowing' statements were false (¶213), but this conclusory formulation is precisely what the PSLRA prohibits. (2) Knowledge of manufacturing problems at AGC—even serious ones documented in FDA Form 483s from March and July 2021—does not establish knowledge that specific public statements about 'established GMP manufacturing capacity' and 'robust process development and validation' were false when made. The complaint conflates knowledge of problems with knowledge of falsity of particular representations. (3) The mock inspection in January 2023 revealed deficiencies, but the complaint does not plead specific facts showing defendants knew at the time of earlier statements (e.g., May 2022 BLA filing announcement) that those statements were false. The gap between knowledge of manufacturing issues and knowledge that public statements were materially misleading is not bridged by particularized allegations. (4) The complaint's reliance on defendants' 'extreme concern' about the FDA inspection and their intensive involvement in monitoring AGC's performance supports an alternative, innocent explanation: defendants were diligently monitoring a critical supplier and attempting to remediate problems, not deliberately deceiving investors. Reasonable persons could infer defendants believed the statements truthful based on their ongoing remediation efforts. (5) The allegation that Soon-Shiong 'personally reviewed and approved' the BLA (¶176) does not establish scienter regarding earlier statements; it merely shows involvement in a document that would need to address manufacturing issues—consistent with prudent management. (6) Regarding the February 2023 FDA inspection findings, the complaint alleges defendants received real-time updates (¶184), but does not plead specific facts establishing that defendants understood the OAI classification and its implications before the May 9, 2023 CRL was issued. The complaint suggests uncertainty about the FDA's decision through March 20, 2023 (¶154-155), which is inconsistent with a strong inference of scienter regarding false statements made before the inspection results were fully understood. (7) The complaint's expert opinion (¶74-75, 88-91) regarding the severity of violations and their impact on approvability is helpful but does not cure the pleading deficiency: expert hindsight analysis cannot substitute for particularized facts showing defendants' state of mind at the time statements were made. The complaint does not allege that defendants possessed the expert knowledge attributed to them or that they understood the violations' implications as clearly as the post-hoc expert analysis suggests. (8) The complaint does not adequately distinguish between defendants' knowledge of manufacturing problems and their knowledge that public statements minimizing or omitting those problems were materially false. This is a critical gap under PSLRA standards. The complaint must plead facts showing defendants understood specific statements were false, not merely that problems existed. For these reasons, the complaint fails to plead a strong inference of scienter and relies on impermissible conclusory allegations and fraud-by-hindsight reasoning."
+        },
+        {
+          "claim": "Count II: Section 20(a) Control Person Liability (Individual Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) liability is derivative of an underlying Section 10(b)/Rule 10b-5 violation. Because Count I is dismissed for failure to adequately plead scienter under the PSLRA, Count II must also be dismissed. The complaint alleges that individual defendants had 'direct and supervisory involvement' and 'power to control or influence' the false statements (¶221-223), which would satisfy the control person elements if the underlying violation were properly pleaded. However, absent a viable Section 10(b) claim, there is no predicate violation upon which Section 20(a) liability can rest. The complaint's allegations regarding defendants' positions as officers and directors and their access to information, while relevant to control, do not cure the scienter deficiency in the underlying securities fraud claim."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34233,
+      "completion_tokens": 1094,
+      "total_tokens": 35327
+    },
+    "case_id": "casd_3_23-cv-01216"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is an SEC enforcement action, not a private securities class action. Applying PSLRA standards as instructed, Section 10(b)/Rule 10b-5 claims against Dellomo and Um are sustained due to particularized facts showing actual knowledge of falsity and strong inference of scienter through specific contemporaneous communications, actions, and GAAP violations. Non-scienter claims against Lovesac and related aiding/abetting claims are sustained. No Section 20(a) claims present.",
+      "claim_rulings": [
+        {
+          "claim": "FIRST CLAIM: Fraud in Offer/Sale vs. Dellomo/Um (Securities Act §§17(a)(1),(3))",
+          "ruling": "sustained",
+          "scienter_analysis": "Securities Act §17(a) claims do not require PSLRA scienter pleading; allegations of knowing scheme suffice."
+        },
+        {
+          "claim": "SECOND CLAIM: Fraud in Offer/Sale vs. Lovesac (Securities Act §17(a)(3))",
+          "ruling": "sustained",
+          "scienter_analysis": "No scienter required for §17(a)(3); negligence alleged."
+        },
+        {
+          "claim": "THIRD CLAIM: Fraud vs. Dellomo/Um (Exchange Act §10(b)/10b-5(a),(c))",
+          "ruling": "sustained",
+          "scienter_analysis": "Particularized facts show knowledge of falsity: Um/Dellomo knew expenses incurred in FY2023 but capitalized $2.2M in Q1 FY2024 to hit 50.1% gross margin projection (emails Apr 23-27, 2023; Um's Teams chats admitting cannot justify; no support docs; GAAP violation as shipping provides no future benefit). Strong inference of intent/recklessness over innocent error: motive to avoid restatement/firing, deviated from practices, hoped 'it would do the trick.'"
+        },
+        {
+          "claim": "FOURTH CLAIM: Fraud vs. Dellomo (Exchange Act §10(b)/10b-5(b))",
+          "ruling": "sustained",
+          "scienter_analysis": "Particularized facts show knowledge: Dellomo approved improper journal entry despite normal support requirement, certified false 10-Q, issued false auditor letter knowing omissions. Core operations inference as CFO; strong scienter from scheme details."
+        },
+        {
+          "claim": "FIFTH CLAIM: Aiding/Abetting Dellomo's §10(b)/10b-5(b) vs. Um",
+          "ruling": "sustained",
+          "scienter_analysis": "Underlying §10(b) sustained; Um's booking of entry with knowledge provides substantial assistance."
+        },
+        {
+          "claim": "SIXTH CLAIM: §13(b)(5) vs. Dellomo",
+          "ruling": "sustained",
+          "scienter_analysis": "No PSLRA scienter required; 'knowingly' met by specific facts."
+        },
+        {
+          "claim": "SEVENTH CLAIM: Rule 13b2-1 vs. Dellomo/Um",
+          "ruling": "sustained",
+          "scienter_analysis": "No PSLRA scienter required; falsification facts particularized."
+        },
+        {
+          "claim": "EIGHTH CLAIM: Rule 13b2-2 vs. Dellomo",
+          "ruling": "sustained",
+          "scienter_analysis": "No PSLRA scienter required; specific false representations to auditors alleged."
+        },
+        {
+          "claim": "NINTH CLAIM: §13(a)/Rules 12b-20 etc. vs. Lovesac",
+          "ruling": "sustained",
+          "scienter_analysis": "Issuer reporting violations; no scienter required."
+        },
+        {
+          "claim": "TENTH CLAIM: Aiding/Abetting Lovesac's §13(a) vs. Dellomo/Um",
+          "ruling": "sustained",
+          "scienter_analysis": "Scienter for aiders met by scheme facts."
+        },
+        {
+          "claim": "ELEVENTH CLAIM: Rule 13a-14 vs. Dellomo",
+          "ruling": "sustained",
+          "scienter_analysis": "No PSLRA scienter required; false certification facts specific."
+        },
+        {
+          "claim": "TWELFTH CLAIM: §13(b)(2)(A) vs. Lovesac",
+          "ruling": "sustained",
+          "scienter_analysis": "Books/records; no scienter required."
+        },
+        {
+          "claim": "THIRTEENTH CLAIM: Aiding/Abetting §13(b)(2)(A) vs. Dellomo/Um",
+          "ruling": "sustained",
+          "scienter_analysis": "Scienter for aiders met."
+        },
+        {
+          "claim": "FOURTEENTH CLAIM: §13(b)(2)(B) vs. Lovesac",
+          "ruling": "sustained",
+          "scienter_analysis": "Internal controls; no scienter required."
+        },
+        {
+          "claim": "FIFTEENTH CLAIM: Aiding/Abetting §13(b)(2)(B) vs. Dellomo",
+          "ruling": "sustained",
+          "scienter_analysis": "Scienter for aider met."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 12105,
+      "completion_tokens": 1063,
+      "total_tokens": 13168
+    },
+    "case_id": "ctd-3_24-cv-01727"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is an SEC enforcement action, not a private securities class action subject to PSLRA heightened pleading standards. All claims are sustained as they adequately allege strict liability violations (Sections 5(a)/(c) Securities Act, Exchange Act Sections 5, 15(a), 17A(b)) and Section 17(a)(2)/(3) fraud without requiring PSLRA scienter. Control person claims under Section 20(a) also sustained based on primary violations. No Section 10(b)/Rule 10b-5 claims present.",
+      "claim_rulings": [
+        {
+          "claim": "FIRST CLAIM FOR RELIEF: Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for Unregistered Offers and Sales of BNB)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability claim; no scienter required."
+        },
+        {
+          "claim": "SECOND CLAIM FOR RELIEF: Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for the Unregistered Offers and Sales of BUSD)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability claim; no scienter required."
+        },
+        {
+          "claim": "THIRD CLAIM FOR RELIEF: Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for the Unregistered Offer and Sale of Simple Earn and BNB Vault)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability claim; no scienter required."
+        },
+        {
+          "claim": "FOURTH CLAIM FOR RELIEF: Violations of Sections 5(a) and 5(c) of the Securities Act (Against BAM Trading for the Unregistered Offer and Sale of its Staking Program)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability claim; no scienter required."
+        },
+        {
+          "claim": "FIFTH CLAIM FOR RELIEF: Violation of Exchange Act Section 5 (Against Binance for Failing to Register as an Exchange for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "SIXTH CLAIM FOR RELIEF: Violations of Exchange Act Section 15(a) (Against Binance for Failing to Register as a Broker-Dealer for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "SEVENTH CLAIM FOR RELIEF: Violations of Exchange Act Section 17A(b) (Against Binance for Failing to Register as a Clearing Agency for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "EIGHTH CLAIM FOR RELIEF: Violations of Exchange Act Section 5 (Against Binance and BAM Trading for Failure to Register as an Exchange for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "NINTH CLAIM FOR RELIEF: Violations of Exchange Act Section 15(a) (Against BAM Trading for Failing to Register as a Broker for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "TENTH CLAIM FOR RELIEF: Violations of Exchange Act Section 17A(b) (Against Binance and BAM Trading Failing to Register as a Clearing Agency for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Strict liability registration claim; no scienter required."
+        },
+        {
+          "claim": "ELEVENTH CLAIM FOR RELIEF: Violations of Exchange Act Sections 5, 15(a), and 17A(b) (Against Zhao as Control Person over Binance for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": "Control person liability derivative of primary violations; no independent scienter required under Section 20(a)."
+        },
+        {
+          "claim": "TWELFTH CLAIM FOR RELIEF: Violations of Exchange Act Sections 5, 15(a), and 17A(b) (Against Zhao as Control Person over Binance and BAM Trading for the Binance.US Platform Violations)",
+          "ruling": "sustained",
+          "scienter_analysis": "Control person liability derivative of primary violations; no independent scienter required under Section 20(a)."
+        },
+        {
+          "claim": "THIRTEENTH CLAIM FOR RELIEF: Violations of Securities Act Sections 17(a)(2) and (a)(3) (Against BAM Management and BAM Trading)",
+          "ruling": "sustained",
+          "scienter_analysis": "Sections 17(a)(2)/(3) require negligence, not scienter. Complaint alleges particularized facts of knowing false statements about surveillance/controls and omissions while wash trading occurred (e.g., Sigma Chain activity, internal admissions of no controls), creating strong inference of reckless disregard over innocent explanations."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 52447,
+      "completion_tokens": 1105,
+      "total_tokens": 53552
+    },
+    "case_id": "dcd-1_23-cv-01599"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint against Danaher Corporation and three individual defendants (CEO Rainer Blair, CFO Matthew McGrew, and Emmanuel Ligner, Group Executive of Biotechnology) alleging violations of Section 10(b), Rule 10b-5, and Section 20(a) of the Securities Exchange Act. The complaint alleges that defendants made materially false and misleading statements regarding the sustainability of bioprocessing division revenues during the Class Period (January 27, 2022 - October 23, 2023). Plaintiffs contend that defendants knew or recklessly disregarded that non-COVID bioprocessing revenues would sharply decline due to customer inventory stockpiling, reduced biotech funding, and declining COVID-related demand, yet repeatedly assured investors of high single-digit growth. The complaint is supported by confidential witness testimony and detailed factual allegations regarding defendants' knowledge of deteriorating business conditions.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 - All Defendants",
+          "ruling": "sustained",
+          "scienter_analysis": "The complaint adequately pleads scienter with particularity sufficient to survive a motion to dismiss under PSLRA standards. First, the complaint provides specific, particularized facts demonstrating defendants' actual knowledge of falsity at the time statements were made: (1) Confidential witnesses (CW1, CW4) provide direct evidence that CEO Blair 'made up' projections that 'looked better' for investor calls, explicitly stating Blair 'was yelling and saying he didn't like the projections' from subsidiary presidents and directed creation of inflated figures (¶ 107). This is not conclusory—it is a specific account of deliberate fabrication. (2) Defendants maintained extensive customer contact systems ('Customers Talk, We Listen' core value) and conducted regular surveys, monthly forecasting reviews, and quarterly comprehensive inventory assessments with customers (¶¶ 163-167). Defendants explicitly stated they were 'very, very close to our customers' and conducted 'regular surveys'—establishing they had direct knowledge channels. (3) The complaint details specific, contemporaneous customer-driven facts defendants knew: by March 2022, competitor EMD reduced COVID guidance based on customer feedback; by April 2022, analysts were asking about stockpiling, indicating the phenomenon was known; by July 2022, defendants admitted seeing 'healthy transition away from COVID' (¶ 60); by Q3 2022, non-COVID orders declined 20% YoY; by Q4 2022, funding constraints for biotech were observable. (4) The pattern of serial guidance reductions—six reductions for 2022 projections and seven for 2023 (¶¶ 109-110, 123-124)—within months of confident reaffirmations creates a strong inference that defendants knew the prior statements lacked reasonable basis. The compression from $2B COVID revenue (Jan 2022) to $800M (Oct 2022) to $150M (Jan 2023) within one year, combined with simultaneous non-COVID order declines of 20-40%, demonstrates defendants possessed contemporaneous knowledge contradicting their public statements. (5) Defendants' own admissions on later calls ('we have been observing funding headwinds... since the second half of the prior year' - May 2023 call) establish they knew of adverse conditions during the Class Period but failed to disclose them. (6) The complaint identifies specific statements made with knowledge of contrary facts: e.g., April 21, 2022 statements that non-COVID bioprocessing was 'growing at low double digits' and orders were 'very, very strong' when internal forecasts (per CW4) showed deterioration; July 21, 2022 assurances of 'no change' to guidance when Q3 showed 20% order declines; January 24, 2023 statements that inventory would be 'inflection point' in Q1 when it persisted through Q2. (7) Insider trading by Blair (selling 88% of holdings for $12.2M) and McGrew (selling 135% of holdings for $5.6M) at peaks immediately following positive statements and before corrections creates circumstantial evidence of knowledge. The timing—Blair's large $7.5M sale on August 15, 2022 at the Class Period zenith, followed by October 20 guidance cut—is probative. (8) The complaint establishes motive: Blair faced pressure to produce results given the $35B invested in Cytiva/Pall acquisitions and the bioprocessing business representing 25-30% of Danaher's revenue. His compensation included PSUs tied to TSR performance, directly incentivizing stock price inflation. (9) Ligner's sudden departure on October 31, 2023, after seven consecutive quarters of bioprocessing guidance reductions, suggests consciousness of wrongdoing. These facts collectively create more than a 'strong inference'—they establish actual knowledge or, at minimum, extreme recklessness. Innocent explanations (e.g., unpredictable market changes, normal business volatility) are not equally or more plausible given: (a) defendants' own extensive customer contact systems that should have revealed deterioration; (b) competitors' simultaneous guidance reductions signaling industry-wide visibility; (c) the specific, repeated pattern of reductions contradicting prior confident statements; and (d) the CW testimony of deliberate forecast manipulation. The PSLRA pleading standard is satisfied."
+        },
+        {
+          "claim": "Section 20(a) Control Person Liability - Blair and McGrew",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 20(a) liability is derivative of the underlying Section 10(b)/Rule 10b-5 violation. Because the complaint adequately pleads scienter for the primary violation (as detailed above), the Section 20(a) claim against Blair and McGrew as controlling persons is also sustainable. The complaint establishes: (1) Blair, as President and CEO since September 2020, and McGrew, as CFO since January 2019, held senior positions with direct involvement in day-to-day operations and financial disclosures (¶¶ 27-29). (2) Both defendants had unlimited access to company reports, press releases, and filings prior to dissemination and possessed the ability to prevent or correct false statements (¶ 271). (3) Both defendants signed or approved Form 8-K filings containing the false statements (e.g., McGrew signed the 4Q 2021, 1Q 2022, 2Q 2022, 3Q 2022, 4Q 2022, 1Q 2023, 2Q 2023 Form 8-Ks). (4) Both defendants made the false statements directly on earnings calls and at investor conferences, establishing their control over the content. (5) The complaint alleges Blair and McGrew 'knew of or recklessly disregarded the adverse, non-public information' and 'acted knowingly and intentionally, or in such a deliberately reckless manner as to constitute culpable participation' (¶ 273). This satisfies the scienter requirement for Section 20(a) liability. The derivative nature of Section 20(a) means that once the primary Section 10(b) violation is established with the requisite scienter, controlling person liability follows for those with authority over the fraudulent statements."
+        },
+        {
+          "claim": "Section 20(a) Control Person Liability - Emmanuel Ligner",
+          "ruling": "dismissed",
+          "scienter_analysis": "Although the complaint alleges Ligner as a defendant and includes him in the prayer for relief, the complaint does not adequately plead Section 20(a) liability against Ligner specifically. First, Ligner is not named in Count II (Section 20(a) claim), which is brought only 'against Defendants Blair and McGrew' (¶ 256). This is a fatal pleading deficiency—the complaint must explicitly assert the claim against each defendant. Second, while the complaint establishes Ligner's role as 'Group Executive of the Biotechnology reporting segment' and 'President and CEO of Cytiva' (¶ 30), it does not allege that Ligner had the requisite control over Danaher's overall public disclosures or financial statements. Ligner's role appears confined to operational management of the bioprocessing division, not corporate-level financial reporting or investor communications. The complaint does not allege that Ligner signed Form 8-Ks, participated in earnings calls, or had authority over press releases—unlike Blair and McGrew, whose direct involvement in public statements is extensively documented. Third, the complaint does not allege facts showing Ligner 'had the power to influence and control, and did influence and control, directly or indirectly, the contents of the reports, press releases, public filings, and other statements' at the corporate level (cf. ¶ 270 describing Blair and McGrew's roles). Ligner's departure from Danaher on October 31, 2023, while probative of scienter regarding the Section 10(b) claim, does not cure the pleading deficiency for Section 20(a). Accordingly, the Section 20(a) claim against Ligner is DISMISSED without prejudice for failure to adequately plead control person liability. However, Ligner remains liable for any Section 10(b)/Rule 10b-5 violations if he directly participated in making false statements or omitting material facts."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 37155,
+      "completion_tokens": 1952,
+      "total_tokens": 39107
+    },
+    "case_id": "dcd-1_23-cv-02055"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint arising from Focus Financial Partners' acquisition by Clayton, Dubilier & Rice (CD&R) for $53 per share, announced February 27, 2023, and closed August 31, 2023. Plaintiffs allege that defendants made materially false and misleading statements and omissions in connection with the merger, including: (1) falsely representing that the Special Committee was independent and disinterested when members harbored significant financial conflicts through TRA payments, equity acceleration, and self-awarded compensation increases; (2) misrepresenting the adequacy and fairness of the sale process while concealing that Stone Point Capital (largest shareholder) and management favored CD&R due to equity rollover opportunities; (3) omitting that Goldman Sachs' concurrent representation of a competing transaction (NKSFB sale) artificially limited the bidder pool; (4) concealing that a superior $55 per share bid from a strategic buyer was stiff-armed; and (5) failing to disclose Jefferies' eight-fold fee increase immediately before rendering its fairness opinion. The complaint asserts violations of Section 10(b)/Rule 10b-5, Section 14(a)/Rule 14a-9, and Section 20(a) of the Securities Exchange Act.",
+      "claim_rulings": [
+        {
+          "claim": "Count I - Section 10(b) and Rule 10b-5 Claims (All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with the particularity required under the PSLRA. While plaintiffs allege extensive factual details regarding conflicts of interest, process deficiencies, and omissions, these allegations do not establish a strong inference that defendants acted with intent to deceive or severe recklessness regarding the falsity of specific statements at the time they were made. The complaint relies heavily on 'fraud by hindsight'—arguing that because the process was flawed and the price was lower than a competing bid, defendants must have known their statements about process fairness and independence were false. However, this reasoning is insufficient. Defendants could plausibly have believed the sale process was adequate despite its flaws, and that the Special Committee's independence was sufficient despite undisclosed conflicts. The complaint does not allege specific facts showing that defendants possessed actual knowledge of the falsity of particular statements when made (e.g., that defendants knew the process was not robust, or knew specific statements about independence were false at the time of publication). Instead, plaintiffs infer knowledge from circumstantial evidence of motive (Stone Point's equity rollover, TRA payments, management retention) and opportunity (defendants' positions). Innocent explanations are equally or more plausible: defendants may have genuinely believed the process was fair despite its limitations, that the Special Committee was sufficiently independent despite personal relationships and financial interests, and that the $53 price was the best reasonably obtainable given market conditions and financing constraints. The allegation that defendants 'knew or recklessly disregarded' facts is conclusory and does not meet the heightened pleading standard. Accordingly, Count I must be dismissed for failure to adequately plead scienter."
+        },
+        {
+          "claim": "Count II - Section 14(a) and Rule 14a-9 Claims (Focus, Special Committee Defendants, Board Defendants, Officer Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 14(a) and Rule 14a-9 impose a negligence standard, not a scienter requirement. Plaintiffs explicitly disclaim any allegation of fraud in Count II, instead asserting negligence-based liability. The complaint adequately alleges material misstatements and omissions in the Proxy, including: (1) false representations that the Special Committee was 'independent and disinterested' when members received $729,467 to $943,690 in total payments (TRA payments, equity acceleration, and self-awarded fee increases); (2) misrepresentations regarding the adequacy of the sale process, including omissions that Goldman Sachs' dual representation limited bidder outreach and that a superior $55 bid was disfavored; (3) omissions regarding Jefferies' eight-fold fee increase immediately before its fairness opinion; and (4) omissions of Stone Point's non-agnostic preference for CD&R and management's incentive to favor a financial buyer. These omissions are material—a reasonable shareholder would have considered them important in voting on the merger, and they would significantly alter the total mix of information available. Plaintiffs adequately allege that defendants failed to exercise reasonable care in ensuring the Proxy did not contain these material misstatements and omissions. The claim is properly brought within the applicable statute of limitations. Accordingly, Count II survives the motion to dismiss."
+        },
+        {
+          "claim": "Count III - Section 20(a) Control Person Liability (Special Committee Defendants, Board Defendants, Officer Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person liability is derivative of an underlying securities violation. Because Count I (Section 10(b)/Rule 10b-5) has been dismissed for failure to adequately plead scienter, the Section 10(b) claims against the primary violators cannot proceed. Accordingly, Section 20(a) liability predicated on those dismissed Section 10(b) claims must also be dismissed. However, to the extent that Count III is predicated on the Section 14(a) violations alleged in Count II, control person liability may be appropriate. Under Section 14(a), defendants as controlling persons of Focus had the power to control and did control the entity that violated Rule 14a-9 through the dissemination of the false and misleading Proxy. The complaint adequately alleges that the Special Committee Defendants, Board Defendants, and Officer Defendants had direct supervisory involvement in the merger process, reviewed and approved the Proxy, and had the ability to prevent or correct the misstatements and omissions. Accordingly, Count III is DISMISSED to the extent it relies on the dismissed Section 10(b) claims, but SUSTAINED to the extent it relies on the Section 14(a) violations."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34469,
+      "completion_tokens": 1268,
+      "total_tokens": 35737
+    },
+    "case_id": "dde_ 23_cv_1466"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of Section 10(b)/Rule 10b-5 (Count I) against all Defendants and Section 20(a) (Count II) against Individual Defendants for failing to disclose DOJ investigations into Walmart's CSA violations and making misleading statements about compliance, risks, and stewardship. Applying PSLRA standards, both claims are dismissed for failure to plead with particularity facts giving rise to a strong inference of scienter. Allegations rely on generalized corporate knowledge, historical compliance issues, and group pleading rather than specific facts showing Individual Defendants' actual knowledge of statement falsity at the time made. Innocent explanations (e.g., ongoing legal defense strategies, general awareness without materiality assessment) are at least equally plausible.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violations of Section 10(b) and Rule 10b-5 against all Defendants (Walmart, McMillon, Biggs)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations show Defendants knew statements (e.g., disclosures of 'all reasonably possible' liabilities, risk factors, stewardship claims, SOX certifications) were false when made. Pre-Class Period documents (2014 PSW, 2013 CSRA) show compliance awareness but not Individual Defendants' contemporaneous knowledge of Investigations' materiality or falsity. McMillon's MDL deposition involvement and Committee membership constitute 'general corporate knowledge,' not specific facts of personal awareness. ProPublica/DOJ details emerged post-statements; no CWs, emails, or meetings tie McMillon/Biggs to knowing nondisclosure obligation pre-March 2020. Motive (sales via pharmacies) and core operations theory rejected as insufficient under PSLRA/Tellabs. No strong inference; nonfraudulent intent (defending litigation, assessing low probability) equally/more plausible."
+        },
+        {
+          "claim": "Count II: Violations of Section 20(a) against Individual Defendants (McMillon, Biggs)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims derivative of dismissed Section 10(b)/Rule 10b-5 claim; no underlying primary violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 45100,
+      "completion_tokens": 459,
+      "total_tokens": 45559
+    },
+    "case_id": "dde_21_cv_55"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges a Ponzi-like scheme involving forex trading accounts promoted as high-return investments with guaranteed withdrawals, but defendants withheld over $27 million after lulling plaintiffs with initial payouts. Section 10(b)/Rule 10b-5 and derivative Section 20(a) claims are dismissed for failure to plead scienter with particularized facts showing defendants' knowledge of falsity when statements were made; allegations rely on 'upon information and belief,' conclusory claims of knowledge, fraud-by-hindsight, and general corporate scienter without tying specific contemporaneous facts to individual defendants. Non-securities claims (Securities Act unregistered offering, CEA, state securities, breach of contract, fiduciary duty, fraud, negligent misrepresentation, conversion, unjust enrichment, conspiracy) are sustained as they do not require PSLRA scienter pleading.",
+      "claim_rulings": [
+        {
+          "claim": "Count I (Securities Act §§ 5, 12(a)(1) – CFT, FxWinning)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – strict liability claim; no scienter required."
+        },
+        {
+          "claim": "Count II (Exchange Act § 10(b)/Rule 10b-5 – CFT, FxWinning, de Rocha, Cardenas, Brito Cutie)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations showing defendants knew statements (e.g., high returns, withdrawable funds, regulation, audits) were false when made; relies on 'upon information and belief' that representations were false, subsequent non-payment (fraud-by-hindsight), and conclusory 'knew or should have known.' No specific contemporaneous facts (e.g., internal documents, whistleblowers) tying individual defendants to knowledge of falsity at statement time. Innocent explanations (e.g., legitimate business failure, actual regulatory delays) equally plausible. Fails PSLRA strong inference standard."
+        },
+        {
+          "claim": "Count III (Commodity Exchange Act §§ 6b, 6e, 6o, 25 – CFT, FxWinning, de Rocha, Cardenas, Brito Cutie)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – CEA private claims do not require PSLRA heightened scienter pleading."
+        },
+        {
+          "claim": "Count IV (Florida Securities Act §§ 517.301, 517.211 – CFT, FxWinning, de Rocha, Cardenas, Brito Cutie)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – state law claim not subject to PSLRA standards."
+        },
+        {
+          "claim": "Count V (Breach of Contract – FxWinning)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – contract claim; no scienter required."
+        },
+        {
+          "claim": "Count VI (Breach of Fiduciary Duty – all Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – common law claim; no PSLRA scienter required."
+        },
+        {
+          "claim": "Count VII (Fraud in the Inducement – CFT, FxWinning, de Rocha, Cardenas, Brito Cutie)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – state common law fraud; Rule 9(b) particularity applies but not PSLRA scienter."
+        },
+        {
+          "claim": "Count VIII (Negligent Misrepresentation – CFT, FxWinning, de Rocha, Cardenas, Brito Cutie)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – negligence claim; no scienter required."
+        },
+        {
+          "claim": "Count IX (Conversion – all Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – property claim; no scienter required."
+        },
+        {
+          "claim": "Count X (Unjust Enrichment – all Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – equitable claim; no scienter required."
+        },
+        {
+          "claim": "Count XI (Civil Conspiracy – all Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "N/A – conspiracy claim; no PSLRA scienter required."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16270,
+      "completion_tokens": 914,
+      "total_tokens": 17184
+    },
+    "case_id": "flsd-1_23-cv-23139"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action arising from GoHealth's July 2020 IPO. Plaintiffs allege the Registration Statement contained materially false statements and omissions regarding GoHealth's business model, customer concentration, and planned strategic shift to an 'investment year' in 2020 that would negatively impact the company's critical LTV/CAC metric. The complaint asserts violations of Securities Act Sections 11 and 15. Notably, plaintiffs explicitly disclaim any allegation of intentional or reckless misconduct, stating they do not claim defendants 'engaged in intentional or reckless misconduct or acted with fraudulent intent.' The complaint is styled as a strict liability Section 11 claim, not a Section 10(b) securities fraud claim.",
+      "claim_rulings": [
+        {
+          "claim": "Count I - Section 11 of the Securities Act (Against GoHealth, Individual Defendants Jones, Cruz, and Matthiesen, and Underwriter Defendants Goldman Sachs, BofA Securities, and Morgan Stanley)",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 11 is a strict liability statute that does not require proof of scienter. Plaintiffs have adequately pleaded material misstatements and omissions in the Registration Statement. Specifically: (1) The Registration Statement represented that GoHealth's rapid scaling would 'improve' LTV/CAC and that the company could 'rapidly scale while improving our unit economics,' yet failed to disclose that GoHealth's planned 2020 'investment year' involving expansion to multiple new carriers would create 'near-term drag' on LTV/CAC through reduced commission rates, increased marketing costs, and heightened churn. (2) The Registration Statement touted GoHealth's 'strong' carrier relationships and implied carrier expansion would enhance LTV/CAC, but omitted that new carriers pay substantially lower commissions and lack the marketing subsidies GoHealth received from Humana and Anthem. (3) Post-IPO disclosures confirm these facts were known at the time of the IPO: Jones stated on August 19, 2020 that disappointing results 'came in largely as expected' and on December 2, 2020 explicitly stated GoHealth 'anticipated 2020 to be an investment year' and 'modeled out' the expected LTV compression. (4) The Registration Statement violated Item 303 and Item 105 of Regulation S-K by failing to disclose known trends and material risks regarding carrier expansion and its negative financial impacts. For the Underwriter Defendants, plaintiffs adequately allege they failed to conduct reasonable due diligence regarding these material omissions. The issuer GoHealth is strictly liable. The Individual Defendants who signed the Registration Statement and had authority over its contents are liable for failure to conduct reasonable investigation. This claim does not require scienter and is sustainable."
+        },
+        {
+          "claim": "Count II - Section 15 of the Securities Act (Control Person Liability Against Individual Defendants Jones, Cruz, and Matthiesen; GoHealth; NVX Holdings; and Centerbridge entities)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 15 control person liability is derivative of an underlying securities violation. Since Count I (Section 11) is sustained, Section 15 liability would ordinarily follow. However, the complaint's Section 15 count contains a critical deficiency: it names as Section 15 Defendants entities (NVX Holdings and Centerbridge) that are not alleged to be 'controlled persons' under Section 15's statutory framework. Section 15 imposes liability on any person who 'controls any person liable under [Section 11].' The statute contemplates liability for controlling persons whose controlled entities violate Section 11. Here, the complaint alleges that NVX Holdings and Centerbridge control GoHealth, but NVX Holdings and Centerbridge themselves are not 'persons liable' under Section 11—GoHealth, the Individual Defendants, and the Underwriter Defendants are. The complaint's attempt to impose Section 15 liability on NVX Holdings and Centerbridge as primary defendants (rather than as controlling persons of the Individual Defendants or GoHealth) is legally insufficient. As to the Individual Defendants themselves, Section 15 liability is derivative of their Section 11 liability and would be sustainable, but the claim as pleaded conflates primary defendants with controlling persons in a manner that creates confusion and exceeds the statutory scope. The claim is dismissed as to NVX Holdings and Centerbridge for failure to state a valid Section 15 claim. The claim is dismissed as to the Individual Defendants as derivative of Count I, which is the proper vehicle for their liability."
+        },
+        {
+          "claim": "Section 10(b) and Rule 10b-5 Claims (None Asserted)",
+          "ruling": "not applicable",
+          "scienter_analysis": "Plaintiffs explicitly disclaim any Section 10(b) or Rule 10b-5 claims. The complaint states: 'Lead Plaintiffs do not claim that any of the Section 11 Defendants engaged in intentional or reckless misconduct or acted with fraudulent intent.' This express disclaimer confirms that plaintiffs are proceeding exclusively under Section 11's strict liability framework and have strategically chosen not to allege scienter-based fraud claims. Accordingly, the heightened pleading standards of the PSLRA regarding scienter are not implicated here. No Section 10(b) or Rule 10b-5 claims exist to dismiss."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 25569,
+      "completion_tokens": 1094,
+      "total_tokens": 26663
+    },
+    "case_id": "ilnd-1_20_cv_05593"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint asserts six causes of action: two claims under Section 29(b) of the Exchange Act seeking rescission of contracts for violation of Section 15(a) (unregistered dealer), one Section 20(a) control person claim derivative of those, one RICO claim for collection of unlawful debt, one unjust enrichment claim, and one constructive trust claim. No Section 10(b) or Rule 10b-5 claims are pleaded. Section 29(b), RICO, unjust enrichment, and constructive trust claims are sustained as they survive Rule 12(b)(6) review based on detailed factual allegations of unregistered dealer activity, usury under New York law, and related equitable theories, supported by SEC precedents and specific transaction details. The Section 20(a) claim is dismissed as derivative of the Section 29(b) claims, which do not require scienter and are not securities fraud claims under Section 10(b).",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 29(b) for violating Section 15(a) by making DarkPulse Transactions as unregistered dealer",
+          "ruling": "sustained",
+          "scienter_analysis": "No scienter required for Section 29(b) contract rescission claim; allegations of unregistered dealer status, use of interstate commerce, and specific transactions provide factual basis surviving motion to dismiss."
+        },
+        {
+          "claim": "Count II: Section 29(b) for violating Section 15(a) by performance of Agreements as unregistered dealer",
+          "ruling": "sustained",
+          "scienter_analysis": "No scienter required for Section 29(b) claim; detailed conversion and sale allegations, EDGAR data on 200+ similar transactions, and SEC precedents support claim."
+        },
+        {
+          "claim": "Count III: Section 20(a) control person liability based on FirstFire’s Section 15(a) violations",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) dismissed as derivative of underlying Section 29(b) claims, which are not Section 10(b) violations requiring scienter; no primary securities fraud violation exists."
+        },
+        {
+          "claim": "Count IV: RICO § 1962(c) for conducting affairs of enterprise through collection of unlawful (usurious) debt",
+          "ruling": "sustained",
+          "scienter_analysis": "No PSLRA scienter required for RICO; particularized facts on usurious rates (e.g., 291% APR via discounts, commitment shares), Adar Bays precedent, and Fireman's control alleged."
+        },
+        {
+          "claim": "Count V: Unjust enrichment",
+          "ruling": "sustained",
+          "scienter_analysis": "Equitable claim not subject to PSLRA scienter; rests on alleged wrongful retention of $38M+ in stock value from unlawful transactions."
+        },
+        {
+          "claim": "Count VI: Constructive trust",
+          "ruling": "sustained",
+          "scienter_analysis": "Equitable remedy not subject to PSLRA scienter; supported by unjust enrichment allegations and identifiable property (DarkPulse shares)."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 11133,
+      "completion_tokens": 643,
+      "total_tokens": 11776
+    },
+    "case_id": "nysd_1_21-cv-11222"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges a securities class action against Wells Fargo and individual Insider Defendants (Sloan, Shrewsberry, Scharf, Parker, Duke) for violations of Section 10(b)/Rule 10b-5 and Section 20(a) based on misrepresentations about the Bank's compliance with 2018 Consent Orders from regulators (Federal Reserve, OCC, CFPB). Defendants allegedly falsely claimed the Bank had approved Stage 1 Plans and was 'executing' or 'implementing' them, despite repeated regulator rejections of deficient plans, extension requests, and stern rebukes. After PSLRA scrutiny, Count I (Section 10(b)/Rule 10b-5) is sustained due to particularized allegations of defendants' contemporaneous knowledge via rejection letters, meetings, and internal admissions, creating a strong scienter inference that outweighs innocent explanations. Count II (Section 20(a)) is sustained as derivative of the primary violation.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5 (Against Wells Fargo, Sloan, Parker, Duke, Shrewsberry)",
+          "ruling": "sustained",
+          "scienter_analysis": "Particularized factual allegations show defendants knew statements were false when made: Rejection letters explicitly addressed to Sloan and Duke (e.g., FRB May 7, 2018; March 11, 2019; OCC July 24, 2018; Nov. 21, 2018) detailed plans as 'materially incomplete,' 'lacking substance,' with 'pervasive inaccuracies'; in-person regulator meetings (e.g., FRB April 3, 2018 with Duke; OCC July 24, 2018 Board meeting admitting 'work in progress') and emails (e.g., Craver to Duke: 'totally biffed it'; Dahlgren to Sloan/Parker/Shrewsberry); Sloan/Duke collusion to remove 'substantial work remaining' proxy disclosure (March 2019); Sloan's post-testimony apology to FRB for mischaracterizations; multiple extension requests signed by Sloan/Duke/Parker; Risk Committee Chair warnings of deficiencies; House Reports and regulator testimony confirming non-approval through Class Period. Statements made post-rejections (e.g., Shrewsberry May/June 2018 claiming execution; Sloan Dec. 2018/Jan. 2019 'executing plans'; Parker April/Oct. 2019 'implemented'; Duke Sept. 2019 'pretty well along') directly contradict known facts. Core operations (compliance critical to asset cap, viability per Duke email). Resignations (Sloan post-OCC rebuke; Duke/Quigley pre-hearings), $15M Sloan clawback, congressional referral, and new CEO admissions reinforce scienter. Holistic view under Tellabs yields strong inference of intent/recklessness over plausible innocent explanations (e.g., mere optimism), as specific contemporaneous knowledge negates 'fraud by hindsight' or general corporate knowledge."
+        },
+        {
+          "claim": "Count II: Violations of Section 20(a) of the Exchange Act (Against Insider Defendants: Sloan, Shrewsberry, Scharf, Parker, Duke)",
+          "ruling": "sustained",
+          "scienter_analysis": "Derivative of sustained Section 10(b)/Rule 10b-5 claim; Insider Defendants' high-level positions (CEO, CFO, interim CEO, Board Chair, Risk Committee), direct receipt of rejections/internal warnings, and control over statements satisfy control person liability."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 51071,
+      "completion_tokens": 752,
+      "total_tokens": 51823
+    },
+    "case_id": "nysd_20_cv_04494"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of Section 10(b)/Rule 10b-5 and Section 20(a) against Spectrum and its executives (Riga, Lebel, Brennan) based on statements about dose optimization and PINNACLE Study enrollment/progress for poziotinib. While the complaint pleads specific misleading statements and later public revelations via FDA documents/ODAC, it relies heavily on vague, upon-information-and-belief allegations of pre-Class Period private FDA meetings warning defendants of dose inadequacy and lack of alignment, without particularized facts (e.g., dates, attendees, specific statements) showing defendants' actual knowledge of falsity at the time. Motive (cash needs, ATM sales) and small insider sales are present but insufficient alone for strong scienter inference under PSLRA; innocent explanations (optimistic development efforts despite FDA concerns) are equally plausible. Section 10(b) claim dismissed; Section 20(a) dismissed as derivative.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violation of Section 10(b) of the Exchange Act and Rule 10b-5 against all Defendants (Spectrum, Riga, Lebel, Brennan)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations (e.g., specific meeting dates, participants, verbatim warnings) showing defendants knew statements (e.g., dose optimization, 'patients being randomized,' FDA alignment) were false when made; allegations of private FDA warnings are conclusory and upon information/belief, lacking contemporaneous particularity. Post-hoc FDA/ODAC revelations constitute 'fraud by hindsight.' Motive from financial distress/ATM sales and core operations inference are weak; defendants' optimistic public statements despite known FDA concerns equally support non-culpable business judgment as recklessness. No strong scienter inference; innocent explanations more plausible."
+        },
+        {
+          "claim": "Count II: Violation of Section 20(a) of the Exchange Act against Individual Defendants (Riga, Lebel, Brennan)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of dismissed Section 10(b)/Rule 10b-5 claim; no underlying primary violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 24365,
+      "completion_tokens": 455,
+      "total_tokens": 24820
+    },
+    "case_id": "nysd_22_cv_10292"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges misrepresentations regarding CEO Anthony Capone's fabricated educational credentials, the inflated value of a CBP contract, and false claims of Medicaid enrollments. While falsity is adequately pleaded for Capone's direct misstatements, scienter fails for all defendants under PSLRA standards due to lack of particularized facts showing actual knowledge of falsity at the time of statements (except Capone's own lies, which are not plausibly material to investors) and equally plausible innocent explanations such as negligence or oversight for other defendants.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violations of §10(b) of the 1934 Act and SEC Rule 10b-5 (Against All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations show any defendant except Capone knew statements were false when made. For Capone's repeated claims of a nonexistent graduate degree, he personally knew they were false, satisfying knowledge of falsity; however, no specific facts show these misrepresentations were material to reasonable investors, as DocGo's AI platform is not credibly tied to Capone's personal credentials rather than actual company technology. For Vashovsky and Oberholzer, allegations of signing SEC filings repeating Capone's bio constitute 'fraud by hindsight' and 'core operations' inferences rejected by courts; no particularized facts (e.g., specific contradictory internal reports or verification failures they knew about) overcome equally plausible innocent explanations of negligence in vetting. No 'strong inference' of scienter exists; general access to information and oversight duties are insufficient under PSLRA."
+        },
+        {
+          "claim": "Count II: Violations of §20(a) of the 1934 Act (Against All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of the underlying Section 10(b)/Rule 10b-5 violation, which fails for lack of adequately pleaded scienter. Dismissal required."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16202,
+      "completion_tokens": 418,
+      "total_tokens": 16620
+    },
+    "case_id": "nysd_23_cv_9476"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint against Mobileye Global Inc. and its executives alleging a multi-year channel stuffing scheme. Plaintiffs allege defendants made false statements about revenue growth and demand while secretly forcing customers to accept millions of excess EyeQ chips beyond market demand through minimum commitment contracts. The complaint includes Exchange Act claims (Section 10(b), Rule 10b-5, Section 20(a)) and Securities Act claims (Sections 11 and 15) related to a June 2023 secondary offering.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 10(b) and Rule 10b-5(b) - Untrue Statements and Omissions",
+          "ruling": "dismissed",
+          "scienter_analysis": "While the complaint provides extensive factual allegations regarding the channel stuffing scheme, it fails to meet the PSLRA's heightened pleading standard for scienter under Section 10(b). The complaint relies heavily on circumstantial evidence and inferences rather than particularized facts showing defendants' actual knowledge of falsity at the time statements were made. Specifically: (1) The allegations regarding what defendants 'knew' rest primarily on former employee testimony (FE 1, FE 2) describing general industry practices and customer communications, but do not establish that individual defendants—particularly Rojansky and Galves—had specific, contemporaneous knowledge that statements were false when made. (2) The complaint's argument that defendants 'must have known' based on their positions and access to information amounts to conclusory allegations and 'fraud by hindsight.' The fact that defendants received customer forecasts and EDI data does not necessarily establish they understood or analyzed this data to conclude shipments exceeded demand at the time of each statement. (3) Innocent explanations are equally or more plausible: defendants may have genuinely believed minimum commitments reflected legitimate customer needs during COVID supply chain disruptions, or may have misunderstood the extent of excess inventory. (4) The complaint conflates corporate knowledge with individual defendants' scienter. FE 2's statement that information 'went up to Amnon' (Shashua) is vague and does not establish Shashua's specific knowledge of falsity regarding particular statements. (5) Statements about 'monitoring inventory' and 'balancing' shipments could reflect defendants' actual (though mistaken) beliefs about their practices, not intentional deception. The complaint's strongest evidence—the January 2024 admission of 6-7 million excess chips—is 'fraud by hindsight' and does not establish what defendants knew in real-time during 2023. A reasonable inference exists that defendants may have genuinely misjudged the inventory situation or believed customer commitments were legitimate hedging against supply chain risk."
+        },
+        {
+          "claim": "Count II: Section 10(b) and Rule 10b-5(a) and (c) - Devices, Schemes, and Artifices to Defraud",
+          "ruling": "dismissed",
+          "scienter_analysis": "This claim fails for substantially the same reasons as Count I. Rule 10b-5(a) and (c) require scienter—intent to deceive, manipulate, or defraud, or at minimum severe recklessness. The complaint alleges a sophisticated scheme but does not plead with particularity that defendants acted with the requisite mental state. The allegations regarding the 'scheme' are largely factual conclusions about what occurred (minimum commitments, excess shipments) rather than particularized facts establishing defendants' deceptive intent. The complaint does not adequately distinguish between: (a) defendants' actual knowledge that statements were false when made; (b) defendants' reckless disregard for truth; and (c) defendants' negligent mismanagement of the business. The references to year-end volume spikes and FE 2's testimony about pushing inventory are consistent with aggressive sales practices, but not necessarily with scienter to defraud. The complaint's argument that defendants' 'shifting explanations' (attributing inventory buildup to customer purchases, then to supply chain constraints) evidences deception is weak—companies often revise their understanding of events as new information emerges. Most critically, the complaint does not establish that defendants knew their public statements about 'market conditions,' 'monitoring inventory,' and 'conservative guidance' were false at the time made. The subsequent revelation that inventory was higher than disclosed does not retroactively establish scienter regarding prior statements."
+        },
+        {
+          "claim": "Count III: Section 20(a) - Control Person Liability",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person liability is derivative of an underlying Section 10(b)/Rule 10b-5 violation. Because Counts I and II are dismissed for failure to adequately plead scienter, Count III must also be dismissed. The complaint establishes that Shashua, Heller, Rojansky, and Galves held senior positions and participated in public statements, satisfying the 'control person' element. However, absent a viable underlying securities violation, Section 20(a) liability cannot attach. The complaint's allegations regarding defendants' control and involvement in disseminating statements are sufficient, but the lack of scienter in the underlying claims is fatal to this derivative claim."
+        },
+        {
+          "claim": "Count IV: Section 11 of the Securities Act - Registration Statement Misstatements",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 11 imposes strict liability on issuers for material misstatements and omissions in registration statements. Mobileye, as issuer, is strictly liable without regard to scienter. The complaint adequately alleges that the June 2023 Registration Statement and incorporated documents contained material misstatements regarding: (1) the scope of minimum commitment contracts ('generally do not have contracts' requiring minimum quantities when in fact the top three customers—70% of revenue—had such contracts); (2) the basis for revenue growth (attributed to market demand when driven by forced inventory); and (3) the omission of material adverse trends and risks (the 4-5 million excess units already shipped and the 2-3 million more to be shipped in 2023). These statements are objectively false and material. The complaint establishes loss causation through the 70% stock price decline following the January 2024 disclosure. Mobileye's strict liability under Section 11 is appropriate and the claim survives. For officers Shashua and Heller who signed the Registration Statement, Section 11 provides a due diligence defense. The complaint alleges they failed to conduct reasonable investigation and did not possess reasonable grounds for belief in the statements' accuracy. The complaint identifies available sources of information (customer EDI data, FE 2's testimony, quarterly meetings discussing customer issues) that would have revealed the misstatements had reasonable investigation been conducted. However, the adequacy of the due diligence defense is fact-intensive and may require discovery. At the motion to dismiss stage, the complaint states sufficient facts to survive, as it alleges defendants had access to information that would have revealed the misstatements and failed to pursue reasonable investigation."
+        },
+        {
+          "claim": "Count V: Section 15 of the Securities Act - Control Person Liability",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 15 imposes liability on controlling persons for violations of Section 11. Because Count IV (Section 11) survives, Count V control person liability for Shashua and Heller also survives. The complaint adequately establishes that both defendants were controlling persons (CEO and CFO, respectively) who participated in the operation and management of Mobileye and had the ability to influence and control the contents of the Registration Statement. Under Section 15, controlling persons are liable to the same extent as the issuer unless they can establish the due diligence defense. As with Count IV, the due diligence defense is not appropriately resolved at the motion to dismiss stage. The complaint states sufficient facts to survive dismissal."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 43721,
+      "completion_tokens": 1633,
+      "total_tokens": 45354
+    },
+    "case_id": "nysd_24_cv_310"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "This is a securities class action complaint against American Airlines and three individual defendants (CEO Robert Isom, CFO Devon May, and former Chief Commercial Officer Vasu Raja) alleging violations of Section 10(b)/Rule 10b-5 and Section 20(a) of the Securities Exchange Act. The complaint alleges that defendants made materially false and misleading statements regarding the success of American's 'Modern Retailing' distribution strategy (shifting from traditional EDIFACT channels to NDC technology) during the class period of July 20, 2023 through May 28, 2024. Plaintiffs allege defendants knew or recklessly disregarded that the aggressive NDC push was driving away travel agencies, corporate customers, and TMCs, causing significant revenue losses, while publicly claiming strong demand and customer adoption. The complaint relies heavily on confidential witness testimony and defendants' own post-class period admissions to establish scienter.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Section 10(b) and Rule 10b-5 Violation (All Defendants)",
+          "ruling": "sustained",
+          "scienter_analysis": "The complaint adequately pleads scienter with particularity under the PSLRA heightened standard. Key scienter factors: (1) SPECIFIC KNOWLEDGE OF FALSITY: Defendants had access to detailed internal data through SalesLink Insights and PRISM platforms showing that agency bookings declined 15% year-over-year immediately after July 2023 contracts, corporate bookings dropped 'much lower' than 15%, and these metrics remained 'consistently down' through January 2024. Defendants also received monthly IATA reports showing market share losses by agency and region. (2) TEMPORAL PROXIMITY: By April 2023 (before class period began), CW2 observed agencies and companies booking fewer flights with American. By June 2023, the decline became 'particularly noticeable.' Defendants possessed this granular data throughout the class period. (3) STRONG INFERENCE OF INTENT TO DECEIVE: The complaint alleges defendants made specific positive statements ('encouraged by business demand,' 'durability of customers' demand,' 'strong foundation,' 'revenues coming back very materially') while possessing contemporaneous data showing the opposite. Defendants' own post-class period admissions (May 29, 2024 Bernstein Conference) that they 'identified a deviation' in Q1 2024 but 'thought that was going to reverse itself' and 'hoped it would reverse' suggests reckless disregard at minimum, and potentially intentional concealment. (4) RECKLESS DISREGARD: The complaint alleges defendants consciously avoided disclosing known negative impacts, instead issuing rosy guidance. The $750 million revenue impact in first half 2024 directly contradicts defendants' April 2024 claims of 'strong foundation' and being 'on track' for guidance. (5) MOTIVE AND OPPORTUNITY: As senior executives, defendants controlled all public statements and had access to all adverse information. The complaint alleges they had motive to inflate stock price to maintain investor confidence in their NDC strategy. (6) EVASIVE RESPONSES: Defendants' evasive answers to analyst questions about market share losses and 'growing pains' (rather than direct denials) support inference of knowledge. The complaint distinguishes between innocent explanations (genuine belief in NDC strategy) and fraudulent conduct (knowing misstatement while possessing contrary data). The abundance of specific, contemporaneous data showing negative impacts, combined with defendants' own later admissions and the magnitude of the ultimate revenue impact, creates a strong inference that defendants knew their statements were false or recklessly disregarded the truth when made. This exceeds mere 'fraud by hindsight' or conclusory allegations—it is grounded in particularized facts about what defendants actually knew at the time statements were made."
+        },
+        {
+          "claim": "Count II: Section 20(a) Control Person Liability (Individual Defendants Isom, May, Raja)",
+          "ruling": "sustained",
+          "scienter_analysis": "Section 20(a) control person liability is derivative of the underlying Section 10(b)/Rule 10b-5 violations. Since the complaint adequately pleads scienter for the primary securities law violations as analyzed above, the Section 20(a) claims must also be sustained. The complaint establishes that each individual defendant: (1) held senior executive positions (CEO, CFO, and Chief Commercial Officer) giving them authority to control company conduct and communications; (2) directly participated in and approved false statements made in earnings calls, press releases, and investor conferences; (3) had access to and reviewed the same adverse data regarding NDC adoption failures and market share losses; and (4) failed to act in good faith by not correcting or preventing the dissemination of false statements despite their knowledge or reckless disregard of the falsity. The control person liability claim is properly pleaded with the same particularized scienter allegations supporting the primary violation."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 55525,
+      "completion_tokens": 1037,
+      "total_tokens": 56562
+    },
+    "case_id": "txnd-4_24-cv-00673"
+  }
+]

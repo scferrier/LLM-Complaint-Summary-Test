@@ -1,0 +1,779 @@
+[
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint under the heightened pleading standards of the PSLRA, specifically scrutinizing the scienter allegations. The court found that the plaintiffs failed to adequately plead scienter with particularized facts for their Section 10(b) and Rule 10b-5 claims. The complaint relied heavily on confidential witness statements, media reports, and circumstantial evidence, but these were insufficient to establish a strong inference of scienter. The court noted that the confidential witnesses were lower-level employees without direct access to the individual defendants' knowledge or intent. The allegations amounted to fraud by hindsight, as they were based on the company's poor business decisions rather than intentional or reckless misconduct. The court also found that innocent explanations for the defendants' conduct were equally or more plausible than fraudulent intent. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims with leave to amend and also dismissed the Section 20(a) control person liability claims, which are derivative of the underlying securities violation.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 claims",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiffs failed to plead scienter with particularity as required by the PSLRA. The complaint rel..."
+        },
+        {
+          "claim": "Section 20(a) control person liability claims",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of the underlying Section 10(b) and Rule 10b-5 claims. Because..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 100878,
+      "completion_tokens": 327,
+      "total_tokens": 101205
+    },
+    "case_id": "azd-2_22-cv-02126"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint filed by Lead Plaintiff Glen Littleton against Tesla, Inc., Elon Musk, and Tesla's Board of Directors. The complaint alleged violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 by Musk and Tesla, and violations of Section 20(a) by the Board. The court focused on the heightened pleading standards required by the PSLRA, particularly the necessity for plaintiffs to plead scienter with specificity. The court found that the complaint relied on conclusory allegations, such as Musk's motive to harm short sellers, and failed to provide particularized facts showing that Musk or Tesla acted with intent to deceive or with deliberate recklessness. The court emphasized that allegations amounting to \"fraud by hindsight\" or based on speculation about what Musk \"must have known\" were insufficient. Consequently, the court dismissed the Section 10(b) and Rule 10b-5 claims against Musk and Tesla for failure to adequately plead scienter. Since the Section 20(a) claims against the Board are derivative of the underlying Section 10(b) violation, they were also dismissed. The court granted the motion to dismiss the consolidated class action complaint.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 against Tesla and Musk",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with specificity as required by the PSLRA. The allegations re..."
+        },
+        {
+          "claim": "Section 20(a) against the Board",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of the underlying Section 10(b) and Rule 10b-5 claims, which we..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 27617,
+      "completion_tokens": 369,
+      "total_tokens": 27986
+    },
+    "case_id": "cand-3_18-cv-04865"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against Netflix and its executives, which alleged violations of Section 10(b) of the Exchange Act and Rule 10b-5, as well as Section 20(a) control person liability. The complaint centered on Netflix's statements regarding account sharing, market penetration, and subscriber growth. The court applied the heightened pleading standards of the PSLRA, requiring particularized facts showing scienter—intent to deceive or reckless disregard for the truth. The court found that the complaint failed to allege specific facts demonstrating that Netflix or its executives knew their statements were false when made. Instead, the complaint relied on general corporate knowledge, statements by lower-level employees, and speculative assertions. The court also noted that innocent explanations for Netflix's conduct, such as testing account sharing measures for business improvement rather than to conceal fraud, were equally plausible. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims with leave to amend, and consequently dismissed the Section 20(a) claims as they are derivative of the underlying securities violation.",
+      "claim_rulings": [
+        {
+          "claim": "Violation of Section 10(b) of The Exchange Act and Rule 10b-5 Promulgated Thereunder Against All Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to allege particularized facts showing that defendants knew their statements we..."
+        },
+        {
+          "claim": "Violation of Section 20(a) of The Exchange Act Against the Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person liability claims are derivative of the underlying Section 10(b)/Rule ..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 44765,
+      "completion_tokens": 350,
+      "total_tokens": 45115
+    },
+    "case_id": "cand-4_22-cv-02672"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint under the heightened pleading standards of the PSLRA, focusing on the scienter requirement for Section 10(b) and Rule 10b-5 claims. The court found that the complaint failed to allege particularized facts showing that the individual defendants (Coe, Moody, Kelley) knew their statements were false when made. The allegations relied on general corporate knowledge, post-class period events, and conclusory assertions, none of which suffice under the PSLRA. The court dismissed the Section 10(b) and Rule 10b-5 claims with leave to amend, and consequently dismissed the Section 20(a) control person claims as they are derivative. The court also dismissed the Securities Act claims under Sections 11 and 15 without prejudice, allowing plaintiffs to replead with more specific facts.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 against Exchange Act Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiff failed to allege particularized facts showing individual defendants (Coe, Moody, Kelley)..."
+        },
+        {
+          "claim": "Section 20(a) against Officer Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person claims are derivative of the underlying Section 10(b) violation, which..."
+        },
+        {
+          "claim": "Sections 11 and 15 of the Securities Act against Securities Act Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Court dismissed these claims with leave to amend, instructing plaintiffs to replead with more..."
+        },
+        {
+          "claim": "Section 20(a) against Officer Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) control person claims are derivative of the underlying Section 10(b) violation, which..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 39807,
+      "completion_tokens": 392,
+      "total_tokens": 40199
+    },
+    "case_id": "cand_22_cv_00105"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint and ruled as follows: All Section 10(b) and Rule 10b-5 claims were dismissed because the complaint failed to plead scienter with the particularity required by the PSLRA. The court found that the complaint relied on conclusory allegations, generalized assertions of corporate knowledge, and speculation about what defendants must have known, rather than specific facts showing actual knowledge of falsity at the time statements were made. As a result, the Section 20(a) claims, which are derivative of the Section 10(b) claims, were also dismissed. The court granted leave to amend the complaint.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with particularity as required by the PSLRA. It relies on con..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of Section 10(b) claims, which require an underlying violation...."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 76608,
+      "completion_tokens": 249,
+      "total_tokens": 76857
+    },
+    "case_id": "cand_22_cv_02094"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against Cutera and its former and current executives, focusing on allegations of false and misleading statements regarding internal controls, the AviClear rollout, and related financial disclosures. The court applied the heightened pleading standards under the PSLRA, particularly scrutinizing the scienter requirement, which demands particularized facts showing the defendants' knowledge of falsity at the time statements were made. The court found that the complaint relied heavily on conclusory allegations, general corporate knowledge, and statements made by confidential witnesses (CWs) who did not directly communicate with the named defendants. The court emphasized that scienter cannot be inferred from what the defendants \"must have known\" or from restatements alone without specific facts showing contemporaneous knowledge of falsity. As a result, the court dismissed both the Section 10(b)/Rule 10b-5 claim and the derivative Section 20(a) claim, granting leave to amend.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5(b) Promulgated Thereunder Against All Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The court found that the complaint failed to plead scienter with the requisite particularity under the PSLRA. The allegations were largely conclusory, lacking specific facts showing that the defendants knew their statements were false when made. The complaint relied on general statements about the importance of internal controls and the AviClear rollout to Cutera's business, but did not connect these to the individual defendants' contemporaneous knowledge of falsity. The confidential witnesses (CWs) cited did not directly communicate with the named defendants, and their knowledge could not be imputed to the defendants. The court also rejected the argument that the SOX certifications established scienter, as the complaint did not allege that the defendants were aware of or recklessly disregarded the material weaknesses at the time of certification. The court emphasized that scienter cannot be inferred from what the defendants \"must have known\" or from restatements alone without specific facts showing contemporaneous knowledge of falsity. The court dismissed the claim with leave to amend."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act Against the Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The Section 20(a) claim was dismissed because it is derivative of the Section 10(b)/Rule 10b-5 claim, which was dismissed for failure to adequately plead scienter. The court did not separately analyze scienter for the Section 20(a) claim, as it depends on the existence of a primary securities law violation, which was not adequately alleged. The court dismissed the claim with leave to amend."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 66976,
+      "completion_tokens": 564,
+      "total_tokens": 67540
+    },
+    "case_id": "cand_23_cv_02560"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of federal securities laws by Rain Oncology Inc. and individual defendants, primarily focusing on alleged misstatements and omissions regarding the company's clinical trial strategy, specifically the decision to bypass Phase 2 trials (\"Phase 2 Bypass\") for its lead drug candidate, milademetan. Plaintiffs claim that Rain misrepresented the safety and efficacy of milademetan based on Phase 1 data, failed to disclose the risks associated with the Phase 2 Bypass, and made other misleading statements about its clinical trial experience and operations. The court's analysis centers on whether plaintiffs adequately pleaded scienter under the PSLRA's heightened standards, which require particularized facts giving rise to a strong inference of intent to deceive or reckless disregard for the truth. The court finds that plaintiffs failed to meet this standard, as the complaint relies on conclusory allegations, general corporate knowledge, and fails to provide specific facts showing defendants' actual knowledge of falsity at the time statements were made. The court also notes that Section 20(a) control person claims are derivative of the underlying Section 10(b) and Rule 10b-5 claims, which fail due to inadequate scienter allegations.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 against Rain, Vellanki, and Bryce",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiffs fail to plead scienter with particularity under PSLRA. Allegations are conclusory (e.g., 'd..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 31811,
+      "completion_tokens": 316,
+      "total_tokens": 32127
+    },
+    "case_id": "cand_23_cv_03518"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the amended securities class action complaint against Fastly and its executives, applying the heightened pleading standards of the PSLRA. The complaint alleged violations of Section 10(b) of the Exchange Act and Rule 10b-5, as well as Section 20(a) control person liability, based on purportedly false and misleading statements about macroeconomic impacts, customer retention, and revenue growth from existing customers. The court scrutinized the scienter requirement, finding that plaintiffs failed to plead with particularity facts giving rise to a strong inference of scienter. The allegations relied on general corporate knowledge, confidential witness statements lacking personal knowledge of executive-level intent, and speculative assertions about what defendants must have known. The court emphasized that the PSLRA requires specific facts showing actual knowledge or reckless disregard for the truth, not conclusory or speculative allegations. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims for failure to adequately plead scienter. Consequently, the derivative Section 20(a) claims were also dismissed. The court granted plaintiffs leave to amend the complaint within 21 days.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5 against all defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiffs failed to plead with particularity facts giving rise to a strong inference of scienter. All..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act against the individual defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative and require an underlying Section 10(b) violation. Since the Secti..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 25363,
+      "completion_tokens": 354,
+      "total_tokens": 25717
+    },
+    "case_id": "cand_24_cv_03170"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court granted the motion to dismiss the complaint in its entirety. Plaintiffs failed to plead scienter with the particularity required by the PSLRA. The complaint relied on conclusory assertions, general allegations about access to information, and speculation about defendants' motives. There were no specific facts showing defendants' actual knowledge of falsity at the time statements were made. The complaint amounted to fraud by hindsight, inferring scienter solely from the later revelation that the customer did not materialize. Innocent explanations for defendants' conduct, such as legitimate business optimism or evolving customer relationships, were equally plausible. Because scienter was not adequately pleaded, the Section 10(b)/Rule 10b-5 claim was dismissed with leave to amend. The Section 20(a) control person claim was also dismissed, as it is derivative of the underlying securities violation.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5(b) against all defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized facts showing actual knowledge or recklessness. Conclusory assertions, general allega..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act against defendant Vinciarelli",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of Section 10(b)/Rule 10b-5 claim, which fails for lack of scienter. No independent scienter..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 11909,
+      "completion_tokens": 305,
+      "total_tokens": 12214
+    },
+    "case_id": "cand_24_cv_04196"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the Amended Class Action Complaint under the Securities Act of 1933, alleging material misstatements and omissions in Robinhood's IPO Offering Documents and related roadshow materials. The complaint asserts violations of Sections 11, 12(a), and 15 of the Securities Act against all defendants, including Robinhood, its senior executives, directors, and underwriters. The court applied the pleading standards set forth by the Supreme Court's decision in Omnicare, Inc. v. Laborers District Council Construction Industry Pension Fund, which requires plaintiffs to plausibly allege that statements of opinion were objectively false, subjectively disbelieved by the speaker, or misleading due to omitted material facts. The court found that the plaintiffs failed to adequately plead falsity for each alleged misstatement or omission, as they either constituted non-actionable puffery, statements of opinion without allegations of subjective disbelief, or forward-looking statements protected by the PSLRA's safe harbor. The court also found that the plaintiffs failed to adequately plead violations of SEC Regulations S-K Items 303 and 105, as they did not plausibly allege that the negative trends in Robinhood's KPIs were reasonably expected to materially impact future financial performance or that the risk factors were materially misleading. The court granted the motion to dismiss with leave to amend, allowing the plaintiffs an opportunity to cure the deficiencies identified.",
+      "claim_rulings": [
+        {
+          "claim": "Section 11 of the Securities Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Scienter not required for Section 11 claims; dismissed for failure to adequately plead falsity under..."
+        },
+        {
+          "claim": "Section 12(a) of the Securities Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Scienter not required for Section 12(a) claims; dismissed for failure to adequately plead falsity un..."
+        },
+        {
+          "claim": "Section 15 of the Securities Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Scienter not required for Section 15 claims; dismissed for failure to adequately plead falsity under..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 29967,
+      "completion_tokens": 432,
+      "total_tokens": 30399
+    },
+    "case_id": "cand_3_21-cv-09767"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint filed by Steamfitters Local 449 Pension & Retirement Security Funds against SunPower Corporation and its executives. The complaint alleged violations of §§10(b) and 20(a) of the Exchange Act and Rule 10b-5, claiming that SunPower made false and misleading statements about its commercial business performance, financial guidance, and product quality risks. The court scrutinized the scienter allegations under the PSLRA's heightened pleading standards, requiring particularized facts showing defendants knew their statements were false when made and a strong inference of fraudulent intent. The court found the complaint relied on conclusory assertions, generalized corporate knowledge, and post-hoc speculation, failing to provide specific facts demonstrating contemporaneous knowledge of the alleged falsity. Consequently, the court dismissed the Section 10(b)/Rule 10b-5 claim and the derivative Section 20(a) claim and denied leave to amend as futile.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5 against all defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with particularity as required by the PSLRA. It relies on con..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act against all defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The Section 20(a) claim is derivative of the underlying Section 10(b)/Rule 10b-5 claim, which fails ..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 20519,
+      "completion_tokens": 319,
+      "total_tokens": 20838
+    },
+    "case_id": "cand_3_22-cv-00956"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against ImmunityBio, Inc. and its executives, alleging violations of Sections 10(b) and 20(a) of the Securities Exchange Act and Rule 10b-5. The complaint centered on alleged materially false and misleading statements regarding the company's manufacturing capabilities and compliance with current good manufacturing practices (cGMP), particularly concerning its lead product, Anktiva, and the use of a third-party contract manufacturing organization (CMO) with known cGMP deficiencies. The court applied the heightened pleading standards of the Private Securities Litigation Reform Act (PSLRA), which requires plaintiffs to state with particularity facts giving rise to a strong inference of scienter (intent to deceive or reckless disregard for the truth). The court found that the complaint failed to adequately plead scienter, as it relied on conclusory allegations, general knowledge of cGMP requirements, and corporate structure rather than specific facts showing individual defendants' actual knowledge of falsity at the time statements were made. Allegations of monthly meetings and involvement in inspections were insufficient without particularized facts about the content of discussions or knowledge of specific deficiencies. The court emphasized that innocent explanations for the defendants' conduct, such as ongoing efforts to remediate issues and prepare for FDA approval, were equally plausible as fraudulent intent. Consequently, the court dismissed the Section 10(b) and Rule 10b-5 claims, and, as Section 20(a) control person liability claims are derivative of the underlying securities violation, they were also dismissed.",
+      "claim_rulings": [
+        {
+          "claim": "Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5 Against All Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Complaint fails to plead scienter with particularity required by PSLRA; relies on conclusory allegat..."
+        },
+        {
+          "claim": "Violations of Section 20(a) of the Exchange Act Against the Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of Section 10(b) claim, which fails for inadequate scienter plea..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34091,
+      "completion_tokens": 444,
+      "total_tokens": 34535
+    },
+    "case_id": "casd_3_23-cv-01216"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "raw_response": "{\"summary\": \"This case involves fraudulent accounting treatment of approximately $2.2 million in shipping expenses that led to materially misleading financial statements being filed with the Commission and made available to the investing public. Furniture retailer and publicly traded company (sometimes referred to as an “issuer” of securities) Lovesac, its former Chief Financial Officer (“CFO”) and Executive Vice President, Donna Dellomo, and its former Controller and Vice President, Yoon Um, failed to properly account for “last mile” shipping expenses, i.e., the cost of shipping finished products from Lovesac’s distribution centers to its customers. Dellomo and Um instead engaged in a fraudulent scheme to obscure the expenses in the company’s books and records. In April 2023, Lovesac discovered that $2.2 million in last mile shipping expenses were not properly recorded and reported in its previously published financial results for the periods in which they were incurred. The $2.2 million in last mile shipping expenses had instead been inaccurately recorded in the Company’s books and records for the first quarter of fiscal year Um, in concert with Dellomo, engaged in a scheme to hide those expenses from investors and the Commission. They did this to avoid missing Lovesac’s projected gross margin—an important financial metric that the Company disclosed in its SEC filings and on conference calls that are open to investors where the Company discusses financial and other issues (often referred to as “earnings calls,” which are frequently attended by financial analysts covering the Company)—and to avoid restating the Company’s prior financial filings for the periods in which the expenses were incurred. To accomplish this scheme, Dellomo and Um improperly accounted for the expenses. Dellomo and Um, both experienced financial professionals and certified public accountants (“CPA”), knew, or were reckless in not knowing, that the fraudulent accounting treatment they devised was not compliant with generally accepted accounting principles in the United States (“GAAP”) and rendered certain of Lovesac’s financial statements materially false and misleading. As part of the scheme, Dellomo also submitted a false and misleading management representation letter to Lovesac’s outside auditor and otherwise failed to alert Lovesac’s auditors to the fraudulent accounting for the $2.2 million in last mile shipping expenses. Further, Lovesac and Dellomo failed to implement sufficient internal controls over financial reporting—that is, processes, policies and procedures put in place by a company to provide reasonable assurances as to the accuracy, reliability, and integrity of its financial reporting—that may have prevented or detected Dellomo and Um’s fraudulent accounting. In the end, Lovesac was required to restate its financial statements for fiscal year 2023 and the first quarter of fiscal year 2024 to correct Dellomo and Um’s fraud. As a result of the conduct alleged herein, Lovesac violated Section 17(a)(3) of the Securities Act, Sections 13(a), 13(b)(2)(A), and 13(b)(2)(B) of the Securities Exchange Act of 1934 (“Exchange Act”) and Rules 12b-20, 13a-1, 13a-11, and 13a-13 thereunder. Dellomo violated Sections 17(a)(1) and 17(a)(3) of the Securities Act, Sections 10(b) and 13(b)(5) of the Exchange Act, and Rules 10b-5, 13a-14, 13b2-1, and 13b2-2, thereunder. Dellomo also aided and abetted Lovesac’s violations of Sections 13(a), 13(b)(2)(A), and 13(b)(2)(B) of the Exchange Act and Rules 12b-20, 13a-1, 13a-11, and 13a-13 thereunder. Um violated Sections 17(a)(1) and 17(a)(3) of the Securities Act, and Section 10(b) of the Exchange Act, and Rules 10b-5(a) and (c) and 13b2-1 thereunder. Um also aided and abetted Dellomo’s violations of Exchange Act Section 10(b) and Rule 10b-5(b) thereunder and Lovesac’s violations of Exchange Act Sections 13(a), and 13(b)(2)(A), and Rules 12b-20, 13a-1, 13a-11, and 13a-13 thereunder. NATURE OF THE PROCEEDING AND RELIEF SOUGHT The Commission brings this action pursuant to the authority conferred upon it by Section 20(b) of the Securities Act [15 U.S.C. § 77t(b)] and Section 21(d)(1) of the Exchange Act [15 U.S.C. § 78u(d)(1)]. The Commission seeks permanent injunctions against Defendants, enjoining them from engaging in the unlawful conduct alleged in this Complaint, and civil penalties pursuant to Section 20(d) of the Securities Act [15 U.S.C. § 77t(d)] and Section 21(d)(3) of the Exchange Act [15 U.S.C. § 78u(d)(3)]. The Commission further seeks an order prohibiting Dellomo and Um from acting as officers or directors of any public company pursuant to Section 21(d)(2) of the Exchange Act [15 U.S.C. § 78u(d)(2)], an order barring Dellomo and Um from practicing as accountants before the Commission, and such other relief as the Court may deem appropriate. JURISDICTION AND VENUE This Court has jurisdiction over this action pursuant to Section 22(a) of the Securities Act [15 U.S.C. § 77v(a)] and Sections 21(d), 21(e), and 27 of the Exchange Act [15 U.S.C. §§ 78u(d), 78u(e), 78aa]. Venue lies in this Court pursuant to Section 22(a) of the Securities Act [15 U.S.C. § 77v(a)] and Section 27 of the Exchange Act [15 U.S.C. § 78aa]. Certain of the acts, practices, and transactions and courses of business alleged in this Complaint occurred within the District of Connecticut and elsewhere, and were effected, directly or indirectly, by making use of means or instrumentalities of transportation or communication in interstate commerce, or the mails. DEFENDANTS Lovesac, a furniture retailer, is a Delaware corporation with its principal place of business in Stamford, Connecticut. Lovesac became a public company through an initial public offering in 2018. The Company’s common stock is registered with the Commission pursuant to Section 12(b) of the Exchange Act and trades on Nasdaq under the symbol “LOVE.” Lovesac files periodic reports with the Commission on Forms 10-K (annual financial statements), 8-K (current reports), and 10-Q (quarterly financial statements), among others. During the relevant period, Lovesac issued stock compensation to employees pursuant to a stock incentive plan for which a Form S-8 registration statement was filed with the Commission on July 8, Further, on June 26, 2023, Lovesac issued shares pursuant to the exercise of certain stock warrants. Donna Dellomo, age 60, is a resident of Williamsburg, Virginia. Dellomo has been licensed as a CPA since 1991 and is currently licensed in New York. Between January and June 2023, Dellomo served as Lovesac’s Chief Financial Officer and Executive Vice President and oversaw finance, accounting, administration and risk management, and legal departments at the Company. She retired from Lovesac in June 2023. After retiring, Dellomo worked as a strategic consultant for Lovesac for a year through June 2024. Yoon Um, age 41, is a resident of Athens, New York. Um has been licensed as a CPA since 2009 and is currently licensed in New York. She was employed as Lovesac’s Controller and Vice President starting in November 2022 and agreed to resign in July 2023. Prior to serving as Lovesac’s Controller, Um was a Controller at another public company for two years and spent almost a decade in various auditing roles at a large public accounting firm before that. FACTS Lovesac’s Business Lovesac is a furniture company that designs, manufactures, and sells furniture comprised of modular couches called Sactionals and foam beanbag chairs called Sacs, as well as accessories. The Company markets its products primarily through its website and showrooms at malls throughout the United States. The Company operates through a direct-to-consumer model selling its products online and shipping directly to customers. The Company went public on June 26, 2018, with an initial offering priced at $16.00 per share. The Company’s common stock trades on Nasdaq under the Symbol “LOVE.” Lovesac’s Finance and Accounting Group At all relevant times, Lovesac’s finance and accounting group was led by the Chief Financial Officer and Executive Vice President, Donna Dellomo. Dellomo, an experienced financial professional and CPA, began her career as an auditor at various companies, and subsequently served as an accounting manager, corporate Controller, and CFO of another public company. Beginning in 2017, Dellomo served as Lovesac’s CFO, initially working to help prepare the Company for its initial public offering in 2018. During the relevant period, Dellomo’s direct reports included Um (the Company’s Controller), who was hired in November and oversaw the Company’s accounting functions. During her ten months as Lovesac’s Controller, Um and her reports were responsible for internal accounting functions. Um agreed to resign in July 2023 and left the Company in September 2023. Glossary of Relevant Accounting Terminology Fiscal Year: A public company’s fiscal year (“FY”) is the twelve-month period in which a company reports quarterly and annual financial results. Lovesac operates on a 52- or 53-week fiscal year that ends on the Sunday closest to February 1st. The Company reports financial results on this schedule to account for increased sales during the November to January holiday season. FY 2023 was 52 weeks and ended on January 29, 2023, and FY 2024 was 53 weeks and ended on February 4, 2024. A public company’s annual financial results based on the fiscal year are publicly reported on SEC Form 10-K (“Form 10-K”) filed with the Commission, as required by law. Fiscal Quarter: Public companies also report quarterly results for the four three- month quarters in each fiscal year. Lovesac’s FY 2023 quarters consisted of the first quarter (or “Q1”) (February through April), the second quarter (or “Q2”) (May through July), the third quarter (or “Q3”) (August through October), and the fourth quarter (or “Q4”) (November through January). Quarterly financial results are often publicly reported in a SEC Form 8-K (“Form 8-K”) filed with the Commission and, for the first three quarters of the year, additionally reported on SEC Form 10-Q (“Form 10-Q”) filed with the Commission, as required by law. Q4 results are incorporated into the annual Form 10-K. GAAP: GAAP (Generally Accepted Accounting Principles in the United States) refers to the standard framework of guidelines for accounting used in the United States as established by the Financial Accounting Standards Board. These principles set the rules for preparing, presenting, and reporting financial statements of public companies, ensuring consistency, and transparency. GAAP is used by accountants, auditors, and the investing public to compare financial information across different organizations, maintaining uniformity in financial reporting. Required financial statements, such as Form 10-Q and Form 10-K, must be prepared in accordance with GAAP. If such financial statements are not prepared in accordance with GAAP, they are presumed to be misleading or inaccurate. Accrual: An “accrual” reflects revenue earned or expenses incurred before the actual cash transaction has taken place. An accrual for a shipping expense would reflect a shipping expense incurred (i.e., when a product has been shipped by FedEx) but that has not yet been paid by the company. Gross margin: Gross margin is a financial metric that represents the difference between net sales (net sales refers to the sale of merchandise plus shipping and handling revenue less returns and discounts) and cost of merchandise sold and is expressed as a percentage of net sales. A higher gross margin indicates that a company is retaining more of its revenue after covering the direct costs associated with producing goods. For example, if a company sold ten widgets for $100 each and all the direct costs were $40 per widget, the gross margin would be 60%, meaning that the company retained $600 or 60% of the net sales. Capitalization: Capitalization is an accounting concept that refers to the process of recording an expenditure as an asset rather than an expense. When an expense is capitalized, the underlying expense is spread out over the useful life of the asset instead of the full cost being recorded in the company’s books and records and reported in its financial statements (sometimes referred to as revenue being “recognized”). Capitalization is applied to expenditures that provide future economic benefits under certain circumstances. For example, a company may capitalize the cost of manufacturing machinery that will allow the company to manufacture products over time. Through capitalizing such costs, companies match the cost of an asset with the revenue that it generates over time. This contrasts with expenses that do not provide a future economic benefit, such as outbound shipping costs, that are recorded in the period in which the expenses were incurred and the revenue recognized. Amortization: Amortization refers to the financial concept of allocating the cost of an intangible asset over its useful life. This process records the cost of the asset over the period it is expected to generate economic benefits. Thus, for example, a company might divide the cost of an intangible asset, such as a patent, over the useful life of the patent. In this example, if the patent was expected to generate revenue from sales of a patented invention for ten years, the cost of the patent would be spread out over the same ten-year period. General Ledger: The general ledger is a record of a company’s financial transactions, where all journal entries are recorded. A journal entry is the initial record of each of the company’s transactions, detailing the date, accounts affected, amounts, and a brief description. These journal entries are “posted” to the general ledger, which organizes them by account (such as assets, liabilities, equity, revenue, and expenses) and serves as the foundation for preparing a company’s financial statements, such as the balance sheet and income statement. Last Mile Shipping “Last mile shipping” is the term used by Lovesac to reflect the cost of transporting Lovesac’s finished products from a distribution center to the customer. At all relevant times, Lovesac used large shipping companies like FedEx for its last mile shipping. With respect to last mile shipping expenses, Lovesac publicly disclosed in its FY Form 10-K that it “records the expenses for shipping and handling activities at the same time the Company recognizes revenue. Shipping and handling costs incurred are included in cost of merchandise sold and include inbound freight and tariff costs relative to inventory sold, warehousing, and last mile shipping to our customers.” As set forth below, Lovesac’s accounting for last mile shipping expenses was inconsistent with this public disclosure, as was Dellomo and Um’s scheme to hide last mile shipping expenses. On average, there was at least a two-week delay between the shipping date (the date when a product was shipped by FedEx) and the invoice date (the date when the FedEx invoice was received by Lovesac). Lovesac accounted for this timing discrepancy through an accrual process whereby the Company calculated and recorded a monthly estimate of shipping expenses incurred, but not yet recorded in its books and records. The accrual was later reconciled against actual amounts paid to shipping companies based on invoices. However, during the relevant period, Lovesac’s monthly accrual methodology was flawed and inconsistently applied. In certain circumstances, relevant shipment data for the period was not used in the shipping container count estimate and improper assumptions were used for the cost per shipment calculation. As a result, the estimated accrual was understated, which was not compliant with GAAP because the expenses incurred in the period were not properly recorded. Dellomo and Um Devised a Scheme to Obscure the Last Mile Shipping Expenses in Lovesac’s Q1 2024 Books While performing an analysis in April 2023 as part of Lovesac’s monthly financial closing process, Lovesac’s finance and accounting group employees discovered that last mile shipping expenses were significantly higher in Q1 2024 than what the Company had previously budgeted for the month. Specifically, Lovesac’s finance and accounting group employees estimated that approximately $2.2 million of last mile shipping expenses were improperly recorded in Q1 2024 rather than having been recorded in FY 2023, the period in which they believed the expenses were actually incurred. On Sunday, April 23, 2023, Dellomo, in an email to employees including members of the finance and accounting group, indicated that the out-of-period shipping expenses would cause Lovesac’s gross margin for Q1 2024 to be lower than expected. As explained above, gross margin is a financial metric, and a higher gross margin figure is more positive for a company. In the same email, Dellomo expressed concern about not meeting Lovesac’s 50.1% gross margin projection, which had been publicly disclosed by Lovesac during a March 28, 2023 earnings call. Minutes later, Dellomo forwarded her email to Um and requested that she investigate the issue. The next day, Monday, April 24, 2023, members of Lovesac’s finance and accounting group met to discuss the problem with last mile shipping expenses having been improperly recorded in Q1 2024. On April 25, 2023, Dellomo emailed Um and the same group, noting that the gross margin estimate for Q1 2024 was, as of that day, only 48.7%. This was 140 basis points lower than Lovesac’s Q1 2024 gross margin projection of 50.1%, which, as noted above, was publicly disclosed to investors during the March 28, 2023 earnings call. On or about Tuesday, April 25, 2023, Um and other members of Lovesac’s finance and accounting group concluded that there were approximately $2.2 million of last mile shipping invoices for shipping expenses incurred in FY 2023 that were not recorded until Q1 On the same day, members of the finance and accounting group, including Dellomo and Um, discussed the $2.2 million out-of-period expenses and the impact on Lovesac’s gross margin for Q1 2024. Um stated in a Microsoft Teams chat that she could not justify, as an accounting matter, reversing the $2.2 million shipping expenses. Another finance and accounting group employee who reported to Um communicated to her that reversing the $2.2 million from the Q1 2024 books would be “a giant black eye for the auditors to pick out.” Also on April 25, Um communicated with a senior member of Lovesac’s financial planning and analysis (“FP&A”) group. Um told that individual, in a Microsoft Teams chat, that the only way to meet the Q1 2024 gross margin projection was to capitalize the $2.2 million last mile shipping expenses and amortize them evenly over the remaining three quarters of FY 2024 starting in Q2 2024. Um replied: “I just don’t know how I can support [it].” Indeed, capitalizing the $2.2 million in shipping expenses would not comply with GAAP because the expenses did not provide any future economic benefit. The following day, on April 26, "
+    },
+    "usage": {
+      "prompt_tokens": 12094,
+      "completion_tokens": 4096,
+      "total_tokens": 16190
+    },
+    "case_id": "ctd-3_24-cv-01727"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The SEC filed a complaint against Binance Holdings Limited (“Binance”), BAM Trading Services Inc. (“BAM Trading”), BAM Management US Holdings Inc. (“BAM Management”), and Changpeng Zhao (“Zhao”), alleging violations of federal securities laws. The case centers on Defendants’ alleged disregard for these laws, resulting in significant enrichment at the expense of investor asset safety. The SEC claims that Binance and BAM Trading unlawfully offered essential securities market functions—exchange, broker-dealer, and clearing agency—on the Binance Platforms without SEC registration, despite being aware of the legal requirements. They also engaged in unregistered offers and sales of crypto asset securities, including Binance’s own assets “BNB” and “BUSD,” profit-generating programs “BNB Vault” and “Simple Earn,” and a “staking” investment scheme on Binance.US. BAM Trading and BAM Management allegedly misrepresented to investors the existence of surveillance and controls over manipulative trading on Binance.US, which were virtually non-existent. The SEC seeks a final judgment permanently enjoining Defendants from further violations, ordering disgorgement of ill-gotten gains, imposing civil money penalties, and granting other equitable relief for the benefit of investors. The SEC requests a jury trial for all triable issues.",
+      "claim_rulings": [
+        {
+          "claim": "Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for Unregistered Offers and Sales of BNB)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for the Unregistered Offers and Sales of BUSD)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Sections 5(a) and 5(c) of the Securities Act (Against Binance for the Unregistered Offer and Sale of Simple Earn and BNB Vault)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Sections 5(a) and 5(c) of the Securities Act (Against BAM Trading for the Unregistered Offer and Sale of its Staking Program)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violation of Exchange Act Section 5 (Against Binance for Failing to Register as an Exchange for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Section 15(a) (Against Binance for Failing to Register as a Broker-Dealer for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Section 17A(b) (Against Binance for Failing to Register as a Clearing Agency for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Section 5 (Against Binance and BAM Trading for Failure to Register as an Exchange for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Section 15(a) (Against BAM Trading for Failing to Register as a Broker for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Section 17A(b) (Against Binance and BAM Trading Failing to Register as a Clearing Agency for the Binance.US Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Sections 5, 15(a), and 17A(b) (Against Zhao as Control Person over Binance for the Binance.com Platform)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Exchange Act Sections 5, 15(a), and 17A(b) (Against Zhao as Control Person over Binance and BAM Trading for the Binance.US Platform Violations)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        },
+        {
+          "claim": "Violations of Securities Act Sections 17(a)(2) and (a)(3) (Against BAM Management and BAM Trading)",
+          "ruling": "sustained",
+          "scienter_analysis": null
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 51356,
+      "completion_tokens": 918,
+      "total_tokens": 52274
+    },
+    "case_id": "dcd-1_23-cv-01599"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court dismissed the securities class action complaint against Danaher and certain of its top officials for violations of Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 and SEC Rule 10b-5. The court found that the plaintiffs failed to adequately plead scienter under the PSLRA's heightened pleading standards. The court noted that the complaint relied heavily on conclusory allegations, such as \"defendants knew or should have known,\" and failed to provide particularized facts showing that the defendants had actual knowledge of the falsity of their statements at the time they were made. The court also found that the complaint amounted to \"fraud by hindsight,\" as it failed to specify when the defendants purportedly became aware of the adverse facts and instead inferred scienter from the mere existence of those facts. The court further noted that the allegations from confidential witnesses were insufficient, as they were not based on personal knowledge and failed to provide specific details about the defendants' state of mind. The court also found that the complaint failed to adequately plead loss causation, as it did not identify a corrective disclosure that revealed the alleged fraud to the market and caused a decline in the stock price. The court dismissed the complaint in its entirety, including the Section 20(a) control person liability claims, as they were derivative of the underlying Section 10(b) claims.",
+      "claim_rulings": [
+        {
+          "claim": "Count I (Violations of Section 10(b) of the Exchange Act and Rule 10b-5 Promulgated Thereunder Against All Defendants)",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized facts showing knowledge of falsity; relies on conclusory allegations, fraud by hindsight, and insufficient confidential witness statements."
+        },
+        {
+          "claim": "Count II (Violations of Section 20(a) of the Exchange Act Against Defendants Blair and McGrew)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claim dismissed as derivative of underlying Section 10(b) claim, which failed due to inadequate pleading of scienter."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 37037,
+      "completion_tokens": 434,
+      "total_tokens": 37471
+    },
+    "case_id": "dcd-1_23-cv-02055"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint alleges violations of Sections 10(b), 14(a), and 20(a) of the Securities Exchange Act of 1934 in connection with the sale of Focus Financial Partners Inc. to Clayton, Dubilier & Rice (CD&R). Plaintiffs claim that defendants made materially false and misleading statements and omissions in the Proxy, press releases, and other public disclosures regarding the adequacy of the sale process, the independence of the Special Committee, and the fairness of the Merger. The complaint also alleges that defendants engaged in a scheme to deceive investors by artificially depressing the price of Focus common stock below its true value. The court must apply the heightened pleading standards of the Private Securities Litigation Reform Act (PSLRA), which requires plaintiffs to state with particularity facts giving rise to a strong inference of scienter. The court finds that the complaint fails to plead scienter with the required particularity, as it relies on conclusory allegations, fraud by hindsight, and speculation about what defendants must have known. The court also finds that the Section 20(a) control person liability claims must be dismissed, as they are derivative of the underlying securities violation. Accordingly, the court dismisses the complaint in its entirety with leave to amend.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiffs fail to plead scienter with particularity, as required by the PSLRA. The complaint relie..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "The Section 20(a) control person liability claims are derivative of the underlying Section 10(b) cla..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34485,
+      "completion_tokens": 369,
+      "total_tokens": 34854
+    },
+    "case_id": "dde_ 23_cv_1466"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against Walmart and its executives, focusing on alleged violations of the Controlled Substances Act (CSA) and the concealment of related government investigations. The complaint detailed extensive CSA violations, including failures in suspicious order monitoring and dispensing practices, as well as the concealment of these issues from investors. The court emphasized the heightened pleading standards under the Private Securities Litigation Reform Act (PSLRA), particularly the requirement to plead scienter with specific, particularized facts. The court found that the complaint relied on conclusory allegations, general corporate knowledge, and speculative assertions about what defendants must have known, rather than specific facts showing actual knowledge of falsity at the time statements were made. The court also noted that innocent explanations for the defendants' conduct were equally plausible. Consequently, the court dismissed the Section 10(b) and Rule 10b-5 claims for failure to adequately plead scienter and, as required, also dismissed the derivative Section 20(a) control person liability claims. The complaint was dismissed without prejudice, allowing the plaintiffs to amend their allegations.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) and Rule 10b-5 (Count I)",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with the required particularity under the PSLRA. It relies on c..."
+        },
+        {
+          "claim": "Section 20(a) (Count II)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of Section 10(b) and Rule 10b-5 claims. Since the underlying cl..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 45081,
+      "completion_tokens": 341,
+      "total_tokens": 45422
+    },
+    "case_id": "dde_21_cv_55"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint and ruled on each cause of action as follows: Counts I and III (Securities Act and Commodities Exchange Act) were dismissed by stipulation. Count II (Section 10(b) and Rule 10b-5) was dismissed for failure to plead scienter with particularity under the PSLRA. Counts IV (Florida Securities Act), VI (Breach of Fiduciary Duty), VII (Fraud in the Inducement), VIII (Negligent Misrepresentation), IX (Conversion), X (Unjust Enrichment), and XI (Civil Conspiracy) were dismissed for lack of supplemental jurisdiction after the federal claims were dismissed. The court emphasized the requirement under the PSLRA for plaintiffs to plead scienter with particularized facts, which was not met in Count II. The Section 20(a) control person claim, derivative of the Section 10(b) claim, was not explicitly addressed but would also be dismissed following the dismissal of the primary claim.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violation of the Securities Act of 1933, 15 U.S.C. § 77e and 77l(a)(1) – against Defendants CFT and FxWinning",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed by stipulation)..."
+        },
+        {
+          "claim": "Count II: Violation of the Securities Exchange Act of 1934 and Rule 10b-5, 15 U.S.C. § 78j(b) and C.F.R. § 240.10b-5 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+          "ruling": "dismissed",
+          "scienter_analysis": "Plaintiffs failed to plead scienter with particularity as required by the PSLRA. The compl..."
+        },
+        {
+          "claim": "Count III: Violation of the Commodities Exchange Act, Sections 6 and 25, 7 U.S.C. §§ 6b, 6e, 6o, and 25 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed by stipulation)..."
+        },
+        {
+          "claim": "Count IV: Violation of the Florida Securities and Investor Protection Act, Sections 517.301 and 517.211 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count V: Breach of Contract – against FxWinning",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count VI: Breach of Fiduciary Duty – against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count VII: Fraud in the Inducement – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count VIII: Negligent Misrepresentations – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count IX: Conversion – against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count X: Unjust Enrichment – against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        },
+        {
+          "claim": "Count XI: Civil Conspiracy – against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "N/A (dismissed for lack of supplemental jurisdiction)..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16094,
+      "completion_tokens": 908,
+      "total_tokens": 17002
+    },
+    "case_id": "flsd-1_23-cv-23139"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The complaint asserts strict liability claims under Sections 11 and 15 of the Securities Act, explicitly disclaiming any claims of intentional or reckless misconduct or fraudulent intent. Therefore, no claims under Section 10(b) or Rule 10b-5, which require scienter, are present in the complaint. The heightened pleading standards and scienter analysis under the PSLRA do not apply to these claims. The court's analysis focuses on the adequacy of the alleged material misstatements, omissions, and compliance with Items 303 and 105 of Regulation S-K, rather than scienter.",
+      "claim_rulings": []
+    },
+    "usage": {
+      "prompt_tokens": 25582,
+      "completion_tokens": 130,
+      "total_tokens": 25712
+    },
+    "case_id": "ilnd-1_20_cv_05593"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint and ruled on each cause of action as follows. The court dismissed the Section 20(a) control person liability claim because it is derivative of the underlying Section 10(b)/Rule 10b-5 claim, which was not adequately pleaded. The court declined to exercise supplemental jurisdiction over the remaining state law claims (RICO, unjust enrichment, constructive trust) and dismissed them without prejudice to refiling in state court. The court granted leave to amend the complaint within 30 days.",
+      "claim_rulings": [
+        {
+          "claim": "Section 20(a) control person liability",
+          "ruling": "dismissed",
+          "scienter_analysis": "The Section 20(a) claim is derivative of the Section 10(b)/Rule 10b-5 claim, which fails to meet th..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 10964,
+      "completion_tokens": 174,
+      "total_tokens": 11138
+    },
+    "case_id": "nysd_1_21-cv-11222"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against Wells Fargo and its executives, focusing on alleged violations of Section 10(b) of the Exchange Act and Rule 10b-5, as well as Section 20(a) control person liability. The complaint centered on statements made by the defendants about Wells Fargo's compliance with 2018 Consent Orders issued by federal regulators following widespread consumer abuses. Plaintiffs alleged that these statements were materially false and misleading, given ongoing regulatory rejections of the bank's proposed compliance plans. However, the court found that the complaint failed to plead scienter with the particularity required by the PSLRA. Specifically, the court noted that the complaint relied on general allegations of corporate knowledge, board-level awareness, and collective scienter, rather than providing specific facts demonstrating that individual defendants knew their statements were false when made. The court emphasized that scienter must be alleged with respect to each defendant and each statement, and that general knowledge or access to information is insufficient. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims, as well as the Section 20(a) claims, which are derivative of the underlying securities violations. The dismissal was with leave to amend, allowing plaintiffs to attempt to cure the deficiencies in their scienter allegations.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5 (Count I)",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with particularity as required by the PSLRA. It relies on gene..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act (Count II)",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims are derivative of the underlying Section 10(b) and Rule 10b-5 claims, which wer..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 50889,
+      "completion_tokens": 393,
+      "total_tokens": 51282
+    },
+    "case_id": "nysd_20_cv_04494"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint under the heightened pleading standards of the PSLRA, focusing on whether the plaintiff adequately alleged scienter with particularized facts. The court found that the complaint failed to meet the PSLRA's requirements for scienter, as it relied on conclusory allegations, speculation, and general corporate knowledge rather than specific facts showing the defendants' actual knowledge of falsity at the time statements were made. The court also noted that innocent explanations for the defendants' conduct were equally or more plausible than fraudulent intent. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims, as well as the derivative Section 20(a) control person liability claims. The court granted the plaintiff leave to file an amended complaint within 30 days.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized factual allegations showing defendants' actual knowledge of falsity at the time s..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Derivative of the underlying Section 10(b)/Rule 10b-5 claim, which was dismissed for failure to ade..."
+        },
+        {
+          "claim": "Leave to amend",
+          "ruling": "sustained",
+          "scienter_analysis": "Plaintiff granted leave to file an amended complaint within 30 days to address deficiencies in scie..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 24057,
+      "completion_tokens": 322,
+      "total_tokens": 24379
+    },
+    "case_id": "nysd_22_cv_10292"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against DocGo and individual defendants, which alleged violations of Section 10(b) of the 1934 Act and SEC Rule 10b-5 (Count I), as well as Section 20(a) of the 1934 Act (Count II). The complaint centered on alleged misrepresentations regarding Capone's educational background, the value of a CBP contract, and signing up migrants for Medicaid. The court found that the complaint failed to plead scienter with the particularity required by the PSLRA, as it relied on conclusory allegations of knowledge or recklessness, failed to provide specific facts showing defendants' actual knowledge of falsity at the time statements were made, and did not present a strong inference of scienter that outweighs innocent explanations. Consequently, the court dismissed Count I for failure to plead scienter and Count II for failure to plead a primary violation, granting leave to amend within 21 days.",
+      "claim_rulings": [
+        {
+          "claim": "Count I: Violations of Section 10(b) of the 1934 Act and SEC Rule 10b-5",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with the particularity required by the PSLRA. It relies on co..."
+        },
+        {
+          "claim": "Count II: Violations of Section 20(a) of the 1934 Act",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims require an underlying primary violation of Section 10(b) and Rule 10b-5, which ..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16149,
+      "completion_tokens": 335,
+      "total_tokens": 16484
+    },
+    "case_id": "nysd_23_cv_9476"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint against Mobileye and its executives, applying the heightened pleading standards of the PSLRA. The court found that the complaint failed to plead scienter with particularity, as required by the PSLRA, because it relied on conclusory allegations, speculation, and general corporate knowledge rather than specific facts showing the defendants' actual knowledge of falsity at the time statements were made. The court also found that innocent explanations for the defendants' conduct were equally or more plausible than fraudulent intent. As a result, the court dismissed the Section 10(b) and Rule 10b-5 claims, as well as the derivative Section 20(a) control person liability claims. The court also dismissed the Securities Act claims, finding that the complaint failed to state a claim under Sections 11 and 15 of the Securities Act.",
+      "claim_rulings": [
+        {
+          "claim": "Count I - Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5(b) Against Mobileye and the Executive Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with particularity, as required by the PSLRA, because it rel..."
+        },
+        {
+          "claim": "Count II - Violations of Section 10(b) of the Exchange Act and SEC Rules 10b-5(a) and (c) Against the Exchange Act Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The complaint fails to plead scienter with particularity, as required by the PSLRA, because it rel..."
+        },
+        {
+          "claim": "Count III - Violations of Section 20(a) of the Exchange Act Against the Executive Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "The Section 20(a) control person liability claims are dismissed because they are derivative of the..."
+        },
+        {
+          "claim": "Count IV - Violations of Section 11 of the Securities Act Against The Securities Act Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Scienter is not required for Securities Act claims, but the court found that the complaint fails t..."
+        },
+        {
+          "claim": "Count V - Violations of Section 15 of the Securities Act Against Securities Act Defendants Shashua and Heller",
+          "ruling": "dismissed",
+          "scienter_analysis": "Scienter is not required for Securities Act claims, but the court found that the complaint fails t..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 44006,
+      "completion_tokens": 514,
+      "total_tokens": 44520
+    },
+    "case_id": "nysd_24_cv_310"
+  },
+  {
+    "model": "gpt-4.1-finetuned",
+    "model_id": "ft:gpt-4.1-2025-04-14:personal:complaint-test:D4Z39cJI",
+    "test": "test3",
+    "success": true,
+    "response": {
+      "summary": "The court reviewed the securities class action complaint under the heightened pleading standards of the PSLRA, focusing on whether plaintiffs adequately pleaded scienter with particularized facts showing defendants' knowledge of falsity at the time statements were made. The court found that the complaint relied heavily on conclusory allegations, confidential witness statements lacking specific details about individual defendants' knowledge, and post hoc admissions that constituted impermissible fraud by hindsight. The court also noted that the complaint failed to provide specific information about the timing, content, and recipients of alleged internal reports and meetings, and it improperly relied on general corporate knowledge rather than individualized facts about each defendant. As a result, the court concluded that the complaint failed to meet the PSLRA's stringent scienter requirements and dismissed all claims with prejudice.",
+      "claim_rulings": [
+        {
+          "claim": "Section 10(b) of the Exchange Act and Rule 10b-5 against all Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "No particularized facts show defendants' actual knowledge of falsity at the time statements were mad..."
+        },
+        {
+          "claim": "Section 20(a) of the Exchange Act against Individual Defendants",
+          "ruling": "dismissed",
+          "scienter_analysis": "Section 20(a) claims dismissed as derivative of Section 10(b)/Rule 10b-5 claims, which fail for lack ..."
+        }
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 55546,
+      "completion_tokens": 284,
+      "total_tokens": 55830
+    },
+    "case_id": "txnd-4_24-cv-00673"
+  }
+]
