@@ -5,32 +5,9 @@ This readme and code are intended to define and evaluate benchmarks for assessin
 
 Prior scholarly work has shown that LLM performance degrades as context length increases and as tasks move beyond surface-level or literal matching. See, e.g., *NoLiMa: Long-Context Evaluation Beyond Literal Matching* (https://arxiv.org/abs/2502.05167). Legal complaints exacerbate these issues: they are lengthy, fact-dense, and often rely on layered narratives to support multiple (and sometimes contradictory) theories of liability.`
 
-Accordingly, this work concentrates on complaints that are likely to stress current LLM capabilities due to both their length and structural complexity. The goal is not to demonstrate isolated successes, but to provide a realistic assessment of current LLMs capabilities. To that end, the models are evaluated through two distinct tests. The first test assesses whether an LLM can reliably extract simple, objective information from a complaint. The second test evaluates whether an LLM can objectively summarize the complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss.  Finally, given the nature of these tests, we will see if finetuning models will meaningfully improve performance of the LLM. 
+Accordingly, this work concentrates on complaints that are likely to stress current LLM capabilities due to both their length and structural complexity. The goal is not to demonstrate isolated successes, but to provide a realistic assessment of current LLMs capabilities. To that end, the models are evaluated through three distinct tests. The first test assesses whether an LLM can reliably extract simple, objective information from a complaint. The second test evaluates whether an LLM can objectively summarize the complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss. Then a third test that provides a more detailed prompt can help improve predictions of a claim's likelihood of success.
+
 ## The Tests
-
-To evaluate large language models’ ability to summarize long and complex documents, we employ two complementary approaches: (1) direct long-context summarization and (2) retrieval-augmented generation (“RAG”)–based summarization. These approaches are tested separately to isolate model capabilities from retrieval and embedding effects.
-
-### 1. Direct Long-Context Summarization (Baseline)
-
-In the first test, each model is evaluated on its ability to summarize long documents without retrieval or chunk-based augmentation.
-
-Source PDFs are collected and converted to text.The extracted text is cleaned and normalized to remove artifacts such as headers, footers, page numbers, and filing stamps, while preserving logical section boundaries The same cleaned text is provided directly to each model as input, subject only to the model’s maximum context window.Each model generates a summary according to a fixed prompt and output specification.
-
-The resulting summaries are evaluated against predefined benchmarks. This test isolates the model’s native long-context reasoning and summarization ability, independent of embeddings, chunking, or retrieval strategies, and serves as the baseline for all subsequent comparisons.
-
-### 2. Retrieval-Augmented Summarization (RAG)
-
-In the second test, models are evaluated using a RAG pipeline to assess summarization performance when document context is selectively retrieved rather than fully provided.
-
-Cleaned document text is segmented into fixed-size chunks using a consistent chunking strategy. Two embedding strategies are evaluated:
-
- 1. general-purpose embedding model (e.g., OpenAI embeddings), and
-
- 2. a transformer-based embedding model trained on legal-domain text.
-
-Chunk embeddings and associated metadata are stored in a vector database For each document, targeted retrieval queries are issued to retrieve relevant chunks from the vector database. Retrieved text chunks are provided to the model along with a fixed summarization prompt. The model generates a summary based solely on the retrieved context.
-
-Summaries are evaluated using the same scoring framework as the direct summarization test. This test measures the combined performance of retrieval quality and downstream summarization, enabling comparison of embedding strategies and their impact on summary accuracy, coverage, and faithfulness.
 
 ### 3. Comparative Evaluation and Fine-Tuning
 
