@@ -2,7 +2,7 @@ import json, os, re, time, threading
 from typing import Optional, Callable
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import google.generativeai as genai
+from google import genai
 import litellm, pandas as pd
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -26,9 +26,9 @@ def _parse_json(content: str) -> dict:
 def call_llm(messages: list, model: str, model_name: str = None, temperature: float = LLM_TEMPERATURE, max_tokens: int = LLM_MAX_TOKENS, timeout: int = LLM_TIMEOUT) -> dict:
     try:
         if model_name and model_name in DIRECT_SDK_MODELS and model_name == "gemini":
-            genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+            client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
             sys_prompt, user = next((m["content"] for m in messages if m["role"] == "system"), ""), next((m["content"] for m in messages if m["role"] == "user"), "")
-            resp = genai.GenerativeModel(model_name=model, generation_config={"temperature": temperature, "max_output_tokens": max_tokens}).generate_content(f"{sys_prompt}\n\n{user}" if sys_prompt else user)
+            resp = client.models.generate_content(model=model, contents=f"{sys_prompt}\n\n{user}" if sys_prompt else user, config={"temperature": temperature, "max_output_tokens": max_tokens})
             usage = {"prompt_tokens": getattr(resp.usage_metadata, 'prompt_token_count', 0), "completion_tokens": getattr(resp.usage_metadata, 'candidates_token_count', 0), "total_tokens": getattr(resp.usage_metadata, 'total_token_count', 0)} if hasattr(resp, 'usage_metadata') and resp.usage_metadata else None
             return {"success": True, "response": _parse_json(resp.text), "usage": usage}
         resp = litellm.completion(model=model, messages=messages, temperature=temperature, max_tokens=max_tokens, timeout=timeout)

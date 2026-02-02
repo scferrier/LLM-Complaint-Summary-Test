@@ -3,17 +3,64 @@
 
 This readme and code are intended to define and evaluate benchmarks for assessing the performance of large language models (LLMs) on legal-document summarization tasks. In particular, the focus is on complex civil complaints, which present challenges that are not well captured by existing general-purpose summarization benchmarks.
 
-Prior scholarly work has shown that LLM performance degrades as context length increases and as tasks move beyond surface-level or literal matching. See, e.g., *NoLiMa: Long-Context Evaluation Beyond Literal Matching* (https://arxiv.org/abs/2502.05167). Legal complaints exacerbate these issues: they are lengthy, fact-dense, and often rely on layered narratives to support multiple (and sometimes contradictory) theories of liability.`
+Prior scholarly work has shown that LLM performance degrades as context length increases and as tasks move beyond surface-level or literal matching. See, e.g., *NoLiMa: Long-Context Evaluation Beyond Literal Matching* (https://arxiv.org/abs/2502.05167). Legal complaints exacerbate these issues: they are lengthy, fact-dense, and often rely on layered narratives to support multiple (and sometimes contradictory) theories of liability.
 
 Accordingly, this work concentrates on complaints that are likely to stress current LLM capabilities due to both their length and structural complexity. The goal is not to demonstrate isolated successes, but to provide a realistic assessment of current LLMs capabilities. To that end, the models are evaluated through three distinct tests. The first test assesses whether an LLM can reliably extract simple, objective information from a complaint. The second test evaluates whether an LLM can objectively summarize the complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss. Then a third test that provides a more detailed prompt can help improve predictions of a claim's likelihood of success.
 
 ## The Tests
 
-### 3. Comparative Evaluation and Fine-Tuning
+### Test 1: Structured Data Extraction
 
-Results from the direct summarization and RAG-based tests are compared to distinguish intrinsic model summarization capability from retrieval-assisted performance, and assess whether domain-specific embeddings materially improve summarization outcomes.
+This test evaluates whether LLMs can reliably extract simple, objective information from a complaint. The model is asked to identify:
 
-Where appropriate, selected models may be fine-tuned using a separate training corpus, and the above tests are repeated using a strict train/dev/test split to evaluate the impact of fine-tuning on both direct and RAG-based summarization performance.
+- **Plaintiffs**: All named plaintiffs in the case
+- **Defendants**: All named defendants
+- **Ticker Symbol**: The stock ticker if mentioned
+- **Class Period**: Start and end dates of the alleged fraud
+- **Causes of Action**: Each legal claim asserted
+
+**Evaluation Approach:**
+- **Ticker**: Exact match (case-insensitive)
+- **Plaintiffs/Defendants**: F1 score using normalized name matching (removes corporate suffixes like "Inc.", "LLC", handles punctuation variants)
+- **Class Period**: Date matching with partial credit (full credit for exact match, 0.8 for same year/month)
+- **Causes of Action**: F1 score with text normalization (strips prefixes like "Violation of", "Claim under")
+- **Overall Score**: Weighted average of all component scores
+
+### Test 2: Judicial Summary & Motion-to-Dismiss Prediction
+
+This test evaluates whether LLMs can objectively summarize a complaint and assess the likelihood that each asserted cause of action would survive a motion to dismiss. The model acts as a federal district court judge and provides:
+
+- A comprehensive summary covering parties, alleged misconduct, key facts, legal claims, and class period
+- A ruling ("dismissed" or "sustained") with reasoning for each cause of action
+
+**Evaluation Approach:**
+
+*Summary Quality:*
+- **ROUGE-1/2/L**: N-gram overlap with reference summaries (using stemming)
+- **BLEU**: Precision-based n-gram matching
+- **METEOR**: Flexible matching with synonyms and stemming
+- **BERTScore**: Semantic similarity using contextual embeddings (rescaled with baseline)
+- **Faithfulness**: NLI-based scoring using BART-MNLI - splits summary into sentences and scores each for entailment against the source complaint
+
+*Ruling Prediction:*
+- **Ruling Accuracy**: Percentage of correctly predicted outcomes
+- **Ruling F1**: Macro F1 score across ruling categories (dismissed/sustained/dismissed_in_part)
+- Rulings are normalized before comparison (e.g., "granted" → "dismissed", "denied" → "sustained")
+
+### Test 3: Scienter-Focused Prompt Engineering
+
+This test addresses the systematic prediction bias observed in Test 2 by providing a more detailed prompt that applies the heightened pleading standards of the Private Securities Litigation Reform Act (PSLRA). The prompt instructs models to:
+
+- **Scrutinize Scienter Allegations**: Require particularized facts giving rise to a strong inference of fraudulent intent
+- **Dismiss Conclusory Allegations**: Reject claims based on "fraud by hindsight" or speculation about what defendants "must have known"
+- **Apply Derivative Claim Logic**: If Section 10(b)/Rule 10b-5 claims are dismissed, Section 20(a) control person claims must also be dismissed
+
+**Evaluation Approach:**
+- Uses the same ruling prediction metrics as Test 2 (Accuracy, Macro F1)
+- Compares prediction distribution against ground truth to measure bias correction
+- Tracks improvement in accuracy relative to Test 2 baseline
+
+This test demonstrates whether explicit legal framework guidance in the prompt can improve prediction accuracy.
 
 ## Metrics Used to Evaluate Performance
 
@@ -45,7 +92,8 @@ This metric is faster than SummaC while still providing meaningful factual consi
 
 For an overview of summarization metrics and their respective strengths and limitations, see Shannon Gallagher, Swati Rallapalli, and Tyler Brooks, *Evaluating LLMs for Text Summarization: An Introduction*, SEI Blog (Apr. 7, 2025) (https://www.sei.cmu.edu/blog/evaluating-llms-for-text-summarization-introduction).
 
-The amount of tokens used and cost will also be tracked and factored in to evaluate performance. 
+The amount of tokens used and cost will also be tracked and factored in to evaluate performance.
+
 ## Data Collection & Cleaning
 
 Collection 
@@ -192,23 +240,39 @@ The results demonstrate that instructing models to apply specific legal standard
 
 ## Finetuning
 
-We fine-tuned GPT-4.1 using 50 complaint-order pairs with two approaches:
+We fine-tuned GPT-4.1 using 50 complaint-order pairs with full complaint texts with background summaries and rulings as output. Two versions were trained:
+- **GPT-4.1-finetuned**: Initial fine-tuning run
+- **GPT-4.1-finetuned-v2**: Second iteration with refined training data
 
-1. **Version 1**: Trained on background sections (summaries) with rulings
-2. **Version 2**: Trained on full complaint texts with background summaries and rulings as output
+### Finetuned Model Ruling Prediction Results
 
-### Finetuned Model Results
+| Model | Test 2 Accuracy | Test 3 Accuracy | Improvement |
+|-------|-----------------|-----------------|-------------|
+| GPT-4.1-finetuned | 7.0% | 63.5% | +56.5% |
+| GPT-4.1-finetuned-v2 | 21.3% | 60.6% | +39.3% |
 
-| Model | Test 2 Accuracy | Test 3 Accuracy |
-|-------|-----------------|-----------------|
-| GPT-4.1-finetuned (v1) | 7.0% | 63.5% |
-| GPT-4.1-finetuned (v2) | 21.3% | 60.6% |
+### Finetuned Model Summary Quality Metrics (Test 2)
+
+| Model | ROUGE-1 | ROUGE-L | BLEU | METEOR | BERTScore | Success Rate |
+|-------|---------|---------|------|--------|-----------|--------------|
+| GPT-4.1-finetuned | 0.358 | 0.148 | 0.053 | 0.220 | 0.019 | 50% (13/26) |
+| GPT-4.1-finetuned-v2 | 0.457 | 0.199 | 0.090 | 0.336 | 0.044 | 38% (10/26) |
+| *GPT-5.2 (baseline)* | *0.448* | *0.172* | *0.071* | *0.252* | *-0.004* | *88% (22/25)* |
+
+### Finetuned Model Summary Quality Metrics (Test 3)
+
+| Model | ROUGE-1 | ROUGE-L | BLEU | METEOR | BERTScore | Success Rate |
+|-------|---------|---------|------|--------|-----------|--------------|
+| GPT-4.1-finetuned-v2 | 0.282 | 0.131 | 0.050 | 0.192 | -0.044 | 92% (24/26) |
+| *GPT-5.2 (baseline)* | *0.394* | *0.151* | *0.063* | *0.222* | *-0.003* | *88% (22/25)* |
 
 **Key Findings (Fine-tuning):**
-- Fine-tuned models significantly underperformed base models on Test 2
-- With Test 3's scienter-focused prompt, fine-tuned models achieved competitive accuracy (60-63%)
-- **Prompt engineering outperformed fine-tuning**: The Test 3 prompt improved base GPT-5.2 by +30% while fine-tuning alone only achieved 7-21% accuracy
-- The combination of fine-tuning + Test 3 prompt achieved similar results to base models + Test 3 prompt, suggesting prompt design is the more critical factor
+- **High failure rate on Test 2**: Fine-tuned models failed to produce valid outputs for 50-62% of cases, compared to only 12% for GPT-5.2
+- **Test 3 dramatically improved reliability**: GPT-4.1-finetuned-v2 success rate jumped from 38% to 92% with the scienter-focused prompt
+- **Competitive summary quality when successful**: On successful cases, finetuned-v2 achieved higher ROUGE-1 (0.457) and METEOR (0.336) than GPT-5.2, suggesting the model learned effective summarization patterns
+- **Fine-tuning alone is insufficient**: Without explicit legal framework guidance (Test 3 prompt), fine-tuned models achieved only 7-21% ruling accuracy
+- **Prompt engineering remains critical**: The Test 3 prompt improved fine-tuned model accuracy by 40-57 percentage points, demonstrating that proper prompting is essential even for fine-tuned models
+- The combination of fine-tuning + Test 3 prompt achieved similar accuracy (60-63%) to base GPT-5.2 + Test 3 (66%), but with lower reliability
 
 ## Conclusion & Future Work
 
@@ -222,8 +286,8 @@ We fine-tuned GPT-4.1 using 50 complaint-order pairs with two approaches:
 
 ### Future Work
 
+- Test if using a RAG approach using a legal based transformer to generate embeddings helps improve performance
 - Test additional prompt variations incorporating other PSLRA elements (loss causation, materiality, forward-looking statement safe harbor)
-- Evaluate RAG-based approaches with legal-domain embeddings
-- Expand test dataset to include other case types beyond securities litigation
 - Investigate whether fine-tuning on the Test 3 prompt format improves results further
+- Test multi-stage reasoning approaches (chain-of-thought prompting)
 

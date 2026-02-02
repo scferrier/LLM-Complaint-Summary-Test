@@ -1,5 +1,0 @@
-rank,model,macro_f1,plaintiffs_f1,defendants_f1,causes_f1,ticker,class_period_avg,overall,n_cases,n_successful
-1,gpt-5.2,0.716,0.663,0.812,0.674,1.0,0.9,0.81,25,25
-2,grok,0.633,0.663,0.78,0.455,1.0,0.9,0.76,25,25
-3,gemini,0.62,0.629,0.715,0.516,0.88,0.84,0.716,25,24
-4,claude-opus,0.597,0.595,0.776,0.42,0.96,0.9,0.73,25,25

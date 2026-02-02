@@ -1,0 +1,22 @@
+# LLM APIs and utilities
+google-genai>=1.0.0
+litellm>=1.0.0
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# PDF processing
+pdfplumber>=0.10.0
+
+# Progress and display
+tqdm>=4.65.0
+
+# Evaluation metrics
+evaluate>=0.4.0
+transformers>=4.30.0
+bert-score>=0.3.13
+rouge-score>=0.1.2
+nltk>=3.8.0
