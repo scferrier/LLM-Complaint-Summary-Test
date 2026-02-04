@@ -56,9 +56,11 @@ def clean_ground_truth_row(gt_row: dict) -> dict:
     return c
 
 def clean_llm_response(response: dict) -> dict:
+    if not response or not isinstance(response, dict):
+        return {'plaintiffs': [], 'defendants': [], 'ticker': None, 'class_period': {'start': None, 'end': None}, 'causes_of_action': []}
     c = {'plaintiffs': [], 'defendants': [], 'ticker': None, 'class_period': {'start': None, 'end': None}, 'causes_of_action': []}
-    if isinstance(response.get('plaintiffs', []), list): c['plaintiffs'] = [clean_text_for_comparison(p) for p in response['plaintiffs'] if p]
-    if isinstance(response.get('defendants', []), list): c['defendants'] = [clean_text_for_comparison(d) for d in response['defendants'] if d]
+    if isinstance(response.get('plaintiffs'), list): c['plaintiffs'] = [clean_text_for_comparison(p) for p in response.get('plaintiffs', []) if p]
+    if isinstance(response.get('defendants'), list): c['defendants'] = [clean_text_for_comparison(d) for d in response.get('defendants', []) if d]
     if response.get('ticker'): c['ticker'] = str(response['ticker']).strip().upper()
     period = response.get('class_period', {}) or {}
     if period.get('start'): c['class_period']['start'] = str(period['start'])[:10]

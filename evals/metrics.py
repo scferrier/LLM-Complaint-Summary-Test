@@ -1,4 +1,15 @@
 import re
+import os
+import warnings
+import logging
+
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+warnings.filterwarnings("ignore", category=UserWarning)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
+logging.getLogger("evaluate").setLevel(logging.ERROR)
+
 from .cleaning import normalize_name, normalize_ruling
 
 _evaluate_metrics, _nli_pipeline = {}, None
@@ -6,13 +17,17 @@ _evaluate_metrics, _nli_pipeline = {}, None
 def _get_metric(name: str):
     global _evaluate_metrics
     if name not in _evaluate_metrics:
-        import evaluate; _evaluate_metrics[name] = evaluate.load(name)
+        import evaluate
+        evaluate.logging.set_verbosity_error()
+        _evaluate_metrics[name] = evaluate.load(name)
     return _evaluate_metrics[name]
 
 def _get_nli_pipeline():
     global _nli_pipeline
     if _nli_pipeline is None:
-        from transformers import pipeline; _nli_pipeline = pipeline('text-classification', model='facebook/bart-large-mnli', device=-1)
+        from transformers import pipeline, logging as tf_logging
+        tf_logging.set_verbosity_error()
+        _nli_pipeline = pipeline('text-classification', model='facebook/bart-large-mnli', device=-1)
     return _nli_pipeline
 
 def exact_match(predicted: str, actual: str) -> float:

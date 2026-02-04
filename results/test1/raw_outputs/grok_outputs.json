@@ -30,18 +30,18 @@
         "end": "2022-11-03"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)",
-        "Section 20(A)",
-        "Section 11",
-        "Section 12(a)(2)",
-        "Section 15"
+        "§10(b) of the Exchange Act and Rule 10b-5",
+        "§20(a) of the Exchange Act",
+        "§20(A) of the Exchange Act",
+        "§11 of the Securities Act",
+        "§12(a)(2) of the Securities Act",
+        "§15 of the Securities Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 99308,
-      "completion_tokens": 192,
-      "total_tokens": 100210
+      "prompt_tokens": 99189,
+      "completion_tokens": 171,
+      "total_tokens": 99838
     },
     "case_id": "azd-2_22-cv-02126"
   },
@@ -71,14 +71,14 @@
         "end": "2018-08-17"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 against Tesla and Musk",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 against the Board"
       ]
     },
     "usage": {
-      "prompt_tokens": 27416,
-      "completion_tokens": 137,
-      "total_tokens": 28035
+      "prompt_tokens": 27297,
+      "completion_tokens": 133,
+      "total_tokens": 27930
     },
     "case_id": "cand-3_18-cv-04865"
   },
@@ -104,59 +104,16 @@
         "end": "2022-04-19"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 44077,
-      "completion_tokens": 121,
-      "total_tokens": 44810
+      "prompt_tokens": 43958,
+      "completion_tokens": 104,
+      "total_tokens": 44604
     },
     "case_id": "cand-4_22-cv-02672"
-  },
-  {
-    "model": "grok",
-    "model_id": "xai/grok-4-1-fast-reasoning",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [
-        "Martin Dugan",
-        "Leon Yu",
-        "Max Wisdom Technology Limited"
-      ],
-      "defendants": [
-        "Talis Biomedical Corporation",
-        "Brian Coe",
-        "J. Roger Moody, Jr.",
-        "Felix Baker",
-        "Raymond Cheong",
-        "Melissa Gilliam",
-        "Rustem F. Ismagilov",
-        "Kimberly J. Popovits",
-        "Matthew L. Posard",
-        "Randal Scott",
-        "Robert J. Kelley"
-      ],
-      "ticker": "TLIS",
-      "class_period": {
-        "start": "2021-03-30",
-        "end": "2022-03-15"
-      },
-      "causes_of_action": [
-        "Section 11 of the Securities Act",
-        "Section 15 of the Securities Act",
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 39211,
-      "completion_tokens": 191,
-      "total_tokens": 40598
-    },
-    "case_id": "cand_22_cv_00105"
   },
   {
     "model": "grok",
@@ -178,14 +135,14 @@
         "end": "2022-08-03"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Exchange Act and SEC Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 75026,
-      "completion_tokens": 118,
-      "total_tokens": 75762
+      "prompt_tokens": 74907,
+      "completion_tokens": 95,
+      "total_tokens": 75507
     },
     "case_id": "cand_22_cv_02094"
   },
@@ -214,14 +171,14 @@
         "end": "2024-03-21"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5(b)",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5(b) Promulgated Thereunder (Against All Defendants)",
+        "Violation of Section 20(a) of the Exchange Act (Against the Individual Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 65397,
-      "completion_tokens": 140,
-      "total_tokens": 66102
+      "prompt_tokens": 65278,
+      "completion_tokens": 128,
+      "total_tokens": 66065
     },
     "case_id": "cand_23_cv_02560"
   },
@@ -252,16 +209,16 @@
         "end": "2023-05-19"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)",
-        "Section 11",
-        "Section 15"
+        "Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Section 20(a) of the Exchange Act",
+        "Section 11 of the Securities Act",
+        "Section 15 of the Securities Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 30781,
-      "completion_tokens": 152,
-      "total_tokens": 31977
+      "prompt_tokens": 30662,
+      "completion_tokens": 157,
+      "total_tokens": 31534
     },
     "case_id": "cand_23_cv_03518"
   },
@@ -286,14 +243,14 @@
         "end": "2024-08-07"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5 (Against All Defendants)",
+        "Violations of Section 20(a) of the Exchange Act (Against the Individual Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 24828,
-      "completion_tokens": 105,
-      "total_tokens": 26787
+      "prompt_tokens": 24709,
+      "completion_tokens": 117,
+      "total_tokens": 26295
     },
     "case_id": "cand_24_cv_03170"
   },
@@ -323,72 +280,16 @@
         "end": "2023-10-24"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5(b) against all Defendants",
+        "Violations of Section 20 of the Exchange Act against Defendant Vinciarelli"
       ]
     },
     "usage": {
-      "prompt_tokens": 11668,
-      "completion_tokens": 141,
-      "total_tokens": 12744
+      "prompt_tokens": 11549,
+      "completion_tokens": 122,
+      "total_tokens": 12638
     },
     "case_id": "cand_24_cv_04196"
-  },
-  {
-    "model": "grok",
-    "model_id": "xai/grok-4-1-fast-reasoning",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [
-        "Vinod Sodha",
-        "Amee Sodha"
-      ],
-      "defendants": [
-        "Robinhood Markets, Inc.",
-        "Vladimir Tenev",
-        "Jason Warnick",
-        "Baiju Bhatt",
-        "Jan Hammer",
-        "Paula Loop",
-        "Jonathan Rubenstein",
-        "Scott Sandell",
-        "Robert Zoellick",
-        "Goldman Sachs & Co. LLC",
-        "J.P. Morgan Securities LLC",
-        "Barclays Capital Inc.",
-        "Citigroup Global Markets Inc.",
-        "Wells Fargo Securities, LLC",
-        "Mizuho Securities USA LLC",
-        "JMP Securities LLC",
-        "KeyBanc Capital Markets Inc.",
-        "Piper Sandler & Co.",
-        "Rosenblatt Securities Inc.",
-        "BMO Capital Markets Corp.",
-        "BTIG, LLC",
-        "Santander Investment Securities Inc.",
-        "Academy Securities, Inc.",
-        "Loop Capital Markets LLC",
-        "Samuel A. Ramirez & Company, Inc.",
-        "Siebert Williams Shank & Co., LLC"
-      ],
-      "ticker": "HOOD",
-      "class_period": {
-        "start": "2021-07-30",
-        "end": "2021-07-30"
-      },
-      "causes_of_action": [
-        "Section 11 of the Securities Act",
-        "Section 12(a)(2) of the Securities Act",
-        "Section 15 of the Securities Act"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 29428,
-      "completion_tokens": 278,
-      "total_tokens": 32970
-    },
-    "case_id": "cand_3_21-cv-09767"
   },
   {
     "model": "grok",
@@ -410,14 +311,14 @@
         "end": "2022-01-20"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "§10(b) of the Exchange Act and Rule 10b-5",
+        "§20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 20118,
-      "completion_tokens": 121,
-      "total_tokens": 20762
+      "prompt_tokens": 19999,
+      "completion_tokens": 92,
+      "total_tokens": 20647
     },
     "case_id": "cand_3_22-cv-00956"
   },
@@ -442,14 +343,14 @@
         "end": "2023-05-10"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5 (All Defendants)",
+        "Violations of Section 20(a) of the Exchange Act (Individual Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 32976,
-      "completion_tokens": 110,
-      "total_tokens": 33938
+      "prompt_tokens": 32857,
+      "completion_tokens": 104,
+      "total_tokens": 33625
     },
     "case_id": "casd_3_23-cv-01216"
   },
@@ -459,73 +360,35 @@
     "test": "test1",
     "success": true,
     "response": {
-      "plaintiffs": [],
-      "defendants": [
-        "Lovesac",
-        "Donna Dellomo",
-        "Yoon Um"
+      "plaintiffs": [
+        "New England Teamsters Pension Fund",
+        "Westchester Putnam Counties Heavy & Highway Laborers Local 60 Benefits Fund",
+        "United Union of Roofers, Waterproofers & Allied Workers Local Union No. 8 WBPA Fund"
       ],
-      "ticker": "LOVE",
+      "defendants": [
+        "RTX Corporation",
+        "Gregory Hayes",
+        "Neil Mitchill",
+        "Anthony F. O’Brien",
+        "Christopher T. Calio",
+        "Shane Eddy"
+      ],
+      "ticker": "RTX",
       "class_period": {
-        "start": null,
-        "end": null
+        "start": "2021-02-08",
+        "end": "2023-09-08"
       },
       "causes_of_action": [
-        "Securities Act Sections 17(a)(1) and 17(a)(3)",
-        "Securities Act Section 17(a)(3)",
-        "Exchange Act Section 10(b) and Rules 10b-5(a) and (c)",
-        "Exchange Act Section 10(b) and Rule 10b-5(b)",
-        "Aiding and abetting Exchange Act Section 10(b) and Rule 10b-5(b)",
-        "Exchange Act Section 13(b)(5)",
-        "Exchange Act Rule 13b2-1",
-        "Exchange Act Rule 13b2-2",
-        "Exchange Act Section 13(a) and Rules 12b-20, 13a-1, 13a-11, 13a-13",
-        "Aiding and abetting Exchange Act Section 13(a) and Rules 12b-20, 13a-1, 13a-11, 13a-13",
-        "Exchange Act Rule 13a-14",
-        "Exchange Act Section 13(b)(2)(A)",
-        "Aiding and abetting Exchange Act Section 13(b)(2)(A)",
-        "Exchange Act Section 13(b)(2)(B)",
-        "Aiding and abetting Exchange Act Section 13(b)(2)(B)"
+        "Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5 (Against RTX and Individual Defendants)",
+        "Violations of Section 20(a) of the Exchange Act (Against Hayes, O’Brien, Mitchill, Calio, and Eddy)"
       ]
     },
     "usage": {
-      "prompt_tokens": 11942,
-      "completion_tokens": 344,
-      "total_tokens": 15372
+      "prompt_tokens": 61990,
+      "completion_tokens": 162,
+      "total_tokens": 62691
     },
-    "case_id": "ctd-3_24-cv-01727"
-  },
-  {
-    "model": "grok",
-    "model_id": "xai/grok-4-1-fast-reasoning",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [],
-      "defendants": [
-        "Binance Holdings Limited",
-        "BAM Trading Services Inc.",
-        "BAM Management US Holdings Inc.",
-        "Changpeng Zhao"
-      ],
-      "ticker": null,
-      "class_period": {
-        "start": null,
-        "end": null
-      },
-      "causes_of_action": [
-        "Sections 5(a) and 5(c) of the Securities Act",
-        "Sections 5, 15(a), and 17A(b) of the Exchange Act",
-        "Section 20(a) of the Exchange Act",
-        "Sections 17(a)(2) and (3) of the Securities Act"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 50827,
-      "completion_tokens": 137,
-      "total_tokens": 52239
-    },
-    "case_id": "dcd-1_23-cv-01599"
+    "case_id": "ctd-3-23-cv-01035"
   },
   {
     "model": "grok",
@@ -548,14 +411,14 @@
         "end": "2023-10-23"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violations of Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 36220,
-      "completion_tokens": 119,
-      "total_tokens": 37703
+      "prompt_tokens": 36101,
+      "completion_tokens": 113,
+      "total_tokens": 37580
     },
     "case_id": "dcd-1_23-cv-02055"
   },
@@ -598,9 +461,9 @@
       ]
     },
     "usage": {
-      "prompt_tokens": 33513,
-      "completion_tokens": 237,
-      "total_tokens": 34543
+      "prompt_tokens": 33394,
+      "completion_tokens": 225,
+      "total_tokens": 34504
     },
     "case_id": "dde_ 23_cv_1466"
   },
@@ -625,14 +488,14 @@
         "end": "2020-12-22"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 44196,
-      "completion_tokens": 126,
-      "total_tokens": 44945
+      "prompt_tokens": 44077,
+      "completion_tokens": 122,
+      "total_tokens": 44792
     },
     "case_id": "dde_21_cv_55"
   },
@@ -679,23 +542,23 @@
         "end": null
       },
       "causes_of_action": [
-        "Securities Act of 1933, §§ 77e and 77l(a)(1) (Sections 5 and 12(a)(1))",
-        "Securities Exchange Act of 1934, § 78j(b) and Rule 10b-5",
-        "Commodity Exchange Act, 7 U.S.C. §§ 6b, 6e, 6o, and 25",
-        "Florida Securities and Investor Protection Act, §§ 517.301 and 517.211",
-        "Breach of Contract",
-        "Breach of Fiduciary Duty",
-        "Fraud in the Inducement",
-        "Negligent Misrepresentations",
-        "Conversion",
-        "Unjust Enrichment",
-        "Civil Conspiracy"
+        "Violation of the Securities Act of 1933, 15 U.S.C. § 77e and 77l(a)(1) – against Defendants CFT and FxWinning",
+        "Violation of the Securities Exchange Act of 1934 and Rule 10b-5, 15 U.S.C. § 78j(b) and C.F.R. § 240.10b-5 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "Violation of the Commodities Exchange Act, Sections 6 and 25, 7 U.S.C. §§ 6b, 6e, 6o, and 25 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "Violation of the Florida Securities and Investor Protection Act, Sections 517.301 and 517.211 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "Breach of Contract – against FxWinning",
+        "Breach of Fiduciary Duty – against all Defendants",
+        "Fraud in the Inducement – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "Negligent Misrepresentations – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "Conversion – against all Defendants",
+        "Unjust Enrichment – against all Defendants",
+        "Civil Conspiracy – against all Defendants"
       ]
     },
     "usage": {
-      "prompt_tokens": 15499,
-      "completion_tokens": 403,
-      "total_tokens": 17841
+      "prompt_tokens": 15380,
+      "completion_tokens": 455,
+      "total_tokens": 17773
     },
     "case_id": "flsd-1_23-cv-23139"
   },
@@ -706,43 +569,41 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "Sudhakara R. Murikinati",
-        "Jerry Nixon",
-        "Benjamin Sandmann",
-        "Jeff S. Turnipseed"
+        "The Phoenix Insurance Company Ltd.",
+        "The Phoenix Pension & Provident Funds",
+        "City of Melbourne Firefighters’ Retirement System"
       ],
       "defendants": [
-        "GoHealth, Inc.",
-        "Clinton P. Jones",
-        "Brandon M. Cruz",
-        "Travis J. Matthiesen",
-        "NVX Holdings, Inc.",
-        "Centerbridge Partners, L.P.",
-        "CCP III AIV VII Holdings, L.P.",
-        "CB Blizzard Co-Invest Holdings, L.P.",
-        "Blizzard Aggregator, LLC",
-        "Centerbridge Associates III, L.P.",
-        "CCP III Cayman GP Ltd.",
-        "Goldman Sachs & Co. LLC",
-        "BofA Securities, Inc.",
-        "Morgan Stanley & Co. LLC"
+        "ATI Physical Therapy, Inc. f/k/a Fortress Value Acquisition Corp. II",
+        "Labeed Diab",
+        "Joseph Jordan",
+        "Andrew A. McKnight",
+        "Joshua A. Pack",
+        "Marc Furstein",
+        "Leslee Cowen",
+        "Aaron F. Hood",
+        "Carmen A. Policy",
+        "Rakefet Russak-Aminoach",
+        "Sunil Gulati"
       ],
-      "ticker": "GOCO",
+      "ticker": "ATIP",
       "class_period": {
-        "start": "2020-07-14",
-        "end": "2020-07-17"
+        "start": "2021-02-22",
+        "end": "2021-10-19"
       },
       "causes_of_action": [
-        "Section 11 of the Securities Act",
-        "Section 15 of the Securities Act"
+        "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (Against ATI and the ATI Individual Defendants)",
+        "Section 20(a) of the Securities Exchange Act of 1934 (Against the ATI Individual Defendants)",
+        "Section 14(a) of the Securities Exchange Act of 1934 and SEC Rule 14a-9 (Against All Defendants)",
+        "Section 20(a) of the Exchange Act in Connection with the Proxy Claims (Against the ATI Individual Defendants and the FVAC Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 25163,
-      "completion_tokens": 217,
-      "total_tokens": 28441
+      "prompt_tokens": 30000,
+      "completion_tokens": 238,
+      "total_tokens": 31144
     },
-    "case_id": "ilnd-1_20_cv_05593"
+    "case_id": "ilnd-1-21-cv-04349"
   },
   {
     "model": "grok",
@@ -751,33 +612,68 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "DarkPulse, Inc."
+        "Julian Quinones"
       ],
       "defendants": [
-        "FirstFire Global Opportunity Fund, LLC",
-        "Eli Fireman",
-        "FirstFire Capital Management, LLC"
+        "Frequency Therapeutics, Inc.",
+        "Lucchino",
+        "LeBel"
       ],
-      "ticker": null,
+      "ticker": "FREQ",
       "class_period": {
-        "start": null,
-        "end": null
+        "start": "2020-10-29",
+        "end": "2021-03-22"
       },
       "causes_of_action": [
-        "Section 29(b) of the Exchange Act (violation of Section 15(a) - unregistered dealer in making transactions)",
-        "Section 29(b) of the Exchange Act (violation of Section 15(a) - unregistered dealer in performance of transactions)",
-        "Section 20(a) of the Exchange Act (control person liability)",
-        "18 U.S.C. § 1962(c) (RICO - conducting affairs of enterprise through collection of unlawful debt)",
-        "Unjust Enrichment",
-        "Constructive Trust"
+        "Violations of §10(b) of the Exchange Act and Rule 10b-5 (Against All Defendants)",
+        "Violations of §20(a) of the Exchange Act (Against the Individual Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 10781,
-      "completion_tokens": 179,
-      "total_tokens": 13836
+      "prompt_tokens": 16281,
+      "completion_tokens": 110,
+      "total_tokens": 18010
     },
-    "case_id": "nysd_1_21-cv-11222"
+    "case_id": "mad-1-21-cv-10933"
+  },
+  {
+    "model": "grok",
+    "model_id": "xai/grok-4-1-fast-reasoning",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "City of Hollywood Police Officers’ Retirement System",
+        "Plymouth County Retirement Association"
+      ],
+      "defendants": [
+        "General Motors Company",
+        "Cruise LLC",
+        "Mary T. Barra",
+        "Paul A. Jacobson",
+        "Kyle Vogt",
+        "Daniel Ammann",
+        "Doug L. Parks",
+        "Wayne G. West"
+      ],
+      "ticker": "GM",
+      "class_period": {
+        "start": "2021-02-24",
+        "end": "2023-11-08"
+      },
+      "causes_of_action": [
+        "Section 10(b) of the Exchange Act and Rule 10b-5(b) against GM, Cruise, and the Individual Defendants",
+        "Section 10(b) of the Exchange Act and Rule 10b-5(a)/(c) against GM, Cruise, and the Individual Defendants",
+        "Section 20(a) of the Exchange Act against Barra, Jacobson, and Parks as control persons of GM",
+        "Section 20(a) of the Exchange Act against Barra, Jacobson, Vogt, Ammann, Parks, and West as control persons of Cruise"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 63725,
+      "completion_tokens": 198,
+      "total_tokens": 64689
+    },
+    "case_id": "mied-4-23-cv-13132"
   },
   {
     "model": "grok",
@@ -810,11 +706,55 @@
       ]
     },
     "usage": {
-      "prompt_tokens": 50166,
-      "completion_tokens": 199,
-      "total_tokens": 51245
+      "prompt_tokens": 50047,
+      "completion_tokens": 145,
+      "total_tokens": 50865
     },
     "case_id": "nysd_20_cv_04494"
+  },
+  {
+    "model": "grok",
+    "model_id": "xai/grok-4-1-fast-reasoning",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "RTD Bros LLC",
+        "Todd Benn",
+        "Tom Benn",
+        "Tomasz Rzedzian",
+        "Preston Million"
+      ],
+      "defendants": [
+        "Lottery.com, Inc.",
+        "Lawrence Anthony “Tony” DiMatteo III",
+        "Ryan Dickinson",
+        "Matthew Clemenson",
+        "Kathryn Lever",
+        "Marat Rosenberg",
+        "Vadim Komissarov",
+        "Thomas Gallagher",
+        "Gennadii Butkevych",
+        "Ilya Ponomarev"
+      ],
+      "ticker": "LTRY",
+      "class_period": {
+        "start": "2020-11-19",
+        "end": "2022-07-29"
+      },
+      "causes_of_action": [
+        "Section 10(b) of the Exchange Act and Rule 10b-5 (All Defendants)",
+        "Section 20(a) of the Exchange Act (Individual Defendants)",
+        "Section 14(a) of the Exchange Act and Rule 14a-9 (All Defendants)",
+        "Section 20(a) of the Exchange Act (Individual Defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 26836,
+      "completion_tokens": 183,
+      "total_tokens": 27896
+    },
+    "case_id": "nysd_22-cv-07111"
   },
   {
     "model": "grok",
@@ -837,14 +777,14 @@
         "end": "2022-09-22"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 23415,
-      "completion_tokens": 113,
-      "total_tokens": 24000
+      "prompt_tokens": 23296,
+      "completion_tokens": 93,
+      "total_tokens": 24008
     },
     "case_id": "nysd_22_cv_10292"
   },
@@ -869,14 +809,14 @@
         "end": "2023-09-15"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Violations of §10(b) of the 1934 Act and SEC Rule 10b-5 (Against All Defendants)",
+        "Violations of §20(a) of the 1934 Act (Against All Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 15923,
-      "completion_tokens": 112,
-      "total_tokens": 21150
+      "prompt_tokens": 15804,
+      "completion_tokens": 126,
+      "total_tokens": 21539
     },
     "case_id": "nysd_23_cv_9476"
   },
@@ -911,9 +851,9 @@
       ]
     },
     "usage": {
-      "prompt_tokens": 43113,
-      "completion_tokens": 183,
-      "total_tokens": 44140
+      "prompt_tokens": 42994,
+      "completion_tokens": 171,
+      "total_tokens": 43771
     },
     "case_id": "nysd_24_cv_310"
   },
@@ -940,15 +880,51 @@
         "end": "2024-05-28"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5",
-        "Section 20(a)"
+        "Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 54783,
-      "completion_tokens": 131,
-      "total_tokens": 55558
+      "prompt_tokens": 54664,
+      "completion_tokens": 127,
+      "total_tokens": 55461
     },
     "case_id": "txnd-4_24-cv-00673"
+  },
+  {
+    "model": "grok",
+    "model_id": "xai/grok-4-1-fast-reasoning",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Utah Retirement Systems (URS)",
+        "Construction Laborers Pension Trust for Southern California (Southern California Laborers)"
+      ],
+      "defendants": [
+        "Concho Resources Inc.",
+        "ConocoPhillips",
+        "Timothy A. Leach",
+        "Jack F. Harper",
+        "C. William Giraud",
+        "E. Joseph Wright",
+        "Brenda R. Schroer"
+      ],
+      "ticker": "CXO",
+      "class_period": {
+        "start": "2018-02-21",
+        "end": "2019-07-31"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 65939,
+      "completion_tokens": 130,
+      "total_tokens": 66663
+    },
+    "case_id": "txsd-4-21-cv-02473"
   }
 ]

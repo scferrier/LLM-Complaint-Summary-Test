@@ -30,18 +30,18 @@
         "end": "2022-11-03"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act",
-        "Section 20(A) of the Exchange Act",
-        "Section 11 of the Securities Act",
-        "Section 12(a)(2) of the Securities Act",
-        "Section 15 of the Securities Act"
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violations of Section 20(a) of the Exchange Act",
+        "Violations of Section 20(A) of the Exchange Act",
+        "Violations of Section 11 of the Securities Act",
+        "Violations of Section 12(a)(2) of the Securities Act",
+        "Violations of Section 15 of the Securities Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 112842,
-      "completion_tokens": 231,
-      "total_tokens": 113073
+      "prompt_tokens": 112704,
+      "completion_tokens": 249,
+      "total_tokens": 112953
     },
     "case_id": "azd-2_22-cv-02126"
   },
@@ -71,14 +71,14 @@
         "end": "2018-08-17"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (against Tesla and Musk)",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 (against the Board of Directors)"
       ]
     },
     "usage": {
-      "prompt_tokens": 29856,
-      "completion_tokens": 195,
-      "total_tokens": 30051
+      "prompt_tokens": 29718,
+      "completion_tokens": 246,
+      "total_tokens": 29964
     },
     "case_id": "cand-3_18-cv-04865"
   },
@@ -104,14 +104,14 @@
         "end": "2022-04-19"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 47788,
-      "completion_tokens": 149,
-      "total_tokens": 47937
+      "prompt_tokens": 47650,
+      "completion_tokens": 213,
+      "total_tokens": 47863
     },
     "case_id": "cand-4_22-cv-02672"
   },
@@ -122,50 +122,7 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "Martin Dugan",
-        "Leon Yu",
-        "Max Wisdom Technology Limited"
-      ],
-      "defendants": [
-        "Talis Biomedical Corporation",
-        "Brian Coe",
-        "J. Roger Moody, Jr.",
-        "Felix Baker",
-        "Raymond Cheong",
-        "Melissa Gilliam",
-        "Rustem F. Ismagilov",
-        "Kimberly J. Popovits",
-        "Matthew L. Posard",
-        "Randal Scott",
-        "Robert J. Kelley"
-      ],
-      "ticker": "TLIS",
-      "class_period": {
-        "start": "2021-03-30",
-        "end": "2022-03-15"
-      },
-      "causes_of_action": [
-        "Section 11 of the Securities Act of 1933",
-        "Section 15 of the Securities Act of 1933",
-        "Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 43871,
-      "completion_tokens": 254,
-      "total_tokens": 44125
-    },
-    "case_id": "cand_22_cv_00105"
-  },
-  {
-    "model": "claude-opus",
-    "model_id": "claude-opus-4-5-20251101",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [
-        "Sjunde AP-Fonden"
+        "Sjunde AP-Fonden (AP7)"
       ],
       "defendants": [
         "Lucid Group, Inc.",
@@ -178,14 +135,14 @@
         "end": "2022-08-03"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Exchange Act and SEC Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 84102,
-      "completion_tokens": 117,
-      "total_tokens": 84219
+      "prompt_tokens": 83964,
+      "completion_tokens": 127,
+      "total_tokens": 84091
     },
     "case_id": "cand_22_cv_02094"
   },
@@ -214,14 +171,14 @@
         "end": "2024-03-21"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5(b) promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 73736,
-      "completion_tokens": 169,
-      "total_tokens": 73905
+      "prompt_tokens": 73598,
+      "completion_tokens": 228,
+      "total_tokens": 73826
     },
     "case_id": "cand_23_cv_02560"
   },
@@ -236,8 +193,7 @@
         "Branden Schenkhuizen"
       ],
       "defendants": [
-        "Rain Oncology Inc.",
-        "Rain Therapeutics Inc.",
+        "Rain Oncology Inc. f/k/a Rain Therapeutics Inc.",
         "Avanish Vellanki",
         "Richard Bryce",
         "Franklin Berger",
@@ -253,16 +209,16 @@
         "end": "2023-05-19"
       },
       "causes_of_action": [
-        "Section 10(b) and Rule 10b-5 of the Securities Exchange Act of 1934",
-        "Section 20(a) of the Securities Exchange Act of 1934",
-        "Section 11 of the Securities Act of 1933",
-        "Section 15 of the Securities Act of 1933"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934",
+        "Violation of Section 11 of the Securities Act of 1933",
+        "Violation of Section 15 of the Securities Act of 1933"
       ]
     },
     "usage": {
-      "prompt_tokens": 35336,
-      "completion_tokens": 241,
-      "total_tokens": 35577
+      "prompt_tokens": 35198,
+      "completion_tokens": 305,
+      "total_tokens": 35503
     },
     "case_id": "cand_23_cv_03518"
   },
@@ -287,14 +243,14 @@
         "end": "2024-08-07"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 27154,
-      "completion_tokens": 151,
-      "total_tokens": 27305
+      "prompt_tokens": 27016,
+      "completion_tokens": 189,
+      "total_tokens": 27205
     },
     "case_id": "cand_24_cv_03170"
   },
@@ -324,72 +280,16 @@
         "end": "2023-10-24"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5(b)",
-        "Section 20(a) of the Exchange Act"
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5(b)",
+        "Violations of Section 20 of the Exchange Act (Control Person Liability)"
       ]
     },
     "usage": {
-      "prompt_tokens": 12710,
-      "completion_tokens": 220,
-      "total_tokens": 12930
+      "prompt_tokens": 12572,
+      "completion_tokens": 229,
+      "total_tokens": 12801
     },
     "case_id": "cand_24_cv_04196"
-  },
-  {
-    "model": "claude-opus",
-    "model_id": "claude-opus-4-5-20251101",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [
-        "Vinod Sodha",
-        "Amee Sodha"
-      ],
-      "defendants": [
-        "Robinhood Markets, Inc.",
-        "Vladimir Tenev",
-        "Jason Warnick",
-        "Baiju Bhatt",
-        "Jan Hammer",
-        "Paula Loop",
-        "Jonathan Rubenstein",
-        "Scott Sandell",
-        "Robert Zoellick",
-        "Goldman Sachs & Co. LLC",
-        "J.P. Morgan Securities LLC",
-        "Barclays Capital Inc.",
-        "Citigroup Global Markets Inc.",
-        "Wells Fargo Securities, LLC",
-        "Mizuho Securities USA LLC",
-        "JMP Securities LLC",
-        "KeyBanc Capital Markets Inc.",
-        "Piper Sandler & Co.",
-        "Rosenblatt Securities Inc.",
-        "BMO Capital Markets Corp.",
-        "BTIG, LLC",
-        "Santander Investment Securities Inc.",
-        "Academy Securities, Inc.",
-        "Loop Capital Markets LLC",
-        "Samuel A. Ramirez & Company, Inc.",
-        "Siebert Williams Shank & Co., LLC"
-      ],
-      "ticker": "HOOD",
-      "class_period": {
-        "start": "2021-07-28",
-        "end": "2021-07-30"
-      },
-      "causes_of_action": [
-        "Section 11 of the Securities Act of 1933",
-        "Section 12(a)(2) of the Securities Act of 1933",
-        "Section 15 of the Securities Act of 1933"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 33312,
-      "completion_tokens": 322,
-      "total_tokens": 33634
-    },
-    "case_id": "cand_3_21-cv-09767"
   },
   {
     "model": "claude-opus",
@@ -411,14 +311,14 @@
         "end": "2022-01-20"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 22555,
-      "completion_tokens": 151,
-      "total_tokens": 22706
+      "prompt_tokens": 22417,
+      "completion_tokens": 198,
+      "total_tokens": 22615
     },
     "case_id": "cand_3_22-cv-00956"
   },
@@ -443,14 +343,14 @@
         "end": "2023-05-10"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 37570,
-      "completion_tokens": 162,
-      "total_tokens": 37732
+      "prompt_tokens": 37432,
+      "completion_tokens": 168,
+      "total_tokens": 37600
     },
     "case_id": "casd_3_23-cv-01216"
   },
@@ -461,85 +361,34 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "Securities and Exchange Commission"
+        "New England Teamsters Pension Fund",
+        "Westchester Putnam Counties Heavy & Highway Laborers Local 60 Benefits Fund",
+        "United Union of Roofers, Waterproofers & Allied Workers Local Union No. 8 WBPA Fund"
       ],
       "defendants": [
-        "Lovesac",
-        "Donna Dellomo",
-        "Yoon Um"
+        "RTX Corporation",
+        "Gregory Hayes",
+        "Neil Mitchill",
+        "Anthony F. O'Brien",
+        "Christopher T. Calio",
+        "Shane Eddy"
       ],
-      "ticker": "LOVE",
+      "ticker": "RTX",
       "class_period": {
-        "start": null,
-        "end": null
+        "start": "2021-02-08",
+        "end": "2023-09-08"
       },
       "causes_of_action": [
-        "Securities Act Section 17(a)(1) - Fraud in the Offer or Sale of Securities",
-        "Securities Act Section 17(a)(3) - Fraud in the Offer or Sale of Securities",
-        "Exchange Act Section 10(b) and Rules 10b-5(a) and (c) - Fraud in Connection with the Purchase or Sale of Securities",
-        "Exchange Act Section 10(b) and Rule 10b-5(b) - Fraud in Connection with the Purchase or Sale of Securities",
-        "Aiding and Abetting violations of Exchange Act Section 10(b) and Rule 10b-5(b)",
-        "Exchange Act Section 13(b)(5) - Knowingly Circumventing Internal Controls, Failing to Implement Internal Controls, or Falsifying Books and Records",
-        "Exchange Act Rule 13b2-1 - Falsifying Any Book, Record, or Account",
-        "Exchange Act Rule 13b2-2 - Lying, Coercing, or Improperly Influencing an Accountant",
-        "Exchange Act Section 13(a) and Rules 12b-20, 13a-1, 13a-11, and 13a-13 - Material Misstatements or Omissions in Periodic or Other Reports",
-        "Aiding and Abetting violations of Exchange Act Section 13(a) and Rules 12b-20, 13a-1, 13a-11, and 13a-13",
-        "Exchange Act Rule 13a-14 - False Certification of Financial Reports",
-        "Exchange Act Section 13(b)(2)(A) - Failure to Make and Keep Books and Records in Reasonable Detail",
-        "Aiding and Abetting violations of Exchange Act Section 13(b)(2)(A)",
-        "Exchange Act Section 13(b)(2)(B) - Failure to Devise and Maintain a System of Internal Accounting Controls",
-        "Aiding and Abetting violations of Exchange Act Section 13(b)(2)(B)"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 13532,
-      "completion_tokens": 578,
-      "total_tokens": 14110
+      "prompt_tokens": 70186,
+      "completion_tokens": 258,
+      "total_tokens": 70444
     },
-    "case_id": "ctd-3_24-cv-01727"
-  },
-  {
-    "model": "claude-opus",
-    "model_id": "claude-opus-4-5-20251101",
-    "test": "test1",
-    "success": true,
-    "response": {
-      "plaintiffs": [
-        "U.S. Securities and Exchange Commission"
-      ],
-      "defendants": [
-        "Binance Holdings Limited",
-        "BAM Trading Services Inc.",
-        "BAM Management US Holdings Inc.",
-        "Changpeng Zhao"
-      ],
-      "ticker": null,
-      "class_period": {
-        "start": null,
-        "end": null
-      },
-      "causes_of_action": [
-        "Sections 5(a) and 5(c) of the Securities Act - Unregistered Offers and Sales of BNB",
-        "Sections 5(a) and 5(c) of the Securities Act - Unregistered Offers and Sales of BUSD",
-        "Sections 5(a) and 5(c) of the Securities Act - Unregistered Offer and Sale of Simple Earn and BNB Vault",
-        "Sections 5(a) and 5(c) of the Securities Act - Unregistered Offer and Sale of Staking Program",
-        "Exchange Act Section 5 - Failing to Register as an Exchange for the Binance.com Platform",
-        "Exchange Act Section 15(a) - Failing to Register as a Broker-Dealer for the Binance.com Platform",
-        "Exchange Act Section 17A(b) - Failing to Register as a Clearing Agency for the Binance.com Platform",
-        "Exchange Act Section 5 - Failure to Register as an Exchange for the Binance.US Platform",
-        "Exchange Act Section 15(a) - Failing to Register as a Broker for the Binance.US Platform",
-        "Exchange Act Section 17A(b) - Failing to Register as a Clearing Agency for the Binance.US Platform",
-        "Exchange Act Sections 5, 15(a), and 17A(b) - Control Person Liability (Zhao for Binance.com Platform)",
-        "Exchange Act Sections 5, 15(a), and 17A(b) - Control Person Liability (Zhao for Binance.US Platform)",
-        "Securities Act Sections 17(a)(2) and (a)(3) - Fraud"
-      ]
-    },
-    "usage": {
-      "prompt_tokens": 58466,
-      "completion_tokens": 470,
-      "total_tokens": 58936
-    },
-    "case_id": "dcd-1_23-cv-01599"
+    "case_id": "ctd-3-23-cv-01035"
   },
   {
     "model": "claude-opus",
@@ -551,7 +400,7 @@
         "Derek Einersen"
       ],
       "defendants": [
-        "Danaher",
+        "Danaher Corporation",
         "Rainer M. Blair",
         "Matthew R. McGrew",
         "Emmanuel Ligner"
@@ -562,14 +411,14 @@
         "end": "2023-10-23"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 39965,
-      "completion_tokens": 152,
-      "total_tokens": 40117
+      "prompt_tokens": 39827,
+      "completion_tokens": 191,
+      "total_tokens": 40018
     },
     "case_id": "dcd-1_23-cv-02055"
   },
@@ -592,7 +441,7 @@
         "Elizabeth R. Neuhoff",
         "Greg S. Morganroth, M.D.",
         "Joseph Feliciani, Jr.",
-        "Ruediger \"Rudy\" Adolf",
+        "Ruediger 'Rudy' Adolf",
         "Rajini Sundar Kodialam",
         "James D. Carey",
         "Fayez S. Muhtadie",
@@ -612,15 +461,15 @@
         "end": "2023-08-31"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5(a)-(c)",
-        "Section 14(a) of the Exchange Act and Rule 14a-9",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5(a)-(c) promulgated thereunder",
+        "Violation of Section 14(a) of the Securities Exchange Act of 1934 and Rule 14a-9 promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 (Control Person Liability)"
       ]
     },
     "usage": {
-      "prompt_tokens": 37890,
-      "completion_tokens": 412,
-      "total_tokens": 38302
+      "prompt_tokens": 37752,
+      "completion_tokens": 457,
+      "total_tokens": 38209
     },
     "case_id": "dde_ 23_cv_1466"
   },
@@ -645,14 +494,14 @@
         "end": "2020-12-22"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 51016,
-      "completion_tokens": 160,
-      "total_tokens": 51176
+      "prompt_tokens": 50878,
+      "completion_tokens": 209,
+      "total_tokens": 51087
     },
     "case_id": "dde_21_cv_55"
   },
@@ -713,9 +562,9 @@
       ]
     },
     "usage": {
-      "prompt_tokens": 18134,
+      "prompt_tokens": 17996,
       "completion_tokens": 574,
-      "total_tokens": 18708
+      "total_tokens": 18570
     },
     "case_id": "flsd-1_23-cv-23139"
   },
@@ -726,43 +575,41 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "Sudhakara R. Murikinati",
-        "Jerry Nixon",
-        "Benjamin Sandmann",
-        "Jeff S. Turnipseed"
+        "The Phoenix Insurance Company Ltd.",
+        "The Phoenix Pension & Provident Funds",
+        "City of Melbourne Firefighters' Retirement System"
       ],
       "defendants": [
-        "GoHealth, Inc.",
-        "Clinton P. Jones",
-        "Brandon M. Cruz",
-        "Travis J. Matthiesen",
-        "NVX Holdings, Inc.",
-        "Centerbridge Partners, L.P.",
-        "CCP III AIV VII Holdings, L.P.",
-        "CB Blizzard Co-Invest Holdings, L.P.",
-        "Blizzard Aggregator, LLC",
-        "Centerbridge Associates III, L.P.",
-        "CCP III Cayman GP Ltd.",
-        "Goldman Sachs & Co. LLC",
-        "BofA Securities, Inc.",
-        "Morgan Stanley & Co. LLC"
+        "ATI Physical Therapy, Inc. f/k/a Fortress Value Acquisition Corp. II",
+        "Labeed Diab",
+        "Joseph Jordan",
+        "Andrew A. McKnight",
+        "Joshua A. Pack",
+        "Marc Furstein",
+        "Leslee Cowen",
+        "Aaron F. Hood",
+        "Carmen A. Policy",
+        "Rakefet Russak-Aminoach",
+        "Sunil Gulati"
       ],
-      "ticker": "GOCO",
+      "ticker": "ATIP",
       "class_period": {
-        "start": "2020-07-14",
-        "end": "2020-07-17"
+        "start": "2021-02-22",
+        "end": "2021-10-19"
       },
       "causes_of_action": [
-        "Section 11 of the Securities Act of 1933",
-        "Section 15 of the Securities Act of 1933"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (Control Person Liability for Section 10(b) claims)",
+        "Violations of Section 14(a) of the Securities Exchange Act of 1934 and SEC Rule 14a-9",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (Control Person Liability for Section 14(a) claims)"
       ]
     },
     "usage": {
-      "prompt_tokens": 27761,
-      "completion_tokens": 271,
-      "total_tokens": 28032
+      "prompt_tokens": 34460,
+      "completion_tokens": 379,
+      "total_tokens": 34839
     },
-    "case_id": "ilnd-1_20_cv_05593"
+    "case_id": "ilnd-1-21-cv-04349"
   },
   {
     "model": "claude-opus",
@@ -771,30 +618,68 @@
     "success": true,
     "response": {
       "plaintiffs": [
-        "DarkPulse, Inc."
+        "Julian Quinones"
       ],
       "defendants": [
-        "FirstFire Global Opportunity Fund, LLC",
-        "Eli Fireman",
-        "FirstFire Capital Management, LLC"
+        "Frequency Therapeutics, Inc.",
+        "David L. Lucchino",
+        "Carl LeBel"
       ],
-      "ticker": "DPLS",
-      "class_period": null,
+      "ticker": "FREQ",
+      "class_period": {
+        "start": "2020-10-29",
+        "end": "2021-03-23"
+      },
       "causes_of_action": [
-        "Section 29(b) of the Securities Exchange Act for Violating Section 15(a) by Effecting (Making) Transactions As an Unregistered Dealer",
-        "Section 29(b) of the Securities Exchange Act for Violating Section 15(a) by Unlawfully Transacting in Securities Via Performance of the Agreements as an Unregistered Dealer",
-        "Section 20(a) of the Securities Exchange Act - Control Person Liability",
-        "RICO Section 1962(c) - Conducting Affairs of the RICO Enterprise Through Collection of Unlawful Debt",
-        "Unjust Enrichment",
-        "Constructive Trust"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (against Individual Defendants)"
       ]
     },
     "usage": {
-      "prompt_tokens": 12471,
-      "completion_tokens": 252,
-      "total_tokens": 12723
+      "prompt_tokens": 18128,
+      "completion_tokens": 167,
+      "total_tokens": 18295
     },
-    "case_id": "nysd_1_21-cv-11222"
+    "case_id": "mad-1-21-cv-10933"
+  },
+  {
+    "model": "claude-opus",
+    "model_id": "claude-opus-4-5-20251101",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "City of Hollywood Police Officers' Retirement System",
+        "Plymouth County Retirement Association"
+      ],
+      "defendants": [
+        "General Motors Company",
+        "Cruise LLC",
+        "Mary T. Barra",
+        "Paul A. Jacobson",
+        "Kyle Vogt",
+        "Daniel Ammann",
+        "Doug L. Parks",
+        "Wayne G. West"
+      ],
+      "ticker": "GM",
+      "class_period": {
+        "start": "2021-02-24",
+        "end": "2023-11-08"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5(b)",
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5(a)/(c)",
+        "Violations of Section 20(a) of the Exchange Act against Defendants Barra, Jacobson, and Parks as Control Persons of GM",
+        "Violations of Section 20(a) of the Exchange Act against the Individual Defendants as Control Persons of Cruise"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 72073,
+      "completion_tokens": 296,
+      "total_tokens": 72369
+    },
+    "case_id": "mied-4-23-cv-13132"
   },
   {
     "model": "claude-opus",
@@ -814,7 +699,7 @@
         "John R. Shrewsberry",
         "Charles W. Scharf",
         "C. Allen Parker",
-        "Elizabeth \"Betsy\" Duke"
+        "Elizabeth Duke"
       ],
       "ticker": "WFC",
       "class_period": {
@@ -822,16 +707,61 @@
         "end": "2020-03-12"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and SEC Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violations of Section 10(b) of the Securities Exchange Act and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 57678,
-      "completion_tokens": 255,
-      "total_tokens": 57933
+      "prompt_tokens": 57540,
+      "completion_tokens": 258,
+      "total_tokens": 57798
     },
     "case_id": "nysd_20_cv_04494"
+  },
+  {
+    "model": "claude-opus",
+    "model_id": "claude-opus-4-5-20251101",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "RTD Bros LLC",
+        "Todd Benn",
+        "Tom Benn",
+        "Tomasz Rzedzian",
+        "Preston Million"
+      ],
+      "defendants": [
+        "Lottery.com, Inc.",
+        "Trident Acquisitions Corp.",
+        "Lawrence Anthony DiMatteo III",
+        "Ryan Dickinson",
+        "Matthew Clemenson",
+        "Kathryn Lever",
+        "Marat Rosenberg",
+        "Vadim Komissarov",
+        "Thomas Gallagher",
+        "Gennadii Butkevych",
+        "Ilya Ponomarev"
+      ],
+      "ticker": "LTRY",
+      "class_period": {
+        "start": "2020-11-19",
+        "end": "2022-07-29"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5 Promulgated Thereunder",
+        "Violations of Section 20(a) of the Exchange Act",
+        "Violation of Section 14(a) of the Exchange Act and Rule 14a-9",
+        "Violation of Section 20(a) of the Exchange Act (related to Section 14(a) claims)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 29861,
+      "completion_tokens": 345,
+      "total_tokens": 30206
+    },
+    "case_id": "nysd_22-cv-07111"
   },
   {
     "model": "claude-opus",
@@ -854,14 +784,14 @@
         "end": "2022-09-22"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 26739,
-      "completion_tokens": 152,
-      "total_tokens": 26891
+      "prompt_tokens": 26601,
+      "completion_tokens": 170,
+      "total_tokens": 26771
     },
     "case_id": "nysd_22_cv_10292"
   },
@@ -882,18 +812,18 @@
       ],
       "ticker": "DCGO",
       "class_period": {
-        "start": "2022-04-29",
-        "end": "2023-09-15"
+        "start": "2022-10-11",
+        "end": "2023-09-18"
       },
       "causes_of_action": [
-        "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
-        "Section 20(a) of the Securities Exchange Act of 1934"
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 17582,
-      "completion_tokens": 160,
-      "total_tokens": 17742
+      "prompt_tokens": 17444,
+      "completion_tokens": 192,
+      "total_tokens": 17636
     },
     "case_id": "nysd_23_cv_9476"
   },
@@ -920,17 +850,17 @@
         "end": "2024-08-01"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and SEC Rule 10b-5(b)",
-        "Section 10(b) of the Exchange Act and SEC Rules 10b-5(a) and (c)",
-        "Section 20(a) of the Exchange Act",
-        "Section 11 of the Securities Act",
-        "Section 15 of the Securities Act"
+        "Violations of Section 10(b) of the Exchange Act and SEC Rule 10b-5(b)",
+        "Violations of Section 10(b) of the Exchange Act and SEC Rules 10b-5(a) and (c)",
+        "Violations of Section 20(a) of the Exchange Act",
+        "Violations of Section 11 of the Securities Act",
+        "Violations of Section 15 of the Securities Act"
       ]
     },
     "usage": {
-      "prompt_tokens": 49545,
-      "completion_tokens": 226,
-      "total_tokens": 49771
+      "prompt_tokens": 49407,
+      "completion_tokens": 277,
+      "total_tokens": 49684
     },
     "case_id": "nysd_24_cv_310"
   },
@@ -957,15 +887,51 @@
         "end": "2024-05-28"
       },
       "causes_of_action": [
-        "Section 10(b) of the Exchange Act and Rule 10b-5",
-        "Section 20(a) of the Exchange Act"
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
       ]
     },
     "usage": {
-      "prompt_tokens": 60278,
-      "completion_tokens": 163,
-      "total_tokens": 60441
+      "prompt_tokens": 60140,
+      "completion_tokens": 216,
+      "total_tokens": 60356
     },
     "case_id": "txnd-4_24-cv-00673"
+  },
+  {
+    "model": "claude-opus",
+    "model_id": "claude-opus-4-5-20251101",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Utah Retirement Systems",
+        "Construction Laborers Pension Trust for Southern California"
+      ],
+      "defendants": [
+        "Concho Resources Inc.",
+        "ConocoPhillips",
+        "Timothy A. Leach",
+        "Jack F. Harper",
+        "C. William Giraud",
+        "E. Joseph Wright",
+        "Brenda R. Schroer"
+      ],
+      "ticker": "CXO",
+      "class_period": {
+        "start": "2018-02-21",
+        "end": "2019-07-31"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 73892,
+      "completion_tokens": 221,
+      "total_tokens": 74113
+    },
+    "case_id": "txsd-4-21-cv-02473"
   }
 ]

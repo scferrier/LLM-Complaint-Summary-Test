@@ -16,7 +16,8 @@ def _get_model_stats(scores_df, test_name):
             stats.append({'model': model, 'data': d, 'successful': successful, 'total': total, 'rate': successful / total if total else 0})
     return stats
 
-def generate_summary_report(test1_scores: pd.DataFrame, test2_scores: pd.DataFrame, output_path: str = "results/summary_report.md") -> str:
+def generate_summary_report(test1_scores: pd.DataFrame, test2_scores: pd.DataFrame, test3_scores: pd.DataFrame = None, output_path: str = "results/summary_report.md") -> str:
+    if test3_scores is None: test3_scores = pd.DataFrame()
     lines = ["# LLM Evaluation Summary Report\n", "## Test 1: Structured Data Extraction\n"]
     if not test1_scores.empty:
         stats = sorted(_get_model_stats(test1_scores, "test1"), key=lambda x: x['data']['overall'].mean(), reverse=True)
@@ -35,6 +36,37 @@ def generate_summary_report(test1_scores: pd.DataFrame, test2_scores: pd.DataFra
                 d = s['data']
                 lines.append(f"| {s['model']} | {d['overall'].mean():.3f} | {d['rouge1'].mean():.3f} | {d['bertscore_f1'].mean():.3f} | {d.get('faithfulness', pd.Series([0])).mean():.3f} | {d.get('ruling_f1', pd.Series([0])).mean():.3f} |")
     else: lines.append("No Test 2 results.\n")
+
+    lines.append("\n## Test 3: Scienter-Focused Ruling Predictions\n")
+    if not test3_scores.empty:
+        stats = []
+        for model in test3_scores['model'].unique():
+            d = test3_scores[test3_scores['model'] == model]
+            if len(d) > 0:
+                stats.append({'model': model, 'data': d, 'n_cases': len(d)})
+        stats = sorted(stats, key=lambda x: x['data']['ruling_f1'].mean(), reverse=True)
+        if stats:
+            lines += ["| Model | Ruling F1 | Ruling Accuracy | Cases |", "|-------|-----------|-----------------|-------|"]
+            for s in stats:
+                d = s['data']
+                lines.append(f"| {s['model']} | {d['ruling_f1'].mean():.3f} | {d['ruling_accuracy'].mean():.3f} | {s['n_cases']} |")
+    else: lines.append("No Test 3 results.\n")
+
+    # Ruling comparison section
+    if not test2_scores.empty or not test3_scores.empty:
+        lines.append("\n## Ruling Prediction Comparison: Test 2 vs Test 3\n")
+        lines.append("Test 2 uses standard prompts. Test 3 uses scienter-focused prompts.\n")
+        models = set()
+        if not test2_scores.empty: models.update(test2_scores['model'].unique())
+        if not test3_scores.empty: models.update(test3_scores['model'].unique())
+        lines += ["| Model | Test2 F1 | Test3 F1 | Improvement |", "|-------|----------|----------|-------------|"]
+        for model in sorted(models):
+            t2_f1 = test2_scores[test2_scores['model'] == model]['ruling_f1'].mean() if not test2_scores.empty and model in test2_scores['model'].values else 0.0
+            t3_f1 = test3_scores[test3_scores['model'] == model]['ruling_f1'].mean() if not test3_scores.empty and model in test3_scores['model'].values else 0.0
+            imp = t3_f1 - t2_f1
+            imp_str = f"+{imp:.3f}" if imp >= 0 else f"{imp:.3f}"
+            lines.append(f"| {model} | {t2_f1:.3f} | {t3_f1:.3f} | {imp_str} |")
+
     report = "\n".join(lines)
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     open(output_path, 'w', encoding='utf-8').write(report)
@@ -77,4 +109,57 @@ def generate_test2_results_table(test2_scores: pd.DataFrame, output_dir: str = "
     p = Path(output_dir); p.mkdir(parents=True, exist_ok=True)
     df.to_csv(p / "test2_results_comparison.csv", index=False)
     df.to_excel(p / "test2_results_comparison.xlsx", index=False)
+    return df
+
+def generate_ruling_comparison_table(test2_scores: pd.DataFrame, test3_scores: pd.DataFrame, output_dir: str = "results") -> pd.DataFrame:
+    """Generate comparison table of ruling predictions between test2 (standard) and test3 (scienter-focused)."""
+    if test2_scores.empty and test3_scores.empty: return pd.DataFrame()
+
+    models = set()
+    if not test2_scores.empty: models.update(test2_scores['model'].unique())
+    if not test3_scores.empty: models.update(test3_scores['model'].unique())
+
+    rows = []
+    for model in sorted(models):
+        row = {'model': model}
+
+        # Test2 ruling metrics
+        if not test2_scores.empty:
+            d2 = test2_scores[test2_scores['model'] == model]
+            if not d2.empty:
+                row['test2_ruling_f1'] = d2['ruling_f1'].mean() if 'ruling_f1' in d2.columns else 0.0
+                row['test2_ruling_accuracy'] = d2['ruling_accuracy'].mean() if 'ruling_accuracy' in d2.columns else 0.0
+                row['test2_n_cases'] = len(d2)
+            else:
+                row['test2_ruling_f1'], row['test2_ruling_accuracy'], row['test2_n_cases'] = 0.0, 0.0, 0
+        else:
+            row['test2_ruling_f1'], row['test2_ruling_accuracy'], row['test2_n_cases'] = 0.0, 0.0, 0
+
+        # Test3 ruling metrics
+        if not test3_scores.empty:
+            d3 = test3_scores[test3_scores['model'] == model]
+            if not d3.empty:
+                row['test3_ruling_f1'] = d3['ruling_f1'].mean() if 'ruling_f1' in d3.columns else 0.0
+                row['test3_ruling_accuracy'] = d3['ruling_accuracy'].mean() if 'ruling_accuracy' in d3.columns else 0.0
+                row['test3_n_cases'] = len(d3)
+            else:
+                row['test3_ruling_f1'], row['test3_ruling_accuracy'], row['test3_n_cases'] = 0.0, 0.0, 0
+        else:
+            row['test3_ruling_f1'], row['test3_ruling_accuracy'], row['test3_n_cases'] = 0.0, 0.0, 0
+
+        # Calculate improvement (test3 - test2)
+        row['f1_improvement'] = row['test3_ruling_f1'] - row['test2_ruling_f1']
+        row['accuracy_improvement'] = row['test3_ruling_accuracy'] - row['test2_ruling_accuracy']
+
+        rows.append(row)
+
+    df = pd.DataFrame(rows).sort_values('test3_ruling_f1', ascending=False).reset_index(drop=True)
+    df.insert(0, 'rank', range(1, len(df) + 1))
+
+    for c in ['test2_ruling_f1', 'test2_ruling_accuracy', 'test3_ruling_f1', 'test3_ruling_accuracy', 'f1_improvement', 'accuracy_improvement']:
+        if c in df.columns: df[c] = df[c].round(3)
+
+    p = Path(output_dir); p.mkdir(parents=True, exist_ok=True)
+    df.to_csv(p / "ruling_comparison_test2_vs_test3.csv", index=False)
+    df.to_excel(p / "ruling_comparison_test2_vs_test3.xlsx", index=False)
     return df

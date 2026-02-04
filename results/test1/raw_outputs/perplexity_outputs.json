@@ -3,225 +3,936 @@
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596ae0af04344',t:'MTc2OTgyNDU0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "United Association National Pension Fund (UANPF)",
+        "Saskatchewan Healthcare Employees’ Pension Plan (SHEPP)"
+      ],
+      "defendants": [
+        "Carvana Co.",
+        "Ernest Garcia III",
+        "Mark Jenkins",
+        "Ernest Garcia II",
+        "Ryan Keeton",
+        "Benjamin Huston",
+        "Michael Maroone",
+        "Neha Parikh",
+        "Ira Platt",
+        "Greg Sullivan",
+        "Stephen Palmer",
+        "Citigroup Global Markets Inc.",
+        "J.P. Morgan Securities LLC"
+      ],
+      "ticker": "CVNA",
+      "class_period": {
+        "start": "2020-05-06",
+        "end": "2022-11-03"
+      },
+      "causes_of_action": [
+        "§10(b) of the Exchange Act and Rule 10b-5",
+        "§20(a) of the Exchange Act",
+        "§20(A) of the Exchange Act",
+        "§11 of the Securities Act",
+        "§12(a)(2) of the Securities Act",
+        "§15 of the Securities Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 100314,
+      "completion_tokens": 181,
+      "total_tokens": 100495
+    },
     "case_id": "azd-2_22-cv-02126"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596bb6e1c4344',t:'MTc2OTgyNDU0Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Glen Littleton"
+      ],
+      "defendants": [
+        "Tesla, Inc.",
+        "Elon R. Musk",
+        "Brad W. Buss",
+        "Robyn Denholm",
+        "Ira Ehrenpreis",
+        "Antonio J. Gracias",
+        "James Murdoch",
+        "Kimbal Musk",
+        "Linda Johnson Rice"
+      ],
+      "ticker": "TSLA",
+      "class_period": {
+        "start": "2018-08-07",
+        "end": "2018-08-17"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 against Tesla and Musk",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 against the Board of Directors"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 27399,
+      "completion_tokens": 162,
+      "total_tokens": 27561
+    },
     "case_id": "cand-3_18-cv-04865"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596c8586c4344',t:'MTc2OTgyNDU0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Fiyyaz Pirani, as Trustee of Imperium Irrevocable Trust"
+      ],
+      "defendants": [
+        "Netflix, Inc.",
+        "Reed Hastings",
+        "Ted Sarandos",
+        "Spencer Neumann",
+        "Gregory Peters"
+      ],
+      "ticker": "NFLX",
+      "class_period": {
+        "start": "2021-01-19",
+        "end": "2022-04-19"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 - making materially false and misleading statements and omitting material facts regarding Netflix's subscriber growth, market penetration, and account sharing",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 - controlling person liability for Individual Defendants (Hastings, Sarandos, Neumann, Peters)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 44444,
+      "completion_tokens": 213,
+      "total_tokens": 44657
+    },
     "case_id": "cand-4_22-cv-02672"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596d55a4c4344',t:'MTc2OTgyNDU1MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "cand_22_cv_00105"
-  },
-  {
-    "model": "perplexity",
-    "model_id": "perplexity/sonar-pro",
-    "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596e25dff4344',t:'MTc2OTgyNDU1My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Sjunde AP-Fonden (AP7) (Lead Plaintiff)"
+      ],
+      "defendants": [
+        "Lucid Group, Inc.",
+        "Peter Rawlinson",
+        "Sherry House"
+      ],
+      "ticker": "LCID",
+      "class_period": {
+        "start": "2021-11-15",
+        "end": "2022-08-03"
+      },
+      "causes_of_action": [
+        "COUNT I: Violation of Section 10(b) of the Exchange Act and SEC Rule 10b-5 (against all Defendants)",
+        "COUNT II: Violation of Section 20(a) of the Exchange Act (against the Individual Defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 76312,
+      "completion_tokens": 118,
+      "total_tokens": 76430
+    },
     "case_id": "cand_22_cv_02094"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596ef79804344',t:'MTc2OTgyNDU1NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "New England Teamsters Pension Fund"
+      ],
+      "defendants": [
+        "Cutera, Inc.",
+        "David Mowry",
+        "Rohan Seth",
+        "J. Daniel Plants",
+        "Sheila Hopkins",
+        "Taylor Harris",
+        "Stuart Drummond",
+        "Vikram Varma"
+      ],
+      "ticker": "CUTR",
+      "class_period": {
+        "start": "2022-03-01",
+        "end": "2024-03-21"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 67188,
+      "completion_tokens": 114,
+      "total_tokens": 67302
+    },
     "case_id": "cand_23_cv_02560"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6596fc9c654344',t:'MTc2OTgyNDU1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Dr. Myo Thant",
+        "Branden Schenkhuizen"
+      ],
+      "defendants": [
+        "Rain Oncology Inc. (f/k/a Rain Therapeutics Inc.)",
+        "Avanish Vellanki",
+        "Richard Bryce",
+        "Franklin Berger",
+        "Aaron Davis",
+        "Gorjan Hrustanovic",
+        "Tran Nguyen",
+        "Peter Radovich",
+        "Stefani A. Wolff"
+      ],
+      "ticker": "RAIN",
+      "class_period": {
+        "start": "2021-04-23",
+        "end": "2023-05-19"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 (fraudulent statements and omissions regarding Phase 2 Bypass clinical trial strategy)",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934 (controlling person liability)",
+        "Violation of Section 11 of the Securities Act of 1933 (material misstatements and omissions in registration statement and prospectus)",
+        "Violation of Section 15 of the Securities Act of 1933 (control person liability for Section 11 violations)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 31769,
+      "completion_tokens": 283,
+      "total_tokens": 32052
+    },
     "case_id": "cand_23_cv_03518"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597098e694344',t:'MTc2OTgyNDU1OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Lead Plaintiff (name not specified in complaint text)",
+        "Ken Kula"
+      ],
+      "defendants": [
+        "Fastly, Inc.",
+        "Todd Nightingale",
+        "Ronald W. Kisling"
+      ],
+      "ticker": "FSLY",
+      "class_period": {
+        "start": "2023-11-15",
+        "end": "2024-08-07"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934",
+        "Violations of Rule 10b-5 promulgated under the Securities Exchange Act of 1934",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 25150,
+      "completion_tokens": 178,
+      "total_tokens": 25328
+    },
     "case_id": "cand_24_cv_03170"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c65971669bd4344',t:'MTc2OTgyNDU2MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Daniel Pogrebinsky",
+        "Benjamin Pouladian",
+        "David Mead",
+        "Aaron Goldman",
+        "Dr. Vijaykumar Agrawal",
+        "Kent Maguire",
+        "Timothy McKillican",
+        "Zi Xu"
+      ],
+      "defendants": [
+        "Vicor Corporation",
+        "Patrizio Vinciarelli"
+      ],
+      "ticker": "VICR",
+      "class_period": {
+        "start": "2023-07-25",
+        "end": "2023-10-24"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5(b) - Misrepresentation and omission of material facts regarding a significant existing customer contract",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 - Control person liability against Patrizio Vinciarelli"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 11605,
+      "completion_tokens": 222,
+      "total_tokens": 11827
+    },
     "case_id": "cand_24_cv_04196"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597235be34344',t:'MTc2OTgyNDU2My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "cand_3_21-cv-09767"
-  },
-  {
-    "model": "perplexity",
-    "model_id": "perplexity/sonar-pro",
-    "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597304e5f4344',t:'MTc2OTgyNDU2NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Steamfitters Local 449 Pension & Retirement Security Funds"
+      ],
+      "defendants": [
+        "SunPower Corporation",
+        "Peter Faricy",
+        "Manavendra S. Sial"
+      ],
+      "ticker": "SPWR",
+      "class_period": {
+        "start": "2021-08-03",
+        "end": "2022-01-20"
+      },
+      "causes_of_action": [
+        "Violation of §10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of §20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 20373,
+      "completion_tokens": 95,
+      "total_tokens": 20468
+    },
     "case_id": "cand_3_22-cv-00956"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c65973d288b4344',t:'MTc2OTgyNDU2Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Dipak Patel"
+      ],
+      "defendants": [
+        "ImmunityBio, Inc.",
+        "Richard Adcock",
+        "David C. Sachs",
+        "Patrick Soon-Shiong"
+      ],
+      "ticker": "IBRX",
+      "class_period": {
+        "start": "2021-03-10",
+        "end": "2023-05-10"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 33935,
+      "completion_tokens": 124,
+      "total_tokens": 34059
+    },
     "case_id": "casd_3_23-cv-01216"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c65974a1c034344',t:'MTc2OTgyNDU2OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "ctd-3_24-cv-01727"
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "New England Teamsters Pension Fund",
+        "Westchester Putnam Counties Heavy & Highway Laborers Local 60 Benefits Fund",
+        "United Union of Roofers, Waterproofers & Allied Workers Local Union No. 8 WBPA Fund"
+      ],
+      "defendants": [
+        "RTX Corporation",
+        "Gregory Hayes",
+        "Neil Mitchill",
+        "Anthony F. O'Brien",
+        "Christopher T. Calio",
+        "Shane Eddy"
+      ],
+      "ticker": "RTX",
+      "class_period": {
+        "start": "2021-02-08",
+        "end": "2023-09-08"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (fraudulent misrepresentations and omissions regarding GTF engine airworthiness and profitability; failure to disclose Powdered Metal Defect)",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (control person liability for Individual Defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 63150,
+      "completion_tokens": 246,
+      "total_tokens": 63396
+    },
+    "case_id": "ctd-3-23-cv-01035"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597571dbe4344',t:'MTc2OTgyNDU3Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "dcd-1_23-cv-01599"
-  },
-  {
-    "model": "perplexity",
-    "model_id": "perplexity/sonar-pro",
-    "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c659764b85a4344',t:'MTc2OTgyNDU3NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Plaintiffs acquired Danaher securities (as set forth in Certifications ECF Nos. 1-1, 17-3)"
+      ],
+      "defendants": [
+        "Danaher Corporation",
+        "Rainer M. Blair",
+        "Matthew R. McGrew",
+        "Emmanuel Ligner"
+      ],
+      "ticker": "DHR",
+      "class_period": {
+        "start": "2022-01-27",
+        "end": "2023-10-23"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violations of Section 20(a) of the Exchange Act",
+        "Violations of Item 303 of Regulation S-K"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 36857,
+      "completion_tokens": 151,
+      "total_tokens": 37008
+    },
     "case_id": "dcd-1_23-cv-02055"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c659771ba7a4344',t:'MTc2OTgyNDU3Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "AltShares Event-Driven ETF",
+        "AltShares Merger Arbitrage ETF",
+        "Kryger Event Fund Ltd.",
+        "Kryger Enhanced Fund Ltd.",
+        "ODS Capital LLC"
+      ],
+      "defendants": [
+        "Focus Financial Partners Inc.",
+        "George S. LeMieux",
+        "Elizabeth R. Neuhoff",
+        "Greg S. Morganroth, M.D.",
+        "Joseph Feliciani, Jr.",
+        "Ruediger “Rudy” Adolf",
+        "Rajini Sundar Kodialam",
+        "James D. Carey",
+        "Fayez S. Muhtadie",
+        "James Shanahan",
+        "Leonard Chang",
+        "J. Russell McGranahan",
+        "Clayton, Dubilier & Rice, LLC (CD&R)",
+        "Goldman Sachs & Co. LLC",
+        "Jefferies LLC",
+        "Stone Point Capital LLC",
+        "Vinson & Elkins L.L.P. (V&E)",
+        "Potter Anderson & Corroon LLP"
+      ],
+      "ticker": "FOCS",
+      "class_period": {
+        "start": "2023-02-27",
+        "end": "2023-08-31"
+      },
+      "causes_of_action": [
+        "Section 10(b) of the Exchange Act and Rule 10b-5(a)-(c)",
+        "Section 14(a) of the Exchange Act and Rule 14a-9",
+        "Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 34171,
+      "completion_tokens": 258,
+      "total_tokens": 34429
+    },
     "case_id": "dde_ 23_cv_1466"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c65977ead8d4344',t:'MTc2OTgyNDU3OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Kim Kengle as trustee of the Kim K. Kengle 2000 Trust",
+        "Roseanne Lacy"
+      ],
+      "defendants": [
+        "Walmart Inc.",
+        "Douglas C. McMillon",
+        "M. Brett Biggs"
+      ],
+      "ticker": "WMT",
+      "class_period": {
+        "start": "2017-03-31",
+        "end": "2020-12-22"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violations of Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 44802,
+      "completion_tokens": 129,
+      "total_tokens": 44931
+    },
     "case_id": "dde_21_cv_55"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c65978bc8a04344',t:'MTc2OTgyNDU4MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Kristoffer Jon Hind",
+        "Jason Thomas Waiton",
+        "Christopher Campbell",
+        "Paul Douglas Stoeppelwerth",
+        "Lucas Longmire",
+        "Thomas Blair Phillips",
+        "Tyler Jenkins",
+        "Jorden David Neil Malcolm",
+        "Robert Taylor Yates",
+        "Rafael Reyes Salmeron",
+        "Ryan Anthony Floyd",
+        "Matt Scott Vogel",
+        "Mark Alan Bentley",
+        "Peter Shane Donahue",
+        "Agata Agnieszka Powers",
+        "Avya Lindsey Waiton",
+        "Timothy Michael Morgan",
+        "Tarsis Carvalho Humphreys",
+        "Zachary Michael Sellers",
+        "Brandon Michael Harrold"
+      ],
+      "defendants": [
+        "CFT Solutions, LLC",
+        "FxWinning Limited",
+        "Renan de Rocha Gomes Bastos (de Rocha)",
+        "Rafael Brito Cutie (Brito Cutie)",
+        "Arthur Percy",
+        "Roman Cardenas",
+        "David Merino"
+      ],
+      "ticker": null,
+      "class_period": {
+        "start": null,
+        "end": null
+      },
+      "causes_of_action": [
+        "COUNT I: Violation of the Securities Act of 1933, 15 U.S.C. § 77e and 77l(a)(1) – against Defendants CFT and FxWinning",
+        "COUNT II: Violation of the Securities Exchange Act of 1934 and Rule 10b-5, 15 U.S.C. § 78j(b) and C.F.R. § 240.10b-5 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "COUNT III: Violation of the Commodities Exchange Act, Sections 6 and 25, 7 U.S.C. §§ 6b, 6e, 6o, and 25 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "COUNT IV: Violation of the Florida Securities and Investor Protection Act, Sections 517.301 and 517.211 – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "COUNT V: Breach of Contract – against FxWinning",
+        "COUNT VI: Breach of Fiduciary Duty – against all Defendants",
+        "COUNT VII: Fraud in the Inducement – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "COUNT VIII: Negligent Misrepresentations – against Defendants CFT, FxWinning, de Rocha, Cardenas, and Brito Cutie",
+        "COUNT IX: Conversion – against all Defendants",
+        "COUNT X: Unjust Enrichment – against all Defendants",
+        "COUNT XI: Civil Conspiracy – against all Defendants"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 15972,
+      "completion_tokens": 651,
+      "total_tokens": 16623
+    },
     "case_id": "flsd-1_23-cv-23139"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c659798ab374344',t:'MTc2OTgyNDU4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "ilnd-1_20_cv_05593"
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "The Phoenix Insurance Company Ltd.",
+        "The Phoenix Pension & Provident Funds",
+        "City of Melbourne Firefighters’ Retirement System"
+      ],
+      "defendants": [
+        "ATI Physical Therapy, Inc. f/k/a Fortress Value Acquisition Corp. II",
+        "Labeed Diab",
+        "Joseph Jordan",
+        "Andrew A. McKnight",
+        "Joshua A. Pack",
+        "Marc Furstein",
+        "Leslee Cowen",
+        "Aaron F. Hood",
+        "Carmen A. Policy",
+        "Rakefet Russak-Aminoach",
+        "Sunil Gulati"
+      ],
+      "ticker": "ATIP",
+      "class_period": {
+        "start": "2021-02-22",
+        "end": "2021-10-19"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (Against ATI and the ATI Individual Defendants)",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (Against the ATI Individual Defendants)",
+        "Violations of Section 14(a) of the Securities Exchange Act of 1934 and SEC Rule 14a-9 (Against All Defendants)",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 in Connection with the Proxy Claims (Against the ATI Individual Defendants and the FVAC Defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 30741,
+      "completion_tokens": 328,
+      "total_tokens": 31069
+    },
+    "case_id": "ilnd-1-21-cv-04349"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597a5adee4344',t:'MTc2OTgyNDU4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
-    "case_id": "nysd_1_21-cv-11222"
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Julian Quinones"
+      ],
+      "defendants": [
+        "Frequency Therapeutics, Inc.",
+        "David L. Lucchino",
+        "Christoph Liebel"
+      ],
+      "ticker": "FREQ",
+      "class_period": {
+        "start": "2020-10-29",
+        "end": "2021-03-23"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 - Material misstatements and omissions regarding Phase 2a clinical trial enrollment criteria and bias",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 - Control person liability for Individual Defendants"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 16395,
+      "completion_tokens": 176,
+      "total_tokens": 16571
+    },
+    "case_id": "mad-1-21-cv-10933"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597b2890c4344',t:'MTc2OTgyNDU4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "City of Hollywood Police Officers’ Retirement System",
+        "Plymouth County Retirement Association"
+      ],
+      "defendants": [
+        "General Motors Company (GM)",
+        "Cruise LLC (Cruise)",
+        "Mary T. Barra",
+        "Paul A. Jacobson",
+        "Kyle Vogt",
+        "Daniel Ammann",
+        "Doug L. Parks",
+        "Wayne G. West"
+      ],
+      "ticker": "GM",
+      "class_period": {
+        "start": "2021-02-24",
+        "end": "2023-11-08"
+      },
+      "causes_of_action": [
+        "COUNT I FOR VIOLATIONS OF SECTION 10(B) OF THE EXCHANGE ACT AND RULE 10B-5(B) AGAINST GM, CRUISE, AND THE INDIVIDUAL DEFENDANTS",
+        "COUNT II FOR VIOLATIONS OF SECTION 10(B) OF THE EXCHANGE ACT AND RULE 10B-5(A)/(C) AGAINST GM, CRUISE, AND THE INDIVIDUAL DEFENDANTS",
+        "COUNT III FOR VIOLATIONS OF SECTION 20(A) OF THE EXCHANGE ACT AGAINST DEFENDANTS BARRA, JACOBSON, AND PARKS AS CONTROL PERSONS OF GM",
+        "COUNT IV FOR VIOLATIONS OF SECTION 20(A) OF THE EXCHANGE ACT AGAINST THE INDIVIDUAL DEFENDANTS AS CONTROL PERSONS OF CRUISE"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 64629,
+      "completion_tokens": 264,
+      "total_tokens": 64893
+    },
+    "case_id": "mied-4-23-cv-13132"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Handelsbanken Fonder AB",
+        "Public Employees' Retirement System of Mississippi",
+        "State of Rhode Island, Office of the General Treasurer, on behalf of the Employees' Retirement System of Rhode Island",
+        "Louisiana Sheriffs' Pension & Relief Fund"
+      ],
+      "defendants": [
+        "Wells Fargo & Co.",
+        "Timothy J. Sloan",
+        "John R. Shrewsberry",
+        "Charles W. Scharf",
+        "C. Allen Parker",
+        "Elizabeth (Betsy) Duke"
+      ],
+      "ticker": "WFC",
+      "class_period": {
+        "start": "2018-02-02",
+        "end": "2020-03-12"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (fraudulent statements and omissions regarding Wells Fargo's compliance with 2018 Consent Orders)",
+        "Violations of Section 20(a) of the Securities Exchange Act of 1934 (controlling person liability for insider defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 50773,
+      "completion_tokens": 255,
+      "total_tokens": 51028
+    },
     "case_id": "nysd_20_cv_04494"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597bf9c2d4344',t:'MTc2OTgyNDU4OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "RTD Bros LLC",
+        "Todd Benn",
+        "Tom Benn",
+        "Tomasz Rzedzian",
+        "Preston Million"
+      ],
+      "defendants": [
+        "Lottery.com, Inc. (f/k/a Trident Acquisitions Corp. (TDAC))",
+        "Lawrence Anthony “Tony” DiMatteo III",
+        "Ryan Dickinson",
+        "Matthew Clemenson",
+        "Kathryn Lever",
+        "Marat Rosenberg",
+        "Vadim Komissarov",
+        "Thomas Gallagher",
+        "Gennadii Butkevych",
+        "Ilya Ponomarev"
+      ],
+      "ticker": "LTRY",
+      "class_period": {
+        "start": "2020-11-19",
+        "end": "2022-07-29"
+      },
+      "causes_of_action": [
+        "Violations of Section 10(b) of the Exchange Act and Rule 10b-5 Against All Defendants",
+        "Violations of Section 20(a) of the Exchange Act Against the Individual Defendants",
+        "Violation of Section 14(a) of the Exchange Act and Rule 14a-9 Against All Defendants",
+        "Violation of Section 20(a) of the Exchange Act Against the Individual Defendants"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 27187,
+      "completion_tokens": 214,
+      "total_tokens": 27401
+    },
+    "case_id": "nysd_22-cv-07111"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Steven Christiansen"
+      ],
+      "defendants": [
+        "Spectrum Pharmaceuticals, Inc.",
+        "Thomas J. Riga",
+        "Francois J. Lebel",
+        "Nora E. Brennan"
+      ],
+      "ticker": "SPPI",
+      "class_period": {
+        "start": "2022-03-17",
+        "end": "2022-09-22"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5",
+        "Violation of Section 20(a) of the Securities Exchange Act of 1934"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 24067,
+      "completion_tokens": 125,
+      "total_tokens": 24192
+    },
     "case_id": "nysd_22_cv_10292"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597cc7fe64344',t:'MTc2OTgyNDU5MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Genesee County Employees’ Retirement System"
+      ],
+      "defendants": [
+        "DocGo Inc.",
+        "Stan Vashovsky",
+        "Anthony Capone",
+        "Andre Oberholzer"
+      ],
+      "ticker": "DCGO",
+      "class_period": {
+        "start": "2021-11-05",
+        "end": "2023-09-15"
+      },
+      "causes_of_action": [
+        "Violations of §10(b) of the 1934 Act and SEC Rule 10b-5 (Against All Defendants)",
+        "Violations of §20(a) of the 1934 Act (Against All Defendants)"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 15904,
+      "completion_tokens": 110,
+      "total_tokens": 16014
+    },
     "case_id": "nysd_23_cv_9476"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597d96a4c4344',t:'MTc2OTgyNDU5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "The Retirement Plan for Chicago Transit Authority Employees (Lead Plaintiff)",
+        "Oklahoma Firefighters Pension and Retirement System (Additional Named Plaintiff)"
+      ],
+      "defendants": [
+        "Mobileye Global Inc.",
+        "Amnon Shashua",
+        "Moran Shemesh Rojansky",
+        "Anat Heller",
+        "Daniel Galves"
+      ],
+      "ticker": "MBLY",
+      "class_period": {
+        "start": "2023-01-26",
+        "end": "2024-08-01"
+      },
+      "causes_of_action": [
+        "Section 10(b) of the Exchange Act and Rule 10b-5(b)",
+        "Section 10(b) of the Exchange Act and Rules 10b-5(a) and (c)",
+        "Section 20(a) of the Exchange Act",
+        "Section 11 of the Securities Act",
+        "Section 15 of the Securities Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 43423,
+      "completion_tokens": 181,
+      "total_tokens": 43604
+    },
     "case_id": "nysd_24_cv_310"
   },
   {
     "model": "perplexity",
     "model_id": "perplexity/sonar-pro",
     "test": "test1",
-    "success": false,
-    "error": "litellm.AuthenticationError: AuthenticationError: PerplexityException - <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>openresty/1.27.4</center>\r\n<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9c6597e67d414344',t:'MTc2OTgyNDU5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\r\n</html>",
-    "usage": null,
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Dominik Dumancic",
+        "Luis Vicente Davidoff Cracasso",
+        "Richard Wilkinson"
+      ],
+      "defendants": [
+        "American Airlines Group Inc.",
+        "Robert D. Isom, Jr.",
+        "Devon E. May",
+        "Vasu S. Raja"
+      ],
+      "ticker": "AAL",
+      "class_period": {
+        "start": "2023-07-20",
+        "end": "2024-05-28"
+      },
+      "causes_of_action": [
+        "Violation of Section 10(b) of the Exchange Act and Rule 10b-5",
+        "Violation of Section 20(a) of the Exchange Act"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 55227,
+      "completion_tokens": 114,
+      "total_tokens": 55341
+    },
     "case_id": "txnd-4_24-cv-00673"
+  },
+  {
+    "model": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "test": "test1",
+    "success": true,
+    "response": {
+      "plaintiffs": [
+        "Utah Retirement Systems (URS)",
+        "Construction Laborers Pension Trust for Southern California (Southern California Laborers)"
+      ],
+      "defendants": [
+        "Concho Resources Inc. (Concho)",
+        "ConocoPhillips (as successor-in-interest to Concho)",
+        "Timothy A. Leach",
+        "Jack F. Harper",
+        "C. William Giraud",
+        "E. Joseph Wright",
+        "Brenda R. Schroer"
+      ],
+      "ticker": "CXO",
+      "class_period": {
+        "start": "2018-02-21",
+        "end": "2019-07-31"
+      },
+      "causes_of_action": [
+        "COUNT I: For Violation of Section 10(b) of the Exchange Act and Rule 10b-5 Against All Defendants",
+        "COUNT II: For Violation of Section 20(a) of the Exchange Act Against the Individual Defendants"
+      ]
+    },
+    "usage": {
+      "prompt_tokens": 66808,
+      "completion_tokens": 162,
+      "total_tokens": 66970
+    },
+    "case_id": "txsd-4-21-cv-02473"
   }
 ]
